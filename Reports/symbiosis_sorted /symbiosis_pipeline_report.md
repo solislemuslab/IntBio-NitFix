@@ -341,7 +341,7 @@ Output files generated:
 
 BLAN control samples were retained for later QC.
 
-## Quality-Control Summary
+### Quality-Control Summary
 
 Quality-control metrics were summarized from the `fastp` JSON reports using:
 ### 1. Summarize fastp JSON reports into a QC table and log
@@ -353,10 +353,10 @@ bash "$BASE/Rscripts/summarize_fastp_qc.sh" \
 
 The QC summary table contains per-sample read counts, read-retention percentage, Q20/Q30 rates, and GC content before and after trimming.
 
-#### Additional Quality-Profile Figures
+### Additional Quality-Profile Figures
 
 Two additional scripts were run to make clearer report-ready per-base quality figures:
-#### 2. Make before-trimming all-sample quality figure
+### 2. Make before-trimming all-sample quality figure
 ```bash
 bash "$BASE/Rscripts/make_fastp_quality_before_all_samples.sh" \
   | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_before_all_samples_run.log"
