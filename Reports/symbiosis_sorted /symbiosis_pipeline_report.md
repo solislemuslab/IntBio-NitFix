@@ -175,9 +175,9 @@ IIIIIIII9IIIIIIII...
 ```
 
 
-## 3. Step-by-Step Pipeline
+# 3. Step-by-Step Pipeline
 
-# 3.1 Read Quality Control and Trimming
+## 3.1 Read Quality Control and Trimming
 
 ## Purpose
 
