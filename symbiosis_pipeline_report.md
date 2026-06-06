@@ -153,6 +153,28 @@ Dataset size:
 1,104 biological samples
 ```
 
+See the data:
+Each FASTQ read uses 4 lines:
+
+```text
+@read_id/R1orR2
+sequence
++
+quality (The many I characters usually indicate high base quality. The 9 and * characters indicate lower quality bases than I.)
+```
+
+```bash
+zcat "$BASE/raw_symbiosis_full/TALL-13-3-Ro_R2.fq.gz" | head -20
+```
+
+```text
+@LH00516:359:23333FLT3:3:1101:1536:25596/2
+CCTTGGAGATGTTGTT...
++
+IIIIIIII9IIIIIIII...
+```
+
+
 ## 3. Step-by-Step Pipeline
 
 ### Step 1. Read Quality Control and Trimming
