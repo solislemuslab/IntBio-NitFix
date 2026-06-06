@@ -1,4 +1,3 @@
-# fastp Trimming QC Summary
 
 # fastp Trimming QC Check
 
