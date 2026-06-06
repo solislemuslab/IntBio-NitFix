@@ -193,7 +193,7 @@ IIIIIIII9IIIIIIII...
 bash $BASE/Rscripts/trim_symbiosis_full_ryan.sh
 ```
 
-**What the script does:** Runs `fastp` on each paired sample using \textbf{Ryan's settings} and writes trimmed paired/unpaired reads plus QC logs.
+**What the script does:** Runs `fastp` on each paired sample using **Ryan's settings in notion** and writes trimmed paired/unpaired reads plus QC logs.
 
 **Samples:** 1,116 paired samples.
 
