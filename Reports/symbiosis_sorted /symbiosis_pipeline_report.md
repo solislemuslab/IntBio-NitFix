@@ -344,19 +344,11 @@ BLAN control samples were retained for later QC.
 ## Quality-Control Summary
 
 Quality-control metrics were summarized from the `fastp` JSON reports using:
+# 1. Summarize fastp JSON reports into a QC table and log
 
 ```bash
 bash "$BASE/Rscripts/summarize_fastp_qc.sh" \
   | tee "$BASE/trimmed_fastp_QC_checking/fastp_qc_summary_run.log"
-```
-
-This script created the per-sample QC summary table and a first QC summary figure:
-
-```text
-trimmed_fastp_QC_checking/
-├─ fastp_logs_ryan_full_summary.tsv
-├─ fastp_qc_summary_run.log
-└─ fastp_quality_before_after_and_retention.svg
 ```
 
 The QC summary table contains per-sample read counts, read-retention percentage, Q20/Q30 rates, and GC content before and after trimming.
@@ -364,31 +356,21 @@ The QC summary table contains per-sample read counts, read-retention percentage,
 ## Additional Quality-Profile Figures
 
 Two additional scripts were run to make clearer report-ready per-base quality figures:
-
+# 2. Make before-trimming all-sample quality figure
 ```bash
+bash "$BASE/Rscripts/make_fastp_quality_before_all_samples.sh" \
+  | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_before_all_samples_run.log"
+```
+
+# 3. Make after-trimming and mean-only quality figures
+
+```
 bash "$BASE/Rscripts/make_fastp_quality_profile_figures.sh" \
   | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_profile_figures_run.log"
-```
+``` 
+The result of this step is in this path:
 
-```bash
- bash "$BASE/Rscripts/summarize_fastp_qc.sh"   | tee "$BASE/trimmed_fastp_QC_checking/fastp_qc_summary_run.log"
-```
 
-```bash
- bash "$BASE/Rscripts/make_fastp_quality_before_all_samples.sh"   | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_before_all_samples_run.log"
-```
-
-```bash
-bash "$BASE/Rscripts/make_fastp_quality_profile_figures.sh"
-| tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_profile_figures_run.log"
-```
-
-This generated the after-trimming all-sample quality profile and the mean-only quality profile:
-
-```text
-fastp_quality_before_trimming_all_samples_lightpurple_mean_blue.svg
-fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg
-```
 ### Step 2. Mapping Reads to Ryan's Symbiosis-Island Reference
 
 **Purpose:** Align cleaned functional-gene reads to the reference provided by Ryan.
