@@ -177,7 +177,7 @@ IIIIIIII9IIIIIIII...
 
 ## 3. Step-by-Step Pipeline
 
-### Step 1. Read Quality Control and Trimming
+### 3.1 Read Quality Control and Trimming
 
 **Purpose:** Clean raw reads before mapping by removing adapters, low-quality bases, poly-G/poly-X artifacts, and short reads.
 
