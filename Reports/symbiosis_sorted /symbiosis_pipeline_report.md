@@ -179,15 +179,15 @@ IIIIIIII9IIIIIIII...
 
 ## 3.1 Read Quality Control and Trimming
 
-## Purpose
+### Purpose
 
 Clean raw paired-end reads before mapping by removing adapters, low-quality bases, poly-G/poly-X artifacts, low-complexity reads, and reads shorter than 36 bp.
 
-## Ryan Connection
+### Ryan Connection
 
 Ryan recommended using `fastp` and provided the trimming settings in the project notes. This was important because Ryan noted that NovaSeq data can contain problematic poly-G read-through artifacts. We therefore used Ryan's `fastp` settings for the full August 2025 `symbiosis_sorted` dataset.
 
-## Input
+### Input
 
 ```bash
 $BASE/raw_symbiosis_full/*_R1.fq.gz
@@ -200,7 +200,7 @@ where:
 BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
 ```
 
-## Script Used for Trimming
+### Script Used for Trimming
 
 ```bash
 bash "$BASE/Rscripts/trim_symbiosis_full_ryan.sh"
@@ -208,7 +208,7 @@ bash "$BASE/Rscripts/trim_symbiosis_full_ryan.sh"
 
 This script runs `fastp` on each paired sample using Ryan's settings. For each sample, it creates trimmed paired reads, unpaired reads, HTML/JSON QC reports, and a trimming manifest.
 
-## Folder Organization for This Step
+### Folder Organization for This Step
 
 ```text
 symbiosis_sorted/
@@ -240,7 +240,7 @@ symbiosis_sorted/
    └─ make_fastp_quality_before_all_samples.sh
 ```
 
-## Trimming Output Example
+### Trimming Output Example
 
 For sample `TALL-13-3-Ro`, `fastp` produced four output files:
 
@@ -271,7 +271,7 @@ DNA sequence
 base-quality scores
 ```
 
-## Example Read Counts
+### Example Read Counts
 
 For sample `TALL-13-3-Ro`, the raw files contained:
 
@@ -315,7 +315,7 @@ U1 unpaired reads: 2,681
 U2 unpaired reads: 1,075
 ```
 
-## Trimming Completion Check
+### Trimming Completion Check
 
 The trimming manifest records whether each sample completed successfully:
 
@@ -344,7 +344,7 @@ BLAN control samples were retained for later QC.
 ## Quality-Control Summary
 
 Quality-control metrics were summarized from the `fastp` JSON reports using:
-# 1. Summarize fastp JSON reports into a QC table and log
+### 1. Summarize fastp JSON reports into a QC table and log
 
 ```bash
 bash "$BASE/Rscripts/summarize_fastp_qc.sh" \
@@ -353,16 +353,16 @@ bash "$BASE/Rscripts/summarize_fastp_qc.sh" \
 
 The QC summary table contains per-sample read counts, read-retention percentage, Q20/Q30 rates, and GC content before and after trimming.
 
-## Additional Quality-Profile Figures
+#### Additional Quality-Profile Figures
 
 Two additional scripts were run to make clearer report-ready per-base quality figures:
-# 2. Make before-trimming all-sample quality figure
+#### 2. Make before-trimming all-sample quality figure
 ```bash
 bash "$BASE/Rscripts/make_fastp_quality_before_all_samples.sh" \
   | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_before_all_samples_run.log"
 ```
 
-# 3. Make after-trimming and mean-only quality figures
+### 3. Make after-trimming and mean-only quality figures
 
 ```
 bash "$BASE/Rscripts/make_fastp_quality_profile_figures.sh" \
