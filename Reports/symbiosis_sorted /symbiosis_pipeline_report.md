@@ -234,8 +234,8 @@ symbiosis_sorted/
 │  └─ fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg
 │
 └─ Rscripts/
-   ├─ trim_symbiosis_full_ryan.sh
-   ├─ summarize_fastp_qc.sh
+   ├─ trim_symbiosis_full_ryan.sh (Main trimming script)
+   ├─ summarize_fastp_qc.sh 
    ├─ make_fastp_quality_profile_figures.sh
    └─ make_fastp_quality_before_all_samples.sh
 ```
