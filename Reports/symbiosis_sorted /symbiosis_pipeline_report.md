@@ -233,7 +233,6 @@ symbiosis_sorted/
 │  ├─ fastp_quality_before_trimming_all_samples_lightpurple_mean_blue.svg
 │  └─ fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg
 │
-├─ symbiosis_trimmed_ryan_full_manifest.tsv
 └─ Rscripts/
    ├─ trim_symbiosis_full_ryan.sh
    ├─ summarize_fastp_qc.sh
@@ -371,11 +370,24 @@ bash "$BASE/Rscripts/make_fastp_quality_profile_figures.sh" \
   | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_profile_figures_run.log"
 ```
 
+```bash
+ bash "$BASE/Rscripts/summarize_fastp_qc.sh"   | tee "$BASE/trimmed_fastp_QC_checking/fastp_qc_summary_run.log"
+```
+
+```bash
+ bash "$BASE/Rscripts/make_fastp_quality_before_all_samples.sh"   | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_before_all_samples_run.log"
+```
+
+```bash
+bash "$BASE/Rscripts/make_fastp_quality_profile_figures.sh"
+| tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_profile_figures_run.log"
+```
+
 This generated the after-trimming all-sample quality profile and the mean-only quality profile:
 
 ```text
+fastp_quality_before_trimming_all_samples_lightpurple_mean_blue.svg
 fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg
-fastp_quality_mean_only.svg
 ```
 ### Step 2. Mapping Reads to Ryan's Symbiosis-Island Reference
 
