@@ -369,7 +369,8 @@ bash "$BASE/Rscripts/make_fastp_quality_profile_figures.sh" \
   | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_profile_figures_run.log"
 ``` 
 The result of this step is in this path:
-https://github.com/solislemuslab/IntBio-NitFix/main/Results/august2025/symbiosis_sorted
+[https://github.com/solislemuslab/IntBio-NitFix/main/Results/august2025/symbiosis_sorted](https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/QC%20Check)
+
 
 ### Step 2. Mapping Reads to Ryan's Symbiosis-Island Reference
 
