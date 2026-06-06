@@ -246,9 +246,12 @@ U2: 1075
 
 
 **Quality Control**
-fastp paper  
-MultiQC fastp module
-Rfastp vignette
+```bash
+BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
+
+bash "$BASE/Rscripts/summarize_fastp_qc.sh" \
+  | tee "$BASE/trimmed_fastp_QC_checking/fastp_qc_summary_run.log"
+```
 
 
 
