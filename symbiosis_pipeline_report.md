@@ -236,6 +236,10 @@ zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P2.fastq.gz" | awk 'END {pr
 118873
 
 And for unpaired reads after trimming:
+```bash
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U1.fastq.gz" | awk 'END {print NR/4}'
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U2.fastq.gz" | awk 'END {print NR/4}'
+```
 U1: 2681
 U2: 1075
 
