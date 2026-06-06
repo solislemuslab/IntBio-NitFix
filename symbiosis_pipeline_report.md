@@ -1,10 +1,103 @@
 # Symbiosis Gene Analysis Pipeline Report
 
-## 1. Pipeline Overview
+## Step 1. Identify the Correct Dataset for Functional-Gene Phylogenies
 
-Ryan provided `symbiosis_sorted` reads for functional-gene analysis, plus `symbiosis_islands.fasta`, `symbiosis_islands.gb`, and `symbiosis_islands_gene_list.xlsx`. Based on Ryan's email, `symbiosis_sorted` is the correct dataset for `nif`/`nod` phylogenetic work, while 16S outputs are mainly for community/taxonomic analyses.
+### Purpose
 
-We did not continue the earlier SILVA-based consensus approach because SILVA is a broad 16S taxonomic reference; mixed-community reads mapped across many related 16S records and produced mostly `N`-filled consensus sequences rather than one reliable phylogenetic sequence per sample.
+The first step was to choose the correct dataset for building `nif` and `nod` gene trees. Ryan's notes show that functional genes are in `symbiosis_sorted`, while 16S data are for bacterial community/taxonomic analysis.
+
+### Connection to Ryan's Email
+
+Ryan explicitly says:
+
+- "Basically, we use a novel method for sequence capture of three separate locus classes simultaneously: 16S (full length), ITS (full length plus flanking 16S and 26S and 5.8S), and a symbiosis island dataset."
+
+- "It takes a lot of compute to sort these loci out, so I thought I would send along pre-sorted subsets. These are in 16S_sorted, ITS_sorted, and symbiosis_sorted."
+
+- "I have attached a genomic reference in case you are interested in the functional genes in symbiosis_sorted."
+
+- "For 16S, if you need a reference I recommend SILVA. For ITS, I recommend UNITE, preferably the all_eukaryote version so it will be easier to detect host DNA."
+
+- "I am still finalizing functional gene data, which are subject to a different pipeline. Claudia and I already discussed using this to derive phylogenetic trees but I wanted to raise it if others are interested in functional genes."
+
+### Support From Relevant Literature
+
+The two reference papers support the scientific motivation for this workflow.
+
+Parker (2015) studied host use by *Bradyrhizobium* root-nodule bacteria across legume clades using bacterial phylogenies, including housekeeping genes and the symbiosis-island gene `nifD`. This supports using symbiosis-related functional genes to study host-symbiont specificity across phylogenetic scales.
+
+Braga et al. (2018) showed that combining phylogenetic information with interaction-network analysis can help test hypotheses about host-associated diversification and host-use patterns. This supports the broader project goal of comparing bacterial phylogenies with plant-microbe interaction networks to study fuzzy specificity.
+
+Together, these papers support the overall strategy of recovering bacterial functional-gene sequences, building gene trees, and later comparing those trees with host identity, plant phylogeny, geography, and interaction networks.
+
+### Interpretation
+
+Ryan separates the sequencing data into three different locus classes:
+
+```text
+16S_sorted         -> bacterial 16S/community/taxonomic analysis
+ITS_sorted         -> fungal ITS/community/taxonomic analysis
+symbiosis_sorted   -> symbiosis-island / functional-gene analysis
+```
+
+Therefore, the `nif` and `nod` phylogenetic analysis should use:
+
+```text
+symbiosis_sorted
+symbiosis_islands.fasta
+symbiosis_islands.gb
+symbiosis_islands_gene_list.xlsx
+```
+
+not the 16S/SILVA workflow.
+
+### Why I Did Not Continue With 16S/SILVA
+
+I initially tried the 16S/SILVA workflow because Ryan recommended SILVA for 16S and the project notes included bacterial phylogeny goals. However, the 16S/SILVA consensus output was not suitable for `nif`/`nod` phylogenetic analysis.
+
+The issue was that SILVA is a broad 16S taxonomic reference. Mixed-community reads mapped across many related 16S records, producing many mostly `N`-filled consensus sequences rather than one reliable sequence per sample.
+
+Concise explanation:
+
+```text
+The 16S/SILVA workflow was stopped because SILVA is a broad 16S taxonomic reference; mixed-community reads mapped across many related 16S records and produced mostly N-filled consensus sequences, not reliable nif/nod gene sequences.
+```
+
+### Correct Dataset Used
+
+The corrected pipeline uses Ryan's functional-gene dataset:
+
+```bash
+/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/
+```
+
+Important files:
+
+```text
+raw_symbiosis_full/              # copied raw paired reads
+symbiosis_islands.fasta          # Ryan's functional-gene mapping reference
+symbiosis_islands.gb             # GenBank annotation file
+symbiosis_islands_gene_list.xlsx # gene summary file
+```
+
+### Result of Step 1
+
+We concluded that:
+
+- 16S data should be used for bacterial community/taxonomic analyses.
+- `symbiosis_sorted` is the correct dataset for functional-gene phylogenetic analysis.
+- `symbiosis_islands.fasta` is the correct reference for mapping `symbiosis_sorted` reads.
+- `symbiosis_islands.gb` and `symbiosis_islands_gene_list.xlsx` should be used to identify annotated `nif` and `nod` targets.
+- The 16S/SILVA work should be described only as an earlier attempted workflow, not as part of the final corrected pipeline.
+
+### Step 1 Final Decision
+
+```text
+Use symbiosis_sorted and Ryan's symbiosis-island reference/annotation files for the functional-gene pipeline.
+
+Do not use the 16S/SILVA consensus output for nif/nod phylogenetic tree construction.
+```
+
 
 ```text
 Raw symbiosis_sorted reads
