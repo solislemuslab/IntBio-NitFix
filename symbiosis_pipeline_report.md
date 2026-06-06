@@ -241,7 +241,14 @@ zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U1.fastq.gz" | awk 'END {pr
 zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U2.fastq.gz" | awk 'END {print NR/4}'
 ```
 U1: 2681
+
 U2: 1075
+
+
+**Quality Control**
+fastp paper  
+MultiQC fastp module
+Rfastp vignette
 
 
 
