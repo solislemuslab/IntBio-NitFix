@@ -177,85 +177,206 @@ IIIIIIII9IIIIIIII...
 
 ## 3. Step-by-Step Pipeline
 
-### 3.1 Read Quality Control and Trimming
+# 3.1 Read Quality Control and Trimming
 
-**Purpose:** Clean raw reads before mapping by removing adapters, low-quality bases, poly-G/poly-X artifacts, and short reads.
+## Purpose
 
-**Ryan connection:** Ryan recommended `fastp` and provided the trimming settings because NovaSeq data can contain problematic poly-G read-through artifacts.
+Clean raw paired-end reads before mapping by removing adapters, low-quality bases, poly-G/poly-X artifacts, low-complexity reads, and reads shorter than 36 bp.
 
-**Input:** `$BASE/raw_symbiosis_full/*_R1.fq.gz`, `$BASE/raw_symbiosis_full/*_R2.fq.gz`
+## Ryan Connection
 
-**Output:** `$BASE/symbiosis_trimmed_ryan_full/`, `$BASE/fastp_logs_ryan_full/`, `$BASE/symbiosis_trimmed_ryan_full_manifest.tsv`
+Ryan recommended using `fastp` and provided the trimming settings in the project notes. This was important because Ryan noted that NovaSeq data can contain problematic poly-G read-through artifacts. We therefore used Ryan's `fastp` settings for the full August 2025 `symbiosis_sorted` dataset.
 
-**Script/command used:**
+## Input
 
 ```bash
-bash $BASE/Rscripts/trim_symbiosis_full_ryan.sh
+$BASE/raw_symbiosis_full/*_R1.fq.gz
+$BASE/raw_symbiosis_full/*_R2.fq.gz
 ```
 
-**What the script does:** Runs `fastp` on each paired sample using **Ryan's settings in notion** and writes trimmed paired/unpaired reads plus QC logs.
+where:
 
-**Samples:** 1,116 paired samples.
+```bash
+BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
+```
 
-**Runtime:** Fast; completed in the same work session.
+## Script Used for Trimming
 
-**Result:** Trimming completed successfully: 1,116 P1 files, 1,116 P2 files, 1,116 JSON reports, and 0 failed samples. BLAN controls were retained for QC.
+```bash
+bash "$BASE/Rscripts/trim_symbiosis_full_ryan.sh"
+```
 
-See the data:
+This script runs `fastp` on each paired sample using Ryan's settings. For each sample, it creates trimmed paired reads, unpaired reads, HTML/JSON QC reports, and a trimming manifest.
+
+## Folder Organization for This Step
+
+```text
+symbiosis_sorted/
+├─ raw_symbiosis_full/
+│  ├─ *_R1.fq.gz                         # raw forward reads
+│  └─ *_R2.fq.gz                         # raw reverse reads
+│
+├─ symbiosis_trimmed_ryan_full/
+│  ├─ *_P1.fastq.gz                      # trimmed paired Read 1
+│  ├─ *_P2.fastq.gz                      # trimmed paired Read 2
+│  ├─ *_U1.fastq.gz                      # unpaired Read 1 after trimming
+│  └─ *_U2.fastq.gz                      # unpaired Read 2 after trimming
+│
+├─ fastp_logs_ryan_full/
+│  ├─ *.fastp.html                       # per-sample fastp HTML QC report
+│  ├─ *.fastp.json                       # per-sample fastp JSON QC report
+│  └─ *.fastp.stderr.log                 # fastp error/output log per sample
+│
+├─ trimmed_fastp_QC_checking/
+│  ├─ fastp_logs_ryan_full_summary.tsv
+│  ├─ fastp_qc_summary_run.log
+│  ├─ fastp_quality_before_trimming_all_samples_lightpurple_mean_blue.svg
+│  └─ fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg
+│
+├─ symbiosis_trimmed_ryan_full_manifest.tsv
+└─ Rscripts/
+   ├─ trim_symbiosis_full_ryan.sh
+   ├─ summarize_fastp_qc.sh
+   ├─ make_fastp_quality_profile_figures.sh
+   └─ make_fastp_quality_before_all_samples.sh
+```
+
+## Trimming Output Example
+
+For sample `TALL-13-3-Ro`, `fastp` produced four output files:
+
+```text
+TALL-13-3-Ro_P1.fastq.gz
+TALL-13-3-Ro_P2.fastq.gz
+TALL-13-3-Ro_U1.fastq.gz
+TALL-13-3-Ro_U2.fastq.gz
+```
+
+The `P1/P2` files are the trimmed paired reads and were used for downstream paired-end mapping. The `U1/U2` files are reads whose mate was removed during trimming; these were kept as trimming outputs but were not used for the main paired-end mapping step.
+
+Example commands to view the trimmed reads:
 
 ```bash
 zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P1.fastq.gz" | head -12
 zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P2.fastq.gz" | head -12
 zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U1.fastq.gz" | head -12
-zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U1.fastq.gz" | head -12
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U2.fastq.gz" | head -12
 ```
 
-Each trimmed FASTQ record still has the standard four-line format:
+Each FASTQ record has the standard four-line format:
+
 ```text
 @read_id
-trimmed DNA sequence
+DNA sequence
 +
 base-quality scores
 ```
 
-See the number of reads in the data:
-For one sample, count reads like this:
-```bash
-BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
+## Example Read Counts
 
+For sample `TALL-13-3-Ro`, the raw files contained:
+
+```bash
 zcat "$BASE/raw_symbiosis_full/TALL-13-3-Ro_R1.fq.gz" | awk 'END {print NR/4}'
 zcat "$BASE/raw_symbiosis_full/TALL-13-3-Ro_R2.fq.gz" | awk 'END {print NR/4}'
 ```
-123581
 
-For the trimmed paired reads:
+Result:
+
+```text
+R1 raw reads: 123,581
+R2 raw reads: 123,581
+```
+
+After trimming, the paired reads were:
+
 ```bash
 zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P1.fastq.gz" | awk 'END {print NR/4}'
 zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P2.fastq.gz" | awk 'END {print NR/4}'
 ```
-118873
 
-And for unpaired reads after trimming:
+Result:
+
+```text
+P1 trimmed paired reads: 118,873
+P2 trimmed paired reads: 118,873
+```
+
+Unpaired reads after trimming:
+
 ```bash
 zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U1.fastq.gz" | awk 'END {print NR/4}'
 zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U2.fastq.gz" | awk 'END {print NR/4}'
 ```
-U1: 2681
 
-U2: 1075
+Result:
 
+```text
+U1 unpaired reads: 2,681
+U2 unpaired reads: 1,075
+```
 
-**Quality Control**
+## Trimming Completion Check
+
+The trimming manifest records whether each sample completed successfully:
+
 ```bash
-BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
+tail -n +2 "$BASE/symbiosis_trimmed_ryan_full_manifest.tsv" | cut -f2 | sort | uniq -c
+```
 
+Result summary:
+
+```text
+1,116 paired samples completed
+0 failed samples
+0 missing R2 samples
+```
+
+Output files generated:
+
+```text
+1,116 P1 files
+1,116 P2 files
+1,116 fastp JSON reports
+```
+
+BLAN control samples were retained for later QC.
+
+## Quality-Control Summary
+
+Quality-control metrics were summarized from the `fastp` JSON reports using:
+
+```bash
 bash "$BASE/Rscripts/summarize_fastp_qc.sh" \
   | tee "$BASE/trimmed_fastp_QC_checking/fastp_qc_summary_run.log"
 ```
 
+This script created the per-sample QC summary table and a first QC summary figure:
 
+```text
+trimmed_fastp_QC_checking/
+├─ fastp_logs_ryan_full_summary.tsv
+├─ fastp_qc_summary_run.log
+└─ fastp_quality_before_after_and_retention.svg
+```
 
+The QC summary table contains per-sample read counts, read-retention percentage, Q20/Q30 rates, and GC content before and after trimming.
 
+## Additional Quality-Profile Figures
+
+Two additional scripts were run to make clearer report-ready per-base quality figures:
+
+```bash
+bash "$BASE/Rscripts/make_fastp_quality_profile_figures.sh" \
+  | tee "$BASE/trimmed_fastp_QC_checking/fastp_quality_profile_figures_run.log"
+```
+
+This generated the after-trimming all-sample quality profile and the mean-only quality profile:
+
+```text
+fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg
+fastp_quality_mean_only.svg
+```
 ### Step 2. Mapping Reads to Ryan's Symbiosis-Island Reference
 
 **Purpose:** Align cleaned functional-gene reads to the reference provided by Ryan.
