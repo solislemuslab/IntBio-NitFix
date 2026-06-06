@@ -201,6 +201,47 @@ bash $BASE/Rscripts/trim_symbiosis_full_ryan.sh
 
 **Result:** Trimming completed successfully: 1,116 P1 files, 1,116 P2 files, 1,116 JSON reports, and 0 failed samples. BLAN controls were retained for QC.
 
+See the data:
+
+```bash
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P1.fastq.gz" | head -12
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P2.fastq.gz" | head -12
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U1.fastq.gz" | head -12
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_U1.fastq.gz" | head -12
+```
+
+Each trimmed FASTQ record still has the standard four-line format:
+```text
+@read_id
+trimmed DNA sequence
++
+base-quality scores
+```
+
+See the number of reads in the data:
+For one sample, count reads like this:
+```bash
+BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
+
+zcat "$BASE/raw_symbiosis_full/TALL-13-3-Ro_R1.fq.gz" | awk 'END {print NR/4}'
+zcat "$BASE/raw_symbiosis_full/TALL-13-3-Ro_R2.fq.gz" | awk 'END {print NR/4}'
+```
+123581
+
+For the trimmed paired reads:
+```bash
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P1.fastq.gz" | awk 'END {print NR/4}'
+zcat "$BASE/symbiosis_trimmed_ryan_full/TALL-13-3-Ro_P2.fastq.gz" | awk 'END {print NR/4}'
+```
+118873
+
+And for unpaired reads after trimming:
+U1: 2681
+U2: 1075
+
+
+
+
 ### Step 2. Mapping Reads to Ryan's Symbiosis-Island Reference
 
 **Purpose:** Align cleaned functional-gene reads to the reference provided by Ryan.
