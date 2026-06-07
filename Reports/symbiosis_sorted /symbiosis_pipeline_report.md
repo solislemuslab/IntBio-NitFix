@@ -398,7 +398,7 @@ bash $BASE/Rscripts/map_symbiosis_full.sh
 
 **Result:** All samples mapped successfully: 1,116 BAM files, 1,116 indexes, 1,116 flagstat reports, 0 failed samples, and 0 zero-size BAMs.
 
-Example of 
+Example of checking mapping summary: 
 ```bash
 module load samtools-1.9
 BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
@@ -407,6 +407,7 @@ BAM="$BASE/symbiosis_mapped_full/TALL-13-3-Ro.bam"
 ls -lh "$BAM" "$BAM.bai"
 samtools flagstat "$BAM"
 ```
+```text
 239767 + 0 in total (QC-passed reads + QC-failed reads)
 0 + 0 secondary
 2021 + 0 supplementary
@@ -433,8 +434,9 @@ Important connection to trimming:
 P1 reads after trimming: 118,873
 P2 reads after trimming: 118,873
 Total paired reads entering mapping: 237,746
+```
 
-"For example, sample `TALL-13-3-Ro` had 118,873 trimmed paired reads in each direction (`P1` and `P2`), giving 237,746 paired reads entering the mapping step. After mapping to `symbiosis_islands.fasta`, `samtools flagstat` reported 229,655 mapped reads (95.78%) and 214,626 properly paired reads (90.28%). This confirms that the trimmed reads mapped successfully to Ryan’s symbiosis-island reference."
+For example, sample `TALL-13-3-Ro` had 118,873 trimmed paired reads in each direction (`P1` and `P2`), giving 237,746 paired reads entering the mapping step. After mapping to `symbiosis_islands.fasta`, `samtools flagstat` reported 229,655 mapped reads (95.78%) and 214,626 properly paired reads (90.28%). This confirms that the trimmed reads mapped successfully to Ryan’s symbiosis-island reference.
 
 
 
