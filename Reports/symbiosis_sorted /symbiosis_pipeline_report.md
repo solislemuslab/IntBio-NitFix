@@ -398,6 +398,47 @@ bash $BASE/Rscripts/map_symbiosis_full.sh
 
 **Result:** All samples mapped successfully: 1,116 BAM files, 1,116 indexes, 1,116 flagstat reports, 0 failed samples, and 0 zero-size BAMs.
 
+Example of 
+```bash
+module load samtools-1.9
+BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
+BAM="$BASE/symbiosis_mapped_full/TALL-13-3-Ro.bam"
+
+ls -lh "$BAM" "$BAM.bai"
+samtools flagstat "$BAM"
+```
+239767 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+2021 + 0 supplementary
+0 + 0 duplicates
+229655 + 0 mapped (95.78% : N/A)
+237746 + 0 paired in sequencing
+118873 + 0 read1
+118873 + 0 read2
+214626 + 0 properly paired (90.28% : N/A)
+218190 + 0 with itself and mate mapped
+9444 + 0 singletons (3.97% : N/A)
+3550 + 0 with mate mapped to a different chr
+3367 + 0 with mate mapped to a different chr (mapQ>=5)
+
+Total reads in BAM: 239,767
+Mapped reads: 229,655
+Mapped percent: 95.78%
+Paired reads: 237,746
+Properly paired reads: 214,626
+Properly paired percent: 90.28%
+Singletons: 9,444
+
+Important connection to trimming:
+P1 reads after trimming: 118,873
+P2 reads after trimming: 118,873
+Total paired reads entering mapping: 237,746
+
+"For example, sample `TALL-13-3-Ro` had 118,873 trimmed paired reads in each direction (`P1` and `P2`), giving 237,746 paired reads entering the mapping step. After mapping to `symbiosis_islands.fasta`, `samtools flagstat` reported 229,655 mapped reads (95.78%) and 214,626 properly paired reads (90.28%). This confirms that the trimmed reads mapped successfully to Ryan’s symbiosis-island reference."
+
+
+
+
 ### Step 3. Extract Central `nif`/`nod` Targets
 
 **Purpose:** Identify which central `nif` and `nod` genes are present in Ryan's GenBank annotation.
