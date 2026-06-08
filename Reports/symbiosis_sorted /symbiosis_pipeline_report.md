@@ -398,7 +398,7 @@ bash $BASE/Rscripts/map_symbiosis_full.sh
 
 **Result:** All samples mapped successfully: 1,116 BAM files, 1,116 indexes, 1,116 flagstat reports, 0 failed samples, and 0 zero-size BAMs.
 
-Example of checking mapping summary: 
+**Example of checking mapping summary:** 
 ```bash
 module load samtools-1.9
 BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"
@@ -439,6 +439,17 @@ Total paired reads entering mapping: 237,746
 For example, sample `TALL-13-3-Ro` had 118,873 trimmed paired reads in each direction (`P1` and `P2`), giving 237,746 paired reads entering the mapping step. After mapping to `symbiosis_islands.fasta`, `samtools flagstat` reported 229,655 mapped reads (95.78%) and 214,626 properly paired reads (90.28%). This confirms that the trimmed reads mapped successfully to Ryan’s symbiosis-island reference.
 
 
+
+**See which reference regions got the most mapped reads:**
+
+The mapping reference for this step was symbiosis_islands.fasta, which contains multiple symbiosis-island and functional-gene DNA reference sequences. Each sequence in this FASTA file has a header name, such as NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571, followed by the actual DNA sequence. During mapping, reads are aligned to the DNA sequences, but the BAM file reports the matching reference by its FASTA header name. For the example sample TALL-13-3-Ro, samtools idxstats was used to summarize how many reads mapped to each reference region. The output columns are reference name, reference length in base pairs, number of mapped reads, and number of unmapped reads. The results were sorted by mapped-read count, showing that the strongest supported region for this sample was NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571, which is 8,188 bp long and had 83,325 mapped reads. This confirms that reads from TALL-13-3-Ro mapped strongly to symbiosis-island reference regions. These values are raw read counts for this one sample, so they are useful for inspection but are not normalized by reference length.
+
+```bash
+samtools idxstats "$BAM" | sort -k3,3nr | head -20
+```
+```text
+NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571	8188	83325	1269
+```
 
 
 ### Step 3. Extract Central `nif`/`nod` Targets
