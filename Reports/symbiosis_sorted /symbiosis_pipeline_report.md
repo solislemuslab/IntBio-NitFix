@@ -587,8 +587,9 @@ python3 $BASE/Rscripts/match_nif_nod_targets_to_original_reference.py
 
 **Result:** All 231 extracted target sequences matched Ryan's original FASTA. A total of 233 exact locations were found because `nifQ` and `nifW` had multiple exact reference locations.
 
-nif_nod_region_coverage_all_samples.tsv file:
-https://github.com/solislemuslab/IntBio-NitFix/edit/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping/readme.md
+Results are located at:
+
+https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_original_reference_regions
 
 ### 3.6. Gene-Level Coverage From Existing BAMs
 
