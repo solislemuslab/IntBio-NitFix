@@ -526,7 +526,11 @@ python3 $BASE/Rscripts/extract_all_nif_nod_targets.py
 
 **Runtime:** Less than 1 minute.
 
-**Result:** Ryan’s `symbiosis_islands_gene_list.xlsx` identified 18 central `nif` genes and 17 central `nod` genes, and `symbiosis_islands.gb` was used to extract the matching annotated gene sequences. The extraction retained 231 unique central `nif`/`nod` reference sequences; six genes from the spreadsheet were not found in the GenBank annotation (`nifM`, `nifY`, `nodE`, `nodF`, `nodP`, and `nodT`).
+**Result:** Ryan’s `symbiosis_islands_gene_list.xlsx` identified 18 central `nif` genes and 17 central `nod` genes, and `symbiosis_islands.gb` was used to extract the matching annotated gene sequences.
+
+From the 369 annotated gene/CDS regions in `symbiosis_islands.gb`, we extracted **231 unique central `nif`/`nod` target regions**. These included **169 regions annotated as central `nif` genes** and **62 regions annotated as central `nod` genes**. These numbers are reference gene-region counts, not sample counts. Six genes from the spreadsheet were not found in the GenBank annotation (`nifM`, `nifY`, `nodE`, `nodF`, `nodP`, and `nodT`), so they were recorded as missing and excluded from downstream target analysis.
+
+results are located in https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_target_reference
 
 
 ### 3.4. Blank-Control Evaluation
