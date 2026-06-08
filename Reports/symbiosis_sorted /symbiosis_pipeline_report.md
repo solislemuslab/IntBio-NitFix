@@ -699,13 +699,21 @@ bash $BASE/Rscripts/extract_pilot_nifH_ref63_consensus_v2.sh
 Results are available at:
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
 
-### Step 10. Alignment, Tree Construction, and Visualization
+### 3.10 Alignment, Tree Construction, and Visualization
 
-**Purpose:** Build a pilot `nifH` phylogenetic tree.
+**Purpose:** Build a pilot `nifH` phylogenetic tree from the filtered high-quality consensus sequences.
 
-**Input:** `$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_consensus_Nle5.fasta`
+**Input:**
 
-**Output:** `$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_consensus_Nle5.mafft.fasta`, `$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_Nle5_iqtree.treefile`
+```bash
+$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_consensus_Nle5.fasta
+
+
+**Output:**
+
+$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_consensus_Nle5.mafft.fasta
+$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_Nle5_iqtree.treefile
+$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_Nle5_iqtree.iqtree
 
 **Commands used:**
 
@@ -716,12 +724,25 @@ iqtree -s "$ALIGN" -m MFP -B 1000 -T AUTO \
   --prefix "$OUTDIR/nifH_ref63_Nle5_iqtree"
 ```
 
-**What the tools do:** MAFFT aligns the filtered consensus sequences. IQ-TREE performs model selection and maximum-likelihood tree inference with ultrafast bootstrap support.
+**What the tools do:** MAFFT aligns the filtered consensus sequences so homologous nucleotide positions are compared across samples. IQ-TREE performs model selection and maximum-likelihood tree inference with ultrafast bootstrap support.
 
-**Runtime:** MAFFT was fast. IQ-TREE completed the pilot tree in the same terminal session.
+**Runtime:** MAFFT was very fast. IQ-TREE was fast.
 
-**Result:** The alignment contained 104 sequences and was 894 bp long. IQ-TREE produced a pilot tree with best-fit model `GTR+F+I+G4`. The tree was uploaded and visualized in iTOL.
+**Result:** The filtered `nifH ref63` consensus set contained 104 high-quality sequences after applying the `N_percent <= 5` filter. MAFFT produced an alignment with 104 sequences and a length of 894 bp. IQ-TREE produced a pilot maximum-likelihood tree and selected `GTR+F+I+G4` as the best-fit model. The tree was uploaded and visualized in iTOL.
 
+Results are available at:  
+https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
+
+
+Visualization:
+Go to:
+
+https://itol.embl.de/
+Then:
+
+Click Upload a new tree.
+Choose the file:
+nifH_ref63_Nle5_iqtree.treefile
 
 
 
