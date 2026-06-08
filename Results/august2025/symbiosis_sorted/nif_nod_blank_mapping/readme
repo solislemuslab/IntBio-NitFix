@@ -1,3 +1,6 @@
+
 ```text
-The BLAN control mapping results were informative because they showed substantial target-associated signal in the control samples. This indicates that blank controls must be evaluated before interpreting biological `nif`/`nod` signal, and BLAN samples should be retained for QC comparison but excluded from final consensus-sequence extraction and phylogenetic tree construction.
+The BLAN control mapping results were informative because they showed substantial target-associated signal in the control samples. 
+This indicates that blank controls must be evaluated before interpreting biological `nif`/`nod` signal, and BLAN samples should be retained for 
+QC comparison but excluded from final consensus-sequence extraction and phylogenetic tree construction.
 ```
