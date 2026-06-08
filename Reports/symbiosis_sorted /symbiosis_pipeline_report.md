@@ -564,6 +564,8 @@ The script maps the 12 BLAN control samples to the extracted central nif/nod tar
 
 **Result:** All 12 BLAN controls showed substantial mapping to the extracted nif/nod target reference, with mapped-read percentages ranging from 47.35% to 92.08%. This indicates that the BLAN controls contain target-associated background signal and must be considered during QC. Therefore, BLAN samples were retained for quality-control evaluation but excluded from biological consensus-sequence extraction and phylogenetic tree construction.
 
+Result of nif_nod_blank_mapping_summary.tsv locaed at:
+https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_blank_mapping
 ### Step 5. Match Targets Back to Ryan's Original FASTA
 
 **Purpose:** Confirm that extracted `nif`/`nod` targets are present in the original reference used for mapping.
