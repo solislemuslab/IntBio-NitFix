@@ -735,9 +735,9 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 
 
 Visualization: Go to:
-```text
+
 https://itol.embl.de/
-```
+
 Then:
 ```text
 Click Upload a new tree.
