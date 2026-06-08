@@ -75,8 +75,30 @@ I used symbiosis_sorted for nif/nod analysis
    Purpose: ask which samples have enough reads covering each nif/nod gene
    Result: 260,028 sample-region coverage rows generated [1,116 samples × 233 nif/nod target locations = 260,028 rows]
    So each row means:
-   one sample + one nif/nod target locatio
+   one sample + one nif/nod target location
    ex:Sample CLBJ-40-1-No + nifH target ref63 = one row
   |
   v
+
+10. Summarize coverage by sample type
+    Groups:
+      BLAN = blank control samples, used to detect background/contamination signal - they are not real samples
+      No   = nodule samples, the main biological samples for nitrogen-fixing symbionts
+      Rh   = rhizosphere samples, soil/root-zone microbial community
+      Ro   = root samples, microbes associated with root tissue
+
+    Purpose: compare coverage across controls and biological sample types
+
+   Result: nodule samples showed the strongest support for several nif genes.
+        The best-supported genes included nifH, nifU, nifD, nifK, nifE, and nifB.
+        For example, nifH, nifU, and nifD had good coverage in more than 96%
+        of nodule samples. BLAN controls also showed target-associated signal,
+        so blank-aware filtering was needed before choosing final targets.
+|
+v
+
+
+
+
+
 ```
