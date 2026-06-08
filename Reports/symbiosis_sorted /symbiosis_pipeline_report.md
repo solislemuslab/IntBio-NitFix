@@ -454,9 +454,30 @@ NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571	8188	83325	1269
 ```bash
 samtools view "$BAM" | head -5
 ```
+
+**Example Coverage Inspection on the Top Mapped Reference**
 ```text
-samtools view "$BAM" | head -5 was used to inspect the first few alignments in the BAM file for the example sample TALL-13-3-Ro. A BAM file is binary, so samtools view converts it into readable SAM format, where each row represents one aligned read. In this example, the first reads mapped to the reference sequence NC_009937_nifA_CDS_Azorhizobium_caulinodans_ORS_571, which is one sequence inside symbiosis_islands.fasta. The position column shows that these reads start at position 842 on that reference, and the mapping quality value is 60, indicating high confidence in the alignment. The CIGAR string 115S35M means that 115 bases were soft-clipped and 35 bases aligned to the reference. The DNA sequence and quality-score string are also shown, followed by optional alignment tags such as NM:i:2, which indicates two mismatches relative to the reference. This confirms that the BAM file contains read-level alignments to the symbiosis-island reference sequences.
+Coverage was checked for the top mapped reference in sample `TALL-13-3-Ro` using `samtools depth`. The top reference was `NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571`. In the output, the columns are reference name, base position, and read depth. For example, position 68 had depth 1, meaning one read covered that base, and position 69 had depth 2, meaning two reads covered that base. This confirms that mapped reads cover specific positions along the reference sequence.
 ```
+
+```bash
+TOPREF=$(samtools idxstats "$BAM" | sort -k3,3nr | head -1 | cut -f1)
+
+echo "$TOPREF"
+
+samtools depth -r "$TOPREF" "$BAM" | head -20
+```
+
+```text
+samtools depth -r "$TOPREF" "$BAM" | head -20
+NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571	68	1
+NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571	69	2
+```
+
+
+
+
+
 
 ### Step 3. Extract Central `nif`/`nod` Targets
 
