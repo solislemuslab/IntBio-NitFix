@@ -90,3 +90,37 @@ The strongest biological support was observed for several `nif` genes, especiall
 Coverage summaries showed strong support for several central `nif` genes, especially in nodule (`No`) samples. However, BLAN controls also showed target-associated signal, so coverage alone was not sufficient for final target selection. These results were used to guide the next blank-aware filtering step before consensus-sequence extraction and phylogenetic tree construction.
 
 
+## Blank-Aware Target Ranking
+
+The file `nif_nod_target_blank_aware_ranking_v2.tsv` ranks each target by comparing nodule (`No`) support with BLAN-control background. Targets were classified as:
+
+- `PROMISING`: stronger nodule signal with lower blank-control background.
+- `BIOLOGICAL_SIGNAL_BUT_BLANK_BACKGROUND`: biological signal was present, but BLAN controls also showed substantial signal.
+- `LOW_OR_LIMITED_SIGNAL`: limited nodule support.
+- `NOT_SUPPORTED`: insufficient support.
+
+The ranking table classified 21 targets as `PROMISING`. Applying a stricter pilot-tree filter requiring at least 75 good nodule samples left 10 promising targets:
+
+| Gene | Target ID | Good nodule samples | Good BLAN samples | Status |
+|---|---|---:|---:|---|
+| `nifB` | `nifB|NC_008278|NC_008278_-_Symbiosis_Island|ref15` | 76 | 2 | `PROMISING` |
+| `nifB` | `nifB|NC_009937|NC_009937_-_Symbiosis_Island_2|ref16` | 108 | 1 | `PROMISING` |
+| `nifD` | `nifD|NC_008278|NC_008278_-_Symbiosis_Island|ref28` | 137 | 2 | `PROMISING` |
+| `nifD` | `nifD|NZ_CP141049|NZ_CP141049_-_Symbiosis_Island|ref36` | 133 | 1 | `PROMISING` |
+| `nifE` | `nifE|NZ_CP141049|NZ_CP141049_-_Symbiosis_Island|ref49` | 82 | 0 | `PROMISING` |
+| `nifH` | `nifH|NC_002678|NC_002678_-_Symbiosis_Island_3|ref52` | 83 | 0 | `PROMISING` |
+| `nifH` | `nifH|NZ_CP141049|NZ_CP141049_-_Symbiosis_Island|ref63` | 159 | 1 | `PROMISING` |
+| `nifK` | `nifK|NC_009937|NC_009937_-_Symbiosis_Island_4|ref71` | 137 | 0 | `PROMISING` |
+| `nifT` | `nifT|NZ_CP141049|NZ_CP141049_-_Symbiosis_Island_2|ref109` | 78 | 0 | `PROMISING` |
+| `nifX` | `nifX|NZ_CP141049|NZ_CP141049_-_Symbiosis_Island|ref157` | 93 | 1 | `PROMISING` |
+
+All 10 strict-filter targets were `nif` genes. No `nod` target passed this stricter pilot filter. This does not mean `nod` genes are absent or unimportant; rather, under the current strict coverage and blank-background thresholds, `nod` targets did not have enough clean support for the first pilot tree. Because `nod` genes are part of the project goal, they should be evaluated separately using a `nod`-focused target-selection strategy.
+
+## Short Report Text
+
+Coverage summaries showed strong support for several central `nif` genes, especially in nodule (`No`) samples. However, BLAN controls also showed target-associated signal, so coverage alone was not sufficient for final target selection. Blank-aware ranking classified 21 targets as `PROMISING`; with a stricter filter of at least 75 good nodule samples, 10 promising `nif` targets remained for the first pilot consensus/tree analysis. No `nod` target passed this stricter pilot filter, so `nod` genes should be evaluated separately with a `nod`-focused strategy.
+
+
+
+
+
