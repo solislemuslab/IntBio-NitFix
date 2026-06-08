@@ -1,0 +1,56 @@
+Input mapped BAM folder:
+/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/symbiosis_mapped_full
+
+Input flagstat folder:
+/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/symbiosis_mapping_logs_full
+
+QC output folder:
+/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/symbiosis_mapping_QC_checking
+
+===== Mapping completion summary =====
+
+BAM files:
+1116
+
+BAM index files:
+1116
+
+Flagstat reports:
+1116
+
+Failed samples:
+0
+
+Missing P2:
+0
+
+Zero-size BAM files:
+0
+
+Zero-size BAM index files:
+0
+
+BLAN control BAM files:
+12
+Wrote flagstat summary table: /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/symbiosis_mapping_QC_checking/symbiosis_mapping_flagstat_summary.tsv
+
+===== All-sample mapping summary =====
+samples: 1116
+mean_mapped_percent: 93.2945
+mean_properly_paired_percent: 85.0138
+
+First 10 rows:
+sample             total_reads  mapped_reads  mapped_percent  properly_paired  properly_paired_percent
+BLAN-1-1-No        3145828      3051041       96.99           2920084          93.05
+BLAN-1-1-Rh        447376       432124        96.59           412148           92.40
+BLAN-1-1-Ro        67733        64806         95.68           60944            90.33
+BLAN-2-1-No        5569187      5432001       97.54           5248182          94.45
+BLAN-2-1-Rh        374140       355251        94.95           330268           88.92
+BLAN-2-1-Ro        337227       332088        98.48           318860           94.71
+BLAN-3-1-No        13756296     13602621      98.88           13380198         97.27
+BLAN-3-1-Rh        117669       109544        93.10           100710           85.85
+BLAN-3-1-Ro        1774536      1762048       99.30           1735764          97.82
+
+Done.
+Mapping QC outputs saved in:
+/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/symbiosis_mapping_QC_checking
