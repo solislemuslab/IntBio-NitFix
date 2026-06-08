@@ -97,34 +97,6 @@ Use symbiosis_sorted and Ryan's symbiosis-island reference/annotation files for 
 
 Do not use the 16S/SILVA consensus output for nif/nod phylogenetic tree construction.
 ```
-
-
-```text
-Raw symbiosis_sorted reads
-  ↓
-fastp trimming using Ryan's settings
-  ↓
-Map trimmed reads to Ryan's symbiosis_islands.fasta
-  ↓
-Use symbiosis_islands.gb + gene list to identify nif/nod targets
-  ↓
-Calculate nif/nod gene-region coverage from mapped BAMs
-  ↓
-Compare biological samples with BLAN controls
-  ↓
-Select promising targets using blank-aware filtering
-  ↓
-Extract pilot nifH consensus sequences
-  ↓
-Filter low-quality consensus sequences
-  ↓
-MAFFT multiple sequence alignment
-  ↓
-IQ-TREE pilot nifH phylogeny
-  ↓
-iTOL tree visualization
-```
-
 ## 2. Starting Point
 
 Working folder:
