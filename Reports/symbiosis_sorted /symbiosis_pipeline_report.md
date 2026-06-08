@@ -535,7 +535,8 @@ results are located in https://github.com/solislemuslab/IntBio-NitFix/tree/main/
 
 **Purpose:** Check whether BLAN control samples contain reads that map to the extracted central `nif`/`nod` target reference.
 
-**Ryan connection:** BLAN samples are control samples, not biological plant samples. They were retained during trimming and mapping so that background signal, possible contamination, or technical carryover could be evaluated before interpreting biological `nif`/`nod` signal.
+**Ryan connection:** Ryan defined the biological sample types as `rh = rhizosphere`, `ro = root`, and `no = nodule`. 
+Samples beginning with `BLAN` were treated as blank controls based on their names and were retained during trimming and mapping so that background signal, possible contamination, or technical carryover could be evaluated before interpreting biological `nif`/`nod` signal.
 
 **Input:**
 
@@ -609,9 +610,9 @@ bash $BASE/Rscripts/calculate_nif_nod_region_coverage.sh
 
 **What the script does:** Uses `samtools depth` to calculate percent covered, mean depth, max depth, and covered bases for every sample/region.
 
-**Samples/regions:** 1,116 samples x 233 target regions.
+**Samples/regions:** 1,116 samples x 233 are exact matched locations in Ryan’s original reference.
 
-**Runtime:** Completed in the same session
+**Runtime:** fast
 
 **Result:** Final table had 260,029 lines: 1 header plus 260,028 sample-region rows.
 
