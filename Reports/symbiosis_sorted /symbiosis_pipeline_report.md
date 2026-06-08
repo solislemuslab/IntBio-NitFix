@@ -480,8 +480,6 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 , including the summary table, completion check, run log, and mapping-quality figure.
 
 
-
-
 ### 3.3 Extract Central `nif`/`nod` Targets
 
 **Purpose:** Identify which central `nif` and `nod` genes are present in Ryan's GenBank annotation.
@@ -535,11 +533,19 @@ results are located in https://github.com/solislemuslab/IntBio-NitFix/tree/main/
 
 ### 3.4. Blank-Control Evaluation
 
-**Purpose:** Check whether BLAN controls contain target-associated signal.
+### 3.4 Blank-Control Evaluation
 
-**Ryan connection:** BLAN samples are not biological samples, but controls are needed before interpreting functional-gene signal.
+**Purpose:** Check whether BLAN control samples contain reads that map to the extracted central `nif`/`nod` target reference.
 
-**Input:** BLAN reads from `$BASE/symbiosis_trimmed_ryan_full/`, target FASTA from `$BASE/nif_nod_target_reference/all_central_nif_nod_targets.fasta`
+**Ryan connection:** BLAN samples are control samples, not biological plant samples. They were retained during trimming and mapping so that background signal, possible contamination, or technical carryover could be evaluated before interpreting biological `nif`/`nod` signal.
+
+**Input:**
+
+```bash
+$BASE/symbiosis_trimmed_ryan_full/BLAN*_P1.fastq.gz
+$BASE/symbiosis_trimmed_ryan_full/BLAN*_P2.fastq.gz
+$BASE/nif_nod_target_reference/all_central_nif_nod_targets.fasta
+```
 
 **Output:** `$BASE/nif_nod_blank_mapping/`, `$BASE/nif_nod_blank_mapping_logs/`, `$BASE/nif_nod_blank_mapping_summary.tsv`
 
@@ -549,13 +555,14 @@ results are located in https://github.com/solislemuslab/IntBio-NitFix/tree/main/
 bash $BASE/Rscripts/map_all_blank_nif_nod_targets.sh
 ```
 
-**What the script does:** Maps all 12 BLAN controls to the extracted `nif`/`nod` target FASTA and summarizes mapped reads/top targets.
+**What the script does:** 
+The script maps the 12 BLAN control samples to the extracted central nif/nod target FASTA, generates BAM files and mapping logs, and summarizes total reads, mapped reads, mapped percentage, properly paired reads, and the top mapped target for each BLAN sample.
 
 **Samples:** 12 BLAN controls.
 
 **Runtime:** Fast; completed in the same session.
 
-**Result:** All BLAN controls showed strong target mapping, ranging from 47.35% to 92.08% mapped reads. This means BLAN profiles must be used for QC, and BLAN samples must be excluded from final trees.
+**Result:** All 12 BLAN controls showed substantial mapping to the extracted nif/nod target reference, with mapped-read percentages ranging from 47.35% to 92.08%. This indicates that the BLAN controls contain target-associated background signal and must be considered during QC. Therefore, BLAN samples were retained for quality-control evaluation but excluded from biological consensus-sequence extraction and phylogenetic tree construction.
 
 ### Step 5. Match Targets Back to Ryan's Original FASTA
 
