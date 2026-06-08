@@ -450,7 +450,13 @@ samtools idxstats "$BAM" | sort -k3,3nr | head -20
 ```text
 NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571	8188	83325	1269
 ```
-
+**Example BAM Alignment Inspection for `TALL-13-3-Ro`**
+```bash
+samtools view "$BAM" | head -5
+```
+```text
+samtools view "$BAM" | head -5 was used to inspect the first few alignments in the BAM file for the example sample TALL-13-3-Ro. A BAM file is binary, so samtools view converts it into readable SAM format, where each row represents one aligned read. In this example, the first reads mapped to the reference sequence NC_009937_nifA_CDS_Azorhizobium_caulinodans_ORS_571, which is one sequence inside symbiosis_islands.fasta. The position column shows that these reads start at position 842 on that reference, and the mapping quality value is 60, indicating high confidence in the alignment. The CIGAR string 115S35M means that 115 bases were soft-clipped and 35 bases aligned to the reference. The DNA sequence and quality-score string are also shown, followed by optional alignment tags such as NM:i:2, which indicates two mismatches relative to the reference. This confirms that the BAM file contains read-level alignments to the symbiosis-island reference sequences.
+```
 
 ### Step 3. Extract Central `nif`/`nod` Targets
 
