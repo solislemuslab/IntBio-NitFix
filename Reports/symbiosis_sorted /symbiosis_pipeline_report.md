@@ -531,8 +531,6 @@ From the 369 annotated gene/CDS regions in `symbiosis_islands.gb`, we extracted 
 results are located in https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_target_reference
 
 
-### 3.4. Blank-Control Evaluation
-
 ### 3.4 Blank-Control Evaluation
 
 **Purpose:** Check whether BLAN control samples contain reads that map to the extracted central `nif`/`nod` target reference.
@@ -566,6 +564,7 @@ The script maps the 12 BLAN control samples to the extracted central nif/nod tar
 
 Result of nif_nod_blank_mapping_summary.tsv locaed at:
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_blank_mapping
+
 ### Step 5. Match Targets Back to Ryan's Original FASTA
 
 **Purpose:** Confirm that extracted `nif`/`nod` targets are present in the original reference used for mapping.
@@ -588,7 +587,10 @@ python3 $BASE/Rscripts/match_nif_nod_targets_to_original_reference.py
 
 **Result:** All 231 extracted target sequences matched Ryan's original FASTA. A total of 233 exact locations were found because `nifQ` and `nifW` had multiple exact reference locations.
 
-### Step 6. Gene-Level Coverage From Existing BAMs
+nif_nod_region_coverage_all_samples.tsv file:
+https://github.com/solislemuslab/IntBio-NitFix/edit/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping/readme.md
+
+### 3.6. Gene-Level Coverage From Existing BAMs
 
 **Purpose:** Measure coverage of each matched `nif`/`nod` region in each mapped sample.
 
@@ -608,11 +610,12 @@ bash $BASE/Rscripts/calculate_nif_nod_region_coverage.sh
 
 **Samples/regions:** 1,116 samples x 233 target regions.
 
-**Runtime:** Completed in the same session; exact time not recorded.
+**Runtime:** Completed in the same session
 
 **Result:** Final table had 260,029 lines: 1 header plus 260,028 sample-region rows.
 
-### Step 7. Coverage Summary by Sample Type
+
+### 3.7. Coverage Summary by Sample Type
 
 **Purpose:** Summarize coverage by gene and sample group before consensus extraction.
 
@@ -631,6 +634,9 @@ python3 $BASE/Rscripts/summarize_nif_nod_coverage.py
 **Runtime:** Less than 1 minute.
 
 **Result:** Several `nif` genes had strong nodule support, including `nifH`, `nifU`, `nifD`, `nifK`, `nifE`, and `nifB`. Many BLAN samples also showed strong signal, so blank-aware filtering was required.
+
+
+
 
 ### Step 8. Blank-Aware Target Ranking
 
