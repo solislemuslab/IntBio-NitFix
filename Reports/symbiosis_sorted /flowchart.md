@@ -97,8 +97,58 @@ I used symbiosis_sorted for nif/nod analysis
 |
 v
 
+11. Rank targets with blank-aware filtering
 
+Why I did this:
+I had many possible nif/nod target regions.
+Before building a tree, I needed to choose a target that was strongly supported
+in real biological samples but not strongly supported in blank controls.
+
+Why I kept BLAN samples in this step:
+BLAN samples are controls.
+They help show background signal, contamination, or technical carryover.
+If I removed BLAN samples too early, I would not know whether a target also
+appeared strongly in controls.
+
+What I compared:
+  - No samples = nodule samples, where nif/nod signal is expected to be strongest
+  - BLAN samples = blank controls, where strong signal is not expected
+
+What I looked for:
+  - many nodule samples with good coverage
+  - few BLAN samples with good coverage
+  - higher read depth in nodules than in BLAN controls
+
+Result:
+  21 target regions were classified as PROMISING.
+
+Then I applied a stricter pilot filter:
+  - target must be PROMISING
+  - at least 75 nodule samples must have good coverage
+
+After this stricter filter:
+  - 10 targets remained
+  - all 10 were nif genes
+  - no nod target passed this strict pilot filter
+
+Meaning:
+This step helped me choose the cleanest target for the first pilot tree.
+It does not mean nod genes are unimportant.
+It means nod genes need a separate nod-focused review.
 
 
 
 ```
+
+
+
+References:
+
+### References supporting Step 11: Blank-aware target ranking
+
+| Pipeline decision | Paper | Exact sentence from the paper | How it helps this step |
+|---|---|---|---|
+| Focus first on nodule samples (`No`) | Sprent et al. / review on legume-rhizobia specificity, **“Specificity in Legume-Rhizobia Symbioses”** | “Most legume species can fix atmospheric nitrogen (N2) via symbiotic bacteria (general term ‘rhizobia’) in root nodules...” | This supports using nodule samples as the main biological group for choosing the first `nif`/`nod` phylogenetic target, because nodules are the tissue where nitrogen-fixing symbionts are expected to be strongest. |
+| Use BLAN controls before selecting targets | Salter et al. 2014, **“Reagent and laboratory contamination can critically impact sequence-based microbiome analyses”** | “Concurrent sequencing of negative control samples is strongly advised.” | This supports keeping BLAN controls in the QC step instead of immediately removing them, because blanks help identify background or contamination signal. |
+| Compare biological samples with negative controls | Davis et al. 2018, **“Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data”** | “Sequences from contaminating taxa are likely to have higher prevalence in control samples than in true samples.” | This supports our blank-aware ranking logic: a target is more trustworthy when it is stronger in biological samples than in BLAN controls. |
+| Use negative controls to identify problematic sequence features | decontam documentation / Davis and Callahan | “The prevalence ... of each sequence feature in true positive samples is compared to the prevalence in negative controls to identify contaminants.” | This supports comparing target-region support in real samples versus BLAN controls before selecting targets for tree building. |
