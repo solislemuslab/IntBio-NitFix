@@ -135,8 +135,47 @@ Meaning:
 This step helped me choose the cleanest target for the first pilot tree.
 It does not mean nod genes are unimportant.
 It means nod genes need a separate nod-focused review.
+|
+v
+12. Extract pilot nifH consensus sequences
 
+Why I did this:
+After ranking targets, I needed to test whether one strong target could produce
+real sample-level DNA sequences for a phylogenetic tree.
 
+Target chosen:
+nifH ref63
+This target was chosen because it had strong nodule support and low BLAN background.
+
+What is a consensus sequence?
+For each sample, many reads mapped to the same nifH target region.
+A consensus sequence combines those mapped reads into one representative DNA
+sequence for that sample.
+
+Simple example:
+  reads from one sample:
+    ATGCC...
+    ATGCC...
+    ATGCT...
+  consensus:
+    ATGCC...
+
+What I did:
+  - selected nodule samples with good coverage for nifH ref63
+  - used the mapped reads from each sample
+  - built one consensus nifH sequence per sample
+  - masked uncertain positions as N
+  - filtered out sequences with too many N bases
+
+Result:
+  - 159 nodule samples produced full-length 894 bp consensus sequences
+  - after filtering for N_percent <= 5, 104 high-quality sequences remained
+
+Meaning:
+This gave me 104 clean nifH sequences that could be aligned and used to build
+the pilot nifH tree.
+|
+v
 
 ```
 
