@@ -372,7 +372,7 @@ The result of this step is in this path:
 [https://github.com/solislemuslab/IntBio-NitFix/main/Results/august2025/symbiosis_sorted](https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/QC%20Check)
 
 
-### Step 2. Mapping Reads to Ryan's Symbiosis-Island Reference
+### 3.2. Mapping Reads to Ryan's Symbiosis-Island Reference
 
 **Purpose:** Align cleaned functional-gene reads to the reference provided by Ryan.
 
@@ -482,7 +482,7 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 
 
 
-### Step 3. Extract Central `nif`/`nod` Targets
+### 3.3 Extract Central `nif`/`nod` Targets
 
 **Purpose:** Identify which central `nif` and `nod` genes are present in Ryan's GenBank annotation.
 
