@@ -474,11 +474,11 @@ NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571	68	1
 NC_009937_Symbiosis_Island_4_Azorhizobium_caulinodans_ORS_571	69	2
 ```
 
-```text
+
 Mapping quality was evaluated across all 1,116 samples using samtools flagstat summaries, including mapped-read percentage and properly paired-read percentage after mapping to Ryan’s symbiosis_islands.fasta reference. The mapping QC results are located in
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/mapping_QC_checking
 , including the summary table, completion check, run log, and mapping-quality figure.
-```
+
 
 
 
