@@ -734,69 +734,17 @@ Results are available at:
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
 
 
-Visualization:
-Go to:
-
+Visualization: Go to:
+```text
 https://itol.embl.de/
+```
 Then:
-
+```text
 Click Upload a new tree.
 Choose the file:
 nifH_ref63_Nle5_iqtree.treefile
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 4. Important Results to Copy to Laptop
-
-| Result type | File/folder | Why important |
-|---|---|---|
-| Gene summary | `$BASE/nif_nod_target_reference/central_nif_nod_gene_summary.tsv` | Shows available `nif`/`nod` genes |
-| Mapping manifest | `$BASE/symbiosis_mapping_full_manifest.tsv` | Confirms all samples mapped |
-| Coverage table | `$BASE/nif_nod_coverage_existing_mapping/nif_nod_region_coverage_all_samples.tsv` | Main region-level coverage result |
-| Coverage summaries | `$BASE/nif_nod_coverage_existing_mapping/nif_nod_gene_coverage_summary_by_sample_type.tsv` | Compares BLAN/No/Rh/Ro |
-| Target ranking | `$BASE/nif_nod_coverage_existing_mapping/nif_nod_target_blank_aware_ranking_v2.tsv` | Lists promising targets |
-| Filtered consensus FASTA | `$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_consensus_Nle5.fasta` | Final pilot sequences |
-| MAFFT alignment | `$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_consensus_Nle5.mafft.fasta` | Alignment used for tree |
-| IQ-TREE tree | `$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_Nle5_iqtree.treefile` | Main pilot phylogeny |
-| IQ-TREE report | `$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_Nle5_iqtree.iqtree` | Model and run details |
-| Tree figure | iTOL export | Report-ready visualization |
-
-## 5. Final Folder Organization
-
-```text
-symbiosis_sorted/
-├─ raw_symbiosis_full/
-├─ symbiosis_trimmed_ryan_full/
-├─ fastp_logs_ryan_full/
-├─ symbiosis_islands.fasta
-├─ symbiosis_islands.gb
-├─ symbiosis_islands_gene_list.xlsx
-├─ symbiosis_mapped_full/
-├─ symbiosis_mapping_logs_full/
-├─ nif_nod_target_reference/
-├─ nif_nod_blank_mapping/
-├─ nif_nod_original_reference_regions/
-├─ nif_nod_coverage_existing_mapping/
-├─ nifH_ref63_pilot_consensus_v2/
-│  ├─ sequences/
-│  ├─ logs/
-│  ├─ nifH_ref63_consensus_Nle5.fasta
-│  ├─ nifH_ref63_consensus_Nle5.mafft.fasta
-│  └─ nifH_ref63_Nle5_iqtree.treefile
-└─ Rscripts/
 ```
+
 
 ## 6. Final Notes
 
