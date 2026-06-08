@@ -485,11 +485,35 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 ### 3.3 Extract Central `nif`/`nod` Targets
 
 **Purpose:** Identify which central `nif` and `nod` genes are present in Ryan's GenBank annotation.
-
+Mapping used the full reference to place reads broadly on Ryan’s symbiosis-island sequences, but downstream **phylogenetic analysis needs gene-specific targets**, so we used the GenBank annotation to identify and extract the exact nif/nod gene regions.
+```text
+which reads belong to nif genes
+which reads belong to nod genes
+which gene regions have enough coverage
+which consensus sequences should be used for nif/nod trees
+```
 **Ryan connection:** Ryan supplied `symbiosis_islands.gb` and the gene list, so the annotation file was used to identify available functional-gene targets.
 
 **Input:** `$BASE/symbiosis_islands.gb`, `$BASE/symbiosis_islands_gene_list.xlsx`
 
+**Gene-list summary-symbiosis_islands_gene_list.xlsx:**  
+The `symbiosis_islands_gene_list.xlsx` file summarizes the annotated genes in Ryan’s symbiosis-island reference. According to the summary sheet, the reference contains 73 unique genes, including 18 unique central nitrogen-fixation genes, 17 unique central nodulation genes, and 38 accessory genes. For this step, we focused on the central `nif` and `nod` genes because the project goal is to build functional-gene phylogenies for nitrogen-fixation and nodulation genes.
+
+The central genes listed in the spreadsheet were:
+
+```text
+nif genes: nifA, nifB, nifD, nifE, nifH, nifJ, nifK, nifM, nifN, nifQ, nifS, nifT, nifU, nifV, nifW, nifX, nifY, nifZ
+
+nod genes: nodA, nodB, nodC, nodD, nodE, nodF, nodH, nodI, nodJ, nodL, nodP, nodQ, nodS, nodT, nodU, nodX, nodZ
+
+**symbiosis_islands.gb**
+```text
+where each gene starts
+where each gene ends
+which strand it is on
+what gene name it has
+```
+So the script used the GenBank annotation to extract the DNA regions corresponding to central nif and nod genes.
 **Output:** `$BASE/nif_nod_target_reference/`
 
 **Script/command used:**
@@ -502,9 +526,10 @@ python3 $BASE/Rscripts/extract_all_nif_nod_targets.py
 
 **Runtime:** Less than 1 minute.
 
-**Result:** 233 annotated CDS records were extracted and 231 unique sequences retained. Of 35 genes listed in the summary sheet, 29 were found. Missing genes were `nifM`, `nifY`, `nodE`, `nodF`, `nodP`, and `nodT`.
+**Result:** Ryan’s `symbiosis_islands_gene_list.xlsx` identified 18 central `nif` genes and 17 central `nod` genes, and `symbiosis_islands.gb` was used to extract the matching annotated gene sequences. The extraction retained 231 unique central `nif`/`nod` reference sequences; six genes from the spreadsheet were not found in the GenBank annotation (`nifM`, `nifY`, `nodE`, `nodF`, `nodP`, and `nodT`).
 
-### Step 4. Blank-Control Evaluation
+
+### 3.4. Blank-Control Evaluation
 
 **Purpose:** Check whether BLAN controls contain target-associated signal.
 
