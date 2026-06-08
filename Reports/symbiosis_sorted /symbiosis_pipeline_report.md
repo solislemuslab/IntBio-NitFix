@@ -565,7 +565,7 @@ The script maps the 12 BLAN control samples to the extracted central nif/nod tar
 Result of nif_nod_blank_mapping_summary.tsv locaed at:
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_blank_mapping
 
-### Step 5. Match Targets Back to Ryan's Original FASTA
+### 3.5. Match Targets Back to Ryan's Original FASTA
 
 **Purpose:** Confirm that extracted `nif`/`nod` targets are present in the original reference used for mapping.
 
@@ -640,7 +640,7 @@ python3 $BASE/Rscripts/summarize_nif_nod_coverage.py
 Summary tables and the coverage heatmap for this step are available in the GitHub results folder:  
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping
 
-### Step 8. Blank-Aware Target Ranking
+### 3.8. Blank-Aware Target Ranking
 
 **Purpose:** Identify targets with strong nodule signal and lower blank-control background.
 
@@ -658,9 +658,13 @@ python3 $BASE/Rscripts/rank_nif_nod_targets_blank_aware_v2.py
 
 **Runtime:** Less than 1 minute.
 
-**Result:** 21 targets were `PROMISING`. With a stricter cutoff of at least 75 good nodule samples, 10 promising targets remained; all were `nif` genes. No `nod` target passed this stricter filter.
 
-### Step 9. Pilot Consensus Extraction for Best `nifH` Target
+**Result:** The blank-aware ranking classified 21 targets as `PROMISING`. When an additional stricter filter was applied requiring at least 75 good nodule (`No`) samples, 10 promising targets remained, all annotated as `nif` genes. No `nod` target passed this stricter pilot filter. This does not mean `nod` genes are absent or unimportant; rather, under the current strict coverage and blank-background thresholds, `nod` targets did not have enough clean support for the first pilot tree. Because `nod` genes are central to the project goals, they will be evaluated separately using a `nod`-focused target-selection strategy.
+
+nif_nod_target_blank_aware_ranking_v2.tsv is available in the GitHub results folder:  
+https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping
+
+### 3.9. Pilot Consensus Extraction for Best `nifH` Target
 
 **Purpose:** Test whether a strong target can produce usable sample-level consensus sequences.
 
@@ -678,7 +682,7 @@ bash $BASE/Rscripts/extract_pilot_nifH_ref63_consensus_v2.sh
 
 **What the script does:** Selects good nodule samples, calls variants with `bcftools`, applies variants with `bcftools consensus`, masks zero-depth sites as `N`, and writes FASTA/QC outputs.
 
-**Runtime:** Fast; completed in the same session.
+**Runtime:** Fast;
 
 **Result:** 159 full-length 894 bp consensus sequences were recovered. After filtering for `N_percent <= 5`, 104 high-quality sequences remained.
 
@@ -704,6 +708,21 @@ iqtree -s "$ALIGN" -m MFP -B 1000 -T AUTO \
 **Runtime:** MAFFT was fast. IQ-TREE completed the pilot tree in the same terminal session.
 
 **Result:** The alignment contained 104 sequences and was 894 bp long. IQ-TREE produced a pilot tree with best-fit model `GTR+F+I+G4`. The tree was uploaded and visualized in iTOL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 4. Important Results to Copy to Laptop
 
