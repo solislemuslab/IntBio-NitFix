@@ -746,7 +746,12 @@ nifH_ref63_Nle5_iqtree.treefile
 ```
 
 
-## 6. Final Notes
+## 4. 
+Do a nod-focused target review
+Purpose: find the best nod candidate(s) for a separate nod tree
+
+
+## 5. Final Notes
 
 This pipeline successfully processed Ryan's `symbiosis_sorted` functional-gene data through trimming, mapping, annotation-based target identification, coverage analysis, blank-aware filtering, pilot consensus extraction, alignment, and pilot tree construction. The most important final outputs are the blank-aware target ranking, the filtered `nifH` consensus FASTA, the MAFFT alignment, and the IQ-TREE `.treefile`.
 
