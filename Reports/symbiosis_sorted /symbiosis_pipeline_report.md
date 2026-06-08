@@ -664,15 +664,24 @@ python3 $BASE/Rscripts/rank_nif_nod_targets_blank_aware_v2.py
 nif_nod_target_blank_aware_ranking_v2.tsv is available in the GitHub results folder:  
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping
 
-### 3.9. Pilot Consensus Extraction for Best `nifH` Target
+### 3.9 Pilot Consensus Extraction for Best `nifH` Target
 
-**Purpose:** Test whether a strong target can produce usable sample-level consensus sequences.
+**Purpose:** Test whether one strong blank-aware target can produce usable sample-level consensus sequences for phylogenetic analysis.
 
 **Target:** `nifH|NZ_CP141049|NZ_CP141049_-_Symbiosis_Island|ref63`
 
-**Input:** `$BASE/symbiosis_islands.fasta`, `$BASE/symbiosis_mapped_full/*.bam`, coverage table from Step 6
+**Why this target was selected:** This `nifH` target was one of the strongest blank-aware candidates. It had good coverage in 159 nodule (`No`) samples, only 1 BLAN control with good coverage, high nodule median depth, and a strong nodule-vs-blank depth ratio. Because `nifH` is also a key nitrogen-fixation gene, it was selected as the first pilot target.
 
-**Output:** `$BASE/nifH_ref63_pilot_consensus_v2/`
+**Input:**
+
+```bash
+$BASE/symbiosis_islands.fasta
+$BASE/symbiosis_mapped_full/*.bam
+$BASE/nif_nod_coverage_existing_mapping/nif_nod_region_coverage_all_samples.tsv
+$BASE/nif_nod_original_reference_regions/nif_nod_matches_in_original_reference.tsv
+
+**Output:**
+$BASE/nifH_ref63_pilot_consensus_v2/
 
 **Script/command used:**
 
@@ -682,9 +691,13 @@ bash $BASE/Rscripts/extract_pilot_nifH_ref63_consensus_v2.sh
 
 **What the script does:** Selects good nodule samples, calls variants with `bcftools`, applies variants with `bcftools consensus`, masks zero-depth sites as `N`, and writes FASTA/QC outputs.
 
+
 **Runtime:** Fast;
 
-**Result:** 159 full-length 894 bp consensus sequences were recovered. After filtering for `N_percent <= 5`, 104 high-quality sequences remained.
+**Result:** The pilot extraction recovered 159 full-length 894 bp consensus sequences for the selected `nifH` target. After filtering for `N_percent <= 5`, 104 high-quality consensus sequences remained for alignment and pilot tree construction.
+
+Results are available at:
+https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
 
 ### Step 10. Alignment, Tree Construction, and Visualization
 
