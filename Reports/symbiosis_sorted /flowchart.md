@@ -14,7 +14,7 @@ And for phylogenetic analysis, he wrote:
 
 Based on these instructions, I used `symbiosis_sorted` for the `nif`/`nod` functional-gene analysis. I did not continue with the 16S/SILVA approach because 16S is mainly for taxonomic/community analysis, while `nif` and `nod` are functional symbiosis genes.
 
-
+```text
 Ryan’s instructions
   |
   |  “pre-sorted subsets... 16S_sorted, ITS_sorted, and symbiosis_sorted”
@@ -39,3 +39,4 @@ I used symbiosis_sorted for nif/nod analysis
    Result: quality was good; mean read retention 95.84%;
            mean Q30 improved from 95.39% to 97.49%
   |
+```
