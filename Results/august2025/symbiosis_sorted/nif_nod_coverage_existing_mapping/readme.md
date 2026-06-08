@@ -28,3 +28,10 @@ The file contains **260,029 lines**: one header line plus **260,028 sample-regio
 Each row represents one sample tested against one `nif`/`nod` target location. For example, if a row has high `percent_covered` and high `mean_depth`, that means the sample has strong read support for that gene region. If `percent_covered` is low or `mean_depth` is near zero, that target is poorly supported in that sample.
 
 This table is important because it determines which genes and samples are suitable for downstream consensus-sequence extraction and phylogenetic tree construction.
+
+The full gene-region coverage table was generated on the cluster but was not uploaded to GitHub **because it is large**. It is stored here:
+
+```bash
+/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping/nif_nod_region_coverage_all_samples.tsv
+```
+
