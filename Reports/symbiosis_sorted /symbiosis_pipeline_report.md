@@ -637,7 +637,8 @@ python3 $BASE/Rscripts/summarize_nif_nod_coverage.py
 **Result:** Several `nif` genes had strong nodule support, including `nifH`, `nifU`, `nifD`, `nifK`, `nifE`, and `nifB`. Many BLAN samples also showed strong signal, so blank-aware filtering was required.
 
 
-
+Summary tables and the coverage heatmap for this step are available in the GitHub results folder:  
+https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping
 
 ### Step 8. Blank-Aware Target Ranking
 
