@@ -35,3 +35,58 @@ The full gene-region coverage table was generated on the cluster but was not upl
 /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping/nif_nod_region_coverage_all_samples.tsv
 ```
 
+
+
+# nif/nod Coverage Summary
+
+This folder contains summarized coverage results for central `nif` and `nod` target regions across the August 2025 `symbiosis_sorted` samples.
+
+The full coverage table is large and was not uploaded to GitHub. It is stored on the cluster here:
+
+```text
+/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping/nif_nod_region_coverage_all_samples.tsv
+```
+
+That full table contains 260,029 lines: one header plus 260,028 sample-region rows, representing 1,116 samples × 233 matched `nif`/`nod` target locations.
+
+## Step Summary
+
+Coverage was calculated from the existing BAM files that were mapped to Ryan's original `symbiosis_islands.fasta` reference. The matched `nif`/`nod` coordinates from `nif_nod_original_reference_regions/` were used to measure coverage for each gene region in each sample.
+
+A target was counted as having good coverage when:
+
+```text
+percent_covered >= 80
+mean_depth >= 10
+```
+
+This means at least 80% of the gene region was covered, with an average read depth of at least 10 reads per base.
+
+## Files in This Folder
+
+| File | Description | Why it is important |
+|---|---|---|
+| `nif_nod_gene_coverage_by_sample_type_heatmap.svg` | Figure summarizing coverage by gene and sample group. | Main report-ready visualization for this step. |
+| `nif_nod_gene_coverage_summary_by_sample_type.tsv` | Gene-level summary by sample group (`BLAN`, `No`, `Rh`, `Ro`). | Shows which genes have good coverage in each sample type. |
+| `nif_nod_target_coverage_summary.tsv` | Target-level summary by gene target and sample group. | Useful for selecting specific target references for consensus extraction. |
+| `nif_nod_sample_coverage_summary.tsv` | Sample-level summary of how many target regions and genes passed coverage thresholds. | Useful for identifying samples with strong or weak overall coverage. |
+| `make_coverage_summary_figure.py` | Local Python script used to generate the SVG heatmap from the gene-level summary table. | Makes the figure reproducible. |
+
+## Figure Explanation
+
+The heatmap summarizes central `nif`/`nod` gene coverage across sample groups:
+
+- `BLAN` = blank controls
+- `No` = nodule samples
+- `Rh` = rhizosphere samples
+- `Ro` = root samples
+
+Each cell shows the percentage of samples in that group with at least one target region passing the good-coverage threshold. Darker color means a larger fraction of samples had good coverage for that gene.
+
+The strongest biological support was observed for several `nif` genes, especially in nodule (`No`) samples. Genes with strong nodule support included `nifH`, `nifU`, `nifD`, `nifK`, `nifE`, and `nifB`. However, BLAN controls also showed target-associated signal, so final target selection requires blank-aware filtering.
+
+## Short Report Text
+
+Coverage summaries showed strong support for several central `nif` genes, especially in nodule (`No`) samples. However, BLAN controls also showed target-associated signal, so coverage alone was not sufficient for final target selection. These results were used to guide the next blank-aware filtering step before consensus-sequence extraction and phylogenetic tree construction.
+
+
