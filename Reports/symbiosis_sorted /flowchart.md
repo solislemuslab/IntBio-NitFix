@@ -176,10 +176,44 @@ This gave me 104 clean nifH sequences that could be aligned and used to build
 the pilot nifH tree.
 |
 v
+13.Align nifH sequences with MAFFT
+Input:
+104 high-quality nifH consensus sequences
+
+MAFFT (program for multiple sequence alignment) does:
+lines up the 104 nifH sequences base-by-base
+
+Output:
+one alignment file where all sequences are arranged in comparable columns
+|
+v
+
+14. Build pilot `nifH` tree with IQ-TREE
+
+Input:
+`$BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_consensus_Nle5.mafft.fasta`
+
+Purpose:
+Build a pilot phylogenetic tree from the aligned high-quality `nifH` consensus sequences.
+
+Command used:
+```bash
+iqtree -s "$ALIGN" -m MFP -B 1000 -T AUTO \
+  --prefix "$OUTDIR/nifH_ref63_Nle5_iqtree"
+|
+v
+15. Visualize tree in iTOL
+    Purpose: make a report-ready tree figure
+    Result: pilot nifH tree figure exported
+  |
+  v
+Next step
+  |
+  v
+Do a nod-focused target review
+Purpose: find the best nod candidate(s) for a separate nod tree
 
 ```
-
-
 
 References:
 
