@@ -234,9 +234,7 @@ Mapping quality was good across the dataset.
 
 **Output in Git:**
 
-```text
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/mapping_QC_checking
-```
 
 ---
 
