@@ -144,9 +144,7 @@ Mean Q30 improved from 95.39% to 97.49%.
 
 **Output in Git:**
 
-```text
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/QC%20Check
-```
 
 ---
 
@@ -191,8 +189,8 @@ $BASE/symbiosis_mapping_full_manifest.tsv
 ```text
 Large BAM files were not uploaded to Git.
 Mapping QC summaries were uploaded here:
-https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/mapping_QC_checking
 ```
+https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/mapping_QC_checking
 
 ---
 
@@ -277,9 +275,7 @@ $BASE/nif_nod_target_reference/central_genes_not_found_in_genbank.txt
 
 **Output in Git:**
 
-```text
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_target_reference
-```
 
 ---
 
@@ -319,9 +315,8 @@ BLAN samples were kept for QC but excluded from final biological trees.
 
 **Output in Git:**
 
-```text
+
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_blank_mapping
-```
 
 ---
 
@@ -360,9 +355,7 @@ All 231 extracted targets matched Ryan’s original FASTA.
 
 **Output in Git:**
 
-```text
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_original_reference_regions
-```
 
 ---
 
@@ -403,10 +396,11 @@ This means:
 The full file was too large for Git.
 Cluster path:
 $BASE/nif_nod_coverage_existing_mapping/nif_nod_region_coverage_all_samples.tsv
-
 Summary files and figures are here:
-https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping
 ```
+https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping
+
+
 
 ---
 
@@ -445,9 +439,8 @@ BLAN controls also showed target-associated signal, so blank-aware filtering was
 
 **Output in Git:**
 
-```text
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping
-```
+
 
 ---
 
@@ -484,9 +477,9 @@ No nod target passed the strict pilot filter.
 
 **Output in Git:**
 
-```text
+
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_coverage_existing_mapping
-```
+
 
 ---
 
@@ -527,9 +520,7 @@ $BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_consensus_Nle5.fasta
 
 **Output in Git:**
 
-```text
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
-```
 
 ---
 
@@ -564,9 +555,8 @@ Alignment length: 894 bp.
 
 **Output in Git:**
 
-```text
+
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
-```
 
 ---
 
@@ -604,9 +594,8 @@ IQ-TREE selected GTR+F+I+G4 as the best-fit model for this alignment.
 
 **Output in Git:**
 
-```text
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
-```
+
 
 ---
 
@@ -643,10 +632,10 @@ Pilot nifH tree was visualized in iTOL.
 
 **Output in Git:**
 
-```text
-Add the exported iTOL figure to:
+WILL Add the exported iTOL figure to:
+
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
-```
+
 
 ---
 
