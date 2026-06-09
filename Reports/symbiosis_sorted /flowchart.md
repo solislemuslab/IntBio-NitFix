@@ -39,13 +39,6 @@ raw symbiosis FASTQ files
 *_R1.fq.gz
 *_R2.fq.gz
 ```
-
-**Code to run:**
-
-```text
-rsync / copy command used to copy raw files
-```
-
 **Output:**
 
 ```text
