@@ -641,13 +641,41 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 
 ### Next Step
 
-**Do a nod-focused target review.**
+## What This Pipeline Produced So Far
 
-**Purpose:**
+- [x] Cleaned `symbiosis_sorted` reads using Ryan’s `fastp` settings.
 
-```text
-Find the best nod candidate or candidates for a separate nod tree.
-```
+- Trimming QC summaries and figures.
+
+- Mapped reads against Ryan’s `symbiosis_islands.fasta` reference.
+
+- Mapping QC summaries and figures.
+
+- A central `nif`/`nod` target-reference set from `symbiosis_islands.gb`.
+
+- A table showing which `nif`/`nod` genes were found or missing in the GenBank annotation.
+
+- BLAN-control mapping results for QC.
+
+- A matched-coordinate table connecting extracted `nif`/`nod` targets back to Ryan’s original `symbiosis_islands.fasta`.
+
+- A region-level coverage table for all samples and matched `nif`/`nod` target locations.
+
+- Coverage summaries by sample type: BLAN, nodule (`No`), rhizosphere (`Rh`), and root (`Ro`).
+
+- A blank-aware target ranking table.
+
+- A list of `PROMISING` target regions for functional-gene tree building.
+
+- A pilot `nifH` consensus FASTA file.
+
+- A filtered high-quality `nifH` consensus FASTA file.
+
+- A MAFFT alignment of 104 high-quality `nifH` sequences.
+
+- A pilot `nifH` maximum-likelihood tree built with IQ-TREE.
+
+- A report-ready pilot `nifH` tree visualization in iTOL.
 
 
 References:
