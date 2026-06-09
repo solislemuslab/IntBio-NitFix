@@ -1,5 +1,19 @@
 # Symbiosis Gene Analysis Pipeline Report
 
+## Summary of Ryan’s Main Idea
+
+Ryan’s dataset was designed to study plant-microbe specificity in nitrogen-fixing plant systems across many NEON sites. The samples include rhizosphere, root, and nodule material from many host plants, so the data can be used to compare microbial communities across tissue types, sites, environments, and plant lineages. Ryan provided three main kinds of sequencing data because they answer different parts of the project: `16S_sorted` describes bacterial community composition, `ITS_sorted` describes fungal/community composition, and `symbiosis_sorted` contains functional symbiosis-gene reads. 
+
+The broader project goal is to build and compare three bacterial phylogenies: a core genome tree, a `nif` gene tree, and a `nod` gene tree. These trees can then be compared with plant phylogeny, plant identity, microbial community composition, environmental covariates, and plant-microbe interaction networks. The main biological question is whether related plants associate with related bacteria, but not necessarily with the exact same bacterial strains. This is the idea of fuzzy specificity: host-symbiont associations may be conserved at broader bacterial clade levels rather than at strict strain or species levels. 
+
+
+In this pipeline, I focused on the `symbiosis_sorted` data because it is the correct dataset for recovering `nif`/`nod` functional-gene sequences and building functional-gene trees. The 16S and ITS datasets remain important for community composition, diversity metrics, and interaction-network analyses, but they are not the correct input for the `nif`/`nod` phylogenetic pipeline.
+
+
+## Summary of the Parker Paper
+
+Parker (2015), “The Spread of *Bradyrhizobium* Lineages Across Host Legume Clades: from *Abarema* to *Zygia*,” studied how *Bradyrhizobium* root-nodule bacteria are distributed across many legume host lineages. The paper used bacterial phylogenetic information, including housekeeping genes and the symbiosis-island gene `nifD`, to ask whether related legumes tend to host related bacterial symbionts. The main result was that many bacterial lineages were found across broad and diverse legume host groups, showing that host use is not strictly one plant lineage to one bacterial lineage. However, the paper also found evidence that some related host plant clades contained more similar bacterial symbionts than expected by chance. This supports Ryan’s idea of fuzzy specificity: plant-microbe associations may be structured at broader clade levels, even when they are not perfectly specific at the species or strain level. This paper motivates our goal of building bacterial gene trees and comparing them with plant phylogeny and interaction networks.
+
 ## Step 1. Identify the Correct Dataset for Functional-Gene Phylogenies
 
 ### Purpose
