@@ -671,12 +671,35 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 
 - [x] A filtered high-quality `nifH` consensus FASTA file.
 
-- [x]A MAFFT alignment of 104 high-quality `nifH` sequences.
+- [x] A MAFFT alignment of 104 high-quality `nifH` sequences.
 
 - [x] A pilot `nifH` maximum-likelihood tree built with IQ-TREE.
 
 - [x] A report-ready pilot `nifH` tree visualization in iTOL.
 
+## What Still Needs To Be Done
+
+- Build additional trees for the other strong `nif` targets.
+
+- Decide whether to use one best `nif` gene tree or combine several `nif` genes.
+
+- Re-check `nod` targets using a nod-focused strategy.
+
+- Build a `nod` gene tree if suitable `nod` consensus sequences can be recovered.
+
+- Build or obtain the core genome tree.
+
+- Compare the core genome tree, `nif` tree, and `nod` tree.
+
+- Compare bacterial trees with plant phylogeny.
+
+- Compare bacterial trees with plant-microbe interaction networks.
+
+- Use 16S data for bacterial community composition and interaction-network analysis.
+
+- Use ITS data if fungal/community context is needed.
+
+- Combine tree results, network results, and environmental metadata to test fuzzy specificity.
 
 ### References:
 
