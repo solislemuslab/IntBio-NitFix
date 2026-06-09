@@ -24,7 +24,7 @@ ITS_sorted
 symbiosis_sorted
   -> functional symbiosis genes
   -> Which nif/nod/symbiosis genes are present?
-  -> Useful for nif/nod phylogenetic trees
+  -> **Useful for nif/nod phylogenetic trees**
 
 ---
 
@@ -63,7 +63,7 @@ Raw FASTQ files were not uploaded to Git because they are large.
 
 ### 2. Trim Reads With fastp
 
-**Purpose:** Clean adapters, low-quality bases, poly-G/poly-X artifacts, and short reads.
+**Purpose:** Clean adapters, low-quality bases, poly-G/poly-X artifacts, and short reads. Followed Ryan email.
 
 **Input:**
 
