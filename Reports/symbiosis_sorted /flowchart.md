@@ -98,9 +98,7 @@ $BASE/symbiosis_trimmed_ryan_full_manifest.tsv
 
 **Output in Git:**
 
-```text
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/QC%20Check
-```
 
 ---
 
