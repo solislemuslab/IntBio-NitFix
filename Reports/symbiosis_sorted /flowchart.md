@@ -27,7 +27,7 @@ symbiosis_sorted
   -> **Useful for nif/nod phylogenetic trees**
 
 ---
-
+**BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"**
 ### 1. Copy Raw Reads Into Processed-Data
 
 **Purpose:** Put the raw symbiosis reads into the working folder.
