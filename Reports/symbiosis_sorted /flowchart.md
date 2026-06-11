@@ -94,6 +94,7 @@ $BASE/symbiosis_trimmed_ryan_full_manifest.tsv
 ```text
 1,116 paired samples trimmed
 0 failed samples
+These are the outputs from the fastp trimming step: P1 and P2 are the cleaned paired reads used for mapping, U1 and U2 are cleaned reads whose mate was removed during trimming, the .fastp.json files contain per-sample trimming/QC statistics, and the manifest records whether each sample finished successfully.
 ```
 ---
 
