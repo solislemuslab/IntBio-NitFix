@@ -109,7 +109,9 @@ Column 5: match score (No match score was calculated because this step searched 
 Column 6:  + (Strand direction. + means this target is on the forward strand of the reference sequence.)
 
 First line of  **nif_nod_match_summary_by_gene.tsv** file: 
+
 nifA	11	11	11	MATCHED
+
 column 1: Gene name.
 
 column 2: 11 (`nifA` was found as 11 unique target sequences in Ryan’s GenBank annotation. These usually correspond to `nifA` annotations from different accession/reference records or different symbiosis-island reference regions.)
@@ -118,8 +120,6 @@ column 3: 11 (all 11 matched back to symbiosis_islands.fasta)
 
 column 4: 11 (each matched one exact location)
  
-column 1: 
-
 
 ...
 
