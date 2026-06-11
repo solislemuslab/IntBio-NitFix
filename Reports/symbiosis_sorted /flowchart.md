@@ -262,11 +262,18 @@ $BASE/nif_nod_target_reference/central_genes_not_found_in_genbank.txt
 **Result:**
 
 ```text
-231 unique central nif/nod target regions extracted
-169 nif regions
-62 nod regions
-6 genes were not found in the GenBank annotation
-```
+Ryan’s gene list contained 18 central nif genes and 17 central nod genes.
+
+From these:
+- 16 of 18 nif genes were found in the GenBank annotation.
+- 2 of 18 nif genes were not found: nifM and nifY.
+- 13 of 17 nod genes were found in the GenBank annotation.
+- 4 of 17 nod genes were not found: nodE, nodF, nodP, and nodT.
+
+The script extracted 231 unique central nif/nod target regions:
+- 169 nif target regions
+- 62 nod target regions
+
 
 **Output in Git:**
 
