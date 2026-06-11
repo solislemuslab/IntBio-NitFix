@@ -29,6 +29,7 @@ If 140 out of 200 reads match somewhere on the reference, then:
 So the mapped-read percentage is 70%.
 
 **For properly paired:**
+
 Because the data are paired-end, each DNA fragment has two reads: R1 and R2. A read pair is “properly paired” when both R1 and R2 map to the same reference region in the expected direction and distance from each other.
 
 For example, if 150 out of 200 reads are part of properly paired alignments, then:
@@ -37,5 +38,6 @@ For example, if 150 out of 200 reads are part of properly paired alignments, the
 
 So the properly paired percentage is 75%.
 
-**summary**
+**Summary:**
+
 Mapping means matching sample reads to known reference DNA sequences. If a sample has 200 reads total and 140 reads match the reference, the mapped-read percentage is 70%. Properly paired means the R1 and R2 reads from the same DNA fragment both map to the reference in the expected orientation and distance. This tells us that the paired-end reads are mapping consistently, not randomly.
