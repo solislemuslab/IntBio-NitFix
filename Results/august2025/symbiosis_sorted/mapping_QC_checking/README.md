@@ -11,6 +11,7 @@ Overall, the figure shows that mapping was successful across the dataset. Most s
 Imagine one sample has 100 read pairs:
 
 100 R1 reads
+
 100 R2 reads
 
 So there are 200 total reads from this sample.
