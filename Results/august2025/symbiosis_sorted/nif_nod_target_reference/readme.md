@@ -93,3 +93,29 @@ These files are used after full-read mapping. The mapped BAM files show where re
 ## Short Report Text
 
 Ryan's gene-list file identified 18 central `nif` genes and 17 central `nod` genes. Using Ryan's GenBank annotation, we extracted 231 unique central `nif`/`nod` target sequences: 169 `nif` sequences and 62 `nod` sequences. Six expected genes (`nifM`, `nifY`, `nodE`, `nodF`, `nodP`, and `nodT`) were not present in the GenBank annotation, so they were recorded as missing and excluded from downstream target analysis.
+
+
+
+
+Example FASTA record from the constructed target reference:
+
+```text
+>nodA|CU633751|CU633751_-_Symbiosis_Island|ref170
+ATGTCGTCGCCAAAAGTTCAGTGGAAACTAC...
+This header has four parts:
+nodA
+This is the gene of interest. In this example, the extracted target is a nodA gene, which is a nodulation-related gene.
+CU633751
+This is the accession ID of the reference record. In Ryan’s GenBank annotation file (symbiosis_islands.gb), CU633751 corresponds to:
+Cupriavidus taiwanensis strain LMG19424 plasmid pRALTA
+This CU633751 symbiosis-island record contains 38 annotated protein-coding gene regions in symbiosis_islands.gb.
+CU633751_-_Symbiosis_Island
+This is the reference-region name used in Ryan’s reference files. It indicates that the sequence came from the CU633751 symbiosis-island region.
+ref170
+This is the internal target ID assigned by the extraction script. Across the whole constructed target reference, the IDs run from ref1 to ref231, representing the 231 unique central nif/nod target sequences extracted from Ryan’s annotation.
+The DNA sequence below the header:
+ATGTCGTCGCCAAAAGTTCAGTGGAAACTAC...
+is the actual nodA DNA sequence extracted from Ryan’s GenBank annotation file (symbiosis_islands.gb). For this example, the GenBank file shows that nodA is annotated in the CU633751 record at:
+complement(3209..3802)
+This means the script extracted the reverse-complement DNA sequence from positions 3209 to 3802 of the CU633751 symbiosis-island reference sequence. This extracted sequence corresponds to Ryan’s original FASTA reference file (symbiosis_islands.fasta), but the gene name and coordinates came from the GenBank annotation file.
+```
