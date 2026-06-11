@@ -89,3 +89,38 @@ used with existing BAM files to calculate gene-region coverage
 
 All 231 extracted central `nif`/`nod` target sequences matched Ryan's original `symbiosis_islands.fasta` reference. The matching step identified 233 exact target locations because some targets occurred in more than one original-reference location. These coordinates were then used to calculate gene-level coverage from the existing BAM files.
 
+
+
+## My note 
+First line of  **nif_nod_matches_in_original_reference.bed** file: 
+
+CU633751_Symbiosis_Island_Cupriavidus_taiwanensis_str_LMG19424_plasmid_pRALTA	10556	12188	nifA|nifA|CU633751|CU633751_-_Symbiosis_Island|ref1	0	+
+
+column 1: CU633751_Symbiosis_Island_Cupriavidus_taiwanensis_str_LMG19424_plasmid_pRALTA (Name of the reference sequence in symbiosis_islands.fasta.)
+
+column2: 10556 (Start location of the target region in the reference sequence)
+
+column3: 12188 (End location of the target region in the reference sequence)
+
+column4: nifA|nifA|CU633751|CU633751_-_Symbiosis_Island|ref1 (Target ID. This tells us the gene is nifA, it came from accession CU633751, and it was assigned internal target ID ref1)
+
+Column 5: match score (No match score was calculated because this step searched for exact sequence matches, not approximate or similarity-based alignments. The goal was only to recover the exact reference location of each extracted target sequence in `symbiosis_islands.fasta`.)
+
+Column 6:  + (Strand direction. + means this target is on the forward strand of the reference sequence.)
+
+First line of  **nif_nod_match_summary_by_gene.tsv** file: 
+nifA	11	11	11	MATCHED
+column 1: Gene name.
+
+column 2: 11 (`nifA` was found as 11 unique target sequences in Ryan’s GenBank annotation. These usually correspond to `nifA` annotations from different accession/reference records or different symbiosis-island reference regions.)
+
+column 3: 11 (all 11 matched back to symbiosis_islands.fasta)
+
+column 4: 11 (each matched one exact location)
+ 
+column 1: 
+
+
+...
+
+
