@@ -183,9 +183,8 @@ $BASE/symbiosis_mapping_full_manifest.tsv
 
 ```text
 Large BAM files were not uploaded to Git.
-Mapping QC summaries were uploaded here:
+The mapping script produced sorted BAM files, BAM index files, per-sample `samtools flagstat` reports, and a mapping manifest summarizing sample-level completion status.
 ```
-https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/mapping_QC_checking
 
 ---
 
