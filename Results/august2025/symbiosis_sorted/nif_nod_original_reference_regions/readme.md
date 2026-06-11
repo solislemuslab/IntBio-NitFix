@@ -119,6 +119,31 @@ column 2: 11 (`nifA` was found as 11 unique target sequences in Ryan’s GenBank
 column 3: 11 (all 11 matched back to symbiosis_islands.fasta)
 
 column 4: 11 (each matched one exact location)
+
+
+interesting result:
+
+nifQ	8	8	9	MULTIPLE_REFERENCE_LOCATIONS
+
+
+When we created the target FASTA, we kept unique copies:
+
+If two extracted sequences were exactly the same,
+we kept one copy.
+
+But when we matched back to the original FASTA, that one unique sequence could be found in more than one location:
+one unique sequence -> multiple exact locations in the original reference
+
+So this can happen when:
+the same gene sequence is duplicated
+
+or
+
+two reference regions contain the exact same DNA segment
+
+or
+
+the same target appears in multiple symbiosis-island/reference records
  
 
 ...
