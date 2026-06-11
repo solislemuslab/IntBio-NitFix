@@ -23,6 +23,9 @@ The file contains **260,029 lines**: one header line plus **260,028 sample-regio
 | `mean_depth` | Average read depth across the target region. Higher values mean more reads cover the region on average. |
 | `max_depth` | Maximum read depth observed at any single base position within the target region. |
 
+## values in heatmap
+Each heatmap cell shows the percentage of samples in that sample group that had at least one target region for that gene passing the good-coverage threshold (`percent_covered >= 80` and `mean_depth >= 10`). For example, if a group has 100 samples and 10 samples pass, the heatmap value is 10%.
+
 ### How to interpret the table
 
 Each row represents one sample tested against one `nif`/`nod` target location. For example, if a row has high `percent_covered` and high `mean_depth`, that means the sample has strong read support for that gene region. If `percent_covered` is low or `mean_depth` is near zero, that target is poorly supported in that sample.
