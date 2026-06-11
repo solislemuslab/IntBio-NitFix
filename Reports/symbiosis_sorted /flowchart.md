@@ -63,7 +63,7 @@ Raw FASTQ files were not uploaded to Git because they are large.
 
 ### 2. Trim Reads With fastp
 
-**Purpose:** Clean adapters, low-quality bases, poly-G/poly-X artifacts, and short reads. Followed Ryan email.
+**Purpose:** Clean adapters, low-quality bases, poly-G/poly-X artifacts, and short reads. **Followed Ryan email**.
 
 **Input:**
 
