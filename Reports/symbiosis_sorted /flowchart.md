@@ -605,9 +605,8 @@ $BASE/nifH_ref63_pilot_consensus_v2/nifH_ref63_Nle5_iqtree.treefile
 ```
 
 **Code/tool to run:**
-
+https://itol.embl.de
 ```text
-https://itol.embl.de/
 Upload a new tree -> choose nifH_ref63_Nle5_iqtree.treefile
 ```
 
