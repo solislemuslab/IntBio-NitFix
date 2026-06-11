@@ -448,7 +448,14 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 
 ### 11. Rank Targets With Blank-Aware Filtering
 
-**Purpose:** Choose targets with strong nodule signal and lower BLAN-control background.
+**Purpose:** Choose targets with strong nodule signal and lower BLAN-control background. **Choose the best target regions for making trees.**
+ After Step 10, we knew that some genes had good coverage in real samples, but we also saw that some BLAN controls had signal too. So we needed to be careful. We had many possible nif/nod target regions.
+But not all targets are good for tree building. A good target should have:
+```text
+strong signal in biological samples
+low signal in blank controls
+enough samples with good coverage
+```
 
 **Input:**
 
