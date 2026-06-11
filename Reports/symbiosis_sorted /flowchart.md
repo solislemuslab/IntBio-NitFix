@@ -673,5 +673,23 @@ WILL Add the exported iTOL figure to:
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
 
 
+
+**Conclusion**
+The pilot nifH tree shows that Ryan’s symbiosis_sorted functional-gene data can successfully produce a sample-level nitrogen-fixation gene phylogeny. From the nodule samples, we recovered 104 high-quality nifH consensus sequences, aligned them across 894 bp, and built a maximum-likelihood tree. The samples show visible phylogenetic structure, meaning their nifH sequences are not all identical and contain enough variation for downstream biological interpretation. At this stage, the tree supports the use of nifH for functional-gene phylogenetic analysis, but the biological meaning of the clusters still needs metadata, such as host plant, site, or sample code.
+
+
+
+**Next Steps**
+
+Add metadata colors to the nifH tree, especially host plant/site/sample-code groups, to see whether clusters match biological patterns.
+
+Check bootstrap support values to identify which branches are well supported.
+
+Repeat consensus extraction and tree building for other strong targets such as nifK, nifD, and nifB.
+
+Compare the separate gene trees to see whether different nitrogen-fixation genes show similar sample relationships.
+
+If multiple genes give consistent results, consider building a concatenated multi-gene tree using shared high-quality samples.
+
 ---
 
