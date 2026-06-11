@@ -14,9 +14,6 @@ The goal of this QC step was to check whether Ryan's recommended `fastp` trimmin
 | `fastp_qc_summary_run.log` | Terminal output from the QC-summary script. | Reproducibility record showing that 1,116 JSON files were processed and recording the main average QC values. |
 | `fastp_quality_before_trimming_all_samples_lightpurple_mean_blue.svg` | Per-base quality profiles before trimming for all samples. | Use to show raw read quality before trimming. |
 | `fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg` | Per-base quality profiles after trimming for all samples. | Recommended report figure for showing quality after trimming. |
-| `fastp_quality_mean_only.svg` | Mean per-base quality profiles before and after trimming, without individual sample lines. | Optional simpler figure if the all-sample figure is too busy. |
-| `fastp_quality_before_after_and_retention.svg` | Earlier summary figure showing before/after Q20/Q30 and read retention. | Optional internal summary; not the preferred final figure. |
-| `fastp_quality_all_samples_gray_mean_blue.svg` | Earlier version of the after-trimming all-sample figure with gray sample lines. | Older version; replaced by the clearer light-purple figure. |
 
 ## Figures 
 
