@@ -233,6 +233,7 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 ### 6. Extract nif/nod Target Regions
 
 **Purpose:** Find the exact central `nif` and `nod` gene regions from Ryan’s annotation.
+Ryan’s broader project goal includes three bacterial phylogenies: **a core genome tree, a `nif` gene tree, and a `nod` gene tree**. However, this step only extracts central **`nif` and `nod`** target regions from Ryan’s `symbiosis_islands.gb` annotation. The core genome tree is a separate future analysis and is not generated from this `symbiosis_islands.gb` target-extraction step.
 
 **Input:**
 
