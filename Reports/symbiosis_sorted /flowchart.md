@@ -86,7 +86,6 @@ $BASE/symbiosis_trimmed_ryan_full/*_P2.fastq.gz
 $BASE/symbiosis_trimmed_ryan_full/*_U1.fastq.gz
 $BASE/symbiosis_trimmed_ryan_full/*_U2.fastq.gz
 $BASE/fastp_logs_ryan_full/*.fastp.json
-$BASE/symbiosis_trimmed_ryan_full_manifest.tsv
 ```
 
 **Result:**
