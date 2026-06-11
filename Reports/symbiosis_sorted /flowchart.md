@@ -486,7 +486,7 @@ depth_ratio_no_vs_blank >= 2
 good_fraction_difference >= 0.10
 ```
 **Result**
-After applying the  blank-aware criteria, the 233 matched target locations were classified as:
+After applying the  blank-aware criteria, the 231 matched target locations were classified as:
 ```text
 PROMISING: 19
 BIOLOGICAL_SIGNAL_BUT_BLANK_BACKGROUND: 21
