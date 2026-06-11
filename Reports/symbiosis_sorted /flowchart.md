@@ -475,15 +475,40 @@ python3 "$BASE/Rscripts/rank_nif_nod_targets_blank_aware_v2.py"
 $BASE/nif_nod_coverage_existing_mapping/nif_nod_target_blank_aware_ranking_v2.tsv
 ```
 
-**Result:**
+### Blank-Aware Target Ranking Result
+
+ A target was classified as `PROMISING` only if it met all of the following criteria:
 
 ```text
-21 target regions were classified as PROMISING.
-With a stricter pilot filter, 10 targets remained.
-All 10 strict pilot targets were nif genes.
-No nod target passed the strict pilot filter.
+no_good_samples >= 50
+blank_good_fraction <= 0.25
+depth_ratio_no_vs_blank >= 2
+good_fraction_difference >= 0.10
 ```
-
+**Result**
+After applying the  blank-aware criteria, the 233 matched target locations were classified as:
+```text
+PROMISING: 19
+BIOLOGICAL_SIGNAL_BUT_BLANK_BACKGROUND: 21
+LOW_OR_LIMITED_SIGNAL: 118
+NOT_SUPPORTED: 73
+```
+```text
+A target was classified as BIOLOGICAL_SIGNAL_BUT_BLANK_BACKGROUND if:
+no_good_samples >= 50
+depth_ratio_no_vs_blank >= 1
+but it did not pass all PROMISING requirements.
+Meaning: the target had biological signal in nodule samples, but BLAN background was too high or the nodule-vs-BLAN difference was not strong enough.
+LOW_OR_LIMITED_SIGNAL
+A target was classified as LOW_OR_LIMITED_SIGNAL if:
+no_good_samples > 0
+but it did not pass the stronger rules above.
+Meaning: at least one nodule sample had good coverage, but the target did not have enough support for tree building.
+NOT_SUPPORTED
+A target was classified as NOT_SUPPORTED if:
+no_good_samples = 0
+Meaning: no nodule samples had good coverage for that target.
+```
 **Output in Git:**
 
 
