@@ -59,6 +59,10 @@ $BASE/raw_symbiosis_full/*_R2.fq.gz
 Raw FASTQ files were not uploaded to Git because they are large.
 ```
 
+The raw sequencing reads are about:
+150 bp
+
+
 ---
 
 ### 2. Trim Reads With fastp
@@ -154,6 +158,23 @@ $BASE/symbiosis_trimmed_ryan_full/*_P1.fastq.gz
 $BASE/symbiosis_trimmed_ryan_full/*_P2.fastq.gz
 $BASE/symbiosis_islands.fasta
 ```
+
+**Ryan’s reference FASTA contains:**
+85 reference sequences/accessions
+
+Their lengths vary a lot:
+
+Shortest reference sequence: 111 bp
+
+Longest reference sequence: 34,967 bp
+
+
+Interpretation:
+symbiosis_islands.fasta is not one genome.
+It is a collection of 85 reference sequences.
+Some are short gene/CDS sequences.
+Some are longer symbiosis-island regions.
+
 
 **Code to run:**
 
