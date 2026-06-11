@@ -434,6 +434,9 @@ $BASE/nif_nod_coverage_existing_mapping/nif_nod_gene_coverage_by_sample_type_hea
 **Result:**
 
 ```text
+percent_covered >= 80
+mean_depth >= 10
+
 Nodule samples showed strongest support for several nif genes.
 Best-supported genes included nifH, nifU, nifD, nifK, nifE, and nifB.
 BLAN controls also showed target-associated signal, so blank-aware filtering was needed.
