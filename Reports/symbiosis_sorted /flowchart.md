@@ -95,11 +95,6 @@ $BASE/symbiosis_trimmed_ryan_full_manifest.tsv
 1,116 paired samples trimmed
 0 failed samples
 ```
-
-**Output in Git:**
-
-https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/QC%20Check
-
 ---
 
 ### 3. Check Trimming Quality
