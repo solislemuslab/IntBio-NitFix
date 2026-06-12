@@ -609,6 +609,7 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 ### 13. Align nifH Sequences With MAFFT
 
 **Purpose:** Line up the 104 high-quality `nifH` sequences base-by-base.
+MAFFT is a multiple-sequence-alignment tool. We used it to align the 104 filtered nifH consensus sequences so IQ-TREE could compare the same base positions across samples and build a phylogenetic tree.
 
 **Input:**
 
