@@ -28,6 +28,10 @@ symbiosis_sorted
 
 ---
 **BASE="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/august2025/symbiosis_sorted"**
+```bash
+module load SolisLemus-BioPhylo/2026.04.20
+module load samtools-1.9
+```
 ### 1. Copy Raw Reads Into Processed-Data
 
 **Purpose:** Put the raw symbiosis reads into the working folder.
