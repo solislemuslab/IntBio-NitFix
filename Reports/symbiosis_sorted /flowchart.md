@@ -480,8 +480,12 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
  After Step 10, we knew that some genes had good coverage in real samples, but we also saw that some BLAN controls had signal too. So we needed to be careful. We had many possible nif/nod target regions.
 But not all targets are good for tree building. A good target should have:
 ```text
-strong signal in biological samples
-low signal in blank controls
+No = biological nodule signal (Nodules are the biologically most relevant tissue for nitrogen-fixation genes like nifH, nifK, nifD, etc., because that is where the symbiotic nitrogen-fixing bacteria are expected to be strongest.)
+BLAN = background/control signal
+ 
+Does this target have strong signal in real nodule samples?
+AND
+Does this target have low signal in BLAN controls?
 enough samples with good coverage
 ```
 
@@ -498,6 +502,16 @@ python3 "$BASE/Rscripts/rank_nif_nod_targets_blank_aware_v2.py"
 ```
 
 **Output:**
+```text
+no_samples-Total number of nodule (No) samples checked for this target. Usually 366.
+blank_samples-Total number of BLAN/control samples checked for this target. Usually 12.
+no_good_samples-Number of No samples that had good coverage for this target.
+blank_good_samples-Number of BLAN samples that had good coverage for this target.
+no_good_fraction-Fraction of No samples with good coverage.
+blank_good_fraction-Fraction of BLAN samples with good coverage.
+```
+
+
 
 ```text
 $BASE/nif_nod_coverage_existing_mapping/nif_nod_target_blank_aware_ranking_v2.tsv
