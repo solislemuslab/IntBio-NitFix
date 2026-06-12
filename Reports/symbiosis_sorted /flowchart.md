@@ -568,6 +568,17 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 ### 12. Extract Pilot nifH Consensus Sequences
 
 **Purpose:** Build one representative `nifH` sequence per good nodule sample.
+```text
+many mapped 150 bp reads
+        ↓
+cover the nifH reference region
+        ↓
+bcftools calls variants
+        ↓
+bcftools consensus builds one sample consensus sequence
+        ↓
+one 894 bp nifH sequence per sample
+```
 
 **Input:**
 
