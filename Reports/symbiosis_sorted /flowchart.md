@@ -1,4 +1,4 @@
-## Simple Pipeline Flowchart With Inputs, Code, and Outputs
+## symbiosis_sorted Analysis
 
 Ryan’s notes explain why I used `symbiosis_sorted` for this pipeline:
 
