@@ -830,3 +830,35 @@ The main caution is that BLAN controls showed strong target-associated signal, s
 | Use `nifH` for diversity/phylogenetic analysis of nitrogen-fixing organisms | Gaby & Buckley 2012 | “The nifH gene is the most widely used molecular marker for studying the ecology and evolution of nitrogen-fixing microorganisms.” | This supports building a pilot tree from `nifH` sequences. |
 | Generate consensus sequence from mapped reads | BCFtools consensus documentation | “The consensus command applies VCF variants to a reference sequence to create consensus sequence.” | This supports the computational step where mapped reads are converted into one representative sequence per sample. |
 | Use SAMtools/BCFtools for variant/consensus workflows | Danecek et al. 2021, **“Twelve years of SAMtools and BCFtools”** | SAMtools and BCFtools are described as tools for “high-throughput sequencing data processing.” | This supports using `samtools`, `bcftools mpileup`, variant calling, and consensus generation from BAM files. |
+
+
+
+**Literature Review for step 12**
+Functional nitrogen-fixation genes, especially nifH, have been widely used to study the diversity and relationships of nitrogen-fixing bacteria. The nifH gene encodes part of the nitrogenase enzyme complex and is commonly used as a marker for diazotrophs because it is conserved enough to align across organisms but variable enough to reveal genetic differences among lineages. For this reason, many studies build single-gene nifH phylogenies where the tree tips are sample-derived sequences, environmental clones, isolates, or consensus sequences, rather than different genes.
+Ryan’s notes directly support this approach for our project. He identified symbiosis_sorted as the dataset containing the functional-gene reads, provided symbiosis_islands.fasta as the reference for these reads, and noted that the functional-gene data could be used to derive phylogenetic trees. Therefore, our workflow follows the intended structure of the dataset: trim the symbiosis_sorted reads, map them to Ryan’s symbiosis reference, identify well-covered nif/nod target regions, and build a pilot functional-gene tree from a strong nifH target.
+The 2012 mangrove rhizosphere study provides a close example of this logic. Liu et al. analyzed nitrogen-fixing bacterial diversity using nifH sequences recovered from mangrove rhizosphere soil. Their method was to amplify and sequence nifH, align the nifH nucleotide sequences with ClustalW, and build neighbor-joining phylogenetic trees in MEGA with 1000 bootstrap replicates. The tips in their tree were not different genes; they were nifH sequences from environmental clones, cultured isolates, and GenBank references. Their result was that nifH sequences clustered into multiple groups, and sequences from specific sites tended to cluster together. This supports our interpretation that a single-gene nifH tree can be used to study nitrogen-fixing bacterial diversity and sample-level structure.
+Older papers are still important because they established nifH as a standard marker gene. For example, Zehr et al. used amplified nifH sequences from environmental samples to detect previously unrecognized nitrogen-fixing microorganisms in ocean systems. Vinuesa et al. used nifH together with other genes in rhizobial phylogenetic/systematic analysis. These older studies are foundational, not outdated; they explain why nifH became a standard marker for nitrogen-fixation work.
+Recent studies show that this field is still active, but the methods have expanded. Many modern papers now combine nifH marker-gene information with metagenomics, genomes, phylogenomics, imaging, or symbiosis biology. For example, Coale et al. 2024 reported a nitrogen-fixing organelle in a marine alga, showing that nitrogen-fixing symbioses remain an active and important research area. Kantor et al. 2024 used metagenomics to study genetic diversity among UCYN-A sublineages and their algal hosts. These recent studies show the modern direction of the field: nifH remains useful, but genome-scale data can provide stronger organism-level resolution when available.
+Our tree should therefore be described carefully. It is not a whole-genome species tree and it is not a tree of different genes. It is a pilot single-locus nifH gene tree. Each tip represents one nodule sample’s nifH consensus sequence from the selected nifH ref63 target region. This tree shows that Ryan’s symbiosis_sorted data can recover high-quality sample-level nitrogen-fixation gene sequences and that those sequences contain enough variation to form phylogenetic structure. The next biological interpretation step is to color the tips by metadata, such as host plant, site, or sample code, and test whether well-supported clades correspond to biological groups.
+References To Include
+Ryan’s project notes: support use of symbiosis_sorted, symbiosis_islands.fasta, and functional-gene phylogenetic trees.
+Liu et al. 2012: nifH phylogenetic diversity from mangrove rhizosphere soil; tree tips are nifH clone/isolate/reference sequences.
+Zehr et al. 1998: environmental nifH amplification used to detect nitrogen-fixing microorganisms.
+Vinuesa et al. 2005: rhizobial phylogenies using nifH with other genes.
+Coale et al. 2024: nitrogen-fixing organelle in a marine alga.
+Kantor et al. 2024: metagenomics of UCYN-A sublineage diversity and algal hosts.
+
+Liu et al. 2012
+https://doi.org/10.1139/W2012-016
+
+Zehr et al. 1998
+https://doi.org/10.1128/AEM.64.9.3444-3450.1998
+
+Vinuesa et al. 2005
+https://en.wikipedia.org/wiki/Neorhizobium_huautlense
+
+Coale et al. 2024
+https://en.wikipedia.org/wiki/Braarudosphaera_bigelowii
+
+Kantor et al. 2024
+https://en.wikipedia.org/wiki/Atelocyanobacterium_thalassa
