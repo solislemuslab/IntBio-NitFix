@@ -857,7 +857,7 @@ New nitrogen-fixing microorganisms detected in oligotrophic oceans by amplificat
 https://doi.org/10.1128/AEM.64.9.3444-3450.1998
 
 Vinuesa et al. 2005
-https://en.wikipedia.org/wiki/Neorhizobium_huautlense
+https://www.sciencedirect.com/science/article/abs/pii/S0723202005000883
 
 Coale et al. 2024
 Nitrogen-fixing organelle in a marine alga
@@ -866,3 +866,5 @@ https://www.science.org/doi/10.1126/science.adk1075
 Kantor et al. 2024
 Metagenomics reveals the genetic diversity between sublineages of UCYN-A and their algal host plastids
 https://www.nature.com/articles/s43705-024-00352-1
+
+
