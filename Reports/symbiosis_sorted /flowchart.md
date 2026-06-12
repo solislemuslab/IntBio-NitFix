@@ -7,8 +7,14 @@ Ryan’s notes explain why I used `symbiosis_sorted` for this pipeline:
 > “I have attached a genomic reference in case you are interested in the functional genes in symbiosis_sorted.”
 
 > “I am still finalizing functional gene data, which are subject to a different pipeline. Claudia and I already discussed using this to derive phylogenetic trees...”
+>
+> symbiosis_sorted contains the functional-gene data.
 
-Based on this, I used `symbiosis_sorted` for the `nif`/`nod` functional-gene analysis.
+> Ryan provided symbiosis_islands.fasta as the genomic reference for the functional genes.
+
+> Ryan said the functional-gene data could be used to “derive phylogenetic trees.”
+
+> Based on this, I used `symbiosis_sorted` for the `nif`/`nod` functional-gene analysis.
 
 
 16S_sorted
