@@ -849,16 +849,20 @@ Coale et al. 2024: nitrogen-fixing organelle in a marine alga.
 Kantor et al. 2024: metagenomics of UCYN-A sublineage diversity and algal hosts.
 
 Liu et al. 2012
+Phylogenetic diversity of nitrogen-fixing bacteria and the nifH gene from mangrove rhizosphere soil
 https://doi.org/10.1139/W2012-016
 
 Zehr et al. 1998
+New nitrogen-fixing microorganisms detected in oligotrophic oceans by amplification of nitrogenase (nifH) genes
 https://doi.org/10.1128/AEM.64.9.3444-3450.1998
 
 Vinuesa et al. 2005
 https://en.wikipedia.org/wiki/Neorhizobium_huautlense
 
 Coale et al. 2024
-https://en.wikipedia.org/wiki/Braarudosphaera_bigelowii
+Nitrogen-fixing organelle in a marine alga
+https://www.science.org/doi/10.1126/science.adk1075
 
 Kantor et al. 2024
-https://en.wikipedia.org/wiki/Atelocyanobacterium_thalassa
+Metagenomics reveals the genetic diversity between sublineages of UCYN-A and their algal host plastids
+https://www.nature.com/articles/s43705-024-00352-1
