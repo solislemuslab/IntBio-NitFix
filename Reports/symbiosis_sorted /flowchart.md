@@ -749,6 +749,29 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 The pilot nifH tree shows that Ryan’s symbiosis_sorted functional-gene data can successfully produce a sample-level nitrogen-fixation gene phylogeny. From the nodule samples, we recovered 104 high-quality nifH consensus sequences, aligned them across 894 bp, and built a maximum-likelihood tree. The samples show visible phylogenetic structure, meaning their nifH sequences are not all identical and contain enough variation for downstream biological interpretation. At this stage, the tree supports the use of nifH for functional-gene phylogenetic analysis, but the biological meaning of the clusters still needs metadata, such as host plant, site, or sample code.
 
 
+```text
+
+flowchart TD
+    S0["Ryan provided symbiosis_sorted + symbiosis_islands.fasta/.gb"] --> S1["1. Copy raw reads into processed-data"]
+    S1 --> S2["2. Trim reads with fastp"]
+    S2 --> S3["3. Check trimming quality"]
+    S3 --> S4["4. Map reads to Ryan's symbiosis reference"]
+    S4 --> S5["5. Check mapping quality"]
+    S5 --> S6["6. Extract nif/nod target regions"]
+    S6 --> S7["7. Check BLAN controls"]
+    S6 --> S8["8. Match nif/nod targets back to original reference"]
+    S8 --> S9["9. Measure coverage for each gene in each sample"]
+    S9 --> S10["10. Summarize coverage by sample type"]
+    S10 --> S11["11. Rank targets with blank-aware filtering"]
+    S11 --> S12["12. Extract pilot nifH consensus sequences"]
+    S12 --> S13["13. Align nifH sequences with MAFFT"]
+    S13 --> S14["14. Build pilot nifH tree with IQ-TREE"]
+    S14 --> S15["15. Visualize tree in iTOL"]
+    S15 --> C["Conclusion: pilot nifH sample-level gene tree"]
+
+```
+
+
 
 **Next Steps**
 
