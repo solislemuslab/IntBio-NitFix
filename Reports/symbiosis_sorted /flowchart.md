@@ -723,6 +723,20 @@ nifH_ref63_iTOL_pilot_tree.png
 Pilot nifH tree was visualized in iTOL.
 ```
 
+```text
+Target gene: nifH
+Target region: nifH ref63
+Selected nodule samples before filtering: 159
+Consensus sequence length: 894 bp
+High-quality sequences after N filtering: 104
+N filter used: N_percent <= 5%
+Alignment tool: MAFFT
+Aligned sequences: 104
+Alignment length: 894 bp
+Tree method: IQ-TREE maximum likelihood
+Best-fit model: GTR+F+I+G4
+Bootstrap replicates: 1000
+```
 **Output in Git:**
 
 WILL Add the exported iTOL figure to:
