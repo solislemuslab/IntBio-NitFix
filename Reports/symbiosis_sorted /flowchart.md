@@ -355,7 +355,7 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 
 ### 8. Match nif/nod Targets Back to Ryan’s Original Reference
 
-**Purpose:** Connect extracted nif/nod gene regions back to the coordinates in `symbiosis_islands.fasta`.
+**Purpose:** This step is a validation/check step. Connect extracted nif/nod gene regions back to the coordinates in `symbiosis_islands.fasta`.
 
 **Input:**
 
@@ -385,7 +385,9 @@ $BASE/nif_nod_original_reference_regions/nif_nod_targets_without_exact_match.tsv
 All 231 extracted targets matched Ryan’s original FASTA.
 233 exact reference locations were found because nifQ and nifW had multiple exact locations.
 ```
-
+```text
+After extracting 231 nif/nod target sequences from the GenBank annotation, we verified their positions in Ryan’s original symbiosis_islands.fasta. All 231 extracted targets matched the original reference FASTA, with 233 exact locations identified. This confirms that the target FASTA contains valid sequences extracted from the original 85 symbiosis reference regions.
+```
 **Output in Git:**
 
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nif_nod_original_reference_regions
