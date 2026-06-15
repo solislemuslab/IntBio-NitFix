@@ -665,7 +665,7 @@ Alignment length: 894 bp.
 
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
 ```text
-In this pilot nifH analysis, MAFFT did not add gaps because all sequences were reconstructed from the same 894 bp reference coordinates. This is not always the case; when sequences differ in length or contain insertions/deletions, MAFFT inserts gaps to align homologous positions.”
+MAFFT was used to align the 104 high-quality nifH consensus sequences before phylogenetic tree construction. In this pilot analysis, MAFFT did not introduce any gap characters because all consensus sequences were reconstructed from the same 894 bp nifH ref63 reference coordinates. Therefore, the pre-alignment consensus FASTA and the MAFFT output contained the same sequence content, aside from formatting/case differences. This result is expected for reference-guided consensus sequences of equal length. In other datasets, MAFFT may add gaps when sequences contain insertions, deletions, different lengths, or non-overlapping regions.”
 ```
 ---
 
