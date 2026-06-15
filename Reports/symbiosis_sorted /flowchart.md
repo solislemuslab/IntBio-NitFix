@@ -664,7 +664,9 @@ Alignment length: 894 bp.
 
 
 https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symbiosis_sorted/nifH_ref63_pilot_consensus_v2
-
+```text
+In this pilot nifH analysis, MAFFT did not add gaps because all sequences were reconstructed from the same 894 bp reference coordinates. This is not always the case; when sequences differ in length or contain insertions/deletions, MAFFT inserts gaps to align homologous positions.”
+```
 ---
 
 ### 14. Build Pilot nifH Tree With IQ-TREE
