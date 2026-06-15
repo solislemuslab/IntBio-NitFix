@@ -442,6 +442,17 @@ https://github.com/solislemuslab/IntBio-NitFix/tree/main/Results/august2025/symb
 ### 10. Summarize Coverage by Sample Type
 
 **Purpose:** Compare coverage across BLAN, No, Rh, and Ro groups.
+```test
+No = nodule samples
+Rh = rhizosphere samples
+Ro = root samples
+BLAN = blank/control samples
+
+No = inside nodule
+Rh = soil around root
+Ro = root tissue
+BLAN = control/background
+```
 
 **Input:**
 
