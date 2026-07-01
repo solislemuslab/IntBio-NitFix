@@ -129,7 +129,7 @@ Mean Q30 improved from 95.39% to 97.49%
 
 ---
 
-### 4. Map Reads to Ryan's Symbiosis Reference
+### 4. Map Reads to  Symbiosis Reference provided by Ryan
 
 **Purpose:** Align cleaned reads from each sample to Ryan's symbiosis functional-gene reference.
 
