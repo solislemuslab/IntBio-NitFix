@@ -131,7 +131,7 @@ Mean Q30 improved from 95.39% to 97.49%
 
 ### 4. Map Reads to  Symbiosis Reference provided by Ryan
 
-**Purpose:** Align cleaned reads from each sample to Ryan's symbiosis functional-gene reference.
+**Purpose:** Align cleaned reads from each sample to symbiosis functional-gene reference provided by Ryan.
 
 **Input:**
 
@@ -226,7 +226,7 @@ Mapping quality was good across the dataset.
 
 ### 6. Extract Central nif/nod Target Regions From GenBank
 
-**Purpose:** Define the nif/nod gene target regions available in Ryan's GenBank annotation. These target regions are the reference features that can later be evaluated for coverage, consensus construction, and tree building.
+**Purpose:** Define the nif/nod gene target regions available in GenBank annotation provided by Ryan. These target regions are the reference features that can later be evaluated for coverage, consensus construction, and tree building.
 
 **Input:**
 
