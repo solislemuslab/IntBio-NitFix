@@ -1,16 +1,62 @@
 ## symbiosis_sorted Analysis V2
 
-**Version 2:** 
+**Version 2** 
+
 Ryan clarified that `BLAN` is a real NEON field site https://www.neonscience.org/field-sites/blan , not a blank/negative control. The negative controls should be `MC-1` and `MC-2`. Ryan also raised two important next-analysis concerns: the current pilot tree produces **one dominant consensus sequence per sample**, but real samples may contain multiple nitrogen-fixing organisms; and reference-guided mapping/consensus may miss divergent nif/nod sequences. Version 2 keeps the successful read-cleaning and mapping foundation, then revises the downstream plan to support negative-control checking, broader sample inclusion, and future multi-copy-aware tree construction.
 
 
 **Sample**
+
 Sample IDs contain both site and sample-type information. For example, in BLAN-3-1-No, BLAN is the NEON field-site code, 3-1 identifies the individual sample or replicate, and No is the sample type. Therefore, BLAN-3-1-No is not a blank control; it is a real nodule sample collected from the BLAN site . In this dataset, samples ending in -No are nodule samples, samples ending in -Rh are rhizosphere samples, and samples ending in -Ro are root samples. Negative controls should instead be identified using Ryan’s MC-1 and MC-2 labels.
+
+sample_type: No, Rh, Ro
 ```
 370 No
 376 Rh
 370 Ro
 ```
+site+sample type (number of samples)
+```
+site	sample_type	count
+BLAN	No	4
+BLAN	Rh	4
+BLAN	Ro	4
+CLBJ	No	6
+CLBJ	Rh	6
+```
+
+number of samples per site:
+    ```
+     12 BLAN
+     18 CLBJ
+     15 CPER
+     24 DCFS
+     79 DEJU
+     66 DELA
+     27 DSNY
+      9 GRSM
+     26 HEAL
+    156 JERC
+      1 KONA
+     86 LAJA
+      4 LENO
+      1 MLBS
+      6 NIWO
+     21 NOGP
+     12 OAES
+      9 ORNL
+     72 OSBS
+     15 RMNP
+     38 SCBI
+     20 SERC
+     15 SJER
+    222 TALL
+      8 TEAK
+    102 TOOL
+     34 WOOD
+     18 YELL
+```
+
 
 **BASE**
 
