@@ -1,7 +1,16 @@
 ## symbiosis_sorted Analysis V2
 
 **Version 2:** 
-Ryan clarified that `BLAN` is a real NEON field site, not a blank/negative control. The negative controls should be `MC-1` and `MC-2`. Ryan also raised two important next-analysis concerns: the current pilot tree produces **one dominant consensus sequence per sample**, but real samples may contain multiple nitrogen-fixing organisms; and reference-guided mapping/consensus may miss divergent nif/nod sequences. Version 2 keeps the successful read-cleaning and mapping foundation, then revises the downstream plan to support negative-control checking, broader sample inclusion, and future multi-copy-aware tree construction.
+Ryan clarified that `BLAN` is a real NEON field site https://www.neonscience.org/field-sites/blan , not a blank/negative control. The negative controls should be `MC-1` and `MC-2`. Ryan also raised two important next-analysis concerns: the current pilot tree produces **one dominant consensus sequence per sample**, but real samples may contain multiple nitrogen-fixing organisms; and reference-guided mapping/consensus may miss divergent nif/nod sequences. Version 2 keeps the successful read-cleaning and mapping foundation, then revises the downstream plan to support negative-control checking, broader sample inclusion, and future multi-copy-aware tree construction.
+
+
+**Sample**
+Sample IDs contain both site and sample-type information. For example, in BLAN-3-1-No, BLAN is the NEON field-site code, 3-1 identifies the individual sample or replicate, and No is the sample type. Therefore, BLAN-3-1-No is not a blank control; it is a real nodule sample collected from the BLAN site . In this dataset, samples ending in -No are nodule samples, samples ending in -Rh are rhizosphere samples, and samples ending in -Ro are root samples. Negative controls should instead be identified using Ryan’s MC-1 and MC-2 labels.
+```
+370 No
+376 Rh
+370 Ro
+```
 
 **BASE**
 
