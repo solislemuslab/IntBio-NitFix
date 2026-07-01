@@ -1,6 +1,7 @@
 ## symbiosis_sorted Analysis V2
 
-**Reason for Version 2:** Ryan clarified that `BLAN` is a real NEON field site, not a blank/negative control. The negative controls should be `MC-1` and `MC-2`. Ryan also raised two important next-analysis concerns: the current pilot tree produces one dominant consensus sequence per sample, but real samples may contain multiple nitrogen-fixing organisms; and reference-guided mapping/consensus may miss divergent nif/nod sequences. Version 2 keeps the successful read-cleaning and mapping foundation, then revises the downstream plan to support negative-control checking, broader sample inclusion, and future multi-copy-aware tree construction.
+**Version 2:** 
+Ryan clarified that `BLAN` is a real NEON field site, not a blank/negative control. The negative controls should be `MC-1` and `MC-2`. Ryan also raised two important next-analysis concerns: the current pilot tree produces **one dominant consensus sequence per sample**, but real samples may contain multiple nitrogen-fixing organisms; and reference-guided mapping/consensus may miss divergent nif/nod sequences. Version 2 keeps the successful read-cleaning and mapping foundation, then revises the downstream plan to support negative-control checking, broader sample inclusion, and future multi-copy-aware tree construction.
 
 **BASE**
 
