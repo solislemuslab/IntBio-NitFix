@@ -24,7 +24,7 @@ BLAN	Ro	4
 CLBJ	No	6
 CLBJ	Rh	6
 ```
-number of samples per site:
+number of samples per site (28 sites):
 ```
      12 BLAN
      18 CLBJ
