@@ -24,9 +24,8 @@ BLAN	Ro	4
 CLBJ	No	6
 CLBJ	Rh	6
 ```
-
 number of samples per site:
-    ```
+```
      12 BLAN
      18 CLBJ
      15 CPER
@@ -56,7 +55,6 @@ number of samples per site:
      34 WOOD
      18 YELL
 ```
-
 
 **BASE**
 
