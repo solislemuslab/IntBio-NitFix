@@ -107,7 +107,8 @@ This approach directly addresses the concern that biological samples may contain
 | Mixed-aware IUPAC | Single + mixed possible multicopy cases with ambiguity codes | 4,212 |
 | Unique biological samples with at least one clean nifH target | Across the five-target set | 2,428 |
 
-The conceptual figure [nifH_clean5_one_sample_alignment_concept.svg](../result/figures/nifH_clean5_one_sample_alignment_concept.svg) explains how one sample can map to multiple clean nifH reference regions and contribute multiple target-specific sequences.
+
+
 
 ## Strict nifH Tree
 
@@ -131,14 +132,4 @@ The strict tree shows multiple divergent nifH lineages. Coloring by target refer
 5. The multi-copy-aware approach avoids forcing one sample into one nifH sequence and allows samples to contribute multiple target-specific nifH sequences.
 6. The strict nifH tree contains 1,802 sample-target sequences and recovers multiple divergent nifH lineages.
 
-## Important Files
 
-| File | Purpose |
-|---|---|
-| [flowchart.md](./flowchart.md) | Step-by-step pipeline with input, code, and result links |
-| [symbiosis_sorted_all_sample_pipeline.svg](./symbiosis_sorted_all_sample_pipeline.svg) | Pipeline overview figure |
-| [single_dominant.svg](../result/figures/single_dominant.svg) | iTOL strict tree figure |
-| [strict_itol_sample_type_colorstrip.txt](../result/itol_annotations/strict_itol_sample_type_colorstrip.txt) | iTOL sample-type annotation |
-| [strict_itol_target_ref_colorstrip.txt](../result/itol_annotations/strict_itol_target_ref_colorstrip.txt) | iTOL target-reference annotation |
-| [nifH_clean5_strict_single_dominant.treefile](../result/trees/nifH_clean5_strict_single_dominant.treefile) | Strict tree file |
-| [nif_nod_region_coverage_all_samples.tsv.gz](../result/tables/nif_nod_region_coverage_all_samples.tsv.gz) | Full coverage table, compressed |
