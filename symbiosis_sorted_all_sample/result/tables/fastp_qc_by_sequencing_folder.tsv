@@ -1,0 +1,5 @@
+sequencing_folder	manifest_samples	fastp_json_ok	fastp_json_missing	mean_reads_retained_percent	mean_q30_before_percent	mean_q30_after_percent
+intbio_reads_NovogeneAugust2025	1113	1113	0	95.84	95.39	97.49
+intbio_reads_NovogeneDecember2025	234	234	0	94.99	93.16	97.02
+intbio_reads_NovogeneJuly2024	24	24	0	93.86	94.27	97.12
+intbio_reads_NovogeneMay2025	1536	1536	0	96.43	95.76	97.91

@@ -1,0 +1,232 @@
+group	gene	accession	record	definition	location	start_1based	end_1based	strand	length	locus_tag	product
+nif	nifA	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	10557..12188	10557	12188	+	1632	pRALTA_0366	NifA transcriptional activator
+nif	nifA	NC_002678	NC_002678 - Symbiosis Island 1	Mesorhizobium japonicum MAFF 303099, complete sequence.	complement(2586..4346)	2586	4346	-	1761	MAFF_RS23990	nif-specific transcriptional activator NifA
+nif	nifA	NC_002678	NC_002678 - nifA CDS	Mesorhizobium japonicum MAFF 303099, complete sequence.	1..1716	1	1716	+	1716	MAFF_RS23910	nif-specific transcriptional activator NifA
+nif	nifA	NC_009937	NC_009937 - nifA CDS	Azorhizobium caulinodans ORS 571, complete sequence.	1..1734	1	1734	+	1734	AZC_RS05375	nif-specific transcriptional activator NifA
+nif	nifA	NC_011894	NC_011894 - Symbiosis Island 2	Methylobacterium nodulans ORS 2060, complete sequence.	1..1800	1	1800	+	1800	MNOD_RS18905	nif-specific transcriptional activator NifA
+nif	nifA	NC_012848	NC_012848 - Symbiosis Island	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	complement(7345..8427)	7345	8427	-	1083	RLEG_RS24435	nif-specific transcriptional activator NifA
+nif	nifA	NC_014120	NC_014120 - Symbiosis Island	Paraburkholderia atlantica plasmid pBC201, complete sequence.	1..1647	1	1647	+	1647	BC1002_RS33855	nif-specific transcriptional activator NifA
+nif	nifA	NC_017249	NC_017249 - Symbiosis Island 2	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(1..1818)	1	1818	-	1818	BJ6T_RS37590	nif-specific transcriptional activator NifA
+nif	nifA	NC_019848	NC_019848 - Symbiosis Island 3	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	1..1626	1	1626	+	1626	C770_RS40295	nif-specific transcriptional activator NifA
+nif	nifA	NZ_CP141049	NZ_CP141049 - Symbiosis Island 2	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	complement(2584..4278)	2584	4278	-	1695	U0023_RS27355	nif-specific transcriptional activator NifA
+nif	nifA	NZ_HG938357	NZ_HG938357 - Symbiosis Island	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	1..1626	1	1626	+	1626	RG1141_RS30355	nif-specific transcriptional activator NifA
+nif	nifB	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	26954..28525	26954	28525	+	1572	pRALTA_0384	NifB FeMo cofactor biosynthesis protein
+nif	nifB	NC_002678	NC_002678 - Symbiosis Island 1	Mesorhizobium japonicum MAFF 303099, complete sequence.	complement(854..2335)	854	2335	-	1482	MAFF_RS23985	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(1..1584)	1	1584	-	1584	FRANCCI3_RS22655	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(1..1545)	1	1545	-	1545	FRAAL_RS29705	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_009937	NC_009937 - Symbiosis Island 2	Azorhizobium caulinodans ORS 571, complete sequence.	2946..4505	2946	4505	+	1560	AZC_RS17565	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_011894	NC_011894 - Symbiosis Island 2	Methylobacterium nodulans ORS 2060, complete sequence.	2038..3534	2038	3534	+	1497	MNOD_RS18910	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_012848	NC_012848 - Symbiosis Island	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	complement(5630..7102)	5630	7102	-	1473	RLEG_RS24430	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_014120	NC_014120 - Symbiosis Island 2	Paraburkholderia atlantica plasmid pBC201, complete sequence.	1923..3521	1923	3521	+	1599	BC1002_RS33985	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(1..1677)	1	1677	-	1677	FSYMDG_RS13800	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(8013..9512)	8013	9512	-	1500	BJ6T_RS38580	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NC_019848	NC_019848 - Symbiosis Island 3	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	1843..3315	1843	3315	+	1473	C770_RS40300	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NZ_CP141049	NZ_CP141049 - Symbiosis Island 2	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	complement(860..2341)	860	2341	-	1482	U0023_RS27350	nitrogenase cofactor biosynthesis protein NifB
+nif	nifB	NZ_HG938357	NZ_HG938357 - Symbiosis Island	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	2230..3753	2230	3753	+	1524	RG1141_RS30365	nitrogenase cofactor biosynthesis protein NifB
+nif	nifD	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	31867..33339	31867	33339	+	1473	pRALTA_0391	NifD nitrogenase molybdenum-iron protein alpha chain (Nitrogenase component I) (Dinitrogenase)
+nif	nifD	NC_002678	NC_002678 - Symbiosis Island 3	Mesorhizobium japonicum MAFF 303099, complete sequence.	1000..2505	1000	2505	+	1506	MAFF_RS24200	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(8443..9903)	8443	9903	-	1461	FRANCCI3_RS22700	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(8809..10269)	8809	10269	-	1461	FRAAL_RS29750	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_009937	NC_009937 - Symbiosis Island 4	Azorhizobium caulinodans ORS 571, complete sequence.	complement(5728..7230)	5728	7230	-	1503	AZC_RS05330	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_011894	NC_011894 - Symbiosis Island	Methylobacterium nodulans ORS 2060, complete sequence.	complement(7204..8721)	7204	8721	-	1518	MNOD_RS18865	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_012848	NC_012848 - Symbiosis Island 2	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	981..2492	981	2492	+	1512	RLEG_RS24465	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_014120	NC_014120 - Symbiosis Island 3	Paraburkholderia atlantica plasmid pBC201, complete sequence.	961..2424	961	2424	+	1464	BC1002_RS34050	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(8136..9572)	8136	9572	-	1437	FSYMDG_RS13845	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(22044..23546)	22044	23546	-	1503	BJ6T_RS38650	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NC_019848	NC_019848 - Symbiosis Island 2	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	complement(5990..7492)	5990	7492	-	1503	C770_RS40255	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NZ_CP141049	NZ_CP141049 - Symbiosis Island	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	998..2500	998	2500	+	1503	U0023_RS27195	nitrogenase molybdenum-iron protein alpha chain
+nif	nifD	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	6974..8473	6974	8473	+	1500	RG1141_RS30310	nitrogenase molybdenum-iron protein alpha chain
+nif	nifE	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	16148..17518	16148	17518	+	1371	pRALTA_0372	nifE oxidoreductase, Nitrogenase iron-molybdenum cofactor biosynthesis protein
+nif	nifE	NC_002678	NC_002678 - Symbiosis Island 3	Mesorhizobium japonicum MAFF 303099, complete sequence.	4238..5728	4238	5728	+	1491	MAFF_RS24210	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(5240..6610)	5240	6610	-	1371	FRANCCI3_RS22690	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(5465..6835)	5465	6835	-	1371	FRAAL_RS29740	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_009937	NC_009937 - Symbiosis Island 4	Azorhizobium caulinodans ORS 571, complete sequence.	complement(2269..3951)	2269	3951	-	1683	AZC_RS05320	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_011894	NC_011894 - Symbiosis Island	Methylobacterium nodulans ORS 2060, complete sequence.	complement(3636..5156)	3636	5156	-	1521	MNOD_RS18855	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_012848	NC_012848 - Symbiosis Island 2	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	4156..5598	4156	5598	+	1443	RLEG_RS24475	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_014120	NC_014120 - Symbiosis Island	Paraburkholderia atlantica plasmid pBC201, complete sequence.	1921..3414	1921	3414	+	1494	BC1002_RS33860	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(4805..6355)	4805	6355	-	1551	FSYMDG_RS13835	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(18686..20329)	18686	20329	-	1644	BJ6T_RS38640	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NC_019848	NC_019848 - Symbiosis Island 2	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	complement(2874..4304)	2874	4304	-	1431	C770_RS40245	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NZ_CP141049	NZ_CP141049 - Symbiosis Island	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	4228..5718	4228	5718	+	1491	U0023_RS27205	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifE	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	10167..11597	10167	11597	+	1431	RG1141_RS30320	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE
+nif	nifH	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	30920..31801	30920	31801	+	882	pRALTA_0390	NifH nitrogenase Fe protein (Nitrogenase component II)(dinitrogenase reductase)
+nif	nifH	NC_002678	NC_002678 - Symbiosis Island 3	Mesorhizobium japonicum MAFF 303099, complete sequence.	1..894	1	894	+	894	MAFF_RS24195	nitrogenase iron protein
+nif	nifH	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(9947..10810)	9947	10810	-	864	FRANCCI3_RS22705	nitrogenase iron protein
+nif	nifH	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(10319..11182)	10319	11182	-	864	FRAAL_RS29755	nitrogenase iron protein
+nif	nifH	NC_009937	NC_009937 - Symbiosis Island 3	Azorhizobium caulinodans ORS 571, complete sequence.	1..891	1	891	+	891	AZC_RS17710	nitrogenase iron protein
+nif	nifH	NC_009937	NC_009937 - Symbiosis Island 4	Azorhizobium caulinodans ORS 571, complete sequence.	complement(7298..8188)	7298	8188	-	891	AZC_RS05335	nitrogenase iron protein
+nif	nifH	NC_011894	NC_011894 - Symbiosis Island	Methylobacterium nodulans ORS 2060, complete sequence.	complement(8792..9691)	8792	9691	-	900	MNOD_RS18870	nitrogenase iron protein
+nif	nifH	NC_012848	NC_012848 - Symbiosis Island 2	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	1..888	1	888	+	888	RLEG_RS24460	nitrogenase iron protein
+nif	nifH	NC_014120	NC_014120 - Symbiosis Island 3	Paraburkholderia atlantica plasmid pBC201, complete sequence.	1..882	1	882	+	882	BC1002_RS34045	nitrogenase iron protein
+nif	nifH	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(9618..10490)	9618	10490	-	873	FSYMDG_RS13850	nitrogenase iron protein
+nif	nifH	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(1920..2804)	1920	2804	-	885	BJ6T_RS38540	nitrogenase iron protein
+nif	nifH	NC_019848	NC_019848 - Symbiosis Island 2	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	complement(7592..8485)	7592	8485	-	894	C770_RS40260	nitrogenase iron protein
+nif	nifH	NZ_CP141049	NZ_CP141049 - Symbiosis Island	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	1..894	1	894	+	894	U0023_RS27190	nitrogenase iron protein
+nif	nifH	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	5976..6872	5976	6872	+	897	RG1141_RS30305	nitrogenase iron protein
+nif	nifJ	NC_007777	NC_007777 - nifJ CDS	Frankia casuarinae, complete sequence.	1..3516	1	3516	+	3516	FRANCCI3_RS10190	pyruvate:ferredoxin (flavodoxin) oxidoreductase
+nif	nifJ	NC_008278	NC_008278 - nifJ CDS	Frankia alni ACN14a, complete sequence.	1..3528	1	3528	+	3528	FRAAL_RS14225	pyruvate:ferredoxin (flavodoxin) oxidoreductase
+nif	nifK	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	33408..34967	33408	34967	+	1560	pRALTA_0392	NifK nitrogenase molybdenum-iron protein beta chain (Nitrogenase component I) (Dinitrogenase)
+nif	nifK	NC_002678	NC_002678 - Symbiosis Island 3	Mesorhizobium japonicum MAFF 303099, complete sequence.	2637..4178	2637	4178	+	1542	MAFF_RS24205	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(6819..8375)	6819	8375	-	1557	FRANCCI3_RS22695	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(7047..8609)	7047	8609	-	1563	FRAAL_RS29745	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_009937	NC_009937 - Symbiosis Island 4	Azorhizobium caulinodans ORS 571, complete sequence.	complement(4089..5648)	4089	5648	-	1560	AZC_RS05325	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_011894	NC_011894 - Symbiosis Island	Methylobacterium nodulans ORS 2060, complete sequence.	complement(5232..6770)	5232	6770	-	1539	MNOD_RS18860	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_012848	NC_012848 - Symbiosis Island 2	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	2570..4102	2570	4102	+	1533	RLEG_RS24470	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_014120	NC_014120 - Symbiosis Island 3	Paraburkholderia atlantica plasmid pBC201, complete sequence.	2496..4055	2496	4055	+	1560	BC1002_RS34055	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(6499..8022)	6499	8022	-	1524	FSYMDG_RS13840	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(20422..21978)	20422	21978	-	1557	BJ6T_RS38645	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NC_019848	NC_019848 - Symbiosis Island 2	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	complement(4358..5899)	4358	5899	-	1542	C770_RS40250	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NZ_CP141049	NZ_CP141049 - Symbiosis Island	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	2625..4166	2625	4166	+	1542	U0023_RS27200	nitrogenase molybdenum-iron protein subunit beta
+nif	nifK	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	8570..10111	8570	10111	+	1542	RG1141_RS30315	nitrogenase molybdenum-iron protein subunit beta
+nif	nifN	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	17651..18958	17651	18958	+	1308	pRALTA_0373	nifN nitrogenase iron-molybdenum cofactor biosynthesis protein
+nif	nifN	NC_002678	NC_002678 - Symbiosis Island 3	Mesorhizobium japonicum MAFF 303099, complete sequence.	5738..7120	5738	7120	+	1383	MAFF_RS24215	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NC_009937	NC_009937 - Symbiosis Island 4	Azorhizobium caulinodans ORS 571, complete sequence.	complement(896..2263)	896	2263	-	1368	AZC_RS05315	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NC_011894	NC_011894 - Symbiosis Island	Methylobacterium nodulans ORS 2060, complete sequence.	complement(2257..3639)	2257	3639	-	1383	MNOD_RS18850	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NC_012848	NC_012848 - Symbiosis Island 2	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	5604..6935	5604	6935	+	1332	RLEG_RS24480	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NC_014120	NC_014120 - Symbiosis Island	Paraburkholderia atlantica plasmid pBC201, complete sequence.	3436..4797	3436	4797	+	1362	BC1002_RS33865	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(3414..4805)	3414	4805	-	1392	FSYMDG_RS13830	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(17267..18676)	17267	18676	-	1410	BJ6T_RS38635	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NC_019848	NC_019848 - Symbiosis Island 4	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	complement(4884..6209)	4884	6209	-	1326	C770_RS40110	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NZ_CP141049	NZ_CP141049 - Symbiosis Island	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	5728..7110	5728	7110	+	1383	U0023_RS27210	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifN	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	11616..12962	11616	12962	+	1347	RG1141_RS30325	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN
+nif	nifQ	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	20076..20651	20076	20651	+	576	pRALTA_0376	NifQ nitrogen fixation protein, molybdenum ion binding
+nif	nifQ	NC_002678	NC_002678 - nitrogen fixation protein NifQ CDS	Mesorhizobium japonicum MAFF 303099, complete sequence.	1..648	1	648	+	648	MAFF_RS24045	nitrogen fixation protein NifQ
+nif	nifQ	NC_009937	NC_009937 - Symbiosis Island 3	Azorhizobium caulinodans ORS 571, complete sequence.	1096..1812	1096	1812	+	717	AZC_RS17715	nitrogen fixation protein NifQ
+nif	nifQ	NC_011894	NC_011894 - Symbiosis Island	Methylobacterium nodulans ORS 2060, complete sequence.	complement(1..774)	1	774	-	774	MNOD_RS18830	nitrogen fixation protein NifQ
+nif	nifQ	NC_014118	NC_014118 - nitrogen fixation protein NifQ CDS	Paraburkholderia atlantica chromosome 2, complete sequence.	1..546	1	546	+	546	BC1002_RS20005	nitrogen fixation protein NifQ
+nif	nifQ	NC_014120	NC_014120 - Symbiosis Island	Paraburkholderia atlantica plasmid pBC201, complete sequence.	5872..6441	5872	6441	+	570	BC1002_RS33885	nitrogen fixation protein NifQ
+nif	nifQ	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(997..1815)	997	1815	-	819	BJ6T_RS38535	nitrogen fixation protein NifQ
+nif	nifQ	NZ_CP141049	NZ_CP141049 - nitrogen fixation protein NifQ CDS	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	1..693	1	693	+	693	U0023_RS27645	nitrogen fixation protein NifQ
+nif	nifS	NC_002678	NC_002678 - Symbiosis Island 2	Mesorhizobium japonicum MAFF 303099, complete sequence.	complement(365..1621)	365	1621	-	1257	MAFF_RS24020	cysteine desulfurase NifS
+nif	nifS	NC_009937	NC_009937 - Symbiosis Island 2	Azorhizobium caulinodans ORS 571, complete sequence.	359..1450	359	1450	+	1092	AZC_RS17550	cysteine desulfurase NifS
+nif	nifS	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(10481..11662)	10481	11662	-	1182	BJ6T_RS38590	cysteine desulfurase NifS
+nif	nifT	NC_002678	NC_002678 - Symbiosis Island 1	Mesorhizobium japonicum MAFF 303099, complete sequence.	complement(1..213)	1	213	-	213	MAFF_RS23970	putative nitrogen fixation protein NifT
+nif	nifT	NC_009937	NC_009937 - Symbiosis Island 2	Azorhizobium caulinodans ORS 571, complete sequence.	1598..1816	1598	1816	+	219	AZC_RS17555	putative nitrogen fixation protein NifT
+nif	nifT	NC_011894	NC_011894 - Symbiosis Island 2	Methylobacterium nodulans ORS 2060, complete sequence.	4878..5096	4878	5096	+	219	MNOD_RS18930	putative nitrogen fixation protein NifT
+nif	nifT	NC_012848	NC_012848 - Symbiosis Island	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	complement(5005..5217)	5005	5217	-	213	RLEG_RS24425	putative nitrogen fixation protein NifT
+nif	nifT	NC_014120	NC_014120 - Symbiosis Island 2	Paraburkholderia atlantica plasmid pBC201, complete sequence.	5072..5290	5072	5290	+	219	BC1002_RS34000	putative nitrogen fixation protein NifT
+nif	nifT	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(10260..10484)	10260	10484	-	225	BJ6T_RS38585	putative nitrogen fixation protein NifT
+nif	nifT	NC_019848	NC_019848 - Symbiosis Island 3	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	3729..3935	3729	3935	+	207	C770_RS40305	putative nitrogen fixation protein NifT
+nif	nifT	NZ_CP141049	NZ_CP141049 - Symbiosis Island 2	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	complement(1..213)	1	213	-	213	U0023_RS27335	putative nitrogen fixation protein NifT
+nif	nifT	NZ_HG938357	NZ_HG938357 - Symbiosis Island	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	4212..4448	4212	4448	+	237	RG1141_RS30370	putative nitrogen fixation protein NifT
+nif	nifU	NC_002678	NC_002678 - NifU family protein CDS	Mesorhizobium japonicum MAFF 303099, complete sequence.	1..570	1	570	+	570	MAFF_RS21780	NifU family protein
+nif	nifU	NC_007777	NC_007777 - NifU family protein CDS	Frankia casuarinae, complete sequence.	1..576	1	576	+	576	FRANCCI3_RS09760	NifU family protein
+nif	nifU	NC_008278	NC_008278 - NifU family protein CDS	Frankia alni ACN14a, complete sequence.	1..663	1	663	+	663	FRAAL_RS10470	NifU family protein
+nif	nifU	NC_009937	NC_009937 - Symbiosis Island 2	Azorhizobium caulinodans ORS 571, complete sequence.	1..285	1	285	+	285	AZC_RS17545	NifU family protein
+nif	nifU	NC_011894	NC_011894 - NifU family protein CDS	Methylobacterium nodulans ORS 2060, complete sequence.	1..564	1	564	+	564	MNOD_RS20855	NifU family protein
+nif	nifU	NC_012850	NC_012850 - NifU family protein CDS	Rhizobium leguminosarum bv. trifolii WSM1325, complete sequence.	1..567	1	567	+	567	RLEG_RS00180	NifU family protein
+nif	nifU	NC_015656	NC_015656 - NifU family protein CDS	Candidatus Protofrankia datiscae, complete sequence.	1..891	1	891	+	891	FSYMDG_RS02055	NifU family protein
+nif	nifU	NC_017249	NC_017249 - NifU family protein CDS	Bradyrhizobium japonicum USDA 6, complete sequence.	1..570	1	570	+	570	BJ6T_RS03935	NifU family protein
+nif	nifU	NC_019845	NC_019845 - NifU family protein CDS	Sinorhizobium meliloti GR4, complete sequence.	1..567	1	567	+	567	C770_RS02020	NifU family protein
+nif	nifU	NZ_CP104965	NZ_CP104965 - NifU family protein CDS	Devosia neptuniae strain A18/4-1 chromosome, complete genome.	1..567	1	567	+	567	N8A98_RS09140	NifU family protein
+nif	nifU	NZ_CP141048	NZ_CP141048 - NifU family protein CDS	Microvirga lotononidis strain HAMBI_3237 chromosome, complete genome.	1..561	1	561	+	561	U0023_RS08510	NifU family protein
+nif	nifU	NZ_HG938355	NZ_HG938355 - NifU family protein CDS	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 chromosome I, complete sequence.	1..567	1	567	+	567	RG1141_RS00180	NifU family protein
+nif	nifV	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(25498..26553)	25498	26553	-	1056	pRALTA_0383	Homocitrate synthase
+nif	nifV	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(11012..12214)	11012	12214	-	1203	FRANCCI3_RS22710	homocitrate synthase
+nif	nifV	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(11359..12576)	11359	12576	-	1218	FRAAL_RS29760	homocitrate synthase
+nif	nifV	NC_009937	NC_009937 - nifV CDS	Azorhizobium caulinodans ORS 571, complete sequence.	1..1200	1	1200	+	1200	AZC_RS17440	homocitrate synthase
+nif	nifV	NC_014120	NC_014120 - Symbiosis Island 2	Paraburkholderia atlantica plasmid pBC201, complete sequence.	complement(381..1520)	381	1520	-	1140	BC1002_RS33980	homocitrate synthase
+nif	nifV	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(10752..11918)	10752	11918	-	1167	FSYMDG_RS13855	homocitrate synthase
+nif	nifW	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(25051..25389)	25051	25389	-	339	pRALTA_0382	Nitrogen fixation accessory protein NifW
+nif	nifW	NC_002678	NC_002678 - Symbiosis Island 2	Mesorhizobium japonicum MAFF 303099, complete sequence.	complement(1..384)	1	384	-	384	MAFF_RS24015	nitrogenase stabilizing/protective protein NifW
+nif	nifW	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(1937..2392)	1937	2392	-	456	FRANCCI3_RS22665	nitrogenase-stabilizing/protective protein NifW
+nif	nifW	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(2189..2584)	2189	2584	-	396	FRAAL_RS29715	nitrogenase-stabilizing/protective protein NifW
+nif	nifW	NC_009937	NC_009937 - Symbiosis Island 3	Azorhizobium caulinodans ORS 571, complete sequence.	2540..2869	2540	2869	+	330	AZC_RS17725	nitrogenase stabilizing/protective protein NifW
+nif	nifW	NC_011894	NC_011894 - nifW CDS	Methylobacterium nodulans ORS 2060, complete sequence.	1..360	1	360	+	360	MNOD_RS18955	nitrogenase stabilizing/protective protein NifW
+nif	nifW	NC_014120	NC_014120 - Symbiosis Island 2	Paraburkholderia atlantica plasmid pBC201, complete sequence.	complement(1..339)	1	339	-	339	BC1002_RS33975	nitrogenase stabilizing/protective protein NifW
+nif	nifW	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(1970..2347)	1970	2347	-	378	FSYMDG_RS13810	nitrogenase-stabilizing/protective protein NifW
+nif	nifW	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(1..342)	1	342	-	342	BJ6T_RS38530	nitrogenase stabilizing/protective protein NifW
+nif	nifW	NZ_CP141049	NZ_CP141049 - nifW CDS	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	1..384	1	384	+	384	U0023_RS27440	nitrogenase stabilizing/protective protein NifW
+nif	nifX	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	19058..19744	19058	19744	+	687	pRALTA_0374	fusion of Protein nifX with DUF683 domain
+nif	nifX	NC_002678	NC_002678 - Symbiosis Island 3	Mesorhizobium japonicum MAFF 303099, complete sequence.	7086..7583	7086	7583	+	498	MAFF_RS24220	nitrogen fixation protein NifX
+nif	nifX	NC_002678	NC_002678 - Symbiosis Island 3	Mesorhizobium japonicum MAFF 303099, complete sequence.	7600..8079	7600	8079	+	480	MAFF_RS24225	NifX-associated nitrogen fixation protein
+nif	nifX	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(2645..3088)	2645	3088	-	444	FRANCCI3_RS22675	NifX-associated nitrogen fixation protein
+nif	nifX	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(3085..3519)	3085	3519	-	435	FRANCCI3_RS22680	nitrogen fixation protein NifX
+nif	nifX	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(2804..3247)	2804	3247	-	444	FRAAL_RS29725	NifX-associated nitrogen fixation protein
+nif	nifX	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(3244..3675)	3244	3675	-	432	FRAAL_RS29730	nitrogen fixation protein NifX
+nif	nifX	NC_009937	NC_009937 - Symbiosis Island 4	Azorhizobium caulinodans ORS 571, complete sequence.	complement(1..465)	1	465	-	465	AZC_RS05305	NifX-associated nitrogen fixation protein
+nif	nifX	NC_009937	NC_009937 - Symbiosis Island 4	Azorhizobium caulinodans ORS 571, complete sequence.	complement(475..870)	475	870	-	396	AZC_RS05310	nitrogen fixation protein NifX
+nif	nifX	NC_011894	NC_011894 - Symbiosis Island	Methylobacterium nodulans ORS 2060, complete sequence.	complement(1299..1781)	1299	1781	-	483	MNOD_RS18840	NifX-associated nitrogen fixation protein
+nif	nifX	NC_011894	NC_011894 - Symbiosis Island	Methylobacterium nodulans ORS 2060, complete sequence.	complement(1797..2288)	1797	2288	-	492	MNOD_RS18845	nitrogen fixation protein NifX
+nif	nifX	NC_014120	NC_014120 - Symbiosis Island	Paraburkholderia atlantica plasmid pBC201, complete sequence.	4849..5277	4849	5277	+	429	BC1002_RS33870	nitrogen fixation protein NifX
+nif	nifX	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(2540..3025)	2540	3025	-	486	FSYMDG_RS13820	NifX-associated nitrogen fixation protein
+nif	nifX	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(3022..3420)	3022	3420	-	399	FSYMDG_RS13825	nitrogen fixation protein NifX
+nif	nifX	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(16404..16868)	16404	16868	-	465	BJ6T_RS38625	NifX-associated nitrogen fixation protein
+nif	nifX	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(16875..17270)	16875	17270	-	396	BJ6T_RS38630	nitrogen fixation protein NifX
+nif	nifX	NC_019848	NC_019848 - Symbiosis Island 2	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	complement(1..498)	1	498	-	498	C770_RS40235	nitrogen fixation protein NifX
+nif	nifX	NZ_CP141049	NZ_CP141049 - Symbiosis Island	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	7076..7567	7076	7567	+	492	U0023_RS27215	nitrogen fixation protein NifX
+nif	nifX	NZ_CP141049	NZ_CP141049 - Symbiosis Island	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	7585..8064	7585	8064	+	480	U0023_RS27220	NifX-associated nitrogen fixation protein
+nif	nifX	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	12964..13461	12964	13461	+	498	RG1141_RS30330	nitrogen fixation protein NifX
+nif	nifZ	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	29009..29416	29009	29416	+	408	pRALTA_0386	nifZ nitrogen fixation protein
+nif	nifZ	NC_002678	NC_002678 - Symbiosis Island 1	Mesorhizobium japonicum MAFF 303099, complete sequence.	complement(210..536)	210	536	-	327	MAFF_RS23975	nitrogen fixation protein NifZ
+nif	nifZ	NC_007777	NC_007777 - Symbiosis Island	Frankia casuarinae, complete sequence.	complement(1581..1940)	1581	1940	-	360	FRANCCI3_RS22660	nitrogen fixation protein NifZ
+nif	nifZ	NC_008278	NC_008278 - Symbiosis Island	Frankia alni ACN14a, complete sequence.	complement(1542..2192)	1542	2192	-	651	FRAAL_RS29710	nitrogen fixation protein NifZ
+nif	nifZ	NC_009937	NC_009937 - Symbiosis Island 2	Azorhizobium caulinodans ORS 571, complete sequence.	6441..6746	6441	6746	+	306	AZC_RS17590	nitrogen fixation protein NifZ
+nif	nifZ	NC_009937	NC_009937 - Symbiosis Island 2	Azorhizobium caulinodans ORS 571, complete sequence.	6752..6991	6752	6991	+	240	AZC_RS17595	nitrogen fixation protein NifZ
+nif	nifZ	NC_011894	NC_011894 - Symbiosis Island 2	Methylobacterium nodulans ORS 2060, complete sequence.	4576..4881	4576	4881	+	306	MNOD_RS18925	nitrogen fixation protein NifZ
+nif	nifZ	NC_014120	NC_014120 - Symbiosis Island 2	Paraburkholderia atlantica plasmid pBC201, complete sequence.	4274..4744	4274	4744	+	471	BC1002_RS33995	nitrogen fixation protein NifZ
+nif	nifZ	NC_015656	NC_015656 - Symbiosis Island	Candidatus Protofrankia datiscae, complete sequence.	complement(1674..1970)	1674	1970	-	297	FSYMDG_RS13805	nitrogen fixation protein NifZ
+nif	nifZ	NC_017249	NC_017249 - Symbiosis Island	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(7213..7527)	7213	7527	-	315	BJ6T_RS47790	nitrogen fixation protein NifZ
+nif	nifZ	NZ_CP141049	NZ_CP141049 - Symbiosis Island 2	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	complement(210..536)	210	536	-	327	U0023_RS27340	nitrogen fixation protein NifZ
+nod	nodA	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(3209..3802)	3209	3802	-	594	pRALTA_0357	NodA N-acyltransferase
+nod	nodA	NC_002678	NC_002678 - Symbiosis Island 4	Mesorhizobium japonicum MAFF 303099, complete sequence.	1856..2449	1856	2449	+	594	MAFF_RS25210	NodA family N-acyltransferase
+nod	nodA	NC_009937	NC_009937 - Symbiosis Island	Azorhizobium caulinodans ORS 571, complete sequence.	1..591	1	591	+	591	AZC_RS19635	NodA family N-acyltransferase
+nod	nodA	NC_011894	NC_011894 - Symbiosis Island 3	Methylobacterium nodulans ORS 2060, complete sequence.	1..645	1	645	+	645	MNOD_RS18995	NodA family N-acyltransferase
+nod	nodA	NC_012848	NC_012848 - Symbiosis Island	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	1..591	1	591	+	591	RLEG_RS36275	NodA family N-acyltransferase
+nod	nodA	NC_014120	NC_014120 - Symbiosis Island 4	Paraburkholderia atlantica plasmid pBC201, complete sequence.	complement(2477..3067)	2477	3067	-	591	BC1002_RS33810	NodA family N-acyltransferase
+nod	nodA	NC_015656	NC_015656 - Symbiosis Island 2	Candidatus Protofrankia datiscae, complete sequence.	complement(1..582)	1	582	-	582	FSYMDG_RS10250	NodA family N-acyltransferase
+nod	nodA	NC_017249	NC_017249 - Symbiosis Island 2	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(13248..13880)	13248	13880	-	633	BJ6T_RS37650	NodA family N-acyltransferase
+nod	nodA	NC_019848	NC_019848 - Symbiosis Island 4	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	8421..9011	8421	9011	+	591	C770_RS40120	nodulation N-acyltransferase NodA
+nod	nodA	NZ_CP141049	NZ_CP141049 - Symbiosis Island 3	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	1..630	1	630	+	630	U0023_RS28460	NodA family N-acyltransferase
+nod	nodA	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	1158..1748	1158	1748	+	591	RG1141_RS31760	NodA family N-acyltransferase
+nod	nodB	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(8275..8985)	8275	8985	-	711	pRALTA_0363	NodB chitooligosaccharide deacetylase
+nod	nodB	NC_002678	NC_002678 - nodB CDS	Mesorhizobium japonicum MAFF 303099, complete sequence.	1..660	1	660	+	660	MAFF_RS25245	chitooligosaccharide deacetylase NodB
+nod	nodB	NC_011894	NC_011894 - Symbiosis Island 3	Methylobacterium nodulans ORS 2060, complete sequence.	642..1301	642	1301	+	660	MNOD_RS43615	chitooligosaccharide deacetylase NodB
+nod	nodB	NC_012848	NC_012848 - Symbiosis Island	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	588..1226	588	1226	+	639	RLEG_RS36280	chitooligosaccharide deacetylase NodB
+nod	nodB	NC_014120	NC_014120 - Symbiosis Island 4	Paraburkholderia atlantica plasmid pBC201, complete sequence.	complement(7669..8346)	7669	8346	-	678	BC1002_RS37150	chitooligosaccharide deacetylase NodB
+nod	nodB	NC_015656	NC_015656 - Symbiosis Island 2	Candidatus Protofrankia datiscae, complete sequence.	complement(741..1454)	741	1454	-	714	FSYMDG_RS10255	chitooligosaccharide deacetylase NodB
+nod	nodB	NC_015656	NC_015656 - Symbiosis Island 3	Candidatus Protofrankia datiscae, complete sequence.	1..852	1	852	+	852	FSYMDG_RS15220	chitooligosaccharide deacetylase NodB
+nod	nodB	NC_017249	NC_017249 - Symbiosis Island 2	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(12592..13251)	12592	13251	-	660	BJ6T_RS44355	chitooligosaccharide deacetylase NodB
+nod	nodB	NC_019848	NC_019848 - Symbiosis Island 4	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	9008..9661	9008	9661	+	654	C770_RS40125	chitooligosaccharide deacetylase NodB
+nod	nodB	NZ_CP141049	NZ_CP141049 - Symbiosis Island 3	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	627..1286	627	1286	+	660	U0023_RS28465	chitooligosaccharide deacetylase NodB
+nod	nodB	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	1745..2383	1745	2383	+	639	RG1141_RS31765	chitooligosaccharide deacetylase NodB
+nod	nodC	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(6510..7862)	6510	7862	-	1353	pRALTA_0362	NodC N-acetylglucosaminyltransferase
+nod	nodC	NC_002678	NC_002678 - Symbiosis Island 4	Mesorhizobium japonicum MAFF 303099, complete sequence.	2577..3851	2577	3851	+	1275	MAFF_RS25215	chitooligosaccharide synthase NodC
+nod	nodC	NC_009937	NC_009937 - Symbiosis Island	Azorhizobium caulinodans ORS 571, complete sequence.	1249..2442	1249	2442	+	1194	AZC_RS19625	chitooligosaccharide synthase NodC
+nod	nodC	NC_011894	NC_011894 - Symbiosis Island 3	Methylobacterium nodulans ORS 2060, complete sequence.	1317..2771	1317	2771	+	1455	MNOD_RS43620	chitooligosaccharide synthase NodC
+nod	nodC	NC_012848	NC_012848 - Symbiosis Island	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	1247..2527	1247	2527	+	1281	RLEG_RS24405	chitooligosaccharide synthase NodC
+nod	nodC	NC_014120	NC_014120 - Symbiosis Island 4	Paraburkholderia atlantica plasmid pBC201, complete sequence.	complement(5894..7237)	5894	7237	-	1344	BC1002_RS33830	chitooligosaccharide synthase NodC
+nod	nodC	NC_015656	NC_015656 - Symbiosis Island 3	Candidatus Protofrankia datiscae, complete sequence.	871..2184	871	2184	+	1314	FSYMDG_RS15225	chitooligosaccharide synthase NodC
+nod	nodC	NC_017249	NC_017249 - Symbiosis Island 2	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(11120..12577)	11120	12577	-	1458	BJ6T_RS44350	chitooligosaccharide synthase NodC
+nod	nodC	NC_019848	NC_019848 - Symbiosis Island 4	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	9676..10956	9676	10956	+	1281	C770_RS40130	chitooligosaccharide synthase NodC
+nod	nodC	NZ_CP141049	NZ_CP141049 - Symbiosis Island 3	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	1302..2585	1302	2585	+	1284	U0023_RS28470	chitooligosaccharide synthase NodC
+nod	nodC	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	2407..3708	2407	3708	+	1302	RG1141_RS30290	chitooligosaccharide synthase NodC
+nod	nodD	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	9161..10093	9161	10093	+	933	pRALTA_0364	NodD transcriptional regulator; lysR family
+nod	nodH	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(3911..4657)	3911	4657	-	747	pRALTA_0359	NodH sulfotransferase
+nod	nodI	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(5532..6446)	5532	6446	-	915	pRALTA_0361	Nod factor export ATP-binding protein I (Nodulation ATP-binding protein I)
+nod	nodI	NC_002678	NC_002678 - Symbiosis Island 4	Mesorhizobium japonicum MAFF 303099, complete sequence.	3901..>4588	3901	4588	+	688	MAFF_RS25220	nodulation factor ABC transporter ATP-binding protein NodI
+nod	nodI	NC_011894	NC_011894 - Symbiosis Island 3	Methylobacterium nodulans ORS 2060, complete sequence.	3180..4094	3180	4094	+	915	MNOD_RS19005	nodulation factor ABC transporter ATP-binding protein NodI
+nod	nodI	NC_012848	NC_012848 - Symbiosis Island	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	2558..3586	2558	3586	+	1029	RLEG_RS24410	nodulation factor ABC transporter ATP-binding protein NodI
+nod	nodI	NC_014120	NC_014120 - Symbiosis Island 4	Paraburkholderia atlantica plasmid pBC201, complete sequence.	complement(4924..5916)	4924	5916	-	993	BC1002_RS33825	nodulation factor ABC transporter ATP-binding protein NodI
+nod	nodI	NC_017249	NC_017249 - Symbiosis Island 2	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(7919..8839)	7919	8839	-	921	BJ6T_RS37625	nodulation factor ABC transporter ATP-binding protein NodI
+nod	nodI	NC_019848	NC_019848 - Symbiosis Island 4	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	10964..12031	10964	12031	+	1068	C770_RS40135	nodulation factor ABC transporter ATP-binding protein NodI
+nod	nodI	NZ_CP141049	NZ_CP141049 - Symbiosis Island 3	Microvirga lotononidis strain HAMBI_3237 plasmid unnamed1, complete sequence.	2650..3657	2650	3657	+	1008	U0023_RS28475	nodulation factor ABC transporter ATP-binding protein NodI
+nod	nodI	NZ_HG938357	NZ_HG938357 - Symbiosis Island 2	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	3711..4754	3711	4754	+	1044	RG1141_RS30295	nodulation factor ABC transporter ATP-binding protein NodI
+nod	nodJ	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(4740..5528)	4740	5528	-	789	pRALTA_0360	NodJ membrane transport nodulation protein, ABC-type transporter
+nod	nodL	NC_019848	NC_019848 - Symbiosis Island 5	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	complement(3489..4040)	3489	4040	-	552	C770_RS40395	nodulation O-acetyltransferase NodL
+nod	nodQ	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(1..600)	1	600	-	600	pRALTA_0354	nodulation protein, Adenylyl-sulfate kinase (APS kinase) (ATP adenosine-5'-phosphosulfate 3'-phosphotransferase)
+nod	nodQ	NC_019848	NC_019848 - Symbiosis Island 4	Sinorhizobium meliloti GR4 plasmid pRmeGR4c, complete sequence.	complement(14377..16302)	14377	16302	-	1926	C770_RS40155	bifunctional sulfate adenylyltransferase/adenylyl-sulfate kinase NodQ
+nod	nodS	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(2495..3118)	2495	3118	-	624	pRALTA_0356	NodS methyl transferase
+nod	nodS	NC_002678	NC_002678 - Symbiosis Island 4	Mesorhizobium japonicum MAFF 303099, complete sequence.	1..606	1	606	+	606	MAFF_RS25205	nodulation methyltransferase NodS
+nod	nodS	NC_014120	NC_014120 - Symbiosis Island 4	Paraburkholderia atlantica plasmid pBC201, complete sequence.	complement(1761..2396)	1761	2396	-	636	BC1002_RS33805	nodulation methyltransferase NodS
+nod	nodS	NC_017249	NC_017249 - Symbiosis Island 2	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(10564..11193)	10564	11193	-	630	BJ6T_RS37635	nodulation methyltransferase NodS
+nod	nodU	CU633751	CU633751 - Symbiosis Island	Cupriavidus taiwanensis str. LMG19424 plasmid pRALTA, complete genome.	complement(759..2480)	759	2480	-	1722	pRALTA_0355	NodU Carbamoyltransferase
+nod	nodU	NC_009937	NC_009937 - Symbiosis Island	Azorhizobium caulinodans ORS 571, complete sequence.	3129..4811	3129	4811	+	1683	AZC_RS19615	nodulation protein U
+nod	nodU	NC_014120	NC_014120 - Symbiosis Island 4	Paraburkholderia atlantica plasmid pBC201, complete sequence.	complement(1..1746)	1	1746	-	1746	BC1002_RS33800	nodulation protein NodU
+nod	nodU	NC_017249	NC_017249 - Symbiosis Island 2	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(8841..10550)	8841	10550	-	1710	BJ6T_RS37630	nodulation protein NodU
+nod	nodU	NZ_HG938357	NZ_HG938357 - Symbiosis Island	Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 plasmid pHAMBI1141b, complete sequence.	7008..8720	7008	8720	+	1713	RG1141_RS30380	nodulation protein NodU
+nod	nodX	NC_012848	NC_012848 - nodX CDS	Rhizobium leguminosarum bv. trifolii WSM1325 plasmid pR132501, complete sequence.	1..1104	1	1104	+	1104	RLEG_RS24360	nodulation protein NodX
+nod	nodZ	NC_002678	NC_002678 - nodulation protein NodZ CDS	Mesorhizobium japonicum MAFF 303099, complete sequence.	1..990	1	990	+	990	MAFF_RS23945	nodulation protein NodZ
+nod	nodZ	NC_002678	NC_002678 - nodulation protein NodZ CDS	Mesorhizobium japonicum MAFF 303099, complete sequence.	1..111	1	111	+	111	MAFF_RS38180	nodulation protein NodZ
+nod	nodZ	NC_009937	NC_009937 - Symbiosis Island	Azorhizobium caulinodans ORS 571, complete sequence.	6539..7525	6539	7525	+	987	AZC_RS25235	nodulation protein NodZ
+nod	nodZ	NC_017249	NC_017249 - Symbiosis Island 2	Bradyrhizobium japonicum USDA 6, complete sequence.	complement(3567..4679)	3567	4679	-	1113	BJ6T_RS37605	nodulation protein NodZ

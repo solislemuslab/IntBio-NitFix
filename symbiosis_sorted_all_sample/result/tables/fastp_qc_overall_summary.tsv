@@ -1,0 +1,13 @@
+metric	value
+manifest_samples	2907
+fastp_json_ok	2907
+fastp_json_missing	0
+fastp_json_parse_failed	0
+mean_reads_retained_percent	96.07
+mean_bases_retained_percent	94.98
+mean_q20_before_percent	98.63
+mean_q20_after_percent	99.65
+mean_q30_before_percent	95.40
+mean_q30_after_percent	97.67
+mean_gc_before_percent	62.18
+mean_gc_after_percent	62.02

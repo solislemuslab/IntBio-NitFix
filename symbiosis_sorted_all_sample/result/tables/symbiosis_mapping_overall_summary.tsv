@@ -1,0 +1,10 @@
+metric	value
+manifest_samples	2907
+flagstat_ok	2907
+flagstat_missing_or_failed	0
+mc_control_samples	2
+mean_mapped_percent	94.52
+median_mapped_percent	95.11
+mean_properly_paired_percent	87.62
+median_properly_paired_percent	88.92
+mean_singletons_percent	5.27

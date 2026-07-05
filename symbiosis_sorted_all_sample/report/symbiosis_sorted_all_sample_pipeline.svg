@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1550" viewBox="0 0 1700 1550">
+  <rect width="1700" height="1550" fill="#ffffff"/>
+  <style>
+    .title { font: 700 38px Arial, sans-serif; fill:#172033; }
+    .subtitle { font: 400 20px Arial, sans-serif; fill:#344155; }
+    .section { font: 700 25px Arial, sans-serif; fill:#172033; }
+    .box { fill:#f7fbff; stroke:#8db4e8; stroke-width:2; rx:8; }
+    .green { fill:#effaf3; stroke:#79bd8f; }
+    .orange { fill:#fff7e7; stroke:#d9a441; }
+    .purple { fill:#f5edff; stroke:#a779e2; }
+    .teal { fill:#effafa; stroke:#70aeb1; }
+    .blue { fill:#eef6ff; stroke:#79a8e8; }
+    .num { fill:#20304d; }
+    .numtext { font: 700 17px Arial, sans-serif; fill:#ffffff; }
+    .boxtitle { font: 700 20px Arial, sans-serif; fill:#172033; }
+    .body { font: 400 15px Arial, sans-serif; fill:#344155; }
+    .small { font: 400 13px Arial, sans-serif; fill:#344155; }
+    .arrow { stroke:#6d7a8c; stroke-width:4; fill:none; marker-end:url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#6d7a8c"/>
+    </marker>
+  </defs>
+
+  <text x="55" y="60" class="title">symbiosis_sorted_all_sample Functional-Gene Pipeline</text>
+  <text x="55" y="92" class="subtitle">Global V2 analysis across all sequencing folders. Dates are sequencing batches, not biological time points.</text>
+
+  <rect x="45" y="125" width="1610" height="145" class="box blue"/>
+  <text x="75" y="165" class="section">Input and Goal</text>
+  <rect x="75" y="190" width="330" height="55" class="box"/>
+  <text x="95" y="214" class="boxtitle">Input 1: reads</text>
+  <text x="95" y="235" class="body">2,907 unique symbiosis-capture samples</text>
+  <rect x="465" y="190" width="330" height="55" class="box"/>
+  <text x="485" y="214" class="boxtitle">Input 2: reference FASTA</text>
+  <text x="485" y="235" class="body">symbiosis_islands.fasta provided by Ryan</text>
+  <rect x="855" y="190" width="330" height="55" class="box"/>
+  <text x="875" y="214" class="boxtitle">Input 3: annotation</text>
+  <text x="875" y="235" class="body">GenBank + nif/nod gene list provided by Ryan</text>
+  <rect x="1245" y="190" width="330" height="55" class="box"/>
+  <text x="1265" y="214" class="boxtitle">Goal</text>
+  <text x="1265" y="235" class="body">Build global nifH phylogenies with metadata</text>
+
+  <path d="M 405 218 L 460 218" class="arrow"/>
+  <path d="M 795 218 L 850 218" class="arrow"/>
+  <path d="M 1185 218 L 1240 218" class="arrow"/>
+
+  <text x="60" y="325" class="section">A. Read Processing and Mapping</text>
+  <rect x="60" y="355" width="500" height="105" class="box green"/>
+  <circle cx="92" cy="390" r="22" class="num"/><text x="86" y="397" class="numtext">1</text>
+  <text x="125" y="386" class="boxtitle">Create global manifest</text>
+  <text x="125" y="410" class="body">Four sequencing folders; remove duplicate TALL-82-1.</text>
+  <text x="125" y="432" class="body">Result: 2,907 unique samples; MC-1 and MC-2 retained.</text>
+  <rect x="600" y="355" width="500" height="105" class="box green"/>
+  <circle cx="632" cy="390" r="22" class="num"/><text x="626" y="397" class="numtext">2</text>
+  <text x="665" y="386" class="boxtitle">Trim reads with fastp</text>
+  <text x="665" y="410" class="body">Remove adapters, low quality, poly-G/poly-X, short reads.</text>
+  <text x="665" y="432" class="body">Result: 2,907 completed paired samples.</text>
+  <rect x="1140" y="355" width="500" height="105" class="box orange"/>
+  <circle cx="1172" cy="390" r="22" class="num"/><text x="1166" y="397" class="numtext">3</text>
+  <text x="1205" y="386" class="boxtitle">Check trimming quality</text>
+  <text x="1205" y="410" class="body">Mean reads retained 96.07%; Q30 95.40% to 97.67%.</text>
+  <text x="1205" y="432" class="body">Result: all 2,907 fastp JSON files parsed.</text>
+  <path d="M 560 408 L 595 408" class="arrow"/>
+  <path d="M 1100 408 L 1135 408" class="arrow"/>
+
+  <rect x="330" y="500" width="500" height="105" class="box green"/>
+  <circle cx="362" cy="535" r="22" class="num"/><text x="356" y="542" class="numtext">4</text>
+  <text x="395" y="531" class="boxtitle">Map reads to symbiosis reference</text>
+  <text x="395" y="555" class="body">BWA maps trimmed P1/P2 reads to symbiosis_islands.fasta.</text>
+  <text x="395" y="577" class="body">Result: 2,907 BAM files.</text>
+  <rect x="870" y="500" width="500" height="105" class="box orange"/>
+  <circle cx="902" cy="535" r="22" class="num"/><text x="896" y="542" class="numtext">5</text>
+  <text x="935" y="531" class="boxtitle">Check mapping quality</text>
+  <text x="935" y="555" class="body">samtools flagstat summaries across all BAM files.</text>
+  <text x="935" y="577" class="body">Mean mapped 94.52%; mean properly paired 87.62%.</text>
+  <path d="M 830 553 L 865 553" class="arrow"/>
+
+  <text x="60" y="680" class="section">B. Target Discovery, Controls, and Coverage</text>
+  <rect x="60" y="710" width="500" height="125" class="box purple"/>
+  <circle cx="92" cy="745" r="22" class="num"/><text x="86" y="752" class="numtext">6</text>
+  <text x="125" y="741" class="boxtitle">Extract central nif/nod targets</text>
+  <text x="125" y="765" class="body">Use GenBank annotation to extract central nif/nod gene regions.</text>
+  <text x="125" y="787" class="body">Result: 231 target sequences, 169 nif + 62 nod.</text>
+  <text x="125" y="809" class="body">These are target references, not sample reads.</text>
+  <rect x="600" y="710" width="500" height="125" class="box orange"/>
+  <circle cx="632" cy="745" r="22" class="num"/><text x="626" y="752" class="numtext">7</text>
+  <text x="665" y="741" class="boxtitle">Check MC negative controls</text>
+  <text x="665" y="765" class="body">Map MC-1 and MC-2 to extracted nif/nod targets.</text>
+  <text x="665" y="787" class="body">MC mapped 34.29% and 29.62%; use as background QC.</text>
+  <rect x="1140" y="710" width="500" height="125" class="box purple"/>
+  <circle cx="1172" cy="745" r="22" class="num"/><text x="1166" y="752" class="numtext">8</text>
+  <text x="1205" y="741" class="boxtitle">Match targets back to original reference</text>
+  <text x="1205" y="765" class="body">Locate extracted targets in symbiosis_islands.fasta.</text>
+  <text x="1205" y="787" class="body">Result: all 231 targets matched; 233 exact locations.</text>
+  <path d="M 560 772 L 595 772" class="arrow"/>
+  <path d="M 1100 772 L 1135 772" class="arrow"/>
+
+  <rect x="330" y="875" width="500" height="125" class="box purple"/>
+  <circle cx="362" cy="910" r="22" class="num"/><text x="356" y="917" class="numtext">9</text>
+  <text x="395" y="906" class="boxtitle">Measure target coverage</text>
+  <text x="395" y="930" class="body">Use existing BAM files and target coordinates.</text>
+  <text x="395" y="952" class="body">Result: 677,331 sample-target rows plus header.</text>
+  <text x="395" y="974" class="body">Metrics: covered bases, percent covered, mean depth.</text>
+  <rect x="870" y="875" width="500" height="125" class="box purple"/>
+  <circle cx="902" cy="910" r="22" class="num"/><text x="891" y="917" class="numtext">10</text>
+  <text x="935" y="906" class="boxtitle">Summarize coverage by groups</text>
+  <text x="935" y="930" class="body">Compare No, Rh, Ro, MC across multiple thresholds.</text>
+  <text x="935" y="952" class="body">At 80%/10X: 99.8% No, 99.0% Rh, 99.1% Ro</text>
+  <text x="935" y="974" class="body">had at least one good target.</text>
+  <path d="M 830 938 L 865 938" class="arrow"/>
+
+  <rect x="600" y="1040" width="500" height="125" class="box purple"/>
+  <circle cx="632" cy="1075" r="22" class="num"/><text x="621" y="1082" class="numtext">11</text>
+  <text x="665" y="1071" class="boxtitle">Rank targets with MC-aware filtering</text>
+  <text x="665" y="1095" class="body">Select strong biological targets with low MC background.</text>
+  <text x="665" y="1117" class="body">Primary clean nifH set: ref52, ref56, ref60, ref62, ref63.</text>
+
+  <text x="60" y="1235" class="section">C. Multi-copy-aware nifH Tree Building</text>
+  <rect x="60" y="1265" width="390" height="125" class="box teal"/>
+  <circle cx="92" cy="1300" r="22" class="num"/><text x="81" y="1307" class="numtext">12</text>
+  <text x="125" y="1296" class="boxtitle">Extract nifH consensus sequences</text>
+  <text x="125" y="1320" class="body">One sample can contribute multiple target-specific sequences.</text>
+  <text x="125" y="1342" class="body">Strict: 1,802 single-dominant sequences.</text>
+  <text x="125" y="1364" class="body">Mixed-aware: 4,212 IUPAC sequences.</text>
+  <rect x="480" y="1265" width="390" height="125" class="box teal"/>
+  <circle cx="512" cy="1300" r="22" class="num"/><text x="501" y="1307" class="numtext">13</text>
+  <text x="545" y="1296" class="boxtitle">Align with MAFFT</text>
+  <text x="545" y="1320" class="body">Strict clean5 alignment: 1,802 sequences.</text>
+  <text x="545" y="1342" class="body">Alignment length: 1,061 columns.</text>
+  <rect x="900" y="1265" width="390" height="125" class="box teal"/>
+  <circle cx="932" cy="1300" r="22" class="num"/><text x="921" y="1307" class="numtext">14</text>
+  <text x="965" y="1296" class="boxtitle">Build tree with IQ-TREE</text>
+  <text x="965" y="1320" class="body">Maximum likelihood, ModelFinder, UFBoot.</text>
+  <text x="965" y="1342" class="body">Strict model: GTR+F+R9.</text>
+  <rect x="1320" y="1265" width="320" height="125" class="box teal"/>
+  <circle cx="1352" cy="1300" r="22" class="num"/><text x="1341" y="1307" class="numtext">15</text>
+  <text x="1385" y="1296" class="boxtitle">Visualize in iTOL</text>
+  <text x="1385" y="1320" class="body">Color by sample type and target reference.</text>
+  <text x="1385" y="1342" class="body">Report-ready strict tree figure.</text>
+  <path d="M 450 1328 L 475 1328" class="arrow"/>
+  <path d="M 870 1328 L 895 1328" class="arrow"/>
+  <path d="M 1290 1328 L 1315 1328" class="arrow"/>
+</svg>

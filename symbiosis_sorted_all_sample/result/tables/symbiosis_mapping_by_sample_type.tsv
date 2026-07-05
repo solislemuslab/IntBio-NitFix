@@ -1,0 +1,5 @@
+sample_type	samples	flagstat_ok	mean_mapped_percent	median_mapped_percent	mean_properly_paired_percent	median_properly_paired_percent
+MC	2	2	85.34	85.34	70.87	70.87
+No	952	952	95.43	96.07	89.50	90.88
+Rh	989	989	93.63	94.26	85.79	87.42
+Ro	964	964	94.56	95.09	87.69	88.91

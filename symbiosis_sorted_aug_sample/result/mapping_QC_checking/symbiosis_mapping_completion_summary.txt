@@ -1,0 +1,25 @@
+===== Mapping completion summary =====
+
+BAM files:
+1116
+
+BAM index files:
+1116
+
+Flagstat reports:
+1116
+
+Failed samples:
+0
+
+Missing P2:
+0
+
+Zero-size BAM files:
+0
+
+Zero-size BAM index files:
+0
+
+BLAN control BAM files:
+12

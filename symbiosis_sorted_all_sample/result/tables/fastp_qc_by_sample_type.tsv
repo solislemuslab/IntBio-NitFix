@@ -1,0 +1,5 @@
+sample_type	manifest_samples	fastp_json_ok	fastp_json_missing	mean_reads_retained_percent	mean_q30_before_percent	mean_q30_after_percent
+MC	2	2	0	96.35	96.43	98.11
+No	952	952	0	96.39	95.70	97.78
+Rh	989	989	0	95.91	95.40	97.63
+Ro	964	964	0	95.92	95.11	97.60

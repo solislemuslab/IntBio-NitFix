@@ -1,0 +1,15 @@
+target_id	ref	classification	No_good_percent	Rh_good_percent	Ro_good_percent	MC_good_percent	mean_biological_good_percent	max_biological_good_percent	min_biological_good_percent	biological_groups_ge_50	biological_groups_ge_25	mc_clean	S1_all_14_nifH	S2_mean_bio_ge_50_and_MC0	S3_any_bio_ge_50_and_MC0	S4_all_three_bio_ge_25_and_MC0	S5_step10_promising_MC_aware	S6_recommended_first_pass
+nifH|CU633751|CU633751_-_Symbiosis_Island|ref51	ref51	LOW_OR_LIMITED_SIGNAL	2.1	1.42	1.45	0	1.66	2.10	1.42	0	0	yes	keep	drop	drop	drop	drop	drop
+nifH|NC_002678|NC_002678_-_Symbiosis_Island_3|ref52	ref52	PROMISING_MC_AWARE	25.63	14.66	13.69	0	17.99	25.63	13.69	0	1	yes	keep	drop	drop	drop	keep	keep
+nifH|NC_007777|NC_007777_-_Symbiosis_Island|ref53	ref53	LOW_OR_LIMITED_SIGNAL	14.81	4.85	3.22	0	7.63	14.81	3.22	0	0	yes	keep	drop	drop	drop	drop	drop
+nifH|NC_008278|NC_008278_-_Symbiosis_Island|ref54	ref54	BIOLOGICAL_SIGNAL_BUT_MC_BACKGROUND	47.48	34.38	33.82	100	38.56	47.48	33.82	0	3	no	keep	drop	drop	drop	drop	drop
+nifH|NC_009937|NC_009937_-_Symbiosis_Island_3|ref55	ref55	BIOLOGICAL_SIGNAL_BUT_MC_BACKGROUND	63.87	62.59	51.45	50	59.30	63.87	51.45	3	3	no	keep	drop	drop	drop	drop	drop
+nifH|NC_009937|NC_009937_-_Symbiosis_Island_4|ref56	ref56	PROMISING_MC_AWARE	70.48	69.77	59.23	0	66.49	70.48	59.23	3	3	yes	keep	keep	keep	keep	keep	keep
+nifH|NC_011894|NC_011894_-_Symbiosis_Island|ref57	ref57	LOW_OR_LIMITED_SIGNAL	0.53	1.82	1.14	0	1.16	1.82	0.53	0	0	yes	keep	drop	drop	drop	drop	drop
+nifH|NC_012848|NC_012848_-_Symbiosis_Island_2|ref58	ref58	LOW_OR_LIMITED_SIGNAL	4.83	4.15	4.05	0	4.34	4.83	4.05	0	0	yes	keep	drop	drop	drop	drop	drop
+nifH|NC_014120|NC_014120_-_Symbiosis_Island_3|ref59	ref59	LOW_OR_LIMITED_SIGNAL	1.47	0.71	0.83	0	1.00	1.47	0.71	0	0	yes	keep	drop	drop	drop	drop	drop
+nifH|NC_015656|NC_015656_-_Symbiosis_Island|ref60	ref60	PROMISING_MC_AWARE	13.13	8.49	8.09	0	9.90	13.13	8.09	0	0	yes	keep	drop	drop	drop	keep	keep
+nifH|NC_017249|NC_017249_-_Symbiosis_Island|ref61	ref61	BIOLOGICAL_SIGNAL_BUT_MC_BACKGROUND	69.85	56.02	55.5	100	60.46	69.85	55.50	3	3	no	keep	drop	drop	drop	drop	drop
+nifH|NC_019848|NC_019848_-_Symbiosis_Island_2|ref62	ref62	PROMISING_MC_AWARE	11.66	9.81	9.44	0	10.30	11.66	9.44	0	0	yes	keep	drop	drop	drop	keep	keep
+nifH|NZ_CP141049|NZ_CP141049_-_Symbiosis_Island|ref63	ref63	PROMISING_MC_AWARE	48.21	37.71	35.37	0	40.43	48.21	35.37	0	3	yes	keep	drop	drop	keep	keep	keep
+nifH|NZ_HG938357|NZ_HG938357_-_Symbiosis_Island_2|ref64	ref64	NOT_SUPPORTED	0	0	0	0	0.00	0.00	0.00	0	0	yes	keep	drop	drop	drop	drop	drop

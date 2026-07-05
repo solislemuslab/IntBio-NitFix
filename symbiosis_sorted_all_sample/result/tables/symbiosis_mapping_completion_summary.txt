@@ -1,0 +1,27 @@
+Mapping completion summary
+==========================
+
+Expected samples from manifest:
+2907
+
+BAM files:
+2907
+
+BAM index files:
+2907
+
+Flagstat reports:
+2907
+
+Idxstats reports:
+2907
+
+Zero-size BAM files:
+0
+
+Zero-size BAM index files:
+0
+
+Mapping manifest status counts:
+      2 already_completed
+   2905 completed

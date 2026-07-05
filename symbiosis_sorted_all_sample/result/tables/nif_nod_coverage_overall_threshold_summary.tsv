@@ -1,0 +1,17 @@
+threshold	min_percent_covered	min_mean_depth	sample_group	samples	samples_with_any_good_target	samples_with_any_good_nif_target	samples_with_any_good_nod_target	samples_with_multi_target_signal_any_gene
+pct80_depth10	80.0	10.0	MC	2	2	2	2	2
+pct80_depth10	80.0	10.0	No	952	950	950	761	942
+pct80_depth10	80.0	10.0	Rh	989	979	978	576	920
+pct80_depth10	80.0	10.0	Ro	964	955	954	532	882
+pct70_depth10	70.0	10.0	MC	2	2	2	2	2
+pct70_depth10	70.0	10.0	No	952	950	950	779	945
+pct70_depth10	70.0	10.0	Rh	989	981	981	651	934
+pct70_depth10	70.0	10.0	Ro	964	955	954	590	901
+pct70_depth5	70.0	5.0	MC	2	2	2	2	2
+pct70_depth5	70.0	5.0	No	952	952	952	833	952
+pct70_depth5	70.0	5.0	Rh	989	987	987	721	971
+pct70_depth5	70.0	5.0	Ro	964	963	963	694	940
+pct50_depth5	50.0	5.0	MC	2	2	2	2	2
+pct50_depth5	50.0	5.0	No	952	952	952	871	952
+pct50_depth5	50.0	5.0	Rh	989	987	987	835	975
+pct50_depth5	50.0	5.0	Ro	964	963	963	785	949

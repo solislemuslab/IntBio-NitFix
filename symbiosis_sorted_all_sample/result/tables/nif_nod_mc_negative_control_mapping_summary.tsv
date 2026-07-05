@@ -1,0 +1,3 @@
+sample	total_reads	mapped_reads	mapped_percent	properly_paired	properly_paired_percent	top_target	top_target_mapped_reads
+MC-1	113122	38791	34.29	32988	29.18	nifA|NC_009937|NC_009937_-_nifA_CDS|ref4	13450
+MC-2	51021	15113	29.62	12360	24.24	nifA|NC_009937|NC_009937_-_nifA_CDS|ref4	3873
