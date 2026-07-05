@@ -75,6 +75,30 @@ Other targets, including ref55, ref61, and ref54, had strong biological coverage
 
 The earlier pilot produced one dominant nifH consensus per sample for one reference target. V2 changes that assumption. For the five clean nifH targets, each sample can contribute one target-specific nifH consensus sequence for each target that passes QC. This means one sample can appear multiple times in the tree, for example as `sample|ref56|pass_single_dominant` and `sample|ref63|pass_single_dominant`.
 
+I used a pileup-based, multi-copy-aware approach. For each selected nifH reference region, we examined the aligned reads in each BAM file base-by-base. At each nucleotide position, we counted the number of reads supporting A, C, G, or T. If one nucleotide clearly dominated, we wrote that base into the dominant consensus sequence. If more than one nucleotide was strongly represented, we flagged the position as mixed and wrote an IUPAC ambiguity code in the mixed-aware sequence.
+For example:
+```
+Reads at one position:
+A A A A G G
+
+Dominant consensus: A
+IUPAC mixed-aware consensus: R
+```
+Here, R means the position contains evidence for both A and G. This lets us keep information about possible multiple nifH variants in the same sample instead of forcing every sample into exactly one gene copy.
+IUPAC ambiguity codes
+```
+R = A or G
+Y = C or T
+S = G or C
+W = A or T
+K = G or T
+M = A or C
+B = C or G or T
+D = A or G or T
+H = A or C or T
+V = A or C or G
+N = unknown / no confident base
+```
 This approach directly addresses the concern that biological samples may contain more than one nitrogen-fixing organism. The V2 extraction generated:
 
 | Sequence set | Description | Count |
