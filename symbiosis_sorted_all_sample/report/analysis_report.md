@@ -16,7 +16,7 @@ May2025:    1,536 samples, 27 site groups, including MC-1 and MC-2
 August2025: 1,116 samples, 28 site groups
 December2025: 234 samples, 13 site groups
 ```
-I also found only three sample names that appear in more than one sequencing folder: TALL-82-1-No, TALL-82-1-Rh, and TALL-82-1-Ro, which appear in both August2025 and December2025. We kept the December2025 version and excluded the August2025 duplicat.
+I also found only three sample names that appear in more than one sequencing folder: TALL-82-1-No, TALL-82-1-Rh, and TALL-82-1-Ro, which appear in both August2025 and December2025. I kept the December2025 version and excluded the August2025 duplicat.
 
 ## Main Inputs
 
@@ -76,7 +76,7 @@ Other targets, including ref55, ref61, and ref54, had strong biological coverage
 
 The earlier pilot produced one dominant nifH consensus per sample for one reference target. V2 changes that assumption. For the five clean nifH targets, each sample can contribute one target-specific nifH consensus sequence for each target that passes QC. This means one sample can appear multiple times in the tree, for example as `sample|ref56|pass_single_dominant` and `sample|ref63|pass_single_dominant`.
 
-I used a pileup-based, multi-copy-aware approach. For each selected nifH reference region, we examined the aligned reads in each BAM file base-by-base. At each nucleotide position, we counted the number of reads supporting A, C, G, or T. If one nucleotide clearly dominated, we wrote that base into the dominant consensus sequence. If more than one nucleotide was strongly represented, we flagged the position as mixed and wrote an IUPAC ambiguity code in the mixed-aware sequence.
+I used a pileup-based, multi-copy-aware approach. For each selected nifH reference region, I examined the aligned reads in each BAM file base-by-base. At each nucleotide position, I counted the number of reads supporting A, C, G, or T. If one nucleotide clearly dominated, I wrote that base into the dominant consensus sequence. If more than one nucleotide was strongly represented, I flagged the position as mixed and wrote an IUPAC ambiguity code in the mixed-aware sequence.
 For example:
 ```
 Reads at one position:
