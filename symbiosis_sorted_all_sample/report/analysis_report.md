@@ -28,7 +28,7 @@ The analysis used symbiosis-capture reads from four sequencing batches and refer
 | Annotation | `symbiosis_islands.gb` and gene list, provided by Ryan |
 | Sample groups | 952 No, 989 Rh, 964 Ro, and 2 MC samples |
 
-The duplicate sample names `TALL-82-1-No`, `TALL-82-1-Rh`, and `TALL-82-1-Ro` appeared in both August2025 and December2025. The December2025 copies were retained and the August2025 copies were excluded from the clean manifest.
+
 
 ## Read Cleaning and Mapping QC
 
