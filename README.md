@@ -15,6 +15,6 @@ Each analysis folder has the same structure:
 - `code/`: scripts needed to reproduce the pipeline steps.
 
 The all-sample V2 analysis treats sequencing dates as batches rather than biological time points and uses MC-1/MC-2 as mock-community negative/background controls.
-=======
+
 # IntBio-NitFix
 
