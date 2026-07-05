@@ -120,6 +120,7 @@ ref60                      4.3528%             0.3047x         38 / 873         
 ref62                      99.8881%            15.3579x        893 / 894                  PASS
 ref63                      97.5391%            54.4038x        872 / 894                  PASS
 ```
+
 ```
 Sample: JERC-54-2-Rh
 Sample type: Rh
@@ -146,6 +147,7 @@ For example, sample JERC-54-2-Rh passed four of the five selected nifH targets: 
 
 Next Step:
 Across the five selected nifH targets, 2,428 unique samples had at least one target with >=80% coverage, >=10x mean depth, and <=20% missing consensus bases.
+
 ````
 2,428 unique samples
         |
