@@ -148,7 +148,7 @@ For example, sample JERC-54-2-Rh passed four of the five selected nifH targets: 
 Next Step:
 Across the five selected nifH targets, 2,428 unique samples had at least one target with >=80% coverage, >=10x mean depth, and <=20% missing consensus bases.
 
-````
+```
 2,428 unique samples
         |
         | some samples pass 1 target
