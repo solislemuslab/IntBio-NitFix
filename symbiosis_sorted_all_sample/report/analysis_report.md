@@ -89,8 +89,8 @@ The conceptual figure [nifH_clean5_one_sample_alignment_concept.svg](../result/f
 
 The strict single-dominant FASTA was aligned with MAFFT. The alignment contained 1,802 sequences and 1,061 alignment columns. IQ-TREE inferred a maximum-likelihood tree using ModelFinder and ultrafast bootstrap. The best-fit model by BIC was GTR+F+R9. The tree output is [nifH_clean5_strict_single_dominant.treefile](../result/trees/nifH_clean5_strict_single_dominant.treefile), and the IQ-TREE report is [nifH_clean5_strict_single_dominant.iqtree](../result/trees/nifH_clean5_strict_single_dominant.iqtree).
 
-![Strict single-dominant nifH tree](../result/figures/single_dominant_sample_type.svg)
-![Strict single-dominant nifH tree](../result/figures/single_dominant_ref.svg)
+![Strict single-dominant nifH tree sample_type](../result/figures/single_dominant_sample_type.svg)
+![Strict single-dominant nifH tree reference](../result/figures/single_dominant_ref.svg)
 
 The strict tree shows multiple divergent nifH lineages. Coloring by target reference indicates that the selected targets do not contribute identical phylogenetic signal. In particular, ref60 forms a distinct divergent clade, while ref52 and ref63 show more overlap. This supports the V2 multi-reference approach: a single-reference pilot tree would capture only part of the nifH diversity present in the samples.
 
