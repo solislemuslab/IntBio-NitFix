@@ -15,7 +15,7 @@ July2024:      24 samples, 2 site groups
 May2025:    1,536 samples, 27 site groups, including MC-1 and MC-2
 August2025: 1,116 samples, 28 site groups
 December2025: 234 samples, 13 site groups
-I also found only three sample names that appear in more than one sequencing folder: TALL-82-1-No, TALL-82-1-Rh, and TALL-82-1-Ro, which appear in both August2025 and December2025.
+I also found only three sample names that appear in more than one sequencing folder: TALL-82-1-No, TALL-82-1-Rh, and TALL-82-1-Ro, which appear in both August2025 and December2025. We kept the December2025 version and excluded the August2025 duplicat.
 
 ## Main Inputs
 
