@@ -6,6 +6,17 @@ This V2 analysis expands the earlier pilot from one processed August2025 folder 
 
 ![Pipeline overview](./symbiosis_sorted_all_sample_pipeline.svg)
 
+## Samples 
+Across the original symbiosis_sorted data, I found four sequencing folders. After excluding the duplicate AAA_deletecopy, there are 2,910 R1 files representing 2,907 unique sample names. The sample types are approximately 952 nodule (No) samples, 989 rhizosphere (Rh) samples, 964 root (Ro) samples, and ONLY 2 mock-community controls (MC-1 and MC-2). The MC controls are present in the May2025 original symbiosis_sorted folder.
+
+The sequencing-folder summaries are:
+
+July2024:      24 samples, 2 site groups
+May2025:    1,536 samples, 27 site groups, including MC-1 and MC-2
+August2025: 1,116 samples, 28 site groups
+December2025: 234 samples, 13 site groups
+I also found only three sample names that appear in more than one sequencing folder: TALL-82-1-No, TALL-82-1-Rh, and TALL-82-1-Ro, which appear in both August2025 and December2025.
+
 ## Main Inputs
 
 The analysis used symbiosis-capture reads from four sequencing batches and reference/annotation files provided by Ryan:
