@@ -44,7 +44,7 @@ Ryan clarified that BLAN is a real NEON site rather than a blank control. Theref
 
 ## Coverage Summary
 
-Coverage was measured for every sample and every target region using the existing BAM files and target coordinates. The full coverage table contains 677,331 sample-target rows plus a header. Because the uncompressed table is large, the repository copy is compressed as [nif_nod_region_coverage_all_samples.tsv.gz](../result/tables/nif_nod_region_coverage_all_samples.tsv.gz).
+Coverage was measured for every sample and every target region using the existing BAM files and target coordinates. The full coverage table contains 2,907 * 233 = 677,331 sample-target rows plus a header. Because the uncompressed table is large, the repository copy is compressed as [nif_nod_region_coverage_all_samples.tsv.gz](../result/tables/nif_nod_region_coverage_all_samples.tsv.gz).
 
 At the strict 80% covered / 10X mean-depth threshold:
 
