@@ -63,7 +63,7 @@ These results show that the biological samples have broad nif/nod target signal,
 
 ## nifH Target Selection
 
-There were 14 nifH target references in the target set. For the first V2 tree, five targets were selected as the primary MC-aware clean set:
+There were **14 nifH** target references in the target set. For the first V2 tree, five targets were selected as the primary MC-aware clean set:
 
 | Target | No good | Rh good | Ro good | MC good | Interpretation |
 |---|---:|---:|---:|---:|---|
