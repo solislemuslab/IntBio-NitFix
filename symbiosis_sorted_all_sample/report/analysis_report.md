@@ -191,7 +191,8 @@ The strict alignment composition was:
 The absence of non-`N` IUPAC ambiguity codes confirms that the strict tree is the conservative tree: it contains dominant A/C/G/T consensus calls only. `N` was retained where a base could not be confidently called, and gaps were added by MAFFT during alignment. 
 
 ```
-The strict tree was built with IQ-TREE 3.1.1 using maximum likelihood. ModelFinder tested up to 968 DNA models and selected GTR+F+R9 by BIC.
+The strict tree was built with IQ-TREE 3.1.1 using maximum likelihood.
+ModelFinder tested up to 968 DNA models and selected GTR+F+R9 by BIC.
 Branch support was estimated using 1,000 SH-aLRT replicates and 1,000 ultrafast bootstrap replicates.
 IQ-TREE completed 1,001 tree-search iterations,but the ultrafast bootstrap did not fully converge,
 so support values should be interpreted cautiously until a longer final run is completed.
