@@ -34,10 +34,14 @@ The analysis used symbiosis-capture reads from four sequencing batches and refer
 The provided symbiosis_islands.fasta reference contains 85 [symbiosis_islands_85_reference_names_lengths.tsv](../result/tables/symbiosis_islands_85_reference_names_lengths.tsv), but sequence-identity checking showed that these represent 81 unique DNA sequences [symbiosis_islands_exact_duplicate_records.tsv](../result/tables/symbiosis_islands_exact_duplicate_records.tsv). Four pairs of records are exact duplicates: nifQ, nolL, nodulation protein NfeD, and nifW. Ryan confirmed that these genes are single-copy in the source genomes, so the duplicated records are not biological duplicate genes; they are duplicate entries introduced during manual reference preparation. Therefore, we kept the original reference structure for reproducibility of the current mapping results, but interpret these duplicate pairs as one unique reference sequence each in downstream biological summaries. 
 
 
-## Read Cleaning and Mapping QC
+##  trimming
 
 Read trimming was performed with `fastp`. All 2,907 samples had successful fastp JSON summaries. The mean read-retention rate was 96.07%, and mean Q30 improved from 95.40% before trimming to 97.67% after trimming. The full trimming QC summary is available in [fastp_qc_overall_summary.tsv](../result/tables/fastp_qc_overall_summary.tsv), and the main QC figure is [fastp_qc_summary.svg](../result/figures/fastp_qc_summary.svg).
 
+[fastp_quality_before_trimming_all_samples_lightpurple_mean_blue.svg](../result/tables/fastp_quality_before_trimming_all_samples_lightpurple_mean_blue.svg),
+[fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg](../result/tables/fastp_quality_after_trimming_all_samples_lightpurple_mean_blue.svg),
+
+## Mapping QC
 Trimmed reads were mapped to `symbiosis_islands.fasta` with BWA and summarized with `samtools flagstat`. All 2,907 samples had mapping summaries. The mean mapped-read percentage was 94.52%, the median mapped-read percentage was 95.11%, and the mean properly paired percentage was 87.62%. Mapping QC outputs are available in [symbiosis_mapping_overall_summary.tsv](../result/tables/symbiosis_mapping_overall_summary.tsv) and [symbiosis_mapping_qc_histograms.svg](../result/figures/symbiosis_mapping_qc_histograms.svg).
 
 ## nif/nod Target Extraction and MC Controls
