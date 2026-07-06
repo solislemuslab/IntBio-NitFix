@@ -122,34 +122,18 @@ ref56                      93.8272%            1116.7239x      836 / 891        
 ref60                      4.3528%             0.3047x         38 / 873                   FAIL
 ref62                      99.8881%            15.3579x        893 / 894                  PASS
 ref63                      97.5391%            54.4038x        872 / 894                  PASS
-```
-
-```
-Sample: JERC-54-2-Rh
-Sample type: Rh
-
-This one sample was checked against five selected nifH reference targets.
-
-ref52  [=================== PASS ===================] 97.65% covered, 21.33x depth
-ref56  [================== PASS ====================] 93.83% covered, 1116.72x depth
-ref60  [-- FAIL --]                                  4.35% covered, 0.30x depth
-ref62  [==================== PASS ==================] 99.89% covered, 15.36x depth
-ref63  [=================== PASS ===================] 97.54% covered, 54.40x depth
 
 Result:
-JERC-54-2-Rh counts as 1 unique biological sample,
+sample JERC-54-2-Rh passed four of the five selected nifH targets: ref52, ref56, ref62, and ref63.
+It failed ref60 because only 4.35% of the target was covered and mean depth was 0.30x.
+JERC-54-2-Rh counts as 1 unique biological sample (counts once in the unique-sample total),
 but it contributes 4 nifH sample-target consensus sequences
 because it passed ref52, ref56, ref62, and ref63.
 ```
 
-For example, sample JERC-54-2-Rh passed four of the five selected nifH targets: ref52, ref56, ref62, and ref63. It failed ref60 because only 4.35% of the target was covered and mean depth was 0.30x. Therefore, this sample counts once in the unique-sample total, but contributes four separate sample-target nifH consensus sequences to the tree-ready dataset.
-
-
-
-
 
 Next Step:
-Across the five selected nifH targets, 2,428 unique samples had at least one target with >=80% coverage, >=10x mean depth, and <=20% missing consensus bases.
+Across the five selected nifH targets, **2,428 unique samples had at least one target with >=80% coverage, >=10x mean depth, and <=20% missing consensus bases**.
 
 ```
 2,428 unique samples
