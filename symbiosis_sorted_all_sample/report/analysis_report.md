@@ -167,18 +167,17 @@ The strict single-dominant FASTA was aligned with MAFFT. The alignment contained
 ![Strict single-dominant nifH tree sample_type](../result/figures/single_dominant_sample_type.svg)
 ![Strict single-dominant nifH tree reference](../result/figures/single_dominant_ref.svg)
 
-The strict tree shows multiple divergent nifH lineages. Coloring by target reference indicates that the selected targets do not contribute identical phylogenetic signal. In particular, ref60 forms a distinct divergent clade, while ref52 and ref63 show more overlap. This supports the V2 multi-reference approach: a single-reference pilot tree would capture only part of the nifH diversity present in the samples.
+The strict tree shows multiple divergent nifH lineages. Coloring by target reference indicates that the selected targets do not contribute identical phylogenetic signal. In particular, ref60 forms a distinct divergent clade, **while ref52 and ref63 show more overlap**. This supports the V2 multi-reference approach: a single-reference pilot tree would capture only part of the nifH diversity present in the samples.
+**Strict single-dominant nifH phylogeny from five MC-clean reference targets.** Maximum-likelihood tree inferred from 1,802 strict single-dominant sample-target nifH consensus sequences. Each tip represents one sample mapped to one nifH target reference. Color annotations show sample type and target reference, highlighting that the five selected nifH targets capture multiple distinct nifH lineages.
 
 ## mixed-IUPAC nifH Tree
-mixed-IUPAC_label.svg
+
 ![mixed-IUPAC_label nifH tree reference](../result/figures/mixed-IUPAC_label.svg)
 ![mixed-IUPAC_sample_type nifH tree reference](../result/figures/mixed-IUPAC_sample_type.svg)
 ![mixed-IUPAC_ref nifH tree reference](../result/figures/mixed-IUPAC_ref.svg)
 
 
-## Report-ready Figure Caption
 
-**Strict single-dominant nifH phylogeny from five MC-clean reference targets.** Maximum-likelihood tree inferred from 1,802 strict single-dominant sample-target nifH consensus sequences. Each tip represents one sample mapped to one nifH target reference. Color annotations show sample type and target reference, highlighting that the five selected nifH targets capture multiple distinct nifH lineages.
 
 ## Key Conclusions
 
