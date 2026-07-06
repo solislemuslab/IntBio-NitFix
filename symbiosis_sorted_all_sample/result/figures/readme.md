@@ -1,3 +1,4 @@
+
 | Figure file | Definition |
 |---|---|
 | `fastp_qc_summary.svg` | Summary of fastp read-trimming quality across all 2,907 V2 samples. Shows read retention, base retention, Q30 before trimming, Q30 after trimming, and Q20 after trimming. |
