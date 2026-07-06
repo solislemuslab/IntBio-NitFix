@@ -237,8 +237,13 @@ The mixed-IUPAC tree contains 4,212 total sample-target sequences. This includes
 1. The global V2 analysis includes 2,907 unique samples across all sequencing batches.
 2. Trimming and mapping QC were strong across the dataset.
 3. MC controls are not zero-signal; therefore they are best used for conservative target ranking rather than simple absence/presence filtering.
-4. Five nifH target references, ref52, ref56, ref60, ref62, and ref63, were selected as the primary MC-aware clean set.
-5. The multi-copy-aware approach avoids forcing one sample into one nifH sequence and allows samples to contribute multiple target-specific nifH sequences.
-6. The strict nifH tree contains 1,802 sample-target sequences and recovers multiple divergent nifH lineages.
+4. Five nifH target references, `ref52`, `ref56`, `ref60`, `ref62`, and `ref63`, were selected as the primary MC-aware clean set.
+5. The multi-copy-aware approach avoids forcing one biological sample into one nifH sequence and allows samples to contribute multiple target-specific nifH sequences.
+6. Across the five selected nifH targets, 2,428 unique biological samples had at least one clean nifH target.
+7. These samples produced 4,212 total sample-target nifH consensus sequences because some samples passed more than one nifH target.
+8. The strict single-dominant nifH tree contains 1,802 high-confidence sample-target sequences and recovers multiple divergent nifH lineages.
+9. The mixed-IUPAC nifH tree contains all 4,212 passing sample-target sequences, including the 1,802 single-dominant sequences plus 2,410 mixed possible multicopy sequences.
+10. The mixed-IUPAC tree preserves possible mixed-base signal using non-`N` IUPAC ambiguity codes, while treating `N` separately as unknown or missing information.
+11. The strict tree is the conservative primary tree, while the mixed-IUPAC tree is a secondary sensitivity analysis addressing possible multiple nitrogen-fixing organisms or multiple nifH-like sequences within samples.
 
 
