@@ -164,6 +164,36 @@ MAFFT alignment / tree
 
 The strict single-dominant FASTA was aligned with MAFFT. The alignment contained 1,802 sequences and 1,061 alignment columns. IQ-TREE inferred a maximum-likelihood tree using ModelFinder and ultrafast bootstrap. The best-fit model by BIC was GTR+F+R9. The tree output is [nifH_clean5_strict_single_dominant.treefile](../result/trees/nifH_clean5_strict_single_dominant.treefile), and the IQ-TREE report is [nifH_clean5_strict_single_dominant.iqtree](../result/trees/nifH_clean5_strict_single_dominant.iqtree).
 
+
+
+The strict single-dominant tree was built from the five selected nifH target regions: `ref52`, `ref56`, `ref60`, `ref62`, and `ref63`. For each sample-target combination, mapped reads were summarized into one consensus sequence. In this strict strategy, each position was represented by the dominant nucleotide call when the read pileup supported a clear base. Sequences with strong mixed-base evidence were not included in this strict tree; those were reserved for the mixed-IUPAC analysis.
+
+This strict dataset contained **1,802 sample-target nifH consensus sequences**. This number does not represent 1,802 unique biological samples, because the same sample can contribute more than one sequence if it passed coverage filters for more than one nifH target. Before alignment, the nifH target sequences were approximately **873-894 bp**, depending on the reference target. After MAFFT multiple sequence alignment, all strict sequences were aligned to **1,061 bp**.
+
+The strict alignment contained only confident nucleotide calls, unknown bases, and alignment gaps:
+
+| Character type | Meaning |
+|---|---|
+| `A/C/G/T` | confident nucleotide calls |
+| `N` | unknown or no confident consensus base |
+| `-` | alignment gap added by MAFFT |
+
+The strict alignment composition was:
+
+| Category | Count | Percent of alignment |
+|---|---:|---:|
+| A/C/G/T confident bases | 1,511,634 | 79.06% |
+| IUPAC mixed codes excluding `N` | 0 | 0.00% |
+| `N` unknown bases | 92,583 | 4.84% |
+| Gaps | 307,705 | 16.09% |
+| Total aligned characters | 1,911,922 | 100.00% |
+
+The absence of non-`N` IUPAC ambiguity codes confirms that the strict tree is the conservative tree: it contains dominant A/C/G/T consensus calls only. `N` was retained where a base could not be confidently called, and gaps were added by MAFFT during alignment. 
+
+```
+The strict tree was built with IQ-TREE 3.1.1 using maximum likelihood. ModelFinder tested up to 968 DNA models and selected GTR+F+R9 by BIC. Branch support was estimated using 1,000 SH-aLRT replicates and 1,000 ultrafast bootstrap replicates. IQ-TREE completed 1,001 tree-search iterations, but the ultrafast bootstrap did not fully converge, so support values should be interpreted cautiously until a longer final run is completed.
+```
+
 ![Strict single-dominant nifH tree sample_type](../result/figures/single_dominant_sample_type.svg)
 ![Strict single-dominant nifH tree reference](../result/figures/single_dominant_ref.svg)
 
