@@ -136,12 +136,21 @@ Next Step:
 Across the five selected nifH targets, **2,428 unique samples had at least one target with >=80% coverage, >=10x mean depth, and <=20% missing consensus bases**.
 
 ```
-2,428 unique samples
-        |
-        | some samples pass 1 target
-        | some samples pass 2, 3, 4, or 5 targets
-        v
-4,212 sample-target nifH consensus sequences
+2,907 total samples
+   |
+   | tested against 5 selected nifH targets
+   v
+2,428 unique samples pass at least one target
+   |
+   | some samples pass more than one target
+   v
+4,212 passing sample-target sequences
+   |
+   | split by consensus status
+   |-----------------------------|
+   v                             v
+1,802 single-dominant        2,410 mixed possible multicopy
+used in strict tree          used only in mixed-IUPAC tree
         |
         v
 MAFFT alignment / tree
@@ -149,7 +158,7 @@ MAFFT alignment / tree
 
 ## Strict nifH Tree
 
-The strict single-dominant FASTA was aligned with MAFFT. The alignment contained 1,802 sequences and 1,061 alignment columns. IQ-TREE inferred a maximum-likelihood tree using ModelFinder and ultrafast bootstrap. The best-fit model by BIC was GTR+F+R9. The tree output is [nifH_clean5_strict_single_dominant.treefile](../result/trees/nifH_clean5_strict_single_dominant.treefile), and the IQ-TREE report is [nifH_clean5_strict_single_dominant.iqtree](../result/trees/nifH_clean5_strict_single_dominant.iqtree).
+The strict single-dominant FASTA was aligned with MAFFT. The alignment contained 1,802 sequences (1,061 bs). IQ-TREE inferred a maximum-likelihood tree using ModelFinder and ultrafast bootstrap. The best-fit model by BIC was GTR+F+R9. The tree output is [nifH_clean5_strict_single_dominant.treefile](../result/trees/nifH_clean5_strict_single_dominant.treefile), and the IQ-TREE report is [nifH_clean5_strict_single_dominant.iqtree](../result/trees/nifH_clean5_strict_single_dominant.iqtree).
 
 
 
@@ -159,13 +168,6 @@ This strict dataset contained **1,802 sample-target nifH consensus sequences**. 
 
 The strict alignment contained only confident nucleotide calls, unknown bases, and alignment gaps:
 
-| Character type | Meaning |
-|---|---|
-| `A/C/G/T` | confident nucleotide calls |
-| `N` | unknown or no confident consensus base |
-| `-` | alignment gap added by MAFFT |
-
-The strict alignment composition was:
 
 | Category | Count | Percent of alignment |
 |---|---:|---:|
@@ -192,6 +194,36 @@ The strict tree shows multiple divergent nifH lineages. Coloring by target refer
 **Strict single-dominant nifH phylogeny from five MC-clean reference targets.** Maximum-likelihood tree inferred from 1,802 strict single-dominant sample-target nifH consensus sequences. Each tip represents one sample mapped to one nifH target reference. Color annotations show sample type and target reference, highlighting that the five selected nifH targets capture multiple distinct nifH lineages.
 
 ## mixed-IUPAC nifH Tree
+One example:
+```
+One biological sample:
+JERC-CHNI-86-4-Rh
+        |
+        | checked against five selected nifH targets
+        v
+
+ref52   no passing sequence
+ref56   PASS, but mixed possible multicopy
+ref60   no passing sequence
+ref62   no passing sequence
+ref63   PASS, single-dominant
+```
+
+```
+Strict single-dominant tree:
+includes only:
+JERC-CHNI-86-4-Rh|ref63|pass_single_dominant
+
+Mixed-IUPAC tree:
+includes both:
+JERC-CHNI-86-4-Rh|ref56|pass_mixed_possible_multicopy
+JERC-CHNI-86-4-Rh|ref63|pass_single_dominant
+```
+Strict tree = only clear dominant consensus sequences
+Mixed-IUPAC tree = clear dominant + mixed possible multicopy sequences
+
+
+The mixed-IUPAC tree contains 4,212 total sample-target sequences. This includes 1,802 single-dominant sequences plus 2,410 mixed-possible-multicopy sequences. The 2,410 mixed sequences are the ones where informative ambiguity codes may appear; the 1,802 single-dominant sequences are also included in the mixed-IUPAC tree so that all passing sample-target sequences are analyzed together.
 
 ![mixed-IUPAC_label nifH tree reference](../result/figures/mixed-IUPAC_label.svg)
 ![mixed-IUPAC_sample_type nifH tree reference](../result/figures/mixed-IUPAC_sample_type.svg)
