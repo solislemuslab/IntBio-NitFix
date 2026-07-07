@@ -7,7 +7,6 @@
 | `mixed-IUPAC_label.svg` | Mixed-IUPAC nifH tree with tip labels visible. Contains 4,212 sample-target nifH consensus sequences; useful for zoomed inspection but crowded for full-tree display. |
 | `mixed-IUPAC_ref.svg` | Mixed-IUPAC nifH tree colored by nifH target reference (`ref52`, `ref56`, `ref60`, `ref62`, `ref63`). Shows how mixed-aware sequences cluster by target reference. |
 | `mixed-IUPAC_sample_type.svg` | Mixed-IUPAC nifH tree colored by sample type (`No`, `Rh`, `Ro`). Shows whether nodule, rhizosphere, and root sequences cluster separately or are mixed across nifH lineages. |
-| `nifH_clean5_one_sample_alignment_concept.svg` | Conceptual diagram showing how one biological sample can pass multiple selected nifH targets and therefore contribute multiple sample-target consensus sequences. |
 | `single_dominant_ref.svg` | Strict single-dominant nifH maximum-likelihood tree colored by nifH target reference. Contains 1,802 high-confidence sample-target consensus sequences. |
 | `single_dominant_sample_type.svg` | Strict single-dominant nifH maximum-likelihood tree colored by sample type (`No`, `Rh`, `Ro`). This is the conservative primary tree view. |
 | `symbiosis_mapping_qc_histograms.svg` | Mapping QC histogram across all 2,907 samples after mapping trimmed reads to `symbiosis_islands.fasta`. Shows mapped-read percentage and properly paired-read percentage. |
