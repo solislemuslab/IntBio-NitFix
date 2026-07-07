@@ -47,6 +47,20 @@ Trimmed reads were mapped to `symbiosis_islands.fasta` with BWA and summarized w
 
 ## nif/nod Target Extraction and MC Controls
 
+
+The gene list provided by Ryan contained 18 central nif genes and 17 central nod genes.
+
+```
+From these:
+- 16 of 18 nif genes were found in the GenBank annotation.
+- 2 of 18 nif genes were not found: nifM and nifY.
+- 13 of 17 nod genes were found in the GenBank annotation.
+- 4 of 17 nod genes were not found: nodE, nodF, nodP, and nodT.
+
+The script extracted 231 unique central nif/nod target regions:
+- 169 nif target regions
+- 62 nod target regions
+```
 The target extraction step used the GenBank annotation and gene list provided by Ryan to recover central nif/nod gene regions. This produced 231 unique target sequences: 169 nif targets and 62 nod targets. All 231 extracted targets matched the original reference FASTA, with 233 exact reference locations. Relevant target tables are [central_nif_nod_gene_summary.tsv](../result/tables/central_nif_nod_gene_summary.tsv) and [nif_nod_matches_in_original_reference.tsv](../result/tables/nif_nod_matches_in_original_reference.tsv).
 
 Ryan clarified that BLAN is a real NEON site rather than a blank control. Therefore, MC-1 and MC-2 were used as the negative/background-control check. When MC reads were mapped to extracted nif/nod targets, MC-1 had 34.29% mapped reads and MC-2 had 29.62% mapped reads. Both had the same top target, `nifA|NC_009937|NC_009937_-_nifA_CDS|ref4`. This means MC is useful as a conservative background screen, but not as a zero-signal expectation. The table is [nif_nod_mc_negative_control_mapping_summary.tsv](../result/tables/nif_nod_mc_negative_control_mapping_summary.tsv).
