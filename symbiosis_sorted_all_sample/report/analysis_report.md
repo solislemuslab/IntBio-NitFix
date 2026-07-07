@@ -228,6 +228,23 @@ Strict tree = only clear dominant consensus sequences
 Mixed-IUPAC tree = clear dominant + mixed possible multicopy sequences
 
 
+
+
+
+The mixed-IUPAC alignment contained confident nucleotide calls, informative IUPAC ambiguity codes, unknown bases, and alignment gaps:
+
+| Category | Count | Percent of alignment |
+|---|---:|---:|
+| A/C/G/T confident bases | 3,429,862 | 85.54% |
+| IUPAC mixed codes excluding `N` | 93,545 | 2.33% |
+| `N` unknown bases | 230,298 | 5.74% |
+| Gaps | 256,119 | 6.39% |
+| Total aligned characters | 4,009,824 | 100.00% |
+
+
+
+
+
 The mixed-IUPAC tree contains 4,212 total sample-target sequences. This includes 1,802 single-dominant sequences plus 2,410 mixed-possible-multicopy sequences. The 2,410 mixed sequences are the ones where informative ambiguity codes may appear; the 1,802 single-dominant sequences are also included in the mixed-IUPAC tree so that all passing sample-target sequences are analyzed together.
 
 ![mixed-IUPAC_label nifH tree reference](../result/figures/mixed-IUPAC_label.svg)
