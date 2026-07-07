@@ -11,13 +11,6 @@
 | `single_dominant_sample_type.svg` | Strict single-dominant nifH maximum-likelihood tree colored by sample type (`No`, `Rh`, `Ro`). This is the conservative primary tree view. |
 | `symbiosis_mapping_qc_histograms.svg` | Mapping QC histogram across all 2,907 samples after mapping trimmed reads to `symbiosis_islands.fasta`. Shows mapped-read percentage and properly paired-read percentage. |
 | `v2_gene_coverage_heatmap_pct80_depth10.svg` | Gene-coverage heatmap using the good-coverage threshold: percent covered ≥80% and mean depth ≥10x. Summarizes which nif/nod genes show strong coverage across sample groups. |
-| `v2_threshold_sensitivity_summary.svg` | Threshold sensitivity summary showing how retained samples/targets change under different coverage and depth filters. Used to evaluate whether conclusions depend strongly on the chosen thresholds. anel A: Any nif/nod target
-This asks:
-Does the sample have at least ONE nif/nod target passing the threshold?
-Example:
-nifH pass, all others fail -> counted in Panel A
-Panel D: Multi-target signal
-This asks:
-Does the sample have MORE THAN ONE nif/nod target passing the threshold?
-Example:
-nifH pass + nifD pass -> counted in Panel D|
+| `v2_threshold_sensitivity_summary.svg` | Threshold sensitivity summary showing how retained samples/targets change under different coverage and depth filters. Used to evaluate whether conclusions depend strongly on the chosen thresholds. anel A: Any nif/nod target This asks: Does the sample have at least ONE nif/nod target passing the threshold?
+Example: nifH pass, all others fail -> counted in Panel A Panel D: Multi-target signal This asks: Does the sample have MORE THAN ONE nif/nod target passing the threshold?
+Example: nifH pass + nifD pass -> counted in Panel D|
