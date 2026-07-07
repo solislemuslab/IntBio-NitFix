@@ -6,6 +6,10 @@ This V2 analysis expands the earlier pilot from one processed August2025 folder 
 
 ![Pipeline overview](./symbiosis_sorted_all_sample_pipeline.svg)
 
+
+
+This pipeline should be interpreted as a **reference-guided nif/nod** recovery and phylogenetic workflow. Because reads were mapped to the provided symbiosis_islands.fasta reference, the analysis is sensitive to nif/nod genes that are similar enough to the reference sequences to align well. Highly novel or divergent nif/nod genes may be missed or may fail the coverage threshold rather than appearing as explicit errors. The MC negative-control filter is also conservative but limited, because only two MC samples were available; therefore, targets should be described as having “no good-coverage MC signal in the available controls,” not as definitively contamination-free. Tree tips should also be interpreted as sample-target sequences rather than unique biological samples, because one biological sample can contribute more than one nifH sequence if it has good coverage for multiple nifH target references.
+
 ## Samples 
 Across the original symbiosis_sorted data, I found four sequencing folders. After excluding the duplicate AAA_deletecopy, there are 2,910 R1 files representing 2,907 unique sample names. The sample types are approximately 952 nodule (No) samples, 989 rhizosphere (Rh) samples, 964 root (Ro) samples, and ONLY 2 mock-community controls (MC-1 and MC-2). The MC controls are present in the May2025 original symbiosis_sorted folder.
 
