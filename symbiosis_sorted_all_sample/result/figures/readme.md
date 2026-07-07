@@ -13,7 +13,8 @@
 | `v2_gene_coverage_heatmap_pct80_depth10.svg` | Gene-coverage heatmap using the good-coverage threshold: percent covered ≥80% and mean depth ≥10x. Summarizes which nif/nod genes show strong coverage across sample groups. |
 | `v2_threshold_sensitivity_summary.svg` | Threshold sensitivity summary showing how retained samples/targets change under different coverage and depth filters. Used to evaluate whether conclusions depend strongly on the chosen thresholds.|
 
-In v2_threshold_sensitivity_summary.svg:
+In v2_threshold_sensitivity_summary.svg figure:
+```
 Panel A: Any nif/nod target
 This asks:
 Does the sample have at least ONE nif/nod target passing the threshold?
@@ -24,3 +25,4 @@ This asks:
 Does the sample have MORE THAN ONE nif/nod target passing the threshold?
 Example:
 nifH pass + nifD pass -> counted in Panel D
+```
