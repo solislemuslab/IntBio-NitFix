@@ -40,7 +40,6 @@ The new reference is [`consensus_sequences_50percent.fasta`](../result/reference
 | IUPAC ambiguity bases excluding `N` | 6,724 bp, 8.58% |
 | `N` bases | 1,425 bp, 1.82% |
 
-Ryan recommended this reference because it chooses a base, including IUPAC ambiguity codes, when at least 50% of the source sequences support that call. This makes it more biologically broad than a single-isolate reference, while avoiding the very high ambiguity burden of the all-ambiguities reference.
 
 ## Step 1. Reuse Trimmed Reads
 
