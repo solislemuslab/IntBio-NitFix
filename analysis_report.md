@@ -2,7 +2,7 @@
 
 ## Analysis Goal
 
-This analysis reruns the global `symbiosis_sorted` workflow using the new 50% consensus functional-gene reference provided by Ryan/Pranoti. The goal is to move from many duplicated/diverse reference regions per gene toward a cleaner one-reference-per-gene strategy, then test whether the full set of 2,907 symbiosis-sorted samples can be used to recover high-quality nif/nod functional-gene signal and build a first `nifH` tree.
+This analysis reruns the global `symbiosis_sorted` workflow using the new 50% consensus functional-gene reference provided by Pranoti. The goal is to move from many duplicated/diverse reference regions per gene toward a cleaner one-reference-per-gene strategy, then test whether the full set of 2,907 symbiosis-sorted samples can be used to recover high-quality nif/nod functional-gene signal and build a first `nifH` tree.
 
 The main biological goal is to identify which samples contain enough read support for target nitrogen-fixation and nodulation genes, then construct tree-ready consensus sequences for `nifH` while explicitly tracking possible mixed-template signal.
 
