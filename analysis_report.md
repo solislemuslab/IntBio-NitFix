@@ -115,7 +115,7 @@ The MC controls are limited to n=2, so they are useful as a warning/background c
 | MC-1 `nifJ` coverage | 90.08%; mean depth 14.38 |
 | MC-2 `nifJ` coverage | 90.05%; mean depth 10.15 |
 
-Because the MC controls are not zero-signal, the analysis should avoid using MC as a simple presence/absence filter. Instead, MC results should be reported as a caveat and used conservatively when ranking candidate genes or interpreting background signal.
+Because the MC controls are not zero-signal.
 
 ## Step 6. Build nifH Consensus Sequences
 
