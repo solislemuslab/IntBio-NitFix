@@ -134,9 +134,6 @@ For each sample, the number of genes passing the good-coverage threshold was cou
 
 ## Step 5. Check MC Controls
 
-BLAN is a real NEON site and should not be treated as a negative control. The only negative-control-like samples in this dataset are `MC-1` and `MC-2`, which are mock-community controls.
-
-In simple words, `MC-1` and `MC-2` are samples with a known mock microbial community that should not contain nitrogen-fixing signal. They are useful for checking background/off-target signal, but there are only two of them.
 
 | Input | Method/code run | Result/output |
 |---|---|---|
