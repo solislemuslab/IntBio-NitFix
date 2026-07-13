@@ -1,0 +1,4 @@
+tree	tree_file	tips	tips_with_metadata	tips_missing_metadata
+strict_pct80_Nle20	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/symbiosis_sorted_all_sample_consensus_sequences_50percent/result/trees/nifH_consensus50_strict_single_dominant.treefile	387	380	7
+iupac_pct80_Nle20	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/symbiosis_sorted_all_sample_consensus_sequences_50percent/result/trees/nifH_consensus50_iupac_all_pass.treefile	1538	1524	14
+strict_pct60_Nle40	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/symbiosis_sorted_all_sample_consensus_sequences_50percent/result/trees/nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.treefile	751	741	10

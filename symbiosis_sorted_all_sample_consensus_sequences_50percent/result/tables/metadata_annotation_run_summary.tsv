@@ -1,0 +1,9 @@
+metric	value
+metadata_file	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/symbiosis_sorted_all_sample_consensus_sequences_50percent/result/tables/intbio_metadata_draft4.csv
+metadata_sample_column	Sample ID
+metadata_unique_samples	2898
+analysis_unique_samples_from_coverage	2907
+analysis_samples_missing_from_metadata	24
+metadata_samples_missing_from_analysis	15
+strict_tree_annotation_tips	387
+iupac_tree_annotation_tips	1538
