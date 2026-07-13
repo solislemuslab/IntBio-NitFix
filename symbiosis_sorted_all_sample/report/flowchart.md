@@ -12,11 +12,6 @@ Cluster working folder:
 OUT="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2"
 ```
 
-Local report folder:
-
-```bash
-/Users/rosa/Documents/Ryan Data/symbiosis_sorted_all_sample
-```
 
 ## Step 1. Create Global Manifest
 
