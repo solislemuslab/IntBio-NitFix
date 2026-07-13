@@ -4,7 +4,7 @@
 
 This report summarizes the all-sample `symbiosis_sorted` functional-gene analysis using the updated `consensus_sequences_50percent.fasta` reference. This reference was provided by Pranoti/Ryan and contains one consensus sequence per functional gene, with IUPAC ambiguity codes allowed when supported by at least 50% of the source sequences.
 
-The main goal of this version is to move from the earlier multi-region reference design to a cleaner gene-level reference design. In the previous reference, one gene such as `nifH` could have multiple target regions, so one biological sample could contribute multiple sample-target sequences to the same gene tree. In the consensus50 reference, each gene is represented once, so each sample can contribute at most one consensus sequence per gene.
+The main goal of this version is to move from the earlier multi-region reference design to a cleaner gene-level reference design. In the previous reference, one gene such as `nifH` could have multiple target regions (ex:`nifH` has 14 target regions), so one biological sample could contribute multiple sample-target sequences to the same gene tree. In the consensus50 reference, each gene is represented once.
 
 The first tree-building target is `nifH`, because it is a standard nitrogen-fixation marker and showed strong recovery in the consensus50 mapping/coverage results.
 
@@ -14,7 +14,7 @@ The first tree-building target is `nifH`, because it is a standard nitrogen-fixa
 |---|---:|
 | Samples analyzed | 2,907 |
 | Functional genes in consensus50 reference | 72 |
-| Sample-gene coverage rows | 209,304 |
+| Sample-gene coverage rows | 2907 * 72 = 209,304 |
 | Good sample-gene rows, percent covered >=80 and mean depth >=10 | 6,179 |
 | Samples with at least one good gene | 2,052 |
 | Samples with good `nifH` coverage | 1,572 |
