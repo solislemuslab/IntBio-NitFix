@@ -239,6 +239,7 @@ Tree inference used IQ-TREE with ModelFinder and support estimation.
 | Strict pct60/depth10/N<=40 | 751 | 1,046 bp | `GTR+F+I+R8` | 19.4934 | Sensitivity tree; includes lower-coverage sequences with more missing data allowed. |
 
 In the IQ-TREE outputs, branch labels are reported as `SH-aLRT support (%) / ultrafast bootstrap support (%)`.
+All relaxed pct60/depth10/N≤40 strict consensus sequences were 997 bp before alignment, confirming that the consensus-calling step produced fixed-length nifH sequences. MAFFT expanded the relaxed alignment to 1,046 bp by inserting 49 gap columns, likely because the relaxed threshold admits sequences with more missing or divergent regions. Therefore, this relaxed tree is treated as a sensitivity analysis rather than the primary reported tree.
 
 ## Step 9. Metadata Matching and iTOL Annotation
 
