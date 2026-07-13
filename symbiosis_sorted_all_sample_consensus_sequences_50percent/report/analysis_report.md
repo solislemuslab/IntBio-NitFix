@@ -113,8 +113,8 @@ A sample-gene pair was counted as good when:
 |---|---:|
 | Samples analyzed | 2,907 |
 | Genes in consensus50 reference | 72 |
-| Total sample-gene rows | 209,304 |
-| Good sample-gene rows | 6,179 |
+| Total sample-gene rows |2907*72 = 209,304 |
+| Good sample-gene rows |  6,179 |
 | Samples with at least one good gene | 2,052 |
 | Good `nifH` sample-gene rows | 1,572 |
 
