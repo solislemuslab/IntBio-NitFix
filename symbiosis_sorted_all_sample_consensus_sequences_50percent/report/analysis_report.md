@@ -241,6 +241,8 @@ Tree inference used IQ-TREE with ModelFinder and support estimation.
 In the IQ-TREE outputs, branch labels are reported as `SH-aLRT support (%) / ultrafast bootstrap support (%)`.
 All relaxed pct60/depth10/N≤40 strict consensus sequences were 997 bp before alignment, confirming that the consensus-calling step produced fixed-length nifH sequences. MAFFT expanded the relaxed alignment to 1,046 bp by inserting 49 gap columns, likely because the relaxed threshold admits sequences with more missing or divergent regions. Therefore, this relaxed tree is treated as a sensitivity analysis rather than the primary reported tree.
 
+**After increasing the UFBoot maximum iterations, the strict nifH tree reached a final bootstrap correlation coefficient of 0.994, with no final non-convergence warning. Therefore, this rerun was used as the primary strict nifH tree.**
+
 ## Step 9. Metadata Matching and iTOL Annotation
 
 Metadata were used to prepare iTOL annotation files for tree visualization. The main annotations are sample type, site, host family, host tribe, and native status.
