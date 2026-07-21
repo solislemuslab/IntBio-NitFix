@@ -388,13 +388,9 @@ BLAST annotation shows that most strict sample consensus sequences are closest t
 
 The strict pct80/depth10/N<=20 tree is the strongest tree for reporting. The mixed-IUPAC and relaxed pct60 trees are valuable sensitivity checks because they show what happens when more samples are included, but their bootstrap convergence warnings mean they should be reported cautiously.
 
-## Recommended Reporting Language
 
-For the main text:
+We mapped 2,907 symbiosis-capture samples to a 72-gene consensus functional reference and quantified per-gene coverage. At the 80% coverage and 10X mean-depth threshold, 1,572 samples had sufficient `nifH` recovery for consensus calling. We built a conservative strict `nifH` phylogeny from 387 single-dominant sample consensus sequences. We also generated mixed-IUPAC and relaxed-threshold sensitivity trees containing 1,538 and 751 sample consensus sequences, respectively. Sample consensus sequences were annotated by BLAST against a 746-sequence nifH reference alignment; these labels represent closest known nifH reference hits rather than confirmed species identities.
 
-> We mapped 2,907 symbiosis-capture samples to a 72-gene consensus functional reference and quantified per-gene coverage. At the 80% coverage and 10X mean-depth threshold, 1,572 samples had sufficient `nifH` recovery for consensus calling. We built a conservative strict `nifH` phylogeny from 387 single-dominant sample consensus sequences. We also generated mixed-IUPAC and relaxed-threshold sensitivity trees containing 1,538 and 751 sample consensus sequences, respectively. Sample consensus sequences were annotated by BLAST against a 746-sequence nifH reference alignment; these labels represent closest known nifH reference hits rather than confirmed species identities.
 
-For the caveats:
-
-> Mixed-IUPAC calls are threshold-based and indicate possible multiple-template signal, not direct proof of multiple organisms. MC controls were limited to two mock-community samples and therefore were treated as background checks rather than strict filters. Tree tips represent sample-derived nifH consensus sequences, not unique biological taxa.
+Mixed-IUPAC calls are threshold-based and indicate possible multiple-template signal, not direct proof of multiple organisms. MC controls were limited to two mock-community samples and therefore were treated as background checks rather than strict filters. Tree tips represent sample-derived nifH consensus sequences, not unique biological taxa.
 
