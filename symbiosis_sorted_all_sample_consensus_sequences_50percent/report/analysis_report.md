@@ -8,6 +8,8 @@ The goal of this version was to move from the earlier multi-region symbiosis-isl
 
 The first tree-building target was `nifH`, because it is a standard nitrogen-fixation marker and showed strong recovery in the consensus50 mapping and coverage results.
 
+Reference: https://github.com/ryanafolk/intbio_microbiome/blob/main/references/functional_rosa/consensus_sequences_50percent.fasta
+Alignment `nifH':https://github.com/ryanafolk/intbio_microbiome/blob/main/references/functional_rosa/alignments/nifH.fa.aln 
 ## Key Conclusions
 
 | Result | Value |
