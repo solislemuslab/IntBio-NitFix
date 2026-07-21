@@ -16,7 +16,7 @@ Alignment `nifH`:https://github.com/ryanafolk/intbio_microbiome/blob/main/refere
 |---|---:|
 | Samples analyzed | 2,907 |
 | Functional genes in consensus50 reference | 72 |
-| Sample-gene coverage rows | 209,304 |
+| Sample-gene coverage rows | 2,907 * 72 = 209,304 |
 | Good sample-gene rows, percent covered >=80 and mean depth >=10 | 6,179 |
 | Samples with at least one good gene | 2,052 |
 | Samples with good `nifH` coverage at >=80% and depth >=10 | 1,572 |
