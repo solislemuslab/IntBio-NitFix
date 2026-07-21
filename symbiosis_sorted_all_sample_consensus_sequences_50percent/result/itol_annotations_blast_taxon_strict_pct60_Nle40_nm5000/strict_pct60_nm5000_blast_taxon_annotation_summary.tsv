@@ -1,0 +1,14 @@
+metric	value
+tree_file	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/symbiosis_sorted_all_sample_consensus_sequences_50percent/result/trees/nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40_nm5000.treefile
+blast_file	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/symbiosis_sorted_all_sample_consensus_sequences_50percent/result/tables/strict_pct60_nifH_best_reference_hit_with_taxon.tsv
+tree_tips	751
+tips_with_blast_assignment	751
+tips_without_blast_assignment	0
+unique_closest_taxa	45
+unique_closest_genera	14
+mean_percent_identity	90.5494
+min_percent_identity	81.4370
+max_percent_identity	99.4930
+mean_query_coverage_percent	76.4630
+min_query_coverage_percent	32.4294
+max_query_coverage_percent	100.0000
