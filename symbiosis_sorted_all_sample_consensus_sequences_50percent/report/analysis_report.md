@@ -22,7 +22,7 @@ Alignment `nifH`:https://github.com/ryanafolk/intbio_microbiome/blob/main/refere
 | Samples with good `nifH` coverage at >=80% and depth >=10 | 1,572 |
 | Strict single-dominant `nifH` tree tips, pct80/depth10/N<=20 | 387 |
 | Mixed-IUPAC `nifH` tree tips, pct80/depth10/N<=20 | 1,538 |
-| Relaxed strict `nifH` tree tips, pct60/depth10/N<=40 | 751 |
+| `nifH` tree tips, pct60/depth10/N<=40 | 751 |
 | Reference-only nifH taxon tree tips | 746 |
 | Metadata rows | 2,898 |
 
@@ -205,7 +205,7 @@ The strict FASTA contains 387 sequences. The mixed-IUPAC FASTA contains 1,538 se
 
 ## Step 7. Sensitivity Consensus Set at pct60/depth10/N<=40
 
-A relaxed strict analysis was also run to see how many additional single-dominant sequences could be recovered when allowing lower coverage and more missing positions.
+A analysis was also run to see how many additional single-dominant sequences could be recovered when allowing lower coverage and more missing positions.
 
 | Input | Method/code run | Result/output |
 |---|---|---|
@@ -213,10 +213,10 @@ A relaxed strict analysis was also run to see how many additional single-dominan
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `pass_single_dominant` | 751 | Included in relaxed strict tree. |
-| `pass_mixed_possible_multitemplate` | 1,843 | Still mixed; not included in relaxed strict tree. |
+| `pass_single_dominant` | 751 | Included in tree. |
+| `pass_mixed_possible_multitemplate` | 1,843 | Still mixed; not included in tree. |
 | `fail_high_N` | 9 | Excluded because N percent was >40%. |
-| Total evaluated | 2,603 | Samples with enough nifH coverage to attempt relaxed consensus calling. |
+| Total evaluated | 2,603 | Samples with enough nifH coverage to attempt consensus calling. |
 
 ## Step 8. Align nifH Consensus Sequences
 
@@ -226,9 +226,9 @@ Consensus sequences were aligned with MAFFT before tree inference.
 |---|---|---|
 | Strict FASTA, pct80/depth10/N<=20 | MAFFT nucleotide alignment. | [`nifH_consensus50_strict_single_dominant.mafft.fasta`](../result/sequences/nifH_consensus50_strict_single_dominant.mafft.fasta) |
 | Mixed-IUPAC FASTA, pct80/depth10/N<=20 | MAFFT nucleotide alignment. | [`nifH_consensus50_iupac_all_pass.mafft.fasta`](../result/sequences/nifH_consensus50_iupac_all_pass.mafft.fasta) |
-| Relaxed strict FASTA, pct60/depth10/N<=40 | MAFFT nucleotide alignment. | [`nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta`](../result/sequences/nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta) |
+| FASTA, pct60/depth10/N<=40 | MAFFT nucleotide alignment. | [`nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta`](../result/sequences/nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta) |
 
-Because all sequences are reconstructed against the same `nifH.fa` coordinate system, the pct80 alignments are 997 bp. The relaxed pct60/Nle40 alignment is 1,046 bp, indicating additional alignment uncertainty after including sequences with more missing data.
+Because all sequences are reconstructed against the same `nifH.fa` coordinate system, the pct80 alignments are 997 bp. The  pct60/Nle40 alignment is 1,046 bp, indicating additional alignment uncertainty after including sequences with more missing data.
 
 ## Step 9. Build nifH Trees with IQ-TREE
 
@@ -268,7 +268,7 @@ This BLAST step is an annotation step, not the original read-mapping step.
 |---|---|---|---|
 | Strict pct80/depth10/N<=20 | 387 strict sample consensus sequences | BLASTN against ungapped 746 nifH reference sequences. | [`sample_nifH_best_reference_hit_with_taxon.tsv`](../result/tables/sample_nifH_best_reference_hit_with_taxon.tsv) |
 | Mixed-IUPAC pct80/depth10/N<=20 | 1,538 mixed-IUPAC sample consensus sequences | BLASTN against ungapped 746 nifH reference sequences. | [`iupac_nifH_best_reference_hit_with_taxon.tsv`](../result/tables/iupac_nifH_best_reference_hit_with_taxon.tsv) |
-| Relaxed strict pct60/depth10/N<=40 | 751 relaxed strict sample consensus sequences | [`26_blast_assign_strict_pct60_nifH_consensus_to_reference_taxa.sh`](../code/26_blast_assign_strict_pct60_nifH_consensus_to_reference_taxa.sh) | [`strict_pct60_nifH_best_reference_hit_with_taxon.tsv`](../result/tables/strict_pct60_nifH_best_reference_hit_with_taxon.tsv) |
+| pct60/depth10/N<=40 | 751  consensus sequences | [`26_blast_assign_strict_pct60_nifH_consensus_to_reference_taxa.sh`](../code/26_blast_assign_strict_pct60_nifH_consensus_to_reference_taxa.sh) | [`strict_pct60_nifH_best_reference_hit_with_taxon.tsv`](../result/tables/strict_pct60_nifH_best_reference_hit_with_taxon.tsv) |
 
 ### BLAST Output Columns
 
@@ -290,7 +290,7 @@ This BLAST step is an annotation step, not the original read-mapping step.
 |---|---:|---:|---:|---:|---:|---:|
 | Strict pct80/depth10/N<=20 | 387 | 30 | 8 | 90.61% | 81.44-99.49% | 90.32% |
 | Mixed-IUPAC pct80/depth10/N<=20 | 1,538 | 32 | 9 | 87.06% | 78.12-99.33% | 82.40% |
-| Relaxed strict pct60/depth10/N<=40 | 751 | 45 | 14 | 90.55% | 81.44-99.49% | 76.46% |
+|  pct60/depth10/N<=40 | 751 | 45 | 14 | 90.55% | 81.44-99.49% | 76.46% |
 
 The genus-level annotation is broader and easier to interpret. The taxon-level annotation is more specific, but should be interpreted as "closest known nifH reference hit" rather than a confirmed species call.
 
@@ -300,7 +300,7 @@ The genus-level annotation is broader and easier to interpret. The taxon-level a
 |---|---|
 | Strict pct80/depth10/N<=20 | `Mesorhizobium` 193, `Microvirga` 50, `Bradyrhizobium` 43, `Sinorhizobium` 41, `Rhizobium` 32, `Neorhizobium` 17, `Ensifer` 6, `Burkholderia` 5 |
 | Mixed-IUPAC pct80/depth10/N<=20 | `Mesorhizobium` 598, `Bradyrhizobium` 415, `Microvirga` 220, `Rhizobium` 128, `Sinorhizobium` 104, `Burkholderia` 32, `Neorhizobium` 21, `Ensifer` 16, `Azorhizobium` 4 |
-| Relaxed strict pct60/depth10/N<=40 | `Mesorhizobium` 251, `Bradyrhizobium` 243, `Microvirga` 78, `Sinorhizobium` 62, `Rhizobium` 40, `Burkholderia` 20, `Ensifer` 19, `Neorhizobium` 19, `Frankia` 8, `Azorhizobium` 6 |
+| pct60/depth10/N<=40 | `Mesorhizobium` 251, `Bradyrhizobium` 243, `Microvirga` 78, `Sinorhizobium` 62, `Rhizobium` 40, `Burkholderia` 20, `Ensifer` 19, `Neorhizobium` 19, `Frankia` 8, `Azorhizobium` 6 |
 
 ## Step 11. iTOL Tree Annotation
 
@@ -333,7 +333,7 @@ Tree annotations were prepared for metadata and BLAST/taxon summaries.
 |---|---|
 | Strict pct80/depth10/N<=20 | [`../result/annotations`](../result/annotations) and [`../result/itol_annotations_blast_taxon`](../result/itol_annotations_blast_taxon) |
 | Mixed-IUPAC pct80/depth10/N<=20 | [`../result/annotations`](../result/annotations) and [`../result/itol_annotations_blast_taxon_iupac_nm5000`](../result/itol_annotations_blast_taxon_iupac_nm5000) |
-| Relaxed strict pct60/depth10/N<=40 | [`../result/annotations`](../result/annotations) and [`../result/itol_annotations_blast_taxon_strict_pct60_Nle40_nm5000`](../result/itol_annotations_blast_taxon_strict_pct60_Nle40_nm5000) |
+| pct60/depth10/N<=40 | [`../result/annotations`](../result/annotations) and [`../result/itol_annotations_blast_taxon_strict_pct60_Nle40_nm5000`](../result/itol_annotations_blast_taxon_strict_pct60_Nle40_nm5000) |
 
 ## Tree Figures
 
@@ -359,15 +359,15 @@ This tree includes both single-dominant and mixed-possible-multitemplate sample 
 
 ![Mixed-IUPAC tree colored by closest BLAST taxon](../result/trees/Figure/iupac_nm5000_blast_closest_taxon_colorstrip.svg)
 
-### Relaxed Strict pct60/depth10/N<=40 Tree, 751 Tips
+### pct60/depth10/N<=40 Tree, 751 Tips
 
 This tree includes additional single-dominant sequences by allowing more missing sequence. It is useful for sensitivity checking, but bootstrap did not converge even with nm5000.
 
-![Relaxed strict tree colored by sample type](../result/trees/Figure/strict_pct60_Nle40_itol_sample_type_colorstrip.svg)
+![tree colored by sample type](../result/trees/Figure/strict_pct60_Nle40_itol_sample_type_colorstrip.svg)
 
-![Relaxed strict tree colored by closest BLAST genus](../result/trees/Figure/strict_pct60_nm5000_blast_closest_genus_colorstrip.svg)
+![tree colored by closest BLAST genus](../result/trees/Figure/strict_pct60_nm5000_blast_closest_genus_colorstrip.svg)
 
-![Relaxed strict tree colored by closest BLAST taxon](../result/trees/Figure/strict_pct60_nm5000_blast_closest_taxa_colorstrip.svg)
+![tree colored by closest BLAST taxon](../result/trees/Figure/strict_pct60_nm5000_blast_closest_taxa_colorstrip.svg)
 
 
 
