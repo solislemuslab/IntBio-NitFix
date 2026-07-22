@@ -222,11 +222,11 @@ A analysis was also run to see how many additional single-dominant sequences cou
 
 Consensus sequences were aligned with MAFFT before tree inference.
 
-| Input | Method/code run | Result/output | Tree tips / alignment summary |
-|---|---|---|---|
-| Strict FASTA, pct80/depth10/N<=20 | MAFFT nucleotide alignment | [`nifH_consensus50_strict_single_dominant.mafft.fasta`](../result/sequences/nifH_consensus50_strict_single_dominant.mafft.fasta) | 387 sequences; alignment length 997 bp; A/C/G/T = 82.55%; IUPAC ambiguity excluding N = 0.00%; N = 17.45%; gaps = 0.00% |
-| Mixed-IUPAC FASTA, pct80/depth10/N<=20 | MAFFT nucleotide alignment | [`nifH_consensus50_iupac_all_pass.mafft.fasta`](../result/sequences/nifH_consensus50_iupac_all_pass.mafft.fasta) | 1,538 sequences (pass_single_dominant:387, pass_mixed_possible_multitemplate:1,151); alignment length 997 bp; A/C/G/T = 79.44%; IUPAC ambiguity excluding N = 3.33%; N = 17.23%; gaps = 0.00% |
-| Relaxed strict FASTA, pct60/depth10/N<=40 | MAFFT nucleotide alignment | [`nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta`](../result/sequences/nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta) | 751 sequences; alignment length 1,046 bp; A/C/G/T = 73.83%; IUPAC ambiguity excluding N = 0.00%; N = 21.49%; gaps = 4.68% |
+| Input | Result/output | Tree tips / alignment summary |
+|---|---|---|
+| Strict FASTA, pct80/depth10/N<=20 | [`nifH_consensus50_strict_single_dominant.mafft.fasta`](../result/sequences/nifH_consensus50_strict_single_dominant.mafft.fasta) | 387 sequences; alignment length 997 bp; A/C/G/T = 82.55%; IUPAC ambiguity excluding N = 0.00%; N = 17.45%; gaps = 0.00% |
+| Mixed-IUPAC FASTA, pct80/depth10/N<=20  | [`nifH_consensus50_iupac_all_pass.mafft.fasta`](../result/sequences/nifH_consensus50_iupac_all_pass.mafft.fasta) | 1,538 sequences (pass_single_dominant:387, pass_mixed_possible_multitemplate:1,151); alignment length 997 bp; A/C/G/T = 79.44%; IUPAC ambiguity excluding N = 3.33%; N = 17.23%; gaps = 0.00% |
+|pct60/depth10/N<=40  | [`nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta`](../result/sequences/nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta) | 751 sequences; alignment length 1,046 bp; A/C/G/T = 73.83%; IUPAC ambiguity excluding N = 0.00%; N = 21.49%; gaps = 4.68% |
 
 Because all sequences are reconstructed against the same `nifH.fa` coordinate system, the pct80 alignments are 997 bp. The  pct60/Nle40 alignment is 1,046 bp, indicating additional alignment uncertainty after including sequences with more missing data.
 
