@@ -2,9 +2,9 @@
 
 ## Overview
 
-This report summarizes the all-sample `symbiosis_sorted` functional-gene analysis using the updated `consensus_sequences_50percent.fasta` reference provided by Pranoti/Ryan. The reference contains one consensus sequence per functional gene. IUPAC ambiguity codes are allowed when supported by at least 50% of the source sequences.
+This report summarizes the all-sample `symbiosis_sorted` functional-gene analysis using the updated `consensus_sequences_50percent.fasta` reference provided by Pranoti. The reference contains one consensus sequence per functional gene. IUPAC ambiguity codes are allowed when supported by at least 50% of the source sequences.
 
-The goal of this version was to move from the earlier multi-region symbiosis-island reference to a cleaner gene-level reference. In the previous design, one gene such as `nifH` could have multiple target regions, so one biological sample could contribute multiple sample-target sequences to the same gene tree. In the consensus50 reference, each gene is represented once, so each sample can contribute at most one consensus sequence per gene.
+The goal of this version was to move from the earlier multi-region symbiosis-island reference to a cleaner gene-level reference. In the previous design, one gene such as `nifH` could have multiple target regions (14), so one biological sample could contribute multiple sample-target sequences to the same gene tree. In the consensus50 reference, each gene is represented once.
 
 The first tree-building target was `nifH`, because it is a standard nitrogen-fixation marker and showed strong recovery in the consensus50 mapping and coverage results.
 
@@ -26,7 +26,7 @@ Alignment `nifH`:https://github.com/ryanafolk/intbio_microbiome/blob/main/refere
 | Reference-only nifH taxon tree tips | 746 |
 | Metadata rows | 2,898 |
 
-The main recommended tree for interpretation is the **strict single-dominant pct80/depth10/N<=20 nm5000 tree** with 387 sample-derived consensus sequences. Also, I report the mixed-IUPAC and  pct60 trees, but their UFBoot support did not fully converge even with additional iterations.
+The main recommended tree for interpretation is the **strict single-dominant pct80/depth10/N<=20 nm5000 tree** with **387** sample-derived consensus sequences. Also, I report the  **mixed-IUPAC pct80/depth10/N<=20 nm5000 tree** and  **single-dominant pct60/depth10/N<=40 nm5000 tree** trees, but their UFBoot support did not fully converge even with additional iterations.
 
 ## Important Caveats
 
