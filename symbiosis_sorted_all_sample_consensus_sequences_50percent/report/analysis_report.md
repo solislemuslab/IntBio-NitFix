@@ -140,8 +140,7 @@ For each sample, the number of genes passing the good-coverage threshold was cou
 | Input | Method/code run | Result/output |
 |---|---|---|
 | [`consensus50_gene_coverage_all_samples.tsv`](../result/tables/consensus50_gene_coverage_all_samples.tsv) | Local R visualization code counted genes with `percent_covered >= 80` and `mean_depth >= 10`. | [`consensus50_genes_per_sample_pct80.png`](../result/figures/consensus50_genes_per_sample_pct80.png) |
-| Same table, grouped by sample type | Local R code split samples into `MC`, `No`, `Rh`, and `Ro`; zero-covered samples are shown separately. | [`consensus50_covered_gene_count_by_sample_type_blocks_with_MC.png`](../result/figures/consensus50_covered_gene_count_by_sample_type_blocks_with_MC.png) |
-| Sensitivity visualization | Local R code also generated 50/10 and 80/10 versions. | [`covered_gene_count_by_sample_type_50_10.png`](../result/figures/covered_gene_count_by_sample_type_50_10.png), [`covered_gene_count_by_sample_type_80_10.png`](../result/figures/covered_gene_count_by_sample_type_80_10.png) |
+| Same table, grouped by sample type| Local R code also generated 50/10 and 80/10 versions. | [`covered_gene_count_by_sample_type_50_10.png`](../result/figures/covered_gene_count_by_sample_type_50_10.png), [`covered_gene_count_by_sample_type_80_10.png`](../result/figures/covered_gene_count_by_sample_type_80_10.png) |
 
 ![Genes covered per sample, grouped by sample type](../result/figures/consensus50_covered_gene_count_by_sample_type_blocks_with_MC.png)
 
