@@ -1,0 +1,1421 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: iqtree -s /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_labels.aln.fasta -st DNA -m MFP -B 1000 -alrt 1000 -nm 5000 -T AUTO --prefix /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000 -redo
+Seed:    715867 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jul 17 19:10:45 2026
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading alignment file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_labels.aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.0194361 secs using 89.6% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0213626 secs using 1425% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 746 sequences with 1379 columns, 1103 distinct patterns
+764 parsimony-informative, 240 singleton sites, 375 constant sites
+                                                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00856332 secs using 4241% CPU
+   1  Methylobacterium_sp._CB376|WFT77218.1                                        34.74%    failed      0.00%
+   2  Methylobacterium_sp|WVG89404.1                                               82.67%    passed     57.85%
+   3  Methylobacterium_sp|WOJ45296.1                                               75.92%    failed      0.19%
+   4  Methylobacterium_aquaticum|BAQ48817.1                                        27.56%    failed      0.00%
+   5  Methylobacterium_aquaticum|BAQ43835.1                                        35.17%    failed      0.02%
+   6  Methylobacterium_nodulans_ORS_2060|AAQ82902.1                                69.11%    passed     36.33%
+   7  Methylobacterium_nodulans_ORS_2060|CAD54428.1                                69.11%    passed     36.33%
+   8  Burkholderia_vietnamiensis|YBL36063.1                                        36.04%    failed      2.28%
+   9  Burkholderia_vietnamiensis|WHU96266.1                                        36.04%    failed      1.81%
+  10  Burkholderia_vietnamiensis|CAM2259461.1                                      36.04%    passed      6.57%
+  11  Burkholderia_multivorans|CAN0620980.1                                        36.04%    failed      0.56%
+  12  Burkholderia_multivorans|CAN0620951.1                                        36.04%    failed      1.81%
+  13  Burkholderia_vietnamiensis|CAM2342742.1                                      36.04%    failed      2.30%
+  14  Burkholderia_vietnamiensis|GBH24241.1                                        36.04%    failed      2.28%
+  15  Burkholderia_vietnamiensis|CAG9200154.1                                      36.04%    failed      2.30%
+  16  Burkholderia_vietnamiensis|CAG9216365.1                                      36.04%    passed      6.57%
+  17  Burkholderia_vietnamiensis|CAG9212816.1                                      36.04%    failed      2.28%
+  18  Burkholderia_vietnamiensis|UQN48284.1                                        36.04%    failed      2.28%
+  19  Burkholderia_vietnamiensis|UKV74239.1                                        36.04%    failed      3.15%
+  20  Burkholderia_vietnamiensis|UBI28751.1                                        36.04%    failed      2.90%
+  21  Burkholderia_vietnamiensis|QTK88865.1                                        36.04%    failed      3.55%
+  22  Burkholderia_sp._MBR-1|QMI48918.1                                            36.04%    failed      3.55%
+  23  Burkholderia_vietnamiensis|AVR14760.1                                        36.04%    failed      2.90%
+  24  Burkholderia_ubonensis|TPQ46028.1                                            36.04%    failed      2.30%
+  25  Burkholderia_sp|QBF03698.1                                                   74.11%    passed      8.41%
+  26  Burkholderia_vietnamiensis|RQM61009.1                                        36.04%    failed      2.30%
+  27  Burkholderia_vietnamiensis|PRH41833.1                                        36.04%    failed      2.28%
+  28  Burkholderia_cenocepacia|ASN65360.1                                          76.65%    passed     40.49%
+  29  uncultured_Burkholderia_sp|AOS52657.1                                        82.81%    passed     23.52%
+  30  Burkholderia_sp._CRRI-76_SBUA|AIE76348.1                                     74.04%    passed      6.95%
+  31  Burkholderia_vietnamiensis|AQM36706.1                                        36.48%    failed      2.63%
+  32  Burkholderia_vietnamiensis|AOK44724.1                                        36.04%    failed      2.31%
+  33  Burkholderia_vietnamiensis|AOK13682.1                                        36.04%    failed      2.31%
+  34  Burkholderia_vietnamiensis|AOK02250.1                                        36.04%    failed      2.31%
+  35  Burkholderia_ubonensis|AOJ76593.1                                            36.04%    failed      2.31%
+  36  Burkholderia_vietnamiensis|AOJ17135.1                                        36.04%    failed      1.81%
+  37  Burkholderia_sp._NGR190|ACB86866.1                                           57.43%    passed     11.13%
+  38  Burkholderia_sp._DUS751|ACB86861.1                                           58.96%    passed      8.18%
+  39  Burkholderia_sp._PTK47|AAU85620.1                                            53.08%    passed     24.40%
+  40  Burkholderia_sp._Br3469|AAT06095.1                                           52.43%    passed     42.97%
+  41  Burkholderia_sp._Ms116|ACK76288.1                                            54.68%    passed     54.11%
+  42  Burkholderia_sp._Cs130|ACK76287.1                                            56.06%    passed     74.92%
+  43  Burkholderia_vietnamiensis|ABO48370.1                                        58.59%    failed      0.64%
+  44  Burkholderia_sp._KJ006|ABL84198.1                                            75.63%    failed      3.97%
+  45  Burkholderia_vietnamiensis|ABL14192.1                                        58.59%    failed      0.47%
+  46  Burkholderia_vietnamiensis|ABL14191.1                                        58.59%    failed      0.80%
+  47  Burkholderia_vietnamiensis|ABL14190.1                                        58.59%    failed      0.60%
+  48  Burkholderia_vietnamiensis|ABL14189.1                                        58.59%    failed      0.60%
+  49  Burkholderia_vietnamiensis|ABL14188.1                                        58.59%    failed      0.64%
+  50  Burkholderia_vietnamiensis|ABL14187.1                                        58.59%    failed      0.64%
+  51  Burkholderia_vietnamiensis|ABO64221.1                                        38.43%    failed      0.52%
+  52  Burkholderia_vietnamiensis|ABO64220.1                                        39.52%    failed      1.25%
+  53  Burkholderia_vietnamiensis|ABO64219.1                                        38.00%    failed      0.75%
+  54  Burkholderia_vietnamiensis|ABO48371.1                                        58.59%    failed      0.74%
+  55  uncultured_Burkholderia_sp|AMT81197.1                                        82.81%    passed     28.49%
+  56  uncultured_Burkholderia_sp|AMT81190.1                                        82.81%    passed     28.49%
+  57  Burkholderia_sp._D1SS235|AMS38547.1                                          74.47%    passed     35.29%
+  58  uncultured_Burkholderia_sp|AJG42575.1                                        75.63%    passed     39.72%
+  59  uncultured_Burkholderia_sp|AJG42574.1                                        75.63%    passed     27.13%
+  60  Burkholderia_sp._BRUESC862|AMB37068.1                                        72.81%    passed     27.05%
+  61  Burkholderia_vietnamiensis|KVS35309.1                                        36.04%    failed      1.81%
+  62  Burkholderia_vietnamiensis|KVS05480.1                                        36.04%    failed      2.28%
+  63  Burkholderia_vietnamiensis|KVS02758.1                                        36.04%    failed      2.90%
+  64  Burkholderia_vietnamiensis|KVS01324.1                                        36.04%    failed      2.86%
+  65  Burkholderia_vietnamiensis|KVR94404.1                                        36.04%    failed      2.90%
+  66  Burkholderia_vietnamiensis|KVR87766.1                                        36.04%    failed      3.55%
+  67  Burkholderia_vietnamiensis|KVR85109.1                                        36.04%    failed      1.81%
+  68  Burkholderia_vietnamiensis|KVR64905.1                                        36.04%    failed      3.61%
+  69  Burkholderia_vietnamiensis|KVM45346.1                                        36.04%    failed      2.90%
+  70  Burkholderia_vietnamiensis|KVG11478.1                                        36.04%    failed      1.81%
+  71  Burkholderia_vietnamiensis|KVF98173.1                                        36.04%    failed      2.28%
+  72  Burkholderia_vietnamiensis|KVF96841.1                                        36.04%    failed      3.61%
+  73  Burkholderia_vietnamiensis|KVF94217.1                                        36.04%    failed      2.28%
+  74  Burkholderia_vietnamiensis|KVF85596.1                                        36.04%    failed      2.28%
+  75  Burkholderia_vietnamiensis|KVF80410.1                                        36.04%    failed      2.28%
+  76  Burkholderia_vietnamiensis|KVF65460.1                                        36.04%    failed      2.28%
+  77  Burkholderia_vietnamiensis|KVF41783.1                                        36.04%    failed      1.81%
+  78  Burkholderia_vietnamiensis|KVF35490.1                                        36.04%    failed      1.81%
+  79  Burkholderia_vietnamiensis|KVF26500.1                                        36.04%    failed      1.81%
+  80  Burkholderia_vietnamiensis|KVF17531.1                                        36.04%    failed      1.80%
+  81  Burkholderia_vietnamiensis|KVF11995.1                                        36.04%    failed      3.61%
+  82  Burkholderia_vietnamiensis|KVF03887.1                                        36.04%    failed      2.86%
+  83  Burkholderia_vietnamiensis|KVE96330.1                                        36.04%    failed      2.07%
+  84  Burkholderia_vietnamiensis|KVE92620.1                                        36.04%    failed      1.80%
+  85  Burkholderia_vietnamiensis|KVE82954.1                                        36.04%    failed      2.06%
+  86  Burkholderia_vietnamiensis|KVE77649.1                                        36.04%    failed      2.62%
+  87  Burkholderia_vietnamiensis|KVE71268.1                                        36.04%    failed      2.30%
+  88  Burkholderia_vietnamiensis|KVE60695.1                                        36.04%    failed      2.90%
+  89  Burkholderia_vietnamiensis|KVE58540.1                                        36.04%    failed      2.06%
+  90  Burkholderia_vietnamiensis|KVE32026.1                                        36.04%    failed      2.30%
+  91  Burkholderia_vietnamiensis|KVE15203.1                                        36.04%    failed      2.31%
+  92  Burkholderia_vietnamiensis|KVE08790.1                                        36.04%    failed      2.86%
+  93  Burkholderia_sp._BL9_I2R2|ALH21710.1                                         77.66%    passed     27.44%
+  94  Burkholderia_sp._BL6665C_I2R2|ALH21709.1                                     77.66%    passed     27.44%
+  95  Burkholderia_sp._BL29_I6R2|ALH21708.1                                        77.66%    passed     31.65%
+  96  Burkholderia_sp._BL27_I4R3|ALH21707.1                                        77.66%    passed     27.44%
+  97  Burkholderia_sp._BL27_I3R6|ALH21706.1                                        77.66%    passed     23.44%
+  98  Burkholderia_sp._BL25_I3R6|ALH21705.1                                        77.66%    passed     30.80%
+  99  Burkholderia_sp._BL25_I3R1|ALH21704.1                                        77.66%    passed     30.80%
+ 100  Burkholderia_sp._BL25_I1R1|ALH21703.1                                        77.66%    passed     27.44%
+ 101  Burkholderia_sp._BL23_I2R2|ALH21702.1                                        77.66%    passed     31.95%
+ 102  Burkholderia_sp._BL23_I1R1|ALH21701.1                                        77.66%    passed     27.44%
+ 103  Burkholderia_sp._BL21_I5R3|ALH21700.1                                        77.66%    passed     27.44%
+ 104  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1                       35.17%    passed     43.23%
+ 105  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR51510.1                       35.17%    passed     43.23%
+ 106  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR26694.1                       35.17%    passed     43.23%
+ 107  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR32895.1                       35.17%    passed     43.23%
+ 108  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR39096.1                       35.17%    passed     43.23%
+ 109  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR14725.1                       35.17%    passed     43.23%
+ 110  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR20179.1                       35.17%    passed     44.81%
+ 111  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR07659.1                       35.17%    passed     44.81%
+ 112  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ96139.1                       35.17%    passed     43.23%
+ 113  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR01540.1                       35.17%    passed     43.23%
+ 114  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ82840.1                       35.17%    passed     43.23%
+ 115  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ88867.1                       35.17%    passed     43.23%
+ 116  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ70847.1                       35.17%    passed     44.95%
+ 117  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ64121.1                       35.17%    passed     43.23%
+ 118  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ76832.1                       35.17%    passed     43.23%
+ 119  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ57886.1                       35.17%    passed     43.23%
+ 120  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ45025.1                       35.17%    passed     43.23%
+ 121  Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ49969.1                       35.17%    passed     43.23%
+ 122  Sinorhizobium_fredii__Rhizobium_fredii_|XRN48474.1                           35.39%    failed      3.77%
+ 123  Sinorhizobium_fredii__Rhizobium_fredii_|XRN48363.1                           35.39%    failed      3.77%
+ 124  Sinorhizobium_meliloti__Rhizobium_meliloti_|XNY04847.1                       35.17%    passed     49.38%
+ 125  Sinorhizobium_meliloti__Rhizobium_meliloti_|XHY72514.1                       35.17%    passed     44.95%
+ 126  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56613.1                       80.06%    passed     81.19%
+ 127  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56612.1                       80.06%    passed     81.19%
+ 128  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56611.1                       62.58%    passed     98.74%
+ 129  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56610.1                       62.58%    passed     98.74%
+ 130  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56609.1                       62.58%    passed     97.61%
+ 131  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1                       62.58%    passed     98.76%
+ 132  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56607.1                       62.58%    passed     98.76%
+ 133  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56606.1                       62.58%    passed     98.76%
+ 134  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56605.1                       81.65%    passed     96.67%
+ 135  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56604.1                       81.65%    passed     96.67%
+ 136  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56603.1                       81.65%    passed     99.08%
+ 137  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56602.1                       62.58%    passed     98.76%
+ 138  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56601.1                       62.58%    passed     98.74%
+ 139  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56600.1                       62.58%    passed     98.76%
+ 140  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56599.1                       62.58%    passed     98.76%
+ 141  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56598.1                       68.53%    passed     99.05%
+ 142  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56597.1                       62.58%    passed     98.76%
+ 143  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56596.1                       62.58%    passed     98.76%
+ 144  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56595.1                       62.58%    passed     98.76%
+ 145  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56594.1                       62.58%    passed     97.61%
+ 146  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56593.1                       81.65%    passed     96.67%
+ 147  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56592.1                       62.58%    passed     98.76%
+ 148  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56591.1                       62.58%    passed     98.76%
+ 149  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56590.1                       62.58%    passed     98.76%
+ 150  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56589.1                       62.58%    passed     98.74%
+ 151  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56588.1                       62.58%    passed     97.03%
+ 152  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56587.1                       62.58%    passed     97.03%
+ 153  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56586.1                       62.58%    passed     98.74%
+ 154  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56585.1                       62.58%    passed     98.76%
+ 155  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56584.1                       62.58%    passed     98.76%
+ 156  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56583.1                       62.58%    passed     98.76%
+ 157  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56582.1                       62.58%    passed     97.03%
+ 158  Sinorhizobium_medicae__Ensifer_medicae_|WMQ56579.1                           80.06%    passed     95.80%
+ 159  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1                       80.06%    passed     87.47%
+ 160  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56577.1                       80.06%    passed     87.47%
+ 161  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56576.1                       80.06%    passed     87.47%
+ 162  Sinorhizobium_medicae__Ensifer_medicae_|WMQ56575.1                           80.06%    passed     95.80%
+ 163  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56567.1                       80.06%    passed     87.47%
+ 164  Sinorhizobium_medicae__Ensifer_medicae_|WMQ56566.1                           80.06%    passed     95.80%
+ 165  Sinorhizobium_medicae__Ensifer_medicae_|WMQ56565.1                           74.40%    passed     98.52%
+ 166  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56564.1                       80.06%    passed     87.47%
+ 167  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56563.1                       80.06%    passed     87.47%
+ 168  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56562.1                       80.06%    passed     87.47%
+ 169  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56560.1                       80.06%    passed     87.47%
+ 170  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56559.1                       62.58%    passed     98.76%
+ 171  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56558.1                       68.46%    passed     95.21%
+ 172  Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56557.1                       62.58%    passed     97.61%
+ 173  Sinorhizobium_prairiense|WEJ35538.1                                          35.17%    passed     68.45%
+ 174  Sinorhizobium_prairiense|WEJ13936.1                                          35.17%    passed     68.45%
+ 175  Sinorhizobium_prairiense|WEJ08560.1                                          35.17%    passed     68.45%
+ 176  Sinorhizobium_meliloti__Rhizobium_meliloti_|XEM16083.1                       35.17%    passed     43.23%
+ 177  Sinorhizobium_meliloti__Rhizobium_meliloti_|XEM22073.1                       35.17%    passed     43.23%
+ 178  Rhizobium_aethiopicum|CAO3997656.1                                           35.61%    passed     13.87%
+ 179  Rhizobium_azibense|CAO4004957.1                                              35.17%    passed     44.17%
+ 180  Rhizobium_leguminosarum|XYR18004.1                                           35.17%    passed     44.57%
+ 181  Rhizobium_leguminosarum_bv._viciae|XYL06062.1                                47.79%    passed     11.30%
+ 182  Rhizobium_binae|XXB05130.1                                                   35.17%    passed     31.62%
+ 183  Rhizobium_sp._YTUHZ044|XXA98993.1                                            35.17%    passed     30.43%
+ 184  Rhizobium_sp._YTUHZ045|XXB11515.1                                            35.17%    passed     31.62%
+ 185  Rhizobium_sp|XUX57341.1                                                      70.41%    passed     38.56%
+ 186  Rhizobium_sp|XUX57340.1                                                      70.41%    passed     41.45%
+ 187  Rhizobium_sp|XUX57339.1                                                      70.41%    passed     48.46%
+ 188  Rhizobium_sp|XUX57338.1                                                      70.41%    passed     36.16%
+ 189  Rhizobium_sp._YTU87027|XUM51890.1                                            35.17%    passed     31.62%
+ 190  Rhizobium_sp|XUD99387.1                                                      70.41%    passed     43.85%
+ 191  Rhizobium_sp|XUD99386.1                                                      70.41%    passed     60.46%
+ 192  Rhizobium_sp|XTP83225.1                                                      70.41%    passed     56.20%
+ 193  Rhizobium_sp|XTP83224.1                                                      70.41%    passed     53.22%
+ 194  Rhizobium_sp|XRR07292.1                                                      49.75%    passed     77.91%
+ 195  Rhizobium_sp|XRR07291.1                                                      49.75%    passed     77.91%
+ 196  Rhizobium_sp|XRR07290.1                                                      57.14%    passed     89.47%
+ 197  Rhizobium_sp|XRR07289.1                                                      56.93%    passed     91.27%
+ 198  Rhizobium_sp._ZK1|XON24431.1                                                 35.17%    passed     31.62%
+ 199  Paenirhizobium_cremeum|XOE39700.1                                            35.39%    passed     11.12%
+ 200  Rhizobium_leguminosarum|BEJ25671.1                                           35.61%    passed     24.08%
+ 201  Rhizobium_johnstonii|XLQ54132.1                                              35.17%    passed      7.53%
+ 202  Rhizobium_leguminosarum|XKQ44608.1                                           35.17%    failed      2.54%
+ 203  Rhizobium_ruizarguesonis|XKM37799.1                                          35.17%    failed      2.67%
+ 204  Rhizobium_johnstonii|XJW23218.1                                              35.17%    passed      7.53%
+ 205  Rhizobium_ruizarguesonis|XIE09844.1                                          35.17%    passed      6.94%
+ 206  Rhizobium_etli|XHB23399.1                                                    70.99%    passed     52.35%
+ 207  Rhizobium_phaseoli|XHB23398.1                                                65.41%    passed     77.90%
+ 208  Rhizobium_phaseoli|XHB23397.1                                                52.79%    passed     89.32%
+ 209  Rhizobium_phaseoli|XHB23396.1                                                52.79%    passed     89.32%
+ 210  Rhizobium_etli|XHB23395.1                                                    52.79%    passed     89.32%
+ 211  Rhizobium_etli|XHB23394.1                                                    52.79%    passed     89.32%
+ 212  Rhizobium_hidalgonense|XHB23393.1                                            52.79%    passed     89.32%
+ 213  Rhizobium_phaseoli|XHB23392.1                                                52.79%    passed     89.32%
+ 214  Rhizobium_phaseoli|XHB23391.1                                                52.79%    passed     89.32%
+ 215  Rhizobium_etli|XHB23390.1                                                    52.79%    passed     89.32%
+ 216  Rhizobium_phaseoli|XHB23389.1                                                52.79%    passed     89.32%
+ 217  Rhizobium_phaseoli|XHB23388.1                                                52.79%    passed     89.32%
+ 218  Rhizobium_etli|XHB23387.1                                                    52.79%    passed     89.32%
+ 219  Rhizobium_phaseoli|XHB23386.1                                                52.79%    passed     89.32%
+ 220  Rhizobium_phaseoli|XHB23385.1                                                52.79%    passed     89.32%
+ 221  Rhizobium_etli|XHB23384.1                                                    71.07%    passed     55.05%
+ 222  Rhizobium_phaseoli|XHB23383.1                                                52.79%    passed     89.32%
+ 223  Rhizobium_etli|XHB23382.1                                                    52.79%    passed     89.32%
+ 224  Rhizobium_phaseoli|XHB23381.1                                                52.79%    passed     89.32%
+ 225  Rhizobium_etli|XHB23380.1                                                    52.79%    passed     89.32%
+ 226  Rhizobium_ecuadorense|XHB23379.1                                             67.51%    passed     64.19%
+ 227  Rhizobium_hidalgonense|XHB23378.1                                            52.79%    passed     89.32%
+ 228  Rhizobium_hidalgonense|XHB23377.1                                            52.79%    passed     89.32%
+ 229  Rhizobium_ecuadorense|XHB23376.1                                             52.79%    passed     89.32%
+ 230  Rhizobium_hidalgonense|XHB23375.1                                            52.79%    passed     89.32%
+ 231  Rhizobium_hidalgonense|XHB23374.1                                            52.79%    passed     89.32%
+ 232  Rhizobium_sophoriradicis|XHB23373.1                                          52.79%    passed     81.67%
+ 233  Rhizobium_ecuadorense|XHB23372.1                                             67.51%    passed     64.19%
+ 234  Rhizobium_etli|XHB23371.1                                                    52.79%    passed     89.32%
+ 235  Rhizobium_etli|XHB23370.1                                                    52.79%    passed     89.32%
+ 236  Rhizobium_hidalgonense|XHB23369.1                                            52.79%    passed     89.32%
+ 237  Rhizobium_phaseoli|XHB23368.1                                                52.79%    passed     89.32%
+ 238  Rhizobium_etli|XHB23367.1                                                    52.79%    passed     89.32%
+ 239  Rhizobium_hidalgonense|XHB23366.1                                            52.79%    passed     89.32%
+ 240  Rhizobium_hidalgonense|XHB23365.1                                            52.79%    passed     89.32%
+ 241  Rhizobium_leguminosarum|WMQ56581.1                                           80.06%    passed     93.27%
+ 242  Rhizobium_leguminosarum|WMQ56580.1                                           80.06%    passed     88.88%
+ 243  Rhizobium_leguminosarum|WMQ56572.1                                           80.06%    passed     87.47%
+ 244  Rhizobium_leguminosarum|WMQ56571.1                                           80.06%    passed     93.27%
+ 245  Rhizobium_leguminosarum|WMQ56570.1                                           80.06%    passed     93.27%
+ 246  Rhizobium_leguminosarum|WMQ56569.1                                           80.06%    passed     93.27%
+ 247  Rhizobium_leguminosarum|WMQ56568.1                                           80.06%    passed     93.27%
+ 248  Cupriavidus_taiwanensis|CAM3417383.1                                         36.04%    failed      0.00%
+ 249  Cupriavidus_taiwanensis_LMG_19424|CAP64045.1                                 36.04%    failed      0.00%
+ 250  Cupriavidus_sp|WBQ20343.1                                                    80.64%    passed     15.29%
+ 251  Cupriavidus_sp|WBQ20342.1                                                    80.64%    passed     15.29%
+ 252  Cupriavidus_sp|WBQ20341.1                                                    80.64%    passed     15.29%
+ 253  Cupriavidus_sp|WBQ20340.1                                                    63.89%    failed      2.98%
+ 254  Cupriavidus_sp|WBQ20339.1                                                    68.67%    passed     10.61%
+ 255  Cupriavidus_sp|WBQ20338.1                                                    78.90%    passed      6.81%
+ 256  Cupriavidus_sp|WBQ20337.1                                                    79.33%    passed      7.34%
+ 257  Cupriavidus_sp|WBQ20334.1                                                    64.76%    failed      2.01%
+ 258  Cupriavidus_sp|WBQ20333.1                                                    64.54%    failed      2.37%
+ 259  Cupriavidus_sp|WBQ20330.1                                                    64.10%    failed      1.70%
+ 260  Cupriavidus_sp|WBQ20329.1                                                    64.32%    failed      1.68%
+ 261  Cupriavidus_sp|WBQ20328.1                                                    79.33%    passed      7.34%
+ 262  Cupriavidus_sp|WBQ20325.1                                                    79.33%    passed      7.34%
+ 263  Cupriavidus_sp|WBQ20324.1                                                    63.89%    failed      2.98%
+ 264  Cupriavidus_sp|WBQ20323.1                                                    64.97%    failed      2.12%
+ 265  Cupriavidus_sp|WBQ20322.1                                                    64.76%    failed      2.09%
+ 266  Cupriavidus_sp|WBQ20321.1                                                    64.54%    failed      2.37%
+ 267  Cupriavidus_sp|WBQ20320.1                                                    64.54%    failed      2.37%
+ 268  Cupriavidus_sp|WBQ20319.1                                                    64.54%    failed      2.37%
+ 269  Cupriavidus_sp|WBQ20318.1                                                    64.32%    failed      2.42%
+ 270  Cupriavidus_sp|WAK99527.1                                                    36.04%    failed      0.00%
+ 271  Cupriavidus_sp|WAK99526.1                                                    36.04%    failed      0.00%
+ 272  Cupriavidus_taiwanensis|SOY75813.1                                           36.04%    failed      0.00%
+ 273  Cupriavidus_taiwanensis|SPA21580.1                                           36.04%    failed      0.00%
+ 274  Cupriavidus_taiwanensis|SOZ06869.1                                           36.04%    failed      0.00%
+ 275  Cupriavidus_taiwanensis|SPA53445.1                                           36.04%    failed      0.00%
+ 276  Cupriavidus_taiwanensis|SOY74994.1                                           36.04%    failed      0.00%
+ 277  Cupriavidus_taiwanensis|SOZ02299.1                                           36.04%    failed      0.00%
+ 278  Cupriavidus_taiwanensis|SOZ75829.1                                           36.04%    failed      0.00%
+ 279  Cupriavidus_neocaledonicus|SOZ40512.1                                        36.04%    failed      0.00%
+ 280  Cupriavidus_taiwanensis|SOZ92691.1                                           36.04%    failed      0.00%
+ 281  Cupriavidus_taiwanensis|SPA37264.1                                           36.04%    failed      0.00%
+ 282  Cupriavidus_taiwanensis|SOZ96568.1                                           36.04%    failed      0.00%
+ 283  Cupriavidus_taiwanensis|SOZ90203.1                                           36.04%    failed      0.00%
+ 284  Cupriavidus_taiwanensis|SOZ32293.1                                           36.04%    failed      0.00%
+ 285  Cupriavidus_taiwanensis|SPA35249.1                                           36.04%    failed      0.00%
+ 286  Cupriavidus_phytorum|SOY77810.1                                              36.04%    failed      0.00%
+ 287  Cupriavidus_taiwanensis|SOY74997.1                                           36.04%    failed      0.00%
+ 288  Cupriavidus_taiwanensis|SOY75001.1                                           36.04%    failed      0.00%
+ 289  Cupriavidus_taiwanensis|SOZ33922.1                                           36.04%    failed      0.00%
+ 290  Cupriavidus_taiwanensis|SOZ50607.1                                           36.04%    failed      0.00%
+ 291  Cupriavidus_taiwanensis|SOZ21382.1                                           36.04%    failed      0.00%
+ 292  Cupriavidus_taiwanensis|SPC24715.1                                           36.04%    failed      0.00%
+ 293  Cupriavidus_taiwanensis|SPC25162.1                                           36.04%    failed      0.00%
+ 294  Cupriavidus_taiwanensis|SOZ16351.1                                           36.04%    failed      0.00%
+ 295  Cupriavidus_taiwanensis|SOZ95165.1                                           36.04%    failed      0.00%
+ 296  Cupriavidus_neocaledonicus|SPD62388.1                                        36.04%    failed      0.00%
+ 297  Cupriavidus_taiwanensis|SPS02126.1                                           36.04%    failed      0.01%
+ 298  Cupriavidus_taiwanensis|SOY99697.1                                           36.04%    failed      0.00%
+ 299  Cupriavidus_taiwanensis|SPA23274.1                                           36.04%    failed      0.00%
+ 300  Cupriavidus_taiwanensis|SPA54177.1                                           36.04%    failed      0.00%
+ 301  Cupriavidus_taiwanensis|SOZ19925.1                                           36.04%    failed      0.00%
+ 302  Cupriavidus_taiwanensis|SPK77307.1                                           36.04%    failed      0.00%
+ 303  Cupriavidus_taiwanensis|SPD69508.1                                           36.04%    failed      0.00%
+ 304  Cupriavidus_taiwanensis|SPD48792.1                                           36.04%    failed      0.00%
+ 305  Cupriavidus_taiwanensis|SPD61680.1                                           36.04%    failed      0.00%
+ 306  Cupriavidus_taiwanensis|SPD37413.1                                           36.04%    failed      0.00%
+ 307  Cupriavidus_taiwanensis|SPA57181.1                                           36.04%    failed      0.00%
+ 308  Cupriavidus_taiwanensis|SPA11330.1                                           36.04%    failed      0.00%
+ 309  Cupriavidus_taiwanensis|SPA03439.1                                           36.04%    failed      0.00%
+ 310  Cupriavidus_taiwanensis|SOZ74514.1                                           36.04%    failed      0.00%
+ 311  Cupriavidus_taiwanensis|SOZ72211.1                                           36.04%    failed      0.00%
+ 312  Cupriavidus_taiwanensis|SOZ71103.1                                           36.04%    failed      0.00%
+ 313  Cupriavidus_sp|AVK51783.1                                                    74.11%    passed      5.91%
+ 314  Cupriavidus_sp|AVK51776.1                                                    75.20%    failed      4.53%
+ 315  Cupriavidus_sp|AVK51775.1                                                    75.20%    failed      4.53%
+ 316  Cupriavidus_sp|AVK51774.1                                                    75.42%    failed      4.70%
+ 317  Cupriavidus_sp|AVK51773.1                                                    75.63%    failed      3.17%
+ 318  Cupriavidus_sp|AVK51772.1                                                    74.11%    passed      5.91%
+ 319  Cupriavidus_sp|AVK51771.1                                                    80.71%    passed     28.50%
+ 320  Cupriavidus_sp|AVK51770.1                                                    75.56%    failed      4.82%
+ 321  Cupriavidus_sp|AVK51766.1                                                    74.33%    failed      4.91%
+ 322  Cupriavidus_sp|AVK51765.1                                                    75.20%    failed      4.53%
+ 323  Cupriavidus_sp|AVK51764.1                                                    74.33%    failed      4.91%
+ 324  Cupriavidus_sp._UYMMa02A|ODV43074.1                                          37.35%    failed      0.77%
+ 325  Cupriavidus_taiwanensis|ACB86867.1                                           56.56%    failed      0.04%
+ 326  Cupriavidus_sp._cmp52|ABN47448.1                                             65.77%    failed      0.17%
+ 327  Cupriavidus_sp._cmp2|ABN47447.1                                              65.77%    failed      0.13%
+ 328  Cupriavidus_sp._cmp60|ABN47446.1                                             65.77%    failed      0.17%
+ 329  Cupriavidus_sp._cmp29|ABN47445.1                                             65.77%    failed      0.28%
+ 330  Cupriavidus_sp._amp18|ABN47444.1                                             65.77%    failed      0.28%
+ 331  Cupriavidus_sp._amp45|ABN47443.1                                             65.77%    failed      0.28%
+ 332  Cupriavidus_sp._amp6|ABN47442.1                                              65.77%    failed      0.28%
+ 333  Cupriavidus_sp._mapud10.1|ABN47441.1                                         65.77%    failed      0.10%
+ 334  Cupriavidus_sp._mapud3.4|ABN47440.1                                          65.77%    failed      0.10%
+ 335  Cupriavidus_sp._mapud8.1|ABN47439.1                                          65.77%    failed      0.10%
+ 336  Cupriavidus_sp._tpig.6a|ABN47438.1                                           65.77%    failed      0.10%
+ 337  Cupriavidus_sp._tpud27.2|ABN47437.1                                          65.77%    failed      0.10%
+ 338  Azorhizobium_oxalatiphilum|GGF67226.1                                        35.82%    failed      1.43%
+ 339  Azorhizobium_sp._35-67-15__mine_drainage_metagenome_|OYY23612.1              60.84%    passed     20.89%
+ 340  Azorhizobium_sp._SA12|AKO62878.1                                             73.97%    failed      0.96%
+ 341  Azorhizobium_doebereinerae|ACI46147.1                                        66.50%    failed      1.17%
+ 342  Azorhizobium_caulinodans|ACQ99365.1                                          72.95%    failed      1.45%
+ 343  Azorhizobium_sp._MM5717|AHC97693.1                                           74.76%    failed      0.02%
+ 344  uncultured_Azorhizobium_sp|CAQ35178.1                                        80.42%    passed     52.24%
+ 345  uncultured_Azorhizobium_sp|CAQ35174.1                                        79.41%    passed     99.88%
+ 346  Azorhizobium_sp._KNUC169|ABD93879.1                                          76.29%    passed     25.08%
+ 347  Azorhizobium_caulinodans|CAJ33836.1                                          74.33%    passed     79.52%
+ 348  Azorhizobium_caulinodans|CAJ33831.1                                          75.85%    passed     39.37%
+ 349  Azorhizobium_caulinodans_ORS_571|CAD91852.1                                  68.17%    passed      6.26%
+ 350  Frankia_sp._AcoPraII.1|CAI5943485.1                                          37.35%    failed      1.60%
+ 351  Frankia_sp._Hr75.2|CAI7980009.1                                              36.91%    failed      0.57%
+ 352  uncultured_Frankia_sp|WKF54359.1                                             78.54%    failed      0.97%
+ 353  uncultured_Frankia_sp|WKF54358.1                                             78.54%    failed      2.00%
+ 354  uncultured_Frankia_sp|WKF54357.1                                             78.54%    failed      0.65%
+ 355  uncultured_Frankia_sp|WKF54356.1                                             78.54%    failed      1.40%
+ 356  uncultured_Frankia_sp|WKF54355.1                                             78.54%    failed      0.36%
+ 357  uncultured_Frankia_sp|WKF54354.1                                             53.23%    failed      0.19%
+ 358  uncultured_Frankia_sp|WKF54353.1                                             78.54%    failed      1.42%
+ 359  uncultured_Frankia_sp|WKF54352.1                                             78.54%    failed      1.96%
+ 360  uncultured_Frankia_sp|WKF54351.1                                             78.54%    failed      1.40%
+ 361  uncultured_Frankia_sp|WKF54350.1                                             78.54%    passed     10.28%
+ 362  uncultured_Frankia_sp|WKF54349.1                                             78.54%    failed      3.58%
+ 363  uncultured_Frankia_sp|WKF54348.1                                             78.54%    failed      2.00%
+ 364  Frankia_sp|AAC24160.1                                                        59.90%    passed      8.40%
+ 365  Frankia_alni|QEJ80971.1                                                      55.40%    failed      0.42%
+ 366  Frankia_alni|QEJ80970.1                                                      55.40%    failed      0.32%
+ 367  Frankia_alni|QEJ80969.1                                                      55.40%    failed      0.62%
+ 368  Frankia_alni|QCW05392.1                                                      55.40%    failed      0.30%
+ 369  Frankia_alni|QCW05391.1                                                      55.40%    failed      0.38%
+ 370  Frankia_alni|QCW05390.1                                                      55.40%    failed      0.76%
+ 371  Frankia_alni|QCW05389.1                                                      55.40%    failed      0.28%
+ 372  Frankia_alni|QCW05388.1                                                      55.40%    failed      0.62%
+ 373  Candidatus_Frankia_alpina|THJ75497.1                                         37.35%    failed      0.18%
+ 374  Frankia_sp._B2|TFE34092.1                                                    37.35%    failed      0.78%
+ 375  Frankia_casuarinae|BBD14102.1                                                83.03%    passed     12.21%
+ 376  Frankia_casuarinae|BBD14101.1                                                83.03%    passed     12.21%
+ 377  Frankia_casuarinae|BBD14100.1                                                83.03%    passed      9.43%
+ 378  Frankia_casuarinae|BBD14099.1                                                83.03%    passed      9.43%
+ 379  Frankia_alni|SOT93039.1                                                      84.99%    failed      0.93%
+ 380  Frankia_alni|SOT93038.1                                                      84.99%    failed      1.40%
+ 381  Frankia_alni|SOT93037.1                                                      84.99%    failed      0.98%
+ 382  Frankia_alni|SOT93036.1                                                      84.99%    failed      1.34%
+ 383  Frankia_alni|SOT93035.1                                                      84.99%    failed      1.40%
+ 384  Frankia_alni|SOT93034.1                                                      84.99%    failed      0.98%
+ 385  Frankia_alni|SOT93033.1                                                      84.99%    failed      1.54%
+ 386  Frankia_alni|SOT93032.1                                                      84.99%    failed      1.89%
+ 387  Frankia_alni|SOT93015.1                                                      84.99%    failed      1.89%
+ 388  Frankia_alni|SOT93014.1                                                      84.99%    failed      2.44%
+ 389  Frankia_alni|SOT93013.1                                                      84.99%    failed      1.90%
+ 390  Frankia_alni|SOT93012.1                                                      84.99%    failed      1.89%
+ 391  Frankia_alni|SOT93011.1                                                      84.99%    failed      1.70%
+ 392  Frankia_alni|SOT93010.1                                                      84.99%    failed      2.44%
+ 393  Frankia_alni|SOT93009.1                                                      84.99%    failed      1.34%
+ 394  Frankia_alni|SOT93008.1                                                      84.99%    failed      1.11%
+ 395  Frankia_alni|SOT93007.1                                                      84.99%    failed      0.98%
+ 396  Frankia_alni|SOT93006.1                                                      84.99%    failed      1.77%
+ 397  Frankia_canadensis|SOU56122.1                                                31.91%    failed      0.02%
+ 398  Frankia_canadensis|SNQ48832.1                                                31.91%    failed      0.02%
+ 399  uncultured_Frankia_sp|SME86192.1                                             62.58%    failed      0.45%
+ 400  uncultured_Frankia_sp|SME86191.1                                             62.58%    failed      0.26%
+ 401  uncultured_Frankia_sp|SME86190.1                                             62.58%    failed      0.51%
+ 402  uncultured_Frankia_sp|SME86189.1                                             62.58%    failed      0.51%
+ 403  uncultured_Frankia_sp|SME86188.1                                             62.58%    failed      1.25%
+ 404  uncultured_Frankia_sp|SME86187.1                                             62.58%    failed      0.22%
+ 405  uncultured_Frankia_sp|SME86186.1                                             62.58%    failed      0.36%
+ 406  uncultured_Frankia_sp|SME86185.1                                             62.58%    failed      0.18%
+ 407  uncultured_Frankia_sp|SME86184.1                                             62.58%    failed      0.26%
+ 408  uncultured_Frankia_sp|SME86183.1                                             62.58%    failed      0.24%
+ 409  uncultured_Frankia_sp|SME86182.1                                             62.58%    failed      0.34%
+ 410  Frankia_alni|SOH62283.1                                                      84.41%    failed      0.81%
+ 411  Frankia_alni|SOH62282.1                                                      84.41%    failed      1.69%
+ 412  Frankia_alni|SOH62281.1                                                      84.41%    failed      1.41%
+ 413  Frankia_alni|SOH62280.1                                                      84.41%    failed      0.60%
+ 414  Frankia_alni|SOH62279.1                                                      84.41%    failed      2.23%
+ 415  Frankia_alni|SOH62278.1                                                      84.41%    failed      2.84%
+ 416  Frankia_alni|SOH62277.1                                                      84.41%    failed      1.10%
+ 417  Frankia_alni|SOH62276.1                                                      84.41%    failed      1.69%
+ 418  Mesorhizobium_sp._WSM4083|XXN81638.1                                         35.17%    failed      2.80%
+ 419  Mesorhizobium_sp._WSM4083|XXN81544.1                                         35.17%    failed      2.16%
+ 420  Mesorhizobium_sp._LjNodule214|CAN7751128.1                                   35.17%    passed     20.19%
+ 421  Mesorhizobium_amorphae|CAN7146254.1                                          35.17%    passed     19.30%
+ 422  Mesorhizobium_caraganae|CAN7239890.1                                         35.17%    passed     12.66%
+ 423  Mesorhizobium_sp._RIZ17|XXB69634.1                                           35.17%    passed     10.92%
+ 424  Mesorhizobium_muleiense|XPS09193.1                                           35.17%    passed     52.99%
+ 425  Mesorhizobium_sp|XOL43184.1                                                  48.80%    passed      5.33%
+ 426  Mesorhizobium_sp|XOL43183.1                                                  47.72%    failed      3.05%
+ 427  Mesorhizobium_sp|XOL43182.1                                                  47.72%    failed      3.05%
+ 428  Mesorhizobium_sp|XOL43181.1                                                  47.72%    failed      3.05%
+ 429  Mesorhizobium_sp|XOL43180.1                                                  48.15%    failed      3.16%
+ 430  Mesorhizobium_sp|XOL43179.1                                                  47.28%    failed      2.57%
+ 431  Mesorhizobium_sp|XOL43178.1                                                  48.80%    passed      5.33%
+ 432  Mesorhizobium_sp|XOL43177.1                                                  47.72%    failed      3.05%
+ 433  Mesorhizobium_sp|XOL43176.1                                                  47.72%    failed      3.05%
+ 434  Mesorhizobium_sp|XOL43175.1                                                  47.93%    failed      3.03%
+ 435  Mesorhizobium_sp|XOL43174.1                                                  47.72%    failed      3.05%
+ 436  Mesorhizobium_sp|XOL43173.1                                                  47.50%    failed      3.03%
+ 437  Mesorhizobium_sp|XOL43172.1                                                  48.80%    passed      5.33%
+ 438  Mesorhizobium_sp|XOL43171.1                                                  48.15%    failed      4.61%
+ 439  Mesorhizobium_sp|XOL43170.1                                                  47.93%    failed      3.03%
+ 440  Mesorhizobium_sp|XOL43169.1                                                  47.93%    failed      3.03%
+ 441  Mesorhizobium_sp|XOL43168.1                                                  47.50%    failed      3.03%
+ 442  Mesorhizobium_sp|XOL43167.1                                                  48.80%    passed      5.33%
+ 443  Mesorhizobium_sp|XOL43166.1                                                  48.80%    passed      5.33%
+ 444  Mesorhizobium_sp|XOL43165.1                                                  48.37%    failed      3.73%
+ 445  Mesorhizobium_sp|XOL43164.1                                                  47.72%    failed      3.05%
+ 446  Mesorhizobium_sp|XOL43163.1                                                  49.02%    passed      5.32%
+ 447  Mesorhizobium_sp|XOL43162.1                                                  49.02%    passed      5.32%
+ 448  Mesorhizobium_sp|XOL43161.1                                                  47.50%    failed      3.03%
+ 449  Mesorhizobium_sp|XOL43160.1                                                  48.80%    passed      5.33%
+ 450  Mesorhizobium_maamorense|XKI86421.1                                          35.17%    passed     56.82%
+ 451  Mesorhizobium_sp._AaZ16|XIK06011.1                                           35.17%    passed     19.61%
+ 452  Mesorhizobium_sp._ISC25|XHG98762.1                                           35.17%    passed     66.90%
+ 453  Mesorhizobium_sp|WMQ56574.1                                                  80.06%    passed     94.20%
+ 454  Mesorhizobium_sp|WMQ56573.1                                                  80.06%    passed     87.76%
+ 455  Mesorhizobium_sp|WMQ56561.1                                                  80.06%    passed     94.20%
+ 456  Bradyrhizobium_diazoefficiens|GAB9134326.1                                   35.82%    passed      5.29%
+ 457  Bradyrhizobium_diazoefficiens|GAB9229609.1                                   35.82%    passed      5.29%
+ 458  Bradyrhizobium_diazoefficiens|GAB9188266.1                                   35.82%    passed      5.29%
+ 459  Bradyrhizobium_diazoefficiens|GAB9170926.1                                   35.82%    passed      5.29%
+ 460  Bradyrhizobium_diazoefficiens|GAB9198191.1                                   35.82%    passed      5.29%
+ 461  Bradyrhizobium_diazoefficiens|GAB9246978.1                                   35.82%    passed      5.29%
+ 462  Bradyrhizobium_diazoefficiens|GAB9232272.1                                   35.82%    passed      5.29%
+ 463  Bradyrhizobium_diazoefficiens|GAB9249234.1                                   35.82%    passed      5.29%
+ 464  Bradyrhizobium_diazoefficiens|GAB9116018.1                                   35.82%    passed      5.29%
+ 465  Bradyrhizobium_diazoefficiens|GAB9125187.1                                   35.82%    passed      5.29%
+ 466  Bradyrhizobium_sp._Pa8|YAD91767.1                                            35.39%    passed     92.87%
+ 467  Bradyrhizobium_sp._Pa8|YAD91743.1                                            35.39%    passed     75.25%
+ 468  Bradyrhizobium_ottawaense|XZF72199.1                                         35.82%    passed     95.02%
+ 469  Bradyrhizobium_vignae|XZG38298.1                                             65.84%    passed     51.55%
+ 470  Bradyrhizobium_brasilense|XZG38297.1                                         65.84%    passed     38.17%
+ 471  Bradyrhizobium_sp|XZG38296.1                                                 65.84%    passed     35.46%
+ 472  Bradyrhizobium_brasilense|XZG38295.1                                         65.84%    passed     37.27%
+ 473  Bradyrhizobium_brasilense|XZG38294.1                                         65.84%    passed     49.46%
+ 474  Bradyrhizobium_brasilense|XZG38293.1                                         65.84%    passed     65.76%
+ 475  Bradyrhizobium_sp|XZG38292.1                                                 65.84%    passed     34.02%
+ 476  Bradyrhizobium_brasilense|XZG38291.1                                         65.84%    passed     38.17%
+ 477  Bradyrhizobium_brasilense|XZG38290.1                                         65.84%    passed     37.27%
+ 478  Bradyrhizobium_brasilense|XZG38289.1                                         65.84%    passed     38.17%
+ 479  Bradyrhizobium_brasilense|XZG38288.1                                         65.84%    passed     33.32%
+ 480  Bradyrhizobium_brasilense|XZG38287.1                                         65.84%    passed     43.43%
+ 481  Bradyrhizobium_brasilense|XZG38286.1                                         65.84%    passed     49.46%
+ 482  Bradyrhizobium_sp|XZG38285.1                                                 65.84%    passed     43.43%
+ 483  Bradyrhizobium_brasilense|XZG38284.1                                         65.84%    passed     37.27%
+ 484  Bradyrhizobium_sp|XZG38283.1                                                 65.84%    passed     51.55%
+ 485  Bradyrhizobium_sp|XZG38282.1                                                 65.84%    passed      7.16%
+ 486  Bradyrhizobium_brasilense|XZG38281.1                                         65.84%    passed     37.27%
+ 487  Bradyrhizobium_brasilense|XZG38280.1                                         65.84%    passed     37.27%
+ 488  Bradyrhizobium_sp|XZG38279.1                                                 65.84%    failed      3.75%
+ 489  Bradyrhizobium_sp|XZG38278.1                                                 65.84%    failed      3.75%
+ 490  Bradyrhizobium_sp|XZG38277.1                                                 65.84%    failed      3.75%
+ 491  Bradyrhizobium_sp|XZG38276.1                                                 65.84%    passed      5.10%
+ 492  Bradyrhizobium_sp|XZG38275.1                                                 65.84%    passed     65.76%
+ 493  Bradyrhizobium_brasilense|XZG38274.1                                         65.84%    passed     59.72%
+ 494  Bradyrhizobium_brasilense|XZG38273.1                                         65.84%    passed     37.27%
+ 495  Bradyrhizobium_brasilense|XZG38272.1                                         65.84%    passed     43.43%
+ 496  Bradyrhizobium_brasilense|XZG38271.1                                         65.84%    passed     43.80%
+ 497  Bradyrhizobium_sp._521_C7_N1_3|XZB22078.1                                    35.82%    passed      5.29%
+ 498  Bradyrhizobium_sp._590_E5_N4_2|XZB37119.1                                    35.82%    passed      5.29%
+ 499  Bradyrhizobium_sp._1200_D9_N1_1|XZA86272.1                                   35.82%    passed      5.29%
+ 500  Bradyrhizobium_sp._1200_D9_N1_2|XZA77879.1                                   35.82%    passed      5.29%
+ 501  Bradyrhizobium_sp|XYR85911.1                                                 85.86%    passed     30.39%
+ 502  Bradyrhizobium_sp|XYR85910.1                                                 85.86%    passed     30.39%
+ 503  Bradyrhizobium_sp|XYR85909.1                                                 85.86%    passed     30.39%
+ 504  Bradyrhizobium_sp|XYR85908.1                                                 85.86%    passed     30.39%
+ 505  Bradyrhizobium_sp|XYR85907.1                                                 85.86%    passed     30.39%
+ 506  Bradyrhizobium_sp|XYR85906.1                                                 85.86%    passed     30.39%
+ 507  Bradyrhizobium_sp|XYR85905.1                                                 85.86%    passed     30.39%
+ 508  Bradyrhizobium_sp|XYR85904.1                                                 85.86%    passed     30.39%
+ 509  Bradyrhizobium_sp|XYR85903.1                                                 85.86%    passed     30.39%
+ 510  Bradyrhizobium_sp._PUT101|XYX37671.1                                         35.82%    passed      6.84%
+ 511  Bradyrhizobium_sp._SPXBL-02|XYL93550.1                                       35.82%    passed     44.13%
+ 512  Bradyrhizobium_sp._SPXBL-03|XYL85905.1                                       35.82%    passed     90.92%
+ 513  Bradyrhizobium_sp._SMVTL-02|XYL57133.1                                       35.39%    passed     60.57%
+ 514  Bradyrhizobium_sp._BLXBL-03|XYL59955.1                                       35.39%    passed     92.52%
+ 515  Bradyrhizobium_sp._BLXBL-03|XYL59930.1                                       32.78%    passed     80.06%
+ 516  Bradyrhizobium_sp._BLXBL-01|XYL70219.1                                       35.82%    passed     42.22%
+ 517  Bradyrhizobium_sp._SPXBL-04|XYL77982.1                                       35.82%    passed     90.92%
+ 518  Bradyrhizobium_sp._PMVTL-01|XYL30502.1                                       35.82%    passed     28.56%
+ 519  Bradyrhizobium_sp|XXM97414.1                                                 47.79%    passed      7.73%
+ 520  Bradyrhizobium_sp|XXM97413.1                                                 47.14%    passed      6.55%
+ 521  Ensifer_sp|XCD31590.1                                                        45.90%    failed      1.02%
+ 522  Ensifer_sp|XCD31589.1                                                        50.83%    passed      8.20%
+ 523  Ensifer_sp|XCD31588.1                                                        49.67%    failed      2.95%
+ 524  Ensifer_sp|XCD31587.1                                                        45.47%    failed      1.45%
+ 525  Ensifer_sp|XCD31586.1                                                        51.49%    passed      9.14%
+ 526  Ensifer_sp|XRR07293.1                                                        49.75%    passed     65.18%
+ 527  Ensifer_aridi|XFE90173.1                                                     35.17%    passed      8.63%
+ 528  Ensifer_aridi|XFE90110.1                                                     35.17%    passed      8.63%
+ 529  Ensifer_sp|WMS59639.1                                                        45.61%    passed     42.39%
+ 530  Ensifer_sp|WMS59636.1                                                        43.44%    passed     67.88%
+ 531  Ensifer_canadensis|UBI79453.1                                                35.17%    passed     30.98%
+ 532  Ensifer_sp|WDQ78353.1                                                        48.88%    passed     53.53%
+ 533  Ensifer_sp|WDQ78352.1                                                        48.88%    passed     54.51%
+ 534  Ensifer_sp|WDQ78351.1                                                        48.88%    passed     50.89%
+ 535  Ensifer_sp|WBK39215.1                                                        53.44%    passed     87.24%
+ 536  Ensifer_sesbaniae|WAL00215.1                                                 78.32%    passed     33.01%
+ 537  Ensifer_sp|QSZ40503.1                                                        48.88%    passed     50.89%
+ 538  Ensifer_sp|QSZ40502.1                                                        48.88%    passed     52.14%
+ 539  Ensifer_sp|QSZ40501.1                                                        48.88%    passed     53.53%
+ 540  Ensifer_sp|QSZ40500.1                                                        48.88%    passed     54.51%
+ 541  Ensifer_sp|QSZ40499.1                                                        48.88%    passed     53.53%
+ 542  Ensifer_sp|QSZ40498.1                                                        48.88%    passed     50.89%
+ 543  Ensifer_sp|QSZ40497.1                                                        48.88%    passed     65.76%
+ 544  Ensifer_sp|QPF47340.1                                                        48.66%    passed      5.50%
+ 545  Ensifer_sp|QPF47339.1                                                        48.01%    passed      5.33%
+ 546  Ensifer_sp|QPF47338.1                                                        56.27%    passed     13.95%
+ 547  Ensifer_sp|QPF47337.1                                                        48.44%    passed      5.61%
+ 548  Ensifer_sp|QPF47336.1                                                        49.31%    failed      3.76%
+ 549  Ensifer_sp|QPF47291.1                                                        49.31%    passed      6.14%
+ 550  Ensifer_sp|QPF47290.1                                                        47.79%    failed      4.42%
+ 551  Ensifer_sp|QPF47289.1                                                        48.66%    passed      5.53%
+ 552  Ensifer_sp|QPF47288.1                                                        52.14%    passed     14.10%
+ 553  Ensifer_sp|QPF47287.1                                                        60.84%    passed     56.84%
+ 554  Ensifer_sp|QPB76600.1                                                        54.97%    passed     69.28%
+ 555  Ensifer_sp|QJR84113.1                                                        49.02%    passed     72.31%
+ 556  Ensifer_sp|QJR84110.1                                                        48.66%    passed     72.81%
+ 557  Ensifer_sp|QJR84109.1                                                        48.22%    passed     50.36%
+ 558  Ensifer_sp|QJR84108.1                                                        46.70%    passed     84.47%
+ 559  Ensifer_sp|QJR84107.1                                                        48.01%    passed     70.20%
+ 560  Ensifer_sp|QJR84106.1                                                        49.31%    passed     72.67%
+ 561  Ensifer_sp|QJR84105.1                                                        48.22%    passed     41.23%
+ 562  Ensifer_sp|QJR84104.1                                                        48.88%    passed     63.36%
+ 563  Ensifer_sp|QJR84103.1                                                        50.18%    passed     65.98%
+ 564  Ensifer_sp|QJD22992.1                                                        78.68%    passed     84.14%
+ 565  Ensifer_sp|QJD22986.1                                                        78.68%    passed     84.14%
+ 566  Ensifer_sp|QIQ08473.1                                                        48.01%    passed     65.49%
+ 567  Ensifer_sp|QIQ08472.1                                                        65.63%    passed     80.93%
+ 568  Ensifer_sp|QIQ08471.1                                                        49.75%    passed     64.58%
+ 569  Ensifer_sp|QIQ08470.1                                                        47.79%    passed     67.44%
+ 570  Ensifer_sp|QIQ08469.1                                                        47.79%    passed     43.59%
+ 571  Ensifer_sp|QIQ08467.1                                                        49.53%    passed     45.72%
+ 572  Ensifer_sp|QIQ08466.1                                                        48.01%    passed     71.17%
+ 573  Ensifer_sp|QIQ08463.1                                                        48.44%    passed     40.11%
+ 574  Ensifer_sp|QIQ08462.1                                                        47.79%    passed     43.59%
+ 575  Ensifer_sp|QIQ08461.1                                                        48.66%    failed      3.48%
+ 576  Ensifer_sp|QIQ08460.1                                                        48.01%    passed     65.48%
+ 577  Ensifer_sp|QIQ08459.1                                                        51.05%    passed     48.27%
+ 578  Ensifer_sp|QIQ08458.1                                                        56.49%    passed     80.76%
+ 579  Ensifer_sp|QIQ08457.1                                                        48.22%    passed     64.73%
+ 580  Ensifer_sp|QIQ08455.1                                                        58.88%    passed     76.28%
+ 581  Ensifer_sp|QIQ08450.1                                                        58.23%    passed     82.21%
+ 582  Ensifer_sp|QIQ08449.1                                                        51.70%    passed     90.86%
+ 583  Ensifer_sp|QIQ08448.1                                                        50.18%    passed     70.79%
+ 584  Ensifer_sp|QIQ08447.1                                                        50.83%    passed     83.61%
+ 585  Ensifer_sp|QIQ08446.1                                                        48.22%    passed     71.32%
+ 586  Ensifer_sp|QIQ08445.1                                                        49.75%    passed     62.35%
+ 587  Ensifer_sp|QIQ08444.1                                                        49.09%    passed     77.81%
+ 588  Ensifer_sp|QIQ08443.1                                                        49.09%    passed     55.53%
+ 589  Ensifer_sp|QIQ08442.1                                                        48.01%    passed     68.51%
+ 590  Ensifer_sp|QIQ08441.1                                                        50.18%    passed     61.18%
+ 591  Ensifer_sp|QHR82126.1                                                        46.19%    passed     50.08%
+ 592  Ensifer_sp|QHR82124.1                                                        65.26%    passed     71.61%
+ 593  Ensifer_sp|QHG62885.1                                                        76.07%    passed     98.22%
+ 594  Ensifer_sp|QHG62882.1                                                        76.29%    passed     64.88%
+ 595  Ensifer_sp|QHG62880.1                                                        76.07%    passed     64.59%
+ 596  Ensifer_sp|QHG62875.1                                                        76.94%    passed     62.95%
+ 597  Ensifer_sp|QHG62874.1                                                        76.50%    passed     45.68%
+ 598  Ensifer_sp|QHB50520.1                                                        69.54%    passed     34.43%
+ 599  Ensifer_sp|QHB50519.1                                                        49.31%    passed     51.41%
+ 600  Ensifer_sp|QHB50518.1                                                        50.40%    passed     53.39%
+ 601  Ensifer_sp|QHB50517.1                                                        49.31%    passed     51.27%
+ 602  Ensifer_sp|QHB50516.1                                                        48.22%    passed     62.59%
+ 603  Ensifer_sp|QHB50515.1                                                        50.62%    passed     68.18%
+ 604  Ensifer_sp|QHB50514.1                                                        48.01%    passed     47.21%
+ 605  Ensifer_sp|QHB50513.1                                                        47.79%    passed     81.51%
+ 606  Ensifer_sp|QHB50512.1                                                        48.44%    passed     61.42%
+ 607  Ensifer_sp|QHB50511.1                                                        49.09%    passed     46.97%
+ 608  Ensifer_sp|QHB50510.1                                                        49.09%    passed     46.97%
+ 609  Ensifer_sp|QHB50509.1                                                        47.79%    passed     75.77%
+ 610  Ensifer_sp|QHB50508.1                                                        48.44%    passed      5.19%
+ 611  Ensifer_sp|QHB50507.1                                                        48.22%    passed     66.71%
+ 612  Ensifer_sp|QHB50506.1                                                        50.18%    passed      6.90%
+ 613  Allobosea_sp|AXE72931.1                                                      83.83%    passed     12.78%
+ 614  Allobosea_robiniae|CCB84769.1                                                78.97%    passed      5.54%
+ 615  Allobosea_lupini|CCB84768.1                                                  77.08%    failed      0.21%
+ 616  Allobosea_lathyri|CCB84767.1                                                 77.45%    failed      1.93%
+ 617  Allobosea_thiooxidans|ABD93878.1                                             77.66%    passed     31.09%
+ 618  Allobosea_vestrisii_34635|CCB84772.1                                         80.13%    passed     43.45%
+ 619  Allobosea_thiooxidans|CCB84771.1                                             77.74%    passed     33.48%
+ 620  Allobosea_massiliensis_63287|CCB84770.1                                      51.34%    passed      8.24%
+ 621  Allobosea_eneae_34614|CCB84766.1                                             76.94%    failed      0.73%
+ 622  Ochrobactrum_sp._PZHK4|AMB36807.1                                            48.44%    passed     60.84%
+ 623  Ochrobactrum_sp|APZ75377.1                                                   81.58%    passed     83.83%
+ 624  Ochrobactrum_sp|APZ75376.1                                                   81.65%    passed     94.01%
+ 625  Ochrobactrum_sp|APZ75372.1                                                   79.04%    passed     17.60%
+ 626  Ochrobactrum_sp|APZ75371.1                                                   79.33%    passed     12.60%
+ 627  Ochrobactrum_sp|AOQ25862.1                                                   77.45%    passed     38.48%
+ 628  Devosia_sp|UXE52590.1                                                        82.38%    passed     29.85%
+ 629  Microvirga_sp._RSM25|XKE00370.1                                              35.17%    failed      1.41%
+ 630  Microvirga_lotononidis|WQO30062.1                                            35.17%    failed      1.01%
+ 631  Microvirga_calopogonii|AVH86444.1                                            68.24%    passed     94.34%
+ 632  Microvirga_sp._KLBC_81|PVE21514.1                                            35.17%    failed      3.34%
+ 633  Microvirga_sp._KLBC_81|AVH86437.1                                            48.88%    failed      0.19%
+ 634  Microvirga_vignae|AGJ83828.1                                                 73.02%    passed     18.63%
+ 635  Microvirga_zambiensis_WSM3693|AEH03848.1                                     71.94%    failed      4.60%
+ 636  Microvirga_lotononidis|AEH03847.1                                            71.94%    failed      4.60%
+ 637  Microvirga_lupini|AEH03846.1                                                 71.94%    passed     11.07%
+ 638  Microvirga_lupini|AEH03845.1                                                 71.94%    passed     11.07%
+ 639  Microvirga_vignae|KLK90290.1                                                 35.17%    failed      1.84%
+ 640  Microvirga_vignae|AGJ83827.1                                                 58.45%    passed     13.09%
+ 641  Microvirga_lupini|ABM67593.1                                                 71.94%    passed     11.07%
+ 642  Aminobacter_sp._BA135|XUX09915.1                                             35.17%    passed     24.80%
+ 643  Aminobacter_sp._BA135|ACF19771.1                                             49.38%    passed     22.62%
+ 644  Phyllobacterium_sophorae|AIX13314.1                                          50.83%    passed     29.60%
+ 645  Phyllobacterium_sophorae|AIF28016.1                                          63.09%    passed     17.65%
+ 646  Phyllobacterium_sp._BIHB_4156|AHY83147.1                                     70.78%    passed     40.83%
+ 647  Phyllobacterium_sp._BIHB_4155|AHY83146.1                                     70.63%    passed     40.56%
+ 648  Phyllobacterium_sp._ORS_1403|CAI91560.1                                      86.95%    passed     30.77%
+ 649  Phyllobacterium_sp._ORS_1402|CAI91558.1                                      75.27%    passed     95.00%
+ 650  Neorhizobium_galegae_bv._officinalis_bv._officinalis_str._HAMBI|CDN58415.1   34.95%    failed      2.93%
+ 651  Neorhizobium_galegae|WEA82680.1                                              70.85%    passed     11.57%
+ 652  Neorhizobium_galegae|WEA82679.1                                              70.85%    passed     12.13%
+ 653  Neorhizobium_galegae|WEA82678.1                                              70.85%    passed     12.13%
+ 654  Neorhizobium_galegae|WEA82677.1                                              70.85%    passed     12.13%
+ 655  Neorhizobium_galegae|WDZ54603.1                                              70.85%    passed     10.70%
+ 656  Neorhizobium_galegae|WDZ54602.1                                              70.85%    passed     13.54%
+ 657  Neorhizobium_galegae|WDZ54601.1                                              70.85%    passed     11.57%
+ 658  Neorhizobium_galegae|WDZ54600.1                                              70.85%    passed     12.13%
+ 659  Neorhizobium_galegae|WDZ54599.1                                              70.85%    passed     12.13%
+ 660  Neorhizobium_galegae|WDZ54598.1                                              70.85%    passed     13.54%
+ 661  Neorhizobium_galegae|UIK08948.1                                              34.95%    failed      1.34%
+ 662  Neorhizobium_galegae|KAB1120039.1                                            34.95%    failed      1.34%
+ 663  Neorhizobium_galegae|KAB1110074.1                                            34.95%    failed      2.93%
+ 664  Neorhizobium_galegae|KAB1083550.1                                            34.95%    failed      1.12%
+ 665  Neorhizobium_galegae|KAA9382456.1                                            34.95%    failed      2.93%
+ 666  Neorhizobium_sp|QHR82125.1                                                   53.08%    failed      2.17%
+ 667  Neorhizobium_sp|QHR82123.1                                                   70.63%    passed      6.84%
+ 668  Neorhizobium_sp|QDF59026.1                                                   63.45%    passed     93.20%
+ 669  Neorhizobium_huautlense|QDF59025.1                                           63.45%    passed     93.20%
+ 670  Neorhizobium_huautlense|QDF59024.1                                           63.45%    passed     93.20%
+ 671  Neorhizobium_huautlense|QDF59023.1                                           63.45%    passed     93.20%
+ 672  Neorhizobium_huautlense|QDF59022.1                                           63.45%    passed     93.20%
+ 673  Neorhizobium_huautlense|QDF59021.1                                           63.45%    passed     93.20%
+ 674  Neorhizobium_huautlense|QDF59020.1                                           63.45%    passed     93.20%
+ 675  Neorhizobium_huautlense|ALN96194.1                                           53.08%    passed     77.27%
+ 676  Neorhizobium_alkalisoli|ACF98261.1                                           47.43%    passed     60.05%
+ 677  Neorhizobium_alkalisoli|ACF98260.1                                           47.43%    passed     60.05%
+ 678  Neorhizobium_alkalisoli|ACF98259.1                                           47.43%    passed     60.05%
+ 679  Neorhizobium_huautlense|AAT98485.1                                           63.96%    passed     68.58%
+ 680  Neorhizobium_huautlense|AAT98484.1                                           64.54%    passed     61.88%
+ 681  Neorhizobium_huautlense|AAT98483.1                                           65.84%    passed     40.15%
+ 682  Neorhizobium_huautlense|AAT98482.1                                           64.61%    passed     58.17%
+ 683  Neorhizobium_huautlense|AJT47187.1                                           53.08%    passed     77.27%
+ 684  Neorhizobium_galegae|ALI58629.1                                              52.86%    passed      7.34%
+ 685  Neorhizobium_galegae|ALI58628.1                                              52.86%    passed      7.34%
+ 686  Neorhizobium_galegae|ALI58627.1                                              52.86%    passed      7.34%
+ 687  Neorhizobium_galegae|ALI58626.1                                              52.86%    passed      7.34%
+ 688  Neorhizobium_galegae|ALI58625.1                                              52.86%    passed      7.34%
+ 689  Neorhizobium_galegae|ALI58624.1                                              52.86%    passed      7.34%
+ 690  Neorhizobium_galegae|ALI58623.1                                              52.86%    passed      7.34%
+ 691  Neorhizobium_galegae|ALI58622.1                                              52.86%    passed      7.34%
+ 692  Neorhizobium_galegae|ALI58621.1                                              52.86%    passed      7.34%
+ 693  Neorhizobium_galegae|ALI58620.1                                              52.86%    passed      7.34%
+ 694  Neorhizobium_galegae|ALI58619.1                                              52.86%    passed      7.34%
+ 695  Neorhizobium_galegae|ALI58618.1                                              52.86%    passed      7.34%
+ 696  Neorhizobium_galegae|ALI58617.1                                              52.86%    passed      7.34%
+ 697  Neorhizobium_galegae|ALI58616.1                                              52.86%    passed      7.34%
+ 698  Neorhizobium_galegae|ALI58615.1                                              52.86%    passed      7.34%
+ 699  Neorhizobium_galegae|ALI58614.1                                              52.86%    passed      7.34%
+ 700  Neorhizobium_galegae|ALI58613.1                                              52.86%    passed      7.34%
+ 701  Neorhizobium_galegae|ALI58612.1                                              52.86%    passed      7.34%
+ 702  Neorhizobium_galegae|ALI58611.1                                              52.86%    passed      7.34%
+ 703  Neorhizobium_galegae|ALI58610.1                                              52.86%    passed      7.34%
+ 704  Neorhizobium_galegae|ALI58609.1                                              52.86%    passed      7.34%
+ 705  Neorhizobium_galegae|ALI58608.1                                              52.86%    passed      7.34%
+ 706  Neorhizobium_galegae|ALI58607.1                                              52.86%    passed      7.34%
+ 707  Neorhizobium_galegae|ALI58606.1                                              52.86%    passed      7.34%
+ 708  Neorhizobium_galegae|ALI58605.1                                              52.86%    passed      7.34%
+ 709  Neorhizobium_galegae|ALI58604.1                                              52.86%    passed      7.34%
+ 710  Neorhizobium_galegae|ALI58603.1                                              52.86%    passed      7.34%
+ 711  Neorhizobium_galegae|ALI58602.1                                              52.86%    passed      7.34%
+ 712  Neorhizobium_galegae|ALI58601.1                                              52.86%    passed      7.34%
+ 713  Neorhizobium_galegae|ALI58600.1                                              52.86%    passed      7.34%
+ 714  Neorhizobium_galegae|ALI58599.1                                              52.86%    passed      7.34%
+ 715  Neorhizobium_galegae|ALI58598.1                                              52.86%    passed      7.34%
+ 716  Neorhizobium_galegae|ALI58597.1                                              52.86%    passed      7.34%
+ 717  Neorhizobium_galegae|ALI58596.1                                              52.86%    passed      7.34%
+ 718  Neorhizobium_galegae|ALI58595.1                                              52.86%    passed      7.34%
+ 719  Neorhizobium_galegae|ALI58594.1                                              52.86%    passed      7.34%
+ 720  Neorhizobium_galegae|ALI58593.1                                              52.86%    passed      7.34%
+ 721  Neorhizobium_galegae|ALI58592.1                                              52.86%    passed      7.34%
+ 722  Neorhizobium_galegae|ALI58591.1                                              52.86%    passed      7.34%
+ 723  Neorhizobium_galegae|ALI58590.1                                              52.86%    passed      7.34%
+ 724  Neorhizobium_galegae|ALI58589.1                                              52.86%    passed      7.34%
+ 725  Neorhizobium_galegae|ALI58588.1                                              52.86%    passed      7.34%
+ 726  Neorhizobium_galegae|ALI58587.1                                              52.86%    passed      7.34%
+ 727  Neorhizobium_galegae|ALI58586.1                                              52.86%    passed      7.34%
+ 728  Neorhizobium_galegae|ALI58585.1                                              52.86%    passed      7.34%
+ 729  Neorhizobium_galegae|ALI58584.1                                              52.86%    passed      7.34%
+ 730  Neorhizobium_galegae|ALI58583.1                                              52.86%    passed      7.34%
+ 731  Neorhizobium_galegae|ALI58582.1                                              52.86%    passed      7.34%
+ 732  Neorhizobium_galegae|ALI58581.1                                              52.86%    passed      7.34%
+ 733  Neorhizobium_galegae|ALI58580.1                                              52.86%    passed      7.34%
+ 734  Neorhizobium_galegae_bv._orientalis|CDZ67870.1                               34.95%    failed      1.34%
+ 735  Neorhizobium_galegae_bv._orientalis|CDZ64726.1                               34.95%    failed      1.34%
+ 736  Neorhizobium_galegae_bv._orientalis|CDZ55352.1                               34.95%    failed      1.34%
+ 737  Neorhizobium_galegae_bv._officinalis|CDZ31183.1                              34.95%    failed      2.93%
+ 738  Neorhizobium_galegae_bv._officinalis|CDZ43254.1                              34.95%    failed      2.93%
+ 739  Neorhizobium_galegae_bv._officinalis|CDZ41134.1                              34.95%    failed      2.20%
+ 740  Neorhizobium_galegae_bv._orientalis|CDZ73988.1                               34.95%    failed      1.34%
+ 741  Neorhizobium_galegae_bv._officinalis|CDZ53511.1                              34.95%    failed      2.20%
+ 742  Neorhizobium_huautlense|ACF15260.1                                           47.43%    passed     57.63%
+ 743  Neorhizobium_huautlense|ACF15259.1                                           47.43%    passed     65.20%
+ 744  Neorhizobium_galegae_bv._orientalis_str._HAMBI_540|CDN51718.1                34.95%    failed      1.34%
+ 745  Neorhizobium_galegae|AIY31028.1                                              44.89%    passed     41.46%
+ 746  Shinella_kummerowiae|ABW82532.1                                              69.76%    passed     31.32%
+WARNING: 431 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                        55.50%  275 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Methylobacterium_nodulans_ORS_2060|CAD54428.1 is identical to Methylobacterium_nodulans_ORS_2060|AAQ82902.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|CAG9212816.1 is identical to Burkholderia_vietnamiensis|YBL36063.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|KVF41783.1 is identical to Burkholderia_vietnamiensis|WHU96266.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|CAG9216365.1 is identical to Burkholderia_vietnamiensis|CAM2259461.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|CAG9200154.1 is identical to Burkholderia_vietnamiensis|CAM2342742.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|AVR14760.1 is identical to Burkholderia_vietnamiensis|UBI28751.1 but kept for subsequent analysis
+NOTE: Burkholderia_sp._MBR-1|QMI48918.1 is identical to Burkholderia_vietnamiensis|QTK88865.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|AOK13682.1 is identical to Burkholderia_vietnamiensis|AOK44724.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|ABL14188.1 is identical to Burkholderia_vietnamiensis|ABO48370.1 but kept for subsequent analysis
+NOTE: uncultured_Burkholderia_sp|AMT81190.1 is identical to uncultured_Burkholderia_sp|AMT81197.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|KVR85109.1 is identical to Burkholderia_vietnamiensis|KVS35309.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|KVF03887.1 is identical to Burkholderia_vietnamiensis|KVS01324.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|KVF96841.1 is identical to Burkholderia_vietnamiensis|KVR64905.1 but kept for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|KVE58540.1 is identical to Burkholderia_vietnamiensis|KVE82954.1 but kept for subsequent analysis
+NOTE: Burkholderia_sp._BL6665C_I2R2|ALH21709.1 is identical to Burkholderia_sp._BL9_I2R2|ALH21710.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR51510.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR07659.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR20179.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XHY72514.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ70847.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_fredii__Rhizobium_fredii_|XRN48363.1 is identical to Sinorhizobium_fredii__Rhizobium_fredii_|XRN48474.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56612.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56613.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56610.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56611.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56594.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56609.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56607.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56604.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56605.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56587.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56588.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_medicae__Ensifer_medicae_|WMQ56575.1 is identical to Sinorhizobium_medicae__Ensifer_medicae_|WMQ56579.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56577.1 is identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1 but kept for subsequent analysis
+NOTE: Sinorhizobium_prairiense|WEJ13936.1 is identical to Sinorhizobium_prairiense|WEJ35538.1 but kept for subsequent analysis
+NOTE: Rhizobium_sp._YTUHZ045|XXB11515.1 is identical to Rhizobium_binae|XXB05130.1 but kept for subsequent analysis
+NOTE: Rhizobium_sp|XRR07291.1 is identical to Rhizobium_sp|XRR07292.1 but kept for subsequent analysis
+NOTE: Rhizobium_johnstonii|XJW23218.1 is identical to Rhizobium_johnstonii|XLQ54132.1 but kept for subsequent analysis
+NOTE: Rhizobium_phaseoli|XHB23396.1 is identical to Rhizobium_phaseoli|XHB23397.1 but kept for subsequent analysis
+NOTE: Rhizobium_ecuadorense|XHB23372.1 is identical to Rhizobium_ecuadorense|XHB23379.1 but kept for subsequent analysis
+NOTE: Rhizobium_leguminosarum|WMQ56571.1 is identical to Rhizobium_leguminosarum|WMQ56581.1 but kept for subsequent analysis
+NOTE: Cupriavidus_taiwanensis_LMG_19424|CAP64045.1 is identical to Cupriavidus_taiwanensis|CAM3417383.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp|WBQ20342.1 is identical to Cupriavidus_sp|WBQ20343.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp|WBQ20324.1 is identical to Cupriavidus_sp|WBQ20340.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp|WBQ20328.1 is identical to Cupriavidus_sp|WBQ20337.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp|WBQ20321.1 is identical to Cupriavidus_sp|WBQ20333.1 but kept for subsequent analysis
+NOTE: Cupriavidus_taiwanensis|SPA57181.1 is identical to Cupriavidus_taiwanensis|SPD48792.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp|AVK51772.1 is identical to Cupriavidus_sp|AVK51783.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp|AVK51775.1 is identical to Cupriavidus_sp|AVK51776.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp|AVK51764.1 is identical to Cupriavidus_sp|AVK51766.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp._cmp60|ABN47446.1 is identical to Cupriavidus_sp._cmp52|ABN47448.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp._amp18|ABN47444.1 is identical to Cupriavidus_sp._cmp29|ABN47445.1 but kept for subsequent analysis
+NOTE: Cupriavidus_sp._mapud3.4|ABN47440.1 is identical to Cupriavidus_sp._mapud10.1|ABN47441.1 but kept for subsequent analysis
+NOTE: Frankia_alni|QCW05388.1 is identical to Frankia_alni|QEJ80969.1 but kept for subsequent analysis
+NOTE: Frankia_casuarinae|BBD14101.1 is identical to Frankia_casuarinae|BBD14102.1 but kept for subsequent analysis
+NOTE: Frankia_casuarinae|BBD14099.1 is identical to Frankia_casuarinae|BBD14100.1 but kept for subsequent analysis
+NOTE: Frankia_alni|SOT93015.1 is identical to Frankia_alni|SOT93032.1 but kept for subsequent analysis
+NOTE: Frankia_canadensis|SNQ48832.1 is identical to Frankia_canadensis|SOU56122.1 but kept for subsequent analysis
+NOTE: uncultured_Frankia_sp|SME86184.1 is identical to uncultured_Frankia_sp|SME86191.1 but kept for subsequent analysis
+NOTE: Mesorhizobium_sp|XOL43178.1 is identical to Mesorhizobium_sp|XOL43184.1 but kept for subsequent analysis
+NOTE: Mesorhizobium_sp|XOL43182.1 is identical to Mesorhizobium_sp|XOL43183.1 but kept for subsequent analysis
+NOTE: Mesorhizobium_sp|XOL43170.1 is identical to Mesorhizobium_sp|XOL43175.1 but kept for subsequent analysis
+NOTE: Mesorhizobium_sp|XOL43168.1 is identical to Mesorhizobium_sp|XOL43173.1 but kept for subsequent analysis
+NOTE: Mesorhizobium_sp|XOL43162.1 is identical to Mesorhizobium_sp|XOL43163.1 but kept for subsequent analysis
+NOTE: Mesorhizobium_sp|WMQ56561.1 is identical to Mesorhizobium_sp|WMQ56574.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_diazoefficiens|GAB9229609.1 is identical to Bradyrhizobium_diazoefficiens|GAB9134326.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_sp|XZG38283.1 is identical to Bradyrhizobium_vignae|XZG38298.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_brasilense|XZG38291.1 is identical to Bradyrhizobium_brasilense|XZG38297.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_brasilense|XZG38290.1 is identical to Bradyrhizobium_brasilense|XZG38295.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_brasilense|XZG38286.1 is identical to Bradyrhizobium_brasilense|XZG38294.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_sp|XZG38275.1 is identical to Bradyrhizobium_brasilense|XZG38293.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_sp|XZG38285.1 is identical to Bradyrhizobium_brasilense|XZG38287.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_sp|XZG38278.1 is identical to Bradyrhizobium_sp|XZG38279.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_sp|XYR85910.1 is identical to Bradyrhizobium_sp|XYR85911.1 but kept for subsequent analysis
+NOTE: Bradyrhizobium_sp._SPXBL-04|XYL77982.1 is identical to Bradyrhizobium_sp._SPXBL-03|XYL85905.1 but kept for subsequent analysis
+NOTE: Ensifer_aridi|XFE90110.1 is identical to Ensifer_aridi|XFE90173.1 but kept for subsequent analysis
+NOTE: Ensifer_sp|QSZ40499.1 is identical to Ensifer_sp|WDQ78353.1 but kept for subsequent analysis
+NOTE: Ensifer_sp|QSZ40500.1 is identical to Ensifer_sp|WDQ78352.1 but kept for subsequent analysis
+NOTE: Ensifer_sp|QSZ40503.1 is identical to Ensifer_sp|WDQ78351.1 but kept for subsequent analysis
+NOTE: Ensifer_sp|QJD22986.1 is identical to Ensifer_sp|QJD22992.1 but kept for subsequent analysis
+NOTE: Ensifer_sp|QIQ08462.1 is identical to Ensifer_sp|QIQ08469.1 but kept for subsequent analysis
+NOTE: Ensifer_sp|QHB50510.1 is identical to Ensifer_sp|QHB50511.1 but kept for subsequent analysis
+NOTE: Microvirga_lotononidis|AEH03847.1 is identical to Microvirga_zambiensis_WSM3693|AEH03848.1 but kept for subsequent analysis
+NOTE: Microvirga_lupini|AEH03845.1 is identical to Microvirga_lupini|AEH03846.1 but kept for subsequent analysis
+NOTE: Neorhizobium_galegae|KAB1110074.1 is identical to Neorhizobium_galegae_bv._officinalis_bv._officinalis_str._HAMBI|CDN58415.1 but kept for subsequent analysis
+NOTE: Neorhizobium_galegae|WDZ54601.1 is identical to Neorhizobium_galegae|WEA82680.1 but kept for subsequent analysis
+NOTE: Neorhizobium_galegae|WEA82678.1 is identical to Neorhizobium_galegae|WEA82679.1 but kept for subsequent analysis
+NOTE: Neorhizobium_galegae|KAB1120039.1 is identical to Neorhizobium_galegae|UIK08948.1 but kept for subsequent analysis
+NOTE: Neorhizobium_huautlense|QDF59025.1 is identical to Neorhizobium_sp|QDF59026.1 but kept for subsequent analysis
+NOTE: Neorhizobium_huautlense|QDF59022.1 is identical to Neorhizobium_huautlense|QDF59024.1 but kept for subsequent analysis
+NOTE: Neorhizobium_huautlense|AJT47187.1 is identical to Neorhizobium_huautlense|ALN96194.1 but kept for subsequent analysis
+NOTE: Neorhizobium_alkalisoli|ACF98260.1 is identical to Neorhizobium_alkalisoli|ACF98261.1 but kept for subsequent analysis
+NOTE: Neorhizobium_galegae|ALI58628.1 is identical to Neorhizobium_galegae|ALI58629.1 but kept for subsequent analysis
+NOTE: Neorhizobium_galegae_bv._officinalis|CDZ53511.1 is identical to Neorhizobium_galegae_bv._officinalis|CDZ41134.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0116122 secs using 3949% CPU
+Identifying sites to remove: done in 0.00963023 secs using 722.5% CPU
+NOTE: 253 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Burkholderia_vietnamiensis|UQN48284.1 (identical to Burkholderia_vietnamiensis|YBL36063.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|PRH41833.1 (identical to Burkholderia_vietnamiensis|YBL36063.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVS05480.1 (identical to Burkholderia_vietnamiensis|YBL36063.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVF98173.1 (identical to Burkholderia_vietnamiensis|YBL36063.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVF94217.1 (identical to Burkholderia_vietnamiensis|YBL36063.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVF85596.1 (identical to Burkholderia_vietnamiensis|YBL36063.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVF80410.1 (identical to Burkholderia_vietnamiensis|YBL36063.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVF65460.1 (identical to Burkholderia_vietnamiensis|YBL36063.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVF35490.1 (identical to Burkholderia_vietnamiensis|WHU96266.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVF26500.1 (identical to Burkholderia_vietnamiensis|WHU96266.1) is ignored but added at the end
+NOTE: Burkholderia_ubonensis|TPQ46028.1 (identical to Burkholderia_vietnamiensis|CAM2342742.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|RQM61009.1 (identical to Burkholderia_vietnamiensis|CAM2342742.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVE71268.1 (identical to Burkholderia_vietnamiensis|CAM2342742.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVE32026.1 (identical to Burkholderia_vietnamiensis|CAM2342742.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVS02758.1 (identical to Burkholderia_vietnamiensis|UBI28751.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVM45346.1 (identical to Burkholderia_vietnamiensis|UBI28751.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVE60695.1 (identical to Burkholderia_vietnamiensis|UBI28751.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVR87766.1 (identical to Burkholderia_vietnamiensis|QTK88865.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|AOK02250.1 (identical to Burkholderia_vietnamiensis|AOK44724.1) is ignored but added at the end
+NOTE: Burkholderia_ubonensis|AOJ76593.1 (identical to Burkholderia_vietnamiensis|AOK44724.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVE15203.1 (identical to Burkholderia_vietnamiensis|AOK44724.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVE08790.1 (identical to Burkholderia_vietnamiensis|KVS01324.1) is ignored but added at the end
+NOTE: Burkholderia_vietnamiensis|KVF11995.1 (identical to Burkholderia_vietnamiensis|KVR64905.1) is ignored but added at the end
+NOTE: Burkholderia_sp._BL27_I4R3|ALH21707.1 (identical to Burkholderia_sp._BL9_I2R2|ALH21710.1) is ignored but added at the end
+NOTE: Burkholderia_sp._BL25_I1R1|ALH21703.1 (identical to Burkholderia_sp._BL9_I2R2|ALH21710.1) is ignored but added at the end
+NOTE: Burkholderia_sp._BL23_I1R1|ALH21701.1 (identical to Burkholderia_sp._BL9_I2R2|ALH21710.1) is ignored but added at the end
+NOTE: Burkholderia_sp._BL21_I5R3|ALH21700.1 (identical to Burkholderia_sp._BL9_I2R2|ALH21710.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR26694.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR32895.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR39096.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR14725.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ96139.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR01540.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ82840.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ88867.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ64121.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ76832.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ57886.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ45025.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XWQ49969.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XEM16083.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|XEM22073.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|XWR45262.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56601.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56611.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56589.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56611.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56586.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56611.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56557.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56609.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56606.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56602.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56600.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56599.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56597.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56596.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56595.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56592.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56591.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56590.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56585.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56584.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56583.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56559.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56608.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56593.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56605.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56582.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56588.1) is ignored but added at the end
+NOTE: Sinorhizobium_medicae__Ensifer_medicae_|WMQ56566.1 (identical to Sinorhizobium_medicae__Ensifer_medicae_|WMQ56579.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56576.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56567.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56564.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56563.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56562.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1) is ignored but added at the end
+NOTE: Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56560.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1) is ignored but added at the end
+NOTE: Rhizobium_leguminosarum|WMQ56572.1 (identical to Sinorhizobium_meliloti__Rhizobium_meliloti_|WMQ56578.1) is ignored but added at the end
+NOTE: Sinorhizobium_prairiense|WEJ08560.1 (identical to Sinorhizobium_prairiense|WEJ35538.1) is ignored but added at the end
+NOTE: Rhizobium_sp._YTU87027|XUM51890.1 (identical to Rhizobium_binae|XXB05130.1) is ignored but added at the end
+NOTE: Rhizobium_sp._ZK1|XON24431.1 (identical to Rhizobium_binae|XXB05130.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23395.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23394.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_hidalgonense|XHB23393.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23392.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23391.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23390.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23389.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23388.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23387.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23386.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23385.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23383.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23382.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23381.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23380.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_hidalgonense|XHB23378.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_hidalgonense|XHB23377.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_ecuadorense|XHB23376.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_hidalgonense|XHB23375.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_hidalgonense|XHB23374.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23371.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23370.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_hidalgonense|XHB23369.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_phaseoli|XHB23368.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_etli|XHB23367.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_hidalgonense|XHB23366.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_hidalgonense|XHB23365.1 (identical to Rhizobium_phaseoli|XHB23397.1) is ignored but added at the end
+NOTE: Rhizobium_leguminosarum|WMQ56570.1 (identical to Rhizobium_leguminosarum|WMQ56581.1) is ignored but added at the end
+NOTE: Rhizobium_leguminosarum|WMQ56569.1 (identical to Rhizobium_leguminosarum|WMQ56581.1) is ignored but added at the end
+NOTE: Rhizobium_leguminosarum|WMQ56568.1 (identical to Rhizobium_leguminosarum|WMQ56581.1) is ignored but added at the end
+NOTE: Cupriavidus_sp|WAK99527.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_sp|WAK99526.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOY75813.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPA21580.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ06869.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPA53445.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOY74994.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ02299.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ75829.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_neocaledonicus|SOZ40512.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ92691.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPA37264.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ96568.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ90203.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ32293.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPA35249.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_phytorum|SOY77810.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOY74997.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOY75001.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ33922.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ50607.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ21382.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPC24715.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPC25162.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ16351.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ95165.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_neocaledonicus|SPD62388.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOY99697.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPA23274.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPA54177.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ19925.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPD69508.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPD61680.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPD37413.1 (identical to Cupriavidus_taiwanensis|CAM3417383.1) is ignored but added at the end
+NOTE: Cupriavidus_sp|WBQ20341.1 (identical to Cupriavidus_sp|WBQ20343.1) is ignored but added at the end
+NOTE: Cupriavidus_sp|WBQ20325.1 (identical to Cupriavidus_sp|WBQ20337.1) is ignored but added at the end
+NOTE: Cupriavidus_sp|WBQ20320.1 (identical to Cupriavidus_sp|WBQ20333.1) is ignored but added at the end
+NOTE: Cupriavidus_sp|WBQ20319.1 (identical to Cupriavidus_sp|WBQ20333.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPA11330.1 (identical to Cupriavidus_taiwanensis|SPD48792.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SPA03439.1 (identical to Cupriavidus_taiwanensis|SPD48792.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ74514.1 (identical to Cupriavidus_taiwanensis|SPD48792.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ72211.1 (identical to Cupriavidus_taiwanensis|SPD48792.1) is ignored but added at the end
+NOTE: Cupriavidus_taiwanensis|SOZ71103.1 (identical to Cupriavidus_taiwanensis|SPD48792.1) is ignored but added at the end
+NOTE: Cupriavidus_sp|AVK51765.1 (identical to Cupriavidus_sp|AVK51776.1) is ignored but added at the end
+NOTE: Cupriavidus_sp._amp45|ABN47443.1 (identical to Cupriavidus_sp._cmp29|ABN47445.1) is ignored but added at the end
+NOTE: Cupriavidus_sp._amp6|ABN47442.1 (identical to Cupriavidus_sp._cmp29|ABN47445.1) is ignored but added at the end
+NOTE: Cupriavidus_sp._mapud8.1|ABN47439.1 (identical to Cupriavidus_sp._mapud10.1|ABN47441.1) is ignored but added at the end
+NOTE: Cupriavidus_sp._tpig.6a|ABN47438.1 (identical to Cupriavidus_sp._mapud10.1|ABN47441.1) is ignored but added at the end
+NOTE: Cupriavidus_sp._tpud27.2|ABN47437.1 (identical to Cupriavidus_sp._mapud10.1|ABN47441.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43172.1 (identical to Mesorhizobium_sp|XOL43184.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43167.1 (identical to Mesorhizobium_sp|XOL43184.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43166.1 (identical to Mesorhizobium_sp|XOL43184.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43160.1 (identical to Mesorhizobium_sp|XOL43184.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43181.1 (identical to Mesorhizobium_sp|XOL43183.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43177.1 (identical to Mesorhizobium_sp|XOL43183.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43176.1 (identical to Mesorhizobium_sp|XOL43183.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43174.1 (identical to Mesorhizobium_sp|XOL43183.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43164.1 (identical to Mesorhizobium_sp|XOL43183.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43169.1 (identical to Mesorhizobium_sp|XOL43175.1) is ignored but added at the end
+NOTE: Mesorhizobium_sp|XOL43161.1 (identical to Mesorhizobium_sp|XOL43173.1) is ignored but added at the end
+NOTE: Bradyrhizobium_diazoefficiens|GAB9188266.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_diazoefficiens|GAB9170926.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_diazoefficiens|GAB9198191.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_diazoefficiens|GAB9246978.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_diazoefficiens|GAB9232272.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_diazoefficiens|GAB9249234.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_diazoefficiens|GAB9116018.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_diazoefficiens|GAB9125187.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp._521_C7_N1_3|XZB22078.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp._590_E5_N4_2|XZB37119.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp._1200_D9_N1_1|XZA86272.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp._1200_D9_N1_2|XZA77879.1 (identical to Bradyrhizobium_diazoefficiens|GAB9134326.1) is ignored but added at the end
+NOTE: Bradyrhizobium_brasilense|XZG38289.1 (identical to Bradyrhizobium_brasilense|XZG38297.1) is ignored but added at the end
+NOTE: Bradyrhizobium_brasilense|XZG38284.1 (identical to Bradyrhizobium_brasilense|XZG38295.1) is ignored but added at the end
+NOTE: Bradyrhizobium_brasilense|XZG38281.1 (identical to Bradyrhizobium_brasilense|XZG38295.1) is ignored but added at the end
+NOTE: Bradyrhizobium_brasilense|XZG38280.1 (identical to Bradyrhizobium_brasilense|XZG38295.1) is ignored but added at the end
+NOTE: Bradyrhizobium_brasilense|XZG38273.1 (identical to Bradyrhizobium_brasilense|XZG38295.1) is ignored but added at the end
+NOTE: Bradyrhizobium_brasilense|XZG38272.1 (identical to Bradyrhizobium_brasilense|XZG38287.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp|XZG38277.1 (identical to Bradyrhizobium_sp|XZG38279.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp|XYR85909.1 (identical to Bradyrhizobium_sp|XYR85911.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp|XYR85908.1 (identical to Bradyrhizobium_sp|XYR85911.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp|XYR85907.1 (identical to Bradyrhizobium_sp|XYR85911.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp|XYR85906.1 (identical to Bradyrhizobium_sp|XYR85911.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp|XYR85905.1 (identical to Bradyrhizobium_sp|XYR85911.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp|XYR85904.1 (identical to Bradyrhizobium_sp|XYR85911.1) is ignored but added at the end
+NOTE: Bradyrhizobium_sp|XYR85903.1 (identical to Bradyrhizobium_sp|XYR85911.1) is ignored but added at the end
+NOTE: Microvirga_lupini|ABM67593.1 (identical to Microvirga_lupini|AEH03846.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|KAA9382456.1 (identical to Neorhizobium_galegae_bv._officinalis_bv._officinalis_str._HAMBI|CDN58415.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae_bv._officinalis|CDZ31183.1 (identical to Neorhizobium_galegae_bv._officinalis_bv._officinalis_str._HAMBI|CDN58415.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae_bv._officinalis|CDZ43254.1 (identical to Neorhizobium_galegae_bv._officinalis_bv._officinalis_str._HAMBI|CDN58415.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|WEA82677.1 (identical to Neorhizobium_galegae|WEA82679.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|WDZ54600.1 (identical to Neorhizobium_galegae|WEA82679.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|WDZ54599.1 (identical to Neorhizobium_galegae|WEA82679.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae_bv._orientalis|CDZ67870.1 (identical to Neorhizobium_galegae|UIK08948.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae_bv._orientalis|CDZ64726.1 (identical to Neorhizobium_galegae|UIK08948.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae_bv._orientalis|CDZ55352.1 (identical to Neorhizobium_galegae|UIK08948.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae_bv._orientalis|CDZ73988.1 (identical to Neorhizobium_galegae|UIK08948.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae_bv._orientalis_str._HAMBI_540|CDN51718.1 (identical to Neorhizobium_galegae|UIK08948.1) is ignored but added at the end
+NOTE: Neorhizobium_huautlense|QDF59023.1 (identical to Neorhizobium_sp|QDF59026.1) is ignored but added at the end
+NOTE: Neorhizobium_huautlense|QDF59021.1 (identical to Neorhizobium_sp|QDF59026.1) is ignored but added at the end
+NOTE: Neorhizobium_huautlense|QDF59020.1 (identical to Neorhizobium_sp|QDF59026.1) is ignored but added at the end
+NOTE: Neorhizobium_alkalisoli|ACF98259.1 (identical to Neorhizobium_alkalisoli|ACF98261.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58627.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58626.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58625.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58624.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58623.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58622.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58621.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58620.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58619.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58618.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58617.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58616.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58615.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58614.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58613.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58612.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58611.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58610.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58609.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58608.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58607.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58606.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58605.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58604.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58603.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58602.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58601.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58600.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58599.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58598.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58597.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58596.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58595.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58594.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58593.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58592.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58591.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58590.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58589.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58588.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58587.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58586.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58585.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58584.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58583.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58582.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58581.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+NOTE: Neorhizobium_galegae|ALI58580.1 (identical to Neorhizobium_galegae|ALI58629.1) is ignored but added at the end
+Alignment was printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.117 seconds
+Measuring multi-threading efficiency up to 72 CPU cores
+Increase to 10 rounds for branch lengths
+33 trees examined
+Threads: 1 / Time: 73.213 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -123535
+Threads: 2 / Time: 71.052 sec / Speedup: 1.030 / Efficiency: 52% / LogL: -123535
+Threads: 3 / Time: 58.221 sec / Speedup: 1.257 / Efficiency: 42% / LogL: -123535
+Determining AUTO threadcount: done in 202.497 secs using 190.4% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -31630.520
+2. Current log-likelihood: -31629.388
+Optimal log-likelihood: -31628.807
+Rate parameters:  A-C: 0.97532  A-G: 2.96523  A-T: 0.97433  C-G: 1.40678  C-T: 4.46296  G-T: 1.00000
+Base frequencies:  A: 0.216  C: 0.294  G: 0.312  T: 0.178
+Proportion of invariable sites: 0.017
+Gamma shape alpha: 0.730
+Parameters optimization took 2 rounds (2.058 sec)
+Time for fast ML tree search: 15.015 seconds
+
+NOTE: ModelFinder requires 181 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1379 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            34686.412    983 71338.823    76236.403    76479.042
+  2  JC+I          34586.901    984 71141.802    76061.802    76287.250
+  3  JC+G4         32597.766    984 67163.532    72083.532    72308.980
+  4  JC+I+G4       32598.073    985 67166.146    72108.690    72316.823
+  5  JC+R2         32606.763    985 67183.526    72126.070    72334.203
+  6  JC+R3         32488.504    987 66951.007    71939.018    72112.143
+  7  JC+R4         32473.170    989 66924.340    71958.325    72095.934
+  8  JC+R5         32472.940    991 66927.880    72008.355    72109.932
+ 14  JC+I+R2       32605.293    986 67182.587    72147.801    72338.493
+ 15  JC+I+R3       32486.087    988 66948.174    71959.108    72114.539
+ 16  JC+I+R4       32471.385    990 66922.770    71979.935    72099.593
+ 17  JC+I+R5       32471.151    992 66926.301    72030.218    72113.582
+ 29  JC+R4         32473.170    989 66924.340    71958.325    72095.934
+ 38  JC+I+R4       32471.385    990 66922.770    71979.935    72099.593
+ 51  F81+R4        32473.249    989 66924.499    71958.483    72096.092
+ 60  F81+I+R4      32471.296    990 66922.591    71979.756    72099.414
+ 73  F81+F+R4      32305.416    992 66594.832    71698.749    71782.112
+ 82  F81+F+I+R4    32303.303    993 66592.606    71720.097    71785.116
+ 95  K2P+R4        31902.206    990 65784.412    70841.577    70961.235
+104  K2P+I+R4      31900.183    991 65782.365    70862.841    70964.417
+117  K2P+R4        31902.206    990 65784.412    70841.577    70961.235
+126  K2P+I+R4      31900.183    991 65782.365    70862.841    70964.417
+139  HKY+R4        31902.160    990 65784.320    70841.485    70961.143
+148  HKY+I+R4      31900.118    991 65782.237    70862.712    70964.289
+161  HKY+F+R4      31551.835    993 65089.670    70217.161    70282.180
+170  HKY+F+I+R4    31549.590    994 65087.181    70238.379    70284.920
+183  TNe+R4        31899.517    991 65781.035    70861.510    70963.086
+192  TNe+I+R4      31897.301    992 65778.603    70882.520    70965.884
+205  TNe+R4        31899.517    991 65781.035    70861.510    70963.086
+214  TNe+I+R4      31897.301    992 65778.603    70882.520    70965.884
+227  TN+R4         31899.485    991 65780.970    70861.445    70963.021
+236  TN+I+R4       31897.289    992 65778.577    70882.494    70965.858
+249  TN+F+R4       31525.773    994 65039.547    70190.745    70237.286
+258  TN+F+I+R4     31522.751    995 65035.503    70210.542    70238.471
+271  K3P+R4        31837.127    991 65656.254    70736.729    70838.305
+280  K3P+I+R4      31834.795    992 65653.590    70757.507    70840.871
+293  K3P+R4        31837.127    991 65656.254    70736.729    70838.305
+302  K3P+I+R4      31834.795    992 65653.590    70757.507    70840.871
+315  K3Pu+R4       31837.107    991 65656.214    70736.690    70838.266
+324  K3Pu+I+R4     31834.772    992 65653.544    70757.461    70840.825
+337  K3Pu+F+R4     31536.958    994 65061.915    70213.113    70259.654
+346  K3Pu+F+I+R4   31534.407    995 65058.813    70233.852    70261.782
+359  TPM2+R4       31851.141    991 65684.282    70764.757    70866.334
+368  TPM2+I+R4     31848.547    992 65681.095    70785.012    70868.376
+381  TPM2+R4       31851.141    991 65684.282    70764.757    70866.334
+390  TPM2+I+R4     31848.547    992 65681.095    70785.012    70868.376
+403  TPM2u+R4      31851.062    991 65684.125    70764.600    70866.177
+412  TPM2u+I+R4    31848.503    992 65681.006    70784.923    70868.287
+425  TPM2u+F+R4    31542.959    994 65073.919    70225.116    70271.658
+434  TPM2u+F+I+R4  31540.635    995 65071.270    70246.309    70274.238
+447  TPM3+R4       31830.494    991 65642.989    70723.464    70825.041
+456  TPM3+I+R4     31828.214    992 65640.427    70744.344    70827.708
+469  TPM3+R4       31830.494    991 65642.989    70723.464    70825.041
+478  TPM3+I+R4     31828.214    992 65640.427    70744.344    70827.708
+491  TPM3u+R4      31830.450    991 65642.900    70723.376    70824.952
+500  TPM3u+I+R4    31828.214    992 65640.429    70744.346    70827.710
+513  TPM3u+F+R4    31544.780    994 65077.560    70228.758    70275.299
+522  TPM3u+F+I+R4  31542.453    995 65074.907    70249.946    70277.875
+535  TIMe+R4       31834.387    992 65652.773    70756.690    70840.054
+544  TIMe+I+R4     31831.941    993 65649.881    70777.372    70842.391
+557  TIMe+R4       31834.387    992 65652.773    70756.690    70840.054
+566  TIMe+I+R4     31831.941    993 65649.881    70777.372    70842.391
+579  TIM+R4        31834.359    992 65652.718    70756.635    70839.999
+588  TIM+I+R4      31831.930    993 65649.860    70777.351    70842.370
+601  TIM+F+R4      31510.489    995 65010.977    70186.016    70213.946
+610  TIM+F+I+R4    31507.378    996 65006.757    70205.773    70214.954
+623  TIM2e+R4      31848.616    992 65681.233    70785.150    70868.514
+632  TIM2e+I+R4    31845.990    993 65677.980    70805.470    70870.490
+645  TIM2e+R4      31848.616    992 65681.233    70785.150    70868.514
+654  TIM2e+I+R4    31845.990    993 65677.980    70805.470    70870.490
+667  TIM2+R4       31848.590    992 65681.181    70785.098    70868.462
+676  TIM2+I+R4     31845.963    993 65677.926    70805.417    70870.436
+689  TIM2+F+R4     31516.705    995 65023.410    70198.449    70226.379
+698  TIM2+F+I+R4   31513.573    996 65019.145    70218.161    70227.343
+711  TIM3e+R4      31825.473    992 65634.947    70738.864    70822.228
+720  TIM3e+I+R4    31822.965    993 65631.931    70759.422    70824.441
+733  TIM3e+R4      31825.473    992 65634.947    70738.864    70822.228
+742  TIM3e+I+R4    31822.965    993 65631.931    70759.422    70824.441
+755  TIM3+R4       31825.416    992 65634.831    70738.748    70822.112
+764  TIM3+I+R4     31822.947    993 65631.895    70759.386    70824.405
+777  TIM3+F+R4     31517.107    995 65024.215    70199.254    70227.183
+786  TIM3+F+I+R4   31514.143    996 65020.286    70219.301    70228.483
+799  TVMe+R4       31760.268    993 65506.537    70634.028    70699.047
+808  TVMe+I+R4     31757.535    994 65503.069    70654.267    70700.808
+821  TVMe+R4       31760.268    993 65506.537    70634.028    70699.047
+830  TVMe+I+R4     31757.535    994 65503.069    70654.267    70700.808
+843  TVM+R4        31760.237    993 65506.475    70633.966    70698.985
+852  TVM+I+R4      31757.525    994 65503.050    70654.248    70700.790
+865  TVM+F+R4      31530.461    996 65052.922    70251.938    70261.120
+874  TVM+F+I+R4    31528.079    997 65050.158    70273.287    70263.585
+887  SYM+R4        31755.898    994 65499.796    70650.994    70697.535
+896  SYM+I+R4      31753.045    995 65496.091    70671.130    70699.059
+909  SYM+R4        31755.898    994 65499.796    70650.994    70697.535
+918  SYM+I+R4      31753.045    995 65496.091    70671.130    70699.059
+931  GTR+R4        31755.821    994 65499.642    70650.840    70697.381
+940  GTR+I+R4      31753.025    995 65496.049    70671.089    70699.018
+953  GTR+F+R4      31503.406    997 65000.813    70223.941    70214.239
+962  GTR+F+I+R4    31500.288    998 64996.576    70243.955    70215.232
+Akaike Information Criterion:           GTR+F+I+R4
+Corrected Akaike Information Criterion: TIM+F+R4
+Bayesian Information Criterion:         TIM+F+R4
+Best-fit model: TIM+F+R4 chosen according to BIC
+
+All model information printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.model.gz
+CPU time for ModelFinder: 1188.490 seconds (0h:19m:48s)
+Wall-clock time for ModelFinder: 1012.632 seconds (0h:16m:52s)
+Generating 1000 samples for ultrafast bootstrap (seed: 715867)...
+
+NOTE: 75 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -31514.045
+2. Current log-likelihood: -31510.441
+Optimal log-likelihood: -31510.350
+Rate parameters:  A-C: 1.00000  A-G: 3.12460  A-T: 1.32798  C-G: 1.32798  C-T: 4.32255  G-T: 1.00000
+Base frequencies:  A: 0.216  C: 0.294  G: 0.312  T: 0.178
+Site proportion and rates:  (0.570,0.141) (0.150,0.969) (0.203,2.248) (0.077,4.122)
+Parameters optimization took 2 rounds (3.523 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.05333 secs using 99.75% CPU
+Computing ML distances took 1.057068 sec (of wall-clock time) 1.053459 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.00457903 secs using 85.48% CPU
+Constructing RapidNJ tree: done in 0.0107177 secs using 192.8% CPU
+Computing RapidNJ tree took 0.015384 sec (of wall-clock time) 0.024661 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -33516.492
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 13.075 second
+Computing log-likelihood of 98 initial trees ... 20.743 seconds
+Current best score: -31510.350
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -31503.558
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -31449.189
+Iteration 10 / LogL: -31500.001 / Time: 0h:20m:3s
+Iteration 20 / LogL: -31506.698 / Time: 0h:21m:59s
+Finish initializing candidate tree set (20)
+Current best tree score: -31449.189 / CPU time: 296.543
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -31451.006 / Time: 0h:23m:40s (0h:16m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -31448.772
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -31447.090
+Iteration 40 / LogL: -31447.090 / Time: 0h:25m:18s (0h:21m:37s left)
+Iteration 50 / LogL: -31457.841 / Time: 0h:26m:32s (0h:17m:44s left)
+Log-likelihood cutoff on original alignment: -31531.544
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -31443.359
+Iteration 60 / LogL: -31450.745 / Time: 0h:27m:55s (0h:17m:24s left)
+Iteration 70 / LogL: -31518.133 / Time: 0h:29m:9s (0h:14m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -31441.729
+Iteration 80 / LogL: -31446.306 / Time: 0h:30m:23s (0h:16m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 86: -31441.416
+Iteration 90 / LogL: -31502.554 / Time: 0h:31m:47s (0h:16m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -31439.634
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -31432.513
+Iteration 100 / LogL: -31452.140 / Time: 0h:33m:28s (0h:15m:45s left)
+Log-likelihood cutoff on original alignment: -31531.544
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -31443.505 / Time: 0h:34m:51s (0h:14m:50s left)
+Iteration 120 / LogL: -31460.984 / Time: 0h:36m:10s (0h:12m:58s left)
+Iteration 130 / LogL: -31438.882 / Time: 0h:37m:40s (0h:11m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 135: -31429.776
+Iteration 140 / LogL: -31430.775 / Time: 0h:39m:2s (0h:15m:9s left)
+Iteration 150 / LogL: -31438.162 / Time: 0h:40m:40s (0h:13m:34s left)
+Log-likelihood cutoff on original alignment: -31531.544
+Iteration 160 / LogL: -31445.265 / Time: 0h:42m:25s (0h:12m:3s left)
+Iteration 170 / LogL: -31540.407 / Time: 0h:44m:12s (0h:10m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 176: -31428.591
+Iteration 180 / LogL: -31434.242 / Time: 0h:45m:45s (0h:15m:29s left)
+Iteration 190 / LogL: -31462.148 / Time: 0h:47m:14s (0h:13m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 199: -31427.221
+Iteration 200 / LogL: -31456.078 / Time: 0h:48m:49s (0h:15m:53s left)
+Log-likelihood cutoff on original alignment: -31531.544
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -31436.191 / Time: 0h:50m:23s (0h:14m:25s left)
+Iteration 220 / LogL: -31513.063 / Time: 0h:51m:55s (0h:12m:48s left)
+Iteration 230 / LogL: -31459.313 / Time: 0h:53m:18s (0h:11m:8s left)
+Iteration 240 / LogL: -31440.596 / Time: 0h:54m:42s (0h:9m:29s left)
+Iteration 250 / LogL: -31804.460 / Time: 0h:56m:18s (0h:7m:55s left)
+Log-likelihood cutoff on original alignment: -31531.544
+Iteration 260 / LogL: -31430.884 / Time: 0h:58m:14s (0h:6m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 266: -31426.766
+Iteration 270 / LogL: -31473.624 / Time: 1h:0m:3s (0h:15m:24s left)
+Iteration 280 / LogL: -31519.110 / Time: 1h:2m:3s (0h:13m:55s left)
+Iteration 290 / LogL: -31434.292 / Time: 1h:3m:39s (0h:12m:18s left)
+Iteration 300 / LogL: -31438.606 / Time: 1h:5m:20s (0h:10m:41s left)
+Log-likelihood cutoff on original alignment: -31531.544
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 310 / LogL: -31434.902 / Time: 1h:7m:4s (0h:14m:37s left)
+Iteration 320 / LogL: -31503.182 / Time: 1h:8m:51s (0h:13m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 323: -31426.269
+Iteration 330 / LogL: -31430.546 / Time: 1h:10m:30s (0h:15m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 333: -31425.947
+Iteration 340 / LogL: -31456.198 / Time: 1h:12m:1s (0h:15m:7s left)
+Iteration 350 / LogL: -31431.034 / Time: 1h:13m:31s (0h:13m:28s left)
+Log-likelihood cutoff on original alignment: -31531.544
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 360: -31421.057
+Iteration 360 / LogL: -31421.057 / Time: 1h:14m:59s (0h:16m:11s left)
+Iteration 370 / LogL: -31516.644 / Time: 1h:16m:25s (0h:14m:31s left)
+Iteration 380 / LogL: -31430.924 / Time: 1h:18m:5s (0h:12m:55s left)
+Iteration 390 / LogL: -31450.366 / Time: 1h:19m:30s (0h:11m:16s left)
+Iteration 400 / LogL: -31428.184 / Time: 1h:20m:56s (0h:9m:38s left)
+Log-likelihood cutoff on original alignment: -31531.544
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 410 / LogL: -31431.656 / Time: 1h:22m:18s (0h:14m:23s left)
+Iteration 420 / LogL: -31435.548 / Time: 1h:23m:40s (0h:12m:45s left)
+Iteration 430 / LogL: -31448.198 / Time: 1h:25m:12s (0h:11m:9s left)
+Iteration 440 / LogL: -31445.818 / Time: 1h:27m:5s (0h:9m:35s left)
+Iteration 450 / LogL: -31470.953 / Time: 1h:28m:41s (0h:7m:59s left)
+Log-likelihood cutoff on original alignment: -31531.544
+Iteration 460 / LogL: -31424.078 / Time: 1h:30m:7s (0h:6m:23s left)
+TREE SEARCH COMPLETED AFTER 461 ITERATIONS / Time: 1h:30m:15s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -31421.057
+Optimal log-likelihood: -31421.056
+Rate parameters:  A-C: 1.00000  A-G: 3.15338  A-T: 1.33338  C-G: 1.33338  C-T: 4.33450  G-T: 1.00000
+Base frequencies:  A: 0.216  C: 0.294  G: 0.312  T: 0.178
+Site proportion and rates:  (0.576,0.142) (0.151,1.014) (0.201,2.314) (0.073,4.135)
+Parameters optimization took 1 rounds (1.151 sec)
+BEST SCORE FOUND : -31421.056
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+10.846 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.splits.nex
+Total tree length: 43.041
+
+Total number of iterations: 461
+CPU time used for tree search: 4339.014 sec (1h:12m:19s)
+Wall-clock time used for tree search: 4392.701 sec (1h:13m:12s)
+Total CPU time used: 5551.409 sec (1h:32m:31s)
+Total wall-clock time used: 5429.488 sec (1h:30m:29s)
+
+Computing bootstrap consensus tree...
+Reading input file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.splits.nex...
+493 taxa and 4553 splits.
+Consensus tree written to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.contree
+Reading input trees file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.contree
+Log-likelihood of consensus tree: -31425.036
+
+Analysis results written to: 
+  IQ-TREE report:                /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.iqtree
+  Maximum-likelihood tree:       /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.treefile
+  Likelihood distances:          /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.splits.nex
+  Consensus tree:                /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.contree
+  Screen log file:               /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/reference_nifH_tree/taxon_tree_nm5000/nifH_reference_746_taxa_tree_nm5000.log
+
+Date and Time: Fri Jul 17 20:41:20 2026
