@@ -92,8 +92,7 @@ All trimmed samples were mapped to the consensus50 reference using BWA-MEM. Alig
 | BAM index | `samtools index` |
 | Mapping QC | `samtools flagstat` |
 
-The total mapped-read percentage is lower than in the earlier symbiosis-island mapping because this reference is much smaller and contains only 72 gene sequences. Therefore, the primary downstream QC is per-gene coverage/depth, not total read-mapping percentage.
-
+The total mapped-read percentage is lower than in the earlier symbiosis-island mapping because this reference is much smaller and contains only 72 gene sequences. 
 ## Step 3. Calculate Per-Gene Coverage
 
 Coverage was calculated for every sample-gene pair.
