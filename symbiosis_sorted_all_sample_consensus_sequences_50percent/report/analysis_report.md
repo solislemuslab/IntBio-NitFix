@@ -26,7 +26,7 @@ Alignment `nifH`:https://github.com/ryanafolk/intbio_microbiome/blob/main/refere
 | Reference-only nifH taxon tree tips | 746 |
 | Metadata rows | 2,898 |
 
-The main recommended tree for interpretation is the **strict single-dominant pct80/depth10/N<=20 nm5000 tree** with 387 sample-derived consensus sequences. The mixed-IUPAC and relaxed pct60 trees are useful sensitivity analyses, but their UFBoot support did not fully converge even with additional iterations.
+The main recommended tree for interpretation is the **strict single-dominant pct80/depth10/N<=20 nm5000 tree** with 387 sample-derived consensus sequences. Also, I report the mixed-IUPAC and  pct60 trees, but their UFBoot support did not fully converge even with additional iterations.
 
 ## Important Caveats
 
