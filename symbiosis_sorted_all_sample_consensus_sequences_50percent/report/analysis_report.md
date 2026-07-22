@@ -29,11 +29,6 @@ Alignment `nifH`:https://github.com/ryanafolk/intbio_microbiome/blob/main/refere
 The main recommended tree for interpretation is the **strict single-dominant pct80/depth10/N<=20 nm5000 tree** with **387** sample-derived consensus sequences. Also, I report the  **mixed-IUPAC pct80/depth10/N<=20 nm5000 tree** and  **single-dominant pct60/depth10/N<=40 nm5000 tree** trees, but their UFBoot support did not fully converge even with additional iterations.
 
 
-## Interpretation Notes
-
-The MC controls (`MC-1` and `MC-2`) were used only as background checks because there were only two of them, so they are not strong enough to define a strict present/absent filter. Mixed-IUPAC calls mean that some positions in a sample had evidence for more than one nucleotide, which may suggest more than one `nifH` template in the sample. However, this is not direct proof of multiple organisms, because the method does not connect variants across the full gene into separate haplotypes. The tips in the sample trees are reconstructed `nifH` consensus sequences from samples, not confirmed bacterial species. BLAST labels such as `Mesorhizobium` or `Bradyrhizobium` should therefore be read as the closest known `nifH` reference match, not as final species identification.
-
-
 ## Main Inputs
 
 | Input | Method/code run | Result/output |
@@ -374,6 +369,11 @@ This tree includes additional single-dominant sequences by allowing more missing
 
 ![Relaxed strict tree colored by closest BLAST taxon](../result/trees/Figure/strict_pct60_nm5000_blast_closest_taxa_colorstrip.svg)
 
+
+
+## Interpretation Notes
+
+The MC controls (`MC-1` and `MC-2`) were used only as background checks because there were only two of them, so they are not strong enough to define a strict present/absent filter. Mixed-IUPAC calls mean that some positions in a sample had evidence for more than one nucleotide, which may suggest more than one `nifH` template in the sample. However, this is not direct proof of multiple organisms, because the method does not connect variants across the full gene into separate haplotypes. The tips in the sample trees are reconstructed `nifH` consensus sequences from samples, not confirmed bacterial species. BLAST labels such as `Mesorhizobium` or `Bradyrhizobium` should therefore be read as the closest known `nifH` reference match, not as final species identification.
 ## Interpretation
 
 The consensus50 reference simplifies the analysis by giving one reference sequence per functional gene. This makes the `nifH` gene tree easier to interpret than the earlier multi-region design because each sample can contribute only one `nifH` consensus sequence.
