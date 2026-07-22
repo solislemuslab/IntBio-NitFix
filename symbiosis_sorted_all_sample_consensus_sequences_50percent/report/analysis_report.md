@@ -1,4 +1,5 @@
 # symbiosis_sorted_all_sample_consensus_sequences_50percent Analysis Report
+[test treefile](../result/trees/nifH_consensus50_strict_single_dominant_nm5000.treefile)
 
 ## Overview
 
