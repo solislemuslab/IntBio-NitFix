@@ -307,7 +307,7 @@ The genus-level annotation is broader and easier to interpret. The taxon-level a
 |---|---|
 | Strict pct80/depth10/N<=20 | `Mesorhizobium` 193, `Microvirga` 50, `Bradyrhizobium` 43, `Sinorhizobium` 41, `Rhizobium` 32, `Neorhizobium` 17, `Ensifer` 6, `Burkholderia` 5 |
 | Mixed-IUPAC pct80/depth10/N<=20 | `Mesorhizobium` 598, `Bradyrhizobium` 415, `Microvirga` 220, `Rhizobium` 128, `Sinorhizobium` 104, `Burkholderia` 32, `Neorhizobium` 21, `Ensifer` 16, `Azorhizobium` 4 |
-| pct60/depth10/N<=40 | `Mesorhizobium` 251, `Bradyrhizobium` 243, `Microvirga` 78, `Sinorhizobium` 62, `Rhizobium` 40, `Burkholderia` 20, `Ensifer` 19, `Neorhizobium` 19, `Frankia` 8, `Azorhizobium` 6 |
+| pct60/depth10/N<=40 | `Mesorhizobium` 251, `Bradyrhizobium` 243, `Microvirga` 78, `Sinorhizobium` 62, `Rhizobium` 40, `Burkholderia` 20, `Ensifer` 19, `Neorhizobium` 19, `Frankia` 8, `Azorhizobium` 6; four additional rare genera occur at lower counts |
 
 ## Step 11. iTOL Tree Annotation
 
