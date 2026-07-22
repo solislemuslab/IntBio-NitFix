@@ -378,22 +378,4 @@ This tree includes additional single-dominant sequences by allowing more missing
 
 
 
-## Interpretation Notes
-
-The MC controls (`MC-1` and `MC-2`) were used only as background checks because there were only two of them, so they are not strong enough to define a strict present/absent filter. Mixed-IUPAC calls mean that some positions in a sample had evidence for more than one nucleotide, which may suggest more than one `nifH` template in the sample. However, this is not direct proof of multiple organisms, because the method does not connect variants across the full gene into separate haplotypes. The tips in the sample trees are reconstructed `nifH` consensus sequences from samples, not confirmed bacterial species. BLAST labels such as `Mesorhizobium` or `Bradyrhizobium` should therefore be read as the closest known `nifH` reference match, not as final species identification.
-## Interpretation
-
-The consensus50 reference simplifies the analysis by giving one reference sequence per functional gene. This makes the `nifH` gene tree easier to interpret than the earlier multi-region design because each sample can contribute only one `nifH` consensus sequence.
-
-At the sample level, 1,572 samples had enough `nifH` coverage to attempt consensus calling at the main 80% coverage and 10X mean depth threshold. Among those, 387 were clean single-dominant sequences and 1,151 showed mixed signal under the threshold rule. The mixed signal is biologically interesting, but it should be described as possible multiple-template signal, not proof of multiple organisms.
-
-BLAST annotation shows that most strict sample consensus sequences are closest to known `Mesorhizobium`, `Microvirga`, `Bradyrhizobium`, `Sinorhizobium`, `Rhizobium`, and related nifH references. These are closest-reference assignments and are useful for annotation, but they should not be overinterpreted as exact species identifications.
-
-The strict pct80/depth10/N<=20 tree is the strongest tree for reporting. The mixed-IUPAC and relaxed pct60 trees are valuable sensitivity checks because they show what happens when more samples are included, but their bootstrap convergence warnings mean they should be reported cautiously.
-
-
-We mapped 2,907 symbiosis-capture samples to a 72-gene consensus functional reference and quantified per-gene coverage. At the 80% coverage and 10X mean-depth threshold, 1,572 samples had sufficient `nifH` recovery for consensus calling. We built a conservative strict `nifH` phylogeny from 387 single-dominant sample consensus sequences. We also generated mixed-IUPAC and relaxed-threshold sensitivity trees containing 1,538 and 751 sample consensus sequences, respectively. Sample consensus sequences were annotated by BLAST against a 746-sequence nifH reference alignment; these labels represent closest known nifH reference hits rather than confirmed species identities.
-
-
-Mixed-IUPAC calls are threshold-based and indicate possible multiple-template signal, not direct proof of multiple organisms. MC controls were limited to two mock-community samples and therefore were treated as background checks rather than strict filters. Tree tips represent sample-derived nifH consensus sequences, not unique biological taxa.
 
