@@ -376,6 +376,10 @@ This tree includes additional single-dominant sequences by allowing more missing
 
 ![tree colored by closest BLAST taxon](../result/trees/Figure/strict_pct60_nm5000_blast_closest_taxa_colorstrip.svg)
 
+Reference-Only nifH Taxon Tree
+In addition to the sample-derived nifH trees, I built a separate reference-only nifH tree using 746 nifH reference taxa/accessions: [nifH_reference_746_taxa_tree_nm5000.treefile](../result/trees/nifH_reference_746_taxa_tree_nm5000.treefile). The nodes/tips in this tree are known reference nifH sequences, labeled by taxon name and accession ID, not our sample consensus sequences. This tree shows the phylogenetic structure of the known nifH reference database and provides a biological framework for interpreting our sample-derived nifH trees. 
 
-
+After each sample consensus sequence was matched by BLAST to its closest known nifH reference, the reference-only tree shows how those matched reference taxa are related to each other within the broader nifH reference database. Each sample gives us a reconstructed nifH DNA sequence. We then BLAST that sequence against the 746 known nifH reference sequences. BLAST tells us the closest known reference match, for example:
+sample consensus sequence → closest match = Mesorhizobium_sp._AaZ16
+But BLAST only gives the best match one-by-one. The reference-only tree shows where Mesorhizobium_sp._AaZ16 sits relative to all other known nifH references, such as Bradyrhizobium, Rhizobium, Microvirga, Ensifer, etc.
 
