@@ -28,15 +28,6 @@ Alignment `nifH`:https://github.com/ryanafolk/intbio_microbiome/blob/main/refere
 
 The main recommended tree for interpretation is the **strict single-dominant pct80/depth10/N<=20 nm5000 tree** with **387** sample-derived consensus sequences. Also, I report the  **mixed-IUPAC pct80/depth10/N<=20 nm5000 tree** and  **single-dominant pct60/depth10/N<=40 nm5000 tree** trees, but their UFBoot support did not fully converge even with additional iterations.
 
-## Important Caveats
-
-| Caveat | Interpretation |
-|---|---|
-| MC controls are limited to n=2 | `MC-1` and `MC-2` are useful as a background check, but two controls are not enough for a strong absence/presence filter. |
-| Mixed-IUPAC calls are threshold-based | A sequence is flagged as mixed possible multitemplate when more than 10 positions pass the mixed-site rule. |
-| Mixed signal is not proof of multiple organisms | Mixed calls suggest possible multiple templates, but they do not phase variants across the gene. |
-| Tree tips are not unique biological samples | Tree tips are sample-derived `nifH` consensus sequences. For the consensus50 sample trees, one sample contributes at most one `nifH` sequence. |
-| BLAST taxon labels are closest known reference hits | BLAST annotation gives the closest reference `nifH` hit, not confirmed species identity. |
 
 ## Main Inputs
 
