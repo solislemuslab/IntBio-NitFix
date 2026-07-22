@@ -224,7 +224,7 @@ Consensus sequences were aligned with MAFFT before tree inference.
 
 | Input | Method/code run | Result/output |
 |---|---|---|
-| Strict FASTA, pct80/depth10/N<=20 | MAFFT nucleotide alignment. | [`nifH_consensus50_strict_single_dominant.mafft.fasta`] (../result/sequences/nifH_consensus50_strict_single_dominant.mafft.fasta) |387 sequences; alignment length 997 bp; A/C/G/T = 82.55%; IUPAC ambiguity excluding N = 0.00%; N = 17.45%; gaps = 0.00% |
+| Strict FASTA, pct80/depth10/N<=20 | MAFFT nucleotide alignment. | [`nifH_consensus50_strict_single_dominant.mafft.fasta`] (../result/sequences/nifH_consensus50_strict_single_dominant.mafft.fasta) |
 | Mixed-IUPAC FASTA, pct80/depth10/N<=20 | MAFFT nucleotide alignment. | [`nifH_consensus50_iupac_all_pass.mafft.fasta`](../result/sequences/nifH_consensus50_iupac_all_pass.mafft.fasta) |
 | FASTA, pct60/depth10/N<=40 | MAFFT nucleotide alignment. | [`nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta`](../result/sequences/nifH_consensus50_strict_single_dominant_pct60_depth10_Nle40.mafft.fasta) |
 
