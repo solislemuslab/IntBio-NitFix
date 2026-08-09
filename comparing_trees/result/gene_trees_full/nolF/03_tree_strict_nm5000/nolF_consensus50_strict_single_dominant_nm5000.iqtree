@@ -1,0 +1,1061 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Input file name: /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nolF/02_alignment/nolF_consensus50_strict_single_dominant.mafft.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 63305
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 208 sequences with 1110 nucleotide sites
+Number of constant sites: 1059 (= 95.4054% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1059 (= 95.4054% of all sites)
+Number of parsimony informative sites: 22
+Number of distinct site patterns: 200
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+R3          -2290.685    5295.369 +    0.102    5635.279 +    0.405    7084.694 +    0.707
+TPM2u+F+R3        -2289.521    5295.042 +    0.121    5637.311 +    0.147    7089.379 +    0.068
+TN+F+R3           -2289.574    5295.147 +    0.114    5637.416 +    0.139    7089.485 +   0.0645
+HKY+F+I+G4        -2300.568    5311.136 - 3.86e-05    5646.362 -  0.00159    7090.437 -     0.04
+K3Pu+F+R3         -2290.446    5296.892 -   0.0478    5639.161 +   0.0582    7091.229 -    0.027
+TPM3u+F+R3        -2290.617    5297.234 -   0.0403    5639.503 -   0.0491    7091.571 -   0.0227
+HKY+F+I+R3        -2290.635    5297.270 -   0.0396    5639.539 -   0.0482    7091.607 -   0.0223
+TIM2+F+R3         -2288.323    5294.646 +    0.147    5639.286 +   0.0547    7093.995 -  0.00676
+TPM2u+F+I+G4      -2299.011    5310.022 - 6.74e-05    5647.584 - 0.000863    7094.335 -   0.0057
+HKY+R3            -2306.144    5320.288 - 3.97e-07    5653.189 - 5.23e-05    7094.577 -  0.00505
+K2P+R3            -2306.194    5320.387 - 3.78e-07    5653.288 - 4.98e-05    7094.676 -  0.00481
+K2P+R3            -2306.194    5320.387 - 3.78e-07    5653.288 - 4.98e-05    7094.676 -  0.00481
+TN+F+I+G4         -2299.468    5310.936 - 4.27e-05    5648.497 - 0.000546    7095.249 -  0.00361
+TIM+F+R3          -2289.380    5296.760 +   0.0511    5641.400 -    0.019    7096.109 -  0.00235
+TPM2u+F+I+R3      -2289.531    5297.063 -   0.0439    5641.703 -   0.0163    7096.412 -  0.00202
+TIM3+F+R3         -2289.541    5297.083 -   0.0435    5641.723 -   0.0162    7096.432 -    0.002
+TN+F+I+R3         -2289.552    5297.103 -    0.043    5641.743 -    0.016    7096.452 -  0.00198
+K3Pu+F+I+G4       -2300.323    5312.646 - 1.81e-05    5650.208 - 0.000232    7096.959 -  0.00154
+TPM3u+F+I+G4      -2300.542    5313.085 - 1.46e-05    5650.646 - 0.000187    7097.398 -  0.00123
+K3Pu+F+I+R3       -2290.454    5298.908 -   0.0175    5643.548 -  0.00649    7098.257 - 0.000803
+TPM3u+F+I+R3      -2290.626    5299.251 -   0.0147    5643.891 -  0.00547    7098.600 - 0.000676
+TIM2+F+I+G4       -2297.650    5309.299 - 9.67e-05    5649.209 - 0.000383    7098.625 - 0.000668
+TN+R3             -2305.517    5321.034 - 2.74e-07    5656.259 - 1.13e-05    7100.334 - 0.000284
+TNe+R3            -2305.519    5321.039 - 2.73e-07    5656.264 - 1.12e-05    7100.339 - 0.000283
+TNe+R3            -2305.519    5321.039 - 2.73e-07    5656.264 - 1.12e-05    7100.339 - 0.000283
+K3Pu+R3           -2305.611    5321.221 - 2.49e-07    5656.447 - 1.03e-05    7100.522 - 0.000259
+K3P+R3            -2305.625    5321.251 - 2.46e-07    5656.476 - 1.01e-05    7100.552 - 0.000255
+K3P+R3            -2305.625    5321.251 - 2.46e-07    5656.476 - 1.01e-05    7100.552 - 0.000255
+TIM2+F+I+R3       -2288.327    5296.653 +   0.0539    5643.676 -  0.00609    7101.015 - 0.000202
+TPM2u+R3          -2305.903    5321.806 - 1.86e-07    5657.031 - 7.66e-06    7101.107 - 0.000193
+TPM2+R3           -2305.917    5321.835 - 1.83e-07    5657.060 - 7.55e-06    7101.136 -  0.00019
+TPM2+R3           -2305.917    5321.835 - 1.83e-07    5657.060 - 7.55e-06    7101.136 -  0.00019
+TPM3u+R3          -2305.963    5321.925 - 1.75e-07    5657.151 - 7.22e-06    7101.226 - 0.000182
+TPM3+R3           -2305.972    5321.944 - 1.74e-07    5657.169 - 7.15e-06    7101.244 -  0.00018
+TPM3+R3           -2305.972    5321.944 - 1.74e-07    5657.169 - 7.15e-06    7101.244 -  0.00018
+HKY+I+R3          -2306.117    5322.233 -  1.5e-07    5657.459 - 6.19e-06    7101.534 - 0.000156
+K2P+I+R3          -2306.121    5322.243 -  1.5e-07    5657.468 - 6.16e-06    7101.544 - 0.000155
+K2P+I+R3          -2306.121    5322.243 -  1.5e-07    5657.468 - 6.16e-06    7101.544 - 0.000155
+TIM+F+I+G4        -2299.217    5312.435 - 2.02e-05    5652.345 - 7.98e-05    7101.760 - 0.000139
+TIM3+F+I+G4       -2299.447    5312.894 -  1.6e-05    5652.803 - 6.35e-05    7102.219 - 0.000111
+TVM+F+R3          -2288.996    5297.992 -   0.0276    5645.014 -  0.00312    7102.353 - 0.000104
+K2P+I+G4          -2317.246    5338.492 - 4.43e-11    5666.777 - 5.86e-08    7102.757 - 8.46e-05
+K2P+I+G4          -2317.246    5338.492 - 4.43e-11    5666.777 - 5.86e-08    7102.757 - 8.46e-05
+HKY+I+G4          -2317.247    5338.494 - 4.42e-11    5666.779 - 5.86e-08    7102.758 - 8.45e-05
+TIM+F+I+R3        -2289.372    5298.745 -   0.0189    5645.767 -  0.00214    7103.106 -  7.1e-05
+TIM3+F+I+R3       -2289.540    5299.080 -    0.016    5646.103 -  0.00181    7103.442 - 6.01e-05
+TIMe+R3           -2305.000    5322.000 - 1.69e-07    5659.561 - 2.16e-06    7106.313 - 1.43e-05
+TIMe+R3           -2305.000    5322.000 - 1.69e-07    5659.561 - 2.16e-06    7106.313 - 1.43e-05
+TIM+R3            -2305.000    5322.000 - 1.69e-07    5659.562 - 2.16e-06    7106.313 - 1.43e-05
+TIM2e+R3          -2305.265    5322.530 -  1.3e-07    5660.091 - 1.66e-06    7106.843 -  1.1e-05
+TIM2e+R3          -2305.265    5322.530 -  1.3e-07    5660.091 - 1.66e-06    7106.843 -  1.1e-05
+TIM2+R3           -2305.269    5322.538 - 1.29e-07    5660.100 - 1.65e-06    7106.851 - 1.09e-05
+TVM+F+I+G4        -2298.271    5312.542 - 1.91e-05    5654.811 - 2.32e-05    7106.880 - 1.08e-05
+GTR+F+R3          -2287.769    5297.538 -   0.0346    5646.955 -  0.00118    7106.911 - 1.06e-05
+TIM3e+R3          -2305.370    5322.739 - 1.17e-07    5660.301 - 1.49e-06    7107.052 - 9.88e-06
+TIM3e+R3          -2305.370    5322.739 - 1.17e-07    5660.301 - 1.49e-06    7107.052 - 9.88e-06
+TIM3+R3           -2305.377    5322.755 - 1.16e-07    5660.317 - 1.48e-06    7107.068 -  9.8e-06
+TNe+I+R3          -2305.515    5323.029 - 1.01e-07    5660.591 - 1.29e-06    7107.342 - 8.54e-06
+TNe+I+R3          -2305.515    5323.029 - 1.01e-07    5660.591 - 1.29e-06    7107.342 - 8.54e-06
+TN+I+R3           -2305.517    5323.035 - 1.01e-07    5660.596 - 1.29e-06    7107.348 - 8.52e-06
+K3Pu+I+R3         -2305.610    5323.219 - 9.18e-08    5660.781 - 1.18e-06    7107.532 - 7.77e-06
+K3P+I+R3          -2305.611    5323.222 - 9.17e-08    5660.784 - 1.17e-06    7107.535 - 7.76e-06
+K3P+I+R3          -2305.611    5323.222 - 9.17e-08    5660.784 - 1.17e-06    7107.535 - 7.76e-06
+TPM2u+I+R3        -2305.902    5323.804 - 6.85e-08    5661.366 - 8.77e-07    7108.117 -  5.8e-06
+TPM2+I+R3         -2305.904    5323.809 - 6.84e-08    5661.370 - 8.75e-07    7108.122 - 5.79e-06
+TPM2+I+R3         -2305.904    5323.809 - 6.84e-08    5661.370 - 8.75e-07    7108.122 - 5.79e-06
+TPM3+I+R3         -2305.960    5323.921 - 6.46e-08    5661.483 - 8.28e-07    7108.234 - 5.47e-06
+TPM3+I+R3         -2305.960    5323.921 - 6.46e-08    5661.483 - 8.28e-07    7108.234 - 5.47e-06
+TPM3u+I+R3        -2305.963    5323.926 - 6.44e-08    5661.488 - 8.25e-07    7108.239 - 5.45e-06
+K3P+I+G4          -2316.549    5339.099 - 3.27e-11    5669.686 - 1.37e-08    7108.375 -  5.1e-06
+K3P+I+G4          -2316.549    5339.099 - 3.27e-11    5669.686 - 1.37e-08    7108.375 -  5.1e-06
+K3Pu+I+G4         -2316.551    5339.102 - 3.27e-11    5669.689 - 1.37e-08    7108.378 - 5.09e-06
+TNe+I+G4          -2316.586    5339.171 - 3.15e-11    5669.759 - 1.32e-08    7108.448 - 4.91e-06
+TNe+I+G4          -2316.586    5339.171 - 3.15e-11    5669.759 - 1.32e-08    7108.448 - 4.91e-06
+TN+I+G4           -2316.587    5339.173 - 3.15e-11    5669.761 - 1.32e-08    7108.450 - 4.91e-06
+TPM2u+I+G4        -2316.871    5339.741 - 2.37e-11    5670.328 - 9.93e-09    7109.018 -  3.7e-06
+TPM2+I+G4         -2316.872    5339.744 - 2.37e-11    5670.331 - 9.92e-09    7109.020 - 3.69e-06
+TPM2+I+G4         -2316.872    5339.744 - 2.37e-11    5670.331 - 9.92e-09    7109.020 - 3.69e-06
+TVM+F+I+R3        -2289.003    5300.005 -   0.0101    5649.422 - 0.000344    7109.379 - 3.09e-06
+TPM3u+I+G4        -2317.127    5340.255 - 1.83e-11    5670.842 - 7.68e-09    7109.531 - 2.86e-06
+TPM3+I+G4         -2317.129    5340.258 - 1.83e-11    5670.846 - 7.67e-09    7109.535 - 2.85e-06
+TPM3+I+G4         -2317.129    5340.258 - 1.83e-11    5670.846 - 7.67e-09    7109.535 - 2.85e-06
+GTR+F+I+G4        -2296.838    5311.677 - 2.95e-05    5656.317 -  1.1e-05    7111.026 - 1.35e-06
+TIMe+I+R3         -2305.004    5324.007 - 6.19e-08    5663.917 - 2.45e-07    7113.332 - 4.27e-07
+TIMe+I+R3         -2305.004    5324.007 - 6.19e-08    5663.917 - 2.45e-07    7113.332 - 4.27e-07
+TIM+I+R3          -2305.005    5324.009 - 6.18e-08    5663.919 - 2.45e-07    7113.335 - 4.27e-07
+TVMe+R3           -2305.140    5324.281 -  5.4e-08    5664.190 - 2.14e-07    7113.606 - 3.73e-07
+TVMe+R3           -2305.140    5324.281 -  5.4e-08    5664.190 - 2.14e-07    7113.606 - 3.73e-07
+TVM+R3            -2305.147    5324.294 - 5.36e-08    5664.203 - 2.12e-07    7113.619 -  3.7e-07
+TIM2e+I+R3        -2305.269    5324.539 - 4.74e-08    5664.448 - 1.88e-07    7113.864 - 3.28e-07
+TIM2e+I+R3        -2305.269    5324.539 - 4.74e-08    5664.448 - 1.88e-07    7113.864 - 3.28e-07
+TIM2+I+R3         -2305.272    5324.545 - 4.73e-08    5664.454 - 1.87e-07    7113.870 - 3.27e-07
+GTR+F+I+R3        -2287.772    5299.545 -   0.0127    5651.368 -  0.00013    7113.930 - 3.17e-07
+TIM+I+G4          -2315.868    5339.736 - 2.38e-11    5672.637 - 3.13e-09    7114.025 - 3.02e-07
+TIMe+I+G4         -2315.870    5339.741 - 2.37e-11    5672.641 - 3.12e-09    7114.029 - 3.02e-07
+TIMe+I+G4         -2315.870    5339.741 - 2.37e-11    5672.641 - 3.12e-09    7114.029 - 3.02e-07
+TIM3e+I+R3        -2305.372    5324.745 - 4.28e-08    5664.654 - 1.69e-07    7114.070 - 2.96e-07
+TIM3e+I+R3        -2305.372    5324.745 - 4.28e-08    5664.654 - 1.69e-07    7114.070 - 2.96e-07
+TIM3+I+R3         -2305.380    5324.759 - 4.25e-08    5664.669 - 1.68e-07    7114.085 - 2.93e-07
+TIM2e+I+G4        -2316.093    5340.187 -  1.9e-11    5673.087 -  2.5e-09    7114.476 - 2.41e-07
+TIM2e+I+G4        -2316.093    5340.187 -  1.9e-11    5673.087 -  2.5e-09    7114.476 - 2.41e-07
+TIM2+I+G4         -2316.094    5340.189 -  1.9e-11    5673.089 -  2.5e-09    7114.478 - 2.41e-07
+TIM3e+I+G4        -2316.457    5340.915 - 1.32e-11    5673.815 - 1.74e-09    7115.204 - 1.68e-07
+TIM3e+I+G4        -2316.457    5340.915 - 1.32e-11    5673.815 - 1.74e-09    7115.204 - 1.68e-07
+TIM3+I+G4         -2316.460    5340.920 - 1.32e-11    5673.820 - 1.73e-09    7115.208 - 1.67e-07
+F81+F+R3          -2311.452    5334.904 - 2.66e-10    5672.466 - 3.41e-09    7119.217 - 2.25e-08
+GTR+R3            -2304.495    5324.990 - 3.79e-08    5667.259 - 4.61e-08    7119.328 - 2.13e-08
+SYM+R3            -2304.497    5324.993 - 3.78e-08    5667.262 -  4.6e-08    7119.331 - 2.13e-08
+SYM+R3            -2304.497    5324.993 - 3.78e-08    5667.262 -  4.6e-08    7119.331 - 2.13e-08
+TVMe+I+R3         -2305.145    5326.291 - 1.98e-08    5668.560 -  2.4e-08    7120.628 - 1.11e-08
+TVMe+I+R3         -2305.145    5326.291 - 1.98e-08    5668.560 -  2.4e-08    7120.628 - 1.11e-08
+TVM+I+R3          -2305.150    5326.300 - 1.97e-08    5668.569 - 2.39e-08    7120.637 - 1.11e-08
+TVMe+I+G4         -2315.901    5341.801 - 8.47e-12    5677.027 - 3.49e-10    7121.102 - 8.78e-09
+TVMe+I+G4         -2315.901    5341.801 - 8.47e-12    5677.027 - 3.49e-10    7121.102 - 8.78e-09
+TVM+I+G4          -2315.901    5341.801 - 8.47e-12    5677.027 - 3.49e-10    7121.102 - 8.78e-09
+F81+R3            -2325.019    5356.039 - 6.86e-15    5686.626 - 2.87e-12    7125.316 - 1.07e-09
+F81+F+I+G4        -2321.534    5351.068 - 8.23e-14    5683.969 - 1.08e-11    7125.357 - 1.05e-09
+JC+R3             -2325.042    5356.085 -  6.7e-15    5686.672 - 2.81e-12    7125.362 - 1.04e-09
+JC+R3             -2325.042    5356.085 -  6.7e-15    5686.672 - 2.81e-12    7125.362 - 1.04e-09
+F81+F+I+R3        -2311.375    5336.749 - 1.06e-10    5676.659 - 4.19e-10    7126.074 - 7.31e-10
+GTR+I+R3          -2304.501    5327.002 - 1.38e-08    5671.642 - 5.15e-09    7126.352 - 6.36e-10
+SYM+I+R3          -2304.502    5327.003 - 1.38e-08    5671.643 - 5.15e-09    7126.353 - 6.36e-10
+SYM+I+R3          -2304.502    5327.003 - 1.38e-08    5671.643 - 5.15e-09    7126.353 - 6.36e-10
+SYM+I+G4          -2315.056    5342.113 - 7.25e-12    5679.675 - 9.28e-11    7126.426 - 6.13e-10
+SYM+I+G4          -2315.056    5342.113 - 7.25e-12    5679.675 - 9.28e-11    7126.426 - 6.13e-10
+GTR+I+G4          -2315.057    5342.113 - 7.24e-12    5679.675 - 9.28e-11    7126.426 - 6.13e-10
+JC+I+R3           -2324.772    5357.545 - 3.23e-15    5690.446 - 4.25e-13    7131.834 - 4.11e-11
+JC+I+R3           -2324.772    5357.545 - 3.23e-15    5690.446 - 4.25e-13    7131.834 - 4.11e-11
+F81+I+R3          -2324.878    5357.757 -  2.9e-15    5690.657 - 3.82e-13    7132.045 - 3.69e-11
+F81+I+G4          -2335.850    5373.700 -    1e-18    5699.695 - 4.17e-15    7132.953 - 2.35e-11
+JC+I+G4           -2335.907    5373.814 - 9.47e-19    5699.809 - 3.94e-15    7133.066 - 2.22e-11
+JC+I+G4           -2335.907    5373.814 - 9.47e-19    5699.809 - 3.94e-15    7133.066 - 2.22e-11
+JC+R4             -2325.076    5360.152 - 8.77e-16    5695.378 - 3.61e-14    7139.453 -  9.1e-13
+JC+I+R4           -2324.903    5361.807 - 3.83e-16    5699.368 - 4.91e-15    7146.120 - 3.25e-14
+JC+I              -2358.209    5416.418 - 5.31e-28    5740.134 -  6.9e-24    7170.659 - 1.52e-19
+JC+R2             -2357.997    5417.993 - 2.41e-28    5743.988 -    1e-24    7177.246 - 5.65e-21
+JC+I+R2           -2358.024    5420.049 - 8.64e-29    5748.334 - 1.14e-25    7184.313 - 1.65e-22
+JC+G4             -2434.507    5569.015 - 3.88e-61    5892.730 - 5.05e-57    7323.255 - 1.11e-52
+JC                -2534.259    5766.517 - 5.03e-104    6087.964 - 2.03e-99    7515.745 - 1.77e-94
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+R3
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 4.5811
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 4.5811
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2048
+  pi(C) = 0.2779
+  pi(G) = 0.3114
+  pi(T) = 0.2059
+
+Rate matrix Q:
+
+  A    -1.188    0.1728    0.8873     0.128
+  C    0.1274   -0.9075    0.1937    0.5865
+  G    0.5835    0.1728   -0.8843     0.128
+  T    0.1274    0.7916    0.1937    -1.113
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.9219,5.714e-15) (0.06801,4.433) (0.01013,68.97)
+
+ Category  Relative_rate  Proportion
+  1         5.714e-15      0.9219
+  2         4.433          0.06801
+  3         68.97          0.01013
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2268.8860 (s.e. 120.9045)
+Unconstrained log-likelihood (without tree): -4291.1120
+Number of free parameters (#branches + #model parameters): 357
+Akaike information criterion (AIC) score: 5251.7720
+Corrected Akaike information criterion (AICc) score: 5591.6816
+Bayesian information criterion (BIC) score: 7041.0972
+
+Total tree length (sum of branch lengths): 0.1814
+Sum of internal branch lengths: 0.0405 (22.3107% of tree length)
+
+WARNING: 133 near-zero internal branches (<0.0009) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'BLAN-1-1-No|nolF|consensus50|strict_single_dominant' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**BLAN-1-1-No|nolF|consensus50|strict_single_dominant
+|
+|                             +**BLAN-1-1-Rh|nolF|consensus50|strict_single_dominant
+|                          +--| (25.4/45)
+|                          |  +--WOOD-1-1-No|nolF|consensus50|strict_single_dominant
+|                       +**| (0/37)
+|                       |  |     +**DSNY-13-1-Ro|nolF|consensus50|strict_single_dominant
+|                       |  |  +--| (87.7/34)
+|                       |  |  |  +--WOOD-12-Rh|nolF|consensus50|strict_single_dominant
+|                       |  +--| (86.9/35)
+|                       |     +**TALL-28-1-Ro|nolF|consensus50|strict_single_dominant
+|                    +--| (84.4/31)
+|                    |  |  +**BLAN-1-1-Ro|nolF|consensus50|strict_single_dominant
+|                    |  +**| (0/89)
+|                    |     +**OAES-15-No|nolF|consensus50|strict_single_dominant
+|                 +**| (0/33)
+|                 |  +--OAES-13-1-Ro|nolF|consensus50|strict_single_dominant
+|              +--| (87.1/43)
+|              |  |  +**DCFS-8-1-Ro|nolF|consensus50|strict_single_dominant
+|              |  +**| (0/83)
+|              |     +**JERC-46-1-Rh|nolF|consensus50|strict_single_dominant
+|           +**| (0/7)
+|           |  |                                                                          +--BLAN-2-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                                       +**| (0/17)
+|           |  |                                                                       |  +--DCFS-5-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    +**| (0/12)
+|           |  |                                                                    |  |  +**CPER-5-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |  +**| (0/15)
+|           |  |                                                                    |     |              +**DEJU-28-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |     |           +**| (0/22)
+|           |  |                                                                    |     |           |  +**DELA-32-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |     |        +**| (0/0)
+|           |  |                                                                    |     |        |  +**TALL-29-3-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |     |     +**| (0/0)
+|           |  |                                                                    |     |     |  +**JERC-149-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |     |  +**| (0/0)
+|           |  |                                                                    |     |  |  +**WOOD-4-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |     +**| (0/3)
+|           |  |                                                                    |        |                    +**DEJU-59-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |        |                 +**| (0/42)
+|           |  |                                                                    |        |                 |  |  +--NOGP-7-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |        |                 |  +**| (0/34)
+|           |  |                                                                    |        |                 |     +**WOOD-3-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |        |              +**| (0/7)
+|           |  |                                                                    |        |              |  +**WOOD-1-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |        |           +**| (0/22)
+|           |  |                                                                    |        |           |  +**TALL-22-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |        |        +**| (0/21)
+|           |  |                                                                    |        |        |  +**OAES_24-3-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |        |     +**| (0/20)
+|           |  |                                                                    |        |     |  +**OAES-6-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |        |  +**| (0/19)
+|           |  |                                                                    |        |  |  +**TOOL-25-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                                    |        +**| (0/19)
+|           |  |                                                                    |           +**JERC-204-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                                 +**| (0/4)
+|           |  |                                                                 |  +**NOGP-6-3-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              +**| (0/14)
+|           |  |                                                              |  +**NOGP-3-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                           +**| (0/7)
+|           |  |                                                           |  |        +**DCFS-5-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |     +**| (0/55)
+|           |  |                                                           |  |     |  +**NOGP-3-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  +**| (0/8)
+|           |  |                                                           |  |  |  |              +**DEJU-59-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  |           +**| (0/36)
+|           |  |                                                           |  |  |  |           |  +**NOGP-7-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  |        +**| (0/23)
+|           |  |                                                           |  |  |  |        |  |     +**JERC-94-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  |        |  |  +**| (0/20)
+|           |  |                                                           |  |  |  |        |  |  |  +**OAES-14-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  |        |  +**| (0/34)
+|           |  |                                                           |  |  |  |        |     +**OSBS-102-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  |     +**| (0/24)
+|           |  |                                                           |  |  |  |     |  |     +**OAES_19-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  |     |  |  +--| (87.1/77)
+|           |  |                                                           |  |  |  |     |  |  |  +--OAES_24-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  |     |  +**| (0/13)
+|           |  |                                                           |  |  |  |     |     +--OAES-36-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  |  +**| (0/23)
+|           |  |                                                           |  |  |  |  |  +**NOGP-4-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  |  +--| (85.7/34)
+|           |  |                                                           |  |  |     +--TOOL-17-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  +**| (0/7)
+|           |  |                                                           |     |  +**NOGP-5-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |     +**| (0/67)
+|           |  |                                                           |        +**OAES_19-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                        +--| (92.8/22)
+|           |  |                                                        |  |     +**DEJU-29-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                        |  |  +--| (0/89)
+|           |  |                                                        |  |  |  +**JERC-150-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                        |  +**| (0/53)
+|           |  |                                                        |     +**WOOD-1-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                     +**| (0/14)
+|           |  |                                                     |  |        +**JERC-89-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                     |  |     +**| (0/40)
+|           |  |                                                     |  |     |  +**TOOL-16-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                     |  |  +**| (0/67)
+|           |  |                                                     |  |  |  |  +**SERC-6-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                     |  |  |  +**| (0/73)
+|           |  |                                                     |  |  |     +**TOOL-4-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                     |  +**| (0/84)
+|           |  |                                                     |     +**OAES_24-3-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                  +--| (48.5/20)
+|           |  |                                                  |  |  +--BLAN-4-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  +--| (71.9/19)
+|           |  |                                                  |     |  +**OAES-7-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |     +--| (35.2/40)
+|           |  |                                                  |        +--TOOL-10-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                               +--| (84.1/31)
+|           |  |                                               |  |  +**NOGP-4-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                               |  +**| (0/85)
+|           |  |                                               |     +**TALL-60-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                            +**| (0/14)
+|           |  |                                            |  |  +**WOOD-12-No|nolF|consensus50|strict_single_dominant
+|           |  |                                            |  +**| (0/59)
+|           |  |                                            |     +**WOOD-7-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                         +**| (0/7)
+|           |  |                                         |  +**CPER-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      +**| (0/1)
+|           |  |                                      |  |                                +**CLBJ-1-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |                             +**| (0/53)
+|           |  |                                      |  |                             |  +**CLBJ-18-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |                          +**| (0/45)
+|           |  |                                      |  |                          |  +**KONZ-6-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |                       +**| (0/37)
+|           |  |                                      |  |                       |  +--JERC-11-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |                    +**| (0/48)
+|           |  |                                      |  |                    |  +**OAES-3-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |                 +**| (0/52)
+|           |  |                                      |  |                 |  +**CLBJ-5-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |              +**| (0/59)
+|           |  |                                      |  |              |  +**OAES-3-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |           +**| (0/62)
+|           |  |                                      |  |           |  |  +**JERC-DEST-32-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |           |  +**| (0/28)
+|           |  |                                      |  |           |     +**OAES-1-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |        +**| (0/66)
+|           |  |                                      |  |        |  +**OAES-2-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |     +--| (85.3/98)
+|           |  |                                      |  |     |  |  +**CPER-4-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |     |  +**| (0/63)
+|           |  |                                      |  |     |     +**OAES-2-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  +**| (0/4)
+|           |  |                                      |  |  |  |              +**CPER-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |  |           +--| (83.9/54)
+|           |  |                                      |  |  |  |           |  +--NIWO-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |  |        +--| (84.4/38)
+|           |  |                                      |  |  |  |        |  |     +--JERC-RHTO-58-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |  |        |  |  +--| (76.4/78)
+|           |  |                                      |  |  |  |        |  |  |  +--OAES-20-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |  |        |  +**| (0/19)
+|           |  |                                      |  |  |  |        |     +**NOGP-4-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |  |     +**| (0/16)
+|           |  |                                      |  |  |  |     |  +--LENO-15-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |  |  +--| (86.7/20)
+|           |  |                                      |  |  |  |  |  |  +**OAES-37-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |  |  |  +**| (0/93)
+|           |  |                                      |  |  |  |  |     +**OSBS-97-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |  +--| (83.4/17)
+|           |  |                                      |  |  |     |  +**DCFS-2-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |     +**| (0/45)
+|           |  |                                      |  |  |        |  +--DCFS-2-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  |  |        +**| (0/55)
+|           |  |                                      |  |  |           +**DCFS-2-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  +**| (0/1)
+|           |  |                                      |     +**WOOD-6-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                   +**| (0/1)
+|           |  |                                   |  |     +--CPER-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                   |  |  +--| (85.3/37)
+|           |  |                                   |  |  |  |     +**WOOD-10-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                   |  |  |  |  +**| (0/37)
+|           |  |                                   |  |  |  |  |  |        +**WOOD-12-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                   |  |  |  |  |  |     +**| (0/27)
+|           |  |                                   |  |  |  |  |  |     |  +--WOOD-4-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                   |  |  |  |  |  |  +**| (0/31)
+|           |  |                                   |  |  |  |  |  |  |  +**WOOD-9-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                   |  |  |  |  |  +**| (0/38)
+|           |  |                                   |  |  |  |  |     +**WOOD-8-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                   |  |  |  +**| (0/37)
+|           |  |                                   |  |  |     +**WOOD-5-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                   |  +**| (0/3)
+|           |  |                                   |     |           +--OAES-21-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                   |     |        +**| (0/31)
+|           |  |                                   |     |        |  +**OAES-25-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                   |     |     +**| (0/44)
+|           |  |                                   |     |     |  +**OAES-23-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                   |     |  +--| (86.4/60)
+|           |  |                                   |     |  |  +**OAES-22-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                   |     +--| (84.9/63)
+|           |  |                                   |        +**OAES-23-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                +--| (84.4/37)
+|           |  |                                |  |     +**BLAN-2-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |  |  +**| (0/52)
+|           |  |                                |  |  |  +**NOGP-5-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |  +**| (0/5)
+|           |  |                                |     |                 +**DELA-26-3-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |              +--| (92.3/96)
+|           |  |                                |     |              |  +**WOOD-11-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |           +**| (0/10)
+|           |  |                                |     |           |  |     +**WOOD-5-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |           |  |  +**| (0/39)
+|           |  |                                |     |           |  |  |  +**WOOD-6-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |           |  +**| (0/24)
+|           |  |                                |     |           |     |  +**WOOD-7-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |           |     +**| (0/19)
+|           |  |                                |     |           |        +**WOOD-7-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |        +**| (0/12)
+|           |  |                                |     |        |  +**TOOL-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |     +**| (0/4)
+|           |  |                                |     |     |  +**RMNP-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |  +**| (0/15)
+|           |  |                                |     |  |  +**WOOD-8-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |     +**| (0/11)
+|           |  |                                |        |  +**WOOD-10-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |        +**| (0/19)
+|           |  |                                |           +**WOOD-11-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             +**| (0/8)
+|           |  |                             |  |  +-----------------------------------------------------NOGP-1-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  +**| (0/55)
+|           |  |                             |     |  +**RMNP-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |     +**| (0/96)
+|           |  |                             |        +**WOOD-6-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                          +--| (86.2/37)
+|           |  |                          |  |  +**TOOL-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                          |  +**| (0/11)
+|           |  |                          |     +--YELL-5-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                       +--| (87.3/18)
+|           |  |                       |  |        +--DCFS-3-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                       |  |     +--| (82.3/97)
+|           |  |                       |  |     |  +**NIWO-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                       |  |  +**| (0/18)
+|           |  |                       |  |  |  |  +**KONZ-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                       |  |  |  +--| (93.7/95)
+|           |  |                       |  |  |     +--WOOD-3-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                       |  +**| (0/5)
+|           |  |                       |     |     +**DSNY-15-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                       |     |  +--| (82.7/66)
+|           |  |                       |     |  |  |  +--NIWO-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                       |     |  |  +--| (85.1/89)
+|           |  |                       |     |  |     +**SCBI-1-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                       |     +**| (0/8)
+|           |  |                       |        +**OAES-5-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                    +--| (86.4/18)
+|           |  |                    |  +**NOGP-2-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                 +--| (82.7/31)
+|           |  |                 |  |  +--BLAN-3-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                 |  +**| (0/66)
+|           |  |                 |     +--SCBI-3-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |              +**| (0/31)
+|           |  |              |  +**OAES-27-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |           +--| (44.4/27)
+|           |  |           |  |              +**BLAN-3-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |           |  |           +**| (0/60)
+|           |  |           |  |           |  +**SCBI-3-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |           |  |        +**| (0/29)
+|           |  |           |  |        |  |     +--JORN-3-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |           |  |        |  |  +**| (0/31)
+|           |  |           |  |        |  |  |  +--OAES-15-Rh|nolF|consensus50|strict_single_dominant
+|           |  |           |  |        |  +**| (0/23)
+|           |  |           |  |        |     +--OAES-15-Ro|nolF|consensus50|strict_single_dominant
+|           |  |           |  |     +**| (0/31)
+|           |  |           |  |     |  +**CLBJ-26-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |           |  |  +**| (0/30)
+|           |  |           |  |  |  +**CPER-5-1-No|nolF|consensus50|strict_single_dominant
+|           |  |           |  +--| (82.1/47)
+|           |  |           |     +--DCFS-6-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |        +--| (89.8/28)
+|           |  |        |  |           +**BLAN-4-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |        |  |        +**| (0/31)
+|           |  |        |  |        |  +**CPER-5-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |        |  |     +**| (0/79)
+|           |  |        |  |     |  +**DCFS-3-2-No|nolF|consensus50|strict_single_dominant
+|           |  |        |  |  +**| (0/75)
+|           |  |        |  |  |  +**DCFS-4-Rh|nolF|consensus50|strict_single_dominant
+|           |  |        |  +**| (0/74)
+|           |  |        |     |  +--CPER-4-Ro|nolF|consensus50|strict_single_dominant
+|           |  |        |     +--| (81.4/92)
+|           |  |        |        +--OAES-36-2-No|nolF|consensus50|strict_single_dominant
+|           |  |     +**| (0/32)
+|           |  |     |  |  +**CPER-3-1-No|nolF|consensus50|strict_single_dominant
+|           |  |     |  +**| (0/59)
+|           |  |     |     +**CPER-3-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |  +**| (0/6)
+|           |  |  |  +**SCBI-4-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  +**| (0/10)
+|           |     +**SCBI-2-1-Rh|nolF|consensus50|strict_single_dominant
+|        +**| (0/1)
+|        |  |  +--DCFS-8-1-Rh|nolF|consensus50|strict_single_dominant
+|        |  +--| (0/26)
+|        |     +--DSNY-13-1-Rh|nolF|consensus50|strict_single_dominant
+|     +**| (0/7)
+|     |  +**DCFS-7-1-Rh|nolF|consensus50|strict_single_dominant
+|  +**| (0/8)
+|  |  |        +--DCFS-5-1-Rh|nolF|consensus50|strict_single_dominant
+|  |  |     +--| (83/57)
+|  |  |     |  +**DSNY-14-1-Rh|nolF|consensus50|strict_single_dominant
+|  |  |  +**| (0/43)
+|  |  |  |  +**WOOD-5-1-Ro|nolF|consensus50|strict_single_dominant
+|  |  +--| (81.2/66)
+|  |     +--DSNY-17-3-No|nolF|consensus50|strict_single_dominant
++--| (83.5/80)
+|  |                                                           +**BLAN-2-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                                                        +**| (0/12)
+|  |                                                        |  |     +**BLAN-3-1-No|nolF|consensus50|strict_single_dominant
+|  |                                                        |  |  +**| (0/27)
+|  |                                                        |  |  |  |  +**NOGP-1-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                                        |  |  |  +**| (0/29)
+|  |                                                        |  |  |     +**SCBI-2-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                                                        |  +**| (0/17)
+|  |                                                        |     +**TALL-74-3-No|nolF|consensus50|strict_single_dominant
+|  |                                                     +**| (0/7)
+|  |                                                     |  +--DSNY-CRMA-33-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                                  +**| (0/16)
+|  |                                                  |  +**LAJA-25-1-No|nolF|consensus50|strict_single_dominant
+|  |                                               +**| (0/8)
+|  |                                               |  +**CPER-2-Ro|nolF|consensus50|strict_single_dominant
+|  |                                            +**| (0/14)
+|  |                                            |  +**WOOD-10-1-No|nolF|consensus50|strict_single_dominant
+|  |                                         +**| (0/20)
+|  |                                         |  +**BLAN-4-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                      +**| (0/25)
+|  |                                      |  +**DSNY-91-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                   +**| (0/26)
+|  |                                   |  +**TALL-24-2-No|nolF|consensus50|strict_single_dominant
+|  |                                +**| (0/8)
+|  |                                |  +**DCFS-4-No|nolF|consensus50|strict_single_dominant
+|  |                             +**| (0/3)
+|  |                             |  +**TALL-92-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                          +**| (0/9)
+|  |                          |  +**TEAK-3-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                       +**| (0/12)
+|  |                       |  +**OSBS-106-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                    +**| (0/17)
+|  |                    |  +**WOOD-8-No|nolF|consensus50|strict_single_dominant
+|  |                 +**| (0/5)
+|  |                 |  +**SCBI-12-1-No|nolF|consensus50|strict_single_dominant
+|  |              +**| (0/12)
+|  |              |  +**CLBJ-40-1-Ro|nolF|consensus50|strict_single_dominant
+|  |           +**| (0/11)
+|  |           |  +**DCFS-4-Ro|nolF|consensus50|strict_single_dominant
+|  |        +**| (0/20)
+|  |        |  +**JERC-2-1-Ro|nolF|consensus50|strict_single_dominant
+|  |     +**| (0/17)
+|  |     |  +**OSBS-99-Ro|nolF|consensus50|strict_single_dominant
+|  |  +**| (0/21)
+|  |  |  +**HEAL-7-1-Ro|nolF|consensus50|strict_single_dominant
+|  +**| (0/18)
+|     +**DSNY-13-1-No|nolF|consensus50|strict_single_dominant
+|
++--DCFS-7-1-Ro|nolF|consensus50|strict_single_dominant
+
+Tree in newick format:
+
+(BLAN-1-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,((((((((((BLAN-1-1-Rh|nolF|consensus50|strict_single_dominant:0.0000028468,WOOD-1-1-No|nolF|consensus50|strict_single_dominant:0.0030496961)25.4/45:0.0009649728,((DSNY-13-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027098,WOOD-12-Rh|nolF|consensus50|strict_single_dominant:0.0010063703)87.7/34:0.0010064018,TALL-28-1-Ro|nolF|consensus50|strict_single_dominant:0.0000022714)86.9/35:0.0009825419)0/37:0.0000020786,(BLAN-1-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027373,OAES-15-No|nolF|consensus50|strict_single_dominant:0.0000028839)0/89:0.0000027333)84.4/31:0.0009720737,OAES-13-1-Ro|nolF|consensus50|strict_single_dominant:0.0009855133)0/33:0.0000028981,(DCFS-8-1-Ro|nolF|consensus50|strict_single_dominant:0.0000026005,JERC-46-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/83:0.0000019699)87.1/43:0.0009759144,(((((((((((((((((((((((((BLAN-2-1-No|nolF|consensus50|strict_single_dominant:0.0021774877,DCFS-5-1-Ro|nolF|consensus50|strict_single_dominant:0.0009633366)0/17:0.0000009982,(CPER-5-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983,(((((DEJU-28-2-No|nolF|consensus50|strict_single_dominant:0.0000009983,DELA-32-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/22:0.0000009982,TALL-29-3-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/0:0.0000009982,JERC-149-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/0:0.0000024938,WOOD-4-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/0:0.0000009982,(((((((DEJU-59-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,(NOGP-7-2-No|nolF|consensus50|strict_single_dominant:0.0010583120,WOOD-3-2-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/34:0.0000009982)0/42:0.0000009982,WOOD-1-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/7:0.0000009982,TALL-22-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/22:0.0000009982,OAES_24-3-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/21:0.0000009982,OAES-6-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/20:0.0000009982,TOOL-25-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/19:0.0000009982,JERC-204-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/19:0.0000024329)0/3:0.0000009982)0/15:0.0000009982)0/12:0.0000024969,NOGP-6-3-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/4:0.0000009982,NOGP-3-2-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/14:0.0000009982,(((DCFS-5-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,NOGP-3-2-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/55:0.0000026364,(((((DEJU-59-No|nolF|consensus50|strict_single_dominant:0.0000009983,NOGP-7-2-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/36:0.0000025716,((JERC-94-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,OAES-14-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/20:0.0000009982,OSBS-102-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/34:0.0000009982)0/23:0.0000024976,((OAES_19-2-Ro|nolF|consensus50|strict_single_dominant:0.0000022627,OAES_24-3-Rh|nolF|consensus50|strict_single_dominant:0.0009780032)87.1/77:0.0009821199,OAES-36-3-Rh|nolF|consensus50|strict_single_dominant:0.0010567329)0/13:0.0000009982)0/24:0.0000027074,NOGP-4-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027409)0/23:0.0000027808,TOOL-17-Ro|nolF|consensus50|strict_single_dominant:0.0009732551)85.7/34:0.0009482265)0/8:0.0000009982,(NOGP-5-2-No|nolF|consensus50|strict_single_dominant:0.0000009983,OAES_19-2-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/67:0.0000026992)0/7:0.0000026023)0/7:0.0000009982,((DEJU-29-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,JERC-150-Ro|nolF|consensus50|strict_single_dominant:0.0000025566)0/89:0.0009743425,WOOD-1-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/53:0.0000027932)92.8/22:0.0009791065,(((JERC-89-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,TOOL-16-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/40:0.0000009982,(SERC-6-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,TOOL-4-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/73:0.0000024949)0/67:0.0000009982,OAES_24-3-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/84:0.0000028600)0/14:0.0000028188,(BLAN-4-1-No|nolF|consensus50|strict_single_dominant:0.0021973316,(OAES-7-1-Rh|nolF|consensus50|strict_single_dominant:0.0000021392,TOOL-10-Ro|nolF|consensus50|strict_single_dominant:0.0010657811)35.2/40:0.0011852570)71.9/19:0.0009200293)48.5/20:0.0009514162,(NOGP-4-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,TALL-60-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/85:0.0000028956)84.1/31:0.0009648709,(WOOD-12-No|nolF|consensus50|strict_single_dominant:0.0000009983,WOOD-7-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/59:0.0000009982)0/14:0.0000009982,CPER-2-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/7:0.0000021679,(((((((((((CLBJ-1-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,CLBJ-18-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/53:0.0000009982,KONZ-6-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/45:0.0000009982,JERC-11-1-No|nolF|consensus50|strict_single_dominant:0.0010013125)0/37:0.0000009982,OAES-3-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/48:0.0000009982,CLBJ-5-2-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/52:0.0000009982,OAES-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/59:0.0000009982,(JERC-DEST-32-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,OAES-1-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/28:0.0000027073)0/62:0.0000021065,OAES-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/66:0.0000028661,(CPER-4-Rh|nolF|consensus50|strict_single_dominant:0.0000009983,OAES-2-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/63:0.0000028842)85.3/98:0.0009730399,(((((CPER-2-Rh|nolF|consensus50|strict_single_dominant:0.0000027502,NIWO-1-Rh|nolF|consensus50|strict_single_dominant:0.0041616847)83.9/54:0.0009870550,((JERC-RHTO-58-1-Ro|nolF|consensus50|strict_single_dominant:0.0010351235,OAES-20-Ro|nolF|consensus50|strict_single_dominant:0.0012367946)76.4/78:0.0010356282,NOGP-4-1-Rh|nolF|consensus50|strict_single_dominant:0.0000022636)0/19:0.0000027072)84.4/38:0.0009875104,LENO-15-2-No|nolF|consensus50|strict_single_dominant:0.0009704350)0/16:0.0000027210,(OAES-37-2-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,OSBS-97-2-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/93:0.0000026739)86.7/20:0.0010161162,(DCFS-2-2-No|nolF|consensus50|strict_single_dominant:0.0000025698,(DCFS-2-2-Rh|nolF|consensus50|strict_single_dominant:0.0031558953,DCFS-2-2-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/55:0.0000025779)0/45:0.0000027295)83.4/17:0.0009596849)0/4:0.0000027530,WOOD-6-1-No|nolF|consensus50|strict_single_dominant:0.0000022785)0/1:0.0000026355)0/1:0.0000009982,((CPER-1-Rh|nolF|consensus50|strict_single_dominant:0.0010143852,((WOOD-10-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,(((WOOD-12-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,WOOD-4-1-No|nolF|consensus50|strict_single_dominant:0.0010517786)0/27:0.0000009982,WOOD-9-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/31:0.0000009982,WOOD-8-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/38:0.0000009982)0/37:0.0000009982,WOOD-5-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/37:0.0000029262)85.3/37:0.0010629950,((((OAES-21-3-Rh|nolF|consensus50|strict_single_dominant:0.0010986765,OAES-25-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/31:0.0000025270,OAES-23-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/44:0.0000028050,OAES-22-1-No|nolF|consensus50|strict_single_dominant:0.0000026600)86.4/60:0.0009631768,OAES-23-1-Ro|nolF|consensus50|strict_single_dominant:0.0000026336)84.9/63:0.0009676155)0/3:0.0000027168)0/1:0.0000023142,((BLAN-2-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983,NOGP-5-2-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/52:0.0000025890,((((((DELA-26-3-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,WOOD-11-1-Rh|nolF|consensus50|strict_single_dominant:0.0000021423)92.3/96:0.0010134371,((WOOD-5-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983,WOOD-6-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/39:0.0000009982,(WOOD-7-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983,WOOD-7-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/19:0.0000009982)0/24:0.0000009982)0/10:0.0000009982,TOOL-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/12:0.0000009982,RMNP-2-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/4:0.0000027029,WOOD-8-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/15:0.0000019583,(WOOD-10-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983,WOOD-11-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/19:0.0000009982)0/11:0.0000027511)0/5:0.0000024368)84.4/37:0.0009721778,(NOGP-1-1-No|nolF|consensus50|strict_single_dominant:0.0834639031,(RMNP-1-Rh|nolF|consensus50|strict_single_dominant:0.0000022552,WOOD-6-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027937)0/96:0.0001911126)0/55:0.0007992720)0/8:0.0000023099,(TOOL-1-Rh|nolF|consensus50|strict_single_dominant:0.0000025197,YELL-5-3-Rh|nolF|consensus50|strict_single_dominant:0.0010842621)0/11:0.0000026072)86.2/37:0.0009764332,(((DCFS-3-2-Rh|nolF|consensus50|strict_single_dominant:0.0022196802,NIWO-2-Rh|nolF|consensus50|strict_single_dominant:0.0000024044)82.3/97:0.0009890498,(KONZ-1-Ro|nolF|consensus50|strict_single_dominant:0.0000022262,WOOD-3-2-Ro|nolF|consensus50|strict_single_dominant:0.0009510625)93.7/95:0.0020609980)0/18:0.0000029635,((DSNY-15-1-Ro|nolF|consensus50|strict_single_dominant:0.0000028573,(NIWO-1-Ro|nolF|consensus50|strict_single_dominant:0.0010828984,SCBI-1-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)85.1/89:0.0009995901)82.7/66:0.0010627751,OAES-5-Rh|nolF|consensus50|strict_single_dominant:0.0000027936)0/8:0.0000022785)0/5:0.0000026231)87.3/18:0.0009626457,NOGP-2-1-Rh|nolF|consensus50|strict_single_dominant:0.0000021814)86.4/18:0.0009420656,(BLAN-3-1-Rh|nolF|consensus50|strict_single_dominant:0.0009960657,SCBI-3-1-Rh|nolF|consensus50|strict_single_dominant:0.0009608896)0/66:0.0000026936)82.7/31:0.0009902436,OAES-27-2-Ro|nolF|consensus50|strict_single_dominant:0.0000026670)0/31:0.0000028256,(((((BLAN-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,SCBI-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/60:0.0000009982,((JORN-3-1-Rh|nolF|consensus50|strict_single_dominant:0.0009966197,OAES-15-Rh|nolF|consensus50|strict_single_dominant:0.0021635918)0/31:0.0000024660,OAES-15-Ro|nolF|consensus50|strict_single_dominant:0.0009908044)0/23:0.0000009982)0/29:0.0000025556,CLBJ-26-1-Rh|nolF|consensus50|strict_single_dominant:0.0000022014)0/31:0.0000024559,CPER-5-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/30:0.0000009982,DCFS-6-1-Rh|nolF|consensus50|strict_single_dominant:0.0031618852)82.1/47:0.0009453626)44.4/27:0.0009313665,((((BLAN-4-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,CPER-5-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/31:0.0000009982,DCFS-3-2-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/79:0.0000024305,DCFS-4-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/75:0.0000026717,(CPER-4-Ro|nolF|consensus50|strict_single_dominant:0.0019697585,OAES-36-2-No|nolF|consensus50|strict_single_dominant:0.0009598905)81.4/92:0.0009589204)0/74:0.0000027242)89.8/28:0.0009348417,(CPER-3-1-No|nolF|consensus50|strict_single_dominant:0.0000026165,CPER-3-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/59:0.0000025656)0/32:0.0000025545,SCBI-4-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/6:0.0000012757,SCBI-2-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/10:0.0000011596)0/7:0.0000023150,(DCFS-8-1-Rh|nolF|consensus50|strict_single_dominant:0.0011047797,DSNY-13-1-Rh|nolF|consensus50|strict_single_dominant:0.0010027599)0/26:0.0010322569)0/1:0.0000020363,DCFS-7-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/7:0.0001927956,(((DCFS-5-1-Rh|nolF|consensus50|strict_single_dominant:0.0009979588,DSNY-14-1-Rh|nolF|consensus50|strict_single_dominant:0.0000024592)83/57:0.0010485097,WOOD-5-1-Ro|nolF|consensus50|strict_single_dominant:0.0000020365)0/43:0.0000025272,DSNY-17-3-No|nolF|consensus50|strict_single_dominant:0.0010029014)81.2/66:0.0009757895)0/8:0.0007291822,((((((((((((((((((((BLAN-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983,((BLAN-3-1-No|nolF|consensus50|strict_single_dominant:0.0000009983,(NOGP-1-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027098,SCBI-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/29:0.0000009982)0/27:0.0000009982,TALL-74-3-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/17:0.0000009982)0/12:0.0000009982,DSNY-CRMA-33-1-Rh|nolF|consensus50|strict_single_dominant:0.0009704093)0/7:0.0000021126,LAJA-25-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/16:0.0000009982,CPER-2-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/8:0.0000012901,WOOD-10-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/14:0.0000009982,BLAN-4-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/20:0.0000009982,DSNY-91-1-Rh|nolF|consensus50|strict_single_dominant:0.0000009983)0/25:0.0000012655,TALL-24-2-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/26:0.0000009982,DCFS-4-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/8:0.0000009982,TALL-92-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/3:0.0000009982,TEAK-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/9:0.0000012644,OSBS-106-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/12:0.0000009982,WOOD-8-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/17:0.0000009982,SCBI-12-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/5:0.0000009982,CLBJ-40-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/12:0.0000009982,DCFS-4-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/11:0.0000012667,JERC-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/20:0.0000009982,OSBS-99-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/17:0.0000009982,HEAL-7-1-Ro|nolF|consensus50|strict_single_dominant:0.0000009983)0/21:0.0000025179,DSNY-13-1-No|nolF|consensus50|strict_single_dominant:0.0000009983)0/18:0.0000025139)83.5/80:0.0010095832,DCFS-7-1-Ro|nolF|consensus50|strict_single_dominant:0.0021538326);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2271.590794
+Robinson-Foulds distance between ML tree and consensus tree: 92
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--BLAN-1-1-No|nolF|consensus50|strict_single_dominant
+|
+|                             +--BLAN-1-1-Rh|nolF|consensus50|strict_single_dominant
+|                          +--| (45)
+|                          |  +--WOOD-1-1-No|nolF|consensus50|strict_single_dominant
+|                       +--| (37)
+|                       |  |     +--DSNY-13-1-Ro|nolF|consensus50|strict_single_dominant
+|                       |  |  +--| (34)
+|                       |  |  |  +--WOOD-12-Rh|nolF|consensus50|strict_single_dominant
+|                       |  +--| (35)
+|                       |     +--TALL-28-1-Ro|nolF|consensus50|strict_single_dominant
+|                    +--| (31)
+|                    |  |  +--BLAN-1-1-Ro|nolF|consensus50|strict_single_dominant
+|                    |  +--| (89)
+|                    |     +--OAES-15-No|nolF|consensus50|strict_single_dominant
+|                 +--| (33)
+|                 |  +--OAES-13-1-Ro|nolF|consensus50|strict_single_dominant
+|              +--| (43)
+|              |  |  +--DCFS-8-1-Ro|nolF|consensus50|strict_single_dominant
+|              |  +--| (83)
+|              |     +--JERC-46-1-Rh|nolF|consensus50|strict_single_dominant
+|           +--| (7)
+|           |  |                                                                    +--BLAN-2-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                                 +--| (17)
+|           |  |                                                                 |  +--DCFS-5-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              +--| (12)
+|           |  |                                                              |  |                 +**CPER-5-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |  |              +**|
+|           |  |                                                              |  |              |  +**NOGP-6-3-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |  |           +**|
+|           |  |                                                              |  |           |  +**TEAK-1-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |  |        +**|
+|           |  |                                                              |  |        |  +**OAES-36-3-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |  |     +--|
+|           |  |                                                              |  |     |  +**OAES_19-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |  |  +--| (18)
+|           |  |                                                              |  |  |  +--JERC-149-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |  +--| (15)
+|           |  |                                                              |     |                    +**DEJU-28-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |                 +**|
+|           |  |                                                              |     |                 |  +**OAES-6-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |              +**|
+|           |  |                                                              |     |              |  +**OAES-7-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |           +--|
+|           |  |                                                              |     |           |  +**OAES-6-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |        +--| (22)
+|           |  |                                                              |     |        |  +--DELA-32-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     +--| (18)
+|           |  |                                                              |     |     |  |                 +--DEJU-59-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     |  |              +--| (42)
+|           |  |                                                              |     |     |  |              |  |  +--NOGP-7-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     |  |              |  +--| (34)
+|           |  |                                                              |     |     |  |              |     +--WOOD-3-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     |  |           +--| (22)
+|           |  |                                                              |     |     |  |           |  |  +--TALL-22-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     |  |           |  +--| (26)
+|           |  |                                                              |     |     |  |           |     +--WOOD-1-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     |  |        +--| (21)
+|           |  |                                                              |     |     |  |        |  +--OAES_24-3-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     |  |     +--| (20)
+|           |  |                                                              |     |     |  |     |  +--OAES-6-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     |  |  +--| (19)
+|           |  |                                                              |     |     |  |  |  +--TOOL-25-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |     |  +--| (19)
+|           |  |                                                              |     |     |     +--JERC-204-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     |  +--| (19)
+|           |  |                                                              |     |  |  +--TALL-29-3-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                              |     +--| (5)
+|           |  |                                                              |        +--WOOD-4-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                           +--| (14)
+|           |  |                                                           |  |        +**NOGP-3-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |     +**|
+|           |  |                                                           |  |     |  +**OAES-7-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  |  +--|
+|           |  |                                                           |  |  |  +**OSBS-36-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                           |  +--| (29)
+|           |  |                                                           |     +--NOGP-6-3-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                        +--| (11)
+|           |  |                                                        |  |              +**DCFS-5-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                        |  |           +**|
+|           |  |                                                        |  |           |  +**WOOD-3-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                        |  |        +**|
+|           |  |                                                        |  |        |  +**OSBS-36-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                        |  |     +--|
+|           |  |                                                        |  |     |  +**WOOD-11-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                        |  |  +--| (55)
+|           |  |                                                        |  |  |  +--NOGP-3-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                        |  +--| (18)
+|           |  |                                                        |     |  +--NOGP-5-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                        |     +--| (67)
+|           |  |                                                        |        +--OAES_19-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                     +--| (8)
+|           |  |                                                     |  |     +--DEJU-29-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                     |  |  +--| (89)
+|           |  |                                                     |  |  |  +--JERC-150-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                     |  +--| (53)
+|           |  |                                                     |     +--WOOD-1-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                  +--| (22)
+|           |  |                                                  |  |                 +--DEJU-59-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  |              +--| (36)
+|           |  |                                                  |  |              |  +--NOGP-7-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  |           +--| (23)
+|           |  |                                                  |  |           |  |     +--JERC-94-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  |           |  |  +--| (22)
+|           |  |                                                  |  |           |  |  |  +--OSBS-102-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  |           |  +--| (34)
+|           |  |                                                  |  |           |     +--OAES-14-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  |        +--| (17)
+|           |  |                                                  |  |        |  +--OAES-36-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  |     +--| (24)
+|           |  |                                                  |  |     |  |  +--OAES_19-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  |     |  +--| (77)
+|           |  |                                                  |  |     |     +--OAES_24-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  |  +--| (23)
+|           |  |                                                  |  |  |  +--NOGP-4-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                                  |  +--| (34)
+|           |  |                                                  |     +--TOOL-17-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                               +--| (14)
+|           |  |                                               |  |        +--JERC-89-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                               |  |     +--| (40)
+|           |  |                                               |  |     |  +--TOOL-16-No|nolF|consensus50|strict_single_dominant
+|           |  |                                               |  |  +--| (67)
+|           |  |                                               |  |  |  |  +--SERC-6-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                               |  |  |  +--| (73)
+|           |  |                                               |  |  |     +--TOOL-4-No|nolF|consensus50|strict_single_dominant
+|           |  |                                               |  +--| (84)
+|           |  |                                               |     +--OAES_24-3-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                            +--| (20)
+|           |  |                                            |  |  +--BLAN-4-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                            |  +--| (19)
+|           |  |                                            |     |  +--OAES-7-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                            |     +--| (40)
+|           |  |                                            |        +--TOOL-10-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                         +--| (31)
+|           |  |                                         |  |  +--NOGP-4-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                         |  +--| (85)
+|           |  |                                         |     +--TALL-60-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      +--| (14)
+|           |  |                                      |  |  +--WOOD-12-No|nolF|consensus50|strict_single_dominant
+|           |  |                                      |  +--| (59)
+|           |  |                                      |     +--WOOD-7-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                   +--| (12)
+|           |  |                                   |  |  +--CPER-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                                   |  +--| (29)
+|           |  |                                   |     +--WOOD-6-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                +--| (4)
+|           |  |                                |  |     +--BLAN-2-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |  |  +--| (52)
+|           |  |                                |  |  |  +--NOGP-5-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |  +--| (9)
+|           |  |                                |     |     +--CPER-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |  +--| (37)
+|           |  |                                |     |  |  |     +--WOOD-10-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |  |  |  +--| (37)
+|           |  |                                |     |  |  |  |  |        +--WOOD-12-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |  |  |  |  |     +--| (27)
+|           |  |                                |     |  |  |  |  |     |  +--WOOD-4-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |  |  |  |  |  +--| (31)
+|           |  |                                |     |  |  |  |  |  |  +--WOOD-9-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |  |  |  |  +--| (38)
+|           |  |                                |     |  |  |  |     +--WOOD-8-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |     |  |  +--| (37)
+|           |  |                                |     |  |     +--WOOD-5-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                                |     +--| (11)
+|           |  |                                |        |        +--RMNP-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |        |     +--| (18)
+|           |  |                                |        |     |  +--WOOD-8-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |        |  +--| (21)
+|           |  |                                |        |  |  |  +--TOOL-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |        |  |  +--| (21)
+|           |  |                                |        |  |     |     +--WOOD-5-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |        |  |     |  +--| (39)
+|           |  |                                |        |  |     |  |  +--WOOD-6-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |        |  |     +--| (24)
+|           |  |                                |        |  |        |  +--WOOD-7-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |        |  |        +--| (19)
+|           |  |                                |        |  |           +--WOOD-7-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                                |        +--| (15)
+|           |  |                                |           |  +--WOOD-10-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                                |           +--| (19)
+|           |  |                                |              +--WOOD-11-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             +--| (37)
+|           |  |                             |  |                                +--CLBJ-1-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |                             +--| (53)
+|           |  |                             |  |                             |  +--CLBJ-18-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |                          +--| (45)
+|           |  |                             |  |                          |  +--KONZ-6-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |                       +--| (37)
+|           |  |                             |  |                       |  +--JERC-11-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |                    +--| (48)
+|           |  |                             |  |                    |  +--OAES-3-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |                 +--| (52)
+|           |  |                             |  |                 |  +--CLBJ-5-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |              +--| (59)
+|           |  |                             |  |              |  +--OAES-3-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |           +--| (62)
+|           |  |                             |  |           |  |        +**JERC-DEST-32-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |           |  |     +**|
+|           |  |                             |  |           |  |     |  +**OAES-8-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |           |  |  +--|
+|           |  |                             |  |           |  |  |  +**SRER-18-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |           |  +--| (28)
+|           |  |                             |  |           |     +--OAES-1-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |        +--| (66)
+|           |  |                             |  |        |  +--OAES-2-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |     +--| (98)
+|           |  |                             |  |     |  |  +--CPER-4-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |     |  +--| (63)
+|           |  |                             |  |     |     +--OAES-2-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |  +--| (13)
+|           |  |                             |  |  |  |        +--OAES-21-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |  |  |     +--| (44)
+|           |  |                             |  |  |  |     |  |  +--OAES-23-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |  |  |     |  +--| (47)
+|           |  |                             |  |  |  |     |     +--OAES-25-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |  |  |  +--| (60)
+|           |  |                             |  |  |  |  |  +--OAES-22-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |  |  |  +--| (63)
+|           |  |                             |  |  |     +--OAES-23-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |  +--| (3)
+|           |  |                             |     |                 +--CPER-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |              +--| (54)
+|           |  |                             |     |              |  +--NIWO-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |           +--| (22)
+|           |  |                             |     |           |  |  +--JERC-RHTO-58-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |           |  +--| (78)
+|           |  |                             |     |           |     +--OAES-20-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |        +--| (38)
+|           |  |                             |     |        |  +--NOGP-4-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |     +--| (20)
+|           |  |                             |     |     |  |  +--LENO-15-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |     |  +--| (22)
+|           |  |                             |     |     |     |  +--OAES-37-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |     |     +--| (93)
+|           |  |                             |     |     |        +--OSBS-97-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |  +--| (17)
+|           |  |                             |     |  |  |  +--DCFS-2-2-No|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |  |  +--| (45)
+|           |  |                             |     |  |     |  +--DCFS-2-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                             |     |  |     +--| (55)
+|           |  |                             |     |  |        +--DCFS-2-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |     +--| (10)
+|           |  |                             |        |  +--DELA-26-3-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                             |        +--| (96)
+|           |  |                             |           +--WOOD-11-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                          +--| (37)
+|           |  |                          |  |        +------------------------------------------------------NOGP-1-1-No|nolF|consensus50|strict_single_dominant
+|           |  |                          |  |     +--| (55)
+|           |  |                          |  |     |  |  +--RMNP-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                          |  |     |  +--| (96)
+|           |  |                          |  |     |     +--WOOD-6-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                          |  |  +--| (16)
+|           |  |                          |  |  |  +--YELL-5-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                          |  +--| (15)
+|           |  |                          |     +--TOOL-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                       +--| (16)
+|           |  |                       |  |        +--DCFS-3-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                       |  |     +--| (97)
+|           |  |                       |  |     |  +--NIWO-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                       |  |  +--| (29)
+|           |  |                       |  |  |  +--OAES-5-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                       |  +--| (15)
+|           |  |                       |     |  +--KONZ-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                       |     +--| (95)
+|           |  |                       |        +--WOOD-3-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                    +--| (18)
+|           |  |                    |  |  +--DSNY-15-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                    |  +--| (66)
+|           |  |                    |     |  +--NIWO-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                    |     +--| (89)
+|           |  |                    |        +--SCBI-1-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |                 +--| (31)
+|           |  |                 |  |     +--BLAN-3-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                 |  |  +--| (66)
+|           |  |                 |  |  |  +--SCBI-3-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |                 |  +--| (23)
+|           |  |                 |     +--NOGP-2-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |              +--| (31)
+|           |  |              |  +--OAES-27-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |           +--| (27)
+|           |  |           |  |              +--BLAN-3-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |           |  |           +--| (60)
+|           |  |           |  |           |  +--SCBI-3-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |           |  |        +--| (15)
+|           |  |           |  |        |  |     +--DCFS-6-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |           |  |        |  |  +--| (18)
+|           |  |           |  |        |  |  |  +--OAES-15-Rh|nolF|consensus50|strict_single_dominant
+|           |  |           |  |        |  +--| (16)
+|           |  |           |  |        |     +--OAES-15-Ro|nolF|consensus50|strict_single_dominant
+|           |  |           |  |     +--| (17)
+|           |  |           |  |     |  +--CLBJ-26-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |           |  |  +--| (36)
+|           |  |           |  |  |  +--CPER-5-1-No|nolF|consensus50|strict_single_dominant
+|           |  |           |  +--| (47)
+|           |  |           |     +--JORN-3-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |        +--| (28)
+|           |  |        |  |           +--BLAN-4-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |        |  |        +--| (35)
+|           |  |        |  |        |  +--DCFS-3-2-No|nolF|consensus50|strict_single_dominant
+|           |  |        |  |     +--| (79)
+|           |  |        |  |     |  |        +**CPER-5-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |        |  |     |  |     +**|
+|           |  |        |  |     |  |     |  +**NOGP-3-2-Rh|nolF|consensus50|strict_single_dominant
+|           |  |        |  |     |  |  +**|
+|           |  |        |  |     |  |  |  +**TALL-29-3-Rh|nolF|consensus50|strict_single_dominant
+|           |  |        |  |     |  +--|
+|           |  |        |  |     |     +**DCFS-3-2-Ro|nolF|consensus50|strict_single_dominant
+|           |  |        |  |  +--| (75)
+|           |  |        |  |  |  +--DCFS-4-Rh|nolF|consensus50|strict_single_dominant
+|           |  |        |  +--| (74)
+|           |  |        |     |  +--CPER-4-Ro|nolF|consensus50|strict_single_dominant
+|           |  |        |     +--| (92)
+|           |  |        |        +--OAES-36-2-No|nolF|consensus50|strict_single_dominant
+|           |  |     +--| (32)
+|           |  |     |  |                    +**CPER-3-1-No|nolF|consensus50|strict_single_dominant
+|           |  |     |  |                 +**|
+|           |  |     |  |                 |  +**NOGP-2-1-No|nolF|consensus50|strict_single_dominant
+|           |  |     |  |              +**|
+|           |  |     |  |              |  +**DCFS-6-1-No|nolF|consensus50|strict_single_dominant
+|           |  |     |  |           +**|
+|           |  |     |  |           |  +**DCFS-8-1-No|nolF|consensus50|strict_single_dominant
+|           |  |     |  |        +**|
+|           |  |     |  |        |  +**OAES-14-1-No|nolF|consensus50|strict_single_dominant
+|           |  |     |  |     +**|
+|           |  |     |  |     |  +**NOGP-2-1-Ro|nolF|consensus50|strict_single_dominant
+|           |  |     |  |  +--|
+|           |  |     |  |  |  +**CPER-4-No|nolF|consensus50|strict_single_dominant
+|           |  |     |  +--| (59)
+|           |  |     |     +--CPER-3-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  |  +--| (8)
+|           |  |  |  +--SCBI-2-1-Rh|nolF|consensus50|strict_single_dominant
+|           |  +--| (10)
+|           |     +--SCBI-4-1-Rh|nolF|consensus50|strict_single_dominant
+|        +--| (8)
+|        |  +--DCFS-7-1-Rh|nolF|consensus50|strict_single_dominant
+|     +--| (7)
+|     |  |  +--DCFS-8-1-Rh|nolF|consensus50|strict_single_dominant
+|     |  +--| (26)
+|     |     +--DSNY-13-1-Rh|nolF|consensus50|strict_single_dominant
+|  +--| (8)
+|  |  |        +--DCFS-5-1-Rh|nolF|consensus50|strict_single_dominant
+|  |  |     +--| (57)
+|  |  |     |  +--DSNY-14-1-Rh|nolF|consensus50|strict_single_dominant
+|  |  |  +--| (43)
+|  |  |  |  +--WOOD-5-1-Ro|nolF|consensus50|strict_single_dominant
+|  |  +--| (66)
+|  |     +--DSNY-17-3-No|nolF|consensus50|strict_single_dominant
++--| (80)
+|  |                                                                             +**BLAN-2-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                                                                          +**|
+|  |                                                                          |  +**OAES-13-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                                                       +**|
+|  |                                                                       |  +**DCFS-6-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                                                                    +**|
+|  |                                                                    |  +**OAES-9-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                                                 +**|
+|  |                                                                 |  +**CPER-3-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                                                              +**|
+|  |                                                              |  +**SERC-3-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                                                           +--|
+|  |                                                           |  +**OAES-14-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                                        +--| (12)
+|  |                                                        |  |        +**BLAN-3-1-No|nolF|consensus50|strict_single_dominant
+|  |                                                        |  |     +--|
+|  |                                                        |  |     |  +**SCBI-1-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                                        |  |  +--| (27)
+|  |                                                        |  |  |  |  +--NOGP-1-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                                        |  |  |  +--| (29)
+|  |                                                        |  |  |     +--SCBI-2-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                                                        |  +--| (17)
+|  |                                                        |     +--TALL-74-3-No|nolF|consensus50|strict_single_dominant
+|  |                                                     +--| (9)
+|  |                                                     |  +--LAJA-25-1-No|nolF|consensus50|strict_single_dominant
+|  |                                                  +--| (16)
+|  |                                                  |  +--DSNY-CRMA-33-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                               +--| (8)
+|  |                                               |  +--CPER-2-Ro|nolF|consensus50|strict_single_dominant
+|  |                                            +--| (14)
+|  |                                            |  +--WOOD-10-1-No|nolF|consensus50|strict_single_dominant
+|  |                                         +--| (20)
+|  |                                         |  +--BLAN-4-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                      +--| (25)
+|  |                                      |  |  +**DSNY-91-1-Rh|nolF|consensus50|strict_single_dominant
+|  |                                      |  +--|
+|  |                                      |     +**TALL-28-1-No|nolF|consensus50|strict_single_dominant
+|  |                                   +--| (26)
+|  |                                   |  +--TALL-24-2-No|nolF|consensus50|strict_single_dominant
+|  |                                +--| (13)
+|  |                                |  +--WOOD-8-No|nolF|consensus50|strict_single_dominant
+|  |                             +--| (11)
+|  |                             |  +--DCFS-4-No|nolF|consensus50|strict_single_dominant
+|  |                          +--| (7)
+|  |                          |  +--TALL-92-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                       +--| (13)
+|  |                       |  +--TEAK-3-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                    +--| (17)
+|  |                    |  +--OSBS-106-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                 +--| (7)
+|  |                 |  |  +**CLBJ-40-1-Ro|nolF|consensus50|strict_single_dominant
+|  |                 |  +--|
+|  |                 |     +**SCBI-2-1-No|nolF|consensus50|strict_single_dominant
+|  |              +--| (12)
+|  |              |  +--SCBI-12-1-No|nolF|consensus50|strict_single_dominant
+|  |           +--| (11)
+|  |           |  +--DCFS-4-Ro|nolF|consensus50|strict_single_dominant
+|  |        +--| (20)
+|  |        |  +--JERC-2-1-Ro|nolF|consensus50|strict_single_dominant
+|  |     +--| (17)
+|  |     |  +--OSBS-99-Ro|nolF|consensus50|strict_single_dominant
+|  |  +--| (21)
+|  |  |  +--HEAL-7-1-Ro|nolF|consensus50|strict_single_dominant
+|  +--| (18)
+|     +--DSNY-13-1-No|nolF|consensus50|strict_single_dominant
+|
++--DCFS-7-1-Ro|nolF|consensus50|strict_single_dominant
+
+
+Consensus tree in newick format: 
+
+(BLAN-1-1-No|nolF|consensus50|strict_single_dominant:0.0000027598,((((((((((BLAN-1-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-1-1-No|nolF|consensus50|strict_single_dominant:0.0030715948)45:0.0009719330,((DSNY-13-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-12-Rh|nolF|consensus50|strict_single_dominant:0.0010138877)34:0.0010139629,TALL-28-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)35:0.0009897485)37:0.0000027598,(BLAN-1-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,OAES-15-No|nolF|consensus50|strict_single_dominant:0.0000027598)89:0.0000027598)31:0.0009791964,OAES-13-1-Ro|nolF|consensus50|strict_single_dominant:0.0009928079)33:0.0000027598,(DCFS-8-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,JERC-46-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)83:0.0000027598)43:0.0009829862,(((((((((((((((((((((((BLAN-2-1-No|nolF|consensus50|strict_single_dominant:0.0021969265,DCFS-5-1-Ro|nolF|consensus50|strict_single_dominant:0.0009717878)17:0.0000027598,((((((CPER-5-1-Rh|nolF|consensus50|strict_single_dominant:0.0000000000,NOGP-6-3-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,TEAK-1-2-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OAES-36-3-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OAES_19-2-Rh|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598,JERC-149-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)18:0.0000027598,(((((((DEJU-28-2-No|nolF|consensus50|strict_single_dominant:0.0000000000,OAES-6-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OAES-7-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OAES-6-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598,DELA-32-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)22:0.0000027598,((((((DEJU-59-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,(NOGP-7-2-No|nolF|consensus50|strict_single_dominant:0.0010676561,WOOD-3-2-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)34:0.0000027598)42:0.0000027598,(TALL-22-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-1-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)26:0.0000027598)22:0.0000027598,OAES_24-3-No|nolF|consensus50|strict_single_dominant:0.0000027598)21:0.0000027598,OAES-6-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)20:0.0000027598,TOOL-25-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)19:0.0000027598,JERC-204-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)19:0.0000027598)18:0.0000027598,TALL-29-3-No|nolF|consensus50|strict_single_dominant:0.0000027598)19:0.0000027598,WOOD-4-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)5:0.0000027598)15:0.0000027598)12:0.0000027598,(((NOGP-3-2-Ro|nolF|consensus50|strict_single_dominant:0.0000000000,OAES-7-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OSBS-36-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598,NOGP-6-3-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)29:0.0000027598)14:0.0000027598,(((((DCFS-5-1-No|nolF|consensus50|strict_single_dominant:0.0000000000,WOOD-3-2-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OSBS-36-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,WOOD-11-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598,NOGP-3-2-No|nolF|consensus50|strict_single_dominant:0.0000027598)55:0.0000027598,(NOGP-5-2-No|nolF|consensus50|strict_single_dominant:0.0000027598,OAES_19-2-No|nolF|consensus50|strict_single_dominant:0.0000027598)67:0.0000027598)18:0.0000027598)11:0.0000027598,((DEJU-29-1-No|nolF|consensus50|strict_single_dominant:0.0000027598,JERC-150-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)89:0.0009830109,WOOD-1-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)53:0.0000021063)8:0.0000027598,((((((DEJU-59-No|nolF|consensus50|strict_single_dominant:0.0000027598,NOGP-7-2-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)36:0.0000027598,((JERC-94-1-No|nolF|consensus50|strict_single_dominant:0.0000027598,OSBS-102-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)22:0.0000027598,OAES-14-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)34:0.0000027598)23:0.0000027598,OAES-36-3-Rh|nolF|consensus50|strict_single_dominant:0.0010658101)17:0.0000027598,(OAES_19-2-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,OAES_24-3-Rh|nolF|consensus50|strict_single_dominant:0.0009869626)77:0.0009909482)24:0.0000027598,NOGP-4-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)23:0.0000027598,TOOL-17-Ro|nolF|consensus50|strict_single_dominant:0.0009818993)34:0.0009566031)22:0.0009880482,(((JERC-89-1-No|nolF|consensus50|strict_single_dominant:0.0000027598,TOOL-16-No|nolF|consensus50|strict_single_dominant:0.0000027598)40:0.0000027598,(SERC-6-1-No|nolF|consensus50|strict_single_dominant:0.0000027598,TOOL-4-No|nolF|consensus50|strict_single_dominant:0.0000027598)73:0.0000027598)67:0.0000027598,OAES_24-3-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)84:0.0000027598)14:0.0000022305,(BLAN-4-1-No|nolF|consensus50|strict_single_dominant:0.0022176565,(OAES-7-1-Rh|nolF|consensus50|strict_single_dominant:0.0000020605,TOOL-10-Ro|nolF|consensus50|strict_single_dominant:0.0010748732)40:0.0011966560)19:0.0009252387)20:0.0009596811,(NOGP-4-1-No|nolF|consensus50|strict_single_dominant:0.0000027598,TALL-60-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)85:0.0000027598)31:0.0009733371,(WOOD-12-No|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-7-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)59:0.0000027598)14:0.0000027598,(CPER-2-No|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-6-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)29:0.0000027598)12:0.0000027598,((BLAN-2-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,NOGP-5-2-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)52:0.0000027598,((CPER-1-Rh|nolF|consensus50|strict_single_dominant:0.0010229860,((WOOD-10-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,(((WOOD-12-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-4-1-No|nolF|consensus50|strict_single_dominant:0.0010601452)27:0.0000027598,WOOD-9-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)31:0.0000027598,WOOD-8-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)38:0.0000027598)37:0.0000027598,WOOD-5-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)37:0.0000027598)37:0.0010726514,(((RMNP-2-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-8-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)18:0.0000027598,(TOOL-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,((WOOD-5-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-6-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)39:0.0000027598,(WOOD-7-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-7-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)19:0.0000027598)24:0.0000027598)21:0.0000027598)21:0.0000027598,(WOOD-10-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-11-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)19:0.0000027598)15:0.0000027598)11:0.0000027598)9:0.0000027598)4:0.0000027598,(((((((((((CLBJ-1-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,CLBJ-18-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)53:0.0000027598,KONZ-6-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)45:0.0000027598,JERC-11-1-No|nolF|consensus50|strict_single_dominant:0.0010097564)37:0.0000027598,OAES-3-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)48:0.0000027598,CLBJ-5-2-No|nolF|consensus50|strict_single_dominant:0.0000027598)52:0.0000027598,OAES-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)59:0.0000027598,(((JERC-DEST-32-1-No|nolF|consensus50|strict_single_dominant:0.0000000000,OAES-8-2-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,SRER-18-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598,OAES-1-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)28:0.0000027598)62:0.0000027598,OAES-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)66:0.0000027598,(CPER-4-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,OAES-2-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)63:0.0000027598)98:0.0009811672,(((OAES-21-3-Rh|nolF|consensus50|strict_single_dominant:0.0011063337,(OAES-23-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,OAES-25-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)47:0.0000027598)44:0.0000027598,OAES-22-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)60:0.0009716495,OAES-23-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)63:0.0009759084)13:0.0000027598,((((((CPER-2-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,NIWO-1-Rh|nolF|consensus50|strict_single_dominant:0.0041962168)54:0.0009953619,(JERC-RHTO-58-1-Ro|nolF|consensus50|strict_single_dominant:0.0010426254,OAES-20-Ro|nolF|consensus50|strict_single_dominant:0.0012510047)78:0.0010426278)22:0.0000027598,NOGP-4-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)38:0.0009958260,(LENO-15-2-No|nolF|consensus50|strict_single_dominant:0.0009786514,(OAES-37-2-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,OSBS-97-2-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)93:0.0000027598)22:0.0000027598)20:0.0010251965,(DCFS-2-2-No|nolF|consensus50|strict_single_dominant:0.0000027598,(DCFS-2-2-Rh|nolF|consensus50|strict_single_dominant:0.0031829657,DCFS-2-2-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)55:0.0000023550)45:0.0000027598)17:0.0009680973,(DELA-26-3-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-11-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)96:0.0010222573)10:0.0000027598)3:0.0000027598)37:0.0009801149,(((NOGP-1-1-No|nolF|consensus50|strict_single_dominant:0.0842322905,(RMNP-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-6-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)96:0.0009961483)55:0.0000024314,YELL-5-3-Rh|nolF|consensus50|strict_single_dominant:0.0010936306)16:0.0000027598,TOOL-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)15:0.0000027598)37:0.0009839133,(((DCFS-3-2-Rh|nolF|consensus50|strict_single_dominant:0.0022361844,NIWO-2-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)97:0.0009970674,OAES-5-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)29:0.0000027598,(KONZ-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,WOOD-3-2-Ro|nolF|consensus50|strict_single_dominant:0.0009583382)95:0.0020778727)15:0.0000027598)16:0.0000027598,(DSNY-15-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,(NIWO-1-Ro|nolF|consensus50|strict_single_dominant:0.0010908121,SCBI-1-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)89:0.0010074014)66:0.0010717944)18:0.0019538958,((BLAN-3-1-Rh|nolF|consensus50|strict_single_dominant:0.0010175559,SCBI-3-1-Rh|nolF|consensus50|strict_single_dominant:0.0009809393)66:0.0000027598,NOGP-2-1-Rh|nolF|consensus50|strict_single_dominant:0.0009606796)23:0.0000027598)31:0.0010124946,OAES-27-2-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)31:0.0000028550,(((((BLAN-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,SCBI-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)60:0.0000027598,((DCFS-6-1-Rh|nolF|consensus50|strict_single_dominant:0.0031870254,OAES-15-Rh|nolF|consensus50|strict_single_dominant:0.0021797642)18:0.0000027598,OAES-15-Ro|nolF|consensus50|strict_single_dominant:0.0009981893)16:0.0000027598)15:0.0000027598,CLBJ-26-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)17:0.0000027598,CPER-5-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)36:0.0000027598,JORN-3-1-Rh|nolF|consensus50|strict_single_dominant:0.0010044040)47:0.0009525451)27:0.0009381582,((((BLAN-4-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598,DCFS-3-2-No|nolF|consensus50|strict_single_dominant:0.0000027598)35:0.0000027598,(((CPER-5-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000,NOGP-3-2-Rh|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,TALL-29-3-Rh|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,DCFS-3-2-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598)79:0.0000027598,DCFS-4-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)75:0.0000027598,(CPER-4-Ro|nolF|consensus50|strict_single_dominant:0.0019839381,OAES-36-2-No|nolF|consensus50|strict_single_dominant:0.0009666584)92:0.0009658445)74:0.0000027598)28:0.0009416707,(((((((CPER-3-1-No|nolF|consensus50|strict_single_dominant:0.0000000000,NOGP-2-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,DCFS-6-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,DCFS-8-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OAES-14-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,NOGP-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,CPER-4-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598,CPER-3-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)59:0.0000027598)32:0.0000027598,SCBI-2-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)8:0.0000027598,SCBI-4-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)10:0.0000027598)7:0.0000027598,DCFS-7-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)8:0.0000027598,(DCFS-8-1-Rh|nolF|consensus50|strict_single_dominant:0.0014075048,DSNY-13-1-Rh|nolF|consensus50|strict_single_dominant:0.0010166102)26:0.0007259786)7:0.0000027598,(((DCFS-5-1-Rh|nolF|consensus50|strict_single_dominant:0.0010061805,DSNY-14-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)57:0.0010565735,WOOD-5-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)43:0.0000027598,DSNY-17-3-No|nolF|consensus50|strict_single_dominant:0.0010102897)66:0.0009885779)8:0.0000027598,((((((((((((((((((((((((((BLAN-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000,OAES-13-1-Rh|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,DCFS-6-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OAES-9-1-Rh|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,CPER-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,SERC-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000000000,OAES-14-1-Rh|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598,(((BLAN-3-1-No|nolF|consensus50|strict_single_dominant:0.0000000000,SCBI-1-1-Rh|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598,(NOGP-1-1-Rh|nolF|consensus50|strict_single_dominant:0.0008833799,SCBI-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)29:0.0000025753)27:0.0000027598,TALL-74-3-No|nolF|consensus50|strict_single_dominant:0.0000027598)17:0.0000027598)12:0.0000027598,LAJA-25-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)9:0.0000027598,DSNY-CRMA-33-1-Rh|nolF|consensus50|strict_single_dominant:0.0009780938)16:0.0000027598,CPER-2-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)8:0.0000027598,WOOD-10-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)14:0.0000027598,BLAN-4-1-Rh|nolF|consensus50|strict_single_dominant:0.0000027598)20:0.0000027598,(DSNY-91-1-Rh|nolF|consensus50|strict_single_dominant:0.0000000000,TALL-28-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598)25:0.0000027598,TALL-24-2-No|nolF|consensus50|strict_single_dominant:0.0000027598)26:0.0000027598,WOOD-8-No|nolF|consensus50|strict_single_dominant:0.0000027598)13:0.0000027598,DCFS-4-No|nolF|consensus50|strict_single_dominant:0.0000027598)11:0.0000027598,TALL-92-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)7:0.0000027598,TEAK-3-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)13:0.0000027598,OSBS-106-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)17:0.0000027598,(CLBJ-40-1-Ro|nolF|consensus50|strict_single_dominant:0.0000000000,SCBI-2-1-No|nolF|consensus50|strict_single_dominant:0.0000000000):0.0000027598)7:0.0000027598,SCBI-12-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)12:0.0000027598,DCFS-4-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)11:0.0000027598,JERC-2-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)20:0.0000027598,OSBS-99-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)17:0.0000027598,HEAL-7-1-Ro|nolF|consensus50|strict_single_dominant:0.0000027598)21:0.0000027598,DSNY-13-1-No|nolF|consensus50|strict_single_dominant:0.0000027598)18:0.0000027598)80:0.0010179594,DCFS-7-1-Ro|nolF|consensus50|strict_single_dominant:0.0021701890);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nolF/03_tree_strict_nm5000/nolF_consensus50_strict_single_dominant_nm5000.treefile -m "HKY{4.58109}+F{0.204825,0.277874,0.311443,0.205858}+R3{0.921859,5.71424e-15,0.0680146,4.43343,0.0101266,68.9731}" --length 1110
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nolF/02_alignment/nolF_consensus50_strict_single_dominant.mafft.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nolF/02_alignment/nolF_consensus50_strict_single_dominant.mafft.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jul 31 00:29:48 2026
+Total CPU time used: 855.531741 seconds (0h:14m:15s)
+Total wall-clock time used: 464.286743 seconds (0h:7m:44s)
+

@@ -1,0 +1,31 @@
+# nolF consensus50 tree pipeline
+
+This folder contains the complete per-gene code for `nolF`.
+
+Run order on the cluster:
+
+```bash
+OUT="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent"
+
+bash "$OUT/Rscripts_v2/gene_tree_pipelines/nolF/02_run_nolF_consensus_consensus50.sh"
+bash "$OUT/Rscripts_v2/gene_tree_pipelines/nolF/03_align_nolF_consensus50_with_mafft.sh"
+bash "$OUT/Rscripts_v2/gene_tree_pipelines/nolF/04_build_nolF_strict_tree_nm5000_consensus50.sh"
+bash "$OUT/Rscripts_v2/gene_tree_pipelines/nolF/05_build_nolF_iupac_tree_nm5000_consensus50.sh"
+bash "$OUT/Rscripts_v2/gene_tree_pipelines/nolF/06_blast_nolF_consensus_to_taxon_reference.sh"
+bash "$OUT/Rscripts_v2/gene_tree_pipelines/nolF/07_check_nolF_tree_outputs.sh"
+```
+
+Default thresholds:
+
+- sample-gene coverage selection: percent covered >= 80 and mean depth >= 10
+- consensus sequence inclusion: N percent <= 20
+- pileup filters: base quality >= 20 and mapping quality >= 10
+- mixed-site rule: depth >= 20, minor allele count >= 5, minor allele fraction >= 0.20
+- sequence flagged mixed when mixed positions > 10
+- tree model/search: IQ-TREE `-st DNA -m MFP -B 1000 -alrt 1000 -nm 5000 -T AUTO`
+
+Outputs are written under:
+
+```text
+$OUT/gene_trees/nolF/
+```

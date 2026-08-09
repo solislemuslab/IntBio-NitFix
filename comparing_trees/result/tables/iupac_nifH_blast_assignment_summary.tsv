@@ -1,0 +1,12 @@
+metric	value
+assigned_sequences	1538
+unique_assigned_taxa	32
+mean_percent_identity	87.0618
+min_percent_identity	78.1210
+max_percent_identity	99.3320
+mean_query_coverage_percent	82.4001
+min_query_coverage_percent	71.6148
+max_query_coverage_percent	88.2648
+mean_reference_coverage_percent	92.4177
+min_reference_coverage_percent	79.8658
+max_reference_coverage_percent	100.0000

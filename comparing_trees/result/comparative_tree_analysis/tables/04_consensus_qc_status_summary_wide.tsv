@@ -1,0 +1,11 @@
+gene	fail_high_N	pass_mixed_possible_multitemplate	pass_single_dominant	missing_qc_file
+nifH	34	1151	387	0
+nifD	33	1116	348	0
+nifK	36	597	455	0
+nifJ	3	144	181	0
+nodL	9	14	216	0
+nolG	0	0	0	NA
+nolF	0	1	208	0
+noeA	2	2	193	0
+noeB	0	17	132	0
+nodX	4	4	129	0

@@ -1,0 +1,174 @@
+tree_set	tree_set_label	gene	gene_group	sample_type	closest_genus	n	gene_sample_type_total	percent
+iupac	Mixed-IUPAC	nifD	nif	No	Mesorhizobium	187	531	35.2165725047081
+iupac	Mixed-IUPAC	nifD	nif	No	Microvirga	173	531	32.580037664783426
+iupac	Mixed-IUPAC	nifD	nif	No	Sinorhizobium	88	531	16.572504708097927
+iupac	Mixed-IUPAC	nifD	nif	No	Rhizobium	48	531	9.03954802259887
+iupac	Mixed-IUPAC	nifD	nif	No	Bradyrhizobium	11	531	2.071563088512241
+iupac	Mixed-IUPAC	nifD	nif	No	Ensifer	10	531	1.8832391713747645
+iupac	Mixed-IUPAC	nifD	nif	No	Azorhizobium	9	531	1.694915254237288
+iupac	Mixed-IUPAC	nifD	nif	No	Burkholderia	3	531	0.5649717514124294
+iupac	Mixed-IUPAC	nifD	nif	No	Methylobacterium	2	531	0.3766478342749529
+iupac	Mixed-IUPAC	nifD	nif	Rh	Microvirga	197	477	41.299790356394126
+iupac	Mixed-IUPAC	nifD	nif	Rh	Mesorhizobium	151	477	31.656184486373167
+iupac	Mixed-IUPAC	nifD	nif	Rh	Sinorhizobium	69	477	14.465408805031446
+iupac	Mixed-IUPAC	nifD	nif	Rh	Azorhizobium	17	477	3.5639412997903563
+iupac	Mixed-IUPAC	nifD	nif	Rh	Rhizobium	15	477	3.1446540880503147
+iupac	Mixed-IUPAC	nifD	nif	Rh	Ensifer	13	477	2.7253668763102725
+iupac	Mixed-IUPAC	nifD	nif	Rh	Bradyrhizobium	9	477	1.8867924528301887
+iupac	Mixed-IUPAC	nifD	nif	Rh	Methylobacterium	6	477	1.2578616352201257
+iupac	Mixed-IUPAC	nifD	nif	Ro	Microvirga	194	454	42.731277533039645
+iupac	Mixed-IUPAC	nifD	nif	Ro	Mesorhizobium	117	454	25.770925110132158
+iupac	Mixed-IUPAC	nifD	nif	Ro	Sinorhizobium	90	454	19.823788546255507
+iupac	Mixed-IUPAC	nifD	nif	Ro	Rhizobium	19	454	4.185022026431718
+iupac	Mixed-IUPAC	nifD	nif	Ro	Azorhizobium	11	454	2.4229074889867843
+iupac	Mixed-IUPAC	nifD	nif	Ro	Methylobacterium	9	454	1.9823788546255507
+iupac	Mixed-IUPAC	nifD	nif	Ro	Ensifer	8	454	1.7621145374449338
+iupac	Mixed-IUPAC	nifD	nif	Ro	Bradyrhizobium	3	454	0.6607929515418502
+iupac	Mixed-IUPAC	nifD	nif	Ro	Burkholderia	3	454	0.6607929515418502
+iupac	Mixed-IUPAC	nifH	nif	No	Mesorhizobium	236	553	42.67631103074141
+iupac	Mixed-IUPAC	nifH	nif	No	Bradyrhizobium	149	553	26.94394213381555
+iupac	Mixed-IUPAC	nifH	nif	No	Rhizobium	59	553	10.669077757685352
+iupac	Mixed-IUPAC	nifH	nif	No	Microvirga	42	553	7.594936708860759
+iupac	Mixed-IUPAC	nifH	nif	No	Sinorhizobium	38	553	6.871609403254973
+iupac	Mixed-IUPAC	nifH	nif	No	Neorhizobium	11	553	1.9891500904159132
+iupac	Mixed-IUPAC	nifH	nif	No	Burkholderia	8	553	1.4466546112115732
+iupac	Mixed-IUPAC	nifH	nif	No	Ensifer	7	553	1.2658227848101267
+iupac	Mixed-IUPAC	nifH	nif	No	Azorhizobium	3	553	0.5424954792043399
+iupac	Mixed-IUPAC	nifH	nif	Rh	Mesorhizobium	173	495	34.94949494949495
+iupac	Mixed-IUPAC	nifH	nif	Rh	Bradyrhizobium	158	495	31.91919191919192
+iupac	Mixed-IUPAC	nifH	nif	Rh	Microvirga	98	495	19.7979797979798
+iupac	Mixed-IUPAC	nifH	nif	Rh	Rhizobium	23	495	4.646464646464646
+iupac	Mixed-IUPAC	nifH	nif	Rh	Sinorhizobium	23	495	4.646464646464646
+iupac	Mixed-IUPAC	nifH	nif	Rh	Burkholderia	13	495	2.6262626262626263
+iupac	Mixed-IUPAC	nifH	nif	Rh	Ensifer	4	495	0.8080808080808081
+iupac	Mixed-IUPAC	nifH	nif	Rh	Neorhizobium	2	495	0.40404040404040403
+iupac	Mixed-IUPAC	nifH	nif	Rh	Azorhizobium	1	495	0.20202020202020202
+iupac	Mixed-IUPAC	nifH	nif	Ro	Mesorhizobium	188	490	38.36734693877551
+iupac	Mixed-IUPAC	nifH	nif	Ro	Bradyrhizobium	109	490	22.244897959183675
+iupac	Mixed-IUPAC	nifH	nif	Ro	Microvirga	80	490	16.3265306122449
+iupac	Mixed-IUPAC	nifH	nif	Ro	Rhizobium	46	490	9.387755102040817
+iupac	Mixed-IUPAC	nifH	nif	Ro	Sinorhizobium	43	490	8.775510204081632
+iupac	Mixed-IUPAC	nifH	nif	Ro	Burkholderia	10	490	2.0408163265306123
+iupac	Mixed-IUPAC	nifH	nif	Ro	Neorhizobium	8	490	1.6326530612244898
+iupac	Mixed-IUPAC	nifH	nif	Ro	Ensifer	6	490	1.2244897959183674
+iupac	Mixed-IUPAC	nifJ	nif	MC	Candidatus	2	2	100
+iupac	Mixed-IUPAC	nifJ	nif	No	Candidatus	157	157	100
+iupac	Mixed-IUPAC	nifJ	nif	Rh	Candidatus	94	94	100
+iupac	Mixed-IUPAC	nifJ	nif	Ro	Candidatus	72	72	100
+iupac	Mixed-IUPAC	nifK	nif	No	Mesorhizobium	139	405	34.32098765432099
+iupac	Mixed-IUPAC	nifK	nif	No	Sinorhizobium	121	405	29.876543209876544
+iupac	Mixed-IUPAC	nifK	nif	No	Rhizobium	76	405	18.765432098765434
+iupac	Mixed-IUPAC	nifK	nif	No	Microvirga	69	405	17.037037037037038
+iupac	Mixed-IUPAC	nifK	nif	Rh	Sinorhizobium	127	330	38.484848484848484
+iupac	Mixed-IUPAC	nifK	nif	Rh	Mesorhizobium	126	330	38.18181818181818
+iupac	Mixed-IUPAC	nifK	nif	Rh	Microvirga	54	330	16.363636363636363
+iupac	Mixed-IUPAC	nifK	nif	Rh	Rhizobium	23	330	6.96969696969697
+iupac	Mixed-IUPAC	nifK	nif	Ro	Mesorhizobium	117	317	36.90851735015773
+iupac	Mixed-IUPAC	nifK	nif	Ro	Sinorhizobium	106	317	33.4384858044164
+iupac	Mixed-IUPAC	nifK	nif	Ro	Microvirga	53	317	16.7192429022082
+iupac	Mixed-IUPAC	nifK	nif	Ro	Rhizobium	41	317	12.933753943217665
+iupac	Mixed-IUPAC	nodL	canonical nod	No	Sinorhizobium	78	92	84.78260869565217
+iupac	Mixed-IUPAC	nodL	canonical nod	No	Rhizobium	14	92	15.217391304347826
+iupac	Mixed-IUPAC	nodL	canonical nod	Rh	Sinorhizobium	73	75	97.33333333333333
+iupac	Mixed-IUPAC	nodL	canonical nod	Rh	Rhizobium	2	75	2.6666666666666665
+iupac	Mixed-IUPAC	nodL	canonical nod	Ro	Sinorhizobium	60	63	95.23809523809524
+iupac	Mixed-IUPAC	nodL	canonical nod	Ro	Rhizobium	3	63	4.761904761904762
+iupac	Mixed-IUPAC	nodX	canonical nod	No	Rhizobium	51	51	100
+iupac	Mixed-IUPAC	nodX	canonical nod	Rh	Rhizobium	43	43	100
+iupac	Mixed-IUPAC	nodX	canonical nod	Ro	Rhizobium	39	39	100
+iupac	Mixed-IUPAC	noeA	accessory nodulation/symbiosis-related	No	Sinorhizobium	66	67	98.50746268656717
+iupac	Mixed-IUPAC	noeA	accessory nodulation/symbiosis-related	No	Ensifer	1	67	1.492537313432836
+iupac	Mixed-IUPAC	noeA	accessory nodulation/symbiosis-related	Rh	Sinorhizobium	61	61	100
+iupac	Mixed-IUPAC	noeA	accessory nodulation/symbiosis-related	Ro	Sinorhizobium	67	67	100
+iupac	Mixed-IUPAC	noeB	accessory nodulation/symbiosis-related	No	Sinorhizobium	54	54	100
+iupac	Mixed-IUPAC	noeB	accessory nodulation/symbiosis-related	Rh	Sinorhizobium	39	39	100
+iupac	Mixed-IUPAC	noeB	accessory nodulation/symbiosis-related	Ro	Sinorhizobium	56	56	100
+iupac	Mixed-IUPAC	nolF	accessory nodulation/symbiosis-related	No	Sinorhizobium	70	70	100
+iupac	Mixed-IUPAC	nolF	accessory nodulation/symbiosis-related	Rh	Sinorhizobium	64	64	100
+iupac	Mixed-IUPAC	nolF	accessory nodulation/symbiosis-related	Ro	Sinorhizobium	75	75	100
+iupac	Mixed-IUPAC	nolG	accessory nodulation/symbiosis-related	No	Sinorhizobium	74	74	100
+iupac	Mixed-IUPAC	nolG	accessory nodulation/symbiosis-related	Rh	Sinorhizobium	81	81	100
+iupac	Mixed-IUPAC	nolG	accessory nodulation/symbiosis-related	Ro	Sinorhizobium	74	74	100
+strict	Strict single-dominant	nifD	nif	No	Mesorhizobium	52	150	34.666666666666664
+strict	Strict single-dominant	nifD	nif	No	Sinorhizobium	44	150	29.333333333333332
+strict	Strict single-dominant	nifD	nif	No	Microvirga	34	150	22.666666666666668
+strict	Strict single-dominant	nifD	nif	No	Rhizobium	13	150	8.666666666666666
+strict	Strict single-dominant	nifD	nif	No	Azorhizobium	3	150	2
+strict	Strict single-dominant	nifD	nif	No	Bradyrhizobium	3	150	2
+strict	Strict single-dominant	nifD	nif	No	Methylobacterium	1	150	0.6666666666666666
+strict	Strict single-dominant	nifD	nif	Rh	Microvirga	42	116	36.206896551724135
+strict	Strict single-dominant	nifD	nif	Rh	Mesorhizobium	33	116	28.448275862068964
+strict	Strict single-dominant	nifD	nif	Rh	Sinorhizobium	23	116	19.82758620689655
+strict	Strict single-dominant	nifD	nif	Rh	Azorhizobium	7	116	6.0344827586206895
+strict	Strict single-dominant	nifD	nif	Rh	Ensifer	4	116	3.4482758620689653
+strict	Strict single-dominant	nifD	nif	Rh	Bradyrhizobium	3	116	2.586206896551724
+strict	Strict single-dominant	nifD	nif	Rh	Methylobacterium	2	116	1.7241379310344827
+strict	Strict single-dominant	nifD	nif	Rh	Rhizobium	2	116	1.7241379310344827
+strict	Strict single-dominant	nifD	nif	Ro	Microvirga	31	82	37.80487804878049
+strict	Strict single-dominant	nifD	nif	Ro	Sinorhizobium	21	82	25.609756097560975
+strict	Strict single-dominant	nifD	nif	Ro	Mesorhizobium	19	82	23.170731707317074
+strict	Strict single-dominant	nifD	nif	Ro	Azorhizobium	6	82	7.317073170731708
+strict	Strict single-dominant	nifD	nif	Ro	Rhizobium	4	82	4.878048780487805
+strict	Strict single-dominant	nifD	nif	Ro	Methylobacterium	1	82	1.2195121951219512
+strict	Strict single-dominant	nifH	nif	No	Mesorhizobium	112	215	52.093023255813954
+strict	Strict single-dominant	nifH	nif	No	Rhizobium	25	215	11.627906976744185
+strict	Strict single-dominant	nifH	nif	No	Sinorhizobium	25	215	11.627906976744185
+strict	Strict single-dominant	nifH	nif	No	Bradyrhizobium	20	215	9.30232558139535
+strict	Strict single-dominant	nifH	nif	No	Microvirga	16	215	7.441860465116279
+strict	Strict single-dominant	nifH	nif	No	Neorhizobium	12	215	5.5813953488372094
+strict	Strict single-dominant	nifH	nif	No	Burkholderia	3	215	1.3953488372093024
+strict	Strict single-dominant	nifH	nif	No	Ensifer	2	215	0.9302325581395349
+strict	Strict single-dominant	nifH	nif	Rh	Mesorhizobium	38	97	39.175257731958766
+strict	Strict single-dominant	nifH	nif	Rh	Microvirga	27	97	27.835051546391753
+strict	Strict single-dominant	nifH	nif	Rh	Bradyrhizobium	17	97	17.52577319587629
+strict	Strict single-dominant	nifH	nif	Rh	Rhizobium	6	97	6.185567010309279
+strict	Strict single-dominant	nifH	nif	Rh	Sinorhizobium	5	97	5.154639175257732
+strict	Strict single-dominant	nifH	nif	Rh	Neorhizobium	2	97	2.0618556701030926
+strict	Strict single-dominant	nifH	nif	Rh	Burkholderia	1	97	1.0309278350515463
+strict	Strict single-dominant	nifH	nif	Rh	Ensifer	1	97	1.0309278350515463
+strict	Strict single-dominant	nifH	nif	Ro	Mesorhizobium	40	75	53.333333333333336
+strict	Strict single-dominant	nifH	nif	Ro	Sinorhizobium	12	75	16
+strict	Strict single-dominant	nifH	nif	Ro	Microvirga	8	75	10.666666666666666
+strict	Strict single-dominant	nifH	nif	Ro	Bradyrhizobium	6	75	8
+strict	Strict single-dominant	nifH	nif	Ro	Neorhizobium	3	75	4
+strict	Strict single-dominant	nifH	nif	Ro	Rhizobium	3	75	4
+strict	Strict single-dominant	nifH	nif	Ro	Ensifer	2	75	2.6666666666666665
+strict	Strict single-dominant	nifH	nif	Ro	Burkholderia	1	75	1.3333333333333333
+strict	Strict single-dominant	nifJ	nif	MC	Candidatus	2	2	100
+strict	Strict single-dominant	nifJ	nif	No	Candidatus	115	115	100
+strict	Strict single-dominant	nifJ	nif	Rh	Candidatus	27	27	100
+strict	Strict single-dominant	nifJ	nif	Ro	Candidatus	37	37	100
+strict	Strict single-dominant	nifK	nif	No	Sinorhizobium	68	190	35.78947368421053
+strict	Strict single-dominant	nifK	nif	No	Mesorhizobium	64	190	33.68421052631579
+strict	Strict single-dominant	nifK	nif	No	Microvirga	31	190	16.31578947368421
+strict	Strict single-dominant	nifK	nif	No	Rhizobium	27	190	14.210526315789474
+strict	Strict single-dominant	nifK	nif	Rh	Sinorhizobium	66	152	43.421052631578945
+strict	Strict single-dominant	nifK	nif	Rh	Mesorhizobium	59	152	38.81578947368421
+strict	Strict single-dominant	nifK	nif	Rh	Microvirga	18	152	11.842105263157896
+strict	Strict single-dominant	nifK	nif	Rh	Rhizobium	9	152	5.921052631578948
+strict	Strict single-dominant	nifK	nif	Ro	Sinorhizobium	46	113	40.70796460176991
+strict	Strict single-dominant	nifK	nif	Ro	Mesorhizobium	42	113	37.16814159292036
+strict	Strict single-dominant	nifK	nif	Ro	Microvirga	13	113	11.504424778761061
+strict	Strict single-dominant	nifK	nif	Ro	Rhizobium	12	113	10.619469026548673
+strict	Strict single-dominant	nodL	canonical nod	No	Sinorhizobium	71	86	82.55813953488372
+strict	Strict single-dominant	nodL	canonical nod	No	Rhizobium	15	86	17.441860465116278
+strict	Strict single-dominant	nodL	canonical nod	Rh	Sinorhizobium	69	71	97.1830985915493
+strict	Strict single-dominant	nodL	canonical nod	Rh	Rhizobium	2	71	2.816901408450704
+strict	Strict single-dominant	nodL	canonical nod	Ro	Sinorhizobium	56	59	94.91525423728814
+strict	Strict single-dominant	nodL	canonical nod	Ro	Rhizobium	3	59	5.084745762711864
+strict	Strict single-dominant	nodX	canonical nod	No	Rhizobium	48	48	100
+strict	Strict single-dominant	nodX	canonical nod	Rh	Rhizobium	43	43	100
+strict	Strict single-dominant	nodX	canonical nod	Ro	Rhizobium	38	38	100
+strict	Strict single-dominant	noeA	accessory nodulation/symbiosis-related	No	Sinorhizobium	66	67	98.50746268656717
+strict	Strict single-dominant	noeA	accessory nodulation/symbiosis-related	No	Ensifer	1	67	1.492537313432836
+strict	Strict single-dominant	noeA	accessory nodulation/symbiosis-related	Rh	Sinorhizobium	61	61	100
+strict	Strict single-dominant	noeA	accessory nodulation/symbiosis-related	Ro	Sinorhizobium	65	65	100
+strict	Strict single-dominant	noeB	accessory nodulation/symbiosis-related	No	Sinorhizobium	44	44	100
+strict	Strict single-dominant	noeB	accessory nodulation/symbiosis-related	Rh	Sinorhizobium	37	37	100
+strict	Strict single-dominant	noeB	accessory nodulation/symbiosis-related	Ro	Sinorhizobium	51	51	100
+strict	Strict single-dominant	nolF	accessory nodulation/symbiosis-related	No	Sinorhizobium	70	70	100
+strict	Strict single-dominant	nolF	accessory nodulation/symbiosis-related	Rh	Sinorhizobium	64	64	100
+strict	Strict single-dominant	nolF	accessory nodulation/symbiosis-related	Ro	Sinorhizobium	74	74	100
+strict	Strict single-dominant	nolG	accessory nodulation/symbiosis-related	No	Sinorhizobium	63	63	100
+strict	Strict single-dominant	nolG	accessory nodulation/symbiosis-related	Rh	Sinorhizobium	76	76	100
+strict	Strict single-dominant	nolG	accessory nodulation/symbiosis-related	Ro	Sinorhizobium	62	62	100

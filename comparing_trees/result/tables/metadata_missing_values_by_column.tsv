@@ -1,0 +1,22 @@
+column	missing_count	total_rows	missing_percent
+Long	1047	2898	36.13
+Lat	1041	2898	35.92
+County	293	2898	10.11
+Date (field collection)	210	2898	7.25
+Sample preservation	139	2898	4.8
+State	42	2898	1.45
+Plot simple	21	2898	0.72
+Qubit average	14	2898	0.48
+Domain	2	2898	0.07
+Family	2	2898	0.07
+Site	2	2898	0.07
+Genus	2	2898	0.07
+Tribe	2	2898	0.07
+Date finalized	1	2898	0.03
+Total DNA	1	2898	0.03
+Sample ID	0	2898	0
+Species	0	2898	0
+NebNext protocol	0	2898	0
+Isotope reference name	0	2898	0
+Type	0	2898	0
+native	0	2898	0

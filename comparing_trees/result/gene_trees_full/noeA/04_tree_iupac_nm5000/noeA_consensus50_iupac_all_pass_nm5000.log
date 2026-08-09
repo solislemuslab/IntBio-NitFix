@@ -1,0 +1,529 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: iqtree -s /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/02_alignment/noeA_consensus50_iupac_all_pass.mafft.fasta -st DNA -m MFP -B 1000 -alrt 1000 -nm 5000 -T AUTO --prefix /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000
+Seed:    182500 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug  5 08:37:54 2026
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading alignment file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/02_alignment/noeA_consensus50_iupac_all_pass.mafft.fasta ... Fasta format detected
+Reading fasta file: done in 0.109484 secs using 2.028% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0054894 secs using 5305% CPU
+Alignment has 195 sequences with 1431 columns, 351 distinct patterns
+35 parsimony-informative, 22 singleton sites, 1374 constant sites
+                                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000114938 secs using 672.5% CPU
+   1  BLAN-1-1-No|noeA|consensus50|pass_single_dominant                 1.12%    passed     99.98%
+   2  BLAN-1-1-Rh|noeA|consensus50|pass_single_dominant                 0.07%    passed     99.99%
+   3  BLAN-1-1-Ro|noeA|consensus50|pass_single_dominant                 0.21%    passed     99.99%
+   4  BLAN-2-1-No|noeA|consensus50|pass_single_dominant                 0.56%    passed     99.98%
+   5  BLAN-2-1-Rh|noeA|consensus50|pass_single_dominant                 2.38%    passed     99.82%
+   6  BLAN-2-1-Ro|noeA|consensus50|pass_single_dominant                 0.91%    passed     99.97%
+   7  BLAN-3-1-No|noeA|consensus50|pass_single_dominant                 1.19%    passed     99.97%
+   8  BLAN-3-1-Ro|noeA|consensus50|pass_single_dominant                 0.91%    passed     99.97%
+   9  BLAN-4-1-No|noeA|consensus50|pass_single_dominant                 3.28%    passed     98.97%
+  10  BLAN-4-1-Ro|noeA|consensus50|pass_single_dominant                 0.21%    passed    100.00%
+  11  CLBJ-1-1-Rh|noeA|consensus50|pass_single_dominant                13.91%    passed     98.59%
+  12  CLBJ-12-2-No|noeA|consensus50|pass_single_dominant                0.21%    passed     99.99%
+  13  CLBJ-26-1-Rh|noeA|consensus50|pass_single_dominant                0.28%    passed     99.91%
+  14  CLBJ-40-1-Ro|noeA|consensus50|pass_single_dominant                0.91%    passed     99.93%
+  15  CLBJ-47-1-Rh|noeA|consensus50|pass_single_dominant                8.39%    passed     96.83%
+  16  CLBJ-5-2-No|noeA|consensus50|pass_single_dominant                 1.68%    passed     99.36%
+  17  CPER-2-No|noeA|consensus50|pass_single_dominant                   0.35%    passed     99.94%
+  18  CPER-2-Rh|noeA|consensus50|pass_single_dominant                   0.07%    passed     99.95%
+  19  CPER-2-Ro|noeA|consensus50|pass_single_dominant                   0.21%    passed     99.98%
+  20  CPER-3-1-No|noeA|consensus50|pass_single_dominant                 0.42%    passed     99.97%
+  21  CPER-3-1-Rh|noeA|consensus50|pass_single_dominant                 0.42%    passed     99.97%
+  22  CPER-3-1-Ro|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.92%
+  23  CPER-4-No|noeA|consensus50|pass_single_dominant                   0.35%    passed     99.88%
+  24  CPER-4-Rh|noeA|consensus50|pass_single_dominant                   0.35%    passed     99.94%
+  25  CPER-4-Ro|noeA|consensus50|pass_mixed_possible_multitemplate      1.40%    passed     99.97%
+  26  CPER-5-1-No|noeA|consensus50|pass_single_dominant                 0.42%    passed     99.97%
+  27  CPER-5-1-Rh|noeA|consensus50|pass_single_dominant                 0.14%    passed     99.93%
+  28  CPER-5-1-Ro|noeA|consensus50|pass_single_dominant                 0.14%    passed     99.96%
+  29  DCFS-1-2-Rh|noeA|consensus50|pass_single_dominant                14.33%    passed     95.47%
+  30  DCFS-2-2-No|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.87%
+  31  DCFS-2-2-Rh|noeA|consensus50|pass_single_dominant                 5.73%    passed     96.24%
+  32  DCFS-2-2-Ro|noeA|consensus50|pass_single_dominant                 7.20%    passed     98.82%
+  33  DCFS-3-2-No|noeA|consensus50|pass_single_dominant                 0.21%    passed     99.93%
+  34  DCFS-3-2-Rh|noeA|consensus50|pass_single_dominant                 8.39%    passed     96.09%
+  35  DCFS-3-2-Ro|noeA|consensus50|pass_single_dominant                 1.19%    passed     99.66%
+  36  DCFS-4-No|noeA|consensus50|pass_single_dominant                   0.42%    passed     99.98%
+  37  DCFS-4-Rh|noeA|consensus50|pass_single_dominant                   2.17%    passed     98.50%
+  38  DCFS-4-Ro|noeA|consensus50|pass_single_dominant                   0.28%    passed     99.82%
+  39  DCFS-5-1-No|noeA|consensus50|pass_single_dominant                 0.63%    passed     99.95%
+  40  DCFS-5-1-Rh|noeA|consensus50|pass_single_dominant                 1.40%    passed     99.83%
+  41  DCFS-5-1-Ro|noeA|consensus50|pass_single_dominant                 0.63%    passed     99.95%
+  42  DCFS-6-1-No|noeA|consensus50|pass_single_dominant                 0.56%    passed     99.72%
+  43  DCFS-6-1-Ro|noeA|consensus50|pass_single_dominant                 0.28%    passed     99.94%
+  44  DCFS-7-1-Rh|noeA|consensus50|pass_single_dominant                13.49%    passed     98.48%
+  45  DCFS-7-1-Ro|noeA|consensus50|pass_single_dominant                 0.35%    passed     99.88%
+  46  DCFS-8-1-No|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.49%
+  47  DCFS-8-1-Rh|noeA|consensus50|pass_single_dominant                 0.07%    passed    100.00%
+  48  DCFS-8-1-Ro|noeA|consensus50|pass_single_dominant                 0.56%    passed    100.00%
+  49  DEJU-29-1-No|noeA|consensus50|pass_single_dominant                0.63%    passed     99.99%
+  50  DEJU-59-No|noeA|consensus50|pass_single_dominant                  0.21%    passed     99.94%
+  51  DELA-26-3-Ro|noeA|consensus50|pass_single_dominant                0.70%    passed     99.99%
+  52  DELA-32-1-No|noeA|consensus50|pass_single_dominant                0.77%    passed     99.91%
+  53  DELA-7-3-No|noeA|consensus50|pass_single_dominant                 6.29%    passed     97.74%
+  54  DSNY-13-1-No|noeA|consensus50|pass_single_dominant                0.98%    passed     99.87%
+  55  DSNY-14-1-Rh|noeA|consensus50|pass_single_dominant                0.91%    passed     99.94%
+  56  DSNY-15-1-Ro|noeA|consensus50|pass_single_dominant                0.42%    passed     99.93%
+  57  DSNY-17-3-No|noeA|consensus50|pass_single_dominant                0.07%    passed     99.99%
+  58  DSNY-5-1-Rh|noeA|consensus50|pass_single_dominant                 0.28%    passed     99.99%
+  59  DSNY-7-1-No|noeA|consensus50|pass_single_dominant                 4.05%    passed     99.69%
+  60  DSNY-91-1-Rh|noeA|consensus50|pass_single_dominant                1.82%    passed     99.57%
+  61  HEAL-7-1-Ro|noeA|consensus50|pass_single_dominant                 0.28%    passed    100.00%
+  62  JERC-11-1-No|noeA|consensus50|pass_single_dominant                2.45%    passed     99.56%
+  63  JERC-149-Ro|noeA|consensus50|pass_single_dominant                 1.68%    passed     99.07%
+  64  JERC-150-Ro|noeA|consensus50|pass_single_dominant                 0.28%    passed     99.98%
+  65  JERC-2-1-Ro|noeA|consensus50|pass_single_dominant                 1.68%    passed     99.73%
+  66  JERC-89-1-No|noeA|consensus50|pass_single_dominant                0.14%    passed     99.94%
+  67  JERC-DEST-32-1-No|noeA|consensus50|pass_single_dominant           1.68%    passed     99.38%
+  68  JERC-RHRE-55-1-Rh|noeA|consensus50|pass_single_dominant           0.35%    passed     99.99%
+  69  JORN-3-1-Rh|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.94%
+  70  KONZ-1-Rh|noeA|consensus50|pass_single_dominant                   6.08%    passed     98.51%
+  71  KONZ-1-Ro|noeA|consensus50|pass_single_dominant                   0.70%    passed     99.93%
+  72  KONZ-6-1-Ro|noeA|consensus50|pass_single_dominant                 0.07%    passed    100.00%
+  73  LAJA-25-1-No|noeA|consensus50|pass_single_dominant                4.47%    passed     95.53%
+  74  LENO-15-2-No|noeA|consensus50|pass_single_dominant                0.49%    passed     99.92%
+  75  NIWO-1-Rh|noeA|consensus50|pass_single_dominant                   0.35%    passed     99.98%
+  76  NIWO-2-No|noeA|consensus50|pass_single_dominant                   0.56%    passed     99.96%
+  77  NIWO-2-Rh|noeA|consensus50|pass_single_dominant                   0.56%    passed     99.44%
+  78  NOGP-1-1-No|noeA|consensus50|pass_single_dominant                 0.07%    passed     99.79%
+  79  NOGP-1-1-Rh|noeA|consensus50|pass_single_dominant                 1.05%    passed     99.87%
+  80  NOGP-1-1-Ro|noeA|consensus50|pass_single_dominant                 0.21%    passed     99.88%
+  81  NOGP-2-1-No|noeA|consensus50|pass_single_dominant                 0.14%    passed     99.96%
+  82  NOGP-2-1-Rh|noeA|consensus50|pass_single_dominant                 0.28%    passed     99.92%
+  83  NOGP-2-1-Ro|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.92%
+  84  NOGP-3-2-No|noeA|consensus50|pass_single_dominant                 0.07%    passed     99.95%
+  85  NOGP-3-2-Rh|noeA|consensus50|pass_single_dominant                 0.21%    passed     99.99%
+  86  NOGP-3-2-Ro|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.89%
+  87  NOGP-4-1-No|noeA|consensus50|pass_single_dominant                 1.47%    passed     99.12%
+  88  NOGP-4-1-Rh|noeA|consensus50|pass_single_dominant                 0.49%    passed     99.99%
+  89  NOGP-4-1-Ro|noeA|consensus50|pass_mixed_possible_multitemplate    1.05%    passed     99.73%
+  90  NOGP-5-2-No|noeA|consensus50|pass_single_dominant                 0.35%    passed     99.99%
+  91  NOGP-5-2-Rh|noeA|consensus50|pass_single_dominant                 1.75%    passed     99.71%
+  92  NOGP-5-2-Ro|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.98%
+  93  NOGP-6-3-No|noeA|consensus50|pass_single_dominant                 0.21%    passed     99.98%
+  94  NOGP-6-3-Rh|noeA|consensus50|pass_single_dominant                11.88%    passed     94.60%
+  95  NOGP-6-3-Ro|noeA|consensus50|pass_single_dominant                 0.07%    passed     99.89%
+  96  NOGP-7-2-Rh|noeA|consensus50|pass_single_dominant                 0.28%    passed     99.98%
+  97  OAES-1-1-No|noeA|consensus50|pass_single_dominant                 0.14%    passed    100.00%
+  98  OAES-13-1-Rh|noeA|consensus50|pass_single_dominant                0.49%    passed     99.99%
+  99  OAES-14-1-No|noeA|consensus50|pass_single_dominant                0.07%    passed     99.89%
+ 100  OAES-14-1-Rh|noeA|consensus50|pass_single_dominant                0.91%    passed     99.99%
+ 101  OAES-14-1-Ro|noeA|consensus50|pass_single_dominant                0.00%    passed     99.92%
+ 102  OAES-15-No|noeA|consensus50|pass_single_dominant                  0.28%    passed     99.98%
+ 103  OAES-15-Rh|noeA|consensus50|pass_single_dominant                  0.28%    passed     99.97%
+ 104  OAES_19-2-No|noeA|consensus50|pass_single_dominant                0.70%    passed     99.93%
+ 105  OAES_19-2-Rh|noeA|consensus50|pass_single_dominant                0.07%    passed     99.89%
+ 106  OAES_19-2-Ro|noeA|consensus50|pass_single_dominant                0.35%    passed     99.98%
+ 107  OAES-20-Rh|noeA|consensus50|pass_single_dominant                  8.53%    passed     89.82%
+ 108  OAES-20-Ro|noeA|consensus50|pass_single_dominant                 10.55%    passed     99.37%
+ 109  OAES-2-1-No|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.98%
+ 110  OAES-2-1-Ro|noeA|consensus50|pass_single_dominant                 0.07%    passed    100.00%
+ 111  OAES-22-1-No|noeA|consensus50|pass_single_dominant                0.00%    passed     99.84%
+ 112  OAES-22-1-Rh|noeA|consensus50|pass_single_dominant                9.15%    passed     88.05%
+ 113  OAES-23-1-Rh|noeA|consensus50|pass_single_dominant                6.43%    passed     97.05%
+ 114  OAES-23-1-Ro|noeA|consensus50|pass_single_dominant                1.40%    passed     99.89%
+ 115  OAES_24-3-No|noeA|consensus50|pass_single_dominant                0.98%    passed     99.61%
+ 116  OAES_24-3-Rh|noeA|consensus50|pass_single_dominant                0.21%    passed     99.98%
+ 117  OAES_24-3-Ro|noeA|consensus50|pass_single_dominant                0.21%    passed     99.94%
+ 118  OAES-25-1-Rh|noeA|consensus50|pass_single_dominant               10.90%    passed     97.77%
+ 119  OAES-25-1-Ro|noeA|consensus50|pass_single_dominant                6.15%    passed     97.02%
+ 120  OAES-27-2-Ro|noeA|consensus50|pass_single_dominant                0.28%    passed     99.93%
+ 121  OAES-3-1-No|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.98%
+ 122  OAES-3-1-Ro|noeA|consensus50|pass_single_dominant                 0.91%    passed     99.87%
+ 123  OAES-36-2-No|noeA|consensus50|pass_single_dominant                0.00%    passed     99.92%
+ 124  OAES-36-3-No|noeA|consensus50|pass_single_dominant                0.35%    passed     99.94%
+ 125  OAES-36-3-Rh|noeA|consensus50|pass_single_dominant                3.07%    passed     98.82%
+ 126  OAES-37-2-Ro|noeA|consensus50|pass_single_dominant                0.07%    passed     99.94%
+ 127  OAES-4-1-Rh|noeA|consensus50|pass_single_dominant                 5.17%    passed     98.01%
+ 128  OAES-5-Rh|noeA|consensus50|pass_single_dominant                   0.35%    passed    100.00%
+ 129  OAES-5-Ro|noeA|consensus50|pass_single_dominant                   0.28%    passed     99.95%
+ 130  OAES-6-1-No|noeA|consensus50|pass_single_dominant                 1.47%    passed     99.62%
+ 131  OAES-6-1-Rh|noeA|consensus50|pass_single_dominant                 0.49%    passed     99.76%
+ 132  OAES-6-1-Ro|noeA|consensus50|pass_single_dominant                 0.49%    passed     99.92%
+ 133  OAES-7-1-No|noeA|consensus50|pass_single_dominant                 0.14%    passed     99.97%
+ 134  OAES-7-1-Rh|noeA|consensus50|pass_single_dominant                 0.77%    passed     99.86%
+ 135  OAES-7-1-Ro|noeA|consensus50|pass_single_dominant                 0.42%    passed     99.96%
+ 136  OAES-8-2-Ro|noeA|consensus50|pass_single_dominant                 5.45%    passed     97.17%
+ 137  OAES-9-1-Rh|noeA|consensus50|pass_single_dominant                 0.07%    passed     99.96%
+ 138  OSBS-102-1-No|noeA|consensus50|pass_single_dominant               0.28%    passed     99.97%
+ 139  OSBS-106-1-Ro|noeA|consensus50|pass_single_dominant               0.14%    passed    100.00%
+ 140  OSBS-36-1-No|noeA|consensus50|pass_single_dominant                0.70%    passed     99.86%
+ 141  OSBS-36-1-Ro|noeA|consensus50|pass_single_dominant                2.66%    passed     99.59%
+ 142  OSBS-97-2-Rh|noeA|consensus50|pass_single_dominant                0.35%    passed     99.89%
+ 143  OSBS-99-Ro|noeA|consensus50|pass_single_dominant                  5.87%    passed     97.22%
+ 144  RMNP-1-Rh|noeA|consensus50|pass_single_dominant                   2.03%    passed     99.68%
+ 145  SCBI-1-1-Rh|noeA|consensus50|pass_single_dominant                 4.19%    passed     95.39%
+ 146  SCBI-1-1-Ro|noeA|consensus50|pass_single_dominant                 0.70%    passed     99.99%
+ 147  SCBI-12-1-No|noeA|consensus50|pass_single_dominant                2.38%    passed     98.65%
+ 148  SCBI-2-1-No|noeA|consensus50|pass_single_dominant                 0.21%    passed     99.92%
+ 149  SCBI-2-1-Rh|noeA|consensus50|pass_single_dominant                 1.33%    passed     99.97%
+ 150  SCBI-2-1-Ro|noeA|consensus50|pass_single_dominant                 0.14%    passed     99.94%
+ 151  SCBI-3-1-Rh|noeA|consensus50|pass_single_dominant                 0.49%    passed     99.83%
+ 152  SCBI-3-1-Ro|noeA|consensus50|pass_single_dominant                 1.05%    passed     99.89%
+ 153  SERC-3-1-Ro|noeA|consensus50|pass_single_dominant                 1.05%    passed     99.89%
+ 154  SERC-6-1-No|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.89%
+ 155  SRER-18-1-No|noeA|consensus50|pass_single_dominant                2.10%    passed     99.48%
+ 156  TALL-24-2-No|noeA|consensus50|pass_single_dominant                0.21%    passed    100.00%
+ 157  TALL-28-1-No|noeA|consensus50|pass_single_dominant                0.77%    passed     99.85%
+ 158  TALL-28-1-Ro|noeA|consensus50|pass_single_dominant                0.28%    passed     99.99%
+ 159  TALL-29-3-No|noeA|consensus50|pass_single_dominant                1.19%    passed     99.96%
+ 160  TALL-29-3-Rh|noeA|consensus50|pass_single_dominant                0.14%    passed     99.97%
+ 161  TALL-74-3-No|noeA|consensus50|pass_single_dominant                0.91%    passed     99.97%
+ 162  TALL-92-1-Ro|noeA|consensus50|pass_single_dominant                2.52%    passed     99.25%
+ 163  TEAK-1-2-Ro|noeA|consensus50|pass_single_dominant                 0.14%    passed     99.85%
+ 164  TEAK-3-1-Ro|noeA|consensus50|pass_single_dominant                 2.10%    passed     99.48%
+ 165  TOOL-10-Ro|noeA|consensus50|pass_single_dominant                  0.56%    passed     99.99%
+ 166  TOOL-1-Rh|noeA|consensus50|pass_single_dominant                   0.21%    passed     99.81%
+ 167  TOOL-1-Ro|noeA|consensus50|pass_single_dominant                   0.35%    passed     99.93%
+ 168  TOOL-25-Ro|noeA|consensus50|pass_single_dominant                  0.91%    passed     99.97%
+ 169  WOOD-10-1-No|noeA|consensus50|pass_single_dominant                0.28%    passed     99.98%
+ 170  WOOD-10-1-Rh|noeA|consensus50|pass_single_dominant                1.26%    passed     99.94%
+ 171  WOOD-10-1-Ro|noeA|consensus50|pass_single_dominant                0.21%    passed     99.99%
+ 172  WOOD-11-1-No|noeA|consensus50|pass_single_dominant                0.28%    passed     99.93%
+ 173  WOOD-11-1-Rh|noeA|consensus50|pass_single_dominant                0.14%    passed     99.99%
+ 174  WOOD-11-1-Ro|noeA|consensus50|pass_single_dominant                0.14%    passed     99.94%
+ 175  WOOD-1-1-No|noeA|consensus50|pass_single_dominant                 3.42%    passed     98.00%
+ 176  WOOD-1-1-Ro|noeA|consensus50|pass_single_dominant                 0.14%    passed     99.87%
+ 177  WOOD-12-No|noeA|consensus50|pass_single_dominant                  0.00%    passed     99.98%
+ 178  WOOD-12-Rh|noeA|consensus50|pass_single_dominant                  2.94%    passed     99.28%
+ 179  WOOD-12-Ro|noeA|consensus50|pass_single_dominant                  0.21%    passed     99.99%
+ 180  WOOD-3-2-No|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.89%
+ 181  WOOD-3-2-Ro|noeA|consensus50|pass_single_dominant                 7.90%    passed     91.56%
+ 182  WOOD-4-1-No|noeA|consensus50|pass_single_dominant                15.09%    passed     73.02%
+ 183  WOOD-5-1-No|noeA|consensus50|pass_single_dominant                 1.47%    passed     99.80%
+ 184  WOOD-5-1-Rh|noeA|consensus50|pass_single_dominant                 0.35%    passed     99.96%
+ 185  WOOD-5-1-Ro|noeA|consensus50|pass_single_dominant                 0.28%    passed     99.92%
+ 186  WOOD-6-1-No|noeA|consensus50|pass_single_dominant                 0.49%    passed     99.94%
+ 187  WOOD-6-1-Rh|noeA|consensus50|pass_single_dominant                 3.35%    passed     99.78%
+ 188  WOOD-6-1-Ro|noeA|consensus50|pass_single_dominant                 0.49%    passed    100.00%
+ 189  WOOD-7-1-No|noeA|consensus50|pass_single_dominant                 0.00%    passed     99.96%
+ 190  WOOD-7-1-Rh|noeA|consensus50|pass_single_dominant                 0.14%    passed    100.00%
+ 191  WOOD-7-1-Ro|noeA|consensus50|pass_single_dominant                 2.10%    passed     99.85%
+ 192  WOOD-8-No|noeA|consensus50|pass_single_dominant                   0.14%    passed     99.94%
+ 193  WOOD-8-Rh|noeA|consensus50|pass_single_dominant                   0.56%    passed     99.98%
+ 194  WOOD-8-Ro|noeA|consensus50|pass_single_dominant                   0.42%    passed     99.97%
+ 195  WOOD-9-Rh|noeA|consensus50|pass_single_dominant                   0.21%    passed     99.96%
+****  TOTAL                                                             1.60%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: TALL-24-2-No|noeA|consensus50|pass_single_dominant is identical to BLAN-4-1-Ro|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: CPER-4-Rh|noeA|consensus50|pass_single_dominant is identical to CPER-2-No|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: CPER-5-1-No|noeA|consensus50|pass_single_dominant is identical to CPER-3-1-Rh|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: NOGP-2-1-Ro|noeA|consensus50|pass_single_dominant is identical to CPER-3-1-Ro|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: NOGP-2-1-No|noeA|consensus50|pass_single_dominant is identical to CPER-5-1-Ro|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: DCFS-5-1-Ro|noeA|consensus50|pass_single_dominant is identical to DCFS-5-1-No|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: OAES-2-1-Ro|noeA|consensus50|pass_single_dominant is identical to KONZ-6-1-Ro|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: WOOD-3-2-No|noeA|consensus50|pass_single_dominant is identical to NOGP-3-2-Ro|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: WOOD-12-No|noeA|consensus50|pass_single_dominant is identical to NOGP-5-2-Ro|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: OAES_24-3-Rh|noeA|consensus50|pass_single_dominant is identical to NOGP-6-3-No|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: OAES_19-2-Rh|noeA|consensus50|pass_single_dominant is identical to NOGP-6-3-Ro|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: OAES-3-1-No|noeA|consensus50|pass_single_dominant is identical to OAES-2-1-No|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: SERC-3-1-Ro|noeA|consensus50|pass_single_dominant is identical to SCBI-3-1-Ro|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: TEAK-3-1-Ro|noeA|consensus50|pass_single_dominant is identical to SRER-18-1-No|noeA|consensus50|pass_single_dominant but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00120138 secs using 1.155e+04% CPU
+Identifying sites to remove: done in 0.00159565 secs using 4472% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: OAES-36-2-No|noeA|consensus50|pass_single_dominant (identical to CPER-3-1-Ro|noeA|consensus50|pass_single_dominant) is ignored but added at the end
+Alignment was printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Measuring multi-threading efficiency up to 72 CPU cores
+Increase to 10 rounds for branch lengths
+667 trees examined
+Threads: 1 / Time: 72.087 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -4743
+Threads: 2 / Time: 101.268 sec / Speedup: 0.712 / Efficiency: 36% / LogL: -4743
+Determining AUTO threadcount: done in 173.363 secs using 155.8% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2754.115
+Optimal log-likelihood: -2753.108
+Rate parameters:  A-C: 1.67789  A-G: 2.78571  A-T: 0.79529  C-G: 1.16688  C-T: 3.40295  G-T: 1.00000
+Base frequencies:  A: 0.232  C: 0.257  G: 0.272  T: 0.239
+Proportion of invariable sites: 0.514
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.074 sec)
+Time for fast ML tree search: 0.892 seconds
+
+NOTE: ModelFinder requires 23 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1431 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            2860.246     385 6490.492     6774.913     8517.951
+  2  JC+I          2753.519     386 6279.039     6565.211     8311.764
+  3  JC+G4         2798.958     386 6369.916     6656.089     8402.642
+  4  JC+I+G4       2752.992     387 6279.983     6567.914     8317.975
+  5  JC+R2         2753.307     387 6280.614     6568.545     8318.606
+  6  JC+R3         2750.385     389 6278.771     6570.241     8327.295
+ 14  JC+I+R2       2753.354     388 6282.708     6572.404     8325.966
+ 15  JC+I+R3       2750.360     390 6280.719     6573.969     8334.509
+ 24  JC+I          2753.519     386 6279.039     6565.211     8311.764
+ 26  JC+I+G4       2752.992     387 6279.983     6567.914     8317.975
+ 27  JC+R2         2753.307     387 6280.614     6568.545     8318.606
+ 46  F81+I         2753.538     386 6279.077     6565.249     8311.802
+ 48  F81+I+G4      2752.812     387 6279.624     6567.555     8317.616
+ 49  F81+R2        2753.540     387 6281.079     6569.010     8319.071
+ 68  F81+F+I       2750.399     389 6278.798     6570.268     8327.322
+ 70  F81+F+I+G4    2749.511     390 6279.023     6572.273     8332.813
+ 71  F81+F+R2      2750.389     390 6280.777     6574.027     8334.567
+ 90  K2P+I         2741.623     387 6257.246     6545.177     8295.238
+ 92  K2P+I+G4      2740.645     388 6257.291     6546.988     8300.549
+ 93  K2P+R2        2741.620     388 6259.241     6548.937     8302.499
+112  K2P+I         2741.623     387 6257.246     6545.177     8295.238
+114  K2P+I+G4      2740.645     388 6257.291     6546.988     8300.549
+115  K2P+R2        2741.620     388 6259.241     6548.937     8302.499
+134  HKY+I         2741.622     387 6257.245     6545.176     8295.237
+136  HKY+I+G4      2740.505     388 6257.010     6546.707     8300.268
+137  HKY+R2        2741.615     388 6259.231     6548.927     8302.489
+156  HKY+F+I       2738.408     390 6256.816     6550.066     8310.606
+158  HKY+F+I+G4    2737.278     391 6256.555     6551.593     8315.612
+159  HKY+F+R2      2738.405     391 6258.810     6553.848     8317.866
+178  TNe+I         2741.127     388 6258.254     6547.951     8301.512
+180  TNe+I+G4      2739.730     389 6257.460     6548.930     8305.984
+181  TNe+R2        2741.122     389 6260.243     6551.713     8308.767
+200  TNe+I         2741.127     388 6258.254     6547.951     8301.512
+202  TNe+I+G4      2739.730     389 6257.460     6548.930     8305.984
+203  TNe+R2        2741.122     389 6260.243     6551.713     8308.767
+222  TN+I          2741.126     388 6258.251     6547.948     8301.509
+224  TN+I+G4       2739.564     389 6257.128     6548.597     8305.652
+225  TN+R2         2741.121     389 6260.242     6551.712     8308.766
+244  TN+F+I        2737.920     391 6257.841     6552.878     8316.897
+246  TN+F+I+G4     2736.446     392 6256.893     6553.725     8321.215
+247  TN+F+R2       2737.918     392 6259.836     6556.668     8324.158
+266  K3P+I         2741.185     388 6258.370     6548.067     8301.628
+268  K3P+I+G4      2739.934     389 6257.869     6549.338     8306.393
+269  K3P+R2        2741.177     389 6260.355     6551.825     8308.879
+288  K3P+I         2741.185     388 6258.370     6548.067     8301.628
+290  K3P+I+G4      2739.934     389 6257.869     6549.338     8306.393
+291  K3P+R2        2741.177     389 6260.355     6551.825     8308.879
+310  K3Pu+I        2741.183     388 6258.365     6548.062     8301.623
+312  K3Pu+I+G4     2739.805     389 6257.610     6549.080     8306.134
+313  K3Pu+R2       2741.177     389 6260.354     6551.823     8308.878
+332  K3Pu+F+I      2737.983     391 6257.967     6553.004     8317.023
+334  K3Pu+F+I+G4   2736.479     392 6256.957     6553.790     8321.280
+335  K3Pu+F+R2     2737.978     392 6259.955     6556.788     8324.278
+354  TPM2+I        2741.577     388 6259.154     6548.851     8302.412
+356  TPM2+I+G4     2740.328     389 6258.655     6550.125     8307.179
+357  TPM2+R2       2741.571     389 6261.142     6552.612     8309.666
+376  TPM2+I        2741.577     388 6259.154     6548.851     8302.412
+378  TPM2+I+G4     2740.328     389 6258.655     6550.125     8307.179
+379  TPM2+R2       2741.571     389 6261.142     6552.612     8309.666
+398  TPM2u+I       2741.577     388 6259.153     6548.850     8302.411
+400  TPM2u+I+G4    2740.200     389 6258.400     6549.870     8306.924
+401  TPM2u+R2      2741.572     389 6261.144     6552.614     8309.668
+420  TPM2u+F+I     2738.245     391 6258.491     6553.528     8317.547
+422  TPM2u+F+I+G4  2736.736     392 6257.471     6554.304     8321.794
+423  TPM2u+F+R2    2738.239     392 6260.479     6557.311     8324.801
+442  TPM3+I        2740.089     388 6256.178     6545.875     8299.436
+444  TPM3+I+G4     2738.794     389 6255.587     6547.057     8304.111
+445  TPM3+R2       2740.087     389 6258.173     6549.643     8306.697
+464  TPM3+I        2740.089     388 6256.178     6545.875     8299.436
+466  TPM3+I+G4     2738.794     389 6255.587     6547.057     8304.111
+467  TPM3+R2       2740.087     389 6258.173     6549.643     8306.697
+486  TPM3u+I       2740.089     388 6256.177     6545.874     8299.435
+488  TPM3u+I+G4    2738.672     389 6255.345     6546.815     8303.869
+489  TPM3u+R2      2740.083     389 6258.167     6549.636     8306.691
+508  TPM3u+F+I     2737.125     391 6256.249     6551.287     8315.306
+510  TPM3u+F+I+G4  2735.596     392 6255.193     6552.025     8319.515
+511  TPM3u+F+R2    2737.118     392 6258.235     6555.068     8322.558
+530  TIMe+I        2740.686     389 6259.372     6550.842     8307.896
+532  TIMe+I+G4     2738.862     390 6257.724     6550.974     8311.514
+533  TIMe+R2       2740.682     390 6261.364     6554.614     8315.154
+552  TIMe+I        2740.686     389 6259.372     6550.842     8307.896
+554  TIMe+I+G4     2738.862     390 6257.724     6550.974     8311.514
+555  TIMe+R2       2740.682     390 6261.364     6554.614     8315.154
+574  TIM+I         2740.684     389 6259.369     6550.838     8307.893
+576  TIM+I+G4      2738.727     390 6257.455     6550.705     8311.245
+577  TIM+R2        2740.681     390 6261.361     6554.611     8315.151
+596  TIM+F+I       2737.496     392 6258.993     6555.825     8323.315
+598  TIM+F+I+G4    2735.865     393 6257.729     6556.364     8327.318
+599  TIM+F+R2      2737.493     393 6260.986     6559.620     8330.574
+618  TIM2e+I       2741.080     389 6260.161     6551.630     8308.685
+620  TIM2e+I+G4    2739.320     390 6258.640     6551.890     8312.430
+621  TIM2e+R2      2741.074     390 6262.148     6555.398     8315.939
+640  TIM2e+I       2741.080     389 6260.161     6551.630     8308.685
+642  TIM2e+I+G4    2739.320     390 6258.640     6551.890     8312.430
+643  TIM2e+R2      2741.074     390 6262.148     6555.398     8315.939
+662  TIM2+I        2741.078     389 6260.157     6551.626     8308.681
+664  TIM2+I+G4     2739.182     390 6258.364     6551.614     8312.154
+665  TIM2+R2       2741.075     390 6262.150     6555.400     8315.941
+684  TIM2+F+I      2737.760     392 6259.521     6556.353     8323.843
+686  TIM2+F+I+G4   2736.124     393 6258.248     6556.883     8327.837
+687  TIM2+F+R2     2737.757     393 6261.515     6560.149     8331.104
+706  TIM3e+I       2739.591     389 6257.182     6548.652     8305.706
+708  TIM3e+I+G4    2737.873     390 6255.746     6548.996     8309.536
+709  TIM3e+R2      2739.582     390 6259.165     6552.415     8312.955
+728  TIM3e+I       2739.591     389 6257.182     6548.652     8305.706
+730  TIM3e+I+G4    2737.873     390 6255.746     6548.996     8309.536
+731  TIM3e+R2      2739.582     390 6259.165     6552.415     8312.955
+750  TIM3+I        2739.591     389 6257.181     6548.651     8305.705
+752  TIM3+I+G4     2737.737     390 6255.474     6548.724     8309.264
+753  TIM3+R2       2739.588     390 6259.175     6552.425     8312.965
+772  TIM3+F+I      2736.640     392 6257.280     6554.113     8321.603
+774  TIM3+F+I+G4   2734.796     393 6255.591     6554.226     8325.180
+775  TIM3+F+R2     2736.639     393 6259.278     6557.913     8328.867
+794  TVMe+I        2739.513     390 6259.026     6552.276     8312.817
+796  TVMe+I+G4     2737.720     391 6257.440     6552.477     8316.496
+797  TVMe+R2       2739.507     391 6261.014     6556.052     8320.070
+816  TVMe+I        2739.513     390 6259.026     6552.276     8312.817
+818  TVMe+I+G4     2737.720     391 6257.440     6552.477     8316.496
+819  TVMe+R2       2739.507     391 6261.014     6556.052     8320.070
+838  TVM+I         2739.511     390 6259.022     6552.272     8312.812
+840  TVM+I+G4      2737.632     391 6257.264     6552.301     8316.320
+841  TVM+R2        2739.507     391 6261.013     6556.051     8320.069
+860  TVM+F+I       2736.442     393 6258.884     6557.519     8328.473
+862  TVM+F+I+G4    2734.801     394 6257.602     6558.046     8332.457
+863  TVM+F+R2      2736.435     394 6260.870     6561.314     8335.725
+882  SYM+I         2739.012     391 6260.024     6555.062     8319.081
+884  SYM+I+G4      2736.886     392 6257.772     6554.605     8322.095
+885  SYM+R2        2739.011     392 6262.023     6558.855     8326.345
+904  SYM+I         2739.012     391 6260.024     6555.062     8319.081
+906  SYM+I+G4      2736.886     392 6257.772     6554.605     8322.095
+907  SYM+R2        2739.011     392 6262.023     6558.855     8326.345
+926  GTR+I         2739.012     391 6260.023     6555.061     8319.080
+928  GTR+I+G4      2736.795     392 6257.590     6554.423     8321.913
+929  GTR+R2        2739.005     392 6262.010     6558.843     8326.333
+948  GTR+F+I       2735.961     394 6259.921     6560.365     8334.776
+950  GTR+F+I+G4    2734.009     395 6258.017     6560.278     8338.138
+951  GTR+F+R2      2735.958     395 6261.917     6564.178     8342.038
+Akaike Information Criterion:           TPM3u+F+I+G4
+Corrected Akaike Information Criterion: HKY+I
+Bayesian Information Criterion:         HKY+I
+Best-fit model: HKY+I chosen according to BIC
+
+All model information printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.model.gz
+CPU time for ModelFinder: 283.274 seconds (0h:4m:43s)
+Wall-clock time for ModelFinder: 186.289 seconds (0h:3m:6s)
+Generating 1000 samples for ultrafast bootstrap (seed: 182500)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2738.427
+Optimal log-likelihood: -2738.394
+Rate parameters:  A-C: 1.00000  A-G: 2.72321  A-T: 1.00000  C-G: 1.00000  C-T: 2.72321  G-T: 1.00000
+Base frequencies:  A: 0.232  C: 0.257  G: 0.272  T: 0.239
+Proportion of invariable sites: 0.947
+Parameters optimization took 1 rounds (0.018 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0657677 secs using 99.79% CPU
+Computing ML distances took 0.066025 sec (of wall-clock time) 0.065887 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000786895 secs using 99.38% CPU
+Constructing RapidNJ tree: done in 0.00262215 secs using 101.4% CPU
+Computing RapidNJ tree took 0.003468 sec (of wall-clock time) 0.003481 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2771.099
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.650 second
+Computing log-likelihood of 98 initial trees ... 0.556 seconds
+Current best score: -2720.651
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2718.701
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2717.697
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -2716.901
+Iteration 10 / LogL: -2725.289 / Time: 0h:3m:14s
+Iteration 20 / LogL: -2729.259 / Time: 0h:3m:21s
+Finish initializing candidate tree set (20)
+Current best tree score: -2716.901 / CPU time: 15.313
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -2716.765
+Iteration 30 / LogL: -2716.907 / Time: 0h:3m:25s (0h:1m:1s left)
+BETTER TREE FOUND at iteration 38: -2716.761
+BETTER TREE FOUND at iteration 39: -2716.752
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -2716.614
+Iteration 40 / LogL: -2716.614 / Time: 0h:3m:29s (0h:0m:59s left)
+Iteration 50 / LogL: -2719.335 / Time: 0h:3m:33s (0h:0m:49s left)
+Log-likelihood cutoff on original alignment: -2749.303
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -2716.601
+Iteration 60 / LogL: -2716.601 / Time: 0h:3m:37s (0h:0m:53s left)
+Iteration 70 / LogL: -2727.827 / Time: 0h:3m:41s (0h:0m:45s left)
+BETTER TREE FOUND at iteration 71: -2716.598
+Iteration 80 / LogL: -2725.307 / Time: 0h:3m:44s (0h:0m:44s left)
+Iteration 90 / LogL: -2716.613 / Time: 0h:3m:48s (0h:0m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -2716.523
+Iteration 100 / LogL: -2721.763 / Time: 0h:3m:51s (0h:0m:41s left)
+Log-likelihood cutoff on original alignment: -2749.303
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.980
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -2716.610 / Time: 0h:3m:55s (0h:0m:40s left)
+Iteration 120 / LogL: -2716.532 / Time: 0h:3m:59s (0h:0m:35s left)
+Iteration 130 / LogL: -2718.977 / Time: 0h:4m:3s (0h:0m:30s left)
+Iteration 140 / LogL: -2716.553 / Time: 0h:4m:7s (0h:0m:26s left)
+Iteration 150 / LogL: -2716.564 / Time: 0h:4m:11s (0h:0m:21s left)
+Log-likelihood cutoff on original alignment: -2749.303
+Iteration 160 / LogL: -2716.532 / Time: 0h:4m:16s (0h:0m:17s left)
+Iteration 170 / LogL: -2724.888 / Time: 0h:4m:20s (0h:0m:13s left)
+Iteration 180 / LogL: -2716.531 / Time: 0h:4m:24s (0h:0m:8s left)
+Iteration 190 / LogL: -2716.538 / Time: 0h:4m:28s (0h:0m:4s left)
+Iteration 200 / LogL: -2720.749 / Time: 0h:4m:33s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2749.303
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:4m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2716.523
+Optimal log-likelihood: -2716.523
+Rate parameters:  A-C: 1.00000  A-G: 3.28965  A-T: 1.00000  C-G: 1.00000  C-T: 3.28965  G-T: 1.00000
+Base frequencies:  A: 0.232  C: 0.257  G: 0.272  T: 0.239
+Proportion of invariable sites: 0.946
+Parameters optimization took 1 rounds (0.025 sec)
+BEST SCORE FOUND : -2716.523
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+3.856 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.splits.nex
+Total tree length: 0.076
+
+Total number of iterations: 200
+CPU time used for tree search: 85.957 sec (0h:1m:25s)
+Wall-clock time used for tree search: 87.414 sec (0h:1m:27s)
+Total CPU time used: 373.839 sec (0h:6m:13s)
+Total wall-clock time used: 278.335 sec (0h:4m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.splits.nex...
+194 taxa and 9211 splits.
+Consensus tree written to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.contree
+Reading input trees file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.contree
+Log-likelihood of consensus tree: -2721.462
+
+Analysis results written to: 
+  IQ-TREE report:                /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.iqtree
+  Maximum-likelihood tree:       /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.treefile
+  Likelihood distances:          /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.splits.nex
+  Consensus tree:                /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.contree
+  Screen log file:               /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeA/04_tree_iupac_nm5000/noeA_consensus50_iupac_all_pass_nm5000.log
+
+Date and Time: Wed Aug  5 08:42:33 2026

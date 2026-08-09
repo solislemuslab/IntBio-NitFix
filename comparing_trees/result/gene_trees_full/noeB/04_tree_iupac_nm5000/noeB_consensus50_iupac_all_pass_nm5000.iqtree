@@ -1,0 +1,777 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Input file name: /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeB/02_alignment/noeB_consensus50_iupac_all_pass.mafft.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 904948
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 149 sequences with 1674 nucleotide sites
+Number of constant sites: 1582 (= 94.5042% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1582 (= 94.5042% of all sites)
+Number of parsimony informative sites: 58
+Number of distinct site patterns: 401
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM3u+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM3u+I+G4        -3840.247    8218.493 +    0.129    8321.955 +    0.204    9677.272 +     0.31
+TPM3+I+G4         -3840.247    8218.493 +    0.129    8321.955 +    0.204    9677.273 +     0.31
+TPM3+I+G4         -3840.247    8218.493 +    0.129    8321.955 +    0.204    9677.273 +     0.31
+HKY+I+G4          -3847.147    8230.295 - 0.000354    8332.917 -  0.00085    9683.651 -   0.0128
+K2P+I+G4          -3847.148    8230.296 - 0.000354    8332.918 - 0.000849    9683.652 -   0.0128
+K2P+I+G4          -3847.148    8230.296 - 0.000354    8332.918 - 0.000849    9683.652 -   0.0128
+TIM3+I+G4         -3840.064    8220.127 +   0.0571    8324.432 +   0.0591    9684.330 -  0.00909
+TIM3e+I+G4        -3840.064    8220.127 +   0.0571    8324.432 +   0.0591    9684.330 -  0.00909
+TIM3e+I+G4        -3840.064    8220.127 +   0.0571    8324.432 +   0.0591    9684.330 -  0.00909
+TVM+I+G4          -3839.103    8220.206 +    0.055    8325.358 -   0.0372    9689.831 - 0.000581
+TVMe+I+G4         -3839.104    8220.207 +   0.0549    8325.360 -   0.0372    9689.832 -  0.00058
+TVMe+I+G4         -3839.104    8220.207 +   0.0549    8325.360 -   0.0372    9689.832 -  0.00058
+TPM2u+I+G4        -3846.827    8231.654 - 0.000179    8335.115 - 0.000283    9690.433 -  0.00043
+TPM2+I+G4         -3846.827    8231.654 - 0.000179    8335.115 - 0.000283    9690.433 -  0.00043
+TPM2+I+G4         -3846.827    8231.654 - 0.000179    8335.115 - 0.000283    9690.433 -  0.00043
+K3Pu+I+G4         -3846.964    8231.929 - 0.000156    8335.390 - 0.000247    9690.708 - 0.000375
+K3P+I+G4          -3846.965    8231.929 - 0.000156    8335.391 - 0.000247    9690.708 - 0.000374
+K3P+I+G4          -3846.965    8231.929 - 0.000156    8335.391 - 0.000247    9690.708 - 0.000374
+TN+I+G4           -3847.045    8232.091 - 0.000144    8335.552 - 0.000228    9690.870 - 0.000345
+TNe+I+G4          -3847.045    8232.091 - 0.000144    8335.552 - 0.000228    9690.870 - 0.000345
+TNe+I+G4          -3847.045    8232.091 - 0.000144    8335.552 - 0.000228    9690.870 - 0.000345
+TPM3u+F+I+G4      -3837.708    8219.415 +   0.0816    8325.420 -   0.0361    9694.463 - 5.73e-05
+SYM+I+G4          -3838.918    8221.837 -   0.0243    8327.841 -   0.0108    9696.885 - 1.71e-05
+SYM+I+G4          -3838.918    8221.837 -   0.0243    8327.841 -   0.0108    9696.885 - 1.71e-05
+GTR+I+G4          -3838.919    8221.837 -   0.0243    8327.842 -   0.0108    9696.886 - 1.71e-05
+TIM2+I+G4         -3846.717    8233.434 - 7.37e-05    8337.739 - 7.63e-05    9697.636 - 1.17e-05
+TIM2e+I+G4        -3846.717    8233.434 - 7.37e-05    8337.739 - 7.63e-05    9697.636 - 1.17e-05
+TIM2e+I+G4        -3846.717    8233.434 - 7.37e-05    8337.739 - 7.63e-05    9697.636 - 1.17e-05
+TIM+I+G4          -3846.867    8233.733 - 6.35e-05    8338.038 - 6.57e-05    9697.936 - 1.01e-05
+TIMe+I+G4         -3846.867    8233.734 - 6.35e-05    8338.039 - 6.56e-05    9697.936 - 1.01e-05
+TIMe+I+G4         -3846.867    8233.734 - 6.35e-05    8338.039 - 6.56e-05    9697.936 - 1.01e-05
+HKY+F+I+G4        -3844.668    8231.336 -  0.00021    8336.489 - 0.000142    9700.962 - 2.22e-06
+TIM3+F+I+G4       -3837.286    8220.572 -   0.0458    8327.432 -   0.0132    9701.043 - 2.13e-06
+TVM+F+I+G4        -3836.289    8220.577 -   0.0456    8328.297 -  0.00856    9706.471 - 1.41e-07
+TPM2u+F+I+G4      -3844.072    8232.145 -  0.00014    8338.149 - 6.21e-05    9707.193 - 9.86e-08
+TN+F+I+G4         -3844.370    8232.740 - 0.000104    8338.744 - 4.61e-05    9707.788 - 7.32e-08
+K3Pu+F+I+G4       -3844.486    8232.971 - 9.29e-05    8338.976 - 4.11e-05    9708.020 - 6.52e-08
+GTR+F+I+G4        -3835.844    8221.688 -   0.0262    8330.272 -  0.00319    9713.005 - 5.39e-09
+TIM2+F+I+G4       -3843.742    8233.484 - 7.19e-05    8340.344 - 2.07e-05    9713.955 - 3.35e-09
+TIM+F+I+G4        -3844.191    8234.382 - 4.59e-05    8341.242 - 1.32e-05    9714.854 - 2.14e-09
+F81+I+G4          -3927.464    8388.929 - 1.27e-38    8490.715 - 4.61e-38    9836.862 - 6.86e-36
+JC+I+G4           -3927.519    8389.037 -  1.2e-38    8490.824 - 4.37e-38    9836.971 -  6.5e-36
+JC+I+G4           -3927.519    8389.037 -  1.2e-38    8490.824 - 4.37e-38    9836.971 -  6.5e-36
+F81+F+I+G4        -3925.295    8390.590 - 5.51e-39    8494.895 - 5.71e-39    9854.792 - 8.77e-40
+JC+I+R3           -3925.887    8391.774 - 3.05e-39    8496.079 - 3.16e-39    9855.976 - 4.85e-40
+JC+R3             -3931.648    8401.297 - 2.61e-41    8504.758 - 4.12e-41    9860.076 - 6.25e-41
+JC+I              -3944.031    8420.062 -  2.2e-45    8521.017 - 1.21e-44    9862.572 - 1.79e-41
+JC+R2             -3944.009    8422.018 - 8.26e-46    8523.804 - 3.01e-45    9869.951 - 4.48e-43
+JC+I+R4           -3925.970    8395.939 -  3.8e-40    8501.944 - 1.68e-40    9870.987 - 2.67e-43
+JC+R4             -3931.600    8405.201 - 3.71e-42    8510.353 - 2.51e-42    9874.826 - 3.92e-44
+JC+I+R2           -3944.020    8424.040 - 3.01e-46    8526.662 - 7.21e-46    9877.396 - 1.08e-44
+JC+G4             -4088.269    8708.538 - 5.01e-108    8809.493 - 2.77e-107   10151.048 - 4.09e-104
+JC                -4319.507    9169.014 - 5.12e-208    9269.142 - 4.27e-207   10606.101 - 6.29e-203
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM3u+F+I+G4
+
+Rate parameter R:
+
+  A-C: 0.2942
+  A-G: 4.7577
+  A-T: 1.0000
+  C-G: 0.2942
+  C-T: 4.7577
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2289
+  pi(C) = 0.2582
+  pi(G) = 0.2568
+  pi(T) = 0.256
+
+Rate matrix Q:
+
+  A    -1.028   0.05028    0.8087    0.1694
+  C   0.04457   -0.9006      0.05    0.8061
+  G    0.7208   0.05028   -0.9405    0.1694
+  T    0.1515    0.8131      0.17    -1.135
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.9036
+Gamma shape alpha: 0.5184
+
+ Category  Relative_rate  Proportion
+  0         0              0.9036
+  1         0.382          0.02411
+  2         2.735          0.02411
+  3         8.639          0.02411
+  4         29.72          0.02411
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3807.8872 (s.e. 165.5595)
+Unconstrained log-likelihood (without tree): -8141.9174
+Number of free parameters (#branches + #model parameters): 272
+Akaike information criterion (AIC) score: 8159.7745
+Corrected Akaike information criterion (AICc) score: 8265.7788
+Bayesian information criterion (BIC) score: 9634.8227
+
+Total tree length (sum of branch lengths): 0.2067
+Sum of internal branch lengths: 0.0669 (32.3788% of tree length)
+
+WARNING: 81 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'BLAN-1-1-No|noeB|consensus50|pass_single_dominant' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**BLAN-1-1-No|noeB|consensus50|pass_single_dominant
+|
+|                          +--BLAN-1-1-Rh|noeB|consensus50|pass_single_dominant
+|                       +--| (73.7/41)
+|                       |  |                                                                                                  +**BLAN-2-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                               +**| (0/64)
+|                       |  |                                                                                               |  |        +**OAES_24-3-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                               |  |     +--| (80.2/85)
+|                       |  |                                                                                               |  |     |  +--OAES-5-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                               |  |  +--| (40.9/71)
+|                       |  |                                                                                               |  |  |  +--WOOD-4-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                               |  +--| (91.8/84)
+|                       |  |                                                                                               |     +**WOOD-3-2-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                            +**| (0/51)
+|                       |  |                                                                                            |  +**SCBI-2-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                         +**| (0/31)
+|                       |  |                                                                                         |  +--NOGP-7-2-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                      +**| (0/36)
+|                       |  |                                                                                      |  |            +--CPER-2-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                      |  |        +---| (95.3/90)
+|                       |  |                                                                                      |  |        |   +--NIWO-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                      |  |     +--| (84.7/74)
+|                       |  |                                                                                      |  |     |  +--SERC-6-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                      |  |  +**| (0/31)
+|                       |  |                                                                                      |  |  |  +--TEAK-1-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                      |  +**| (0/27)
+|                       |  |                                                                                      |     +**TALL-29-3-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                   +**| (0/38)
+|                       |  |                                                                                   |  +**WOOD-1-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                                +**| (0/14)
+|                       |  |                                                                                |  +**CPER-5-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                             +**| (0/45)
+|                       |  |                                                                             |  +**NOGP-3-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                          +**| (0/36)
+|                       |  |                                                                          |  |  +**NOGP-3-2-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                          |  +**| (0/72)
+|                       |  |                                                                          |     +**WOOD-3-2-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                       +--| (73.1/27)
+|                       |  |                                                                       |  |        +**DSNY-14-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                       |  |     +**| (0/54)
+|                       |  |                                                                       |  |     |  |  +**JORN-3-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                       |  |     |  +**| (0/53)
+|                       |  |                                                                       |  |     |     |  +**KONZ-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                       |  |     |     +**| (0/7)
+|                       |  |                                                                       |  |     |        |  +**OAES-14-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                       |  |     |        +**| (0/13)
+|                       |  |                                                                       |  |     |           +**OAES-15-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                       |  |  +**| (0/83)
+|                       |  |                                                                       |  |  |  +**OAES-14-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                       |  +--| (0/72)
+|                       |  |                                                                       |     +**OAES-36-3-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                                    +**| (0/58)
+|                       |  |                                                                    |  +**NOGP-4-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |  |                                                                 +**| (0/62)
+|                       |  |                                                                 |  +**NOGP-6-3-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                              +**| (0/9)
+|                       |  |                                                              |  |        +**DCFS-2-2-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                              |  |     +**| (0/80)
+|                       |  |                                                              |  |     |  +**TOOL-10-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                              |  |  +**| (0/56)
+|                       |  |                                                              |  |  |  |  +--DCFS-2-2-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                              |  |  |  +--| (77/70)
+|                       |  |                                                              |  |  |     +--DCFS-3-2-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                              |  +--| (0/51)
+|                       |  |                                                              |     +--DCFS-2-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                           +**| (0/1)
+|                       |  |                                                           |  |        +**DCFS-8-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                           |  |     +**| (0/74)
+|                       |  |                                                           |  |     |  |  +**DCFS-8-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                           |  |     |  +**| (0/62)
+|                       |  |                                                           |  |     |     +**NOGP-2-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                           |  |  +--| (85/64)
+|                       |  |                                                           |  |  |  +--DCFS-8-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                           |  +**| (0/6)
+|                       |  |                                                           |     |  +**DEJU-59-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                           |     +**| (0/45)
+|                       |  |                                                           |        +----NOGP-1-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                        +**| (0/3)
+|                       |  |                                                        |  |  +**DELA-26-3-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                        |  +**| (0/37)
+|                       |  |                                                        |     +**LENO-15-2-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                     +**| (0/18)
+|                       |  |                                                     |  +--NOGP-6-3-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                                  +**| (0/19)
+|                       |  |                                                  |  |        +**DSNY-15-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                  |  |     +**| (0/77)
+|                       |  |                                                  |  |     |  +**TOOL-25-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                                  |  |  +--| (0/11)
+|                       |  |                                                  |  |  |  +**OAES-6-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                                  |  +**| (0/15)
+|                       |  |                                                  |     +**OAES-7-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                                               +**| (0/13)
+|                       |  |                                               |  +**OAES_24-3-No|noeB|consensus50|pass_single_dominant
+|                       |  |                                            +**| (0/24)
+|                       |  |                                            |  +**OAES-37-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                         +**| (0/26)
+|                       |  |                                         |  +--SCBI-1-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                      +**| (0/58)
+|                       |  |                                      |  +---OAES-27-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                                   +--| (0/21)
+|                       |  |                                   |  +**OAES_19-2-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |  |                                +**| (0/19)
+|                       |  |                                |  +**OAES-6-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                             +--| (0/22)
+|                       |  |                             |  +**DCFS-4-No|noeB|consensus50|pass_single_dominant
+|                       |  |                          +--| (90.6/24)
+|                       |  |                          |  |  +--DCFS-4-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                          |  +**| (62/56)
+|                       |  |                          |     +-----NOGP-5-2-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                       +--| (76.7/24)
+|                       |  |                       |  |  +**WOOD-1-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |                       |  +--| (82.6/88)
+|                       |  |                       |     +--WOOD-3-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                    +--| (76.9/52)
+|                       |  |                    |  |     +**OAES_19-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                    |  |  +--| (0/53)
+|                       |  |                    |  |  |  |  +**OAES-6-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |                    |  |  |  +**| (0/51)
+|                       |  |                    |  |  |     +**OAES-7-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |                    |  +--| (91.5/31)
+|                       |  |                    |     +--OAES_24-3-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |                 +**| (71.2/52)
+|                       |  |                 |  +--DCFS-4-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |              +--| (93.3/49)
+|                       |  |              |  +--WOOD-6-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |           +**| (70.2/37)
+|                       |  |           |  |  +--BLAN-2-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |           |  +--| (75.5/44)
+|                       |  |           |     |  +**DCFS-6-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |           |     +--| (86.4/59)
+|                       |  |           |        +------------------------------------------------NOGP-1-1-No|noeB|consensus50|pass_single_dominant
+|                       |  |        +--| (86.6/27)
+|                       |  |        |  |  +**CPER-4-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |  |        |  +--| (0/42)
+|                       |  |        |     |     +--WOOD-12-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |        |     |  +--| (84.6/63)
+|                       |  |        |     |  |  +**WOOD-7-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |  |        |     +**| (0/39)
+|                       |  |        |        +**WOOD-8-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |     +--| (0/23)
+|                       |  |     |  +--NOGP-1-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |  |  +**| (0/19)
+|                       |  |  |  +**CPER-5-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |  +--| (87.5/37)
+|                       |     |                                            +**DCFS-3-2-No|noeB|consensus50|pass_single_dominant
+|                       |     |                                         +--| (0/98)
+|                       |     |                                         |  +--DCFS-3-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |     |                                      +**| (0/52)
+|                       |     |                                      |  +**DCFS-5-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |     |                                   +**| (0/45)
+|                       |     |                                   |  |     +-------OAES-20-Ro|noeB|consensus50|pass_single_dominant
+|                       |     |                                   |  |  +--| (75.4/68)
+|                       |     |                                   |  |  |  |        +--OAES-21-3-Ro|noeB|consensus50|pass_single_dominant
+|                       |     |                                   |  |  |  |     +**| (0/34)
+|                       |     |                                   |  |  |  |     |  |  +--OAES-23-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |     |                                   |  |  |  |     |  +**| (0/80)
+|                       |     |                                   |  |  |  |     |     +**OAES-25-1-No|noeB|consensus50|pass_single_dominant
+|                       |     |                                   |  |  |  |  +**| (0/31)
+|                       |     |                                   |  |  |  |  |  |  +**OAES-22-1-No|noeB|consensus50|pass_single_dominant
+|                       |     |                                   |  |  |  |  |  +**| (0/77)
+|                       |     |                                   |  |  |  |  |     +**OAES-25-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |     |                                   |  |  |  +--| (76.6/90)
+|                       |     |                                   |  |  |     +**OAES-26-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |     |                                   |  +--| (78.3/67)
+|                       |     |                                   |     +--OAES-23-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |     |                                +**| (0/45)
+|                       |     |                                |  +**DCFS-5-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |     |                           +----| (98.4/51)
+|                       |     |                           |    +--WOOD-7-1-No|noeB|consensus50|pass_single_dominant
+|                       |     |                        +--| (75.5/61)
+|                       |     |                        |  +**DCFS-5-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |     |                    +---| (89.4/63)
+|                       |     |                    |   +--OAES-7-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |     |                 +--| (89.4/62)
+|                       |     |                 |  |  +---WOOD-10-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |     |                 |  +--| (78.9/89)
+|                       |     |                 |     +--WOOD-7-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |     |              +--| (0/27)
+|                       |     |              |  |            +**NOGP-5-2-Ro|noeB|consensus50|pass_single_dominant
+|                       |     |              |  |         +--| (84/100)
+|                       |     |              |  |         |  +**WOOD-12-No|noeB|consensus50|pass_single_dominant
+|                       |     |              |  |     +---| (93.3/93)
+|                       |     |              |  |     |   +**WOOD-5-1-No|noeB|consensus50|pass_single_dominant
+|                       |     |              |  |  +--| (75.3/52)
+|                       |     |              |  |  |  +--WOOD-9-Rh|noeB|consensus50|pass_single_dominant
+|                       |     |              |  +--| (77.6/48)
+|                       |     |              |     +--WOOD-8-Rh|noeB|consensus50|pass_single_dominant
+|                       |     |           +**| (0/7)
+|                       |     |           |  +**NOGP-5-2-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |     |        +**| (0/3)
+|                       |     |        |  +**WOOD-6-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                       |     |     +**| (0/14)
+|                       |     |     |  |  +--RMNP-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |     |     |  +--| (92.1/34)
+|                       |     |     |     |  +--WOOD-10-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |     |     |     +--| (75.3/62)
+|                       |     |     |        +--WOOD-5-1-Rh|noeB|consensus50|pass_single_dominant
+|                       |     |  +--| (92.3/37)
+|                       |     |  |  +**WOOD-5-1-Ro|noeB|consensus50|pass_single_dominant
+|                       |     +**| (0/28)
+|                       |        +**TOOL-1-Ro|noeB|consensus50|pass_single_dominant
+|                    +--| (72.3/41)
+|                    |  +--WOOD-8-No|noeB|consensus50|pass_single_dominant
+|                 +**| (0/42)
+|                 |  +--SCBI-3-1-Rh|noeB|consensus50|pass_single_dominant
+|              +--| (0/43)
+|              |  +**BLAN-1-1-Ro|noeB|consensus50|pass_single_dominant
+|           +**| (0/42)
+|           |  +**LAJA-25-1-No|noeB|consensus50|pass_single_dominant
+|        +**| (0/27)
+|        |  |                             +**CLBJ-5-2-No|noeB|consensus50|pass_single_dominant
+|        |  |                          +**| (0/74)
+|        |  |                          |  +**JERC-DEST-32-1-No|noeB|consensus50|pass_single_dominant
+|        |  |                       +**| (0/40)
+|        |  |                       |  |  +**CPER-4-Rh|noeB|consensus50|pass_mixed_possible_multitemplate
+|        |  |                       |  +**| (0/51)
+|        |  |                       |     +**OAES-1-1-No|noeB|consensus50|pass_single_dominant
+|        |  |                    +**| (0/40)
+|        |  |                    |  +**OAES-2-1-No|noeB|consensus50|pass_single_dominant
+|        |  |                 +**| (0/59)
+|        |  |                 |  +--OAES-3-1-Ro|noeB|consensus50|pass_single_dominant
+|        |  |              +**| (0/20)
+|        |  |              |  +**CPER-2-Ro|noeB|consensus50|pass_single_dominant
+|        |  |           +--| (0/19)
+|        |  |           |  +**WOOD-6-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|        |  |        +**| (0/3)
+|        |  |        |  +**DCFS-6-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|        |  |     +**| (0/3)
+|        |  |     |  +**CPER-3-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|        |  |  +**| (0/5)
+|        |  |  |  +**WOOD-10-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|        |  +**| (0/29)
+|        |     +**TALL-28-1-No|noeB|consensus50|pass_single_dominant
+|     +**| (0/29)
+|     |  +**NOGP-2-1-Ro|noeB|consensus50|pass_single_dominant
+|  +**| (0/6)
+|  |  |              +**BLAN-3-1-No|noeB|consensus50|pass_single_dominant
+|  |  |           +**| (0/22)
+|  |  |           |  |  +--BLAN-4-1-Ro|noeB|consensus50|pass_single_dominant
+|  |  |           |  +**| (0/14)
+|  |  |           |     +**CPER-2-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|  |  |        +--| (0/16)
+|  |  |        |  +**CPER-3-1-Rh|noeB|consensus50|pass_mixed_possible_multitemplate
+|  |  |     +**| (0/46)
+|  |  |     |  |  +**CPER-4-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|  |  |     |  +**| (0/20)
+|  |  |     |     |     +**NOGP-3-2-Rh|noeB|consensus50|pass_single_dominant
+|  |  |     |     |  +**| (0/99)
+|  |  |     |     |  |  +**SCBI-2-1-Ro|noeB|consensus50|pass_single_dominant
+|  |  |     |     +--| (0/34)
+|  |  |     |        +**SCBI-3-1-Ro|noeB|consensus50|pass_single_dominant
+|  |  |  +**| (0/29)
+|  |  |  |  +--HEAL-7-1-Ro|noeB|consensus50|pass_single_dominant
+|  |  +**| (0/33)
+|  |     +**CPER-3-1-Ro|noeB|consensus50|pass_single_dominant
++**| (0/62)
+|  |           +**BLAN-2-1-Ro|noeB|consensus50|pass_single_dominant
+|  |        +**| (0/28)
+|  |        |  +**SCBI-2-1-No|noeB|consensus50|pass_single_dominant
+|  |     +**| (0/21)
+|  |     |  +**TEAK-3-1-Ro|noeB|consensus50|pass_single_dominant
+|  |  +**| (0/6)
+|  |  |  +**NOGP-2-1-No|noeB|consensus50|pass_single_dominant
+|  +**| (0/3)
+|     +**CLBJ-40-1-Ro|noeB|consensus50|pass_single_dominant
+|
++**CPER-5-1-Ro|noeB|consensus50|pass_single_dominant
+
+Tree in newick format:
+
+(BLAN-1-1-No|noeB|consensus50|pass_single_dominant:0.0000009936,(((((((((BLAN-1-1-Rh|noeB|consensus50|pass_single_dominant:0.0014349415,(((((((((((((((((((((((((((((((((BLAN-2-1-No|noeB|consensus50|pass_single_dominant:0.0000023232,(((OAES_24-3-Rh|noeB|consensus50|pass_single_dominant:0.0000020848,OAES-5-Rh|noeB|consensus50|pass_single_dominant:0.0015694748)80.2/85:0.0012252551,WOOD-4-1-No|noeB|consensus50|pass_single_dominant:0.0015700671)40.9/71:0.0012650254,WOOD-3-2-Rh|noeB|consensus50|pass_single_dominant:0.0000019995)91.8/84:0.0025672323)0/64:0.0000028155,SCBI-2-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936)0/51:0.0000009936,NOGP-7-2-No|noeB|consensus50|pass_single_dominant:0.0014973252)0/31:0.0000020557,((((CPER-2-Rh|noeB|consensus50|pass_single_dominant:0.0018542523,NIWO-1-Rh|noeB|consensus50|pass_single_dominant:0.0009025682)95.3/90:0.0040529665,SERC-6-1-No|noeB|consensus50|pass_single_dominant:0.0008241224)84.7/74:0.0013714717,TEAK-1-2-Ro|noeB|consensus50|pass_single_dominant:0.0006932506)0/31:0.0000025723,TALL-29-3-No|noeB|consensus50|pass_single_dominant:0.0000019916)0/27:0.0000022340)0/36:0.0000022099,WOOD-1-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/38:0.0000009936,CPER-5-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936)0/14:0.0000009936,NOGP-3-2-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/45:0.0000009936,(NOGP-3-2-No|noeB|consensus50|pass_single_dominant:0.0000009936,WOOD-3-2-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/72:0.0000009936)0/36:0.0000020148,(((DSNY-14-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936,(JORN-3-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936,(KONZ-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936,(OAES-14-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936,OAES-15-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/13:0.0000009936)0/7:0.0000009936)0/53:0.0000009936)0/54:0.0000023127,OAES-14-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/83:0.0000023330,OAES-36-3-Rh|noeB|consensus50|pass_single_dominant:0.0000009936)0/72:0.0006899890)73.1/27:0.0006877570,NOGP-4-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/58:0.0000023328,NOGP-6-3-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/62:0.0000023523,(((DCFS-2-2-No|noeB|consensus50|pass_single_dominant:0.0000009936,TOOL-10-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/80:0.0000013419,(DCFS-2-2-Rh|noeB|consensus50|pass_single_dominant:0.0008467357,DCFS-3-2-Rh|noeB|consensus50|pass_single_dominant:0.0017871937)77/70:0.0006706978)0/56:0.0000013649,DCFS-2-2-Ro|noeB|consensus50|pass_single_dominant:0.0018767292)0/51:0.0006974445)0/9:0.0000023493,(((DCFS-8-1-No|noeB|consensus50|pass_single_dominant:0.0000023353,(DCFS-8-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936,NOGP-2-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936)0/62:0.0000009936)0/74:0.0000024064,DCFS-8-1-Rh|noeB|consensus50|pass_single_dominant:0.0013988884)85/64:0.0006971682,(DEJU-59-No|noeB|consensus50|pass_single_dominant:0.0000009936,NOGP-1-1-Rh|noeB|consensus50|pass_single_dominant:0.0044992004)0/45:0.0000023809)0/6:0.0000022024)0/1:0.0000013523,(DELA-26-3-Ro|noeB|consensus50|pass_single_dominant:0.0000009936,LENO-15-2-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/37:0.0000009936)0/3:0.0000023028,NOGP-6-3-Rh|noeB|consensus50|pass_single_dominant:0.0006914365)0/18:0.0000022836,(((DSNY-15-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021184,TOOL-25-Ro|noeB|consensus50|pass_single_dominant:0.0000021837)0/77:0.0000026270,OAES-6-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/11:0.0013902115,OAES-7-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936)0/15:0.0000020194)0/19:0.0000025412,OAES_24-3-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/13:0.0000020156,OAES-37-2-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/24:0.0000021689,SCBI-1-1-Ro|noeB|consensus50|pass_single_dominant:0.0023413821)0/26:0.0000022191,OAES-27-2-Ro|noeB|consensus50|pass_single_dominant:0.0036565615)0/58:0.0000020430,OAES_19-2-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/21:0.0007208997,OAES-6-1-Ro|noeB|consensus50|pass_single_dominant:0.0000020615)0/19:0.0000025411,DCFS-4-No|noeB|consensus50|pass_single_dominant:0.0000019765)0/22:0.0007545149,(DCFS-4-Ro|noeB|consensus50|pass_single_dominant:0.0027266848,NOGP-5-2-Rh|noeB|consensus50|pass_single_dominant:0.0056738546)62/56:0.0003450721)90.6/24:0.0022229259,(WOOD-1-1-No|noeB|consensus50|pass_single_dominant:0.0000021086,WOOD-3-2-Ro|noeB|consensus50|pass_single_dominant:0.0030766346)82.6/88:0.0014371622)76.7/24:0.0008168466,((OAES_19-2-Ro|noeB|consensus50|pass_single_dominant:0.0000009936,(OAES-6-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936,OAES-7-1-No|noeB|consensus50|pass_single_dominant:0.0000023864)0/51:0.0000028609)0/53:0.0007188214,OAES_24-3-Ro|noeB|consensus50|pass_single_dominant:0.0023405669)91.5/31:0.0026679477)76.9/52:0.0006887824,DCFS-4-Rh|noeB|consensus50|pass_single_dominant:0.0007267675)71.2/52:0.0005920980,WOOD-6-1-Rh|noeB|consensus50|pass_single_dominant:0.0033398165)93.3/49:0.0032527084,(BLAN-2-1-Rh|noeB|consensus50|pass_single_dominant:0.0024416951,(DCFS-6-1-Ro|noeB|consensus50|pass_single_dominant:0.0000020743,NOGP-1-1-No|noeB|consensus50|pass_single_dominant:0.0443209264)86.4/59:0.0021394761)75.5/44:0.0008887583)70.2/37:0.0005645054,(CPER-4-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936,((WOOD-12-Rh|noeB|consensus50|pass_single_dominant:0.0020138626,WOOD-7-1-Rh|noeB|consensus50|pass_single_dominant:0.0000024405)84.6/63:0.0009307158,WOOD-8-Ro|noeB|consensus50|pass_single_dominant:0.0000020040)0/39:0.0000023314)0/42:0.0007017033)86.6/27:0.0014333700,NOGP-1-1-Ro|noeB|consensus50|pass_single_dominant:0.0008070353)0/23:0.0006428016,CPER-5-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/19:0.0000022739,((((((((((((((DCFS-3-2-No|noeB|consensus50|pass_single_dominant:0.0000020403,DCFS-3-2-Ro|noeB|consensus50|pass_single_dominant:0.0007190008)0/98:0.0021108002,DCFS-5-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/52:0.0000020488,((OAES-20-Ro|noeB|consensus50|pass_single_dominant:0.0079773262,(((OAES-21-3-Ro|noeB|consensus50|pass_single_dominant:0.0006916609,(OAES-23-1-Rh|noeB|consensus50|pass_single_dominant:0.0031222694,OAES-25-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/80:0.0000022693)0/34:0.0000009936,(OAES-22-1-No|noeB|consensus50|pass_single_dominant:0.0000009936,OAES-25-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/77:0.0000009936)0/31:0.0000009936,OAES-26-1-Rh|noeB|consensus50|pass_single_dominant:0.0000009936)76.6/90:0.0006891392)75.4/68:0.0006875269,OAES-23-1-Ro|noeB|consensus50|pass_single_dominant:0.0014514980)78.3/67:0.0007699643)0/45:0.0000020305,DCFS-5-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/45:0.0005509894,WOOD-7-1-No|noeB|consensus50|pass_single_dominant:0.0030077411)98.4/51:0.0045197832,DCFS-5-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021705)75.5/61:0.0012715123,OAES-7-1-Ro|noeB|consensus50|pass_single_dominant:0.0024463046)89.4/63:0.0040137408,(WOOD-10-1-Ro|noeB|consensus50|pass_single_dominant:0.0036797162,WOOD-7-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0009226127)78.9/89:0.0013201903)89.4/62:0.0024716433,((((NOGP-5-2-Ro|noeB|consensus50|pass_single_dominant:0.0000009936,WOOD-12-No|noeB|consensus50|pass_single_dominant:0.0000009936)84/100:0.0011815323,WOOD-5-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)93.3/93:0.0038401237,WOOD-9-Rh|noeB|consensus50|pass_single_dominant:0.0028036017)75.3/52:0.0007825991,WOOD-8-Rh|noeB|consensus50|pass_single_dominant:0.0013717680)77.6/48:0.0007527689)0/27:0.0006563470,NOGP-5-2-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/7:0.0000022063,WOOD-6-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/3:0.0000022495,(RMNP-1-Rh|noeB|consensus50|pass_single_dominant:0.0006922742,(WOOD-10-1-Rh|noeB|consensus50|pass_single_dominant:0.0016796184,WOOD-5-1-Rh|noeB|consensus50|pass_single_dominant:0.0025221547)75.3/62:0.0006585054)92.1/34:0.0021817546)0/14:0.0000022700,WOOD-5-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021581)92.3/37:0.0006847686,TOOL-1-Ro|noeB|consensus50|pass_single_dominant:0.0000022934)0/28:0.0000022227)87.5/37:0.0013956292)73.7/41:0.0007013744,WOOD-8-No|noeB|consensus50|pass_single_dominant:0.0020982922)72.3/41:0.0007094680,SCBI-3-1-Rh|noeB|consensus50|pass_single_dominant:0.0028423194)0/42:0.0000020295,BLAN-1-1-Ro|noeB|consensus50|pass_single_dominant:0.0000023716)0/43:0.0006846322,LAJA-25-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/42:0.0000022699,((((((((((CLBJ-5-2-No|noeB|consensus50|pass_single_dominant:0.0000009936,JERC-DEST-32-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/74:0.0000009936,(CPER-4-Rh|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936,OAES-1-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/51:0.0000025859)0/40:0.0000022987,OAES-2-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/40:0.0000009936,OAES-3-1-Ro|noeB|consensus50|pass_single_dominant:0.0006937437)0/59:0.0000022889,CPER-2-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/20:0.0000022485,WOOD-6-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/19:0.0006657924,DCFS-6-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/3:0.0000022223,CPER-3-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/3:0.0000022371,WOOD-10-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/5:0.0000021001,TALL-28-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/29:0.0000029391)0/27:0.0000009936,NOGP-2-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/29:0.0000009936,(((((BLAN-3-1-No|noeB|consensus50|pass_single_dominant:0.0000020923,(BLAN-4-1-Ro|noeB|consensus50|pass_single_dominant:0.0006779009,CPER-2-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/14:0.0000021142)0/22:0.0000023251,CPER-3-1-Rh|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936)0/16:0.0006779147,(CPER-4-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000009936,((NOGP-3-2-Rh|noeB|consensus50|pass_single_dominant:0.0000022875,SCBI-2-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/99:0.0000020640,SCBI-3-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/34:0.0006756812)0/20:0.0000023159)0/46:0.0000020181,HEAL-7-1-Ro|noeB|consensus50|pass_single_dominant:0.0006844969)0/29:0.0000020702,CPER-3-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/33:0.0000009936)0/6:0.0000009936,((((BLAN-2-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936,SCBI-2-1-No|noeB|consensus50|pass_single_dominant:0.0000022204)0/28:0.0000019788,TEAK-3-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/21:0.0000009936,NOGP-2-1-No|noeB|consensus50|pass_single_dominant:0.0000009936)0/6:0.0000009936,CLBJ-40-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936)0/3:0.0000009936)0/62:0.0000009936,CPER-5-1-Ro|noeB|consensus50|pass_single_dominant:0.0000009936);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -3808.051096
+Robinson-Foulds distance between ML tree and consensus tree: 54
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--BLAN-1-1-No|noeB|consensus50|pass_single_dominant
+|
+|                             +--BLAN-1-1-Rh|noeB|consensus50|pass_single_dominant
+|                          +--| (41)
+|                          |  |                                                                                               +--BLAN-2-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                            +--| (64)
+|                          |  |                                                                                            |  |        +--OAES_24-3-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                            |  |     +--| (85)
+|                          |  |                                                                                            |  |     |  +--OAES-5-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                            |  |  +--| (71)
+|                          |  |                                                                                            |  |  |  +--WOOD-4-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                            |  +--| (84)
+|                          |  |                                                                                            |     +--WOOD-3-2-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                         +--| (51)
+|                          |  |                                                                                         |  +--SCBI-2-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                      +--| (31)
+|                          |  |                                                                                      |  +--NOGP-7-2-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                   +--| (36)
+|                          |  |                                                                                   |  |            +--CPER-2-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                   |  |        +---| (90)
+|                          |  |                                                                                   |  |        |   +--NIWO-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                   |  |     +--| (74)
+|                          |  |                                                                                   |  |     |  +--SERC-6-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                   |  |  +--| (31)
+|                          |  |                                                                                   |  |  |  +--TEAK-1-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                   |  +--| (27)
+|                          |  |                                                                                   |     +--TALL-29-3-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                                +--| (38)
+|                          |  |                                                                                |  +--WOOD-1-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                             +--| (45)
+|                          |  |                                                                             |  |                    +**CPER-5-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                             |  |                 +**|
+|                          |  |                                                                             |  |                 |  +**NOGP-6-3-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                             |  |              +**|
+|                          |  |                                                                             |  |              |  +**OSBS-36-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                             |  |           +**|
+|                          |  |                                                                             |  |           |  +**OAES_19-2-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                             |  |        +**|
+|                          |  |                                                                             |  |        |  +**WOOD-11-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                             |  |     +**|
+|                          |  |                                                                             |  |     |  +**OAES-36-3-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                             |  |  +--|
+|                          |  |                                                                             |  |  |  +**OSBS-36-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                             |  +--| (19)
+|                          |  |                                                                             |     +--NOGP-3-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                          +--| (36)
+|                          |  |                                                                          |  |  +--NOGP-3-2-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                          |  +--| (72)
+|                          |  |                                                                          |     +--WOOD-3-2-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                       +--| (27)
+|                          |  |                                                                       |  |        +--DSNY-14-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                       |  |     +--| (54)
+|                          |  |                                                                       |  |     |  |           +**JORN-3-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                       |  |     |  |        +--|
+|                          |  |                                                                       |  |     |  |        |  +**OAES-14-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                       |  |     |  |     +--| (31)
+|                          |  |                                                                       |  |     |  |     |  +--KONZ-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                       |  |     |  |  +--| (18)
+|                          |  |                                                                       |  |     |  |  |  +--OAES-14-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                       |  |     |  +--| (53)
+|                          |  |                                                                       |  |     |     +--OAES-15-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                       |  |  +--| (83)
+|                          |  |                                                                       |  |  |  +--OAES-14-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                       |  +--| (72)
+|                          |  |                                                                       |     +--OAES-36-3-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                                    +--| (58)
+|                          |  |                                                                    |  +--NOGP-4-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |  |                                                                 +--| (62)
+|                          |  |                                                                 |  +--NOGP-6-3-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                              +--| (11)
+|                          |  |                                                              |  |     +--DCFS-8-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                              |  |  +--| (74)
+|                          |  |                                                              |  |  |  |  +--DCFS-8-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                              |  |  |  +--| (62)
+|                          |  |                                                              |  |  |     +--NOGP-2-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                              |  +--| (64)
+|                          |  |                                                              |     +--DCFS-8-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                           +--| (6)
+|                          |  |                                                           |  |        +--DEJU-59-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                           |  |     +--| (45)
+|                          |  |                                                           |  |     |  +----NOGP-1-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                           |  |  +--| (16)
+|                          |  |                                                           |  |  |  |  +--DELA-26-3-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                           |  |  |  +--| (37)
+|                          |  |                                                           |  |  |     +--LENO-15-2-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                           |  +--| (13)
+|                          |  |                                                           |     +--NOGP-6-3-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                        +--| (18)
+|                          |  |                                                        |  |        +--DCFS-2-2-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                                        |  |     +--| (80)
+|                          |  |                                                        |  |     |  +--TOOL-10-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                        |  |  +--| (56)
+|                          |  |                                                        |  |  |  |  +--DCFS-2-2-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                        |  |  |  +--| (70)
+|                          |  |                                                        |  |  |     +--DCFS-3-2-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                                        |  +--| (51)
+|                          |  |                                                        |     +--DCFS-2-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                     +--| (27)
+|                          |  |                                                     |  |  +--DSNY-15-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                     |  +--| (77)
+|                          |  |                                                     |     +--TOOL-25-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                                  +--| (12)
+|                          |  |                                                  |  +--OAES-7-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                                               +--| (19)
+|                          |  |                                               |  +--OAES-6-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                            +--| (13)
+|                          |  |                                            |  +--OAES_24-3-No|noeB|consensus50|pass_single_dominant
+|                          |  |                                         +--| (24)
+|                          |  |                                         |  +--OAES-37-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                      +--| (26)
+|                          |  |                                      |  +--SCBI-1-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                   +--| (58)
+|                          |  |                                   |  +---OAES-27-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                                +--| (37)
+|                          |  |                                |  +--OAES-6-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                             +--| (33)
+|                          |  |                             |  +--DCFS-4-No|noeB|consensus50|pass_single_dominant
+|                          |  |                          +--| (31)
+|                          |  |                          |  |  +--DCFS-4-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                          |  +--| (56)
+|                          |  |                          |     +-----NOGP-5-2-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                       +--| (32)
+|                          |  |                       |  |  +--WOOD-1-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                       |  +--| (88)
+|                          |  |                       |     +--WOOD-3-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                    +--| (52)
+|                          |  |                    |  |     +--OAES_19-2-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |  |                    |  |  +--| (35)
+|                          |  |                    |  |  |  |  +--OAES_19-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                    |  |  |  +--| (53)
+|                          |  |                    |  |  |     |  +--OAES-6-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |                    |  |  |     +--| (51)
+|                          |  |                    |  |  |        +--OAES-7-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |                    |  +--| (37)
+|                          |  |                    |     +--OAES_24-3-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |                 +--| (52)
+|                          |  |                 |  +--DCFS-4-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |              +--| (49)
+|                          |  |              |  +--WOOD-6-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |           +--| (37)
+|                          |  |           |  |  +--BLAN-2-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |           |  +--| (44)
+|                          |  |           |     |  +--DCFS-6-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |           |     +--| (59)
+|                          |  |           |        +------------------------------------------------NOGP-1-1-No|noeB|consensus50|pass_single_dominant
+|                          |  |        +--| (27)
+|                          |  |        |  |  +--CPER-4-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |  |        |  +--| (42)
+|                          |  |        |     |     +--WOOD-12-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |        |     |  +--| (63)
+|                          |  |        |     |  |  +--WOOD-7-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |  |        |     +--| (39)
+|                          |  |        |        +--WOOD-8-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |     +--| (23)
+|                          |  |     |  +--NOGP-1-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |  |  +--| (19)
+|                          |  |  |  +--CPER-5-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |  +--| (37)
+|                          |     |                                         +--DCFS-3-2-No|noeB|consensus50|pass_single_dominant
+|                          |     |                                      +--| (98)
+|                          |     |                                      |  +--DCFS-3-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |                                   +--| (52)
+|                          |     |                                   |  +--DCFS-5-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |     |                                +--| (45)
+|                          |     |                                |  |     +-------OAES-20-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |                                |  |  +--| (68)
+|                          |     |                                |  |  |  |  +--OAES-21-3-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |                                |  |  |  +--| (90)
+|                          |     |                                |  |  |     |        +--OAES-22-1-No|noeB|consensus50|pass_single_dominant
+|                          |     |                                |  |  |     |     +--| (77)
+|                          |     |                                |  |  |     |     |  +--OAES-25-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |                                |  |  |     |  +--| (32)
+|                          |     |                                |  |  |     |  |  +--OAES-26-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |     |                                |  |  |     +--| (35)
+|                          |     |                                |  |  |        |  +--OAES-23-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |     |                                |  |  |        +--| (80)
+|                          |     |                                |  |  |           +--OAES-25-1-No|noeB|consensus50|pass_single_dominant
+|                          |     |                                |  +--| (67)
+|                          |     |                                |     +--OAES-23-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |                             +--| (45)
+|                          |     |                             |  +--DCFS-5-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |     |                        +----| (51)
+|                          |     |                        |    +--WOOD-7-1-No|noeB|consensus50|pass_single_dominant
+|                          |     |                     +--| (61)
+|                          |     |                     |  +--DCFS-5-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |     |                 +---| (63)
+|                          |     |                 |   +--OAES-7-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |              +--| (62)
+|                          |     |              |  |  +---WOOD-10-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |              |  +--| (89)
+|                          |     |              |     +--WOOD-7-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |     |           +--| (27)
+|                          |     |           |  |            +--NOGP-5-2-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |           |  |         +--| (100)
+|                          |     |           |  |         |  +--WOOD-12-No|noeB|consensus50|pass_single_dominant
+|                          |     |           |  |     +---| (93)
+|                          |     |           |  |     |   +--WOOD-5-1-No|noeB|consensus50|pass_single_dominant
+|                          |     |           |  |  +--| (52)
+|                          |     |           |  |  |  +--WOOD-9-Rh|noeB|consensus50|pass_single_dominant
+|                          |     |           |  +--| (48)
+|                          |     |           |     +--WOOD-8-Rh|noeB|consensus50|pass_single_dominant
+|                          |     |        +--| (15)
+|                          |     |        |  |  +--NOGP-5-2-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |     |        |  +--| (22)
+|                          |     |        |     |  +--RMNP-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |     |        |     +--| (34)
+|                          |     |        |        |  +--WOOD-10-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |     |        |        +--| (62)
+|                          |     |        |           +--WOOD-5-1-Rh|noeB|consensus50|pass_single_dominant
+|                          |     |     +--| (18)
+|                          |     |     |  +--WOOD-5-1-Ro|noeB|consensus50|pass_single_dominant
+|                          |     |  +--| (37)
+|                          |     |  |  +--WOOD-6-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|                          |     +--| (28)
+|                          |        +--TOOL-1-Ro|noeB|consensus50|pass_single_dominant
+|                       +--| (41)
+|                       |  +--WOOD-8-No|noeB|consensus50|pass_single_dominant
+|                    +--| (42)
+|                    |  +--SCBI-3-1-Rh|noeB|consensus50|pass_single_dominant
+|                 +--| (43)
+|                 |  +--BLAN-1-1-Ro|noeB|consensus50|pass_single_dominant
+|              +--| (42)
+|              |  +--LAJA-25-1-No|noeB|consensus50|pass_single_dominant
+|           +--| (27)
+|           |  |                                            +**CLBJ-5-2-No|noeB|consensus50|pass_single_dominant
+|           |  |                                         +**|
+|           |  |                                         |  +**OAES-8-2-Ro|noeB|consensus50|pass_single_dominant
+|           |  |                                      +**|
+|           |  |                                      |  +**KONZ-6-1-Ro|noeB|consensus50|pass_single_dominant
+|           |  |                                   +**|
+|           |  |                                   |  +**OAES-5-Ro|noeB|consensus50|pass_single_dominant
+|           |  |                                +**|
+|           |  |                                |  +**OAES-3-1-No|noeB|consensus50|pass_single_dominant
+|           |  |                             +--|
+|           |  |                             |  +**OAES-2-1-Ro|noeB|consensus50|pass_single_dominant
+|           |  |                          +--| (74)
+|           |  |                          |  +--JERC-DEST-32-1-No|noeB|consensus50|pass_single_dominant
+|           |  |                       +--| (40)
+|           |  |                       |  |  +--CPER-4-Rh|noeB|consensus50|pass_mixed_possible_multitemplate
+|           |  |                       |  +--| (51)
+|           |  |                       |     +--OAES-1-1-No|noeB|consensus50|pass_single_dominant
+|           |  |                    +--| (40)
+|           |  |                    |  +--OAES-2-1-No|noeB|consensus50|pass_single_dominant
+|           |  |                 +--| (59)
+|           |  |                 |  +--OAES-3-1-Ro|noeB|consensus50|pass_single_dominant
+|           |  |              +--| (20)
+|           |  |              |  +--CPER-2-Ro|noeB|consensus50|pass_single_dominant
+|           |  |           +--| (19)
+|           |  |           |  +--WOOD-6-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate
+|           |  |        +--| (15)
+|           |  |        |  +--TALL-28-1-No|noeB|consensus50|pass_single_dominant
+|           |  |     +--| (12)
+|           |  |     |  +--WOOD-10-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|           |  |  +--| (10)
+|           |  |  |  +--CPER-3-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|           |  +--| (29)
+|           |     +--DCFS-6-1-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|        +--| (29)
+|        |  +--NOGP-2-1-Ro|noeB|consensus50|pass_single_dominant
+|     +--| (5)
+|     |  |           +**CLBJ-40-1-Ro|noeB|consensus50|pass_single_dominant
+|     |  |        +**|
+|     |  |        |  +**TALL-74-3-No|noeB|consensus50|pass_single_dominant
+|     |  |     +**|
+|     |  |     |  +**OAES-36-2-No|noeB|consensus50|pass_single_dominant
+|     |  |  +--|
+|     |  |  |  +**TALL-24-2-No|noeB|consensus50|pass_single_dominant
+|     |  +--| (9)
+|     |     +--NOGP-2-1-No|noeB|consensus50|pass_single_dominant
+|  +--| (6)
+|  |  |     +--BLAN-2-1-Ro|noeB|consensus50|pass_single_dominant
+|  |  |  +--| (28)
+|  |  |  |  +--SCBI-2-1-No|noeB|consensus50|pass_single_dominant
+|  |  +--| (21)
+|  |     +--TEAK-3-1-Ro|noeB|consensus50|pass_single_dominant
++--| (62)
+|  |                 +--BLAN-3-1-No|noeB|consensus50|pass_single_dominant
+|  |              +--| (44)
+|  |              |  +--BLAN-4-1-Ro|noeB|consensus50|pass_single_dominant
+|  |           +--| (22)
+|  |           |  +--CPER-2-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|  |        +--| (16)
+|  |        |  +--CPER-3-1-Rh|noeB|consensus50|pass_mixed_possible_multitemplate
+|  |     +--| (46)
+|  |     |  |  +--CPER-4-No|noeB|consensus50|pass_mixed_possible_multitemplate
+|  |     |  +--| (20)
+|  |     |     |     +--NOGP-3-2-Rh|noeB|consensus50|pass_single_dominant
+|  |     |     |  +--| (99)
+|  |     |     |  |  +--SCBI-2-1-Ro|noeB|consensus50|pass_single_dominant
+|  |     |     +--| (34)
+|  |     |        +--SCBI-3-1-Ro|noeB|consensus50|pass_single_dominant
+|  |  +--| (29)
+|  |  |  +--HEAL-7-1-Ro|noeB|consensus50|pass_single_dominant
+|  +--| (33)
+|     +--CPER-3-1-Ro|noeB|consensus50|pass_single_dominant
+|
++--CPER-5-1-Ro|noeB|consensus50|pass_single_dominant
+
+
+Consensus tree in newick format: 
+
+(BLAN-1-1-No|noeB|consensus50|pass_single_dominant:0.0000021662,((((((((((BLAN-1-1-Rh|noeB|consensus50|pass_single_dominant:0.0014389779,((((((((((((((((((((((((((((((((BLAN-2-1-No|noeB|consensus50|pass_single_dominant:0.0000021662,(((OAES_24-3-Rh|noeB|consensus50|pass_single_dominant:0.0000021662,OAES-5-Rh|noeB|consensus50|pass_single_dominant:0.0015752716)85:0.0012288617,WOOD-4-1-No|noeB|consensus50|pass_single_dominant:0.0015754181)71:0.0012699035,WOOD-3-2-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)84:0.0025762968)64:0.0000027553,SCBI-2-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)51:0.0000021662,NOGP-7-2-No|noeB|consensus50|pass_single_dominant:0.0015028675)31:0.0000021662,((((CPER-2-Rh|noeB|consensus50|pass_single_dominant:0.0018601174,NIWO-1-Rh|noeB|consensus50|pass_single_dominant:0.0009058365)90:0.0040663879,SERC-6-1-No|noeB|consensus50|pass_single_dominant:0.0008274755)74:0.0013759867,TEAK-1-2-Ro|noeB|consensus50|pass_single_dominant:0.0006972000)31:0.0000021662,TALL-29-3-No|noeB|consensus50|pass_single_dominant:0.0000021662)27:0.0000021662)36:0.0000021662,WOOD-1-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)38:0.0000021662,(((((((CPER-5-1-Rh|noeB|consensus50|pass_single_dominant:0.0000000000,NOGP-6-3-Ro|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,OSBS-36-1-No|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,OAES_19-2-Rh|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,WOOD-11-1-No|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,OAES-36-3-No|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,OSBS-36-1-Ro|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000021662,NOGP-3-2-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)19:0.0000021662)45:0.0000021662,(NOGP-3-2-No|noeB|consensus50|pass_single_dominant:0.0000021662,WOOD-3-2-No|noeB|consensus50|pass_single_dominant:0.0000021662)72:0.0000021662)36:0.0000021662,(((DSNY-14-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662,((((JORN-3-1-Rh|noeB|consensus50|pass_single_dominant:0.0000000000,OAES-14-1-Ro|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000021662,KONZ-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)31:0.0000021662,OAES-14-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)18:0.0000021662,OAES-15-No|noeB|consensus50|pass_single_dominant:0.0000021662)53:0.0000021662)54:0.0000021662,OAES-14-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)83:0.0006927659,OAES-36-3-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)72:0.0000025713)27:0.0000021662,NOGP-4-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)58:0.0000025744,NOGP-6-3-No|noeB|consensus50|pass_single_dominant:0.0000021662)62:0.0006907831,((DCFS-8-1-No|noeB|consensus50|pass_single_dominant:0.0000021662,(DCFS-8-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662,NOGP-2-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)62:0.0000021662)74:0.0000021662,DCFS-8-1-Rh|noeB|consensus50|pass_single_dominant:0.0014039709)64:0.0007011832)11:0.0000021662,(((DEJU-59-No|noeB|consensus50|pass_single_dominant:0.0000021662,NOGP-1-1-Rh|noeB|consensus50|pass_single_dominant:0.0045145090)45:0.0000021662,(DELA-26-3-Ro|noeB|consensus50|pass_single_dominant:0.0000021662,LENO-15-2-No|noeB|consensus50|pass_single_dominant:0.0000021662)37:0.0000021662)16:0.0000021662,NOGP-6-3-Rh|noeB|consensus50|pass_single_dominant:0.0006953922)13:0.0000021662)6:0.0000021662,(((DCFS-2-2-No|noeB|consensus50|pass_single_dominant:0.0000021662,TOOL-10-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)80:0.0000021662,(DCFS-2-2-Rh|noeB|consensus50|pass_single_dominant:0.0008499603,DCFS-3-2-Rh|noeB|consensus50|pass_single_dominant:0.0017938077)70:0.0006728957)56:0.0005962639,DCFS-2-2-Ro|noeB|consensus50|pass_single_dominant:0.0018824504)51:0.0001050208)18:0.0000021662,(DSNY-15-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662,TOOL-25-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)77:0.0013999873)27:0.0000021662,OAES-7-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)12:0.0000021662,OAES-6-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)19:0.0000021662,OAES_24-3-No|noeB|consensus50|pass_single_dominant:0.0000021662)13:0.0000021662,OAES-37-2-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)24:0.0000021662,SCBI-1-1-Ro|noeB|consensus50|pass_single_dominant:0.0023492270)26:0.0000021596,OAES-27-2-Ro|noeB|consensus50|pass_single_dominant:0.0036683844)58:0.0007212634,OAES-6-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)37:0.0000022403,DCFS-4-No|noeB|consensus50|pass_single_dominant:0.0000021662)33:0.0007578082,(DCFS-4-Ro|noeB|consensus50|pass_single_dominant:0.0027386963,NOGP-5-2-Rh|noeB|consensus50|pass_single_dominant:0.0056949852)56:0.0003423912)31:0.0022302180,(WOOD-1-1-No|noeB|consensus50|pass_single_dominant:0.0000021662,WOOD-3-2-Ro|noeB|consensus50|pass_single_dominant:0.0030869000)88:0.0014412173)32:0.0008207599,((OAES_19-2-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662,(OAES_19-2-Ro|noeB|consensus50|pass_single_dominant:0.0000021662,(OAES-6-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662,OAES-7-1-No|noeB|consensus50|pass_single_dominant:0.0000021153)51:0.0000022575)53:0.0000021662)35:0.0007197696,OAES_24-3-Ro|noeB|consensus50|pass_single_dominant:0.0023496061)37:0.0026764279)52:0.0006907854,DCFS-4-Rh|noeB|consensus50|pass_single_dominant:0.0007295385)52:0.0005909705,WOOD-6-1-Rh|noeB|consensus50|pass_single_dominant:0.0033523673)49:0.0032651587,(BLAN-2-1-Rh|noeB|consensus50|pass_single_dominant:0.0024517165,(DCFS-6-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021685,NOGP-1-1-No|noeB|consensus50|pass_single_dominant:0.0445345603)59:0.0021479949)44:0.0008885897)37:0.0005707482,(CPER-4-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662,((WOOD-12-Rh|noeB|consensus50|pass_single_dominant:0.0020199174,WOOD-7-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)63:0.0009344968,WOOD-8-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)39:0.0003359886)42:0.0003467190)27:0.0014323619,NOGP-1-1-Ro|noeB|consensus50|pass_single_dominant:0.0008094014)23:0.0000022688,CPER-5-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)19:0.0006436326,(((((((((((((DCFS-3-2-No|noeB|consensus50|pass_single_dominant:0.0000021662,DCFS-3-2-Ro|noeB|consensus50|pass_single_dominant:0.0007206352)98:0.0021154178,DCFS-5-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)52:0.0000022877,((OAES-20-Ro|noeB|consensus50|pass_single_dominant:0.0079978593,(OAES-21-3-Ro|noeB|consensus50|pass_single_dominant:0.0006940048,(((OAES-22-1-No|noeB|consensus50|pass_single_dominant:0.0000021662,OAES-25-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)77:0.0000021662,OAES-26-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)32:0.0000021662,(OAES-23-1-Rh|noeB|consensus50|pass_single_dominant:0.0031286353,OAES-25-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)80:0.0000021685)35:0.0000021662)90:0.0006906721)68:0.0006890458,OAES-23-1-Ro|noeB|consensus50|pass_single_dominant:0.0014545485)67:0.0007717990)45:0.0000020778,DCFS-5-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)45:0.0005527144,WOOD-7-1-No|noeB|consensus50|pass_single_dominant:0.0030143612)51:0.0045312144,DCFS-5-1-Rh|noeB|consensus50|pass_single_dominant:0.0000021662)61:0.0012748743,OAES-7-1-Ro|noeB|consensus50|pass_single_dominant:0.0024524160)63:0.0040219378,(WOOD-10-1-Ro|noeB|consensus50|pass_single_dominant:0.0036894981,WOOD-7-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0009245441)89:0.0013229656)62:0.0024777161,((((NOGP-5-2-Ro|noeB|consensus50|pass_single_dominant:0.0000021662,WOOD-12-No|noeB|consensus50|pass_single_dominant:0.0000021662)100:0.0011844547,WOOD-5-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)93:0.0038492843,WOOD-9-Rh|noeB|consensus50|pass_single_dominant:0.0028104085)52:0.0007851081,WOOD-8-Rh|noeB|consensus50|pass_single_dominant:0.0013751093)48:0.0007552546)27:0.0006627132,(NOGP-5-2-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662,(RMNP-1-Rh|noeB|consensus50|pass_single_dominant:0.0006943695,(WOOD-10-1-Rh|noeB|consensus50|pass_single_dominant:0.0016850343,WOOD-5-1-Rh|noeB|consensus50|pass_single_dominant:0.0025298766)62:0.0006597855)34:0.0021856203)22:0.0000020141)15:0.0000021662,WOOD-5-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)18:0.0006846191,WOOD-6-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)37:0.0000020100,TOOL-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)28:0.0000021662)37:0.0013994401)41:0.0007034784,WOOD-8-No|noeB|consensus50|pass_single_dominant:0.0021048806)41:0.0007116137,SCBI-3-1-Rh|noeB|consensus50|pass_single_dominant:0.0028499023)42:0.0000021662,BLAN-1-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)43:0.0000020271,LAJA-25-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)42:0.0006865533,(((((((((((((((CLBJ-5-2-No|noeB|consensus50|pass_single_dominant:0.0000000000,OAES-8-2-Ro|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,KONZ-6-1-Ro|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,OAES-5-Ro|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,OAES-3-1-No|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,OAES-2-1-Ro|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000021662,JERC-DEST-32-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)74:0.0000021662,(CPER-4-Rh|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662,OAES-1-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)51:0.0000021662)40:0.0000021662,OAES-2-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)40:0.0000021662,OAES-3-1-Ro|noeB|consensus50|pass_single_dominant:0.0006957547)59:0.0006686483,CPER-2-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)20:0.0000021849,WOOD-6-1-Ro|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)19:0.0000021662,TALL-28-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)15:0.0000021662,WOOD-10-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)12:0.0000021662,CPER-3-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)10:0.0000021662,DCFS-6-1-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)29:0.0000021662)27:0.0000021662,NOGP-2-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)29:0.0000021662,((((CLBJ-40-1-Ro|noeB|consensus50|pass_single_dominant:0.0000000000,TALL-74-3-No|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,OAES-36-2-No|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000000000,TALL-24-2-No|noeB|consensus50|pass_single_dominant:0.0000000000):0.0000021662,NOGP-2-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)9:0.0000021662)5:0.0000021662,((BLAN-2-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662,SCBI-2-1-No|noeB|consensus50|pass_single_dominant:0.0000021662)28:0.0000021662,TEAK-3-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)21:0.0000021662)6:0.0000021662,((((((BLAN-3-1-No|noeB|consensus50|pass_single_dominant:0.0000021662,BLAN-4-1-Ro|noeB|consensus50|pass_single_dominant:0.0006819665)44:0.0006769313,CPER-2-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)22:0.0000029277,CPER-3-1-Rh|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662)16:0.0000021662,(CPER-4-No|noeB|consensus50|pass_mixed_possible_multitemplate:0.0000021662,((NOGP-3-2-Rh|noeB|consensus50|pass_single_dominant:0.0000021662,SCBI-2-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)99:0.0006772665,SCBI-3-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)34:0.0000024622)20:0.0000021662)46:0.0000021662,HEAL-7-1-Ro|noeB|consensus50|pass_single_dominant:0.0006864916)29:0.0000021662,CPER-3-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662)33:0.0000021662)62:0.0000021662,CPER-5-1-Ro|noeB|consensus50|pass_single_dominant:0.0000021662);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeB/04_tree_iupac_nm5000/noeB_consensus50_iupac_all_pass_nm5000.treefile -m "TPM3u{0.29418,4.75768}+F{0.228927,0.258236,0.256828,0.256008}+I{0.903556}+G4{0.518391}" --length 1674
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeB/02_alignment/noeB_consensus50_iupac_all_pass.mafft.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/noeB/02_alignment/noeB_consensus50_iupac_all_pass.mafft.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Aug  5 09:36:50 2026
+Total CPU time used: 5053.312174 seconds (1h:24m:13s)
+Total wall-clock time used: 3256.648725 seconds (0h:54m:16s)
+

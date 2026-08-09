@@ -1,0 +1,1501 @@
+gene	gene_group	metadata_category	metadata_value	total_samples	good_samples	percent_good
+nifD	nif	sample_type	No	952	543	57.03781512605042
+nifD	nif	sample_type	Rh	989	484	48.93832153690597
+nifD	nif	sample_type	Ro	964	470	48.7551867219917
+nifH	nif	sample_type	No	952	564	59.2436974789916
+nifH	nif	sample_type	Rh	989	506	51.16279069767442
+nifH	nif	sample_type	Ro	964	502	52.0746887966805
+nifJ	nif	sample_type	No	952	158	16.596638655462186
+nifJ	nif	sample_type	Rh	989	94	9.504550050556118
+nifJ	nif	sample_type	Ro	964	74	7.676348547717843
+nifK	nif	sample_type	No	952	421	44.22268907563025
+nifK	nif	sample_type	Rh	989	343	34.68149646107179
+nifK	nif	sample_type	Ro	964	324	33.60995850622407
+nodL	canonical nod	sample_type	No	952	97	10.1890756302521
+nodL	canonical nod	sample_type	Rh	989	77	7.785642062689585
+nodL	canonical nod	sample_type	Ro	964	65	6.742738589211618
+nodX	canonical nod	sample_type	No	952	53	5.567226890756302
+nodX	canonical nod	sample_type	Rh	989	45	4.550050556117291
+nodX	canonical nod	sample_type	Ro	964	39	4.045643153526971
+noeA	accessory nodulation/symbiosis-related	sample_type	No	952	67	7.03781512605042
+noeA	accessory nodulation/symbiosis-related	sample_type	Rh	989	63	6.370070778564206
+noeA	accessory nodulation/symbiosis-related	sample_type	Ro	964	67	6.950207468879668
+noeB	accessory nodulation/symbiosis-related	sample_type	No	952	54	5.6722689075630255
+noeB	accessory nodulation/symbiosis-related	sample_type	Rh	989	39	3.9433771486349847
+noeB	accessory nodulation/symbiosis-related	sample_type	Ro	964	56	5.809128630705394
+nolF	accessory nodulation/symbiosis-related	sample_type	No	952	70	7.352941176470588
+nolF	accessory nodulation/symbiosis-related	sample_type	Rh	989	64	6.47118301314459
+nolF	accessory nodulation/symbiosis-related	sample_type	Ro	964	75	7.780082987551867
+nolG	accessory nodulation/symbiosis-related	sample_type	No	952	74	7.773109243697479
+nolG	accessory nodulation/symbiosis-related	sample_type	Rh	989	82	8.291203235591507
+nolG	accessory nodulation/symbiosis-related	sample_type	Ro	964	74	7.676348547717843
+nifD	nif	metadata_type	Unknown	30	18	60
+nifD	nif	metadata_type	nodule	941	539	57.279489904357064
+nifD	nif	metadata_type	rhizosphere	980	476	48.57142857142857
+nifD	nif	metadata_type	root	954	464	48.63731656184486
+nifH	nif	metadata_type	Unknown	30	15	50
+nifH	nif	metadata_type	nodule	941	558	59.29861849096706
+nifH	nif	metadata_type	rhizosphere	980	501	51.12244897959184
+nifH	nif	metadata_type	root	954	498	52.20125786163522
+nifJ	nif	metadata_type	Unknown	30	0	0
+nifJ	nif	metadata_type	nodule	941	158	16.790648246546226
+nifJ	nif	metadata_type	rhizosphere	980	94	9.591836734693878
+nifJ	nif	metadata_type	root	954	74	7.756813417190775
+nifK	nif	metadata_type	Unknown	30	11	36.666666666666664
+nifK	nif	metadata_type	nodule	941	417	44.314558979808716
+nifK	nif	metadata_type	rhizosphere	980	341	34.795918367346935
+nifK	nif	metadata_type	root	954	319	33.43815513626834
+nodL	canonical nod	metadata_type	Unknown	30	6	20
+nodL	canonical nod	metadata_type	nodule	941	95	10.095642933049946
+nodL	canonical nod	metadata_type	rhizosphere	980	75	7.653061224489796
+nodL	canonical nod	metadata_type	root	954	63	6.60377358490566
+nodX	canonical nod	metadata_type	Unknown	30	4	13.333333333333334
+nodX	canonical nod	metadata_type	nodule	941	52	5.526036131774708
+nodX	canonical nod	metadata_type	rhizosphere	980	44	4.489795918367347
+nodX	canonical nod	metadata_type	root	954	37	3.8784067085953877
+noeA	accessory nodulation/symbiosis-related	metadata_type	Unknown	30	6	20
+noeA	accessory nodulation/symbiosis-related	metadata_type	nodule	941	65	6.9075451647183845
+noeA	accessory nodulation/symbiosis-related	metadata_type	rhizosphere	980	61	6.224489795918367
+noeA	accessory nodulation/symbiosis-related	metadata_type	root	954	65	6.813417190775682
+noeB	accessory nodulation/symbiosis-related	metadata_type	Unknown	30	6	20
+noeB	accessory nodulation/symbiosis-related	metadata_type	nodule	941	52	5.526036131774708
+noeB	accessory nodulation/symbiosis-related	metadata_type	rhizosphere	980	37	3.7755102040816326
+noeB	accessory nodulation/symbiosis-related	metadata_type	root	954	54	5.660377358490566
+nolF	accessory nodulation/symbiosis-related	metadata_type	Unknown	30	6	20
+nolF	accessory nodulation/symbiosis-related	metadata_type	nodule	941	68	7.226354941551541
+nolF	accessory nodulation/symbiosis-related	metadata_type	rhizosphere	980	62	6.326530612244898
+nolF	accessory nodulation/symbiosis-related	metadata_type	root	954	73	7.651991614255765
+nolG	accessory nodulation/symbiosis-related	metadata_type	Unknown	30	6	20
+nolG	accessory nodulation/symbiosis-related	metadata_type	nodule	941	72	7.651434643995749
+nolG	accessory nodulation/symbiosis-related	metadata_type	rhizosphere	980	80	8.16326530612245
+nolG	accessory nodulation/symbiosis-related	metadata_type	root	954	72	7.547169811320755
+nifD	nif	host_family	Betulaceae	322	70	21.73913043478261
+nifD	nif	host_family	Elaeagnaceae	76	23	30.263157894736842
+nifD	nif	host_family	Fabaceae	2183	1282	58.72652313330279
+nifD	nif	host_family	Myricaceae	140	31	22.142857142857142
+nifD	nif	host_family	Rhamnaceae	71	27	38.028169014084504
+nifD	nif	host_family	Rosaceae	83	46	55.42168674698795
+nifD	nif	host_family	Unknown	32	18	56.25
+nifH	nif	host_family	Betulaceae	322	74	22.981366459627328
+nifH	nif	host_family	Elaeagnaceae	76	22	28.94736842105263
+nifH	nif	host_family	Fabaceae	2183	1353	61.97892808062299
+nifH	nif	host_family	Myricaceae	140	38	27.142857142857142
+nifH	nif	host_family	Rhamnaceae	71	22	30.985915492957748
+nifH	nif	host_family	Rosaceae	83	48	57.83132530120482
+nifH	nif	host_family	Unknown	32	15	46.875
+nifJ	nif	host_family	Betulaceae	322	171	53.1055900621118
+nifJ	nif	host_family	Elaeagnaceae	76	31	40.78947368421053
+nifJ	nif	host_family	Fabaceae	2183	62	2.8401282638570775
+nifJ	nif	host_family	Myricaceae	140	48	34.285714285714285
+nifJ	nif	host_family	Rhamnaceae	71	12	16.901408450704224
+nifJ	nif	host_family	Rosaceae	83	2	2.4096385542168677
+nifJ	nif	host_family	Unknown	32	2	6.25
+nifK	nif	host_family	Betulaceae	322	25	7.763975155279503
+nifK	nif	host_family	Elaeagnaceae	76	22	28.94736842105263
+nifK	nif	host_family	Fabaceae	2183	945	43.28905176362804
+nifK	nif	host_family	Myricaceae	140	19	13.571428571428571
+nifK	nif	host_family	Rhamnaceae	71	23	32.394366197183096
+nifK	nif	host_family	Rosaceae	83	43	51.80722891566265
+nifK	nif	host_family	Unknown	32	11	34.375
+nodL	canonical nod	host_family	Betulaceae	322	6	1.8633540372670807
+nodL	canonical nod	host_family	Elaeagnaceae	76	6	7.894736842105263
+nodL	canonical nod	host_family	Fabaceae	2183	213	9.757214841960606
+nodL	canonical nod	host_family	Myricaceae	140	1	0.7142857142857143
+nodL	canonical nod	host_family	Rhamnaceae	71	3	4.225352112676056
+nodL	canonical nod	host_family	Rosaceae	83	4	4.819277108433735
+nodL	canonical nod	host_family	Unknown	32	6	18.75
+nodX	canonical nod	host_family	Betulaceae	322	11	3.4161490683229814
+nodX	canonical nod	host_family	Elaeagnaceae	76	5	6.578947368421052
+nodX	canonical nod	host_family	Fabaceae	2183	113	5.176362803481448
+nodX	canonical nod	host_family	Myricaceae	140	0	0
+nodX	canonical nod	host_family	Rhamnaceae	71	0	0
+nodX	canonical nod	host_family	Rosaceae	83	4	4.819277108433735
+nodX	canonical nod	host_family	Unknown	32	4	12.5
+noeA	accessory nodulation/symbiosis-related	host_family	Betulaceae	322	3	0.9316770186335404
+noeA	accessory nodulation/symbiosis-related	host_family	Elaeagnaceae	76	6	7.894736842105263
+noeA	accessory nodulation/symbiosis-related	host_family	Fabaceae	2183	172	7.87906550618415
+noeA	accessory nodulation/symbiosis-related	host_family	Myricaceae	140	3	2.142857142857143
+noeA	accessory nodulation/symbiosis-related	host_family	Rhamnaceae	71	3	4.225352112676056
+noeA	accessory nodulation/symbiosis-related	host_family	Rosaceae	83	4	4.819277108433735
+noeA	accessory nodulation/symbiosis-related	host_family	Unknown	32	6	18.75
+noeB	accessory nodulation/symbiosis-related	host_family	Betulaceae	322	2	0.6211180124223602
+noeB	accessory nodulation/symbiosis-related	host_family	Elaeagnaceae	76	5	6.578947368421052
+noeB	accessory nodulation/symbiosis-related	host_family	Fabaceae	2183	134	6.138341731562071
+noeB	accessory nodulation/symbiosis-related	host_family	Myricaceae	140	1	0.7142857142857143
+noeB	accessory nodulation/symbiosis-related	host_family	Rhamnaceae	71	0	0
+noeB	accessory nodulation/symbiosis-related	host_family	Rosaceae	83	1	1.2048192771084338
+noeB	accessory nodulation/symbiosis-related	host_family	Unknown	32	6	18.75
+nolF	accessory nodulation/symbiosis-related	host_family	Betulaceae	322	6	1.8633540372670807
+nolF	accessory nodulation/symbiosis-related	host_family	Elaeagnaceae	76	8	10.526315789473685
+nolF	accessory nodulation/symbiosis-related	host_family	Fabaceae	2183	177	8.108108108108109
+nolF	accessory nodulation/symbiosis-related	host_family	Myricaceae	140	2	1.4285714285714286
+nolF	accessory nodulation/symbiosis-related	host_family	Rhamnaceae	71	4	5.633802816901408
+nolF	accessory nodulation/symbiosis-related	host_family	Rosaceae	83	6	7.228915662650603
+nolF	accessory nodulation/symbiosis-related	host_family	Unknown	32	6	18.75
+nolG	accessory nodulation/symbiosis-related	host_family	Betulaceae	322	4	1.2422360248447204
+nolG	accessory nodulation/symbiosis-related	host_family	Elaeagnaceae	76	7	9.210526315789474
+nolG	accessory nodulation/symbiosis-related	host_family	Fabaceae	2183	198	9.070087036188731
+nolG	accessory nodulation/symbiosis-related	host_family	Myricaceae	140	3	2.142857142857143
+nolG	accessory nodulation/symbiosis-related	host_family	Rhamnaceae	71	3	4.225352112676056
+nolG	accessory nodulation/symbiosis-related	host_family	Rosaceae	83	9	10.843373493975903
+nolG	accessory nodulation/symbiosis-related	host_family	Unknown	32	6	18.75
+nifD	nif	host_genus	Acmispon	9	6	66.66666666666667
+nifD	nif	host_genus	Aeschynomene	12	7	58.333333333333336
+nifD	nif	host_genus	Albizia	24	17	70.83333333333333
+nifD	nif	host_genus	Alnus	322	70	21.73913043478261
+nifD	nif	host_genus	Alysicarpus	23	8	34.78260869565217
+nifD	nif	host_genus	Amorpha	42	34	80.95238095238095
+nifD	nif	host_genus	Amphicarpaea	41	19	46.34146341463415
+nifD	nif	host_genus	Astragalus	131	119	90.83969465648855
+nifD	nif	host_genus	Baptisia	9	5	55.55555555555556
+nifD	nif	host_genus	Ceanothus	71	27	38.028169014084504
+nifD	nif	host_genus	Centrosema	44	12	27.272727272727273
+nifD	nif	host_genus	Chamaecrista	109	53	48.62385321100918
+nifD	nif	host_genus	Chapmannia	11	8	72.72727272727273
+nifD	nif	host_genus	Clitoria	36	16	44.44444444444444
+nifD	nif	host_genus	Comptonia	9	2	22.22222222222222
+nifD	nif	host_genus	Crotalaria	108	62	57.407407407407405
+nifD	nif	host_genus	Dalea	55	44	80
+nifD	nif	host_genus	Desmanthus	12	9	75
+nifD	nif	host_genus	Desmodium	428	190	44.39252336448598
+nifD	nif	host_genus	Dryas	83	46	55.42168674698795
+nifD	nif	host_genus	Elaeagnus	76	23	30.263157894736842
+nifD	nif	host_genus	Galactia	86	47	54.651162790697676
+nifD	nif	host_genus	Glycine	21	13	61.904761904761905
+nifD	nif	host_genus	Indigofera	33	15	45.45454545454545
+nifD	nif	host_genus	Kummerowia	6	6	100
+nifD	nif	host_genus	Lespedeza	242	132	54.54545454545455
+nifD	nif	host_genus	Leucaena	6	4	66.66666666666667
+nifD	nif	host_genus	Lotus	24	24	100
+nifD	nif	host_genus	Lupinus	126	65	51.58730158730159
+nifD	nif	host_genus	Macroptilium	24	13	54.166666666666664
+nifD	nif	host_genus	Medicago	59	57	96.61016949152543
+nifD	nif	host_genus	Melilotus	32	31	96.875
+nifD	nif	host_genus	Mimosa	29	15	51.724137931034484
+nifD	nif	host_genus	Morella	131	29	22.137404580152673
+nifD	nif	host_genus	Orbexilum	6	3	50
+nifD	nif	host_genus	Oxytropis	27	24	88.88888888888889
+nifD	nif	host_genus	Pediomelum	19	8	42.10526315789474
+nifD	nif	host_genus	Pictetia	9	2	22.22222222222222
+nifD	nif	host_genus	Rhynchosia	58	33	56.89655172413793
+nifD	nif	host_genus	Robinia	12	8	66.66666666666667
+nifD	nif	host_genus	Sesbania	47	30	63.829787234042556
+nifD	nif	host_genus	Strophostyles	15	11	73.33333333333333
+nifD	nif	host_genus	Stylosanthes	50	24	48
+nifD	nif	host_genus	Tephrosia	65	44	67.6923076923077
+nifD	nif	host_genus	Thermopsis	6	5	83.33333333333333
+nifD	nif	host_genus	Trifolium	21	16	76.19047619047619
+nifD	nif	host_genus	Unknown	32	18	56.25
+nifD	nif	host_genus	Vicia	28	22	78.57142857142857
+nifD	nif	host_genus	Zornia	6	3	50
+nifH	nif	host_genus	Acmispon	9	5	55.55555555555556
+nifH	nif	host_genus	Aeschynomene	12	7	58.333333333333336
+nifH	nif	host_genus	Albizia	24	17	70.83333333333333
+nifH	nif	host_genus	Alnus	322	74	22.981366459627328
+nifH	nif	host_genus	Alysicarpus	23	9	39.130434782608695
+nifH	nif	host_genus	Amorpha	42	35	83.33333333333333
+nifH	nif	host_genus	Amphicarpaea	41	18	43.90243902439025
+nifH	nif	host_genus	Astragalus	131	108	82.44274809160305
+nifH	nif	host_genus	Baptisia	9	7	77.77777777777777
+nifH	nif	host_genus	Ceanothus	71	22	30.985915492957748
+nifH	nif	host_genus	Centrosema	44	15	34.09090909090909
+nifH	nif	host_genus	Chamaecrista	109	59	54.12844036697248
+nifH	nif	host_genus	Chapmannia	11	7	63.63636363636363
+nifH	nif	host_genus	Clitoria	36	20	55.55555555555556
+nifH	nif	host_genus	Comptonia	9	2	22.22222222222222
+nifH	nif	host_genus	Crotalaria	108	68	62.96296296296296
+nifH	nif	host_genus	Dalea	55	44	80
+nifH	nif	host_genus	Desmanthus	12	10	83.33333333333333
+nifH	nif	host_genus	Desmodium	428	220	51.401869158878505
+nifH	nif	host_genus	Dryas	83	48	57.83132530120482
+nifH	nif	host_genus	Elaeagnus	76	22	28.94736842105263
+nifH	nif	host_genus	Galactia	86	57	66.27906976744185
+nifH	nif	host_genus	Glycine	21	11	52.38095238095238
+nifH	nif	host_genus	Indigofera	33	17	51.515151515151516
+nifH	nif	host_genus	Kummerowia	6	6	100
+nifH	nif	host_genus	Lespedeza	242	134	55.37190082644628
+nifH	nif	host_genus	Leucaena	6	5	83.33333333333333
+nifH	nif	host_genus	Lotus	24	23	95.83333333333333
+nifH	nif	host_genus	Lupinus	126	67	53.17460317460318
+nifH	nif	host_genus	Macroptilium	24	15	62.5
+nifH	nif	host_genus	Medicago	59	54	91.52542372881356
+nifH	nif	host_genus	Melilotus	32	30	93.75
+nifH	nif	host_genus	Mimosa	29	19	65.51724137931035
+nifH	nif	host_genus	Morella	131	36	27.480916030534353
+nifH	nif	host_genus	Orbexilum	6	3	50
+nifH	nif	host_genus	Oxytropis	27	24	88.88888888888889
+nifH	nif	host_genus	Pediomelum	19	13	68.42105263157895
+nifH	nif	host_genus	Pictetia	9	4	44.44444444444444
+nifH	nif	host_genus	Rhynchosia	58	41	70.6896551724138
+nifH	nif	host_genus	Robinia	12	9	75
+nifH	nif	host_genus	Sesbania	47	31	65.95744680851064
+nifH	nif	host_genus	Strophostyles	15	12	80
+nifH	nif	host_genus	Stylosanthes	50	24	48
+nifH	nif	host_genus	Tephrosia	65	41	63.07692307692308
+nifH	nif	host_genus	Thermopsis	6	6	100
+nifH	nif	host_genus	Trifolium	21	12	57.142857142857146
+nifH	nif	host_genus	Unknown	32	15	46.875
+nifH	nif	host_genus	Vicia	28	21	75
+nifH	nif	host_genus	Zornia	6	2	33.333333333333336
+nifJ	nif	host_genus	Acmispon	9	0	0
+nifJ	nif	host_genus	Aeschynomene	12	2	16.666666666666668
+nifJ	nif	host_genus	Albizia	24	0	0
+nifJ	nif	host_genus	Alnus	322	171	53.1055900621118
+nifJ	nif	host_genus	Alysicarpus	23	1	4.3478260869565215
+nifJ	nif	host_genus	Amorpha	42	1	2.380952380952381
+nifJ	nif	host_genus	Amphicarpaea	41	1	2.4390243902439024
+nifJ	nif	host_genus	Astragalus	131	0	0
+nifJ	nif	host_genus	Baptisia	9	0	0
+nifJ	nif	host_genus	Ceanothus	71	12	16.901408450704224
+nifJ	nif	host_genus	Centrosema	44	1	2.272727272727273
+nifJ	nif	host_genus	Chamaecrista	109	3	2.7522935779816513
+nifJ	nif	host_genus	Chapmannia	11	0	0
+nifJ	nif	host_genus	Clitoria	36	0	0
+nifJ	nif	host_genus	Comptonia	9	4	44.44444444444444
+nifJ	nif	host_genus	Crotalaria	108	4	3.7037037037037037
+nifJ	nif	host_genus	Dalea	55	0	0
+nifJ	nif	host_genus	Desmanthus	12	3	25
+nifJ	nif	host_genus	Desmodium	428	15	3.5046728971962615
+nifJ	nif	host_genus	Dryas	83	2	2.4096385542168677
+nifJ	nif	host_genus	Elaeagnus	76	31	40.78947368421053
+nifJ	nif	host_genus	Galactia	86	3	3.488372093023256
+nifJ	nif	host_genus	Glycine	21	0	0
+nifJ	nif	host_genus	Indigofera	33	2	6.0606060606060606
+nifJ	nif	host_genus	Kummerowia	6	0	0
+nifJ	nif	host_genus	Lespedeza	242	5	2.0661157024793386
+nifJ	nif	host_genus	Leucaena	6	1	16.666666666666668
+nifJ	nif	host_genus	Lotus	24	0	0
+nifJ	nif	host_genus	Lupinus	126	8	6.349206349206349
+nifJ	nif	host_genus	Macroptilium	24	0	0
+nifJ	nif	host_genus	Medicago	59	0	0
+nifJ	nif	host_genus	Melilotus	32	0	0
+nifJ	nif	host_genus	Mimosa	29	0	0
+nifJ	nif	host_genus	Morella	131	44	33.587786259541986
+nifJ	nif	host_genus	Orbexilum	6	0	0
+nifJ	nif	host_genus	Oxytropis	27	0	0
+nifJ	nif	host_genus	Pediomelum	19	1	5.2631578947368425
+nifJ	nif	host_genus	Pictetia	9	0	0
+nifJ	nif	host_genus	Rhynchosia	58	6	10.344827586206897
+nifJ	nif	host_genus	Robinia	12	0	0
+nifJ	nif	host_genus	Sesbania	47	3	6.382978723404255
+nifJ	nif	host_genus	Strophostyles	15	0	0
+nifJ	nif	host_genus	Stylosanthes	50	1	2
+nifJ	nif	host_genus	Tephrosia	65	0	0
+nifJ	nif	host_genus	Thermopsis	6	0	0
+nifJ	nif	host_genus	Trifolium	21	1	4.761904761904762
+nifJ	nif	host_genus	Unknown	32	2	6.25
+nifJ	nif	host_genus	Vicia	28	0	0
+nifJ	nif	host_genus	Zornia	6	0	0
+nifK	nif	host_genus	Acmispon	9	4	44.44444444444444
+nifK	nif	host_genus	Aeschynomene	12	1	8.333333333333334
+nifK	nif	host_genus	Albizia	24	10	41.666666666666664
+nifK	nif	host_genus	Alnus	322	25	7.763975155279503
+nifK	nif	host_genus	Alysicarpus	23	4	17.391304347826086
+nifK	nif	host_genus	Amorpha	42	28	66.66666666666667
+nifK	nif	host_genus	Amphicarpaea	41	12	29.26829268292683
+nifK	nif	host_genus	Astragalus	131	112	85.49618320610686
+nifK	nif	host_genus	Baptisia	9	5	55.55555555555556
+nifK	nif	host_genus	Ceanothus	71	23	32.394366197183096
+nifK	nif	host_genus	Centrosema	44	4	9.090909090909092
+nifK	nif	host_genus	Chamaecrista	109	30	27.522935779816514
+nifK	nif	host_genus	Chapmannia	11	8	72.72727272727273
+nifK	nif	host_genus	Clitoria	36	10	27.77777777777778
+nifK	nif	host_genus	Comptonia	9	1	11.11111111111111
+nifK	nif	host_genus	Crotalaria	108	45	41.666666666666664
+nifK	nif	host_genus	Dalea	55	40	72.72727272727273
+nifK	nif	host_genus	Desmanthus	12	9	75
+nifK	nif	host_genus	Desmodium	428	113	26.401869158878505
+nifK	nif	host_genus	Dryas	83	43	51.80722891566265
+nifK	nif	host_genus	Elaeagnus	76	22	28.94736842105263
+nifK	nif	host_genus	Galactia	86	30	34.883720930232556
+nifK	nif	host_genus	Glycine	21	11	52.38095238095238
+nifK	nif	host_genus	Indigofera	33	12	36.36363636363637
+nifK	nif	host_genus	Kummerowia	6	4	66.66666666666667
+nifK	nif	host_genus	Lespedeza	242	96	39.66942148760331
+nifK	nif	host_genus	Leucaena	6	3	50
+nifK	nif	host_genus	Lotus	24	24	100
+nifK	nif	host_genus	Lupinus	126	44	34.92063492063492
+nifK	nif	host_genus	Macroptilium	24	6	25
+nifK	nif	host_genus	Medicago	59	54	91.52542372881356
+nifK	nif	host_genus	Melilotus	32	29	90.625
+nifK	nif	host_genus	Mimosa	29	5	17.24137931034483
+nifK	nif	host_genus	Morella	131	18	13.740458015267176
+nifK	nif	host_genus	Orbexilum	6	3	50
+nifK	nif	host_genus	Oxytropis	27	25	92.5925925925926
+nifK	nif	host_genus	Pediomelum	19	10	52.63157894736842
+nifK	nif	host_genus	Pictetia	9	0	0
+nifK	nif	host_genus	Rhynchosia	58	19	32.758620689655174
+nifK	nif	host_genus	Robinia	12	6	50
+nifK	nif	host_genus	Sesbania	47	18	38.297872340425535
+nifK	nif	host_genus	Strophostyles	15	8	53.333333333333336
+nifK	nif	host_genus	Stylosanthes	50	14	28
+nifK	nif	host_genus	Tephrosia	65	34	52.30769230769231
+nifK	nif	host_genus	Thermopsis	6	4	66.66666666666667
+nifK	nif	host_genus	Trifolium	21	14	66.66666666666667
+nifK	nif	host_genus	Unknown	32	11	34.375
+nifK	nif	host_genus	Vicia	28	22	78.57142857142857
+nifK	nif	host_genus	Zornia	6	0	0
+nodL	canonical nod	host_genus	Acmispon	9	0	0
+nodL	canonical nod	host_genus	Aeschynomene	12	0	0
+nodL	canonical nod	host_genus	Albizia	24	1	4.166666666666667
+nodL	canonical nod	host_genus	Alnus	322	6	1.8633540372670807
+nodL	canonical nod	host_genus	Alysicarpus	23	0	0
+nodL	canonical nod	host_genus	Amorpha	42	4	9.523809523809524
+nodL	canonical nod	host_genus	Amphicarpaea	41	3	7.317073170731708
+nodL	canonical nod	host_genus	Astragalus	131	41	31.297709923664122
+nodL	canonical nod	host_genus	Baptisia	9	0	0
+nodL	canonical nod	host_genus	Ceanothus	71	3	4.225352112676056
+nodL	canonical nod	host_genus	Centrosema	44	0	0
+nodL	canonical nod	host_genus	Chamaecrista	109	3	2.7522935779816513
+nodL	canonical nod	host_genus	Chapmannia	11	3	27.272727272727273
+nodL	canonical nod	host_genus	Clitoria	36	3	8.333333333333334
+nodL	canonical nod	host_genus	Comptonia	9	0	0
+nodL	canonical nod	host_genus	Crotalaria	108	5	4.62962962962963
+nodL	canonical nod	host_genus	Dalea	55	12	21.818181818181817
+nodL	canonical nod	host_genus	Desmanthus	12	0	0
+nodL	canonical nod	host_genus	Desmodium	428	14	3.2710280373831777
+nodL	canonical nod	host_genus	Dryas	83	4	4.819277108433735
+nodL	canonical nod	host_genus	Elaeagnus	76	6	7.894736842105263
+nodL	canonical nod	host_genus	Galactia	86	1	1.1627906976744187
+nodL	canonical nod	host_genus	Glycine	21	1	4.761904761904762
+nodL	canonical nod	host_genus	Indigofera	33	1	3.0303030303030303
+nodL	canonical nod	host_genus	Kummerowia	6	2	33.333333333333336
+nodL	canonical nod	host_genus	Lespedeza	242	12	4.958677685950414
+nodL	canonical nod	host_genus	Leucaena	6	0	0
+nodL	canonical nod	host_genus	Lotus	24	0	0
+nodL	canonical nod	host_genus	Lupinus	126	5	3.9682539682539684
+nodL	canonical nod	host_genus	Macroptilium	24	0	0
+nodL	canonical nod	host_genus	Medicago	59	48	81.35593220338983
+nodL	canonical nod	host_genus	Melilotus	32	25	78.125
+nodL	canonical nod	host_genus	Mimosa	29	1	3.4482758620689653
+nodL	canonical nod	host_genus	Morella	131	1	0.7633587786259542
+nodL	canonical nod	host_genus	Orbexilum	6	0	0
+nodL	canonical nod	host_genus	Oxytropis	27	7	25.925925925925927
+nodL	canonical nod	host_genus	Pediomelum	19	1	5.2631578947368425
+nodL	canonical nod	host_genus	Pictetia	9	0	0
+nodL	canonical nod	host_genus	Rhynchosia	58	3	5.172413793103448
+nodL	canonical nod	host_genus	Robinia	12	0	0
+nodL	canonical nod	host_genus	Sesbania	47	1	2.127659574468085
+nodL	canonical nod	host_genus	Strophostyles	15	3	20
+nodL	canonical nod	host_genus	Stylosanthes	50	1	2
+nodL	canonical nod	host_genus	Tephrosia	65	2	3.076923076923077
+nodL	canonical nod	host_genus	Thermopsis	6	3	50
+nodL	canonical nod	host_genus	Trifolium	21	4	19.047619047619047
+nodL	canonical nod	host_genus	Unknown	32	6	18.75
+nodL	canonical nod	host_genus	Vicia	28	3	10.714285714285714
+nodL	canonical nod	host_genus	Zornia	6	0	0
+nodX	canonical nod	host_genus	Acmispon	9	0	0
+nodX	canonical nod	host_genus	Aeschynomene	12	0	0
+nodX	canonical nod	host_genus	Albizia	24	1	4.166666666666667
+nodX	canonical nod	host_genus	Alnus	322	11	3.4161490683229814
+nodX	canonical nod	host_genus	Alysicarpus	23	1	4.3478260869565215
+nodX	canonical nod	host_genus	Amorpha	42	4	9.523809523809524
+nodX	canonical nod	host_genus	Amphicarpaea	41	1	2.4390243902439024
+nodX	canonical nod	host_genus	Astragalus	131	1	0.7633587786259542
+nodX	canonical nod	host_genus	Baptisia	9	0	0
+nodX	canonical nod	host_genus	Ceanothus	71	0	0
+nodX	canonical nod	host_genus	Centrosema	44	1	2.272727272727273
+nodX	canonical nod	host_genus	Chamaecrista	109	5	4.587155963302752
+nodX	canonical nod	host_genus	Chapmannia	11	2	18.181818181818183
+nodX	canonical nod	host_genus	Clitoria	36	2	5.555555555555555
+nodX	canonical nod	host_genus	Comptonia	9	0	0
+nodX	canonical nod	host_genus	Crotalaria	108	5	4.62962962962963
+nodX	canonical nod	host_genus	Dalea	55	1	1.8181818181818181
+nodX	canonical nod	host_genus	Desmanthus	12	0	0
+nodX	canonical nod	host_genus	Desmodium	428	15	3.5046728971962615
+nodX	canonical nod	host_genus	Dryas	83	4	4.819277108433735
+nodX	canonical nod	host_genus	Elaeagnus	76	5	6.578947368421052
+nodX	canonical nod	host_genus	Galactia	86	9	10.465116279069768
+nodX	canonical nod	host_genus	Glycine	21	0	0
+nodX	canonical nod	host_genus	Indigofera	33	0	0
+nodX	canonical nod	host_genus	Kummerowia	6	3	50
+nodX	canonical nod	host_genus	Lespedeza	242	16	6.6115702479338845
+nodX	canonical nod	host_genus	Leucaena	6	0	0
+nodX	canonical nod	host_genus	Lotus	24	0	0
+nodX	canonical nod	host_genus	Lupinus	126	7	5.555555555555555
+nodX	canonical nod	host_genus	Macroptilium	24	0	0
+nodX	canonical nod	host_genus	Medicago	59	5	8.474576271186441
+nodX	canonical nod	host_genus	Melilotus	32	3	9.375
+nodX	canonical nod	host_genus	Mimosa	29	0	0
+nodX	canonical nod	host_genus	Morella	131	0	0
+nodX	canonical nod	host_genus	Orbexilum	6	0	0
+nodX	canonical nod	host_genus	Oxytropis	27	0	0
+nodX	canonical nod	host_genus	Pediomelum	19	3	15.789473684210526
+nodX	canonical nod	host_genus	Pictetia	9	0	0
+nodX	canonical nod	host_genus	Rhynchosia	58	2	3.4482758620689653
+nodX	canonical nod	host_genus	Robinia	12	0	0
+nodX	canonical nod	host_genus	Sesbania	47	5	10.638297872340425
+nodX	canonical nod	host_genus	Strophostyles	15	1	6.666666666666667
+nodX	canonical nod	host_genus	Stylosanthes	50	1	2
+nodX	canonical nod	host_genus	Tephrosia	65	1	1.5384615384615385
+nodX	canonical nod	host_genus	Thermopsis	6	0	0
+nodX	canonical nod	host_genus	Trifolium	21	14	66.66666666666667
+nodX	canonical nod	host_genus	Unknown	32	4	12.5
+nodX	canonical nod	host_genus	Vicia	28	4	14.285714285714286
+nodX	canonical nod	host_genus	Zornia	6	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Acmispon	9	1	11.11111111111111
+noeA	accessory nodulation/symbiosis-related	host_genus	Aeschynomene	12	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Albizia	24	1	4.166666666666667
+noeA	accessory nodulation/symbiosis-related	host_genus	Alnus	322	3	0.9316770186335404
+noeA	accessory nodulation/symbiosis-related	host_genus	Alysicarpus	23	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Amorpha	42	4	9.523809523809524
+noeA	accessory nodulation/symbiosis-related	host_genus	Amphicarpaea	41	2	4.878048780487805
+noeA	accessory nodulation/symbiosis-related	host_genus	Astragalus	131	24	18.3206106870229
+noeA	accessory nodulation/symbiosis-related	host_genus	Baptisia	9	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Ceanothus	71	3	4.225352112676056
+noeA	accessory nodulation/symbiosis-related	host_genus	Centrosema	44	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Chamaecrista	109	1	0.9174311926605505
+noeA	accessory nodulation/symbiosis-related	host_genus	Chapmannia	11	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Clitoria	36	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Comptonia	9	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Crotalaria	108	4	3.7037037037037037
+noeA	accessory nodulation/symbiosis-related	host_genus	Dalea	55	10	18.181818181818183
+noeA	accessory nodulation/symbiosis-related	host_genus	Desmanthus	12	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Desmodium	428	11	2.5700934579439254
+noeA	accessory nodulation/symbiosis-related	host_genus	Dryas	83	4	4.819277108433735
+noeA	accessory nodulation/symbiosis-related	host_genus	Elaeagnus	76	6	7.894736842105263
+noeA	accessory nodulation/symbiosis-related	host_genus	Galactia	86	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Glycine	21	1	4.761904761904762
+noeA	accessory nodulation/symbiosis-related	host_genus	Indigofera	33	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Kummerowia	6	2	33.333333333333336
+noeA	accessory nodulation/symbiosis-related	host_genus	Lespedeza	242	12	4.958677685950414
+noeA	accessory nodulation/symbiosis-related	host_genus	Leucaena	6	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Lotus	24	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Lupinus	126	2	1.5873015873015872
+noeA	accessory nodulation/symbiosis-related	host_genus	Macroptilium	24	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Medicago	59	52	88.13559322033899
+noeA	accessory nodulation/symbiosis-related	host_genus	Melilotus	32	26	81.25
+noeA	accessory nodulation/symbiosis-related	host_genus	Mimosa	29	1	3.4482758620689653
+noeA	accessory nodulation/symbiosis-related	host_genus	Morella	131	3	2.2900763358778624
+noeA	accessory nodulation/symbiosis-related	host_genus	Orbexilum	6	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Oxytropis	27	5	18.51851851851852
+noeA	accessory nodulation/symbiosis-related	host_genus	Pediomelum	19	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Pictetia	9	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Rhynchosia	58	1	1.7241379310344827
+noeA	accessory nodulation/symbiosis-related	host_genus	Robinia	12	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Sesbania	47	1	2.127659574468085
+noeA	accessory nodulation/symbiosis-related	host_genus	Strophostyles	15	2	13.333333333333334
+noeA	accessory nodulation/symbiosis-related	host_genus	Stylosanthes	50	0	0
+noeA	accessory nodulation/symbiosis-related	host_genus	Tephrosia	65	3	4.615384615384615
+noeA	accessory nodulation/symbiosis-related	host_genus	Thermopsis	6	1	16.666666666666668
+noeA	accessory nodulation/symbiosis-related	host_genus	Trifolium	21	3	14.285714285714286
+noeA	accessory nodulation/symbiosis-related	host_genus	Unknown	32	6	18.75
+noeA	accessory nodulation/symbiosis-related	host_genus	Vicia	28	2	7.142857142857143
+noeA	accessory nodulation/symbiosis-related	host_genus	Zornia	6	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Acmispon	9	1	11.11111111111111
+noeB	accessory nodulation/symbiosis-related	host_genus	Aeschynomene	12	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Albizia	24	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Alnus	322	2	0.6211180124223602
+noeB	accessory nodulation/symbiosis-related	host_genus	Alysicarpus	23	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Amorpha	42	1	2.380952380952381
+noeB	accessory nodulation/symbiosis-related	host_genus	Amphicarpaea	41	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Astragalus	131	20	15.267175572519085
+noeB	accessory nodulation/symbiosis-related	host_genus	Baptisia	9	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Ceanothus	71	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Centrosema	44	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Chamaecrista	109	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Chapmannia	11	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Clitoria	36	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Comptonia	9	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Crotalaria	108	1	0.9259259259259259
+noeB	accessory nodulation/symbiosis-related	host_genus	Dalea	55	9	16.363636363636363
+noeB	accessory nodulation/symbiosis-related	host_genus	Desmanthus	12	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Desmodium	428	7	1.6355140186915889
+noeB	accessory nodulation/symbiosis-related	host_genus	Dryas	83	1	1.2048192771084338
+noeB	accessory nodulation/symbiosis-related	host_genus	Elaeagnus	76	5	6.578947368421052
+noeB	accessory nodulation/symbiosis-related	host_genus	Galactia	86	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Glycine	21	1	4.761904761904762
+noeB	accessory nodulation/symbiosis-related	host_genus	Indigofera	33	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Kummerowia	6	1	16.666666666666668
+noeB	accessory nodulation/symbiosis-related	host_genus	Lespedeza	242	7	2.8925619834710745
+noeB	accessory nodulation/symbiosis-related	host_genus	Leucaena	6	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Lotus	24	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Lupinus	126	1	0.7936507936507936
+noeB	accessory nodulation/symbiosis-related	host_genus	Macroptilium	24	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Medicago	59	46	77.96610169491525
+noeB	accessory nodulation/symbiosis-related	host_genus	Melilotus	32	26	81.25
+noeB	accessory nodulation/symbiosis-related	host_genus	Mimosa	29	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Morella	131	1	0.7633587786259542
+noeB	accessory nodulation/symbiosis-related	host_genus	Orbexilum	6	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Oxytropis	27	5	18.51851851851852
+noeB	accessory nodulation/symbiosis-related	host_genus	Pediomelum	19	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Pictetia	9	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Rhynchosia	58	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Robinia	12	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Sesbania	47	1	2.127659574468085
+noeB	accessory nodulation/symbiosis-related	host_genus	Strophostyles	15	1	6.666666666666667
+noeB	accessory nodulation/symbiosis-related	host_genus	Stylosanthes	50	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Tephrosia	65	2	3.076923076923077
+noeB	accessory nodulation/symbiosis-related	host_genus	Thermopsis	6	1	16.666666666666668
+noeB	accessory nodulation/symbiosis-related	host_genus	Trifolium	21	3	14.285714285714286
+noeB	accessory nodulation/symbiosis-related	host_genus	Unknown	32	6	18.75
+noeB	accessory nodulation/symbiosis-related	host_genus	Vicia	28	0	0
+noeB	accessory nodulation/symbiosis-related	host_genus	Zornia	6	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Acmispon	9	1	11.11111111111111
+nolF	accessory nodulation/symbiosis-related	host_genus	Aeschynomene	12	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Albizia	24	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Alnus	322	6	1.8633540372670807
+nolF	accessory nodulation/symbiosis-related	host_genus	Alysicarpus	23	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Amorpha	42	5	11.904761904761905
+nolF	accessory nodulation/symbiosis-related	host_genus	Amphicarpaea	41	3	7.317073170731708
+nolF	accessory nodulation/symbiosis-related	host_genus	Astragalus	131	23	17.557251908396946
+nolF	accessory nodulation/symbiosis-related	host_genus	Baptisia	9	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Ceanothus	71	4	5.633802816901408
+nolF	accessory nodulation/symbiosis-related	host_genus	Centrosema	44	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Chamaecrista	109	1	0.9174311926605505
+nolF	accessory nodulation/symbiosis-related	host_genus	Chapmannia	11	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Clitoria	36	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Comptonia	9	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Crotalaria	108	6	5.555555555555555
+nolF	accessory nodulation/symbiosis-related	host_genus	Dalea	55	9	16.363636363636363
+nolF	accessory nodulation/symbiosis-related	host_genus	Desmanthus	12	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Desmodium	428	11	2.5700934579439254
+nolF	accessory nodulation/symbiosis-related	host_genus	Dryas	83	6	7.228915662650603
+nolF	accessory nodulation/symbiosis-related	host_genus	Elaeagnus	76	8	10.526315789473685
+nolF	accessory nodulation/symbiosis-related	host_genus	Galactia	86	1	1.1627906976744187
+nolF	accessory nodulation/symbiosis-related	host_genus	Glycine	21	1	4.761904761904762
+nolF	accessory nodulation/symbiosis-related	host_genus	Indigofera	33	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Kummerowia	6	3	50
+nolF	accessory nodulation/symbiosis-related	host_genus	Lespedeza	242	11	4.545454545454546
+nolF	accessory nodulation/symbiosis-related	host_genus	Leucaena	6	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Lotus	24	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Lupinus	126	3	2.380952380952381
+nolF	accessory nodulation/symbiosis-related	host_genus	Macroptilium	24	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Medicago	59	50	84.7457627118644
+nolF	accessory nodulation/symbiosis-related	host_genus	Melilotus	32	27	84.375
+nolF	accessory nodulation/symbiosis-related	host_genus	Mimosa	29	1	3.4482758620689653
+nolF	accessory nodulation/symbiosis-related	host_genus	Morella	131	2	1.5267175572519085
+nolF	accessory nodulation/symbiosis-related	host_genus	Orbexilum	6	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Oxytropis	27	5	18.51851851851852
+nolF	accessory nodulation/symbiosis-related	host_genus	Pediomelum	19	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Pictetia	9	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Rhynchosia	58	1	1.7241379310344827
+nolF	accessory nodulation/symbiosis-related	host_genus	Robinia	12	1	8.333333333333334
+nolF	accessory nodulation/symbiosis-related	host_genus	Sesbania	47	1	2.127659574468085
+nolF	accessory nodulation/symbiosis-related	host_genus	Strophostyles	15	2	13.333333333333334
+nolF	accessory nodulation/symbiosis-related	host_genus	Stylosanthes	50	0	0
+nolF	accessory nodulation/symbiosis-related	host_genus	Tephrosia	65	4	6.153846153846154
+nolF	accessory nodulation/symbiosis-related	host_genus	Thermopsis	6	2	33.333333333333336
+nolF	accessory nodulation/symbiosis-related	host_genus	Trifolium	21	3	14.285714285714286
+nolF	accessory nodulation/symbiosis-related	host_genus	Unknown	32	6	18.75
+nolF	accessory nodulation/symbiosis-related	host_genus	Vicia	28	2	7.142857142857143
+nolF	accessory nodulation/symbiosis-related	host_genus	Zornia	6	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Acmispon	9	1	11.11111111111111
+nolG	accessory nodulation/symbiosis-related	host_genus	Aeschynomene	12	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Albizia	24	1	4.166666666666667
+nolG	accessory nodulation/symbiosis-related	host_genus	Alnus	322	4	1.2422360248447204
+nolG	accessory nodulation/symbiosis-related	host_genus	Alysicarpus	23	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Amorpha	42	6	14.285714285714286
+nolG	accessory nodulation/symbiosis-related	host_genus	Amphicarpaea	41	4	9.75609756097561
+nolG	accessory nodulation/symbiosis-related	host_genus	Astragalus	131	28	21.374045801526716
+nolG	accessory nodulation/symbiosis-related	host_genus	Baptisia	9	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Ceanothus	71	3	4.225352112676056
+nolG	accessory nodulation/symbiosis-related	host_genus	Centrosema	44	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Chamaecrista	109	1	0.9174311926605505
+nolG	accessory nodulation/symbiosis-related	host_genus	Chapmannia	11	2	18.181818181818183
+nolG	accessory nodulation/symbiosis-related	host_genus	Clitoria	36	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Comptonia	9	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Crotalaria	108	6	5.555555555555555
+nolG	accessory nodulation/symbiosis-related	host_genus	Dalea	55	10	18.181818181818183
+nolG	accessory nodulation/symbiosis-related	host_genus	Desmanthus	12	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Desmodium	428	14	3.2710280373831777
+nolG	accessory nodulation/symbiosis-related	host_genus	Dryas	83	9	10.843373493975903
+nolG	accessory nodulation/symbiosis-related	host_genus	Elaeagnus	76	7	9.210526315789474
+nolG	accessory nodulation/symbiosis-related	host_genus	Galactia	86	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Glycine	21	1	4.761904761904762
+nolG	accessory nodulation/symbiosis-related	host_genus	Indigofera	33	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Kummerowia	6	3	50
+nolG	accessory nodulation/symbiosis-related	host_genus	Lespedeza	242	16	6.6115702479338845
+nolG	accessory nodulation/symbiosis-related	host_genus	Leucaena	6	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Lotus	24	1	4.166666666666667
+nolG	accessory nodulation/symbiosis-related	host_genus	Lupinus	126	3	2.380952380952381
+nolG	accessory nodulation/symbiosis-related	host_genus	Macroptilium	24	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Medicago	59	52	88.13559322033899
+nolG	accessory nodulation/symbiosis-related	host_genus	Melilotus	32	27	84.375
+nolG	accessory nodulation/symbiosis-related	host_genus	Mimosa	29	1	3.4482758620689653
+nolG	accessory nodulation/symbiosis-related	host_genus	Morella	131	3	2.2900763358778624
+nolG	accessory nodulation/symbiosis-related	host_genus	Orbexilum	6	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Oxytropis	27	5	18.51851851851852
+nolG	accessory nodulation/symbiosis-related	host_genus	Pediomelum	19	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Pictetia	9	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Rhynchosia	58	2	3.4482758620689653
+nolG	accessory nodulation/symbiosis-related	host_genus	Robinia	12	1	8.333333333333334
+nolG	accessory nodulation/symbiosis-related	host_genus	Sesbania	47	1	2.127659574468085
+nolG	accessory nodulation/symbiosis-related	host_genus	Strophostyles	15	2	13.333333333333334
+nolG	accessory nodulation/symbiosis-related	host_genus	Stylosanthes	50	0	0
+nolG	accessory nodulation/symbiosis-related	host_genus	Tephrosia	65	3	4.615384615384615
+nolG	accessory nodulation/symbiosis-related	host_genus	Thermopsis	6	2	33.333333333333336
+nolG	accessory nodulation/symbiosis-related	host_genus	Trifolium	21	3	14.285714285714286
+nolG	accessory nodulation/symbiosis-related	host_genus	Unknown	32	6	18.75
+nolG	accessory nodulation/symbiosis-related	host_genus	Vicia	28	1	3.5714285714285716
+nolG	accessory nodulation/symbiosis-related	host_genus	Zornia	6	0	0
+nifD	nif	host_tribe	Amorpheae	97	78	80.41237113402062
+nifD	nif	host_tribe	Cassieae	111	54	48.648648648648646
+nifD	nif	host_tribe	Crotalarieae	108	62	57.407407407407405
+nifD	nif	host_tribe	Dalbergieae	88	44	50
+nifD	nif	host_tribe	Desmodieae	699	336	48.068669527896994
+nifD	nif	host_tribe	Diocleae	86	47	54.651162790697676
+nifD	nif	host_tribe	Fabeae	28	22	78.57142857142857
+nifD	nif	host_tribe	Galegeae	158	143	90.50632911392405
+nifD	nif	host_tribe	Genisteae	126	65	51.58730158730159
+nifD	nif	host_tribe	Glycininae	21	13	61.904761904761905
+nifD	nif	host_tribe	Indigofereae	33	15	45.45454545454545
+nifD	nif	host_tribe	Loteae	33	30	90.9090909090909
+nifD	nif	host_tribe	Millettieae	65	44	67.6923076923077
+nifD	nif	host_tribe	Mimosoideae	80	53	66.25
+nifD	nif	host_tribe	Phaseoleae	230	108	46.95652173913044
+nifD	nif	host_tribe	Psoraleeae	25	11	44
+nifD	nif	host_tribe	Robinieae	15	10	66.66666666666667
+nifD	nif	host_tribe	Sesbanieae	47	30	63.829787234042556
+nifD	nif	host_tribe	Sophoreae	15	10	66.66666666666667
+nifD	nif	host_tribe	Trifolieae	112	104	92.85714285714286
+nifD	nif	host_tribe	Unknown	32	18	56.25
+nifD	nif	host_tribe	actinorhizal	692	197	28.46820809248555
+nifH	nif	host_tribe	Amorpheae	97	79	81.44329896907216
+nifH	nif	host_tribe	Cassieae	111	61	54.95495495495496
+nifH	nif	host_tribe	Crotalarieae	108	68	62.96296296296296
+nifH	nif	host_tribe	Dalbergieae	88	44	50
+nifH	nif	host_tribe	Desmodieae	699	369	52.78969957081545
+nifH	nif	host_tribe	Diocleae	86	57	66.27906976744185
+nifH	nif	host_tribe	Fabeae	28	21	75
+nifH	nif	host_tribe	Galegeae	158	132	83.54430379746836
+nifH	nif	host_tribe	Genisteae	126	67	53.17460317460318
+nifH	nif	host_tribe	Glycininae	21	11	52.38095238095238
+nifH	nif	host_tribe	Indigofereae	33	17	51.515151515151516
+nifH	nif	host_tribe	Loteae	33	28	84.84848484848484
+nifH	nif	host_tribe	Millettieae	65	41	63.07692307692308
+nifH	nif	host_tribe	Mimosoideae	80	60	75
+nifH	nif	host_tribe	Phaseoleae	230	128	55.65217391304348
+nifH	nif	host_tribe	Psoraleeae	25	16	64
+nifH	nif	host_tribe	Robinieae	15	12	80
+nifH	nif	host_tribe	Sesbanieae	47	31	65.95744680851064
+nifH	nif	host_tribe	Sophoreae	15	13	86.66666666666667
+nifH	nif	host_tribe	Trifolieae	112	96	85.71428571428571
+nifH	nif	host_tribe	Unknown	32	15	46.875
+nifH	nif	host_tribe	actinorhizal	692	204	29.479768786127167
+nifJ	nif	host_tribe	Amorpheae	97	1	1.0309278350515463
+nifJ	nif	host_tribe	Cassieae	111	3	2.7027027027027026
+nifJ	nif	host_tribe	Crotalarieae	108	4	3.7037037037037037
+nifJ	nif	host_tribe	Dalbergieae	88	3	3.409090909090909
+nifJ	nif	host_tribe	Desmodieae	699	21	3.004291845493562
+nifJ	nif	host_tribe	Diocleae	86	3	3.488372093023256
+nifJ	nif	host_tribe	Fabeae	28	0	0
+nifJ	nif	host_tribe	Galegeae	158	0	0
+nifJ	nif	host_tribe	Genisteae	126	8	6.349206349206349
+nifJ	nif	host_tribe	Glycininae	21	0	0
+nifJ	nif	host_tribe	Indigofereae	33	2	6.0606060606060606
+nifJ	nif	host_tribe	Loteae	33	0	0
+nifJ	nif	host_tribe	Millettieae	65	0	0
+nifJ	nif	host_tribe	Mimosoideae	80	4	5
+nifJ	nif	host_tribe	Phaseoleae	230	8	3.4782608695652173
+nifJ	nif	host_tribe	Psoraleeae	25	1	4
+nifJ	nif	host_tribe	Robinieae	15	0	0
+nifJ	nif	host_tribe	Sesbanieae	47	3	6.382978723404255
+nifJ	nif	host_tribe	Sophoreae	15	0	0
+nifJ	nif	host_tribe	Trifolieae	112	1	0.8928571428571429
+nifJ	nif	host_tribe	Unknown	32	2	6.25
+nifJ	nif	host_tribe	actinorhizal	692	264	38.15028901734104
+nifK	nif	host_tribe	Amorpheae	97	68	70.10309278350516
+nifK	nif	host_tribe	Cassieae	111	31	27.92792792792793
+nifK	nif	host_tribe	Crotalarieae	108	45	41.666666666666664
+nifK	nif	host_tribe	Dalbergieae	88	23	26.136363636363637
+nifK	nif	host_tribe	Desmodieae	699	217	31.044349070100143
+nifK	nif	host_tribe	Diocleae	86	30	34.883720930232556
+nifK	nif	host_tribe	Fabeae	28	22	78.57142857142857
+nifK	nif	host_tribe	Galegeae	158	137	86.70886075949367
+nifK	nif	host_tribe	Genisteae	126	44	34.92063492063492
+nifK	nif	host_tribe	Glycininae	21	11	52.38095238095238
+nifK	nif	host_tribe	Indigofereae	33	12	36.36363636363637
+nifK	nif	host_tribe	Loteae	33	28	84.84848484848484
+nifK	nif	host_tribe	Millettieae	65	34	52.30769230769231
+nifK	nif	host_tribe	Mimosoideae	80	36	45
+nifK	nif	host_tribe	Phaseoleae	230	61	26.52173913043478
+nifK	nif	host_tribe	Psoraleeae	25	13	52
+nifK	nif	host_tribe	Robinieae	15	7	46.666666666666664
+nifK	nif	host_tribe	Sesbanieae	47	18	38.297872340425535
+nifK	nif	host_tribe	Sophoreae	15	9	60
+nifK	nif	host_tribe	Trifolieae	112	97	86.60714285714286
+nifK	nif	host_tribe	Unknown	32	11	34.375
+nifK	nif	host_tribe	actinorhizal	692	132	19.07514450867052
+nodL	canonical nod	host_tribe	Amorpheae	97	16	16.49484536082474
+nodL	canonical nod	host_tribe	Cassieae	111	3	2.7027027027027026
+nodL	canonical nod	host_tribe	Crotalarieae	108	5	4.62962962962963
+nodL	canonical nod	host_tribe	Dalbergieae	88	4	4.545454545454546
+nodL	canonical nod	host_tribe	Desmodieae	699	28	4.005722460658083
+nodL	canonical nod	host_tribe	Diocleae	86	1	1.1627906976744187
+nodL	canonical nod	host_tribe	Fabeae	28	3	10.714285714285714
+nodL	canonical nod	host_tribe	Galegeae	158	48	30.379746835443036
+nodL	canonical nod	host_tribe	Genisteae	126	5	3.9682539682539684
+nodL	canonical nod	host_tribe	Glycininae	21	1	4.761904761904762
+nodL	canonical nod	host_tribe	Indigofereae	33	1	3.0303030303030303
+nodL	canonical nod	host_tribe	Loteae	33	0	0
+nodL	canonical nod	host_tribe	Millettieae	65	2	3.076923076923077
+nodL	canonical nod	host_tribe	Mimosoideae	80	2	2.5
+nodL	canonical nod	host_tribe	Phaseoleae	230	12	5.217391304347826
+nodL	canonical nod	host_tribe	Psoraleeae	25	1	4
+nodL	canonical nod	host_tribe	Robinieae	15	0	0
+nodL	canonical nod	host_tribe	Sesbanieae	47	1	2.127659574468085
+nodL	canonical nod	host_tribe	Sophoreae	15	3	20
+nodL	canonical nod	host_tribe	Trifolieae	112	77	68.75
+nodL	canonical nod	host_tribe	Unknown	32	6	18.75
+nodL	canonical nod	host_tribe	actinorhizal	692	20	2.8901734104046244
+nodX	canonical nod	host_tribe	Amorpheae	97	5	5.154639175257732
+nodX	canonical nod	host_tribe	Cassieae	111	5	4.504504504504505
+nodX	canonical nod	host_tribe	Crotalarieae	108	5	4.62962962962963
+nodX	canonical nod	host_tribe	Dalbergieae	88	3	3.409090909090909
+nodX	canonical nod	host_tribe	Desmodieae	699	35	5.007153075822604
+nodX	canonical nod	host_tribe	Diocleae	86	9	10.465116279069768
+nodX	canonical nod	host_tribe	Fabeae	28	4	14.285714285714286
+nodX	canonical nod	host_tribe	Galegeae	158	1	0.6329113924050633
+nodX	canonical nod	host_tribe	Genisteae	126	7	5.555555555555555
+nodX	canonical nod	host_tribe	Glycininae	21	0	0
+nodX	canonical nod	host_tribe	Indigofereae	33	0	0
+nodX	canonical nod	host_tribe	Loteae	33	0	0
+nodX	canonical nod	host_tribe	Millettieae	65	1	1.5384615384615385
+nodX	canonical nod	host_tribe	Mimosoideae	80	1	1.25
+nodX	canonical nod	host_tribe	Phaseoleae	230	7	3.0434782608695654
+nodX	canonical nod	host_tribe	Psoraleeae	25	3	12
+nodX	canonical nod	host_tribe	Robinieae	15	0	0
+nodX	canonical nod	host_tribe	Sesbanieae	47	5	10.638297872340425
+nodX	canonical nod	host_tribe	Sophoreae	15	0	0
+nodX	canonical nod	host_tribe	Trifolieae	112	22	19.642857142857142
+nodX	canonical nod	host_tribe	Unknown	32	4	12.5
+nodX	canonical nod	host_tribe	actinorhizal	692	20	2.8901734104046244
+noeA	accessory nodulation/symbiosis-related	host_tribe	Amorpheae	97	14	14.43298969072165
+noeA	accessory nodulation/symbiosis-related	host_tribe	Cassieae	111	1	0.9009009009009009
+noeA	accessory nodulation/symbiosis-related	host_tribe	Crotalarieae	108	4	3.7037037037037037
+noeA	accessory nodulation/symbiosis-related	host_tribe	Dalbergieae	88	0	0
+noeA	accessory nodulation/symbiosis-related	host_tribe	Desmodieae	699	25	3.57653791130186
+noeA	accessory nodulation/symbiosis-related	host_tribe	Diocleae	86	0	0
+noeA	accessory nodulation/symbiosis-related	host_tribe	Fabeae	28	2	7.142857142857143
+noeA	accessory nodulation/symbiosis-related	host_tribe	Galegeae	158	29	18.354430379746834
+noeA	accessory nodulation/symbiosis-related	host_tribe	Genisteae	126	2	1.5873015873015872
+noeA	accessory nodulation/symbiosis-related	host_tribe	Glycininae	21	1	4.761904761904762
+noeA	accessory nodulation/symbiosis-related	host_tribe	Indigofereae	33	0	0
+noeA	accessory nodulation/symbiosis-related	host_tribe	Loteae	33	1	3.0303030303030303
+noeA	accessory nodulation/symbiosis-related	host_tribe	Millettieae	65	3	4.615384615384615
+noeA	accessory nodulation/symbiosis-related	host_tribe	Mimosoideae	80	2	2.5
+noeA	accessory nodulation/symbiosis-related	host_tribe	Phaseoleae	230	5	2.1739130434782608
+noeA	accessory nodulation/symbiosis-related	host_tribe	Psoraleeae	25	0	0
+noeA	accessory nodulation/symbiosis-related	host_tribe	Robinieae	15	0	0
+noeA	accessory nodulation/symbiosis-related	host_tribe	Sesbanieae	47	1	2.127659574468085
+noeA	accessory nodulation/symbiosis-related	host_tribe	Sophoreae	15	1	6.666666666666667
+noeA	accessory nodulation/symbiosis-related	host_tribe	Trifolieae	112	81	72.32142857142857
+noeA	accessory nodulation/symbiosis-related	host_tribe	Unknown	32	6	18.75
+noeA	accessory nodulation/symbiosis-related	host_tribe	actinorhizal	692	19	2.745664739884393
+noeB	accessory nodulation/symbiosis-related	host_tribe	Amorpheae	97	10	10.309278350515465
+noeB	accessory nodulation/symbiosis-related	host_tribe	Cassieae	111	0	0
+noeB	accessory nodulation/symbiosis-related	host_tribe	Crotalarieae	108	1	0.9259259259259259
+noeB	accessory nodulation/symbiosis-related	host_tribe	Dalbergieae	88	0	0
+noeB	accessory nodulation/symbiosis-related	host_tribe	Desmodieae	699	15	2.1459227467811157
+noeB	accessory nodulation/symbiosis-related	host_tribe	Diocleae	86	0	0
+noeB	accessory nodulation/symbiosis-related	host_tribe	Fabeae	28	0	0
+noeB	accessory nodulation/symbiosis-related	host_tribe	Galegeae	158	25	15.822784810126583
+noeB	accessory nodulation/symbiosis-related	host_tribe	Genisteae	126	1	0.7936507936507936
+noeB	accessory nodulation/symbiosis-related	host_tribe	Glycininae	21	1	4.761904761904762
+noeB	accessory nodulation/symbiosis-related	host_tribe	Indigofereae	33	0	0
+noeB	accessory nodulation/symbiosis-related	host_tribe	Loteae	33	1	3.0303030303030303
+noeB	accessory nodulation/symbiosis-related	host_tribe	Millettieae	65	2	3.076923076923077
+noeB	accessory nodulation/symbiosis-related	host_tribe	Mimosoideae	80	0	0
+noeB	accessory nodulation/symbiosis-related	host_tribe	Phaseoleae	230	1	0.43478260869565216
+noeB	accessory nodulation/symbiosis-related	host_tribe	Psoraleeae	25	0	0
+noeB	accessory nodulation/symbiosis-related	host_tribe	Robinieae	15	0	0
+noeB	accessory nodulation/symbiosis-related	host_tribe	Sesbanieae	47	1	2.127659574468085
+noeB	accessory nodulation/symbiosis-related	host_tribe	Sophoreae	15	1	6.666666666666667
+noeB	accessory nodulation/symbiosis-related	host_tribe	Trifolieae	112	75	66.96428571428571
+noeB	accessory nodulation/symbiosis-related	host_tribe	Unknown	32	6	18.75
+noeB	accessory nodulation/symbiosis-related	host_tribe	actinorhizal	692	9	1.300578034682081
+nolF	accessory nodulation/symbiosis-related	host_tribe	Amorpheae	97	14	14.43298969072165
+nolF	accessory nodulation/symbiosis-related	host_tribe	Cassieae	111	1	0.9009009009009009
+nolF	accessory nodulation/symbiosis-related	host_tribe	Crotalarieae	108	6	5.555555555555555
+nolF	accessory nodulation/symbiosis-related	host_tribe	Dalbergieae	88	0	0
+nolF	accessory nodulation/symbiosis-related	host_tribe	Desmodieae	699	25	3.57653791130186
+nolF	accessory nodulation/symbiosis-related	host_tribe	Diocleae	86	1	1.1627906976744187
+nolF	accessory nodulation/symbiosis-related	host_tribe	Fabeae	28	2	7.142857142857143
+nolF	accessory nodulation/symbiosis-related	host_tribe	Galegeae	158	28	17.72151898734177
+nolF	accessory nodulation/symbiosis-related	host_tribe	Genisteae	126	3	2.380952380952381
+nolF	accessory nodulation/symbiosis-related	host_tribe	Glycininae	21	1	4.761904761904762
+nolF	accessory nodulation/symbiosis-related	host_tribe	Indigofereae	33	0	0
+nolF	accessory nodulation/symbiosis-related	host_tribe	Loteae	33	1	3.0303030303030303
+nolF	accessory nodulation/symbiosis-related	host_tribe	Millettieae	65	4	6.153846153846154
+nolF	accessory nodulation/symbiosis-related	host_tribe	Mimosoideae	80	1	1.25
+nolF	accessory nodulation/symbiosis-related	host_tribe	Phaseoleae	230	6	2.608695652173913
+nolF	accessory nodulation/symbiosis-related	host_tribe	Psoraleeae	25	0	0
+nolF	accessory nodulation/symbiosis-related	host_tribe	Robinieae	15	1	6.666666666666667
+nolF	accessory nodulation/symbiosis-related	host_tribe	Sesbanieae	47	1	2.127659574468085
+nolF	accessory nodulation/symbiosis-related	host_tribe	Sophoreae	15	2	13.333333333333334
+nolF	accessory nodulation/symbiosis-related	host_tribe	Trifolieae	112	80	71.42857142857143
+nolF	accessory nodulation/symbiosis-related	host_tribe	Unknown	32	6	18.75
+nolF	accessory nodulation/symbiosis-related	host_tribe	actinorhizal	692	26	3.7572254335260116
+nolG	accessory nodulation/symbiosis-related	host_tribe	Amorpheae	97	16	16.49484536082474
+nolG	accessory nodulation/symbiosis-related	host_tribe	Cassieae	111	1	0.9009009009009009
+nolG	accessory nodulation/symbiosis-related	host_tribe	Crotalarieae	108	6	5.555555555555555
+nolG	accessory nodulation/symbiosis-related	host_tribe	Dalbergieae	88	2	2.272727272727273
+nolG	accessory nodulation/symbiosis-related	host_tribe	Desmodieae	699	33	4.721030042918455
+nolG	accessory nodulation/symbiosis-related	host_tribe	Diocleae	86	0	0
+nolG	accessory nodulation/symbiosis-related	host_tribe	Fabeae	28	1	3.5714285714285716
+nolG	accessory nodulation/symbiosis-related	host_tribe	Galegeae	158	33	20.88607594936709
+nolG	accessory nodulation/symbiosis-related	host_tribe	Genisteae	126	3	2.380952380952381
+nolG	accessory nodulation/symbiosis-related	host_tribe	Glycininae	21	1	4.761904761904762
+nolG	accessory nodulation/symbiosis-related	host_tribe	Indigofereae	33	0	0
+nolG	accessory nodulation/symbiosis-related	host_tribe	Loteae	33	2	6.0606060606060606
+nolG	accessory nodulation/symbiosis-related	host_tribe	Millettieae	65	3	4.615384615384615
+nolG	accessory nodulation/symbiosis-related	host_tribe	Mimosoideae	80	3	3.75
+nolG	accessory nodulation/symbiosis-related	host_tribe	Phaseoleae	230	8	3.4782608695652173
+nolG	accessory nodulation/symbiosis-related	host_tribe	Psoraleeae	25	0	0
+nolG	accessory nodulation/symbiosis-related	host_tribe	Robinieae	15	1	6.666666666666667
+nolG	accessory nodulation/symbiosis-related	host_tribe	Sesbanieae	47	1	2.127659574468085
+nolG	accessory nodulation/symbiosis-related	host_tribe	Sophoreae	15	2	13.333333333333334
+nolG	accessory nodulation/symbiosis-related	host_tribe	Trifolieae	112	82	73.21428571428571
+nolG	accessory nodulation/symbiosis-related	host_tribe	Unknown	32	6	18.75
+nolG	accessory nodulation/symbiosis-related	host_tribe	actinorhizal	692	26	3.7572254335260116
+nifD	nif	site	BLAN	15	12	80
+nifD	nif	site	BONA	57	6	10.526315789473685
+nifD	nif	site	CLBJ	144	94	65.27777777777777
+nifD	nif	site	CPER	15	15	100
+nifD	nif	site	DCFS	24	23	95.83333333333333
+nifD	nif	site	DEJU	202	55	27.22772277227723
+nifD	nif	site	DELA	99	64	64.64646464646465
+nifD	nif	site	DSNY	265	138	52.075471698113205
+nifD	nif	site	GRSM	9	1	11.11111111111111
+nifD	nif	site	GUAN	30	10	33.333333333333336
+nifD	nif	site	HARV	24	7	29.166666666666668
+nifD	nif	site	HEAL	69	17	24.63768115942029
+nifD	nif	site	JERC	548	288	52.55474452554745
+nifD	nif	site	JORN	12	12	100
+nifD	nif	site	KONA	9	9	100
+nifD	nif	site	KONZ	51	38	74.50980392156863
+nifD	nif	site	LAJA	96	54	56.25
+nifD	nif	site	LENO	45	32	71.11111111111111
+nifD	nif	site	MLBS	12	4	33.333333333333336
+nifD	nif	site	NIWO	6	5	83.33333333333333
+nifD	nif	site	NOGP	21	21	100
+nifD	nif	site	OAES	118	106	89.83050847457628
+nifD	nif	site	ORNL	87	21	24.137931034482758
+nifD	nif	site	OSBS	221	114	51.58371040723982
+nifD	nif	site	RMNP	15	11	73.33333333333333
+nifD	nif	site	SCBI	38	24	63.1578947368421
+nifD	nif	site	SERC	28	7	25
+nifD	nif	site	SJER	15	10	66.66666666666667
+nifD	nif	site	SRER	54	54	100
+nifD	nif	site	TALL	346	90	26.01156069364162
+nifD	nif	site	TEAK	8	5	62.5
+nifD	nif	site	TOOL	102	70	68.62745098039215
+nifD	nif	site	UKFS	17	7	41.1764705882353
+nifD	nif	site	UNDE	15	8	53.333333333333336
+nifD	nif	site	Unknown	32	18	56.25
+nifD	nif	site	WOOD	34	33	97.05882352941177
+nifD	nif	site	YELL	24	14	58.333333333333336
+nifH	nif	site	BLAN	15	12	80
+nifH	nif	site	BONA	57	9	15.789473684210526
+nifH	nif	site	CLBJ	144	89	61.80555555555556
+nifH	nif	site	CPER	15	15	100
+nifH	nif	site	DCFS	24	20	83.33333333333333
+nifH	nif	site	DEJU	202	59	29.207920792079207
+nifH	nif	site	DELA	99	78	78.78787878787878
+nifH	nif	site	DSNY	265	140	52.83018867924528
+nifH	nif	site	GRSM	9	1	11.11111111111111
+nifH	nif	site	GUAN	30	16	53.333333333333336
+nifH	nif	site	HARV	24	6	25
+nifH	nif	site	HEAL	69	21	30.434782608695652
+nifH	nif	site	JERC	548	315	57.481751824817515
+nifH	nif	site	JORN	12	12	100
+nifH	nif	site	KONA	9	9	100
+nifH	nif	site	KONZ	51	39	76.47058823529412
+nifH	nif	site	LAJA	96	67	69.79166666666667
+nifH	nif	site	LENO	45	32	71.11111111111111
+nifH	nif	site	MLBS	12	4	33.333333333333336
+nifH	nif	site	NIWO	6	4	66.66666666666667
+nifH	nif	site	NOGP	21	20	95.23809523809524
+nifH	nif	site	OAES	118	90	76.27118644067797
+nifH	nif	site	ORNL	87	28	32.18390804597701
+nifH	nif	site	OSBS	221	127	57.46606334841629
+nifH	nif	site	RMNP	15	12	80
+nifH	nif	site	SCBI	38	22	57.89473684210526
+nifH	nif	site	SERC	28	4	14.285714285714286
+nifH	nif	site	SJER	15	6	40
+nifH	nif	site	SRER	54	53	98.14814814814815
+nifH	nif	site	TALL	346	111	32.08092485549133
+nifH	nif	site	TEAK	8	4	50
+nifH	nif	site	TOOL	102	73	71.56862745098039
+nifH	nif	site	UKFS	17	7	41.1764705882353
+nifH	nif	site	UNDE	15	7	46.666666666666664
+nifH	nif	site	Unknown	32	15	46.875
+nifH	nif	site	WOOD	34	33	97.05882352941177
+nifH	nif	site	YELL	24	12	50
+nifJ	nif	site	BLAN	15	3	20
+nifJ	nif	site	BONA	57	38	66.66666666666667
+nifJ	nif	site	CLBJ	144	2	1.3888888888888888
+nifJ	nif	site	CPER	15	0	0
+nifJ	nif	site	DCFS	24	0	0
+nifJ	nif	site	DEJU	202	70	34.65346534653465
+nifJ	nif	site	DELA	99	9	9.090909090909092
+nifJ	nif	site	DSNY	265	12	4.528301886792453
+nifJ	nif	site	GRSM	9	0	0
+nifJ	nif	site	GUAN	30	2	6.666666666666667
+nifJ	nif	site	HARV	24	8	33.333333333333336
+nifJ	nif	site	HEAL	69	38	55.072463768115945
+nifJ	nif	site	JERC	548	15	2.7372262773722627
+nifJ	nif	site	JORN	12	0	0
+nifJ	nif	site	KONA	9	0	0
+nifJ	nif	site	KONZ	51	1	1.9607843137254901
+nifJ	nif	site	LAJA	96	9	9.375
+nifJ	nif	site	LENO	45	3	6.666666666666667
+nifJ	nif	site	MLBS	12	6	50
+nifJ	nif	site	NIWO	6	0	0
+nifJ	nif	site	NOGP	21	0	0
+nifJ	nif	site	OAES	118	5	4.237288135593221
+nifJ	nif	site	ORNL	87	18	20.689655172413794
+nifJ	nif	site	OSBS	221	17	7.6923076923076925
+nifJ	nif	site	RMNP	15	0	0
+nifJ	nif	site	SCBI	38	0	0
+nifJ	nif	site	SERC	28	6	21.428571428571427
+nifJ	nif	site	SJER	15	0	0
+nifJ	nif	site	SRER	54	0	0
+nifJ	nif	site	TALL	346	53	15.31791907514451
+nifJ	nif	site	TEAK	8	0	0
+nifJ	nif	site	TOOL	102	2	1.9607843137254901
+nifJ	nif	site	UKFS	17	0	0
+nifJ	nif	site	UNDE	15	6	40
+nifJ	nif	site	Unknown	32	2	6.25
+nifJ	nif	site	WOOD	34	0	0
+nifJ	nif	site	YELL	24	3	12.5
+nifK	nif	site	BLAN	15	11	73.33333333333333
+nifK	nif	site	BONA	57	3	5.2631578947368425
+nifK	nif	site	CLBJ	144	80	55.55555555555556
+nifK	nif	site	CPER	15	15	100
+nifK	nif	site	DCFS	24	23	95.83333333333333
+nifK	nif	site	DEJU	202	20	9.900990099009901
+nifK	nif	site	DELA	99	46	46.464646464646464
+nifK	nif	site	DSNY	265	98	36.9811320754717
+nifK	nif	site	GRSM	9	0	0
+nifK	nif	site	GUAN	30	5	16.666666666666668
+nifK	nif	site	HARV	24	3	12.5
+nifK	nif	site	HEAL	69	8	11.594202898550725
+nifK	nif	site	JERC	548	197	35.948905109489054
+nifK	nif	site	JORN	12	12	100
+nifK	nif	site	KONA	9	8	88.88888888888889
+nifK	nif	site	KONZ	51	35	68.62745098039215
+nifK	nif	site	LAJA	96	28	29.166666666666668
+nifK	nif	site	LENO	45	19	42.22222222222222
+nifK	nif	site	MLBS	12	3	25
+nifK	nif	site	NIWO	6	5	83.33333333333333
+nifK	nif	site	NOGP	21	18	85.71428571428571
+nifK	nif	site	OAES	118	103	87.28813559322033
+nifK	nif	site	ORNL	87	20	22.988505747126435
+nifK	nif	site	OSBS	221	72	32.57918552036199
+nifK	nif	site	RMNP	15	10	66.66666666666667
+nifK	nif	site	SCBI	38	18	47.36842105263158
+nifK	nif	site	SERC	28	6	21.428571428571427
+nifK	nif	site	SJER	15	6	40
+nifK	nif	site	SRER	54	54	100
+nifK	nif	site	TALL	346	38	10.982658959537572
+nifK	nif	site	TEAK	8	4	50
+nifK	nif	site	TOOL	102	66	64.70588235294117
+nifK	nif	site	UKFS	17	2	11.764705882352942
+nifK	nif	site	UNDE	15	2	13.333333333333334
+nifK	nif	site	Unknown	32	11	34.375
+nifK	nif	site	WOOD	34	32	94.11764705882354
+nifK	nif	site	YELL	24	7	29.166666666666668
+nodL	canonical nod	site	BLAN	15	9	60
+nodL	canonical nod	site	BONA	57	0	0
+nodL	canonical nod	site	CLBJ	144	8	5.555555555555555
+nodL	canonical nod	site	CPER	15	12	80
+nodL	canonical nod	site	DCFS	24	20	83.33333333333333
+nodL	canonical nod	site	DEJU	202	4	1.9801980198019802
+nodL	canonical nod	site	DELA	99	3	3.0303030303030303
+nodL	canonical nod	site	DSNY	265	5	1.8867924528301887
+nodL	canonical nod	site	GRSM	9	0	0
+nodL	canonical nod	site	GUAN	30	0	0
+nodL	canonical nod	site	HARV	24	0	0
+nodL	canonical nod	site	HEAL	69	3	4.3478260869565215
+nodL	canonical nod	site	JERC	548	20	3.6496350364963503
+nodL	canonical nod	site	JORN	12	1	8.333333333333334
+nodL	canonical nod	site	KONA	9	0	0
+nodL	canonical nod	site	KONZ	51	3	5.882352941176471
+nodL	canonical nod	site	LAJA	96	1	1.0416666666666667
+nodL	canonical nod	site	LENO	45	2	4.444444444444445
+nodL	canonical nod	site	MLBS	12	0	0
+nodL	canonical nod	site	NIWO	6	2	33.333333333333336
+nodL	canonical nod	site	NOGP	21	17	80.95238095238095
+nodL	canonical nod	site	OAES	118	53	44.91525423728814
+nodL	canonical nod	site	ORNL	87	4	4.597701149425287
+nodL	canonical nod	site	OSBS	221	9	4.072398190045249
+nodL	canonical nod	site	RMNP	15	3	20
+nodL	canonical nod	site	SCBI	38	9	23.68421052631579
+nodL	canonical nod	site	SERC	28	2	7.142857142857143
+nodL	canonical nod	site	SJER	15	1	6.666666666666667
+nodL	canonical nod	site	SRER	54	3	5.555555555555555
+nodL	canonical nod	site	TALL	346	8	2.3121387283236996
+nodL	canonical nod	site	TEAK	8	0	0
+nodL	canonical nod	site	TOOL	102	5	4.901960784313726
+nodL	canonical nod	site	UKFS	17	0	0
+nodL	canonical nod	site	UNDE	15	0	0
+nodL	canonical nod	site	Unknown	32	6	18.75
+nodL	canonical nod	site	WOOD	34	24	70.58823529411765
+nodL	canonical nod	site	YELL	24	2	8.333333333333334
+nodX	canonical nod	site	BLAN	15	10	66.66666666666667
+nodX	canonical nod	site	BONA	57	3	5.2631578947368425
+nodX	canonical nod	site	CLBJ	144	11	7.638888888888889
+nodX	canonical nod	site	CPER	15	3	20
+nodX	canonical nod	site	DCFS	24	2	8.333333333333334
+nodX	canonical nod	site	DEJU	202	8	3.9603960396039604
+nodX	canonical nod	site	DELA	99	14	14.141414141414142
+nodX	canonical nod	site	DSNY	265	10	3.7735849056603774
+nodX	canonical nod	site	GRSM	9	1	11.11111111111111
+nodX	canonical nod	site	GUAN	30	1	3.3333333333333335
+nodX	canonical nod	site	HARV	24	0	0
+nodX	canonical nod	site	HEAL	69	1	1.4492753623188406
+nodX	canonical nod	site	JERC	548	15	2.7372262773722627
+nodX	canonical nod	site	JORN	12	0	0
+nodX	canonical nod	site	KONA	9	0	0
+nodX	canonical nod	site	KONZ	51	2	3.9215686274509802
+nodX	canonical nod	site	LAJA	96	0	0
+nodX	canonical nod	site	LENO	45	0	0
+nodX	canonical nod	site	MLBS	12	0	0
+nodX	canonical nod	site	NIWO	6	1	16.666666666666668
+nodX	canonical nod	site	NOGP	21	3	14.285714285714286
+nodX	canonical nod	site	OAES	118	3	2.542372881355932
+nodX	canonical nod	site	ORNL	87	11	12.64367816091954
+nodX	canonical nod	site	OSBS	221	11	4.97737556561086
+nodX	canonical nod	site	RMNP	15	0	0
+nodX	canonical nod	site	SCBI	38	6	15.789473684210526
+nodX	canonical nod	site	SERC	28	0	0
+nodX	canonical nod	site	SJER	15	2	13.333333333333334
+nodX	canonical nod	site	SRER	54	0	0
+nodX	canonical nod	site	TALL	346	8	2.3121387283236996
+nodX	canonical nod	site	TEAK	8	0	0
+nodX	canonical nod	site	TOOL	102	4	3.9215686274509802
+nodX	canonical nod	site	UKFS	17	0	0
+nodX	canonical nod	site	UNDE	15	1	6.666666666666667
+nodX	canonical nod	site	Unknown	32	4	12.5
+nodX	canonical nod	site	WOOD	34	1	2.9411764705882355
+nodX	canonical nod	site	YELL	24	1	4.166666666666667
+noeA	accessory nodulation/symbiosis-related	site	BLAN	15	10	66.66666666666667
+noeA	accessory nodulation/symbiosis-related	site	BONA	57	0	0
+noeA	accessory nodulation/symbiosis-related	site	CLBJ	144	6	4.166666666666667
+noeA	accessory nodulation/symbiosis-related	site	CPER	15	12	80
+noeA	accessory nodulation/symbiosis-related	site	DCFS	24	20	83.33333333333333
+noeA	accessory nodulation/symbiosis-related	site	DEJU	202	2	0.9900990099009901
+noeA	accessory nodulation/symbiosis-related	site	DELA	99	3	3.0303030303030303
+noeA	accessory nodulation/symbiosis-related	site	DSNY	265	7	2.641509433962264
+noeA	accessory nodulation/symbiosis-related	site	GRSM	9	0	0
+noeA	accessory nodulation/symbiosis-related	site	GUAN	30	0	0
+noeA	accessory nodulation/symbiosis-related	site	HARV	24	0	0
+noeA	accessory nodulation/symbiosis-related	site	HEAL	69	1	1.4492753623188406
+noeA	accessory nodulation/symbiosis-related	site	JERC	548	7	1.2773722627737227
+noeA	accessory nodulation/symbiosis-related	site	JORN	12	1	8.333333333333334
+noeA	accessory nodulation/symbiosis-related	site	KONA	9	0	0
+noeA	accessory nodulation/symbiosis-related	site	KONZ	51	3	5.882352941176471
+noeA	accessory nodulation/symbiosis-related	site	LAJA	96	1	1.0416666666666667
+noeA	accessory nodulation/symbiosis-related	site	LENO	45	1	2.2222222222222223
+noeA	accessory nodulation/symbiosis-related	site	MLBS	12	0	0
+noeA	accessory nodulation/symbiosis-related	site	NIWO	6	3	50
+noeA	accessory nodulation/symbiosis-related	site	NOGP	21	19	90.47619047619048
+noeA	accessory nodulation/symbiosis-related	site	OAES	118	36	30.508474576271187
+noeA	accessory nodulation/symbiosis-related	site	ORNL	87	0	0
+noeA	accessory nodulation/symbiosis-related	site	OSBS	221	6	2.7149321266968327
+noeA	accessory nodulation/symbiosis-related	site	RMNP	15	1	6.666666666666667
+noeA	accessory nodulation/symbiosis-related	site	SCBI	38	8	21.05263157894737
+noeA	accessory nodulation/symbiosis-related	site	SERC	28	2	7.142857142857143
+noeA	accessory nodulation/symbiosis-related	site	SJER	15	0	0
+noeA	accessory nodulation/symbiosis-related	site	SRER	54	1	1.8518518518518519
+noeA	accessory nodulation/symbiosis-related	site	TALL	346	7	2.023121387283237
+noeA	accessory nodulation/symbiosis-related	site	TEAK	8	2	25
+noeA	accessory nodulation/symbiosis-related	site	TOOL	102	4	3.9215686274509802
+noeA	accessory nodulation/symbiosis-related	site	UKFS	17	0	0
+noeA	accessory nodulation/symbiosis-related	site	UNDE	15	0	0
+noeA	accessory nodulation/symbiosis-related	site	Unknown	32	6	18.75
+noeA	accessory nodulation/symbiosis-related	site	WOOD	34	28	82.3529411764706
+noeA	accessory nodulation/symbiosis-related	site	YELL	24	0	0
+noeB	accessory nodulation/symbiosis-related	site	BLAN	15	8	53.333333333333336
+noeB	accessory nodulation/symbiosis-related	site	BONA	57	0	0
+noeB	accessory nodulation/symbiosis-related	site	CLBJ	144	2	1.3888888888888888
+noeB	accessory nodulation/symbiosis-related	site	CPER	15	12	80
+noeB	accessory nodulation/symbiosis-related	site	DCFS	24	17	70.83333333333333
+noeB	accessory nodulation/symbiosis-related	site	DEJU	202	1	0.49504950495049505
+noeB	accessory nodulation/symbiosis-related	site	DELA	99	1	1.0101010101010102
+noeB	accessory nodulation/symbiosis-related	site	DSNY	265	2	0.7547169811320755
+noeB	accessory nodulation/symbiosis-related	site	GRSM	9	0	0
+noeB	accessory nodulation/symbiosis-related	site	GUAN	30	0	0
+noeB	accessory nodulation/symbiosis-related	site	HARV	24	0	0
+noeB	accessory nodulation/symbiosis-related	site	HEAL	69	1	1.4492753623188406
+noeB	accessory nodulation/symbiosis-related	site	JERC	548	1	0.18248175182481752
+noeB	accessory nodulation/symbiosis-related	site	JORN	12	1	8.333333333333334
+noeB	accessory nodulation/symbiosis-related	site	KONA	9	0	0
+noeB	accessory nodulation/symbiosis-related	site	KONZ	51	2	3.9215686274509802
+noeB	accessory nodulation/symbiosis-related	site	LAJA	96	1	1.0416666666666667
+noeB	accessory nodulation/symbiosis-related	site	LENO	45	1	2.2222222222222223
+noeB	accessory nodulation/symbiosis-related	site	MLBS	12	0	0
+noeB	accessory nodulation/symbiosis-related	site	NIWO	6	1	16.666666666666668
+noeB	accessory nodulation/symbiosis-related	site	NOGP	21	17	80.95238095238095
+noeB	accessory nodulation/symbiosis-related	site	OAES	118	31	26.271186440677965
+noeB	accessory nodulation/symbiosis-related	site	ORNL	87	0	0
+noeB	accessory nodulation/symbiosis-related	site	OSBS	221	2	0.9049773755656109
+noeB	accessory nodulation/symbiosis-related	site	RMNP	15	1	6.666666666666667
+noeB	accessory nodulation/symbiosis-related	site	SCBI	38	6	15.789473684210526
+noeB	accessory nodulation/symbiosis-related	site	SERC	28	1	3.5714285714285716
+noeB	accessory nodulation/symbiosis-related	site	SJER	15	0	0
+noeB	accessory nodulation/symbiosis-related	site	SRER	54	0	0
+noeB	accessory nodulation/symbiosis-related	site	TALL	346	4	1.1560693641618498
+noeB	accessory nodulation/symbiosis-related	site	TEAK	8	2	25
+noeB	accessory nodulation/symbiosis-related	site	TOOL	102	3	2.9411764705882355
+noeB	accessory nodulation/symbiosis-related	site	UKFS	17	0	0
+noeB	accessory nodulation/symbiosis-related	site	UNDE	15	0	0
+noeB	accessory nodulation/symbiosis-related	site	Unknown	32	6	18.75
+noeB	accessory nodulation/symbiosis-related	site	WOOD	34	25	73.52941176470588
+noeB	accessory nodulation/symbiosis-related	site	YELL	24	0	0
+nolF	accessory nodulation/symbiosis-related	site	BLAN	15	12	80
+nolF	accessory nodulation/symbiosis-related	site	BONA	57	0	0
+nolF	accessory nodulation/symbiosis-related	site	CLBJ	144	5	3.4722222222222223
+nolF	accessory nodulation/symbiosis-related	site	CPER	15	13	86.66666666666667
+nolF	accessory nodulation/symbiosis-related	site	DCFS	24	20	83.33333333333333
+nolF	accessory nodulation/symbiosis-related	site	DEJU	202	4	1.9801980198019802
+nolF	accessory nodulation/symbiosis-related	site	DELA	99	2	2.0202020202020203
+nolF	accessory nodulation/symbiosis-related	site	DSNY	265	8	3.018867924528302
+nolF	accessory nodulation/symbiosis-related	site	GRSM	9	0	0
+nolF	accessory nodulation/symbiosis-related	site	GUAN	30	0	0
+nolF	accessory nodulation/symbiosis-related	site	HARV	24	0	0
+nolF	accessory nodulation/symbiosis-related	site	HEAL	69	1	1.4492753623188406
+nolF	accessory nodulation/symbiosis-related	site	JERC	548	10	1.8248175182481752
+nolF	accessory nodulation/symbiosis-related	site	JORN	12	1	8.333333333333334
+nolF	accessory nodulation/symbiosis-related	site	KONA	9	0	0
+nolF	accessory nodulation/symbiosis-related	site	KONZ	51	2	3.9215686274509802
+nolF	accessory nodulation/symbiosis-related	site	LAJA	96	1	1.0416666666666667
+nolF	accessory nodulation/symbiosis-related	site	LENO	45	1	2.2222222222222223
+nolF	accessory nodulation/symbiosis-related	site	MLBS	12	0	0
+nolF	accessory nodulation/symbiosis-related	site	NIWO	6	3	50
+nolF	accessory nodulation/symbiosis-related	site	NOGP	21	18	85.71428571428571
+nolF	accessory nodulation/symbiosis-related	site	OAES	118	33	27.966101694915253
+nolF	accessory nodulation/symbiosis-related	site	ORNL	87	0	0
+nolF	accessory nodulation/symbiosis-related	site	OSBS	221	6	2.7149321266968327
+nolF	accessory nodulation/symbiosis-related	site	RMNP	15	2	13.333333333333334
+nolF	accessory nodulation/symbiosis-related	site	SCBI	38	9	23.68421052631579
+nolF	accessory nodulation/symbiosis-related	site	SERC	28	2	7.142857142857143
+nolF	accessory nodulation/symbiosis-related	site	SJER	15	0	0
+nolF	accessory nodulation/symbiosis-related	site	SRER	54	1	1.8518518518518519
+nolF	accessory nodulation/symbiosis-related	site	TALL	346	9	2.601156069364162
+nolF	accessory nodulation/symbiosis-related	site	TEAK	8	2	25
+nolF	accessory nodulation/symbiosis-related	site	TOOL	102	7	6.862745098039215
+nolF	accessory nodulation/symbiosis-related	site	UKFS	17	0	0
+nolF	accessory nodulation/symbiosis-related	site	UNDE	15	0	0
+nolF	accessory nodulation/symbiosis-related	site	Unknown	32	6	18.75
+nolF	accessory nodulation/symbiosis-related	site	WOOD	34	30	88.23529411764706
+nolF	accessory nodulation/symbiosis-related	site	YELL	24	1	4.166666666666667
+nolG	accessory nodulation/symbiosis-related	site	BLAN	15	11	73.33333333333333
+nolG	accessory nodulation/symbiosis-related	site	BONA	57	0	0
+nolG	accessory nodulation/symbiosis-related	site	CLBJ	144	5	3.4722222222222223
+nolG	accessory nodulation/symbiosis-related	site	CPER	15	13	86.66666666666667
+nolG	accessory nodulation/symbiosis-related	site	DCFS	24	21	87.5
+nolG	accessory nodulation/symbiosis-related	site	DEJU	202	2	0.9900990099009901
+nolG	accessory nodulation/symbiosis-related	site	DELA	99	2	2.0202020202020203
+nolG	accessory nodulation/symbiosis-related	site	DSNY	265	10	3.7735849056603774
+nolG	accessory nodulation/symbiosis-related	site	GRSM	9	0	0
+nolG	accessory nodulation/symbiosis-related	site	GUAN	30	0	0
+nolG	accessory nodulation/symbiosis-related	site	HARV	24	0	0
+nolG	accessory nodulation/symbiosis-related	site	HEAL	69	1	1.4492753623188406
+nolG	accessory nodulation/symbiosis-related	site	JERC	548	16	2.9197080291970803
+nolG	accessory nodulation/symbiosis-related	site	JORN	12	1	8.333333333333334
+nolG	accessory nodulation/symbiosis-related	site	KONA	9	0	0
+nolG	accessory nodulation/symbiosis-related	site	KONZ	51	3	5.882352941176471
+nolG	accessory nodulation/symbiosis-related	site	LAJA	96	2	2.0833333333333335
+nolG	accessory nodulation/symbiosis-related	site	LENO	45	1	2.2222222222222223
+nolG	accessory nodulation/symbiosis-related	site	MLBS	12	0	0
+nolG	accessory nodulation/symbiosis-related	site	NIWO	6	4	66.66666666666667
+nolG	accessory nodulation/symbiosis-related	site	NOGP	21	19	90.47619047619048
+nolG	accessory nodulation/symbiosis-related	site	OAES	118	37	31.35593220338983
+nolG	accessory nodulation/symbiosis-related	site	ORNL	87	0	0
+nolG	accessory nodulation/symbiosis-related	site	OSBS	221	8	3.6199095022624435
+nolG	accessory nodulation/symbiosis-related	site	RMNP	15	2	13.333333333333334
+nolG	accessory nodulation/symbiosis-related	site	SCBI	38	10	26.31578947368421
+nolG	accessory nodulation/symbiosis-related	site	SERC	28	2	7.142857142857143
+nolG	accessory nodulation/symbiosis-related	site	SJER	15	0	0
+nolG	accessory nodulation/symbiosis-related	site	SRER	54	1	1.8518518518518519
+nolG	accessory nodulation/symbiosis-related	site	TALL	346	11	3.179190751445087
+nolG	accessory nodulation/symbiosis-related	site	TEAK	8	2	25
+nolG	accessory nodulation/symbiosis-related	site	TOOL	102	8	7.8431372549019605
+nolG	accessory nodulation/symbiosis-related	site	UKFS	17	0	0
+nolG	accessory nodulation/symbiosis-related	site	UNDE	15	0	0
+nolG	accessory nodulation/symbiosis-related	site	Unknown	32	6	18.75
+nolG	accessory nodulation/symbiosis-related	site	WOOD	34	30	88.23529411764706
+nolG	accessory nodulation/symbiosis-related	site	YELL	24	2	8.333333333333334
+nifD	nif	state	#N/A	6	0	0
+nifD	nif	state	AL	490	186	37.95918367346939
+nifD	nif	state	Alaska	401	133	33.16708229426434
+nifD	nif	state	Arizona	54	54	100
+nifD	nif	state	CA	23	15	65.21739130434783
+nifD	nif	state	CO	36	31	86.11111111111111
+nifD	nif	state	FL	190	102	53.68421052631579
+nifD	nif	state	FLorida	5	3	60
+nifD	nif	state	Fl	31	12	38.70967741935484
+nifD	nif	state	Florida	257	134	52.14007782101167
+nifD	nif	state	Georgia	537	280	52.141527001862194
+nifD	nif	state	KS	71	54	76.05633802816901
+nifD	nif	state	MA	24	7	29.166666666666668
+nifD	nif	state	MD	28	7	25
+nifD	nif	state	MI	15	8	53.333333333333336
+nifD	nif	state	ND	79	77	97.46835443037975
+nifD	nif	state	New Mexico	12	12	100
+nifD	nif	state	OK	118	106	89.83050847457628
+nifD	nif	state	P.R	126	64	50.79365079365079
+nifD	nif	state	TN	96	22	22.916666666666668
+nifD	nif	state	TX	144	94	65.27777777777777
+nifD	nif	state	Unknown	72	41	56.94444444444444
+nifD	nif	state	VA	65	40	61.53846153846154
+nifD	nif	state	WY	24	14	58.333333333333336
+nifH	nif	state	#N/A	6	1	16.666666666666668
+nifH	nif	state	AL	490	221	45.10204081632653
+nifH	nif	state	Alaska	401	144	35.910224438902745
+nifH	nif	state	Arizona	54	53	98.14814814814815
+nifH	nif	state	CA	23	10	43.47826086956522
+nifH	nif	state	CO	36	31	86.11111111111111
+nifH	nif	state	FL	190	111	58.421052631578945
+nifH	nif	state	FLorida	5	2	40
+nifH	nif	state	Fl	31	16	51.61290322580645
+nifH	nif	state	Florida	257	137	53.30739299610895
+nifH	nif	state	Georgia	537	308	57.35567970204842
+nifH	nif	state	KS	71	54	76.05633802816901
+nifH	nif	state	MA	24	6	25
+nifH	nif	state	MD	28	4	14.285714285714286
+nifH	nif	state	MI	15	7	46.666666666666664
+nifH	nif	state	ND	79	73	92.40506329113924
+nifH	nif	state	New Mexico	12	12	100
+nifH	nif	state	OK	118	90	76.27118644067797
+nifH	nif	state	P.R	126	83	65.87301587301587
+nifH	nif	state	TN	96	29	30.208333333333332
+nifH	nif	state	TX	144	89	61.80555555555556
+nifH	nif	state	Unknown	72	40	55.55555555555556
+nifH	nif	state	VA	65	38	58.46153846153846
+nifH	nif	state	WY	24	12	50
+nifJ	nif	state	#N/A	6	1	16.666666666666668
+nifJ	nif	state	AL	490	65	13.26530612244898
+nifJ	nif	state	Alaska	401	137	34.1645885286783
+nifJ	nif	state	Arizona	54	0	0
+nifJ	nif	state	CA	23	0	0
+nifJ	nif	state	CO	36	0	0
+nifJ	nif	state	FL	190	17	8.947368421052632
+nifJ	nif	state	FLorida	5	1	20
+nifJ	nif	state	Fl	31	0	0
+nifJ	nif	state	Florida	257	11	4.280155642023346
+nifJ	nif	state	Georgia	537	15	2.793296089385475
+nifJ	nif	state	KS	71	0	0
+nifJ	nif	state	MA	24	8	33.333333333333336
+nifJ	nif	state	MD	28	6	21.428571428571427
+nifJ	nif	state	MI	15	6	40
+nifJ	nif	state	ND	79	0	0
+nifJ	nif	state	New Mexico	12	0	0
+nifJ	nif	state	OK	118	5	4.237288135593221
+nifJ	nif	state	P.R	126	11	8.73015873015873
+nifJ	nif	state	TN	96	18	18.75
+nifJ	nif	state	TX	144	2	1.3888888888888888
+nifJ	nif	state	Unknown	72	13	18.055555555555557
+nifJ	nif	state	VA	65	9	13.846153846153847
+nifJ	nif	state	WY	24	3	12.5
+nifK	nif	state	#N/A	6	1	16.666666666666668
+nifK	nif	state	AL	490	103	21.020408163265305
+nifK	nif	state	Alaska	401	89	22.194513715710723
+nifK	nif	state	Arizona	54	54	100
+nifK	nif	state	CA	23	10	43.47826086956522
+nifK	nif	state	CO	36	30	83.33333333333333
+nifK	nif	state	FL	190	61	32.10526315789474
+nifK	nif	state	FLorida	5	1	20
+nifK	nif	state	Fl	31	11	35.483870967741936
+nifK	nif	state	Florida	257	96	37.35408560311284
+nifK	nif	state	Georgia	537	190	35.381750465549345
+nifK	nif	state	KS	71	44	61.971830985915496
+nifK	nif	state	MA	24	3	12.5
+nifK	nif	state	MD	28	6	21.428571428571427
+nifK	nif	state	MI	15	2	13.333333333333334
+nifK	nif	state	ND	79	73	92.40506329113924
+nifK	nif	state	New Mexico	12	12	100
+nifK	nif	state	OK	118	103	87.28813559322033
+nifK	nif	state	P.R	126	33	26.19047619047619
+nifK	nif	state	TN	96	20	20.833333333333332
+nifK	nif	state	TX	144	80	55.55555555555556
+nifK	nif	state	Unknown	72	26	36.111111111111114
+nifK	nif	state	VA	65	32	49.23076923076923
+nifK	nif	state	WY	24	7	29.166666666666668
+nodL	canonical nod	state	#N/A	6	0	0
+nodL	canonical nod	state	AL	490	13	2.6530612244897958
+nodL	canonical nod	state	Alaska	401	9	2.2443890274314215
+nodL	canonical nod	state	Arizona	54	3	5.555555555555555
+nodL	canonical nod	state	CA	23	1	4.3478260869565215
+nodL	canonical nod	state	CO	36	17	47.22222222222222
+nodL	canonical nod	state	FL	190	7	3.6842105263157894
+nodL	canonical nod	state	FLorida	5	0	0
+nodL	canonical nod	state	Fl	31	2	6.451612903225806
+nodL	canonical nod	state	Florida	257	5	1.9455252918287937
+nodL	canonical nod	state	Georgia	537	18	3.35195530726257
+nodL	canonical nod	state	KS	71	3	4.225352112676056
+nodL	canonical nod	state	MA	24	0	0
+nodL	canonical nod	state	MD	28	2	7.142857142857143
+nodL	canonical nod	state	MI	15	0	0
+nodL	canonical nod	state	ND	79	61	77.21518987341773
+nodL	canonical nod	state	New Mexico	12	1	8.333333333333334
+nodL	canonical nod	state	OK	118	53	44.91525423728814
+nodL	canonical nod	state	P.R	126	1	0.7936507936507936
+nodL	canonical nod	state	TN	96	4	4.166666666666667
+nodL	canonical nod	state	TX	144	8	5.555555555555555
+nodL	canonical nod	state	Unknown	72	11	15.277777777777779
+nodL	canonical nod	state	VA	65	18	27.692307692307693
+nodL	canonical nod	state	WY	24	2	8.333333333333334
+nodX	canonical nod	state	#N/A	6	0	0
+nodX	canonical nod	state	AL	490	22	4.489795918367347
+nodX	canonical nod	state	Alaska	401	13	3.2418952618453867
+nodX	canonical nod	state	Arizona	54	0	0
+nodX	canonical nod	state	CA	23	2	8.695652173913043
+nodX	canonical nod	state	CO	36	4	11.11111111111111
+nodX	canonical nod	state	FL	190	11	5.7894736842105265
+nodX	canonical nod	state	FLorida	5	0	0
+nodX	canonical nod	state	Fl	31	0	0
+nodX	canonical nod	state	Florida	257	10	3.8910505836575875
+nodX	canonical nod	state	Georgia	537	15	2.793296089385475
+nodX	canonical nod	state	KS	71	2	2.816901408450704
+nodX	canonical nod	state	MA	24	0	0
+nodX	canonical nod	state	MD	28	0	0
+nodX	canonical nod	state	MI	15	1	6.666666666666667
+nodX	canonical nod	state	ND	79	6	7.594936708860759
+nodX	canonical nod	state	New Mexico	12	0	0
+nodX	canonical nod	state	OK	118	3	2.542372881355932
+nodX	canonical nod	state	P.R	126	1	0.7936507936507936
+nodX	canonical nod	state	TN	96	12	12.5
+nodX	canonical nod	state	TX	144	11	7.638888888888889
+nodX	canonical nod	state	Unknown	72	7	9.722222222222221
+nodX	canonical nod	state	VA	65	16	24.615384615384617
+nodX	canonical nod	state	WY	24	1	4.166666666666667
+noeA	accessory nodulation/symbiosis-related	state	#N/A	6	0	0
+noeA	accessory nodulation/symbiosis-related	state	AL	490	11	2.2448979591836733
+noeA	accessory nodulation/symbiosis-related	state	Alaska	401	6	1.4962593516209477
+noeA	accessory nodulation/symbiosis-related	state	Arizona	54	1	1.8518518518518519
+noeA	accessory nodulation/symbiosis-related	state	CA	23	2	8.695652173913043
+noeA	accessory nodulation/symbiosis-related	state	CO	36	16	44.44444444444444
+noeA	accessory nodulation/symbiosis-related	state	FL	190	2	1.0526315789473684
+noeA	accessory nodulation/symbiosis-related	state	FLorida	5	0	0
+noeA	accessory nodulation/symbiosis-related	state	Fl	31	4	12.903225806451612
+noeA	accessory nodulation/symbiosis-related	state	Florida	257	7	2.7237354085603114
+noeA	accessory nodulation/symbiosis-related	state	Georgia	537	5	0.931098696461825
+noeA	accessory nodulation/symbiosis-related	state	KS	71	3	4.225352112676056
+noeA	accessory nodulation/symbiosis-related	state	MA	24	0	0
+noeA	accessory nodulation/symbiosis-related	state	MD	28	2	7.142857142857143
+noeA	accessory nodulation/symbiosis-related	state	MI	15	0	0
+noeA	accessory nodulation/symbiosis-related	state	ND	79	67	84.81012658227849
+noeA	accessory nodulation/symbiosis-related	state	New Mexico	12	1	8.333333333333334
+noeA	accessory nodulation/symbiosis-related	state	OK	118	36	30.508474576271187
+noeA	accessory nodulation/symbiosis-related	state	P.R	126	1	0.7936507936507936
+noeA	accessory nodulation/symbiosis-related	state	TN	96	0	0
+noeA	accessory nodulation/symbiosis-related	state	TX	144	6	4.166666666666667
+noeA	accessory nodulation/symbiosis-related	state	Unknown	72	9	12.5
+noeA	accessory nodulation/symbiosis-related	state	VA	65	18	27.692307692307693
+noeA	accessory nodulation/symbiosis-related	state	WY	24	0	0
+noeB	accessory nodulation/symbiosis-related	state	#N/A	6	0	0
+noeB	accessory nodulation/symbiosis-related	state	AL	490	6	1.2244897959183674
+noeB	accessory nodulation/symbiosis-related	state	Alaska	401	4	0.9975062344139651
+noeB	accessory nodulation/symbiosis-related	state	Arizona	54	0	0
+noeB	accessory nodulation/symbiosis-related	state	CA	23	2	8.695652173913043
+noeB	accessory nodulation/symbiosis-related	state	CO	36	14	38.888888888888886
+noeB	accessory nodulation/symbiosis-related	state	FL	190	2	1.0526315789473684
+noeB	accessory nodulation/symbiosis-related	state	FLorida	5	0	0
+noeB	accessory nodulation/symbiosis-related	state	Fl	31	0	0
+noeB	accessory nodulation/symbiosis-related	state	Florida	257	2	0.7782101167315175
+noeB	accessory nodulation/symbiosis-related	state	Georgia	537	1	0.186219739292365
+noeB	accessory nodulation/symbiosis-related	state	KS	71	2	2.816901408450704
+noeB	accessory nodulation/symbiosis-related	state	MA	24	0	0
+noeB	accessory nodulation/symbiosis-related	state	MD	28	1	3.5714285714285716
+noeB	accessory nodulation/symbiosis-related	state	MI	15	0	0
+noeB	accessory nodulation/symbiosis-related	state	ND	79	59	74.68354430379746
+noeB	accessory nodulation/symbiosis-related	state	New Mexico	12	1	8.333333333333334
+noeB	accessory nodulation/symbiosis-related	state	OK	118	31	26.271186440677965
+noeB	accessory nodulation/symbiosis-related	state	P.R	126	1	0.7936507936507936
+noeB	accessory nodulation/symbiosis-related	state	TN	96	0	0
+noeB	accessory nodulation/symbiosis-related	state	TX	144	2	1.3888888888888888
+noeB	accessory nodulation/symbiosis-related	state	Unknown	72	7	9.722222222222221
+noeB	accessory nodulation/symbiosis-related	state	VA	65	14	21.53846153846154
+noeB	accessory nodulation/symbiosis-related	state	WY	24	0	0
+nolF	accessory nodulation/symbiosis-related	state	#N/A	6	0	0
+nolF	accessory nodulation/symbiosis-related	state	AL	490	12	2.4489795918367347
+nolF	accessory nodulation/symbiosis-related	state	Alaska	401	10	2.493765586034913
+nolF	accessory nodulation/symbiosis-related	state	Arizona	54	1	1.8518518518518519
+nolF	accessory nodulation/symbiosis-related	state	CA	23	2	8.695652173913043
+nolF	accessory nodulation/symbiosis-related	state	CO	36	18	50
+nolF	accessory nodulation/symbiosis-related	state	FL	190	2	1.0526315789473684
+nolF	accessory nodulation/symbiosis-related	state	FLorida	5	0	0
+nolF	accessory nodulation/symbiosis-related	state	Fl	31	4	12.903225806451612
+nolF	accessory nodulation/symbiosis-related	state	Florida	257	8	3.11284046692607
+nolF	accessory nodulation/symbiosis-related	state	Georgia	537	8	1.48975791433892
+nolF	accessory nodulation/symbiosis-related	state	KS	71	2	2.816901408450704
+nolF	accessory nodulation/symbiosis-related	state	MA	24	0	0
+nolF	accessory nodulation/symbiosis-related	state	MD	28	2	7.142857142857143
+nolF	accessory nodulation/symbiosis-related	state	MI	15	0	0
+nolF	accessory nodulation/symbiosis-related	state	ND	79	68	86.07594936708861
+nolF	accessory nodulation/symbiosis-related	state	New Mexico	12	1	8.333333333333334
+nolF	accessory nodulation/symbiosis-related	state	OK	118	33	27.966101694915253
+nolF	accessory nodulation/symbiosis-related	state	P.R	126	1	0.7936507936507936
+nolF	accessory nodulation/symbiosis-related	state	TN	96	0	0
+nolF	accessory nodulation/symbiosis-related	state	TX	144	5	3.4722222222222223
+nolF	accessory nodulation/symbiosis-related	state	Unknown	72	10	13.88888888888889
+nolF	accessory nodulation/symbiosis-related	state	VA	65	21	32.30769230769231
+nolF	accessory nodulation/symbiosis-related	state	WY	24	1	4.166666666666667
+nolG	accessory nodulation/symbiosis-related	state	#N/A	6	0	0
+nolG	accessory nodulation/symbiosis-related	state	AL	490	14	2.857142857142857
+nolG	accessory nodulation/symbiosis-related	state	Alaska	401	10	2.493765586034913
+nolG	accessory nodulation/symbiosis-related	state	Arizona	54	1	1.8518518518518519
+nolG	accessory nodulation/symbiosis-related	state	CA	23	2	8.695652173913043
+nolG	accessory nodulation/symbiosis-related	state	CO	36	19	52.77777777777778
+nolG	accessory nodulation/symbiosis-related	state	FL	190	4	2.1052631578947367
+nolG	accessory nodulation/symbiosis-related	state	FLorida	5	0	0
+nolG	accessory nodulation/symbiosis-related	state	Fl	31	4	12.903225806451612
+nolG	accessory nodulation/symbiosis-related	state	Florida	257	10	3.8910505836575875
+nolG	accessory nodulation/symbiosis-related	state	Georgia	537	12	2.2346368715083798
+nolG	accessory nodulation/symbiosis-related	state	KS	71	3	4.225352112676056
+nolG	accessory nodulation/symbiosis-related	state	MA	24	0	0
+nolG	accessory nodulation/symbiosis-related	state	MD	28	2	7.142857142857143
+nolG	accessory nodulation/symbiosis-related	state	MI	15	0	0
+nolG	accessory nodulation/symbiosis-related	state	ND	79	70	88.60759493670886
+nolG	accessory nodulation/symbiosis-related	state	New Mexico	12	1	8.333333333333334
+nolG	accessory nodulation/symbiosis-related	state	OK	118	37	31.35593220338983
+nolG	accessory nodulation/symbiosis-related	state	P.R	126	2	1.5873015873015872
+nolG	accessory nodulation/symbiosis-related	state	TN	96	0	0
+nolG	accessory nodulation/symbiosis-related	state	TX	144	5	3.4722222222222223
+nolG	accessory nodulation/symbiosis-related	state	Unknown	72	11	15.277777777777779
+nolG	accessory nodulation/symbiosis-related	state	VA	65	21	32.30769230769231
+nolG	accessory nodulation/symbiosis-related	state	WY	24	2	8.333333333333334
+nifD	nif	native_status	0	43	16	37.2093023255814
+nifD	nif	native_status	Unknown	30	18	60
+nifD	nif	native_status	no	404	258	63.86138613861386
+nifD	nif	native_status	yes	2427	1204	49.6085702513391
+nifH	nif	native_status	0	43	17	39.53488372093023
+nifH	nif	native_status	Unknown	30	15	50
+nifH	nif	native_status	no	404	260	64.35643564356435
+nifH	nif	native_status	yes	2427	1278	52.65760197775031
+nifJ	nif	native_status	0	43	3	6.976744186046512
+nifJ	nif	native_status	Unknown	30	0	0
+nifJ	nif	native_status	no	404	38	9.405940594059405
+nifJ	nif	native_status	yes	2427	287	11.825298722702925
+nifK	nif	native_status	0	43	7	16.27906976744186
+nifK	nif	native_status	Unknown	30	11	36.666666666666664
+nifK	nif	native_status	no	404	225	55.693069306930695
+nifK	nif	native_status	yes	2427	845	34.81664606510095
+nodL	canonical nod	native_status	0	43	0	0
+nodL	canonical nod	native_status	Unknown	30	6	20
+nodL	canonical nod	native_status	no	404	99	24.504950495049506
+nodL	canonical nod	native_status	yes	2427	134	5.521219612690564
+nodX	canonical nod	native_status	0	43	3	6.976744186046512
+nodX	canonical nod	native_status	Unknown	30	4	13.333333333333334
+nodX	canonical nod	native_status	no	404	43	10.643564356435643
+nodX	canonical nod	native_status	yes	2427	87	3.584672435105068
+noeA	accessory nodulation/symbiosis-related	native_status	0	43	0	0
+noeA	accessory nodulation/symbiosis-related	native_status	Unknown	30	6	20
+noeA	accessory nodulation/symbiosis-related	native_status	no	404	101	25
+noeA	accessory nodulation/symbiosis-related	native_status	yes	2427	90	3.708281829419036
+noeB	accessory nodulation/symbiosis-related	native_status	0	43	0	0
+noeB	accessory nodulation/symbiosis-related	native_status	Unknown	30	6	20
+noeB	accessory nodulation/symbiosis-related	native_status	no	404	88	21.782178217821784
+noeB	accessory nodulation/symbiosis-related	native_status	yes	2427	55	2.2661722290894106
+nolF	accessory nodulation/symbiosis-related	native_status	0	43	0	0
+nolF	accessory nodulation/symbiosis-related	native_status	Unknown	30	6	20
+nolF	accessory nodulation/symbiosis-related	native_status	no	404	102	25.247524752475247
+nolF	accessory nodulation/symbiosis-related	native_status	yes	2427	101	4.161516275236918
+nolG	accessory nodulation/symbiosis-related	native_status	0	43	0	0
+nolG	accessory nodulation/symbiosis-related	native_status	Unknown	30	6	20
+nolG	accessory nodulation/symbiosis-related	native_status	no	404	105	25.99009900990099
+nolG	accessory nodulation/symbiosis-related	native_status	yes	2427	119	4.903172641120725

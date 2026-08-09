@@ -1,0 +1,2132 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: iqtree -s /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/02_alignment/nifK_consensus50_iupac_all_pass.mafft.fasta -st DNA -m MFP -B 1000 -alrt 1000 -nm 5000 -T AUTO --prefix /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000
+Seed:    394090 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug  3 11:23:43 2026
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading alignment file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/02_alignment/nifK_consensus50_iupac_all_pass.mafft.fasta ... Fasta format detected
+Reading fasta file: done in 0.154828 secs using 11.88% CPU
+Constructing alignment: done in 0.0198264 secs using 1582% CPU
+Alignment has 1052 sequences with 1542 columns, 1387 distinct patterns
+777 parsimony-informative, 78 singleton sites, 687 constant sites
+                                                                      Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000330384 secs using 972.5% CPU
+   1  BLAN-1-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         16.28%    passed     78.03%
+   2  BLAN-1-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         12.65%    passed      5.09%
+   3  BLAN-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         19.39%    passed     17.62%
+   4  BLAN-2-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         12.71%    passed     11.15%
+   5  BLAN-2-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         13.04%    failed      0.72%
+   6  BLAN-2-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         17.83%    failed      4.53%
+   7  BLAN-3-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         10.70%    failed      1.93%
+   8  BLAN-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         11.28%    passed      9.29%
+   9  BLAN-3-1-Ro|nifK|consensus50|pass_single_dominant                      19.00%    failed      1.39%
+  10  BLAN-4-1-No|nifK|consensus50|pass_single_dominant                      16.02%    passed     39.37%
+  11  BLAN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         14.14%    failed      1.76%
+  12  BONA-2-Ro|nifK|consensus50|pass_single_dominant                        10.05%    passed     20.77%
+  13  BONA-4-No|nifK|consensus50|pass_mixed_possible_multitemplate           18.68%    passed     89.41%
+  14  BONA-4-Rh|nifK|consensus50|pass_single_dominant                         9.27%    passed     84.98%
+  15  CLBJ-10-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.10%    passed     93.88%
+  16  CLBJ-11-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         5.58%    passed     98.53%
+  17  CLBJ-1-1-No|nifK|consensus50|pass_single_dominant                       4.73%    passed      6.78%
+  18  CLBJ-1-1-Rh|nifK|consensus50|pass_single_dominant                       5.71%    passed     35.81%
+  19  CLBJ-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          7.91%    passed     81.44%
+  20  CLBJ-12-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.85%    passed     88.78%
+  21  CLBJ-13-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        15.05%    passed     47.53%
+  22  CLBJ-13-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        11.93%    passed     82.14%
+  23  CLBJ-13-1-Ro|nifK|consensus50|pass_single_dominant                      7.33%    passed     73.23%
+  24  CLBJ-14-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         4.02%    passed     92.77%
+  25  CLBJ-15-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.74%    passed     81.98%
+  26  CLBJ-15-1-Rh|nifK|consensus50|pass_single_dominant                     15.05%    passed     79.44%
+  27  CLBJ-15-1-Ro|nifK|consensus50|pass_single_dominant                     10.12%    passed     80.87%
+  28  CLBJ-16-2-No|nifK|consensus50|pass_single_dominant                     16.47%    passed     91.76%
+  29  CLBJ-16-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.80%    passed     73.96%
+  30  CLBJ-17-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.46%    passed     62.06%
+  31  CLBJ-18-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.31%    passed     92.51%
+  32  CLBJ-18-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         4.67%    passed     90.91%
+  33  CLBJ-18-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         7.59%    passed     55.55%
+  34  CLBJ-19-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         8.75%    passed     55.92%
+  35  CLBJ-19-1-Rh|nifK|consensus50|pass_single_dominant                      5.58%    passed     42.42%
+  36  CLBJ-19-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         6.03%    passed     73.40%
+  37  CLBJ-20-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         3.37%    passed     15.71%
+  38  CLBJ-21-1-Rh|nifK|consensus50|pass_single_dominant                     12.52%    passed     82.40%
+  39  CLBJ-23-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         5.97%    passed     30.52%
+  40  CLBJ-23-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.01%    passed     62.12%
+  41  CLBJ-24-No|nifK|consensus50|pass_single_dominant                       16.15%    passed     90.70%
+  42  CLBJ-24-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          10.18%    passed     69.59%
+  43  CLBJ-25-2-No|nifK|consensus50|pass_single_dominant                     18.81%    passed     83.57%
+  44  CLBJ-25-2-Rh|nifK|consensus50|pass_single_dominant                     15.43%    passed     61.04%
+  45  CLBJ-25-2-Ro|nifK|consensus50|pass_single_dominant                      8.63%    passed     97.26%
+  46  CLBJ-26-1-No|nifK|consensus50|pass_single_dominant                      6.74%    passed     98.15%
+  47  CLBJ-26-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.71%    passed     98.79%
+  48  CLBJ-26-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        17.57%    passed     78.66%
+  49  CLBJ-27-1-No|nifK|consensus50|pass_single_dominant                      1.88%    passed     97.70%
+  50  CLBJ-27-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         7.26%    passed     54.67%
+  51  CLBJ-27-1-Ro|nifK|consensus50|pass_single_dominant                     14.20%    passed     69.60%
+  52  CLBJ-2-No|nifK|consensus50|pass_single_dominant                         3.37%    passed     94.62%
+  53  CLBJ-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate            4.93%    passed     44.79%
+  54  CLBJ-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           10.25%    passed     33.59%
+  55  CLBJ-3-1-No|nifK|consensus50|pass_single_dominant                       4.35%    failed      1.13%
+  56  CLBJ-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          9.92%    passed     44.88%
+  57  CLBJ-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.50%    passed     63.85%
+  58  CLBJ-34-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        16.80%    passed     88.97%
+  59  CLBJ-34-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        15.63%    passed     84.14%
+  60  CLBJ-35-1-No|nifK|consensus50|pass_single_dominant                     19.07%    passed     57.76%
+  61  CLBJ-35-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         8.82%    passed     91.89%
+  62  CLBJ-36-1-No|nifK|consensus50|pass_single_dominant                      9.66%    passed     51.29%
+  63  CLBJ-37-1-No|nifK|consensus50|pass_single_dominant                     11.28%    failed      0.40%
+  64  CLBJ-37-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        18.94%    failed      0.86%
+  65  CLBJ-39-1-Rh|nifK|consensus50|pass_single_dominant                     11.87%    passed     39.58%
+  66  CLBJ-40-1-Ro|nifK|consensus50|pass_single_dominant                      6.36%    passed     77.24%
+  67  CLBJ-41-1-No|nifK|consensus50|pass_single_dominant                     19.65%    passed     17.16%
+  68  CLBJ-4-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          3.89%    passed     91.38%
+  69  CLBJ-4-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.00%    passed     69.66%
+  70  CLBJ-4-1-Ro|nifK|consensus50|pass_single_dominant                       3.57%    passed     88.72%
+  71  CLBJ-42-1-No|nifK|consensus50|pass_single_dominant                     13.29%    passed     40.91%
+  72  CLBJ-42-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.01%    passed     97.06%
+  73  CLBJ-43-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        20.75%    passed     88.35%
+  74  CLBJ-43-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        16.80%    passed     83.91%
+  75  CLBJ-45-2-Ro|nifK|consensus50|pass_single_dominant                      7.65%    passed     95.60%
+  76  CLBJ-46-1-Ro|nifK|consensus50|pass_single_dominant                      8.50%    passed     14.15%
+  77  CLBJ-48-1-No|nifK|consensus50|pass_single_dominant                      3.96%    passed     85.62%
+  78  CLBJ-49-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        15.69%    passed     53.83%
+  79  CLBJ-50-3-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.89%    passed     54.67%
+  80  CLBJ-50-3-Rh|nifK|consensus50|pass_single_dominant                     10.25%    passed     17.29%
+  81  CLBJ-50-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        17.90%    passed     48.71%
+  82  CLBJ-5-2-No|nifK|consensus50|pass_single_dominant                       1.04%    passed     67.15%
+  83  CLBJ-5-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          4.73%    passed     66.76%
+  84  CLBJ-5-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          9.79%    passed     49.05%
+  85  CLBJ-7-1-No|nifK|consensus50|pass_single_dominant                      13.16%    passed     57.66%
+  86  CLBJ-7-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.84%    passed     84.70%
+  87  CLBJ-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         12.65%    passed     69.12%
+  88  CLBJ-8-1-Rh|nifK|consensus50|pass_single_dominant                       9.86%    passed     62.77%
+  89  CLBJ-8-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         16.60%    passed     98.64%
+  90  CLBJ-9-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         13.29%    passed     27.89%
+  91  CPER-1-No|nifK|consensus50|pass_single_dominant                        10.25%    passed     18.89%
+  92  CPER-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           12.13%    passed     95.32%
+  93  CPER-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate            8.75%    passed     98.67%
+  94  CPER-2-No|nifK|consensus50|pass_single_dominant                         0.71%    failed      1.14%
+  95  CPER-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate            5.38%    failed      2.74%
+  96  CPER-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate            2.98%    failed      3.74%
+  97  CPER-3-1-No|nifK|consensus50|pass_single_dominant                       2.33%    failed      0.70%
+  98  CPER-3-1-Rh|nifK|consensus50|pass_single_dominant                       0.26%    failed      0.83%
+  99  CPER-3-1-Ro|nifK|consensus50|pass_single_dominant                       3.31%    failed      0.88%
+ 100  CPER-4-No|nifK|consensus50|pass_single_dominant                         0.52%    failed      1.05%
+ 101  CPER-4-Rh|nifK|consensus50|pass_mixed_possible_multitemplate            6.42%    passed      5.65%
+ 102  CPER-4-Ro|nifK|consensus50|pass_mixed_possible_multitemplate            6.42%    failed      3.49%
+ 103  CPER-5-1-No|nifK|consensus50|pass_single_dominant                       0.52%    failed      0.86%
+ 104  CPER-5-1-Rh|nifK|consensus50|pass_single_dominant                       0.91%    failed      0.92%
+ 105  CPER-5-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          2.53%    failed      0.49%
+ 106  DCFS-1-2-No|nifK|consensus50|pass_single_dominant                       3.83%    passed     82.78%
+ 107  DCFS-1-2-Rh|nifK|consensus50|pass_single_dominant                      16.41%    passed     78.50%
+ 108  DCFS-2-2-No|nifK|consensus50|pass_single_dominant                       0.32%    failed      0.51%
+ 109  DCFS-2-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         15.05%    passed     52.69%
+ 110  DCFS-2-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         14.27%    passed     43.94%
+ 111  DCFS-3-2-No|nifK|consensus50|pass_single_dominant                       0.19%    failed      0.91%
+ 112  DCFS-3-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         17.96%    passed     16.29%
+ 113  DCFS-3-2-Ro|nifK|consensus50|pass_single_dominant                      10.57%    failed      2.05%
+ 114  DCFS-4-No|nifK|consensus50|pass_mixed_possible_multitemplate            4.41%    passed     96.01%
+ 115  DCFS-4-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           13.42%    passed     68.54%
+ 116  DCFS-4-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           12.26%    passed     84.07%
+ 117  DCFS-5-1-No|nifK|consensus50|pass_single_dominant                       0.39%    failed      0.72%
+ 118  DCFS-5-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.51%    passed     37.54%
+ 119  DCFS-5-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          7.20%    passed     17.36%
+ 120  DCFS-6-1-No|nifK|consensus50|pass_single_dominant                       0.26%    failed      0.76%
+ 121  DCFS-6-1-Rh|nifK|consensus50|pass_single_dominant                       7.46%    passed     80.41%
+ 122  DCFS-6-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          9.60%    passed     49.25%
+ 123  DCFS-7-1-No|nifK|consensus50|pass_single_dominant                       4.02%    passed     98.48%
+ 124  DCFS-7-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          3.70%    passed     94.15%
+ 125  DCFS-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.43%    passed     73.28%
+ 126  DCFS-8-1-No|nifK|consensus50|pass_single_dominant                       0.45%    failed      0.75%
+ 127  DCFS-8-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.64%    passed     22.96%
+ 128  DCFS-8-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         13.55%    passed     57.31%
+ 129  DEJU-10-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        14.33%    passed     94.94%
+ 130  DEJU-11-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        14.53%    passed     91.10%
+ 131  DEJU-11-1-Ro|nifK|consensus50|pass_single_dominant                     14.53%    passed     53.26%
+ 132  DEJU-23-1-No|nifK|consensus50|pass_single_dominant                     17.12%    failed      4.15%
+ 133  DEJU-29-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        15.50%    passed     26.85%
+ 134  DEJU-3-1-Rh|nifK|consensus50|pass_single_dominant                      15.89%    passed     53.43%
+ 135  DEJU-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         11.74%    passed     32.16%
+ 136  DEJU-37-No|nifK|consensus50|pass_single_dominant                       16.02%    passed     86.82%
+ 137  DEJU-42-No|nifK|consensus50|pass_single_dominant                       18.87%    passed     87.85%
+ 138  DEJU-44-No|nifK|consensus50|pass_mixed_possible_multitemplate          20.49%    passed     73.62%
+ 139  DEJU-55-No|nifK|consensus50|pass_mixed_possible_multitemplate           9.73%    passed     90.06%
+ 140  DEJU-55-Rh|nifK|consensus50|pass_single_dominant                       11.28%    passed     90.69%
+ 141  DEJU-57-No|nifK|consensus50|pass_mixed_possible_multitemplate          11.48%    passed     82.32%
+ 142  DEJU-57-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          10.89%    passed     93.21%
+ 143  DEJU-57-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          12.45%    passed     59.77%
+ 144  DEJU-59-No|nifK|consensus50|pass_mixed_possible_multitemplate          12.00%    failed      4.41%
+ 145  DEJU-63-No|nifK|consensus50|pass_single_dominant                       12.52%    passed     47.57%
+ 146  DEJU-63-Rh|nifK|consensus50|pass_single_dominant                       14.46%    passed     49.27%
+ 147  DEJU-7-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          6.81%    passed     92.95%
+ 148  DEJU-9-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         16.15%    passed     92.28%
+ 149  DELA-10-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        16.34%    passed     58.17%
+ 150  DELA-11-3-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.89%    passed     83.89%
+ 151  DELA-12-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         4.73%    passed     20.73%
+ 152  DELA-13-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         8.82%    passed     84.20%
+ 153  DELA-13-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        16.34%    passed     49.81%
+ 154  DELA-1-3-No|nifK|consensus50|pass_single_dominant                       5.06%    passed      5.45%
+ 155  DELA-1-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.46%    passed      6.53%
+ 156  DELA-1-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         12.58%    passed     28.72%
+ 157  DELA-14-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.36%    passed     62.02%
+ 158  DELA-14-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         8.24%    passed     73.54%
+ 159  DELA-14-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.79%    passed     67.93%
+ 160  DELA-15-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.91%    passed     71.01%
+ 161  DELA-15-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        10.70%    passed     45.98%
+ 162  DELA-15-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         8.88%    passed     83.63%
+ 163  DELA-16-No|nifK|consensus50|pass_mixed_possible_multitemplate           6.10%    passed      7.93%
+ 164  DELA-18-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.97%    passed     48.82%
+ 165  DELA-18-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        16.86%    passed     84.44%
+ 166  DELA-18-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        18.61%    passed     74.08%
+ 167  DELA-20-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        19.52%    passed     41.69%
+ 168  DELA-20-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         7.00%    passed     75.77%
+ 169  DELA-20-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        17.83%    passed     30.87%
+ 170  DELA-2-2-Rh|nifK|consensus50|pass_single_dominant                       8.88%    passed     80.25%
+ 171  DELA-23-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.18%    passed     65.59%
+ 172  DELA-24-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        21.73%    passed     90.30%
+ 173  DELA-24-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.47%    passed     52.67%
+ 174  DELA-26-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         5.12%    passed     78.07%
+ 175  DELA-26-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         6.87%    passed     73.77%
+ 176  DELA-26-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         3.96%    passed     88.99%
+ 177  DELA-27-3-No|nifK|consensus50|pass_single_dominant                      2.53%    passed     86.66%
+ 178  DELA-27-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        16.15%    passed     90.89%
+ 179  DELA-28-No|nifK|consensus50|pass_mixed_possible_multitemplate           9.27%    passed     76.65%
+ 180  DELA-29-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         3.57%    passed     29.46%
+ 181  DELA-29-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.06%    passed     22.15%
+ 182  DELA-29-1-Ro|nifK|consensus50|pass_single_dominant                      9.66%    passed     70.27%
+ 183  DELA-31-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        16.02%    passed     91.22%
+ 184  DELA-31-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        12.78%    passed     34.71%
+ 185  DELA-31-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        12.39%    passed     63.39%
+ 186  DELA-32-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         6.42%    passed     99.09%
+ 187  DELA-32-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        23.22%    passed     81.20%
+ 188  DELA-3-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         12.84%    passed     44.48%
+ 189  DELA-3-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          8.95%    passed     80.67%
+ 190  DELA-5-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         16.08%    passed     29.00%
+ 191  DELA-7-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         11.15%    passed     84.31%
+ 192  DELA-9-1-No|nifK|consensus50|pass_single_dominant                      12.19%    passed     81.78%
+ 193  DELA-9-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         20.69%    passed     63.00%
+ 194  DSNY-101-1-Rh|nifK|consensus50|pass_single_dominant                     8.50%    passed     73.18%
+ 195  DSNY-10-3-No|nifK|consensus50|pass_single_dominant                      8.04%    passed     29.20%
+ 196  DSNY-11-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.78%    passed     51.98%
+ 197  DSNY-12-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         8.95%    passed     64.29%
+ 198  DSNY-12-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        14.98%    passed     61.70%
+ 199  DSNY-13-1-No|nifK|consensus50|pass_single_dominant                      7.52%    passed     37.10%
+ 200  DSNY-13-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.25%    passed     92.68%
+ 201  DSNY-13-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         4.60%    passed      8.33%
+ 202  DSNY-14-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         6.94%    passed     95.07%
+ 203  DSNY-14-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.12%    passed     95.66%
+ 204  DSNY-14-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.53%    passed     36.90%
+ 205  DSNY-15-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         6.74%    passed     91.66%
+ 206  DSNY-15-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.93%    passed     73.87%
+ 207  DSNY-17-3-No|nifK|consensus50|pass_single_dominant                      5.64%    passed     84.59%
+ 208  DSNY-17-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         6.10%    passed     91.64%
+ 209  DSNY-18-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.80%    passed     87.01%
+ 210  DSNY-2-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         11.87%    passed     65.05%
+ 211  DSNY-2-1-Rh|nifK|consensus50|pass_single_dominant                       6.10%    passed     97.93%
+ 212  DSNY-2-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          6.94%    passed     84.15%
+ 213  DSNY-24-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        13.81%    passed     71.31%
+ 214  DSNY-29-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.05%    passed     99.34%
+ 215  DSNY-31-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         5.90%    passed     95.92%
+ 216  DSNY-3-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          6.03%    passed     98.06%
+ 217  DSNY-3-1-Rh|nifK|consensus50|pass_single_dominant                       5.19%    passed     94.25%
+ 218  DSNY-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         12.58%    passed     89.47%
+ 219  DSNY-34-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.19%    passed     88.73%
+ 220  DSNY-34-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        10.77%    passed     23.22%
+ 221  DSNY-34-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        12.39%    passed     86.73%
+ 222  DSNY-36-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.55%    passed     98.99%
+ 223  DSNY-36-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.54%    passed     84.07%
+ 224  DSNY-37-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        14.20%    passed     84.79%
+ 225  DSNY-37-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        12.71%    passed     46.00%
+ 226  DSNY-37-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.47%    passed     91.34%
+ 227  DSNY-38-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        21.92%    passed     10.09%
+ 228  DSNY-39-4-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        20.30%    passed     99.39%
+ 229  DSNY-4-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          8.63%    passed     65.62%
+ 230  DSNY-5-1-No|nifK|consensus50|pass_single_dominant                       8.30%    passed     56.14%
+ 231  DSNY-5-1-Rh|nifK|consensus50|pass_single_dominant                       3.76%    passed     95.78%
+ 232  DSNY-5-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         13.62%    passed     52.24%
+ 233  DSNY-59-No|nifK|consensus50|pass_mixed_possible_multitemplate          20.56%    passed     46.29%
+ 234  DSNY-6-2-Rh|nifK|consensus50|pass_single_dominant                       9.14%    passed     65.30%
+ 235  DSNY-63-Ro|nifK|consensus50|pass_single_dominant                       13.10%    passed     25.15%
+ 236  DSNY-65-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.83%    passed     51.84%
+ 237  DSNY-65-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        10.38%    passed     80.39%
+ 238  DSNY-66-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        15.82%    passed     92.05%
+ 239  DSNY-66-1-Rh|nifK|consensus50|pass_single_dominant                      9.66%    passed     81.75%
+ 240  DSNY-66-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        13.36%    passed     70.88%
+ 241  DSNY-67-3-No|nifK|consensus50|pass_mixed_possible_multitemplate        16.02%    passed     97.56%
+ 242  DSNY-67-3-Rh|nifK|consensus50|pass_single_dominant                     10.12%    passed     86.36%
+ 243  DSNY-68-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.88%    passed     81.71%
+ 244  DSNY-68-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.99%    passed     80.18%
+ 245  DSNY-69-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        16.34%    passed     82.00%
+ 246  DSNY-69-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        15.76%    passed     32.35%
+ 247  DSNY-70-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        16.02%    passed     45.11%
+ 248  DSNY-70-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        18.94%    passed     43.06%
+ 249  DSNY-7-1-No|nifK|consensus50|pass_single_dominant                      12.84%    passed     79.68%
+ 250  DSNY-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         10.38%    passed     21.12%
+ 251  DSNY-72-1-Ro|nifK|consensus50|pass_single_dominant                     16.86%    passed     79.10%
+ 252  DSNY-74-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        10.44%    passed     62.65%
+ 253  DSNY-74-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        12.19%    passed     76.07%
+ 254  DSNY-75-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.61%    passed     72.16%
+ 255  DSNY-75-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         8.75%    passed     23.80%
+ 256  DSNY-75-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        12.65%    passed     44.82%
+ 257  DSNY-76-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        14.33%    passed     33.59%
+ 258  DSNY-76-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        17.77%    passed     26.54%
+ 259  DSNY-79-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        14.72%    passed     98.27%
+ 260  DSNY-80-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.70%    passed     98.43%
+ 261  DSNY-8-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.53%    passed     63.93%
+ 262  DSNY-82-3-No|nifK|consensus50|pass_single_dominant                     13.88%    passed     63.37%
+ 263  DSNY-83-4-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         7.26%    passed     99.82%
+ 264  DSNY-84-2-Rh|nifK|consensus50|pass_single_dominant                     18.48%    passed      9.42%
+ 265  DSNY-85-1-No|nifK|consensus50|pass_single_dominant                     18.29%    passed     83.23%
+ 266  DSNY-85-1-Rh|nifK|consensus50|pass_single_dominant                     17.77%    passed     15.90%
+ 267  DSNY-86-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        16.60%    passed     34.18%
+ 268  DSNY-87-1-No|nifK|consensus50|pass_single_dominant                     16.93%    passed     23.13%
+ 269  DSNY-91-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.84%    passed     24.89%
+ 270  DSNY-92-1-Rh|nifK|consensus50|pass_single_dominant                     18.35%    passed     27.21%
+ 271  DSNY-96-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         7.39%    passed     81.25%
+ 272  DSNY-CLFR-60-Rh|nifK|consensus50|pass_single_dominant                  15.43%    passed     45.38%
+ 273  DSNY-CLFR-60-Ro|nifK|consensus50|pass_single_dominant                  11.80%    passed     57.54%
+ 274  DSNY-CRMA-33-1-No|nifK|consensus50|pass_mixed_possible_multitemplate    7.33%    passed     67.56%
+ 275  DSNY-CRMA-33-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate    5.19%    passed     94.27%
+ 276  DSNY-CRMA-33-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate   17.19%    passed     70.35%
+ 277  DSNY-CRMA-35-1-Rh|nifK|consensus50|pass_single_dominant                11.93%    passed     88.39%
+ 278  DSNY-CRMA-35-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate   12.06%    passed     80.50%
+ 279  DSNY-GAEL-33-1-No|nifK|consensus50|pass_mixed_possible_multitemplate    7.78%    passed     57.78%
+ 280  DSNY-GAEL-33-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate    7.85%    passed     77.74%
+ 281  DSNY-GARE-35-1-Rh|nifK|consensus50|pass_single_dominant                18.09%    passed     91.66%
+ 282  DSNY-GARE-35-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate    5.77%    passed     85.75%
+ 283  DSNY-SEHE-60-No|nifK|consensus50|pass_mixed_possible_multitemplate      4.93%    passed     14.52%
+ 284  GUAN-2-No|nifK|consensus50|pass_single_dominant                         9.08%    passed     93.60%
+ 285  GUAN-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate            9.66%    passed     94.33%
+ 286  GUAN-5-No|nifK|consensus50|pass_single_dominant                         6.36%    passed     97.39%
+ 287  GUAN-9-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         21.92%    passed     98.83%
+ 288  HARV-1-1-No|nifK|consensus50|pass_single_dominant                      16.60%    passed     94.52%
+ 289  HARV-2-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         14.92%    passed     74.45%
+ 290  HARV-4-1-No|nifK|consensus50|pass_single_dominant                      15.63%    passed     97.80%
+ 291  HEAL-10-2-No|nifK|consensus50|pass_single_dominant                     14.14%    passed     72.74%
+ 292  HEAL-2-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         10.38%    passed     98.96%
+ 293  HEAL-2-1-Rh|nifK|consensus50|pass_single_dominant                      17.96%    passed     72.90%
+ 294  HEAL-4-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.73%    passed     89.96%
+ 295  HEAL-5-2-No|nifK|consensus50|pass_mixed_possible_multitemplate          7.52%    passed     57.71%
+ 296  HEAL-7-1-Ro|nifK|consensus50|pass_single_dominant                       6.03%    passed     15.17%
+ 297  HEAL-9-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         20.95%    passed     84.67%
+ 298  HEAL-9-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         11.80%    passed     91.90%
+ 299  JERC-100-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate       18.61%    passed     21.61%
+ 300  JERC-102-1-Rh|nifK|consensus50|pass_single_dominant                     6.16%    passed     89.90%
+ 301  JERC-102-1-Ro|nifK|consensus50|pass_single_dominant                     8.82%    passed     56.03%
+ 302  JERC-10-3-No|nifK|consensus50|pass_single_dominant                     10.83%    passed     38.90%
+ 303  JERC-10-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         7.85%    passed     75.58%
+ 304  JERC-106-1-No|nifK|consensus50|pass_mixed_possible_multitemplate       19.71%    passed     44.64%
+ 305  JERC-110-4-Ro|nifK|consensus50|pass_single_dominant                    16.47%    passed     86.02%
+ 306  JERC-11-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         9.53%    passed     87.59%
+ 307  JERC-11-1-Rh|nifK|consensus50|pass_single_dominant                      8.69%    passed     75.74%
+ 308  JERC-11-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        10.64%    passed     86.60%
+ 309  JERC-119-No|nifK|consensus50|pass_mixed_possible_multitemplate          6.42%    passed     54.77%
+ 310  JERC-119-Rh|nifK|consensus50|pass_single_dominant                      15.63%    passed     56.17%
+ 311  JERC-119-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         13.55%    passed     47.49%
+ 312  JERC-120-No|nifK|consensus50|pass_mixed_possible_multitemplate         11.41%    passed     62.27%
+ 313  JERC-12-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.75%    passed     61.25%
+ 314  JERC-121-No|nifK|consensus50|pass_mixed_possible_multitemplate          8.11%    passed     97.51%
+ 315  JERC-12-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         3.50%    passed     80.09%
+ 316  JERC-121-Rh|nifK|consensus50|pass_single_dominant                      11.28%    failed      0.40%
+ 317  JERC-12-1-Ro|nifK|consensus50|pass_single_dominant                      7.98%    passed     56.84%
+ 318  JERC-121-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         13.62%    passed     19.81%
+ 319  JERC-122-No|nifK|consensus50|pass_mixed_possible_multitemplate         10.44%    passed     59.18%
+ 320  JERC-122-Ro|nifK|consensus50|pass_single_dominant                      11.93%    passed     19.16%
+ 321  JERC-123-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         20.17%    passed     87.30%
+ 322  JERC-126-4-No|nifK|consensus50|pass_single_dominant                    10.38%    passed     76.57%
+ 323  JERC-127-2-Ro|nifK|consensus50|pass_single_dominant                    15.69%    passed     63.44%
+ 324  JERC-128-2-Rh|nifK|consensus50|pass_single_dominant                    16.73%    passed     70.98%
+ 325  JERC-129-4-No|nifK|consensus50|pass_single_dominant                    15.24%    passed     12.95%
+ 326  JERC-1-2-No|nifK|consensus50|pass_single_dominant                       3.24%    passed     93.52%
+ 327  JERC-1-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.77%    passed     41.48%
+ 328  JERC-1-2-Ro|nifK|consensus50|pass_single_dominant                       9.47%    passed     74.16%
+ 329  JERC-131-No|nifK|consensus50|pass_single_dominant                       3.44%    passed     95.12%
+ 330  JERC-131-Rh|nifK|consensus50|pass_single_dominant                      13.55%    passed     65.37%
+ 331  JERC-132-3-Rh|nifK|consensus50|pass_single_dominant                    16.02%    passed     55.35%
+ 332  JERC-13-3-Rh|nifK|consensus50|pass_single_dominant                      8.63%    passed     91.78%
+ 333  JERC-13-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         2.85%    failed      1.77%
+ 334  JERC-134-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        9.99%    passed     17.59%
+ 335  JERC-135-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        7.46%    passed     29.92%
+ 336  JERC-136-No|nifK|consensus50|pass_single_dominant                      15.30%    passed     44.58%
+ 337  JERC-138-Rh|nifK|consensus50|pass_single_dominant                      13.23%    passed     21.67%
+ 338  JERC-139-5-No|nifK|consensus50|pass_mixed_possible_multitemplate        8.88%    passed     37.64%
+ 339  JERC-139-5-Rh|nifK|consensus50|pass_single_dominant                    15.82%    passed     66.86%
+ 340  JERC-140-No|nifK|consensus50|pass_single_dominant                      15.43%    passed     99.00%
+ 341  JERC-140-Rh|nifK|consensus50|pass_single_dominant                      15.05%    passed     96.26%
+ 342  JERC-141-Rh|nifK|consensus50|pass_single_dominant                      14.53%    passed     69.49%
+ 343  JERC-143-No|nifK|consensus50|pass_single_dominant                      14.98%    passed     55.73%
+ 344  JERC-145-1-Rh|nifK|consensus50|pass_single_dominant                    13.88%    passed     72.30%
+ 345  JERC-14-5-No|nifK|consensus50|pass_mixed_possible_multitemplate        17.70%    passed     95.80%
+ 346  JERC-14-5-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        13.49%    passed     96.69%
+ 347  JERC-146-Rh|nifK|consensus50|pass_single_dominant                      13.81%    passed     88.46%
+ 348  JERC-147-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         13.10%    passed     53.70%
+ 349  JERC-148-No|nifK|consensus50|pass_single_dominant                       9.86%    passed     95.16%
+ 350  JERC-148-Rh|nifK|consensus50|pass_single_dominant                      16.08%    passed     15.95%
+ 351  JERC-148-Ro|nifK|consensus50|pass_single_dominant                       8.37%    passed     10.42%
+ 352  JERC-149-Ro|nifK|consensus50|pass_single_dominant                       6.36%    passed     39.99%
+ 353  JERC-150-Rh|nifK|consensus50|pass_single_dominant                       5.90%    passed     90.67%
+ 354  JERC-150-Ro|nifK|consensus50|pass_single_dominant                       6.61%    passed     63.72%
+ 355  JERC-151-No|nifK|consensus50|pass_mixed_possible_multitemplate         14.66%    passed     73.73%
+ 356  JERC-151-Rh|nifK|consensus50|pass_single_dominant                      20.49%    passed     86.77%
+ 357  JERC-151-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         16.34%    passed     55.15%
+ 358  JERC-152-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          8.43%    passed     84.38%
+ 359  JERC-153-No|nifK|consensus50|pass_mixed_possible_multitemplate          8.82%    passed     96.66%
+ 360  JERC-154-No|nifK|consensus50|pass_single_dominant                       9.14%    passed     81.53%
+ 361  JERC-154-Rh|nifK|consensus50|pass_single_dominant                       8.11%    passed     99.43%
+ 362  JERC-156-Ro|nifK|consensus50|pass_single_dominant                       9.47%    passed     62.14%
+ 363  JERC-157-2-No|nifK|consensus50|pass_mixed_possible_multitemplate       17.96%    passed     91.17%
+ 364  JERC-157-2-Rh|nifK|consensus50|pass_single_dominant                    13.04%    passed     79.61%
+ 365  JERC-158-Ro|nifK|consensus50|pass_single_dominant                      10.77%    passed     67.28%
+ 366  JERC-161-No|nifK|consensus50|pass_single_dominant                      13.16%    passed     36.04%
+ 367  JERC-161-Rh|nifK|consensus50|pass_single_dominant                      17.77%    passed     52.81%
+ 368  JERC-16-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.08%    passed     80.53%
+ 369  JERC-164-Ro|nifK|consensus50|pass_single_dominant                      16.54%    passed     88.36%
+ 370  JERC-165-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.92%    passed     50.07%
+ 371  JERC-165-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         16.28%    passed     91.42%
+ 372  JERC-167-Rh|nifK|consensus50|pass_single_dominant                      12.39%    passed     52.05%
+ 373  JERC-168-Ro|nifK|consensus50|pass_single_dominant                      13.16%    passed     47.19%
+ 374  JERC-169-No|nifK|consensus50|pass_mixed_possible_multitemplate          6.55%    passed     96.10%
+ 375  JERC-169-Rh|nifK|consensus50|pass_single_dominant                      17.57%    passed     94.21%
+ 376  JERC-170-No|nifK|consensus50|pass_single_dominant                      13.49%    passed     76.92%
+ 377  JERC-171-No|nifK|consensus50|pass_single_dominant                      13.68%    passed     45.56%
+ 378  JERC-171-Ro|nifK|consensus50|pass_single_dominant                      19.58%    passed     30.55%
+ 379  JERC-172-2-Rh|nifK|consensus50|pass_single_dominant                    18.68%    passed     46.34%
+ 380  JERC-175-1-No|nifK|consensus50|pass_single_dominant                    10.44%    passed     20.14%
+ 381  JERC-175-1-Rh|nifK|consensus50|pass_single_dominant                     8.56%    passed     74.45%
+ 382  JERC-176-5-No|nifK|consensus50|pass_mixed_possible_multitemplate        8.63%    passed     67.68%
+ 383  JERC-177-Rh|nifK|consensus50|pass_single_dominant                      16.47%    passed     48.04%
+ 384  JERC-179-4-Ro|nifK|consensus50|pass_mixed_possible_multitemplate       11.28%    passed     89.53%
+ 385  JERC-18-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        13.88%    passed     89.47%
+ 386  JERC-189-1-Rh|nifK|consensus50|pass_single_dominant                     5.19%    passed     74.25%
+ 387  JERC-197-1-Rh|nifK|consensus50|pass_single_dominant                    20.30%    passed     43.46%
+ 388  JERC-197-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate       13.04%    passed     79.92%
+ 389  JERC-198-No|nifK|consensus50|pass_mixed_possible_multitemplate         15.05%    passed     97.67%
+ 390  JERC-199-No|nifK|consensus50|pass_single_dominant                      13.55%    passed     86.74%
+ 391  JERC-199-Rh|nifK|consensus50|pass_single_dominant                      16.08%    passed     57.02%
+ 392  JERC-199-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         11.54%    passed     73.66%
+ 393  JERC-201-1-No|nifK|consensus50|pass_single_dominant                    15.11%    passed     98.91%
+ 394  JERC-20-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.57%    passed     89.94%
+ 395  JERC-20-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        13.94%    passed     80.17%
+ 396  JERC-20-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.74%    passed     75.35%
+ 397  JERC-203-1-No|nifK|consensus50|pass_mixed_possible_multitemplate       12.00%    passed     85.48%
+ 398  JERC-204-1-No|nifK|consensus50|pass_single_dominant                    16.34%    passed     64.36%
+ 399  JERC-204-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        8.95%    passed     33.73%
+ 400  JERC-2-1-No|nifK|consensus50|pass_single_dominant                       1.62%    failed      2.01%
+ 401  JERC-2-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         10.51%    passed     76.64%
+ 402  JERC-2-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         12.91%    passed     80.78%
+ 403  JERC-23-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         8.37%    passed     85.44%
+ 404  JERC-25-1-No|nifK|consensus50|pass_single_dominant                     20.04%    passed     85.90%
+ 405  JERC-25-1-Rh|nifK|consensus50|pass_single_dominant                      7.52%    passed     93.12%
+ 406  JERC-25-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        18.42%    passed     68.32%
+ 407  JERC-26-5-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.15%    passed     81.91%
+ 408  JERC-28-4-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        18.22%    passed     91.24%
+ 409  JERC-30-3-Rh|nifK|consensus50|pass_single_dominant                     10.51%    passed     81.76%
+ 410  JERC-3-1-No|nifK|consensus50|pass_single_dominant                       3.96%    passed     14.11%
+ 411  JERC-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         15.56%    passed     57.36%
+ 412  JERC-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         15.76%    passed     70.47%
+ 413  JERC-34-4-No|nifK|consensus50|pass_single_dominant                     10.18%    passed     88.47%
+ 414  JERC-38-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.65%    passed     98.63%
+ 415  JERC-4-1-No|nifK|consensus50|pass_single_dominant                       3.76%    failed      0.36%
+ 416  JERC-4-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         12.78%    passed     86.70%
+ 417  JERC-42-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        15.76%    passed     93.06%
+ 418  JERC-45-5-Ro|nifK|consensus50|pass_single_dominant                     14.79%    passed     54.88%
+ 419  JERC-46-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         7.39%    passed     96.05%
+ 420  JERC-47-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        14.01%    passed     52.16%
+ 421  JERC-47-2-Ro|nifK|consensus50|pass_single_dominant                     16.54%    passed     70.20%
+ 422  JERC-48-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        14.40%    passed     73.24%
+ 423  JERC-48-3-Ro|nifK|consensus50|pass_single_dominant                     17.06%    passed     63.70%
+ 424  JERC-49-2-Rh|nifK|consensus50|pass_single_dominant                     12.06%    passed     50.19%
+ 425  JERC-49-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.54%    passed     97.74%
+ 426  JERC-50-5-Rh|nifK|consensus50|pass_single_dominant                     18.81%    passed     86.32%
+ 427  JERC-50-5-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         7.46%    passed     97.83%
+ 428  JERC-5-3-No|nifK|consensus50|pass_mixed_possible_multitemplate          5.77%    passed      6.33%
+ 429  JERC-5-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          8.88%    passed     48.52%
+ 430  JERC-5-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          9.53%    passed     26.28%
+ 431  JERC-54-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.12%    passed     53.78%
+ 432  JERC-54-2-Ro|nifK|consensus50|pass_single_dominant                     14.01%    passed     77.14%
+ 433  JERC-6-3-No|nifK|consensus50|pass_single_dominant                       8.30%    failed      1.56%
+ 434  JERC-6-3-Rh|nifK|consensus50|pass_single_dominant                      10.18%    passed     46.84%
+ 435  JERC-7-2-No|nifK|consensus50|pass_single_dominant                      18.74%    passed     52.45%
+ 436  JERC-7-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         16.02%    passed     97.60%
+ 437  JERC-7-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          9.99%    passed     73.56%
+ 438  JERC-8-2-No|nifK|consensus50|pass_single_dominant                       7.91%    passed     86.87%
+ 439  JERC-8-2-Rh|nifK|consensus50|pass_single_dominant                       8.37%    passed     82.24%
+ 440  JERC-84-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.98%    passed     99.63%
+ 441  JERC-87-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.19%    passed     99.93%
+ 442  JERC-87-1-Ro|nifK|consensus50|pass_single_dominant                     14.79%    passed     64.82%
+ 443  JERC-89-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        15.18%    passed     45.67%
+ 444  JERC-89-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        12.13%    passed     45.26%
+ 445  JERC-90-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.41%    passed     79.36%
+ 446  JERC-93-1-No|nifK|consensus50|pass_single_dominant                      7.26%    passed     99.41%
+ 447  JERC-93-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        15.50%    passed     99.85%
+ 448  JERC-94-1-No|nifK|consensus50|pass_single_dominant                      3.44%    passed     91.00%
+ 449  JERC-94-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        14.40%    passed     63.45%
+ 450  JERC-98-1-No|nifK|consensus50|pass_single_dominant                     10.77%    passed     90.58%
+ 451  JERC-98-1-Rh|nifK|consensus50|pass_single_dominant                     19.13%    passed     85.97%
+ 452  JERC-98-1-Ro|nifK|consensus50|pass_single_dominant                     14.14%    passed     62.11%
+ 453  JERC-98-2-No|nifK|consensus50|pass_single_dominant                     16.02%    passed     89.54%
+ 454  JERC-98-2-Rh|nifK|consensus50|pass_single_dominant                     18.35%    passed     77.61%
+ 455  JERC-98-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         9.40%    passed     15.70%
+ 456  JERC-98-4-No|nifK|consensus50|pass_single_dominant                     17.57%    passed     64.16%
+ 457  JERC-98-4-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        17.90%    passed     32.52%
+ 458  JERC-99-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        20.62%    passed     58.47%
+ 459  JERC-99-3-No|nifK|consensus50|pass_mixed_possible_multitemplate        21.14%    passed     95.30%
+ 460  JERC-99-4-Rh|nifK|consensus50|pass_single_dominant                     11.28%    passed     98.44%
+ 461  JERC-AMFR-56-1-No|nifK|consensus50|pass_single_dominant                 5.25%    passed     98.35%
+ 462  JERC-AMFR-56-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate    8.50%    passed     54.15%
+ 463  JERC-AMFR-56-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate    9.08%    passed     74.38%
+ 464  JERC-AMFU-71-1-No|nifK|consensus50|pass_single_dominant                 8.95%    passed     93.12%
+ 465  JERC-AMFU-71-1-Ro|nifK|consensus50|pass_single_dominant                11.41%    passed     97.41%
+ 466  JERC-CERE-67-1-No|nifK|consensus50|pass_mixed_possible_multitemplate   16.67%    passed     43.04%
+ 467  JERC-CLMA-62-5-Rh|nifK|consensus50|pass_single_dominant                17.90%    passed     21.74%
+ 468  JERC-CLMA-83-1-Rh|nifK|consensus50|pass_single_dominant                11.74%    passed     79.65%
+ 469  JERC-CRJU-86-1-No|nifK|consensus50|pass_single_dominant                20.43%    failed      1.26%
+ 470  JERC-CRJU-86-1-Rh|nifK|consensus50|pass_single_dominant                 8.43%    passed     62.88%
+ 471  JERC-DEFL-31-5-Rh|nifK|consensus50|pass_mixed_possible_multitemplate    5.45%    passed     85.31%
+ 472  JERC-DEFL-61-3-No|nifK|consensus50|pass_mixed_possible_multitemplate   16.86%    passed     16.19%
+ 473  JERC-DEFL-61-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate   13.68%    passed     73.08%
+ 474  JERC-DEST-32-1-No|nifK|consensus50|pass_mixed_possible_multitemplate    9.92%    passed     57.86%
+ 475  JERC-DEST-32-1-Ro|nifK|consensus50|pass_single_dominant                10.57%    passed     37.47%
+ 476  JERC-DEST-68-4-No|nifK|consensus50|pass_mixed_possible_multitemplate   15.24%    passed     52.62%
+ 477  JERC-GAVO-33-1-No|nifK|consensus50|pass_mixed_possible_multitemplate   13.49%    passed     94.66%
+ 478  JERC-GAVO-33-1-Rh|nifK|consensus50|pass_single_dominant                 2.66%    passed     92.56%
+ 479  JERC-RHDI-59-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate   10.57%    passed     44.67%
+ 480  JERC-RHDI-59-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate   11.87%    passed     86.46%
+ 481  JERC-RHRE-55-1-No|nifK|consensus50|pass_mixed_possible_multitemplate   11.15%    passed     68.51%
+ 482  JERC-RHRE-55-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate    8.82%    passed     92.98%
+ 483  JERC-RHTO-58-1-No|nifK|consensus50|pass_single_dominant                18.55%    passed     63.25%
+ 484  JERC-RHTO-58-1-Rh|nifK|consensus50|pass_single_dominant                14.20%    passed     85.24%
+ 485  JERC-RHTO-58-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate    8.17%    passed     71.89%
+ 486  JERC-TECW-66-3-No|nifK|consensus50|pass_mixed_possible_multitemplate   18.29%    passed     75.79%
+ 487  JORN-1-No|nifK|consensus50|pass_single_dominant                         3.83%    passed     84.74%
+ 488  JORN-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate            5.97%    passed     85.19%
+ 489  JORN-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           14.53%    passed     76.74%
+ 490  JORN-2-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          7.13%    passed     80.13%
+ 491  JORN-2-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.46%    passed     53.81%
+ 492  JORN-2-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         10.31%    passed     90.24%
+ 493  JORN-3-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         15.43%    passed     61.38%
+ 494  JORN-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.90%    passed     55.94%
+ 495  JORN-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         14.01%    passed     95.29%
+ 496  JORN-4-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          7.13%    passed     51.73%
+ 497  JORN-4-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          8.63%    passed     95.12%
+ 498  JORN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          5.71%    passed     63.35%
+ 499  KONA-1-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         11.09%    passed     78.51%
+ 500  KONA-1-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.71%    passed     63.35%
+ 501  KONA-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          5.71%    passed     63.35%
+ 502  KONA-2-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          5.71%    passed     63.35%
+ 503  KONA-2-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.71%    passed     63.35%
+ 504  KONA-2-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          5.71%    passed     63.35%
+ 505  KONA-3-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          5.71%    passed     63.35%
+ 506  KONA-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.71%    passed     63.35%
+ 507  KONZ-10-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        16.67%    passed     91.20%
+ 508  KONZ-10-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        16.99%    passed     99.47%
+ 509  KONZ-11-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.58%    passed     85.06%
+ 510  KONZ-12-1-No|nifK|consensus50|pass_single_dominant                      0.32%    passed     95.30%
+ 511  KONZ-12-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        15.56%    passed     91.14%
+ 512  KONZ-13-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        19.07%    passed     95.95%
+ 513  KONZ-14-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         8.04%    passed     46.57%
+ 514  KONZ-15-1-Ro|nifK|consensus50|pass_single_dominant                     17.12%    passed     71.03%
+ 515  KONZ-16-1-Rh|nifK|consensus50|pass_single_dominant                     16.02%    passed     82.62%
+ 516  KONZ-1-No|nifK|consensus50|pass_mixed_possible_multitemplate           11.48%    passed     87.50%
+ 517  KONZ-1-Rh|nifK|consensus50|pass_single_dominant                         6.36%    passed     28.79%
+ 518  KONZ-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate            6.81%    passed     15.86%
+ 519  KONZ-2-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         14.46%    passed     96.99%
+ 520  KONZ-2-1-Ro|nifK|consensus50|pass_single_dominant                       8.88%    passed     63.46%
+ 521  KONZ-3-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          8.69%    passed     74.18%
+ 522  KONZ-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         11.80%    passed     85.59%
+ 523  KONZ-3-1-Ro|nifK|consensus50|pass_single_dominant                       6.10%    passed     76.60%
+ 524  KONZ-4-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         21.53%    passed     87.37%
+ 525  KONZ-4-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          8.69%    passed     60.38%
+ 526  KONZ-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         15.43%    passed     34.56%
+ 527  KONZ-5-1-No|nifK|consensus50|pass_single_dominant                      13.68%    passed     99.90%
+ 528  KONZ-5-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.07%    passed     72.74%
+ 529  KONZ-5-1-Ro|nifK|consensus50|pass_single_dominant                      20.62%    passed     67.90%
+ 530  KONZ-6-1-No|nifK|consensus50|pass_single_dominant                       1.30%    passed     74.21%
+ 531  KONZ-6-1-Rh|nifK|consensus50|pass_single_dominant                       9.92%    passed     91.93%
+ 532  KONZ-6-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.82%    passed     80.03%
+ 533  KONZ-7-1-No|nifK|consensus50|pass_single_dominant                      19.52%    passed     98.63%
+ 534  KONZ-7-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.07%    passed     41.21%
+ 535  KONZ-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         17.32%    passed     95.60%
+ 536  KONZ-8-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.72%    passed     62.87%
+ 537  KONZ-8-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.30%    passed     87.24%
+ 538  KONZ-9-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         15.63%    passed     79.46%
+ 539  KONZ-9-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         18.09%    passed     68.18%
+ 540  LAJA-11-3-No|nifK|consensus50|pass_single_dominant                      8.30%    passed     97.52%
+ 541  LAJA-14-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        14.33%    passed     23.00%
+ 542  LAJA-18-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.42%    passed     97.55%
+ 543  LAJA-20-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        12.52%    passed     81.36%
+ 544  LAJA-21-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.23%    passed     95.33%
+ 545  LAJA-22-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         5.19%    passed     97.04%
+ 546  LAJA-22-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        14.85%    passed     89.32%
+ 547  LAJA-2-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         11.67%    passed     77.51%
+ 548  LAJA-25-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         8.88%    passed     98.77%
+ 549  LAJA-26-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.20%    passed     72.58%
+ 550  LAJA-26-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        15.82%    passed     80.07%
+ 551  LAJA-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         21.53%    passed     69.47%
+ 552  LAJA-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         11.61%    passed     78.04%
+ 553  LAJA-3-2-No|nifK|consensus50|pass_mixed_possible_multitemplate          8.11%    passed     81.38%
+ 554  LAJA-3-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          9.14%    passed     94.40%
+ 555  LAJA-3-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         19.39%    passed     96.89%
+ 556  LAJA-3-3-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.34%    passed     51.03%
+ 557  LAJA-3-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         19.26%    passed     87.99%
+ 558  LAJA-4-1-No|nifK|consensus50|pass_single_dominant                      14.79%    passed     87.11%
+ 559  LAJA-5-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         14.53%    passed     82.33%
+ 560  LAJA-5-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         19.65%    passed     97.49%
+ 561  LAJA-5-1-Ro|nifK|consensus50|pass_single_dominant                      16.28%    passed     97.36%
+ 562  LAJA-6-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          8.69%    passed     87.83%
+ 563  LAJA-6-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          1.82%    passed     94.05%
+ 564  LAJA-6-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          5.97%    passed     97.59%
+ 565  LAJA-7-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         21.34%    passed     89.35%
+ 566  LAJA-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         17.19%    passed     82.93%
+ 567  LENO-12-3-No|nifK|consensus50|pass_single_dominant                     13.62%    passed     99.10%
+ 568  LENO-13-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.39%    passed     98.29%
+ 569  LENO-13-2-Rh|nifK|consensus50|pass_single_dominant                     11.35%    passed     93.26%
+ 570  LENO-13-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        10.96%    passed     96.60%
+ 571  LENO-14-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.39%    passed     93.36%
+ 572  LENO-14-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         8.63%    passed     97.84%
+ 573  LENO-15-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         9.01%    passed     98.56%
+ 574  LENO-15-2-Rh|nifK|consensus50|pass_single_dominant                     16.99%    passed     48.20%
+ 575  LENO-16-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        15.24%    passed     46.17%
+ 576  LENO-3-2-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.79%    passed     83.70%
+ 577  LENO-3-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.25%    passed     54.70%
+ 578  LENO-3-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.30%    passed     52.93%
+ 579  LENO-5-2-No|nifK|consensus50|pass_mixed_possible_multitemplate          7.00%    passed     96.84%
+ 580  LENO-5-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.78%    passed     56.39%
+ 581  LENO-5-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         12.58%    passed     86.04%
+ 582  LENO-7-2-No|nifK|consensus50|pass_single_dominant                      10.12%    passed     96.87%
+ 583  LENO-7-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         20.04%    passed     88.90%
+ 584  LENO-9-2-No|nifK|consensus50|pass_single_dominant                       7.33%    passed     96.57%
+ 585  LENO-9-2-Rh|nifK|consensus50|pass_single_dominant                       9.79%    passed     95.83%
+ 586  MLBS-1-1-No|nifK|consensus50|pass_single_dominant                      13.42%    passed     82.03%
+ 587  MLBS-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         11.22%    passed     81.05%
+ 588  MLBS-2-1-No|nifK|consensus50|pass_single_dominant                       6.10%    passed     96.06%
+ 589  N13-2-D-No|nifK|consensus50|pass_mixed_possible_multitemplate          12.19%    failed      0.06%
+ 590  N13-2-D-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          15.76%    failed      0.35%
+ 591  N35-4-D-No|nifK|consensus50|pass_single_dominant                        3.50%    failed      4.36%
+ 592  N35-4-D-Ro|nifK|consensus50|pass_single_dominant                       11.41%    passed     11.62%
+ 593  N36-4-D-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          20.88%    passed     81.89%
+ 594  NIWO-1-No|nifK|consensus50|pass_mixed_possible_multitemplate            4.28%    failed      0.26%
+ 595  NIWO-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate            5.38%    passed     36.05%
+ 596  NIWO-1-Ro|nifK|consensus50|pass_single_dominant                        10.31%    passed     58.78%
+ 597  NIWO-2-No|nifK|consensus50|pass_single_dominant                         8.56%    passed     65.39%
+ 598  NIWO-2-Rh|nifK|consensus50|pass_single_dominant                        12.65%    passed     25.75%
+ 599  NOGP-1-1-No|nifK|consensus50|pass_single_dominant                       0.78%    failed      1.21%
+ 600  NOGP-1-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.72%    passed     94.98%
+ 601  NOGP-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         12.39%    passed     49.60%
+ 602  NOGP-2-1-No|nifK|consensus50|pass_single_dominant                       1.17%    failed      1.46%
+ 603  NOGP-2-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         11.80%    passed     67.03%
+ 604  NOGP-2-1-Ro|nifK|consensus50|pass_single_dominant                       2.53%    failed      0.94%
+ 605  NOGP-3-2-No|nifK|consensus50|pass_single_dominant                       0.58%    failed      1.27%
+ 606  NOGP-3-2-Rh|nifK|consensus50|pass_single_dominant                       7.65%    passed     22.15%
+ 607  NOGP-3-2-Ro|nifK|consensus50|pass_single_dominant                       3.50%    failed      0.92%
+ 608  NOGP-4-1-Rh|nifK|consensus50|pass_single_dominant                      14.46%    passed     42.81%
+ 609  NOGP-4-1-Ro|nifK|consensus50|pass_single_dominant                       0.65%    failed      1.08%
+ 610  NOGP-5-2-No|nifK|consensus50|pass_single_dominant                       0.58%    failed      1.22%
+ 611  NOGP-5-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          4.93%    passed     28.08%
+ 612  NOGP-5-2-Ro|nifK|consensus50|pass_single_dominant                       0.13%    failed      0.55%
+ 613  NOGP-6-3-No|nifK|consensus50|pass_mixed_possible_multitemplate          1.36%    failed      4.05%
+ 614  NOGP-6-3-Ro|nifK|consensus50|pass_single_dominant                       0.52%    failed      0.83%
+ 615  NOGP-7-2-No|nifK|consensus50|pass_mixed_possible_multitemplate          6.55%    passed     53.15%
+ 616  NOGP-7-2-Rh|nifK|consensus50|pass_single_dominant                      18.09%    passed     67.41%
+ 617  OAES-10-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.78%    passed     26.99%
+ 618  OAES-10-1-Rh|nifK|consensus50|pass_single_dominant                      8.82%    passed     80.45%
+ 619  OAES-10-1-Ro|nifK|consensus50|pass_single_dominant                      3.63%    passed     51.68%
+ 620  OAES-11-1-No|nifK|consensus50|pass_single_dominant                      5.84%    passed     52.62%
+ 621  OAES-11-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.19%    passed     38.87%
+ 622  OAES-11-1-Ro|nifK|consensus50|pass_single_dominant                     10.44%    passed     63.63%
+ 623  OAES-1-1-No|nifK|consensus50|pass_single_dominant                       0.52%    passed     10.27%
+ 624  OAES-1-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          8.56%    passed     23.20%
+ 625  OAES-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          5.90%    passed     86.24%
+ 626  OAES-12-2-No|nifK|consensus50|pass_single_dominant                      6.68%    passed     43.01%
+ 627  OAES-12-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.34%    passed     42.20%
+ 628  OAES-12-2-Ro|nifK|consensus50|pass_single_dominant                      6.61%    passed     44.34%
+ 629  OAES-13-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        12.19%    passed     57.14%
+ 630  OAES-14-1-No|nifK|consensus50|pass_single_dominant                      0.39%    failed      1.19%
+ 631  OAES-14-1-Rh|nifK|consensus50|pass_single_dominant                      2.27%    failed      0.88%
+ 632  OAES-14-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         1.56%    failed      1.70%
+ 633  OAES-15-No|nifK|consensus50|pass_single_dominant                        0.58%    passed     77.99%
+ 634  OAES-15-Rh|nifK|consensus50|pass_single_dominant                        5.06%    passed     79.42%
+ 635  OAES-15-Ro|nifK|consensus50|pass_single_dominant                        3.24%    passed     77.72%
+ 636  OAES-16-1-No|nifK|consensus50|pass_single_dominant                      0.78%    passed     11.49%
+ 637  OAES-16-1-Rh|nifK|consensus50|pass_single_dominant                      1.23%    passed     25.59%
+ 638  OAES-16-1-Ro|nifK|consensus50|pass_single_dominant                      9.08%    passed     75.61%
+ 639  OAES-17-No|nifK|consensus50|pass_single_dominant                        3.37%    passed     81.11%
+ 640  OAES-17-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          12.39%    passed     88.09%
+ 641  OAES-17-Ro|nifK|consensus50|pass_single_dominant                        5.97%    passed     84.18%
+ 642  OAES-18-3-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.83%    passed     74.26%
+ 643  OAES-18-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         7.65%    passed     60.20%
+ 644  OAES-18-3-Ro|nifK|consensus50|pass_single_dominant                     12.97%    passed     80.67%
+ 645  OAES_19-2-No|nifK|consensus50|pass_single_dominant                      0.32%    failed      1.16%
+ 646  OAES_19-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         1.36%    failed      2.85%
+ 647  OAES_19-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.74%    passed     34.89%
+ 648  OAES-20-No|nifK|consensus50|pass_single_dominant                        9.21%    passed     76.35%
+ 649  OAES-20-Rh|nifK|consensus50|pass_single_dominant                        2.85%    passed     97.26%
+ 650  OAES-20-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           8.95%    passed     93.51%
+ 651  OAES-21-3-No|nifK|consensus50|pass_single_dominant                      3.63%    passed     93.46%
+ 652  OAES-21-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         6.29%    passed     91.32%
+ 653  OAES-21-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         6.68%    passed     90.70%
+ 654  OAES-2-1-No|nifK|consensus50|pass_single_dominant                       0.06%    failed      0.83%
+ 655  OAES-2-1-Rh|nifK|consensus50|pass_single_dominant                       2.59%    passed     34.37%
+ 656  OAES-2-1-Ro|nifK|consensus50|pass_single_dominant                       0.58%    failed      0.94%
+ 657  OAES-22-1-No|nifK|consensus50|pass_single_dominant                      0.91%    failed      0.39%
+ 658  OAES-22-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         2.46%    passed     93.52%
+ 659  OAES-23-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         6.49%    passed     74.56%
+ 660  OAES-23-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         6.87%    passed     16.43%
+ 661  OAES-23-1-Ro|nifK|consensus50|pass_single_dominant                      0.97%    passed     65.49%
+ 662  OAES_24-3-No|nifK|consensus50|pass_single_dominant                      0.97%    passed     94.98%
+ 663  OAES_24-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         2.46%    passed     85.49%
+ 664  OAES_24-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        13.49%    passed     63.43%
+ 665  OAES-25-1-No|nifK|consensus50|pass_single_dominant                      0.45%    passed     17.35%
+ 666  OAES-25-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         4.93%    passed     80.33%
+ 667  OAES-25-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        16.02%    passed     83.37%
+ 668  OAES-26-1-No|nifK|consensus50|pass_single_dominant                      5.90%    passed     35.13%
+ 669  OAES-26-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.38%    passed     65.95%
+ 670  OAES-26-1-Ro|nifK|consensus50|pass_single_dominant                      6.29%    passed     31.42%
+ 671  OAES-27-2-No|nifK|consensus50|pass_single_dominant                      3.70%    passed     39.96%
+ 672  OAES-27-2-Rh|nifK|consensus50|pass_single_dominant                      4.54%    passed     98.14%
+ 673  OAES-27-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         3.11%    passed     53.92%
+ 674  OAES-28-1-No|nifK|consensus50|pass_single_dominant                      5.25%    passed     81.38%
+ 675  OAES-28-1-Rh|nifK|consensus50|pass_single_dominant                     14.40%    passed     67.51%
+ 676  OAES-28-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         8.43%    passed     72.19%
+ 677  OAES-29-1-No|nifK|consensus50|pass_single_dominant                      4.35%    passed     45.71%
+ 678  OAES-29-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         6.94%    passed     73.80%
+ 679  OAES-30-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        16.34%    passed     77.83%
+ 680  OAES-30-2-Rh|nifK|consensus50|pass_single_dominant                      9.01%    passed     46.05%
+ 681  OAES-30-2-Ro|nifK|consensus50|pass_single_dominant                     16.02%    passed     54.89%
+ 682  OAES-31-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.59%    passed     97.75%
+ 683  OAES-31-1-Rh|nifK|consensus50|pass_single_dominant                     13.88%    passed     86.39%
+ 684  OAES-31-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.74%    passed     56.11%
+ 685  OAES-3-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          1.36%    passed     96.22%
+ 686  OAES-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.00%    passed     97.50%
+ 687  OAES-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.37%    passed     64.70%
+ 688  OAES-32-1-No|nifK|consensus50|pass_single_dominant                      6.49%    passed     88.58%
+ 689  OAES-32-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         8.43%    passed     72.63%
+ 690  OAES-33-1-No|nifK|consensus50|pass_single_dominant                      2.01%    passed     90.90%
+ 691  OAES-33-1-Rh|nifK|consensus50|pass_single_dominant                     11.09%    passed     73.63%
+ 692  OAES-33-1-Ro|nifK|consensus50|pass_single_dominant                     17.57%    passed     43.79%
+ 693  OAES-34-1-No|nifK|consensus50|pass_single_dominant                      6.10%    passed     43.58%
+ 694  OAES-34-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        14.66%    passed     73.07%
+ 695  OAES-34-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.47%    passed     80.68%
+ 696  OAES-35-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.38%    passed     98.44%
+ 697  OAES-35-1-Rh|nifK|consensus50|pass_single_dominant                     13.75%    passed      7.43%
+ 698  OAES-35-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        19.00%    passed     74.07%
+ 699  OAES-35-3-No|nifK|consensus50|pass_single_dominant                      2.27%    passed     93.94%
+ 700  OAES-35-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        14.01%    passed     89.00%
+ 701  OAES-36-2-No|nifK|consensus50|pass_single_dominant                      0.45%    failed      1.17%
+ 702  OAES-36-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         6.03%    passed     68.91%
+ 703  OAES-36-3-No|nifK|consensus50|pass_single_dominant                      5.25%    failed      0.76%
+ 704  OAES-36-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.47%    passed      7.21%
+ 705  OAES-36-3-Ro|nifK|consensus50|pass_single_dominant                      9.21%    passed     31.67%
+ 706  OAES-37-2-Rh|nifK|consensus50|pass_single_dominant                     12.97%    passed     51.61%
+ 707  OAES-37-2-Ro|nifK|consensus50|pass_single_dominant                      3.18%    passed      5.14%
+ 708  OAES-4-1-No|nifK|consensus50|pass_single_dominant                       0.45%    passed     11.87%
+ 709  OAES-4-1-Rh|nifK|consensus50|pass_single_dominant                       5.12%    passed     54.89%
+ 710  OAES-4-1-Ro|nifK|consensus50|pass_single_dominant                       0.58%    passed     12.74%
+ 711  OAES-5-Rh|nifK|consensus50|pass_mixed_possible_multitemplate            1.88%    passed     85.25%
+ 712  OAES-5-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           11.15%    passed     56.35%
+ 713  OAES-6-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          4.02%    passed     57.11%
+ 714  OAES-6-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         13.23%    passed     43.55%
+ 715  OAES-6-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          2.92%    passed     98.55%
+ 716  OAES-7-1-No|nifK|consensus50|pass_single_dominant                       0.45%    passed     14.43%
+ 717  OAES-7-1-Rh|nifK|consensus50|pass_single_dominant                       1.04%    passed     16.68%
+ 718  OAES-7-1-Ro|nifK|consensus50|pass_single_dominant                       0.45%    passed     14.43%
+ 719  OAES-8-2-No|nifK|consensus50|pass_single_dominant                       1.10%    passed     95.37%
+ 720  OAES-8-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          5.19%    passed     59.93%
+ 721  OAES-8-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         11.54%    passed     53.57%
+ 722  OAES-9-1-No|nifK|consensus50|pass_single_dominant                       5.77%    passed     83.37%
+ 723  OAES-9-1-Rh|nifK|consensus50|pass_single_dominant                       0.65%    passed     94.19%
+ 724  OAES-9-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.17%    passed     19.92%
+ 725  ORNL-10-1-No|nifK|consensus50|pass_single_dominant                     15.50%    passed     19.57%
+ 726  ORNL-11-1-No|nifK|consensus50|pass_single_dominant                     14.92%    passed     96.19%
+ 727  ORNL-11-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.40%    passed     88.69%
+ 728  ORNL-1-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         15.89%    passed     11.96%
+ 729  ORNL-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         20.43%    passed     61.09%
+ 730  ORNL-12-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        20.56%    passed     79.45%
+ 731  ORNL-12-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        14.92%    passed     39.46%
+ 732  ORNL-13-2-No|nifK|consensus50|pass_single_dominant                     13.04%    passed     92.95%
+ 733  ORNL-14-1-Ro|nifK|consensus50|pass_single_dominant                     16.28%    passed     98.37%
+ 734  ORNL-17-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        12.71%    passed     85.06%
+ 735  ORNL-18-1-No|nifK|consensus50|pass_single_dominant                     13.49%    passed     44.13%
+ 736  ORNL-18-1-Ro|nifK|consensus50|pass_single_dominant                     13.04%    passed     48.10%
+ 737  ORNL-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.11%    passed     63.83%
+ 738  ORNL-4-1-No|nifK|consensus50|pass_single_dominant                       7.85%    failed      0.40%
+ 739  ORNL-4-1-Ro|nifK|consensus50|pass_single_dominant                      10.96%    passed      7.12%
+ 740  ORNL-5-1-Rh|nifK|consensus50|pass_single_dominant                       4.09%    passed     50.18%
+ 741  ORNL-6-1-No|nifK|consensus50|pass_single_dominant                      19.71%    failed      0.19%
+ 742  ORNL-8-2-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.99%    passed     98.78%
+ 743  ORNL-9-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         17.83%    passed     59.37%
+ 744  ORNL-9-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         19.78%    passed     66.00%
+ 745  OSBS-102-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        8.30%    passed     99.45%
+ 746  OSBS-106-1-Rh|nifK|consensus50|pass_single_dominant                    12.19%    passed     99.83%
+ 747  OSBS-106-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        3.57%    passed     28.23%
+ 748  OSBS-107-No|nifK|consensus50|pass_single_dominant                      10.44%    passed     21.87%
+ 749  OSBS-107-Ro|nifK|consensus50|pass_single_dominant                      16.15%    passed     63.59%
+ 750  OSBS-109-4-No|nifK|consensus50|pass_single_dominant                    11.22%    passed     19.49%
+ 751  OSBS-109-4-Rh|nifK|consensus50|pass_single_dominant                    18.42%    passed     90.84%
+ 752  OSBS-12-1-Rh|nifK|consensus50|pass_single_dominant                      9.60%    passed     31.42%
+ 753  OSBS-12-1-Ro|nifK|consensus50|pass_single_dominant                      7.78%    passed     64.12%
+ 754  OSBS-1-2-No|nifK|consensus50|pass_single_dominant                       9.66%    passed     83.49%
+ 755  OSBS-14-3-Rh|nifK|consensus50|pass_single_dominant                     10.96%    passed     77.47%
+ 756  OSBS-18-5-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        16.34%    passed     47.24%
+ 757  OSBS-18-5-Ro|nifK|consensus50|pass_single_dominant                     11.02%    passed     80.51%
+ 758  OSBS-20-1-Ro|nifK|consensus50|pass_single_dominant                     14.85%    passed     75.69%
+ 759  OSBS-21-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        12.00%    passed     88.58%
+ 760  OSBS-2-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         11.67%    passed     55.87%
+ 761  OSBS-2-3-Rh|nifK|consensus50|pass_single_dominant                      12.00%    passed     76.77%
+ 762  OSBS-2-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          9.34%    passed     49.06%
+ 763  OSBS-28-1-No|nifK|consensus50|pass_single_dominant                     18.35%    passed     92.08%
+ 764  OSBS-28-1-Ro|nifK|consensus50|pass_single_dominant                     19.39%    passed     86.82%
+ 765  OSBS-32-1-Rh|nifK|consensus50|pass_single_dominant                     19.58%    passed     83.40%
+ 766  OSBS-32-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.21%    passed     37.74%
+ 767  OSBS-34-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         9.34%    passed     33.62%
+ 768  OSBS-34-1-Rh|nifK|consensus50|pass_single_dominant                      9.08%    passed     66.31%
+ 769  OSBS-34-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        15.11%    passed     81.36%
+ 770  OSBS-35-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        12.45%    passed     95.18%
+ 771  OSBS-35-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        10.57%    passed     97.47%
+ 772  OSBS-35-2-Rh|nifK|consensus50|pass_single_dominant                      9.73%    passed     98.24%
+ 773  OSBS-35-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         8.24%    passed     99.69%
+ 774  OSBS-36-1-No|nifK|consensus50|pass_single_dominant                      1.23%    failed      1.27%
+ 775  OSBS-36-1-Rh|nifK|consensus50|pass_single_dominant                     20.36%    passed     81.94%
+ 776  OSBS-36-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.48%    passed      9.16%
+ 777  OSBS-36-4-No|nifK|consensus50|pass_single_dominant                     11.87%    passed     30.39%
+ 778  OSBS-36-4-Rh|nifK|consensus50|pass_single_dominant                     16.28%    passed     67.86%
+ 779  OSBS-36-4-Ro|nifK|consensus50|pass_single_dominant                     11.67%    passed     86.25%
+ 780  OSBS-37-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.52%    passed     28.29%
+ 781  OSBS-37-1-Rh|nifK|consensus50|pass_single_dominant                     10.44%    passed     85.33%
+ 782  OSBS-37-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         4.73%    passed     96.68%
+ 783  OSBS-38-1-No|nifK|consensus50|pass_single_dominant                      4.73%    passed     99.57%
+ 784  OSBS-38-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         7.26%    passed     95.92%
+ 785  OSBS-38-2-Ro|nifK|consensus50|pass_single_dominant                      6.94%    passed     86.96%
+ 786  OSBS-41-3-Rh|nifK|consensus50|pass_single_dominant                     15.82%    passed     97.22%
+ 787  OSBS-41-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        13.10%    passed     99.10%
+ 788  OSBS-4-3-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.47%    passed     62.50%
+ 789  OSBS-44-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.39%    passed     81.31%
+ 790  OSBS-46-1-Rh|nifK|consensus50|pass_single_dominant                     13.10%    passed     86.71%
+ 791  OSBS-5-5-No|nifK|consensus50|pass_mixed_possible_multitemplate         11.41%    passed     21.15%
+ 792  OSBS-5-5-Rh|nifK|consensus50|pass_single_dominant                       6.55%    passed     85.20%
+ 793  OSBS-58-1-No|nifK|consensus50|pass_single_dominant                     19.97%    passed     92.41%
+ 794  OSBS-58-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        12.58%    passed     87.32%
+ 795  OSBS-6-1-No|nifK|consensus50|pass_single_dominant                       8.11%    passed     44.86%
+ 796  OSBS-6-1-Ro|nifK|consensus50|pass_single_dominant                       6.03%    passed     76.85%
+ 797  OSBS-68-1-Rh|nifK|consensus50|pass_single_dominant                     13.23%    passed     19.33%
+ 798  OSBS-69-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         9.27%    passed     83.45%
+ 799  OSBS-69-1-Ro|nifK|consensus50|pass_single_dominant                      6.42%    passed     93.87%
+ 800  OSBS-73-2-Ro|nifK|consensus50|pass_single_dominant                     16.47%    passed     81.97%
+ 801  OSBS-7-4-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.53%    passed     61.64%
+ 802  OSBS-7-4-Rh|nifK|consensus50|pass_single_dominant                       5.19%    passed     60.63%
+ 803  OSBS-80-2-No|nifK|consensus50|pass_single_dominant                     11.35%    passed     27.41%
+ 804  OSBS-82-1-Ro|nifK|consensus50|pass_single_dominant                     15.24%    passed     81.83%
+ 805  OSBS-8-5-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          3.83%    passed     96.91%
+ 806  OSBS-89-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.23%    passed     95.37%
+ 807  OSBS-91-1-Rh|nifK|consensus50|pass_single_dominant                     13.10%    passed     96.30%
+ 808  OSBS-95-3-Ro|nifK|consensus50|pass_single_dominant                     16.54%    passed     43.91%
+ 809  OSBS-97-2-Rh|nifK|consensus50|pass_single_dominant                     10.44%    passed     28.06%
+ 810  OSBS-99-No|nifK|consensus50|pass_mixed_possible_multitemplate           7.78%    passed     86.10%
+ 811  OSBS-99-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           8.56%    passed     18.94%
+ 812  RMNP-1-No|nifK|consensus50|pass_single_dominant                         1.43%    passed     91.22%
+ 813  RMNP-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate            6.03%    passed     59.60%
+ 814  RMNP-2-No|nifK|consensus50|pass_single_dominant                         2.92%    passed     85.03%
+ 815  RMNP-2-Rh|nifK|consensus50|pass_single_dominant                         1.62%    passed     78.72%
+ 816  RMNP-3-No|nifK|consensus50|pass_single_dominant                         4.02%    passed     85.63%
+ 817  RMNP-3-Rh|nifK|consensus50|pass_single_dominant                        12.78%    passed     46.20%
+ 818  RMNP-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           15.37%    passed     85.81%
+ 819  RMNP-4-No|nifK|consensus50|pass_single_dominant                         6.03%    passed     54.09%
+ 820  RMNP-4-Rh|nifK|consensus50|pass_single_dominant                         4.15%    passed     92.98%
+ 821  RMNP-5-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         12.71%    passed     74.45%
+ 822  SCBI-10-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.87%    passed     54.81%
+ 823  SCBI-1-1-Rh|nifK|consensus50|pass_single_dominant                      10.89%    passed     12.46%
+ 824  SCBI-1-1-Ro|nifK|consensus50|pass_single_dominant                      18.09%    passed      7.69%
+ 825  SCBI-12-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         9.34%    passed     78.45%
+ 826  SCBI-12-1-Ro|nifK|consensus50|pass_single_dominant                     12.13%    passed     98.34%
+ 827  SCBI-13-1-No|nifK|consensus50|pass_single_dominant                     12.26%    passed     31.35%
+ 828  SCBI-13-1-Rh|nifK|consensus50|pass_single_dominant                     14.14%    passed     94.52%
+ 829  SCBI-2-1-No|nifK|consensus50|pass_single_dominant                      12.78%    failed      1.69%
+ 830  SCBI-2-1-Rh|nifK|consensus50|pass_single_dominant                       4.73%    failed      0.94%
+ 831  SCBI-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          8.88%    passed      6.09%
+ 832  SCBI-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         12.91%    passed     14.35%
+ 833  SCBI-4-1-Rh|nifK|consensus50|pass_single_dominant                       8.50%    passed     49.31%
+ 834  SCBI-5-1-No|nifK|consensus50|pass_single_dominant                       4.60%    passed     98.96%
+ 835  SCBI-6-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          9.92%    passed     38.68%
+ 836  SCBI-6-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         11.61%    passed     73.98%
+ 837  SCBI-7-1-No|nifK|consensus50|pass_single_dominant                      18.35%    failed      0.41%
+ 838  SCBI-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         15.56%    passed     70.29%
+ 839  SCBI-8-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         16.60%    passed     56.79%
+ 840  SERC-2-1-No|nifK|consensus50|pass_single_dominant                      13.94%    failed      1.91%
+ 841  SERC-3-1-Ro|nifK|consensus50|pass_single_dominant                       6.29%    passed     16.65%
+ 842  SERC-5-1-No|nifK|consensus50|pass_single_dominant                       4.67%    passed     69.94%
+ 843  SERC-5-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         17.32%    passed     39.31%
+ 844  SERC-6-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         12.71%    failed      4.67%
+ 845  SJER-1-1-No|nifK|consensus50|pass_single_dominant                      14.85%    passed     19.80%
+ 846  SJER-1-1-Ro|nifK|consensus50|pass_single_dominant                       3.89%    failed      3.08%
+ 847  SJER-2-3-No|nifK|consensus50|pass_single_dominant                      13.10%    failed      3.00%
+ 848  SJER-2-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          9.47%    passed     49.82%
+ 849  SJER-3-5-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         11.74%    failed      1.37%
+ 850  SJER-4-1-Ro|nifK|consensus50|pass_single_dominant                       8.50%    passed     16.20%
+ 851  SRER-10-1-No|nifK|consensus50|pass_single_dominant                      1.43%    passed     71.56%
+ 852  SRER-10-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         1.62%    passed     92.59%
+ 853  SRER-10-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         3.05%    passed     87.47%
+ 854  SRER-11-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         4.73%    passed     88.94%
+ 855  SRER-11-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        15.63%    passed     49.44%
+ 856  SRER-11-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         7.98%    passed     85.57%
+ 857  SRER-1-1-No|nifK|consensus50|pass_single_dominant                       2.59%    passed     99.25%
+ 858  SRER-1-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          8.82%    passed     97.14%
+ 859  SRER-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          7.13%    passed     99.63%
+ 860  SRER-12-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         2.20%    passed     73.62%
+ 861  SRER-12-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.79%    passed     79.18%
+ 862  SRER-12-1-Ro|nifK|consensus50|pass_single_dominant                      5.64%    passed     91.75%
+ 863  SRER-13-1-No|nifK|consensus50|pass_single_dominant                      3.37%    passed     82.19%
+ 864  SRER-13-1-Rh|nifK|consensus50|pass_single_dominant                      6.36%    passed     92.46%
+ 865  SRER-13-1-Ro|nifK|consensus50|pass_single_dominant                      5.51%    passed     93.48%
+ 866  SRER-14-1-No|nifK|consensus50|pass_single_dominant                      3.18%    passed     96.63%
+ 867  SRER-14-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.40%    passed     97.33%
+ 868  SRER-14-1-Ro|nifK|consensus50|pass_single_dominant                      4.67%    passed     90.55%
+ 869  SRER-15-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         6.42%    passed     93.74%
+ 870  SRER-15-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         5.45%    passed     87.84%
+ 871  SRER-15-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         5.45%    passed     84.35%
+ 872  SRER-16-1-No|nifK|consensus50|pass_single_dominant                      5.97%    passed     86.93%
+ 873  SRER-16-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        11.22%    passed     80.52%
+ 874  SRER-16-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         8.75%    passed     52.46%
+ 875  SRER-17-1-No|nifK|consensus50|pass_single_dominant                      1.23%    passed     77.30%
+ 876  SRER-17-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        10.51%    passed     67.01%
+ 877  SRER-17-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         4.80%    passed     93.22%
+ 878  SRER-18-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        12.39%    passed     76.68%
+ 879  SRER-18-1-Rh|nifK|consensus50|pass_single_dominant                      4.54%    passed     63.56%
+ 880  SRER-18-1-Ro|nifK|consensus50|pass_single_dominant                      2.27%    passed     58.74%
+ 881  SRER-2-1-No|nifK|consensus50|pass_single_dominant                       3.83%    passed     78.03%
+ 882  SRER-2-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.91%    passed     75.95%
+ 883  SRER-2-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          9.34%    passed     86.75%
+ 884  SRER-3-1-No|nifK|consensus50|pass_single_dominant                       1.23%    passed     86.26%
+ 885  SRER-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          6.10%    passed     79.28%
+ 886  SRER-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          1.95%    passed     85.86%
+ 887  SRER-4-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          7.52%    passed     65.81%
+ 888  SRER-4-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         10.18%    passed     77.68%
+ 889  SRER-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.95%    passed     82.06%
+ 890  SRER-5-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          2.20%    passed     89.77%
+ 891  SRER-5-1-Rh|nifK|consensus50|pass_single_dominant                       1.88%    passed     92.62%
+ 892  SRER-5-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          6.49%    passed     93.76%
+ 893  SRER-6-1-No|nifK|consensus50|pass_single_dominant                       1.69%    passed     92.47%
+ 894  SRER-6-1-Rh|nifK|consensus50|pass_single_dominant                      10.25%    passed     90.97%
+ 895  SRER-6-1-Ro|nifK|consensus50|pass_single_dominant                       2.72%    passed     94.79%
+ 896  SRER-7-1-No|nifK|consensus50|pass_single_dominant                       0.97%    passed     90.42%
+ 897  SRER-7-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          3.63%    passed     83.30%
+ 898  SRER-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          2.85%    passed     83.46%
+ 899  SRER-8-1-No|nifK|consensus50|pass_single_dominant                       1.23%    passed     91.43%
+ 900  SRER-8-1-Rh|nifK|consensus50|pass_single_dominant                       8.11%    passed     79.00%
+ 901  SRER-8-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         10.51%    passed     88.98%
+ 902  SRER-9-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          7.20%    passed     92.27%
+ 903  SRER-9-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         20.17%    passed     93.25%
+ 904  SRER-9-1-Ro|nifK|consensus50|pass_single_dominant                       1.43%    passed     93.81%
+ 905  TALL-13-3-No|nifK|consensus50|pass_single_dominant                      2.59%    passed     67.21%
+ 906  TALL-15-2-No|nifK|consensus50|pass_single_dominant                      9.01%    passed     89.00%
+ 907  TALL-17-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         8.50%    passed     82.41%
+ 908  TALL-17-2-Rh|nifK|consensus50|pass_single_dominant                     11.35%    passed     43.54%
+ 909  TALL-18-1-Rh|nifK|consensus50|pass_single_dominant                     11.93%    passed     97.03%
+ 910  TALL-19-2-No|nifK|consensus50|pass_single_dominant                     14.14%    passed     77.02%
+ 911  TALL-20-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         8.95%    passed      7.22%
+ 912  TALL-22-No|nifK|consensus50|pass_mixed_possible_multitemplate          12.65%    passed     51.35%
+ 913  TALL-24-2-No|nifK|consensus50|pass_single_dominant                      0.45%    passed     94.78%
+ 914  TALL-24-2-Ro|nifK|consensus50|pass_single_dominant                      5.45%    passed     93.39%
+ 915  TALL-25-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         5.06%    passed     97.94%
+ 916  TALL-25-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        17.64%    passed     89.91%
+ 917  TALL-28-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        14.72%    passed     50.46%
+ 918  TALL-28-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        14.07%    passed     63.76%
+ 919  TALL-29-3-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.67%    passed     33.18%
+ 920  TALL-29-3-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        10.31%    passed     98.72%
+ 921  TALL-29-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.73%    passed     85.21%
+ 922  TALL-30-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        18.48%    passed     89.95%
+ 923  TALL-44-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        15.56%    passed     62.94%
+ 924  TALL-47-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         7.00%    passed     99.11%
+ 925  TALL-52-1-No|nifK|consensus50|pass_single_dominant                      7.20%    passed     96.47%
+ 926  TALL-5-2-Ro|nifK|consensus50|pass_single_dominant                      20.82%    passed     85.23%
+ 927  TALL-53-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        13.75%    passed     98.68%
+ 928  TALL-55-1-No|nifK|consensus50|pass_single_dominant                     14.46%    passed     93.51%
+ 929  TALL-56-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         8.88%    passed     96.85%
+ 930  TALL-60-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        17.57%    passed     96.20%
+ 931  TALL-64-1-No|nifK|consensus50|pass_single_dominant                      2.53%    passed     93.13%
+ 932  TALL-64-1-Ro|nifK|consensus50|pass_single_dominant                      4.47%    passed     95.26%
+ 933  TALL-67-1-Rh|nifK|consensus50|pass_single_dominant                     16.80%    passed     47.27%
+ 934  TALL-67-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         9.08%    passed     89.08%
+ 935  TALL-68-2-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.74%    passed     53.22%
+ 936  TALL-68-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        10.12%    passed     73.62%
+ 937  TALL-68-2-Ro|nifK|consensus50|pass_single_dominant                     11.09%    passed     71.79%
+ 938  TALL-69-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        13.68%    passed     66.46%
+ 939  TALL-70-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         8.63%    passed      6.82%
+ 940  TALL-72-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        11.41%    passed     93.98%
+ 941  TALL-74-3-No|nifK|consensus50|pass_mixed_possible_multitemplate         4.80%    passed     56.09%
+ 942  TEAK-1-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          7.72%    passed     30.74%
+ 943  TEAK-2-1-Rh|nifK|consensus50|pass_single_dominant                       7.91%    passed     39.06%
+ 944  TEAK-3-1-Rh|nifK|consensus50|pass_single_dominant                      15.11%    passed     21.42%
+ 945  TEAK-3-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          8.88%    passed     63.65%
+ 946  TOOL-10-No|nifK|consensus50|pass_single_dominant                        3.70%    passed     87.21%
+ 947  TOOL-10-Rh|nifK|consensus50|pass_single_dominant                        9.92%    passed     89.30%
+ 948  TOOL-10-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          10.57%    passed     95.79%
+ 949  TOOL-11-No|nifK|consensus50|pass_mixed_possible_multitemplate           4.15%    passed     74.32%
+ 950  TOOL-11-Ro|nifK|consensus50|pass_single_dominant                       19.91%    passed     64.84%
+ 951  TOOL-12-No|nifK|consensus50|pass_mixed_possible_multitemplate           7.26%    passed     88.09%
+ 952  TOOL-12-Ro|nifK|consensus50|pass_single_dominant                       13.68%    passed     99.49%
+ 953  TOOL-13-Rh|nifK|consensus50|pass_single_dominant                        4.41%    passed     82.23%
+ 954  TOOL-14-No|nifK|consensus50|pass_single_dominant                        5.58%    passed     93.66%
+ 955  TOOL-14-Rh|nifK|consensus50|pass_single_dominant                       14.40%    passed     74.00%
+ 956  TOOL-15-No|nifK|consensus50|pass_mixed_possible_multitemplate           6.23%    passed     77.69%
+ 957  TOOL-15-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           9.08%    passed     88.86%
+ 958  TOOL-16-No|nifK|consensus50|pass_single_dominant                        6.55%    passed     83.88%
+ 959  TOOL-17-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           8.95%    passed     79.63%
+ 960  TOOL-17-Ro|nifK|consensus50|pass_single_dominant                       10.51%    passed     76.57%
+ 961  TOOL-18-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           5.12%    passed     88.87%
+ 962  TOOL-19-No|nifK|consensus50|pass_mixed_possible_multitemplate          11.87%    passed     61.74%
+ 963  TOOL-19-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           6.81%    passed     98.51%
+ 964  TOOL-1-No|nifK|consensus50|pass_mixed_possible_multitemplate            9.27%    passed     96.96%
+ 965  TOOL-1-Rh|nifK|consensus50|pass_single_dominant                         3.31%    passed     33.79%
+ 966  TOOL-1-Ro|nifK|consensus50|pass_single_dominant                         3.50%    failed      1.67%
+ 967  TOOL-20-Rh|nifK|consensus50|pass_single_dominant                        9.47%    passed     71.95%
+ 968  TOOL-20-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          11.02%    passed     72.22%
+ 969  TOOL-21-No|nifK|consensus50|pass_mixed_possible_multitemplate           6.94%    passed     64.17%
+ 970  TOOL-21-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           6.29%    passed     82.58%
+ 971  TOOL-22-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           9.47%    passed     87.85%
+ 972  TOOL-23-No|nifK|consensus50|pass_mixed_possible_multitemplate           2.59%    passed     77.33%
+ 973  TOOL-23-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           7.20%    passed     68.74%
+ 974  TOOL-23-Ro|nifK|consensus50|pass_single_dominant                        5.25%    passed     69.96%
+ 975  TOOL-24-No|nifK|consensus50|pass_mixed_possible_multitemplate           4.86%    passed     75.05%
+ 976  TOOL-24-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           7.85%    passed     63.15%
+ 977  TOOL-24-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          10.77%    passed     56.20%
+ 978  TOOL-25-No|nifK|consensus50|pass_mixed_possible_multitemplate           4.86%    passed     77.24%
+ 979  TOOL-25-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           6.36%    passed     40.11%
+ 980  TOOL-26-No|nifK|consensus50|pass_mixed_possible_multitemplate           4.28%    passed     77.07%
+ 981  TOOL-26-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          12.45%    passed     79.97%
+ 982  TOOL-26-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          16.47%    passed     62.89%
+ 983  TOOL-27-2-No|nifK|consensus50|pass_mixed_possible_multitemplate         2.66%    passed     88.64%
+ 984  TOOL-27-2-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         9.86%    passed     65.95%
+ 985  TOOL-27-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        11.74%    passed     94.23%
+ 986  TOOL-28-No|nifK|consensus50|pass_single_dominant                       20.49%    passed     47.92%
+ 987  TOOL-29-Ro|nifK|consensus50|pass_single_dominant                       15.76%    passed     88.59%
+ 988  TOOL-2-No|nifK|consensus50|pass_mixed_possible_multitemplate            9.08%    passed     68.05%
+ 989  TOOL-2-Rh|nifK|consensus50|pass_single_dominant                        15.69%    passed     67.16%
+ 990  TOOL-2-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           14.72%    passed     91.26%
+ 991  TOOL-30-No|nifK|consensus50|pass_mixed_possible_multitemplate           9.27%    passed     84.60%
+ 992  TOOL-30-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           7.26%    passed     88.23%
+ 993  TOOL-30-Ro|nifK|consensus50|pass_single_dominant                       11.54%    passed     26.53%
+ 994  TOOL-31-No|nifK|consensus50|pass_mixed_possible_multitemplate          21.53%    passed     90.75%
+ 995  TOOL-31-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           8.43%    passed     80.54%
+ 996  TOOL-32-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           9.99%    passed     91.56%
+ 997  TOOL-33-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate        10.89%    passed     93.42%
+ 998  TOOL-34-No|nifK|consensus50|pass_single_dominant                       13.29%    passed     68.54%
+ 999  TOOL-35-1-No|nifK|consensus50|pass_mixed_possible_multitemplate        13.88%    passed     69.02%
+1000  TOOL-35-1-Rh|nifK|consensus50|pass_single_dominant                      9.01%    passed     51.46%
+1001  TOOL-3-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           13.10%    passed     77.99%
+1002  TOOL-4-No|nifK|consensus50|pass_mixed_possible_multitemplate           12.06%    passed     41.19%
+1003  TOOL-5-No|nifK|consensus50|pass_single_dominant                        18.22%    passed     82.93%
+1004  TOOL-5-Rh|nifK|consensus50|pass_single_dominant                        10.44%    passed     61.64%
+1005  TOOL-6-Ro|nifK|consensus50|pass_single_dominant                        14.66%    passed     61.39%
+1006  TOOL-7-No|nifK|consensus50|pass_single_dominant                         9.53%    passed     54.77%
+1007  TOOL-7-Rh|nifK|consensus50|pass_single_dominant                        11.54%    passed     99.66%
+1008  TOOL-8-No|nifK|consensus50|pass_single_dominant                         3.31%    passed     86.92%
+1009  TOOL-8-Rh|nifK|consensus50|pass_single_dominant                         8.75%    passed     67.14%
+1010  TOOL-9-No|nifK|consensus50|pass_single_dominant                         3.89%    passed     86.92%
+1011  TOOL-9-Ro|nifK|consensus50|pass_single_dominant                        12.26%    passed     84.14%
+1012  UKFS-4-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         14.40%    passed     97.26%
+1013  UKFS-6-3-Ro|nifK|consensus50|pass_single_dominant                      15.43%    passed     70.29%
+1014  UNDE-3-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         16.02%    passed     77.02%
+1015  UNDE-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         20.36%    passed     87.27%
+1016  WOOD-10-1-No|nifK|consensus50|pass_single_dominant                      1.62%    failed      0.88%
+1017  WOOD-10-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         6.42%    passed     30.56%
+1018  WOOD-10-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate        10.96%    passed     31.65%
+1019  WOOD-11-1-No|nifK|consensus50|pass_single_dominant                      1.04%    failed      4.16%
+1020  WOOD-11-1-Rh|nifK|consensus50|pass_single_dominant                      4.41%    passed     28.16%
+1021  WOOD-11-1-Ro|nifK|consensus50|pass_single_dominant                      4.02%    passed     38.69%
+1022  WOOD-1-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         16.08%    passed     23.11%
+1023  WOOD-1-1-Rh|nifK|consensus50|pass_single_dominant                      12.13%    passed     84.68%
+1024  WOOD-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         11.61%    passed     24.35%
+1025  WOOD-12-No|nifK|consensus50|pass_single_dominant                        2.20%    failed      0.56%
+1026  WOOD-12-Rh|nifK|consensus50|pass_mixed_possible_multitemplate           3.89%    passed      9.08%
+1027  WOOD-12-Ro|nifK|consensus50|pass_single_dominant                        9.53%    passed     24.78%
+1028  WOOD-3-2-No|nifK|consensus50|pass_single_dominant                       0.45%    failed      1.17%
+1029  WOOD-3-2-Ro|nifK|consensus50|pass_single_dominant                       9.73%    passed     68.68%
+1030  WOOD-4-1-No|nifK|consensus50|pass_mixed_possible_multitemplate         18.16%    passed     98.88%
+1031  WOOD-4-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         11.15%    passed     92.80%
+1032  WOOD-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         13.49%    passed     87.30%
+1033  WOOD-5-1-No|nifK|consensus50|pass_mixed_possible_multitemplate          6.10%    passed     96.30%
+1034  WOOD-5-1-Rh|nifK|consensus50|pass_single_dominant                       2.92%    passed     58.52%
+1035  WOOD-5-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate          3.11%    passed     93.90%
+1036  WOOD-6-1-No|nifK|consensus50|pass_single_dominant                       0.65%    failed      1.15%
+1037  WOOD-6-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          7.59%    passed      7.97%
+1038  WOOD-6-1-Ro|nifK|consensus50|pass_single_dominant                       2.98%    failed      0.91%
+1039  WOOD-7-1-No|nifK|consensus50|pass_single_dominant                       0.45%    failed      0.52%
+1040  WOOD-7-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate          6.61%    failed      2.91%
+1041  WOOD-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         14.14%    passed     84.28%
+1042  WOOD-8-No|nifK|consensus50|pass_mixed_possible_multitemplate            5.64%    failed      3.35%
+1043  WOOD-8-Rh|nifK|consensus50|pass_mixed_possible_multitemplate            5.51%    passed     67.02%
+1044  WOOD-8-Ro|nifK|consensus50|pass_single_dominant                         3.50%    failed      1.68%
+1045  WOOD-9-Rh|nifK|consensus50|pass_single_dominant                         2.66%    passed     19.20%
+1046  WOOD-9-Ro|nifK|consensus50|pass_mixed_possible_multitemplate           11.22%    passed     99.64%
+1047  YELL-4-4-Rh|nifK|consensus50|pass_mixed_possible_multitemplate         14.20%    passed     87.69%
+1048  YELL-5-3-Rh|nifK|consensus50|pass_single_dominant                      12.91%    passed     32.03%
+1049  YELL-6-1-Rh|nifK|consensus50|pass_single_dominant                       7.20%    passed     75.96%
+1050  YELL-6-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         12.19%    passed     76.85%
+1051  YELL-7-1-Rh|nifK|consensus50|pass_single_dominant                       8.50%    passed     31.10%
+1052  YELL-7-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate         10.70%    passed     98.17%
+****  TOTAL                                                                  10.17%  79 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: JERC-121-Rh|nifK|consensus50|pass_single_dominant is identical to CLBJ-37-1-No|nifK|consensus50|pass_single_dominant but kept for subsequent analysis
+NOTE: KONA-1-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate is identical to JORN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate but kept for subsequent analysis
+NOTE: OAES-7-1-Ro|nifK|consensus50|pass_single_dominant is identical to OAES-7-1-No|nifK|consensus50|pass_single_dominant but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00960007 secs using 5538% CPU
+Identifying sites to remove: done in 0.0129645 secs using 63.1% CPU
+NOTE: 6 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KONA-1-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate (identical to JORN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate) is ignored but added at the end
+NOTE: KONA-2-1-No|nifK|consensus50|pass_mixed_possible_multitemplate (identical to JORN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate) is ignored but added at the end
+NOTE: KONA-2-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate (identical to JORN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate) is ignored but added at the end
+NOTE: KONA-2-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate (identical to JORN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate) is ignored but added at the end
+NOTE: KONA-3-1-No|nifK|consensus50|pass_mixed_possible_multitemplate (identical to JORN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate) is ignored but added at the end
+NOTE: KONA-3-1-Rh|nifK|consensus50|pass_mixed_possible_multitemplate (identical to JORN-4-1-Ro|nifK|consensus50|pass_mixed_possible_multitemplate) is ignored but added at the end
+Alignment was printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.557 seconds
+Measuring multi-threading efficiency up to 72 CPU cores
+Increase to 10 rounds for branch lengths
+15 trees examined
+Threads: 1 / Time: 73.581 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -345199
+Threads: 2 / Time: 53.455 sec / Speedup: 1.377 / Efficiency: 69% / LogL: -345199
+Threads: 3 / Time: 53.009 sec / Speedup: 1.388 / Efficiency: 46% / LogL: -345199
+Determining AUTO threadcount: done in 180.053 secs using 187.2% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -152376.902
+Optimal log-likelihood: -152376.489
+Rate parameters:  A-C: 1.02680  A-G: 3.38113  A-T: 0.80508  C-G: 1.49696  C-T: 4.23058  G-T: 1.00000
+Base frequencies:  A: 0.211  C: 0.309  G: 0.290  T: 0.189
+Proportion of invariable sites: 0.443
+Gamma shape alpha: 0.852
+Parameters optimization took 1 rounds (1.358 sec)
+Time for fast ML tree search: 17.290 seconds
+
+NOTE: ModelFinder requires 477 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1542 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            188144.390   2089 380466.780   9112486.780  391623.786
+  2  JC+I          170728.022   2090 345636.045   9086016.045  356798.391
+  3  JC+G4         159272.354   2090 322724.707   9063104.707  333887.054
+  4  JC+I+G4       158117.182   2091 320416.363   9069160.363  331584.050
+  5  JC+R2         162663.992   2091 329509.984   9078253.984  340677.671
+  6  JC+R3         159497.099   2093 323180.198   9088664.198  334358.567
+  7  JC+R4         158333.324   2095 320856.649   9103096.649  332045.699
+  8  JC+R5         157923.398   2097 320040.797   9119052.797  331240.529
+  9  JC+R6         157628.892   2099 319455.785   9135255.785  330666.199
+ 10  JC+R7         157563.046   2101 319328.092   9151932.092  330549.188
+ 11  JC+R8         157514.377   2103 319234.755   9168658.755  330466.532
+ 12  JC+R9         157501.357   2105 319212.713   9185472.713  330455.172
+ 13  JC+R10        157498.775   2107 319211.551   9202323.551  330464.691
+ 14  JC+I+R2       160398.409   2092 324980.817   9082092.817  336153.845
+ 15  JC+I+R3       158537.898   2094 321263.796   9095123.796  332447.506
+ 16  JC+I+R4       157921.027   2096 320034.055   9110658.055  331228.446
+ 17  JC+I+R5       157661.583   2098 319519.166   9126923.166  330724.239
+ 18  JC+I+R6       157577.788   2100 319355.577   9143555.577  330571.331
+ 19  JC+I+R7       157524.596   2102 319253.191   9160265.191  330479.627
+ 20  JC+I+R8       157510.268   2104 319228.536   9177068.536  330465.654
+ 21  JC+I+R9       157509.905   2106 319231.810   9193915.810  330479.609
+ 34  JC+R9         157501.356   2105 319212.713   9185472.713  330455.172
+ 35  JC+R10        157498.775   2107 319211.551   9202323.551  330464.691
+ 56  F81+R9        157501.047   2105 319212.095   9185472.095  330454.554
+ 57  F81+R10       157498.569   2107 319211.139   9202323.139  330464.279
+ 78  F81+F+R9      156730.719   2108 317677.437   9209221.437  328935.919
+ 79  F81+F+R10     156727.756   2110 317675.512   9226095.512  328944.675
+100  K2P+R9        153598.361   2106 311408.723   9186092.723  322656.522
+101  K2P+R10       153596.312   2108 311408.625   9202952.625  322667.106
+122  K2P+R9        153598.361   2106 311408.723   9186092.723  322656.522
+123  K2P+R10       153596.312   2108 311408.625   9202952.625  322667.106
+144  HKY+R9        153598.120   2106 311408.240   9186092.240  322656.040
+145  HKY+R10       153595.999   2108 311407.997   9202951.997  322666.479
+166  HKY+F+R9      152038.229   2109 308294.458   9208274.458  319558.280
+167  HKY+F+R10     152034.853   2111 308291.706   9225155.706  319566.210
+188  TNe+R9        153564.580   2107 311343.159   9194455.159  322596.300
+189  TNe+R10       153560.584   2109 311339.168   9211319.168  322602.990
+210  TNe+R9        153564.580   2107 311343.159   9194455.159  322596.300
+211  TNe+R10       153560.584   2109 311339.168   9211319.168  322602.990
+232  TN+R9         153564.458   2107 311342.916   9194454.916  322596.057
+233  TN+R10        153560.457   2109 311338.915   9211318.915  322602.737
+254  TN+F+R9       151961.456   2110 308142.912   9216562.912  319412.075
+255  TN+F+R10      151957.321   2112 308138.641   9233450.641  319418.486
+276  K3P+R9        153327.444   2107 310868.888   9193980.888  322122.029
+277  K3P+R10       153323.001   2109 310864.003   9210844.003  322127.825
+298  K3P+R9        153327.444   2107 310868.888   9193980.888  322122.029
+299  K3P+R10       153323.001   2109 310864.003   9210844.003  322127.825
+320  K3Pu+R9       153327.252   2107 310868.503   9193980.503  322121.644
+321  K3Pu+R10      153322.764   2109 310863.529   9210843.529  322127.351
+342  K3Pu+F+R9     151945.958   2110 308111.917   9216531.917  319381.080
+343  K3Pu+F+R10    151939.780   2112 308103.560   9233415.560  319383.404
+364  TPM2+R9       153212.644   2107 310639.288   9193751.288  321892.429
+365  TPM2+R10      153205.846   2109 310629.693   9210609.693  321893.515
+386  TPM2+R9       153212.644   2107 310639.288   9193751.288  321892.429
+387  TPM2+R10      153205.846   2109 310629.693   9210609.693  321893.515
+408  TPM2u+R9      153212.519   2107 310639.037   9193751.037  321892.178
+409  TPM2u+R10     153205.746   2109 310629.493   9210609.493  321893.315
+430  TPM2u+F+R9    151923.610   2110 308067.220   9216487.220  319336.383
+431  TPM2u+F+R10   151917.202   2112 308058.405   9233370.405  319338.250
+452  TPM3+R9       153099.846   2107 310413.691   9193525.691  321666.832
+453  TPM3+R10      153093.350   2109 310404.700   9210384.700  321668.522
+474  TPM3+R9       153099.846   2107 310413.691   9193525.691  321666.832
+475  TPM3+R10      153093.350   2109 310404.700   9210384.700  321668.522
+496  TPM3u+R9      153099.734   2107 310413.467   9193525.467  321666.608
+497  TPM3u+R10     153093.243   2109 310404.486   9210384.486  321668.308
+518  TPM3u+F+R9    151928.007   2110 308076.013   9216496.013  319345.176
+519  TPM3u+F+R10   151920.679   2112 308065.358   9233377.358  319345.203
+540  TIMe+R9       153294.408   2108 310804.816   9202348.816  322063.297
+541  TIMe+R10      153287.359   2110 310794.718   9219214.718  322063.881
+562  TIMe+R9       153294.408   2108 310804.816   9202348.816  322063.297
+563  TIMe+R10      153287.359   2110 310794.718   9219214.718  322063.881
+584  TIM+R9        153294.254   2108 310804.508   9202348.508  322062.990
+585  TIM+R10       153287.283   2110 310794.565   9219214.565  322063.728
+606  TIM+F+R9      151868.837   2111 307959.673   9224823.673  319234.177
+607  TIM+F+R10     151861.377   2113 307948.754   9241712.754  319233.939
+628  TIM2e+R9      153187.653   2108 310591.306   9202135.306  321849.787
+629  TIM2e+R10     153182.775   2110 310585.550   9219005.550  321854.713
+650  TIM2e+R9      153187.653   2108 310591.306   9202135.306  321849.787
+651  TIM2e+R10     153182.775   2110 310585.550   9219005.550  321854.713
+672  TIM2+R9       153187.573   2108 310591.146   9202135.146  321849.627
+673  TIM2+R10      153182.685   2110 310585.371   9219005.371  321854.534
+694  TIM2+F+R9     151850.140   2111 307922.280   9224786.280  319196.784
+695  TIM2+F+R10    151843.710   2113 307913.419   9241677.419  319198.605
+716  TIM3e+R9      153030.938   2108 310277.875   9201821.875  321536.357
+717  TIM3e+R10     153025.059   2110 310270.118   9218690.118  321539.281
+738  TIM3e+R9      153030.938   2108 310277.875   9201821.875  321536.357
+739  TIM3e+R10     153025.059   2110 310270.118   9218690.118  321539.281
+760  TIM3+R9       153030.856   2108 310277.712   9201821.712  321536.193
+761  TIM3+R10      153025.000   2110 310270.000   9218690.000  321539.163
+782  TIM3+F+R9     151844.551   2111 307911.102   9224775.102  319185.605
+783  TIM3+F+R10    151835.296   2113 307896.592   9241660.592  319181.778
+804  TVMe+R9       152670.437   2109 309558.874   9209538.874  320822.696
+805  TVMe+R10      152665.591   2111 309553.182   9226417.182  320827.686
+826  TVMe+R9       152670.437   2109 309558.874   9209538.874  320822.696
+827  TVMe+R10      152665.591   2111 309553.182   9226417.182  320827.686
+848  TVM+R9        152670.335   2109 309558.671   9209538.671  320822.493
+849  TVM+R10       152665.507   2111 309553.015   9226417.015  320827.518
+870  TVM+F+R9      151802.912   2112 307829.824   9233141.824  319109.669
+871  TVM+F+R10     151794.636   2114 307817.272   9250037.272  319107.799
+892  SYM+R9        152620.034   2110 309460.068   9217880.068  320729.231
+893  SYM+R10       152610.686   2112 309445.371   9234757.371  320725.216
+914  SYM+R9        152620.034   2110 309460.068   9217880.068  320729.231
+915  SYM+R10       152610.686   2112 309445.371   9234757.371  320725.216
+936  GTR+R9        152619.987   2110 309459.973   9217879.973  320729.136
+937  GTR+R10       152610.641   2112 309445.281   9234757.281  320725.126
+958  GTR+F+R9      151723.031   2113 307672.063   9241436.063  318957.248
+959  GTR+F+R10     151716.372   2115 307662.744   9258342.744  318958.611
+Akaike Information Criterion:           GTR+F+R10
+Corrected Akaike Information Criterion: JC+G4
+Bayesian Information Criterion:         GTR+F+R9
+Best-fit model: GTR+F+R9 chosen according to BIC
+
+All model information printed to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.model.gz
+CPU time for ModelFinder: 13970.316 seconds (3h:52m:50s)
+Wall-clock time for ModelFinder: 7050.008 seconds (1h:57m:30s)
+Generating 1000 samples for ultrafast bootstrap (seed: 394090)...
+
+NOTE: 430 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -151723.094
+2. Current log-likelihood: -151722.957
+Optimal log-likelihood: -151722.863
+Rate parameters:  A-C: 1.05226  A-G: 3.39214  A-T: 0.83490  C-G: 1.51568  C-T: 4.37093  G-T: 1.00000
+Base frequencies:  A: 0.211  C: 0.309  G: 0.290  T: 0.189
+Site proportion and rates:  (0.491,0.006) (0.117,0.174) (0.069,0.592) (0.072,1.148) (0.087,2.016) (0.060,2.912) (0.065,4.023) (0.031,5.528) (0.009,8.303)
+Parameters optimization took 2 rounds (16.017 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 5.27939 secs using 199.7% CPU
+Computing ML distances took 5.285369 sec (of wall-clock time) 10.548813 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0112946 secs using 255.9% CPU
+Constructing RapidNJ tree: done in 0.172314 secs using 149.8% CPU
+Computing RapidNJ tree took 0.183688 sec (of wall-clock time) 0.287133 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -158493.689
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 52.999 second
+Computing log-likelihood of 98 initial trees ... 67.445 seconds
+Current best score: -151478.515
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -151025.491
+Iteration 10 / LogL: -151359.071 / Time: 2h:3m:19s
+Iteration 20 / LogL: -151493.547 / Time: 2h:6m:25s
+Finish initializing candidate tree set (20)
+Current best tree score: -151025.491 / CPU time: 501.325
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -150999.265
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -150988.782
+Iteration 30 / LogL: -151144.822 / Time: 2h:10m:52s (0h:45m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -150987.240
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -150950.498
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -150944.262
+Iteration 40 / LogL: -151080.887 / Time: 2h:14m:45s (0h:43m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -150914.362
+Iteration 50 / LogL: -150923.842 / Time: 2h:18m:14s (0h:38m:56s left)
+Log-likelihood cutoff on original alignment: -151628.368
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -150899.444
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -150874.166
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -150865.369
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -150819.072
+Iteration 60 / LogL: -150819.072 / Time: 2h:21m:58s (0h:41m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -150782.222
+Iteration 70 / LogL: -150782.222 / Time: 2h:25m:3s (0h:39m:55s left)
+Iteration 80 / LogL: -150879.565 / Time: 2h:27m:51s (0h:34m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -150760.268
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -150748.431
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 87: -150728.820
+Iteration 90 / LogL: -150849.093 / Time: 2h:31m:6s (0h:36m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 95: -150728.252
+Iteration 100 / LogL: -150778.932 / Time: 2h:34m:4s (0h:35m:5s left)
+Log-likelihood cutoff on original alignment: -151628.368
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.865
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 103: -150680.343
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -150679.446
+Iteration 110 / LogL: -150706.485 / Time: 2h:37m:28s (0h:36m:18s left)
+Iteration 120 / LogL: -150708.647 / Time: 2h:40m:14s (0h:31m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 123: -150679.198
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 125: -150672.100
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 127: -150642.259
+Iteration 130 / LogL: -150683.859 / Time: 2h:43m:37s (0h:34m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 132: -150601.886
+Iteration 140 / LogL: -150682.784 / Time: 2h:46m:32s (0h:32m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 142: -150538.049
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 148: -150504.770
+Iteration 150 / LogL: -150571.795 / Time: 2h:49m:36s (0h:34m:16s left)
+Log-likelihood cutoff on original alignment: -151495.038
+Iteration 160 / LogL: -150721.286 / Time: 2h:52m:27s (0h:30m:25s left)
+Iteration 170 / LogL: -150591.884 / Time: 2h:55m:15s (0h:26m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 173: -150502.760
+Iteration 180 / LogL: -150597.009 / Time: 2h:58m:7s (0h:31m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 183: -150496.019
+Iteration 190 / LogL: -150562.368 / Time: 3h:1m:4s (0h:31m:16s left)
+Iteration 200 / LogL: -150670.375 / Time: 3h:3m:43s (0h:27m:37s left)
+Log-likelihood cutoff on original alignment: -151469.777
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.829
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 204: -150473.611
+Iteration 210 / LogL: -150631.903 / Time: 3h:6m:56s (0h:31m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 215: -150472.032
+Iteration 220 / LogL: -150539.608 / Time: 3h:9m:49s (0h:31m:22s left)
+Iteration 230 / LogL: -150549.330 / Time: 3h:12m:40s (0h:27m:54s left)
+Iteration 240 / LogL: -150567.153 / Time: 3h:15m:24s (0h:24m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 243: -150458.132
+Iteration 250 / LogL: -150559.854 / Time: 3h:18m:13s (0h:30m:9s left)
+Log-likelihood cutoff on original alignment: -151302.082
+Iteration 260 / LogL: -150572.819 / Time: 3h:21m:9s (0h:26m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 264: -150394.981
+Iteration 270 / LogL: -150615.977 / Time: 3h:24m:8s (0h:30m:16s left)
+Iteration 280 / LogL: -150552.264 / Time: 3h:27m:9s (0h:26m:59s left)
+Iteration 290 / LogL: -150496.309 / Time: 3h:29m:46s (0h:23m:37s left)
+Iteration 300 / LogL: -150591.221 / Time: 3h:32m:34s (0h:20m:20s left)
+Log-likelihood cutoff on original alignment: -151302.082
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.892
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -150491.689 / Time: 3h:35m:30s (0h:28m:32s left)
+Iteration 320 / LogL: -150511.225 / Time: 3h:38m:23s (0h:25m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 323: -150390.515
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 325: -150353.281
+Iteration 330 / LogL: -150424.905 / Time: 3h:41m:56s (0h:30m:9s left)
+Iteration 340 / LogL: -150435.784 / Time: 3h:44m:53s (0h:26m:55s left)
+Iteration 350 / LogL: -150412.711 / Time: 3h:47m:43s (0h:23m:41s left)
+Log-likelihood cutoff on original alignment: -151269.807
+Iteration 360 / LogL: -150436.594 / Time: 3h:50m:42s (0h:20m:29s left)
+Iteration 370 / LogL: -150502.007 / Time: 3h:53m:33s (0h:17m:17s left)
+Iteration 380 / LogL: -150391.077 / Time: 3h:56m:37s (0h:14m:8s left)
+Iteration 390 / LogL: -150472.827 / Time: 3h:59m:29s (0h:10m:58s left)
+Iteration 400 / LogL: -150419.692 / Time: 4h:2m:18s (0h:7m:49s left)
+Log-likelihood cutoff on original alignment: -151269.807
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.882
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -150450.130 / Time: 4h:5m:12s (0h:28m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 413: -150347.541
+Iteration 420 / LogL: -150459.505 / Time: 4h:8m:27s (0h:29m:4s left)
+Iteration 430 / LogL: -150435.845 / Time: 4h:11m:22s (0h:25m:54s left)
+Iteration 440 / LogL: -150496.625 / Time: 4h:14m:24s (0h:22m:45s left)
+Iteration 450 / LogL: -150446.802 / Time: 4h:17m:18s (0h:19m:36s left)
+Log-likelihood cutoff on original alignment: -151269.807
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 453: -150345.705
+Iteration 460 / LogL: -150412.965 / Time: 4h:20m:44s (0h:29m:1s left)
+Iteration 470 / LogL: -150451.674 / Time: 4h:23m:45s (0h:25m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 480: -150337.740
+Iteration 480 / LogL: -150337.740 / Time: 4h:27m:6s (0h:31m:14s left)
+Iteration 490 / LogL: -150373.046 / Time: 4h:30m:17s (0h:28m:7s left)
+Iteration 500 / LogL: -150396.159 / Time: 4h:33m:16s (0h:24m:58s left)
+Log-likelihood cutoff on original alignment: -151269.807
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.918
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -150468.178 / Time: 4h:36m:21s (0h:28m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 512: -150315.054
+Iteration 520 / LogL: -150481.043 / Time: 4h:39m:34s (0h:28m:43s left)
+Iteration 530 / LogL: -150360.614 / Time: 4h:42m:36s (0h:25m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 531: -150291.615
+Iteration 540 / LogL: -150361.110 / Time: 4h:45m:54s (0h:28m:25s left)
+Iteration 550 / LogL: -150297.319 / Time: 4h:49m:3s (0h:25m:18s left)
+Log-likelihood cutoff on original alignment: -151269.807
+Iteration 560 / LogL: -150327.665 / Time: 4h:52m:13s (0h:22m:11s left)
+Iteration 570 / LogL: -150592.289 / Time: 4h:55m:25s (0h:19m:4s left)
+Iteration 580 / LogL: -150607.154 / Time: 4h:58m:38s (0h:15m:57s left)
+Iteration 590 / LogL: -150306.073 / Time: 5h:1m:39s (0h:12m:49s left)
+Iteration 600 / LogL: -150380.239 / Time: 5h:4m:33s (0h:9m:40s left)
+Log-likelihood cutoff on original alignment: -151269.807
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.905
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -150392.329 / Time: 5h:7m:51s (0h:28m:7s left)
+Iteration 620 / LogL: -150489.885 / Time: 5h:10m:53s (0h:24m:59s left)
+Iteration 630 / LogL: -150345.780 / Time: 5h:13m:56s (0h:21m:51s left)
+Iteration 640 / LogL: -150451.125 / Time: 5h:16m:48s (0h:18m:42s left)
+Iteration 650 / LogL: -150321.412 / Time: 5h:19m:37s (0h:15m:34s left)
+Log-likelihood cutoff on original alignment: -151269.807
+Iteration 660 / LogL: -150372.625 / Time: 5h:22m:33s (0h:12m:26s left)
+Iteration 670 / LogL: -150415.027 / Time: 5h:25m:31s (0h:9m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 674: -150276.016
+Iteration 680 / LogL: -150348.278 / Time: 5h:28m:42s (0h:29m:14s left)
+Iteration 690 / LogL: -150492.180 / Time: 5h:31m:37s (0h:26m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 697: -150258.082
+Iteration 700 / LogL: -150353.375 / Time: 5h:34m:42s (0h:30m:8s left)
+Log-likelihood cutoff on original alignment: -151269.807
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.913
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -150318.071 / Time: 5h:38m:3s (0h:27m:59s left)
+Iteration 720 / LogL: -150349.883 / Time: 5h:41m:8s (0h:24m:53s left)
+Iteration 730 / LogL: -150282.425 / Time: 5h:44m:6s (0h:21m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 734: -150253.672
+Iteration 740 / LogL: -150493.241 / Time: 5h:47m:15s (0h:29m:13s left)
+Iteration 750 / LogL: -150279.532 / Time: 5h:50m:11s (0h:26m:5s left)
+Log-likelihood cutoff on original alignment: -151269.807
+Iteration 760 / LogL: -150267.931 / Time: 5h:53m:23s (0h:22m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 768: -150238.463
+Iteration 770 / LogL: -150321.888 / Time: 5h:56m:42s (0h:30m:29s left)
+Iteration 780 / LogL: -150338.940 / Time: 5h:59m:35s (0h:27m:20s left)
+Iteration 790 / LogL: -150313.022 / Time: 6h:2m:45s (0h:24m:14s left)
+Iteration 800 / LogL: -150301.012 / Time: 6h:5m:45s (0h:21m:7s left)
+Log-likelihood cutoff on original alignment: -151269.807
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.914
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -150299.041 / Time: 6h:9m:5s (0h:27m:59s left)
+Iteration 820 / LogL: -150291.479 / Time: 6h:12m:2s (0h:24m:51s left)
+Iteration 830 / LogL: -150310.641 / Time: 6h:15m:13s (0h:21m:45s left)
+Iteration 840 / LogL: -150419.272 / Time: 6h:18m:33s (0h:18m:40s left)
+Iteration 850 / LogL: -150326.359 / Time: 6h:21m:33s (0h:15m:33s left)
+Log-likelihood cutoff on original alignment: -151269.807
+Iteration 860 / LogL: -150304.842 / Time: 6h:24m:30s (0h:12m:26s left)
+Iteration 870 / LogL: -150501.626 / Time: 6h:27m:22s (0h:9m:18s left)
+Iteration 880 / LogL: -150349.457 / Time: 6h:30m:36s (0h:6m:12s left)
+Iteration 890 / LogL: -150311.167 / Time: 6h:33m:43s (0h:3m:6s left)
+Iteration 900 / LogL: -150357.871 / Time: 6h:36m:55s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151269.807
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.917
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -150362.189 / Time: 6h:40m:18s (0h:28m:0s left)
+Iteration 920 / LogL: -150371.931 / Time: 6h:43m:22s (0h:24m:53s left)
+Iteration 930 / LogL: -150377.532 / Time: 6h:46m:38s (0h:21m:47s left)
+Iteration 940 / LogL: -150282.809 / Time: 6h:50m:5s (0h:18m:41s left)
+Iteration 950 / LogL: -150328.074 / Time: 6h:53m:10s (0h:15m:34s left)
+Log-likelihood cutoff on original alignment: -151269.807
+Iteration 960 / LogL: -150248.256 / Time: 6h:56m:31s (0h:12m:28s left)
+Iteration 970 / LogL: -150334.024 / Time: 6h:59m:44s (0h:9m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 973: -150230.955
+Iteration 980 / LogL: -150295.205 / Time: 7h:3m:4s (0h:29m:1s left)
+Iteration 990 / LogL: -150319.406 / Time: 7h:6m:31s (0h:25m:56s left)
+Iteration 1000 / LogL: -150318.013 / Time: 7h:10m:11s (0h:22m:50s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.919
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1005: -150220.614
+Iteration 1010 / LogL: -150326.669 / Time: 7h:13m:46s (0h:29m:46s left)
+Iteration 1020 / LogL: -150349.125 / Time: 7h:16m:54s (0h:26m:38s left)
+Iteration 1030 / LogL: -150376.948 / Time: 7h:20m:1s (0h:23m:30s left)
+Iteration 1040 / LogL: -150349.217 / Time: 7h:23m:25s (0h:20m:23s left)
+Iteration 1050 / LogL: -150346.864 / Time: 7h:26m:28s (0h:17m:14s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1060 / LogL: -150339.872 / Time: 7h:29m:33s (0h:14m:6s left)
+Iteration 1070 / LogL: -150294.970 / Time: 7h:32m:35s (0h:10m:58s left)
+Iteration 1080 / LogL: -150352.313 / Time: 7h:35m:42s (0h:7m:50s left)
+Iteration 1090 / LogL: -150384.183 / Time: 7h:38m:59s (0h:4m:42s left)
+Iteration 1100 / LogL: -150326.128 / Time: 7h:42m:17s (0h:1m:34s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.953
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1110 / LogL: -150257.483 / Time: 7h:45m:40s (0h:28m:15s left)
+Iteration 1120 / LogL: -150301.631 / Time: 7h:48m:47s (0h:25m:6s left)
+Iteration 1130 / LogL: -150284.238 / Time: 7h:52m:3s (0h:21m:58s left)
+Iteration 1140 / LogL: -150399.731 / Time: 7h:55m:16s (0h:18m:50s left)
+Iteration 1150 / LogL: -150333.874 / Time: 7h:58m:30s (0h:15m:42s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1160 / LogL: -150494.865 / Time: 8h:1m:54s (0h:12m:34s left)
+Iteration 1170 / LogL: -150322.748 / Time: 8h:5m:2s (0h:9m:25s left)
+Iteration 1180 / LogL: -150288.913 / Time: 8h:8m:13s (0h:6m:17s left)
+Iteration 1190 / LogL: -150275.602 / Time: 8h:11m:27s (0h:3m:8s left)
+Iteration 1200 / LogL: -150406.944 / Time: 8h:14m:38s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.956
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1210 / LogL: -150292.486 / Time: 8h:18m:1s (0h:28m:19s left)
+Iteration 1220 / LogL: -150283.776 / Time: 8h:21m:17s (0h:25m:11s left)
+Iteration 1230 / LogL: -150344.675 / Time: 8h:24m:32s (0h:22m:2s left)
+Iteration 1240 / LogL: -150301.126 / Time: 8h:27m:49s (0h:18m:54s left)
+Iteration 1250 / LogL: -150345.289 / Time: 8h:30m:55s (0h:15m:44s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1260 / LogL: -150282.981 / Time: 8h:34m:6s (0h:12m:36s left)
+Iteration 1270 / LogL: -150342.121 / Time: 8h:37m:19s (0h:9m:27s left)
+Iteration 1280 / LogL: -150299.967 / Time: 8h:40m:28s (0h:6m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1283: -150185.219
+Iteration 1290 / LogL: -150315.050 / Time: 8h:44m:5s (0h:29m:20s left)
+Iteration 1300 / LogL: -150294.118 / Time: 8h:47m:18s (0h:26m:11s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.958
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1310 / LogL: -150288.519 / Time: 8h:50m:42s (0h:28m:24s left)
+Iteration 1320 / LogL: -150355.041 / Time: 8h:54m:0s (0h:25m:15s left)
+Iteration 1330 / LogL: -150284.812 / Time: 8h:57m:20s (0h:22m:6s left)
+Iteration 1340 / LogL: -150400.193 / Time: 9h:0m:31s (0h:18m:57s left)
+Iteration 1350 / LogL: -150239.304 / Time: 9h:3m:45s (0h:15m:47s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1360 / LogL: -150276.046 / Time: 9h:7m:12s (0h:12m:38s left)
+Iteration 1370 / LogL: -150319.183 / Time: 9h:10m:25s (0h:9m:29s left)
+Iteration 1380 / LogL: -150369.042 / Time: 9h:13m:49s (0h:6m:19s left)
+Iteration 1390 / LogL: -150411.187 / Time: 9h:16m:58s (0h:3m:9s left)
+Iteration 1400 / LogL: -150287.388 / Time: 9h:20m:19s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.964
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1410 / LogL: -150290.455 / Time: 9h:23m:40s (0h:28m:29s left)
+Iteration 1420 / LogL: -150280.490 / Time: 9h:27m:4s (0h:25m:20s left)
+Iteration 1430 / LogL: -150370.849 / Time: 9h:30m:15s (0h:22m:10s left)
+Iteration 1440 / LogL: -150396.454 / Time: 9h:33m:17s (0h:19m:0s left)
+Iteration 1450 / LogL: -150277.214 / Time: 9h:36m:33s (0h:15m:50s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1460 / LogL: -150258.661 / Time: 9h:40m:9s (0h:12m:41s left)
+Iteration 1470 / LogL: -150283.419 / Time: 9h:43m:27s (0h:9m:30s left)
+Iteration 1480 / LogL: -150316.969 / Time: 9h:46m:48s (0h:6m:20s left)
+Iteration 1490 / LogL: -150277.756 / Time: 9h:50m:4s (0h:3m:10s left)
+Iteration 1500 / LogL: -150351.195 / Time: 9h:53m:22s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1510 / LogL: -150290.683 / Time: 9h:56m:44s (0h:28m:35s left)
+Iteration 1520 / LogL: -150336.874 / Time: 10h:0m:1s (0h:25m:24s left)
+Iteration 1530 / LogL: -150323.358 / Time: 10h:3m:12s (0h:22m:14s left)
+Iteration 1540 / LogL: -150327.174 / Time: 10h:6m:36s (0h:19m:4s left)
+Iteration 1550 / LogL: -150382.548 / Time: 10h:9m:54s (0h:15m:53s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1560 / LogL: -150320.193 / Time: 10h:13m:20s (0h:12m:43s left)
+Iteration 1570 / LogL: -150236.585 / Time: 10h:16m:41s (0h:9m:32s left)
+Iteration 1580 / LogL: -150350.757 / Time: 10h:19m:55s (0h:6m:21s left)
+Iteration 1590 / LogL: -150292.648 / Time: 10h:23m:17s (0h:3m:10s left)
+Iteration 1600 / LogL: -150324.482 / Time: 10h:26m:36s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1610 / LogL: -150308.457 / Time: 10h:29m:56s (0h:28m:39s left)
+Iteration 1620 / LogL: -150332.945 / Time: 10h:33m:24s (0h:25m:29s left)
+Iteration 1630 / LogL: -150272.989 / Time: 10h:36m:45s (0h:22m:18s left)
+Iteration 1640 / LogL: -150385.240 / Time: 10h:40m:5s (0h:19m:7s left)
+Iteration 1650 / LogL: -150296.824 / Time: 10h:43m:28s (0h:15m:56s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1660 / LogL: -150326.938 / Time: 10h:46m:57s (0h:12m:45s left)
+Iteration 1670 / LogL: -150271.997 / Time: 10h:50m:22s (0h:9m:34s left)
+Iteration 1680 / LogL: -150257.670 / Time: 10h:53m:43s (0h:6m:23s left)
+Iteration 1690 / LogL: -150406.944 / Time: 10h:57m:4s (0h:3m:11s left)
+Iteration 1700 / LogL: -150398.233 / Time: 11h:0m:19s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1710 / LogL: -150350.884 / Time: 11h:3m:46s (0h:28m:46s left)
+Iteration 1720 / LogL: -150299.345 / Time: 11h:7m:5s (0h:25m:34s left)
+Iteration 1730 / LogL: -150254.125 / Time: 11h:10m:39s (0h:22m:23s left)
+Iteration 1740 / LogL: -150278.388 / Time: 11h:13m:59s (0h:19m:12s left)
+Iteration 1750 / LogL: -150294.846 / Time: 11h:17m:22s (0h:16m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1760 / LogL: -150322.632 / Time: 11h:20m:43s (0h:12m:48s left)
+Iteration 1770 / LogL: -150283.739 / Time: 11h:23m:57s (0h:9m:36s left)
+Iteration 1780 / LogL: -150273.622 / Time: 11h:27m:14s (0h:6m:24s left)
+Iteration 1790 / LogL: -150322.212 / Time: 11h:30m:36s (0h:3m:12s left)
+Iteration 1800 / LogL: -150293.972 / Time: 11h:33m:53s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1810 / LogL: -150420.421 / Time: 11h:37m:17s (0h:28m:50s left)
+Iteration 1820 / LogL: -150272.213 / Time: 11h:40m:44s (0h:25m:39s left)
+Iteration 1830 / LogL: -150377.474 / Time: 11h:44m:5s (0h:22m:26s left)
+Iteration 1840 / LogL: -150285.028 / Time: 11h:47m:29s (0h:19m:14s left)
+Iteration 1850 / LogL: -150299.260 / Time: 11h:50m:32s (0h:16m:2s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1860 / LogL: -150400.285 / Time: 11h:53m:31s (0h:12m:49s left)
+Iteration 1870 / LogL: -150277.497 / Time: 11h:56m:23s (0h:9m:36s left)
+Iteration 1880 / LogL: -150393.253 / Time: 11h:59m:19s (0h:6m:24s left)
+Iteration 1890 / LogL: -150264.613 / Time: 12h:2m:8s (0h:3m:12s left)
+Iteration 1900 / LogL: -150357.281 / Time: 12h:4m:55s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1910 / LogL: -150327.856 / Time: 12h:7m:53s (0h:28m:46s left)
+Iteration 1920 / LogL: -150331.370 / Time: 12h:10m:44s (0h:25m:33s left)
+Iteration 1930 / LogL: -150343.739 / Time: 12h:13m:29s (0h:22m:21s left)
+Iteration 1940 / LogL: -150347.315 / Time: 12h:16m:24s (0h:19m:9s left)
+Iteration 1950 / LogL: -150306.677 / Time: 12h:19m:10s (0h:15m:56s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 1960 / LogL: -150485.613 / Time: 12h:22m:5s (0h:12m:45s left)
+Iteration 1970 / LogL: -150267.432 / Time: 12h:24m:52s (0h:9m:33s left)
+Iteration 1980 / LogL: -150364.495 / Time: 12h:27m:36s (0h:6m:22s left)
+Iteration 1990 / LogL: -150270.048 / Time: 12h:30m:31s (0h:3m:10s left)
+Iteration 2000 / LogL: -150309.291 / Time: 12h:33m:24s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2010 / LogL: -150344.564 / Time: 12h:36m:21s (0h:28m:37s left)
+Iteration 2020 / LogL: -150273.641 / Time: 12h:39m:14s (0h:25m:25s left)
+Iteration 2030 / LogL: -150428.131 / Time: 12h:42m:1s (0h:22m:14s left)
+Iteration 2040 / LogL: -150321.704 / Time: 12h:44m:52s (0h:19m:2s left)
+Iteration 2050 / LogL: -150308.762 / Time: 12h:47m:38s (0h:15m:51s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2060 / LogL: -150281.497 / Time: 12h:50m:32s (0h:12m:41s left)
+Iteration 2070 / LogL: -150239.743 / Time: 12h:53m:26s (0h:9m:30s left)
+Iteration 2080 / LogL: -150281.456 / Time: 12h:56m:22s (0h:6m:20s left)
+Iteration 2090 / LogL: -150470.943 / Time: 12h:59m:20s (0h:3m:10s left)
+Iteration 2100 / LogL: -150232.008 / Time: 13h:2m:18s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2110 / LogL: -150232.189 / Time: 13h:5m:15s (0h:28m:29s left)
+Iteration 2120 / LogL: -150294.888 / Time: 13h:8m:4s (0h:25m:19s left)
+Iteration 2130 / LogL: -150234.217 / Time: 13h:10m:54s (0h:22m:8s left)
+Iteration 2140 / LogL: -150356.056 / Time: 13h:13m:42s (0h:18m:58s left)
+Iteration 2150 / LogL: -150211.718 / Time: 13h:16m:31s (0h:15m:47s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2160 / LogL: -150229.002 / Time: 13h:19m:30s (0h:12m:38s left)
+Iteration 2170 / LogL: -150221.041 / Time: 13h:22m:28s (0h:9m:28s left)
+Iteration 2180 / LogL: -150353.003 / Time: 13h:25m:23s (0h:6m:18s left)
+Iteration 2190 / LogL: -150400.624 / Time: 13h:28m:15s (0h:3m:9s left)
+Iteration 2200 / LogL: -150250.722 / Time: 13h:31m:7s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2210 / LogL: -150322.757 / Time: 13h:34m:1s (0h:28m:22s left)
+Iteration 2220 / LogL: -150260.146 / Time: 13h:36m:55s (0h:25m:12s left)
+Iteration 2230 / LogL: -150232.880 / Time: 13h:39m:53s (0h:22m:3s left)
+Iteration 2240 / LogL: -150259.255 / Time: 13h:42m:40s (0h:18m:53s left)
+Iteration 2250 / LogL: -150337.966 / Time: 13h:45m:31s (0h:15m:44s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2260 / LogL: -150315.413 / Time: 13h:48m:37s (0h:12m:35s left)
+Iteration 2270 / LogL: -150232.696 / Time: 13h:51m:33s (0h:9m:26s left)
+Iteration 2280 / LogL: -150345.593 / Time: 13h:54m:33s (0h:6m:17s left)
+Iteration 2290 / LogL: -150273.897 / Time: 13h:57m:27s (0h:3m:8s left)
+Iteration 2300 / LogL: -150241.170 / Time: 14h:0m:12s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.970
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2310 / LogL: -150250.366 / Time: 14h:3m:14s (0h:28m:17s left)
+Iteration 2320 / LogL: -150264.552 / Time: 14h:6m:6s (0h:25m:8s left)
+Iteration 2330 / LogL: -150261.978 / Time: 14h:8m:54s (0h:21m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2339: -150177.205
+Iteration 2340 / LogL: -150422.539 / Time: 14h:11m:55s (0h:31m:5s left)
+Iteration 2350 / LogL: -150336.080 / Time: 14h:14m:55s (0h:27m:56s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2360 / LogL: -150288.360 / Time: 14h:17m:58s (0h:24m:47s left)
+Iteration 2370 / LogL: -150320.699 / Time: 14h:20m:53s (0h:21m:39s left)
+Iteration 2380 / LogL: -150354.699 / Time: 14h:23m:41s (0h:18m:30s left)
+Iteration 2390 / LogL: -150317.548 / Time: 14h:26m:34s (0h:15m:21s left)
+Iteration 2400 / LogL: -150366.743 / Time: 14h:29m:38s (0h:12m:13s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.967
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2410 / LogL: -150356.237 / Time: 14h:32m:41s (0h:28m:12s left)
+Iteration 2420 / LogL: -150345.165 / Time: 14h:35m:40s (0h:25m:4s left)
+Iteration 2430 / LogL: -150271.913 / Time: 14h:38m:37s (0h:21m:56s left)
+Iteration 2440 / LogL: -150368.222 / Time: 14h:41m:36s (0h:18m:47s left)
+Iteration 2450 / LogL: -150302.069 / Time: 14h:44m:29s (0h:15m:39s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2460 / LogL: -150321.096 / Time: 14h:47m:26s (0h:12m:31s left)
+Iteration 2470 / LogL: -150356.644 / Time: 14h:50m:16s (0h:9m:23s left)
+Iteration 2480 / LogL: -150266.649 / Time: 14h:53m:4s (0h:6m:15s left)
+Iteration 2490 / LogL: -150276.741 / Time: 14h:55m:54s (0h:3m:7s left)
+Iteration 2500 / LogL: -150332.102 / Time: 14h:58m:51s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.971
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2510 / LogL: -150267.891 / Time: 15h:1m:55s (0h:28m:8s left)
+Iteration 2520 / LogL: -150237.506 / Time: 15h:4m:50s (0h:25m:0s left)
+Iteration 2530 / LogL: -150290.361 / Time: 15h:7m:46s (0h:21m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2533: -150169.857
+Iteration 2540 / LogL: -150276.384 / Time: 15h:10m:51s (0h:29m:3s left)
+Iteration 2550 / LogL: -150263.915 / Time: 15h:13m:44s (0h:25m:55s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2560 / LogL: -150209.559 / Time: 15h:16m:47s (0h:22m:48s left)
+Iteration 2570 / LogL: -150303.942 / Time: 15h:19m:38s (0h:19m:40s left)
+Iteration 2580 / LogL: -150415.342 / Time: 15h:22m:42s (0h:16m:32s left)
+Iteration 2590 / LogL: -150350.733 / Time: 15h:25m:45s (0h:13m:25s left)
+Iteration 2600 / LogL: -150252.994 / Time: 15h:28m:45s (0h:10m:18s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2610 / LogL: -150252.834 / Time: 15h:31m:47s (0h:28m:5s left)
+Iteration 2620 / LogL: -150241.919 / Time: 15h:34m:45s (0h:24m:57s left)
+Iteration 2630 / LogL: -150336.684 / Time: 15h:37m:46s (0h:21m:50s left)
+Iteration 2640 / LogL: -150279.652 / Time: 15h:40m:38s (0h:18m:42s left)
+Iteration 2650 / LogL: -150341.526 / Time: 15h:43m:38s (0h:15m:35s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2660 / LogL: -150359.942 / Time: 15h:46m:35s (0h:12m:28s left)
+Iteration 2670 / LogL: -150364.921 / Time: 15h:49m:39s (0h:9m:21s left)
+Iteration 2680 / LogL: -150239.419 / Time: 15h:52m:41s (0h:6m:14s left)
+Iteration 2690 / LogL: -150312.487 / Time: 15h:55m:55s (0h:3m:7s left)
+Iteration 2700 / LogL: -150366.572 / Time: 15h:58m:57s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.969
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2710 / LogL: -150280.625 / Time: 16h:2m:11s (0h:28m:3s left)
+Iteration 2720 / LogL: -150297.425 / Time: 16h:5m:14s (0h:24m:56s left)
+Iteration 2730 / LogL: -150216.474 / Time: 16h:8m:5s (0h:21m:49s left)
+Iteration 2740 / LogL: -150181.024 / Time: 16h:10m:59s (0h:18m:41s left)
+Iteration 2750 / LogL: -150269.031 / Time: 16h:13m:52s (0h:15m:34s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2760 / LogL: -150310.820 / Time: 16h:16m:54s (0h:12m:27s left)
+Iteration 2770 / LogL: -150214.692 / Time: 16h:19m:59s (0h:9m:20s left)
+Iteration 2780 / LogL: -150258.310 / Time: 16h:22m:59s (0h:6m:13s left)
+Iteration 2790 / LogL: -150441.841 / Time: 16h:25m:56s (0h:3m:6s left)
+Iteration 2800 / LogL: -150455.303 / Time: 16h:28m:56s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.969
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2810 / LogL: -150295.957 / Time: 16h:32m:18s (0h:28m:1s left)
+Iteration 2820 / LogL: -150310.368 / Time: 16h:35m:21s (0h:24m:54s left)
+Iteration 2830 / LogL: -150290.916 / Time: 16h:38m:26s (0h:21m:47s left)
+Iteration 2840 / LogL: -150272.286 / Time: 16h:41m:30s (0h:18m:40s left)
+Iteration 2850 / LogL: -150241.050 / Time: 16h:44m:30s (0h:15m:34s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2860 / LogL: -150335.934 / Time: 16h:47m:34s (0h:12m:27s left)
+Iteration 2870 / LogL: -150300.110 / Time: 16h:50m:25s (0h:9m:20s left)
+Iteration 2880 / LogL: -150303.585 / Time: 16h:53m:35s (0h:6m:13s left)
+Iteration 2890 / LogL: -150295.501 / Time: 16h:56m:34s (0h:3m:6s left)
+Iteration 2900 / LogL: -150395.413 / Time: 16h:59m:43s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.966
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 2910 / LogL: -150266.519 / Time: 17h:2m:45s (0h:28m:0s left)
+Iteration 2920 / LogL: -150227.826 / Time: 17h:5m:50s (0h:24m:53s left)
+Iteration 2930 / LogL: -150366.660 / Time: 17h:8m:54s (0h:21m:46s left)
+Iteration 2940 / LogL: -150261.107 / Time: 17h:11m:55s (0h:18m:40s left)
+Iteration 2950 / LogL: -150265.734 / Time: 17h:14m:55s (0h:15m:33s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 2960 / LogL: -150270.529 / Time: 17h:18m:6s (0h:12m:26s left)
+Iteration 2970 / LogL: -150280.653 / Time: 17h:21m:6s (0h:9m:19s left)
+Iteration 2980 / LogL: -150198.627 / Time: 17h:24m:28s (0h:6m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2982: -150162.191
+Iteration 2990 / LogL: -150376.360 / Time: 17h:27m:42s (0h:28m:37s left)
+Iteration 3000 / LogL: -150378.378 / Time: 17h:30m:43s (0h:25m:30s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.963
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3010: -150127.685
+Iteration 3010 / LogL: -150127.685 / Time: 17h:33m:59s (0h:31m:7s left)
+Iteration 3020 / LogL: -150311.162 / Time: 17h:37m:6s (0h:28m:0s left)
+Iteration 3030 / LogL: -150183.546 / Time: 17h:40m:25s (0h:24m:54s left)
+Iteration 3040 / LogL: -150217.073 / Time: 17h:43m:26s (0h:21m:47s left)
+Iteration 3050 / LogL: -150189.532 / Time: 17h:46m:19s (0h:18m:40s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 3060 / LogL: -150245.588 / Time: 17h:49m:21s (0h:15m:33s left)
+Iteration 3070 / LogL: -150245.606 / Time: 17h:52m:28s (0h:12m:26s left)
+Iteration 3080 / LogL: -150217.138 / Time: 17h:55m:35s (0h:9m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3089: -150105.554
+Iteration 3090 / LogL: -150147.647 / Time: 17h:58m:47s (0h:30m:48s left)
+Iteration 3100 / LogL: -150219.177 / Time: 18h:1m:57s (0h:27m:41s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.929
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3110 / LogL: -150223.400 / Time: 18h:5m:26s (0h:28m:1s left)
+Iteration 3120 / LogL: -150242.766 / Time: 18h:8m:38s (0h:24m:54s left)
+Iteration 3130 / LogL: -150214.125 / Time: 18h:11m:57s (0h:21m:48s left)
+Iteration 3140 / LogL: -150202.164 / Time: 18h:15m:12s (0h:18m:41s left)
+Iteration 3150 / LogL: -150240.374 / Time: 18h:18m:26s (0h:15m:34s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 3160 / LogL: -150196.707 / Time: 18h:21m:45s (0h:12m:27s left)
+Iteration 3170 / LogL: -150167.814 / Time: 18h:24m:59s (0h:9m:20s left)
+Iteration 3180 / LogL: -150399.437 / Time: 18h:28m:23s (0h:6m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3186: -150104.851
+Iteration 3190 / LogL: -150248.594 / Time: 18h:31m:52s (0h:29m:56s left)
+Iteration 3200 / LogL: -150272.741 / Time: 18h:34m:54s (0h:26m:48s left)
+Log-likelihood cutoff on original alignment: -151165.731
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.916
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3210 / LogL: -150165.722 / Time: 18h:38m:15s (0h:28m:4s left)
+Iteration 3220 / LogL: -150152.382 / Time: 18h:41m:50s (0h:24m:57s left)
+Iteration 3230 / LogL: -150153.830 / Time: 18h:45m:10s (0h:21m:50s left)
+Iteration 3240 / LogL: -150255.252 / Time: 18h:48m:47s (0h:18m:44s left)
+Iteration 3250 / LogL: -150233.274 / Time: 18h:51m:48s (0h:15m:36s left)
+Log-likelihood cutoff on original alignment: -151165.731
+Iteration 3260 / LogL: -150252.450 / Time: 18h:55m:3s (0h:12m:29s left)
+Iteration 3270 / LogL: -150122.594 / Time: 18h:58m:21s (0h:9m:22s left)
+Iteration 3280 / LogL: -150192.361 / Time: 19h:1m:26s (0h:6m:14s left)
+Iteration 3290 / LogL: -150418.720 / Time: 19h:4m:33s (0h:3m:7s left)
+Iteration 3300 / LogL: -150233.524 / Time: 19h:7m:29s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150467.713
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.910
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3310 / LogL: -150202.604 / Time: 19h:10m:21s (0h:28m:5s left)
+Iteration 3320 / LogL: -150206.457 / Time: 19h:13m:4s (0h:24m:57s left)
+Iteration 3330 / LogL: -150291.218 / Time: 19h:15m:58s (0h:21m:50s left)
+Iteration 3340 / LogL: -150124.554 / Time: 19h:18m:58s (0h:18m:42s left)
+Iteration 3350 / LogL: -150199.115 / Time: 19h:21m:54s (0h:15m:35s left)
+Log-likelihood cutoff on original alignment: -150467.713
+Iteration 3360 / LogL: -150341.460 / Time: 19h:25m:19s (0h:12m:28s left)
+Iteration 3370 / LogL: -150190.471 / Time: 19h:28m:7s (0h:9m:21s left)
+Iteration 3380 / LogL: -150178.787 / Time: 19h:31m:3s (0h:6m:14s left)
+Iteration 3390 / LogL: -150144.010 / Time: 19h:33m:53s (0h:3m:7s left)
+Iteration 3400 / LogL: -150115.070 / Time: 19h:36m:56s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.898
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3410 / LogL: -150141.263 / Time: 19h:40m:14s (0h:28m:3s left)
+Iteration 3420 / LogL: -150198.051 / Time: 19h:43m:2s (0h:24m:55s left)
+Iteration 3430 / LogL: -150265.438 / Time: 19h:45m:44s (0h:21m:48s left)
+Iteration 3440 / LogL: -150241.014 / Time: 19h:48m:23s (0h:18m:41s left)
+Iteration 3450 / LogL: -150148.204 / Time: 19h:51m:26s (0h:15m:34s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 3460 / LogL: -150203.174 / Time: 19h:54m:13s (0h:12m:27s left)
+Iteration 3470 / LogL: -150244.804 / Time: 19h:57m:4s (0h:9m:20s left)
+Iteration 3480 / LogL: -150122.404 / Time: 19h:59m:45s (0h:6m:13s left)
+Iteration 3490 / LogL: -150194.519 / Time: 20h:2m:40s (0h:3m:6s left)
+Iteration 3500 / LogL: -150189.000 / Time: 20h:5m:40s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.895
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3510 / LogL: -150288.234 / Time: 20h:8m:33s (0h:27m:59s left)
+Iteration 3520 / LogL: -150322.743 / Time: 20h:11m:18s (0h:24m:51s left)
+Iteration 3530 / LogL: -150157.438 / Time: 20h:14m:17s (0h:21m:45s left)
+Iteration 3540 / LogL: -150151.791 / Time: 20h:17m:0s (0h:18m:38s left)
+Iteration 3550 / LogL: -150212.252 / Time: 20h:19m:46s (0h:15m:31s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 3560 / LogL: -150183.836 / Time: 20h:22m:37s (0h:12m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3562: -150080.436
+Iteration 3570 / LogL: -150142.036 / Time: 20h:26m:3s (0h:28m:34s left)
+Iteration 3580 / LogL: -150111.284 / Time: 20h:28m:51s (0h:25m:27s left)
+Iteration 3590 / LogL: -150198.190 / Time: 20h:31m:46s (0h:22m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3599: -150076.017
+Iteration 3600 / LogL: -150234.099 / Time: 20h:34m:53s (0h:30m:44s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.885
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3610 / LogL: -150154.929 / Time: 20h:37m:43s (0h:27m:56s left)
+Iteration 3620 / LogL: -150195.904 / Time: 20h:40m:43s (0h:24m:49s left)
+Iteration 3630 / LogL: -150220.687 / Time: 20h:43m:31s (0h:21m:43s left)
+Iteration 3640 / LogL: -150208.529 / Time: 20h:46m:22s (0h:18m:36s left)
+Iteration 3650 / LogL: -150301.913 / Time: 20h:49m:17s (0h:15m:30s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 3660 / LogL: -150224.081 / Time: 20h:52m:11s (0h:12m:24s left)
+Iteration 3670 / LogL: -150091.304 / Time: 20h:55m:6s (0h:9m:18s left)
+Iteration 3680 / LogL: -150197.013 / Time: 20h:58m:6s (0h:6m:12s left)
+Iteration 3690 / LogL: -150181.700 / Time: 21h:0m:52s (0h:3m:5s left)
+Iteration 3700 / LogL: -150174.127 / Time: 21h:4m:5s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.882
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3710 / LogL: -150229.299 / Time: 21h:7m:10s (0h:27m:53s left)
+Iteration 3720 / LogL: -150215.969 / Time: 21h:10m:12s (0h:24m:47s left)
+Iteration 3730 / LogL: -150360.007 / Time: 21h:13m:0s (0h:21m:41s left)
+Iteration 3740 / LogL: -150258.625 / Time: 21h:16m:4s (0h:18m:35s left)
+Iteration 3750 / LogL: -150121.029 / Time: 21h:18m:54s (0h:15m:29s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 3760 / LogL: -150185.326 / Time: 21h:21m:54s (0h:12m:23s left)
+Iteration 3770 / LogL: -150414.717 / Time: 21h:24m:53s (0h:9m:17s left)
+Iteration 3780 / LogL: -150150.575 / Time: 21h:27m:41s (0h:6m:11s left)
+Iteration 3790 / LogL: -150131.312 / Time: 21h:30m:25s (0h:3m:5s left)
+Iteration 3800 / LogL: -150103.632 / Time: 21h:33m:38s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.877
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3810 / LogL: -150125.386 / Time: 21h:36m:34s (0h:27m:51s left)
+Iteration 3820 / LogL: -150199.997 / Time: 21h:39m:26s (0h:24m:45s left)
+Iteration 3830 / LogL: -150180.516 / Time: 21h:42m:12s (0h:21m:39s left)
+Iteration 3840 / LogL: -150102.372 / Time: 21h:45m:19s (0h:18m:33s left)
+Iteration 3850 / LogL: -150160.923 / Time: 21h:48m:16s (0h:15m:28s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 3860 / LogL: -150173.622 / Time: 21h:51m:31s (0h:12m:22s left)
+Iteration 3870 / LogL: -150119.828 / Time: 21h:54m:36s (0h:9m:16s left)
+Iteration 3880 / LogL: -150259.260 / Time: 21h:57m:40s (0h:6m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3887: -150073.526
+Iteration 3890 / LogL: -150266.057 / Time: 22h:0m:51s (0h:30m:0s left)
+Iteration 3900 / LogL: -150172.388 / Time: 22h:3m:47s (0h:26m:54s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.874
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 3910 / LogL: -150194.764 / Time: 22h:7m:42s (0h:27m:51s left)
+Iteration 3920 / LogL: -150158.020 / Time: 22h:10m:40s (0h:24m:45s left)
+Iteration 3930 / LogL: -150155.352 / Time: 22h:13m:30s (0h:21m:39s left)
+Iteration 3940 / LogL: -150173.347 / Time: 22h:16m:18s (0h:18m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3943: -150047.846
+Iteration 3950 / LogL: -150161.903 / Time: 22h:19m:56s (0h:28m:47s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 3960 / LogL: -150130.083 / Time: 22h:23m:4s (0h:25m:41s left)
+Iteration 3970 / LogL: -150189.685 / Time: 22h:25m:53s (0h:22m:35s left)
+Iteration 3980 / LogL: -150237.570 / Time: 22h:28m:49s (0h:19m:29s left)
+Iteration 3990 / LogL: -150146.069 / Time: 22h:31m:40s (0h:16m:23s left)
+Iteration 4000 / LogL: -150099.381 / Time: 22h:34m:52s (0h:13m:18s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.865
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 4010 / LogL: -150164.526 / Time: 22h:37m:56s (0h:27m:50s left)
+Iteration 4020 / LogL: -150218.303 / Time: 22h:41m:19s (0h:24m:45s left)
+Iteration 4030 / LogL: -150276.185 / Time: 22h:44m:20s (0h:21m:39s left)
+Iteration 4040 / LogL: -150172.559 / Time: 22h:47m:22s (0h:18m:34s left)
+Iteration 4050 / LogL: -150200.513 / Time: 22h:50m:25s (0h:15m:28s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4060 / LogL: -150171.443 / Time: 22h:53m:18s (0h:12m:22s left)
+Iteration 4070 / LogL: -150077.634 / Time: 22h:56m:23s (0h:9m:16s left)
+Iteration 4080 / LogL: -150154.156 / Time: 22h:59m:21s (0h:6m:11s left)
+Iteration 4090 / LogL: -150144.463 / Time: 23h:2m:20s (0h:3m:5s left)
+Iteration 4100 / LogL: -150108.801 / Time: 23h:5m:16s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.860
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 4110 / LogL: -150169.995 / Time: 23h:8m:11s (0h:27m:49s left)
+Iteration 4120 / LogL: -150176.361 / Time: 23h:10m:58s (0h:24m:44s left)
+Iteration 4130 / LogL: -150156.717 / Time: 23h:13m:50s (0h:21m:38s left)
+Iteration 4140 / LogL: -150186.209 / Time: 23h:17m:16s (0h:18m:33s left)
+Iteration 4150 / LogL: -150176.506 / Time: 23h:19m:59s (0h:15m:27s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4160 / LogL: -150257.292 / Time: 23h:22m:57s (0h:12m:21s left)
+Iteration 4170 / LogL: -150061.705 / Time: 23h:26m:13s (0h:9m:16s left)
+Iteration 4180 / LogL: -150073.511 / Time: 23h:29m:5s (0h:6m:10s left)
+Iteration 4190 / LogL: -150160.614 / Time: 23h:32m:2s (0h:3m:5s left)
+Iteration 4200 / LogL: -150169.579 / Time: 23h:34m:55s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.855
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 4210 / LogL: -150170.119 / Time: 23h:37m:51s (0h:27m:48s left)
+Iteration 4220 / LogL: -150085.370 / Time: 23h:41m:6s (0h:24m:43s left)
+Iteration 4230 / LogL: -150085.313 / Time: 23h:44m:2s (0h:21m:37s left)
+Iteration 4240 / LogL: -150160.799 / Time: 23h:47m:9s (0h:18m:32s left)
+Iteration 4250 / LogL: -150090.573 / Time: 23h:50m:8s (0h:15m:26s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4260 / LogL: -150132.004 / Time: 23h:53m:9s (0h:12m:21s left)
+Iteration 4270 / LogL: -150199.646 / Time: 23h:56m:24s (0h:9m:16s left)
+Iteration 4280 / LogL: -150214.212 / Time: 23h:59m:31s (0h:6m:10s left)
+Iteration 4290 / LogL: -150101.317 / Time: 24h:2m:34s (0h:3m:5s left)
+Iteration 4300 / LogL: -150227.601 / Time: 24h:5m:42s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.853
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4301: -150031.940
+Iteration 4310 / LogL: -150381.109 / Time: 24h:9m:8s (0h:28m:7s left)
+Iteration 4320 / LogL: -150202.113 / Time: 24h:12m:3s (0h:25m:1s left)
+Iteration 4330 / LogL: -150263.759 / Time: 24h:15m:16s (0h:21m:56s left)
+Iteration 4340 / LogL: -150184.719 / Time: 24h:18m:13s (0h:18m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4349: -150017.981
+Iteration 4350 / LogL: -150175.843 / Time: 24h:21m:14s (0h:30m:35s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4360 / LogL: -150115.512 / Time: 24h:24m:13s (0h:27m:29s left)
+Iteration 4370 / LogL: -150117.796 / Time: 24h:27m:13s (0h:24m:24s left)
+Iteration 4380 / LogL: -150125.404 / Time: 24h:30m:9s (0h:21m:18s left)
+Iteration 4390 / LogL: -150249.996 / Time: 24h:33m:7s (0h:18m:13s left)
+Iteration 4400 / LogL: -150156.190 / Time: 24h:36m:5s (0h:15m:7s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.851
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4409: -149996.362
+Iteration 4410 / LogL: -150102.450 / Time: 24h:39m:30s (0h:30m:34s left)
+Iteration 4420 / LogL: -150029.560 / Time: 24h:42m:32s (0h:27m:29s left)
+Iteration 4430 / LogL: -150083.914 / Time: 24h:45m:39s (0h:24m:24s left)
+Iteration 4440 / LogL: -150134.118 / Time: 24h:48m:45s (0h:21m:18s left)
+Iteration 4450 / LogL: -150236.207 / Time: 24h:51m:40s (0h:18m:13s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4460 / LogL: -150222.350 / Time: 24h:54m:51s (0h:15m:8s left)
+Iteration 4470 / LogL: -150122.858 / Time: 24h:57m:48s (0h:12m:2s left)
+Iteration 4480 / LogL: -150068.084 / Time: 25h:0m:44s (0h:8m:57s left)
+Iteration 4490 / LogL: -150077.385 / Time: 25h:3m:38s (0h:5m:52s left)
+Iteration 4500 / LogL: -150122.648 / Time: 25h:6m:41s (0h:2m:46s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.844
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 4510 / LogL: -150118.207 / Time: 25h:9m:42s (0h:27m:47s left)
+Iteration 4520 / LogL: -150082.532 / Time: 25h:12m:41s (0h:24m:41s left)
+Iteration 4530 / LogL: -150105.857 / Time: 25h:15m:39s (0h:21m:36s left)
+Iteration 4540 / LogL: -150281.232 / Time: 25h:18m:38s (0h:18m:31s left)
+Iteration 4550 / LogL: -150100.908 / Time: 25h:21m:46s (0h:15m:26s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4560 / LogL: -150144.137 / Time: 25h:24m:53s (0h:12m:20s left)
+Iteration 4570 / LogL: -150117.973 / Time: 25h:27m:44s (0h:9m:15s left)
+Iteration 4580 / LogL: -150063.296 / Time: 25h:30m:45s (0h:6m:10s left)
+Iteration 4590 / LogL: -150088.664 / Time: 25h:33m:43s (0h:3m:5s left)
+Iteration 4600 / LogL: -150126.692 / Time: 25h:36m:42s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.842
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 4610 / LogL: -150128.831 / Time: 25h:39m:52s (0h:27m:46s left)
+Iteration 4620 / LogL: -150243.756 / Time: 25h:42m:53s (0h:24m:41s left)
+Iteration 4630 / LogL: -150144.679 / Time: 25h:45m:47s (0h:21m:35s left)
+Iteration 4640 / LogL: -150146.469 / Time: 25h:48m:47s (0h:18m:30s left)
+Iteration 4650 / LogL: -150052.620 / Time: 25h:51m:44s (0h:15m:25s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4660 / LogL: -150110.355 / Time: 25h:54m:53s (0h:12m:20s left)
+Iteration 4670 / LogL: -150060.907 / Time: 25h:57m:47s (0h:9m:15s left)
+Iteration 4680 / LogL: -150074.513 / Time: 26h:0m:57s (0h:6m:10s left)
+Iteration 4690 / LogL: -150150.288 / Time: 26h:3m:58s (0h:3m:5s left)
+Iteration 4700 / LogL: -150095.397 / Time: 26h:6m:56s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.838
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 4710 / LogL: -150065.390 / Time: 26h:9m:59s (0h:27m:45s left)
+Iteration 4720 / LogL: -150132.031 / Time: 26h:13m:2s (0h:24m:40s left)
+Iteration 4730 / LogL: -150179.681 / Time: 26h:16m:8s (0h:21m:35s left)
+Iteration 4740 / LogL: -150132.289 / Time: 26h:19m:10s (0h:18m:30s left)
+Iteration 4750 / LogL: -150130.923 / Time: 26h:22m:4s (0h:15m:25s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4760 / LogL: -150202.864 / Time: 26h:25m:12s (0h:12m:20s left)
+Iteration 4770 / LogL: -150128.640 / Time: 26h:28m:21s (0h:9m:15s left)
+Iteration 4780 / LogL: -150289.456 / Time: 26h:31m:23s (0h:6m:10s left)
+Iteration 4790 / LogL: -150120.971 / Time: 26h:34m:19s (0h:3m:5s left)
+Iteration 4800 / LogL: -150060.543 / Time: 26h:37m:21s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.837
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 4810 / LogL: -150080.609 / Time: 26h:40m:22s (0h:27m:45s left)
+Iteration 4820 / LogL: -150179.634 / Time: 26h:43m:21s (0h:24m:40s left)
+Iteration 4830 / LogL: -150082.830 / Time: 26h:46m:27s (0h:21m:35s left)
+Iteration 4840 / LogL: -150148.021 / Time: 26h:49m:17s (0h:18m:29s left)
+Iteration 4850 / LogL: -150185.930 / Time: 26h:52m:21s (0h:15m:24s left)
+Log-likelihood cutoff on original alignment: -150427.269
+Iteration 4860 / LogL: -150111.533 / Time: 26h:55m:35s (0h:12m:19s left)
+Iteration 4870 / LogL: -150169.571 / Time: 26h:58m:56s (0h:9m:15s left)
+Iteration 4880 / LogL: -150068.108 / Time: 27h:1m:59s (0h:6m:10s left)
+Iteration 4890 / LogL: -150088.704 / Time: 27h:5m:0s (0h:3m:5s left)
+Iteration 4900 / LogL: -150192.029 / Time: 27h:8m:3s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150427.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.836
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 4910 / LogL: -150141.453 / Time: 27h:11m:8s (0h:27m:45s left)
+Iteration 4920 / LogL: -150193.421 / Time: 27h:14m:8s (0h:24m:39s left)
+Iteration 4930 / LogL: -150138.705 / Time: 27h:17m:8s (0h:21m:34s left)
+Iteration 4940 / LogL: -150098.686 / Time: 27h:20m:4s (0h:18m:29s left)
+Iteration 4950 / LogL: -150099.886 / Time: 27h:23m:0s (0h:15m:24s left)
+Log-likelihood cutoff on original alignment: -150368.277
+Iteration 4960 / LogL: -150187.422 / Time: 27h:26m:6s (0h:12m:19s left)
+Iteration 4970 / LogL: -150061.296 / Time: 27h:29m:5s (0h:9m:14s left)
+Iteration 4980 / LogL: -150178.673 / Time: 27h:32m:4s (0h:6m:9s left)
+Iteration 4990 / LogL: -150045.579 / Time: 27h:35m:2s (0h:3m:4s left)
+Iteration 5000 / LogL: -150193.797 / Time: 27h:37m:56s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150368.277
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.835
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 5001 ITERATIONS / Time: 27h:38m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -149996.362
+Optimal log-likelihood: -149996.353
+Rate parameters:  A-C: 1.04684  A-G: 3.46698  A-T: 0.83306  C-G: 1.54738  C-T: 4.43475  G-T: 1.00000
+Base frequencies:  A: 0.211  C: 0.309  G: 0.290  T: 0.189
+Site proportion and rates:  (0.491,0.005) (0.123,0.178) (0.072,0.634) (0.070,1.206) (0.087,2.091) (0.061,3.049) (0.055,4.110) (0.031,5.511) (0.011,7.913)
+Parameters optimization took 1 rounds (3.178 sec)
+BEST SCORE FOUND : -149996.353
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -149996.351 > -149996.353
+Alternative NNI shows better log-likelihood -149996.351 > -149996.353
+Alternative NNI shows better log-likelihood -149996.300 > -149996.353
+Alternative NNI shows better log-likelihood -149996.335 > -149996.353
+Alternative NNI shows better log-likelihood -149996.168 > -149996.353
+Alternative NNI shows better log-likelihood -149996.350 > -149996.353
+Alternative NNI shows better log-likelihood -149996.258 > -149996.353
+Alternative NNI shows better log-likelihood -149996.352 > -149996.353
+Alternative NNI shows better log-likelihood -149993.297 > -149996.353
+Alternative NNI shows better log-likelihood -149995.954 > -149996.353
+13.555 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.splits.nex
+Total tree length: 24.723
+
+Total number of iterations: 5001
+CPU time used for tree search: 171082.293 sec (47h:31m:22s)
+Wall-clock time used for tree search: 92417.513 sec (25h:40m:17s)
+Total CPU time used: 185162.444 sec (51h:26m:2s)
+Total wall-clock time used: 99527.380 sec (27h:38m:47s)
+
+Computing bootstrap consensus tree...
+Reading input file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.splits.nex...
+1046 taxa and 8719 splits.
+Consensus tree written to /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.contree
+Reading input trees file /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.contree
+Log-likelihood of consensus tree: -150008.347
+
+Analysis results written to: 
+  IQ-TREE report:                /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.iqtree
+  Maximum-likelihood tree:       /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.treefile
+  Likelihood distances:          /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.splits.nex
+  Consensus tree:                /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.contree
+  Screen log file:               /mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2_consensus_sequences_50percent/gene_trees/nifK/04_tree_iupac_nm5000/nifK_consensus50_iupac_all_pass_nm5000.log
+
+Date and Time: Tue Aug  4 15:02:47 2026
