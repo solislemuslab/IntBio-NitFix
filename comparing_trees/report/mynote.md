@@ -61,6 +61,7 @@ UKFS-2-1-Ro
 
 
 ##########################################################################################
+
 The per-gene taxon reference alignments were checked against the gene-list table. 
 The only gene listed in symbiosis_islands_gene_list.xlsx that was not present in taxon_fastas_by_gene was nopT. The selected 10 tree genes all had matching taxon-reference alignments.
 
