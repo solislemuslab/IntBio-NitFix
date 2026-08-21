@@ -7,7 +7,7 @@ Local GitHub folder: `/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/in
 
 ## 1. Purpose
 
-This analysis uses the new Ryan/Pranoti consensus50 functional-gene reference to recover functional symbiosis genes from all V2 symbiosis-sorted samples, construct per-gene consensus sequences, build strict and mixed-IUPAC gene trees, assign sample-derived consensus sequences to closest known reference taxa by BLAST, and summarize whether recovery and tree patterns differ across `nif`, canonical `nod`, and `Other'.
+This analysis uses the new Ryan/Pranoti consensus50 functional-gene reference to recover functional symbiosis genes from all V2 symbiosis-sorted samples, construct per-gene consensus sequences, build strict and mixed-IUPAC gene trees, assign sample-derived consensus sequences to closest known reference taxa by BLAST, and summarize whether recovery and tree patterns differ across `nif`, canonical `nod`, and `Other`.
 
 The main goal is to create a reproducible set of gene trees and summary tables that can later be used to test whether host or geographic patterns are consistent across functional genes, following Ryan and Ahmed's suggestion that the additional gene trees should support downstream host/geography comparisons.
 
@@ -31,8 +31,8 @@ The selected 10 genes are:
 | Analysis group | Genes |
 |---|---|
 | `nif` genes | `nifH`, `nifD`, `nifK`, `nifJ` |
-| canonical `nod` genes | `nodL`, `nodX` |
-| `Other' | `nolG`, `nolF`, `noeA`, `noeB` |
+| `nod` genes | `nodL`, `nodX` |
+| `Other` | `nolG`, `nolF`, `noeA`, `noeB` |
 
 
 ## 3. Inputs
@@ -128,8 +128,8 @@ A sample-gene row was considered good coverage if `percent_covered >= 80` and `m
 From the 72-gene coverage summary, 10 genes were selected because they had enough sample recovery to support tree construction and comparison:
 
 - `nif`: `nifH`, `nifD`, `nifK`, `nifJ`
-- canonical `nod`: `nodL`, `nodX`
-- `Other': `nolG`, `nolF`, `noeA`, `noeB`
+- `nod`: `nodL`, `nodX`
+- `Other`: `nolG`, `nolF`, `noeA`, `noeB`
 
 The fact that coverage differs strongly among genes is expected: many symbiosis genes are not universal across all nitrogen-fixing bacteria and can be species- or lineage-specific.
 
@@ -326,10 +326,10 @@ Coverage threshold: `percent_covered >= 80` and `mean_depth >= 10`.
 | `nifK` | nif | 1,088 | 37.43% | 63.25 | 69.46 | 575.24 |
 | `nifJ` | nif | 328 | 11.28% | 37.96 | 29.68 | 279.96 |
 | `nodL` | nod | 239 | 8.22% | 26.05 | 10.62 | 127.91 |
-| `nolG` | `Other' | 230 | 7.91% | 20.96 | 2.41 | 102.56 |
-| `nolF` | `Other' | 209 | 7.19% | 20.25 | 1.71 | 99.78 |
-| `noeA` | `Other'  | 197 | 6.78% | 19.75 | 0.00 | 99.77 |
-| `noeB` | `Other'  | 149 | 5.13% | 17.75 | 0.00 | 90.95 |
+| `nolG` | `Other` | 230 | 7.91% | 20.96 | 2.41 | 102.56 |
+| `nolF` | `Other` | 209 | 7.19% | 20.25 | 1.71 | 99.78 |
+| `noeA` | `Other`  | 197 | 6.78% | 19.75 | 0.00 | 99.77 |
+| `noeB` | `Other`  | 149 | 5.13% | 17.75 | 0.00 | 90.95 |
 | `nodX` | nod | 137 | 4.71% | 14.47 | 0.00 | 51.15 |
 
 Main table:
@@ -496,7 +496,7 @@ These combination figures are more interpretable than a simple “number of good
 
 ## 13. Metadata-Aware Summaries
 
-Metadata was used to summarize recovery and annotation patterns by sample type, host, and geography. The metadata-aware summaries are intended as the bridge to Ryan and Ahmed's requested next analysis: testing whether host or geographic patterns are consistent across `nif`, canonical `nod`, and `Other' genes.
+Metadata was used to summarize recovery and annotation patterns by sample type, host, and geography. The metadata-aware summaries are intended as the bridge to Ryan and Ahmed's requested next analysis: testing whether host or geographic patterns are consistent across `nif`, canonical `nod`, and `Other` genes.
 
 Main metadata tables:
 
