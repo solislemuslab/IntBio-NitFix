@@ -200,8 +200,6 @@ So the main difference is not how missing positions are handled. Missing or unce
 - mixed-IUPAC consensus keeps those samples and writes ambiguity codes such as R, Y, or H
 
 #######################################################################################
-
-
 # Strict and Mixed-IUPAC Consensus Calling
 
 This note explains how sample-gene pairs were selected, how consensus sequences were constructed, why strict and mixed-IUPAC trees have different numbers of samples, and what thresholds were used.
