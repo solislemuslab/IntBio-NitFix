@@ -1,1 +1,60 @@
+Email 11 July:
+
+I checked the sample IDs in the metadata file (intbio_metadata_draft3.csv) against the sample IDs used in analysis.
+
+The corrected metadata file contains 2,898 unique sample IDs, while the  analysis contains 2,907 unique samples. After harmonizing the OAES naming format, the final comparison gave 24 samples present in the analysis but not in the metadata, and 15 samples present in the metadata but not in the analysis. 
+
+One formatting issue I corrected was for the OAES_19 and OAES_24 samples. In the raw sequencing files and analysis outputs, these samples use an underscore in the site label, for example OAES_19-2-Rh and OAES_24-3-No.  I renamed these in the metadata to match the sequencing/analysis IDs, so they are no longer counted as missing.
+
+The six renamed metadata IDs were:
+
+OAES-19-2-No  ->  OAES_19-2-No
+OAES-19-2-Rh  ->  OAES_19-2-Rh
+OAES-19-2-Ro  ->  OAES_19-2-Ro
+OAES-24-3-No  ->  OAES_24-3-No
+OAES-24-3-Rh  ->  OAES_24-3-Rh
+OAES-24-3-Ro  ->  OAES_24-3-Ro
+After this correction, the samples present in the analysis but not in the metadata are:
+
+N13-2-D-No
+N13-2-D-Rh
+N13-2-D-Ro
+N34-2-D-No
+N34-2-D-Rh
+N34-2-D-Ro
+N35-4-D-No
+N35-4-D-Rh
+N35-4-D-Ro
+N36-4-D-No
+N36-4-D-Rh
+N36-4-D-Ro
+N38-2-D-No
+N38-2-D-Rh
+N38-2-D-Ro
+N39-2-D-No
+N39-2-D-Rh
+N39-2-D-Ro
+N49-3-D-No
+N49-3-D-Rh
+N49-3-D-Ro
+UKFS-52-1-No
+UKFS-52-1-Rh
+UKFS-52-1-Ro
+The samples present in the metadata but not in the analysis are:
+
+CLBJ-24-Ro
+CLBJ-29-2-No
+JERC-4-1-Ro
+JERC-6-3-Ro
+JERC-8-2-Ro
+JERC-10-3-Ro
+JERC-RHRE-18-2-No
+OAES-5-No
+TALL-2-1-No
+TALL-2-1-Rh
+TALL-2-1-Ro
+TALL-91-2-No
+UKFS-2-1-No
+UKFS-2-1-Rh
+UKFS-2-1-Ro
 
