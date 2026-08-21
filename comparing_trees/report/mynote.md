@@ -41,8 +41,11 @@ N49-3-D-Ro
 UKFS-52-1-No
 UKFS-52-1-Rh
 UKFS-52-1-Ro
+```
+
 The samples present in the metadata but not in the analysis are:
 
+```text
 CLBJ-24-Ro
 CLBJ-29-2-No
 JERC-4-1-Ro
@@ -58,7 +61,7 @@ TALL-91-2-No
 UKFS-2-1-No
 UKFS-2-1-Rh
 UKFS-2-1-Ro
-
+```
 
 
 ##########################################################################################
