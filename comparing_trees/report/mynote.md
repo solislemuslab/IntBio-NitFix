@@ -65,7 +65,7 @@ UKFS-2-1-Ro
 The per-gene taxon reference alignments were checked against the gene-list table. 
 The only gene listed in symbiosis_islands_gene_list.xlsx that was not present in taxon_fastas_by_gene was nopT. The selected 10 tree genes all had matching taxon-reference alignments.
 
-###########################################################################################
+###################################################################################
 ## Strict and Mixed-IUPAC Consensus Calling
 
 For each gene, we first selected sample-gene pairs with enough read support. A sample-gene pair was considered eligible when the gene had at least **80% coverage** and mean depth of at least **10x**. Then, for each eligible sample, we examined each nucleotide position using the mapped reads and counted the number of `A`, `C`, `G`, and `T` calls after quality filtering.
@@ -195,7 +195,7 @@ So the main difference is not how missing positions are handled. Missing or unce
 - strict consensus uses the dominant base and excludes samples with too many mixed sites
 - mixed-IUPAC consensus keeps those samples and writes ambiguity codes such as R, Y, or H
 
-################################################################################################################################
+#######################################################################################
 
 
 # Strict and Mixed-IUPAC Consensus Calling
