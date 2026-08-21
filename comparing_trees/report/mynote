@@ -143,16 +143,13 @@ Imagine one sample maps to one gene, and at one position we have 30 good-quality
 
 Here, `A` is clearly dominant.
 
-Strict consensus:
-
-```text
-A
+Strict consensus: `A`
 
 
 
-Mixed-IUPAC consensus:
+Mixed-IUPAC consensus: `A`
 
-A
+
 Example 2: Mixed A/G Site
 Base	Read count
 A	20
@@ -168,15 +165,11 @@ depth >= 20
 minor allele count >= 5
 minor allele fraction >= 0.20
 
-Strict consensus:
-
-A
+Strict consensus: `A`
 
 
 The strict version writes the dominant base. However, if the sample has more than 10 mixed positions across the gene, the whole sample is excluded from the strict tree.
-Mixed-IUPAC consensus:
-
-R
+Mixed-IUPAC consensus:`R`
 
 Example 3: Low or Missing Support
 Base	Read count
@@ -187,12 +180,10 @@ T	0
 
 
 This position does not have enough reliable support.
-Strict consensus:
+Strict consensus: `N`
 
-N
+Mixed-IUPAC consensus: `N`
 
-Mixed-IUPAC consensus:
-N
 So the main difference is not how missing positions are handled. Missing or uncertain positions are usually N in both versions. The main difference is how well-supported mixed positions are handled:
 - strict consensus uses the dominant base and excludes samples with too many mixed sites
 - mixed-IUPAC consensus keeps those samples and writes ambiguity codes such as R, Y, or H
