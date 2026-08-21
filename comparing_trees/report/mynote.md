@@ -16,6 +16,7 @@ OAES-24-3-Rh  ->  OAES_24-3-Rh
 OAES-24-3-Ro  ->  OAES_24-3-Ro
 After this correction, the samples present in the analysis but not in the metadata are:
 
+```text
 N13-2-D-No
 N13-2-D-Rh
 N13-2-D-Ro
