@@ -59,5 +59,156 @@ UKFS-2-1-Rh
 UKFS-2-1-Ro
 
 #######################################################################################################
+## Strict and Mixed-IUPAC Consensus Calling
+
+For each gene, we first selected sample-gene pairs with enough read support. A sample-gene pair was considered eligible when the gene had at least **80% coverage** and mean depth of at least **10x**. Then, for each eligible sample, we examined each nucleotide position using the mapped reads and counted the number of `A`, `C`, `G`, and `T` calls after quality filtering.
+
+Two consensus versions were created:
+
+1. **Strict single-dominant consensus**
+2. **Mixed-IUPAC consensus**
+
+### Strict Single-Dominant Consensus
+
+The strict consensus is the conservative version. At each position, the dominant nucleotide was written as `A`, `C`, `G`, or `T` when there was reliable support. If a position had no reliable base call or insufficient usable read support, it was written as `N`.
+
+Importantly, in the strict consensus, `N` means **missing, uncertain, or low-confidence information**. It does not mean mixed-template signal.
+
+A position was considered mixed only when all of the following were true:
+
+- depth `>= 20`
+- minor allele count `>= 5`
+- minor allele fraction `>= 0.20`
+
+If a sample had more than **10 mixed positions** across the gene, it was not included in the strict tree. Instead, it was classified as `pass_mixed_possible_multitemplate`.
+
+### Mixed-IUPAC Consensus
+
+The mixed-IUPAC consensus keeps more samples. It includes both:
+
+- `pass_single_dominant` samples
+- `pass_mixed_possible_multitemplate` samples
+
+At positions with one dominant base, the consensus still uses `A`, `C`, `G`, or `T`. At positions where multiple bases are strongly supported, the consensus uses an IUPAC ambiguity code instead of forcing one dominant base.
+
+For example:
+
+- `A + G` is written as `R`
+- `C + T` is written as `Y`
+- `A + C + T` is written as `H`
+
+If a position has no reliable information, it is still written as `N`.
+
+### Why Strict and Mixed-IUPAC Trees Have Different Numbers of Samples
+
+The strict and mixed-IUPAC trees have different numbers of samples because they use different rules for including sequences.
+
+The strict tree includes only samples with limited mixed signal. Samples with more than 10 mixed positions are excluded from the strict tree because their consensus sequence may represent more than one template or multicopy signal.
+
+The mixed-IUPAC tree includes those samples instead of excluding them. It records mixed positions using IUPAC ambiguity codes. Therefore, the mixed-IUPAC tree usually has more sequences than the strict tree.
+
+In short:
+
+- **Strict tree** = fewer samples, more conservative, only single-dominant sequences.
+- **Mixed-IUPAC tree** = more samples, keeps mixed signal using ambiguity codes.
+
+## IUPAC Codes Used
+
+| Supported bases | IUPAC code |
+|---|---|
+| `A` + `G` | `R` |
+| `C` + `T` | `Y` |
+| `G` + `C` | `S` |
+| `A` + `T` | `W` |
+| `G` + `T` | `K` |
+| `A` + `C` | `M` |
+| `C` + `G` + `T` | `B` |
+| `A` + `G` + `T` | `D` |
+| `A` + `C` + `T` | `H` |
+| `A` + `C` + `G` | `V` |
+| `A` + `C` + `G` + `T` | `N` |
+
+## Example
+
+Imagine one sample maps to one gene, and at one position we have 30 good-quality reads.
+
+### Example 1: Clear Dominant Base
+
+| Base | Read count |
+|---|---:|
+| `A` | 28 |
+| `C` | 1 |
+| `G` | 1 |
+| `T` | 0 |
+
+Here, `A` is clearly dominant.
+
+Strict consensus:
+
+```text
+A
+
+
+
+Mixed-IUPAC consensus:
+
+A
+Example 2: Mixed A/G Site
+Base	Read count
+A	20
+G	10
+C	0
+T	0
+
+
+Depth is 30, minor allele count is 10, and minor allele fraction is:
+10 / 30 = 0.33
+This passes the mixed-site rule:
+depth >= 20
+minor allele count >= 5
+minor allele fraction >= 0.20
+
+Strict consensus:
+
+A
+
+
+The strict version writes the dominant base. However, if the sample has more than 10 mixed positions across the gene, the whole sample is excluded from the strict tree.
+Mixed-IUPAC consensus:
+
+R
+
+Example 3: Low or Missing Support
+Base	Read count
+A	1
+C	0
+G	0
+T	0
+
+
+This position does not have enough reliable support.
+Strict consensus:
+
+N
+
+Mixed-IUPAC consensus:
+N
+So the main difference is not how missing positions are handled. Missing or uncertain positions are usually N in both versions. The main difference is how well-supported mixed positions are handled:
+- strict consensus uses the dominant base and excludes samples with too many mixed sites
+- mixed-IUPAC consensus keeps those samples and writes ambiguity codes such as R, Y, or H
+
+################################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
 
 
