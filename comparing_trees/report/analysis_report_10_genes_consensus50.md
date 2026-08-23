@@ -62,7 +62,7 @@ The per-gene taxon reference alignments were checked against the gene-list table
 
 Reference check output:
 
-- `../result/reference/taxon_fastas_vs_symbiosis_islands_gene_list_match.tsv`
+- `https://github.com/solislemuslab/IntBio-NitFix/tree/main/comparing_trees/result/reference/taxon_fastas_vs_symbiosis_islands_gene_list_match.tsv`
 
 ## 5. Reproducible Pipeline
 
