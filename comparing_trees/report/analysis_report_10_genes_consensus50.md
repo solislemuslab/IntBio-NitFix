@@ -73,15 +73,15 @@ OUT="/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted
 GENES="nifH,nifD,nifK,nifJ,nodL,nolG,nolF,noeA,noeB,nodX"
 ```
 
-### Step 1. Map Reads To The Consensus50 Reference
-
-**Reuse Trimmed Reads**
+### Step 1. Reuse Trimmed Reads
 
 No new read trimming was done. The analysis reused the previously trimmed paired-end FASTQ files from the all-sample V2 analysis.
 
 | Input | Method/code run | Result/output |
 |---|---|---|
 | V2 trimmed paired reads: `*_P1.fastq.gz` and `*_P2.fastq.gz` | No new code. Reads were already trimmed by `fastp` in the previous V2 workflow. | 2,907 paired samples available for mapping. |
+
+### Step 2. Map Reads To The Consensus50 Reference
 
 Trimmed V2 reads were mapped to the consensus50 reference using BWA-MEM. This step creates one sorted/indexed BAM file per sample and a flagstat report per sample.
 
