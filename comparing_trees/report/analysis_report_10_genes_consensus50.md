@@ -87,7 +87,6 @@ Trimmed V2 reads were mapped to the consensus50 reference using BWA-MEM. This st
 
 | Item | Path |
 |---|---|
-| Code, local | `../code/11_map_consensus50_all_samples_parallel.sh` |
 | Code, cluster | `$OUT/Rscripts_v2/11_map_consensus50_all_samples_parallel.sh` |
 | Input reads | `/mnt/dv/wid/projects6/SolisLemus-Intbio-raw/processed-data/symbiosis_sorted_v2/symbiosis_trimmed_fastp` |
 | Input reference | `$OUT/reference/consensus_sequences_50percent.fasta` |
@@ -112,7 +111,7 @@ SORT_THREADS=2Use 2 CPU threads for samtools sort per sample.
 
 Result: 2,907 samples were mapped. The mapping output is used for all downstream gene coverage and consensus sequence extraction.
 
-### Step 2. Calculate Per-Gene Coverage
+### Step 3. Calculate Per-Gene Coverage
 
 Coverage was calculated for all 72 consensus50 reference genes across all 2,907 samples.
 
