@@ -425,34 +425,25 @@ Note: In this pipeline, `N` is also used when a position is missing, uncertain, 
 
 ## 11. Threshold Interpretation and Literature Support
 
-These exact thresholds are pipeline parameters chosen to be conservative and reproducible. They are not universal biological constants.
+The thresholds used here are conservative pipeline choices, but they follow the same logic used in existing consensus-calling tools.
 
-However, the general strategy is well supported:
+| Threshold in our pipeline | Support |
+|---|---|
+| Base quality `>=20` | iVar uses default base quality `20`; ViralConsensus also uses default base quality `20`. |
+| Mean depth `>=10` | iVar uses default minimum depth `10`; ViralConsensus also uses default minimum depth `10`. |
+| Minor allele fraction `>=0.20` | iVar lists `0.20` as a commonly used frequency threshold for bases supported by at least 20% of reads. |
+| IUPAC ambiguity codes | Supported by iVar, Day and McMorris 1992, and ANDES. ViralConsensus does not output IUPAC codes. |
+| UFBoot convergence `>=0.99` | IQ-TREE uses bootstrap correlation coefficient `0.99` as the default UFBoot convergence criterion. |
 
-- Consensus calling from mapped reads commonly uses base-quality filtering, minimum depth, and allele-frequency thresholds.
-- IUPAC ambiguity codes are commonly used when more than one nucleotide has enough support at a position.
-- A 20% allele-frequency threshold is a common consensus/ambiguity threshold in tools such as iVar.
-- Minimum depth thresholds such as 10x or 20x are commonly used to avoid making consensus calls from very low read support.
-- The final `>10 mixed positions` rule is a conservative sample-level filter used here to separate mostly single-dominant sequences from sequences with stronger mixed-template signal.
+Other thresholds, including percent covered `>=80%`, site depth `>=20`, minor allele count `>=5`, and `>10` mixed positions, are pipeline-specific conservative filters and should be reported explicitly.
 
-Therefore, the thresholds should be reported explicitly as part of the method rather than described as universal standards.
+### References
 
-### References Supporting the General Approach
-
-- iVar documentation supports consensus generation from `samtools mpileup`, use of minimum base quality, minimum depth, frequency thresholds, and IUPAC ambiguity codes. It lists `q=20`, minimum depth `10`, and frequency thresholds including `0.2` as commonly used settings:  
-  https://andersen-lab.github.io/ivar/html/manualpage.html
-
-- ViralConsensus describes consensus generation from mapped reads using base-quality filtering, minimum depth, and frequency thresholds; its default minimum base quality is 20 and default minimum depth is 10:  
-  https://pmc.ncbi.nlm.nih.gov/articles/PMC10212278/
-
-- Threshold-based consensus methods for molecular sequences are a recognized class of consensus methods, where ambiguity codes can be returned depending on nucleotide support thresholds:  
-  https://doi.org/10.1016/S0022-5193(05)80692-7
-
-- ANDES discusses threshold-driven consensus generation and polymorphism detection, emphasizing that consensus sequence construction depends on user-defined thresholds for underlying variation:  
-  https://pmc.ncbi.nlm.nih.gov/articles/PMC2921379/
-
-- IQ-TREE UFBoot convergence uses a bootstrap correlation coefficient threshold of 0.99 by default, supporting our use of `>=0.99` as the convergence criterion for tree support stability:  
-  https://www.iqtree.org/doc/Command-Reference
+- iVar manual: https://andersen-lab.github.io/ivar/html/manualpage.html  
+- ViralConsensus: https://pmc.ncbi.nlm.nih.gov/articles/PMC10212278/  
+- Day and McMorris 1992: https://doi.org/10.1016/S0022-5193(05)80692-7  
+- ANDES: https://pmc.ncbi.nlm.nih.gov/articles/PMC2921379/  
+- IQ-TREE command reference: https://www.iqtree.org/doc/Command-Reference
 
 
 
