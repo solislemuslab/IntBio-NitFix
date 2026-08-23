@@ -412,19 +412,6 @@ Note: In this pipeline, `N` is also used when a position is missing, uncertain, 
 
 ## 10. Threshold Summary
 
-| Step | Threshold | Meaning |
-|---|---:|---|
-| Sample-gene coverage | percent covered >= 80% | At least 80% of the gene length has mapped read coverage |
-| Sample-gene depth | mean depth >= 10 | Average coverage across the gene is at least 10x |
-| Mixed-site depth | site depth >= 20 | A position must have enough reads before testing mixed signal |
-| Mixed-site minor count | minor allele count >= 5 | The minor base must be supported by at least 5 reads |
-| Mixed-site minor fraction | minor allele fraction >= 0.20 | The minor base must represent at least 20% of reads at that site |
-| Strict-vs-mixed classification | mixed positions > 10 | Samples with more than 10 mixed positions are excluded from strict tree and retained in mixed-IUPAC tree |
-
----
-
-## 11. Threshold Interpretation and Literature Support
-
 The thresholds used here are conservative pipeline choices, but they follow the same logic used in existing consensus-calling tools.
 
 | Threshold in our pipeline | Support |
