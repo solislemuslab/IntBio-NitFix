@@ -175,11 +175,9 @@ Important interpretation: mixed-IUPAC calls suggest possible multiple templates,
 
 | Item | Path |
 |---|---|
-| Pipeline code, local | `../code/gene_tree_pipelines` |
 | Pipeline code, cluster | `$OUT/Rscripts_v2/gene_tree_pipelines` |
 | Runner script | `$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh` |
 | Output folder | `$OUT/gene_trees/<gene>/01_consensus` |
-| Local output folder | `../result/gene_trees_full/<gene>/01_consensus` |
 
 Run command:
 
@@ -200,7 +198,6 @@ The strict and mixed-IUPAC FASTA files were aligned separately for every selecte
 |---|---|
 | Pipeline code | `$OUT/Rscripts_v2/gene_tree_pipelines/<gene>/03_align_<gene>_consensus50_with_mafft.sh` |
 | Output folder | `$OUT/gene_trees/<gene>/02_alignment` |
-| Local output folder | `../result/gene_trees_full/<gene>/02_alignment` |
 
 Run command:
 
@@ -232,7 +229,6 @@ iqtree \
 |---|---|
 | Pipeline code | `$OUT/Rscripts_v2/gene_tree_pipelines/<gene>/04_build_<gene>_strict_tree_nm5000_consensus50.sh` |
 | Output folder | `$OUT/gene_trees/<gene>/03_tree_strict_nm5000` |
-| Local output folder | `../result/gene_trees_full/<gene>/03_tree_strict_nm5000` |
 
 Run command:
 
@@ -250,7 +246,6 @@ Mixed-IUPAC trees include both single-dominant and mixed possible multitemplate 
 |---|---|
 | Pipeline code | `$OUT/Rscripts_v2/gene_tree_pipelines/<gene>/05_build_<gene>_iupac_tree_nm5000_consensus50.sh` |
 | Output folder | `$OUT/gene_trees/<gene>/04_tree_iupac_nm5000` |
-| Local output folder | `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000` |
 
 Run command:
 
@@ -290,7 +285,6 @@ For genus-level summaries, the genus is parsed as the first word before the firs
 | Pipeline code | `$OUT/Rscripts_v2/gene_tree_pipelines/<gene>/06_blast_<gene>_consensus_to_taxon_reference.sh` |
 | Reference taxon FASTA/alignment | `$OUT/reference_taxon_fastas_by_gene/<gene>.fa.aln` |
 | Output folder | `$OUT/gene_trees/<gene>/05_blast_taxon_assignment` |
-| Local output folder | `../result/gene_trees_full/<gene>/05_blast_taxon_assignment` |
 
 Run command:
 
