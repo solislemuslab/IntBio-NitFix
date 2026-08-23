@@ -118,12 +118,10 @@ Coverage was calculated for all 72 consensus50 reference genes across all 2,907 
 
 | Item | Path |
 |---|---|
-| Code, local | `../code/12_calculate_consensus_gene_coverage_v2.sh` |
 | Code, cluster | `$OUT/Rscripts_v2/12_calculate_consensus_gene_coverage_v2.sh` |
 | Input BAM folder | `$OUT/consensus_mapping_full` |
 | Output coverage table | `$OUT/consensus_gene_coverage/consensus50_gene_coverage_all_samples.tsv` |
-| Local coverage table | `../result/tables/consensus50_gene_coverage_all_samples.tsv` |
-
+| Output coverage table | [`$OUT/consensus_gene_coverage/consensus50_gene_coverage_all_samples.tsv`](https://github.com/solislemuslab/IntBio-NitFix/blob/main/comparing_trees/result/tables/consensus50_gene_coverage_all_samples.tsv) |
 Run command:
 
 ```bash
