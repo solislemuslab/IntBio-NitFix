@@ -103,6 +103,12 @@ MAX_SAMPLES=0 JOBS=2 BWA_THREADS=4 SORT_THREADS=2 \
 bash "$OUT/Rscripts_v2/11_map_consensus50_all_samples_parallel.sh" \
   | tee "$OUT/consensus_mapping_logs/consensus50_all_samples_mapping_run.log"
 ```
+```text
+MAX_SAMPLES=0 Run all samples. If this were set to 2, only two samples would be run for testing.
+JOBS=2Run two samples in parallel at the same time.
+BWA_THREADS=4Use 4 CPU threads for bwa mem per sample.
+SORT_THREADS=2Use 2 CPU threads for samtools sort per sample.
+```
 
 Result: 2,907 samples were mapped. The mapping output is used for all downstream gene coverage and consensus sequence extraction.
 
@@ -128,6 +134,7 @@ MAX_SAMPLES=0 JOBS=4 \
 bash "$OUT/Rscripts_v2/12_calculate_consensus_gene_coverage_v2.sh" \
   | tee "$OUT/consensus_gene_coverage_logs/consensus50_gene_coverage_run.log"
 ```
+
 
 A sample-gene row was considered good coverage if `percent_covered >= 80` and `mean_depth >= 10`.
 
