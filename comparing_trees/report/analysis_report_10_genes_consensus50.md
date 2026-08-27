@@ -460,7 +460,28 @@ Main figure:
 Note: the y-axis in this figure is number of tree-input consensus sequences. For the strict bars, this means strict single-dominant sequences. For the mixed-IUPAC bars, this means strict single-dominant plus mixed possible multitemplate sequences.
 
 
+| Gene | Strict sequences | Strict alignment length | Mixed-IUPAC sequences | Mixed-IUPAC alignment length |
+|---|---:|---:|---:|---:|
+| `nifH` | 387 | 997 bp | 1,538 | 997 bp |
+| `nifD` | 348 | 1,532 bp | 1,464 | 1,532 bp |
+| `nifK` | 455 | 1,588 bp | 1,052 | 1,542 bp |
+| `nifJ` | 181 | 3,584 bp | 325 | 3,678 bp |
+| `nodL` | 216 | 612 bp | 230 | 612 bp |
+| `nolG` | 201 | 3,198 bp | 229 | 3,198 bp |
+| `nolF` | 208 | 1,110 bp | 209 | 1,110 bp |
+| `noeA` | 193 | 1,431 bp | 195 | 1,431 bp |
+| `noeB` | 132 | 1,674 bp | 149 | 1,674 bp |
+| `nodX` | 129 | 1,121 bp | 133 | 1,121 bp |
 
+The strict alignments contain no IUPAC mixed codes by design. The mixed-IUPAC alignments retain ambiguity codes when positions pass the mixed-site rule. For example, the mixed-IUPAC `nifH` alignment contains 3.33% IUPAC ambiguity excluding N, while the strict `nifH` alignment contains 0.00% IUPAC ambiguity excluding N.
+
+Main table:
+
+- `../result/comparative_tree_analysis/tables/08_alignment_sequence_composition.tsv`
+
+Main figure:
+
+![Alignment composition by gene and tree set](../result/comparative_tree_analysis/figures/06_alignment_composition_by_gene_tree_set.png)
 
 
 
@@ -506,34 +527,11 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
 ```
 
 
-## Alignment Results
-
-| Gene | Strict sequences | Strict alignment length | Mixed-IUPAC sequences | Mixed-IUPAC alignment length |
-|---|---:|---:|---:|---:|
-| `nifH` | 387 | 997 bp | 1,538 | 997 bp |
-| `nifD` | 348 | 1,532 bp | 1,464 | 1,532 bp |
-| `nifK` | 455 | 1,588 bp | 1,052 | 1,542 bp |
-| `nifJ` | 181 | 3,584 bp | 325 | 3,678 bp |
-| `nodL` | 216 | 612 bp | 230 | 612 bp |
-| `nolG` | 201 | 3,198 bp | 229 | 3,198 bp |
-| `nolF` | 208 | 1,110 bp | 209 | 1,110 bp |
-| `noeA` | 193 | 1,431 bp | 195 | 1,431 bp |
-| `noeB` | 132 | 1,674 bp | 149 | 1,674 bp |
-| `nodX` | 129 | 1,121 bp | 133 | 1,121 bp |
-
-The strict alignments contain no IUPAC mixed codes by design. The mixed-IUPAC alignments retain ambiguity codes when positions pass the mixed-site rule. For example, the mixed-IUPAC `nifH` alignment contains 3.33% IUPAC ambiguity excluding N, while the strict `nifH` alignment contains 0.00% IUPAC ambiguity excluding N.
-
-Main table:
-
-- `../result/comparative_tree_analysis/tables/08_alignment_sequence_composition.tsv`
-
-Main figure:
-
-![Alignment composition by gene and tree set](../result/comparative_tree_analysis/figures/06_alignment_composition_by_gene_tree_set.png)
 
 
 
-## 11. BLAST Closest-Reference Annotation Results
+
+## BLAST Closest-Reference Annotation Results
 
 BLAST annotation was used to label each sample-derived consensus sequence by closest known reference taxon and genus. These labels are helpful for interpreting tree regions and comparing functional-gene signal with 16S/community results later.
 
