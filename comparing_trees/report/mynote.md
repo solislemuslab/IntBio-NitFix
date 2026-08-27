@@ -434,6 +434,179 @@ Other thresholds, including percent covered `>=80%`, site depth `>=20`, minor al
 
 
 
+## All steps (my note)
+
+## Per-Gene Tree Pipeline Explanation
+
+Before this per-gene pipeline, all trimmed reads were already mapped to the consensus50 functional-gene reference. That mapping step produced one BAM file per sample. The per-gene pipeline starts from those BAM files.
+
+Although each gene folder contains a file named `01_extract_gene_consensus_consensus50.py`, we do not run `STEP=01` directly with the wrapper script. That Python file contains the consensus-calling logic and is called inside `STEP=02`.
+
+### Step 02. Extract Per-Gene Consensus Sequences
+
+For each selected gene, the pipeline looks inside each sample BAM file and extracts the reads that mapped to that gene. Then it uses the pileup to summarize the mapped reads into one consensus sequence per sample-gene pair.
+
+A pileup means that, for every position in the gene, the code checks which bases were observed in the mapped reads.
+
+Example:
+
+```text
+Gene position 25:
+Reads covering this position: A, A, A, A, G
+Consensus base: A
+So instead of keeping thousands of reads for one sample, we create one representative DNA sequence for that sample and gene.
+The important sentence:
+“the consensus-calling logic was designed to avoid copying reference ambiguity into sample sequences”
+means this:
+The consensus50 reference contains some ambiguous bases, such as N, R, Y, S, etc. These ambiguous bases come from the reference-building process. They represent uncertainty or variation in the reference, not necessarily in our sample. Therefore, when we build a sample consensus sequence, we do not want to automatically copy those ambiguous letters from the reference into the sample.
+Instead, the sample consensus is based on the actual reads from that sample.
+Example 1:
+Reference base: R
+Meaning of R: A or G
+Reads from sample: A, A, A, A, A
+Sample consensus: A
+We call A, not R, because the sample reads support A.
+Example 2:
+Reference base: N
+Meaning of N: unknown/ambiguous reference position
+Reads from sample: C, C, C, C, C
+Sample consensus: C
+We call C, not N, because the sample reads give clear evidence.
+Example 3:
+Reference base: R
+Reads from sample: A, A, A, G, G
+Sample consensus in strict file: A
+Sample consensus in mixed-IUPAC file: R
+Here, the sample itself has evidence for both A and G, so the mixed-IUPAC sequence records that mixed signal as R.
+This is different from copying R from the reference. The R in the sample sequence is written only because the sample reads support both bases.
+Thresholds Used In Consensus Calling
+A sample-gene pair was considered for consensus calling when:
+percent covered >= 80%
+mean depth >= 10
+For each position, mixed signal was counted when:
+site depth >= 20
+minor allele count >= 5
+minor allele fraction >= 0.20
+Then the sample was classified as:
+pass_single_dominant
+if it had 10 or fewer mixed positions.
+pass_mixed_possible_multitemplate
+if it had more than 10 mixed positions.
+The strict FASTA contains only samples classified as pass_single_dominant.
+The mixed-IUPAC FASTA contains both:
+pass_single_dominant
+pass_mixed_possible_multitemplate
+That is why the mixed-IUPAC tree has more tips than the strict tree.
+What Each Pipeline Step Does
+STEP 02: Consensus Extraction
+This step creates sample-specific consensus sequences for each gene.
+It calls the Python script:
+01_extract_gene_consensus_consensus50.py
+inside each gene folder.
+Outputs include:
+<gene>_consensus_qc.tsv
+<gene>_consensus50_strict_single_dominant_pct80_depth10_Nle20.fasta
+<gene>_consensus50_iupac_all_pass_pct80_depth10_Nle20.fasta
+STEP 03: MAFFT Alignment
+This step aligns the consensus sequences so that homologous positions are compared correctly.
+Inputs:
+strict FASTA
+mixed-IUPAC FASTA
+Outputs:
+<gene>_consensus50_strict_single_dominant.mafft.fasta
+<gene>_consensus50_iupac_all_pass.mafft.fasta
+STEP 04: Strict Tree Construction
+This step builds the strict single-dominant tree with IQ-TREE.
+Input:
+<gene>_consensus50_strict_single_dominant.mafft.fasta
+This tree includes only samples with clean single-dominant consensus sequences.
+IQ-TREE uses:
+-st DNA
+-m MFP
+-B 1000
+-alrt 1000
+-nm 5000
+-T AUTO
+Output:
+<gene>_consensus50_strict_single_dominant_nm5000.treefile
+<gene>_consensus50_strict_single_dominant_nm5000.contree
+<gene>_consensus50_strict_single_dominant_nm5000.iqtree
+<gene>_consensus50_strict_single_dominant_nm5000.log
+STEP 05: Mixed-IUPAC Tree Construction
+This step builds the mixed-IUPAC tree with IQ-TREE.
+Input:
+<gene>_consensus50_iupac_all_pass.mafft.fasta
+This tree includes:
+pass_single_dominant samples
+pass_mixed_possible_multitemplate samples
+It is useful as a broader exploratory/sensitivity tree, but it should be interpreted carefully because mixed-IUPAC calls may reflect multiple templates in the same sample.
+Outputs:
+<gene>_consensus50_iupac_all_pass_nm5000.treefile
+<gene>_consensus50_iupac_all_pass_nm5000.contree
+<gene>_consensus50_iupac_all_pass_nm5000.iqtree
+<gene>_consensus50_iupac_all_pass_nm5000.log
+STEP 06: BLAST/Taxon Assignment
+This step compares each sample consensus sequence to known reference sequences for the same gene.
+It asks:
+Which known reference sequence is the closest match to this sample consensus sequence?
+Outputs include:
+<gene>_best_reference_hit_with_taxon.tsv
+This table contains:
+sample ID
+best reference ID
+closest BLAST taxon
+percent identity
+query coverage
+e-value
+bitscore
+Important interpretation:
+The BLAST label is the closest known reference hit. It is not proof of exact species identity.
+STEP 07: Check Tree Outputs
+This step checks and summarizes the tree results.
+It reports things such as:
+number of tree tips
+alignment length
+best-fit model
+tree length
+bootstrap convergence
+warnings
+This is the summary/QC step used for the report.
+
+
+
+Mapping reads to consensus50 reference -> BAM files
+
+Then per-gene pipeline:
+STEP=02 -> runs 02 shell script -> internally calls 01 Python script
+STEP=03 -> MAFFT alignment
+STEP=04 -> strict tree
+STEP=05 -> mixed-IUPAC tree
+STEP=06 -> BLAST/taxon assignment
+STEP=07 -> check outputs
+
+Mapped BAM files
+   |
+   | STEP 02
+   v
+Per-gene consensus sequences
+   |
+   | STEP 03
+   v
+MAFFT alignments
+   |
+   | STEP 04 and STEP 05
+   v
+Strict tree and mixed-IUPAC tree
+   |
+   | STEP 06
+   v
+BLAST/taxon annotation tables
+   |
+   | STEP 07
+   v
+Tree summary/QC tables for report
+
+
 
 
 
