@@ -454,17 +454,20 @@ Example:
 Gene position 25:
 Reads covering this position: A, A, A, A, G
 Consensus base: A
+```
 So instead of keeping thousands of reads for one sample, we create one representative DNA sequence for that sample and gene.
 The important sentence:
 “the consensus-calling logic was designed to avoid copying reference ambiguity into sample sequences”
 means this:
 The consensus50 reference contains some ambiguous bases, such as N, R, Y, S, etc. These ambiguous bases come from the reference-building process. They represent uncertainty or variation in the reference, not necessarily in our sample. Therefore, when we build a sample consensus sequence, we do not want to automatically copy those ambiguous letters from the reference into the sample.
 Instead, the sample consensus is based on the actual reads from that sample.
+```text
 Example 1:
 Reference base: R
 Meaning of R: A or G
 Reads from sample: A, A, A, A, A
 Sample consensus: A
+```
 We call A, not R, because the sample reads support A.
 Example 2:
 Reference base: N
