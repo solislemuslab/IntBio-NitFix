@@ -123,7 +123,7 @@ A sample-gene pair was counted as good when:
 | Samples with at least one good gene | 2,052 |
 | Good `nifH` sample-gene rows | 1,572 |
 
-![Consensus50 gene coverage bins](../result/figures/consensus50_gene_coverage_bins_depth10_R.png)
+![Consensus50 gene coverage bins](../../result/figures/consensus50_gene_coverage_bins_depth10_R.png)
 
 ## Step 4. Summarize Gene Recovery Per Sample
 
