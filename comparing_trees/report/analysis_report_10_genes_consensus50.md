@@ -527,17 +527,13 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
 ```
 
 
-
-
-
-
 ## BLAST Closest-Reference Annotation Results
 
 BLAST annotation was used to label each sample-derived consensus sequence by closest known reference taxon and genus. These labels are helpful for interpreting tree regions and comparing functional-gene signal with 16S/community results later.
 
 Main BLAST tables:
 
-- `../result/comparative_tree_analysis/tables/11a_blast_source_file_row_counts.tsv`
+- [blast_source_file_row_counts](../result/comparative_tree_analysis/tables/11a_blast_source_file_row_counts.tsv)
 - `../result/comparative_tree_analysis/tables/11b_blast_assignment_rows_deduplicated_strict_iupac.tsv`
 - `../result/comparative_tree_analysis/tables/12_blast_closest_genus_summary_grouped_min5.tsv`
 
