@@ -187,6 +187,19 @@ From the 72-gene coverage summary, 10 genes were selected because they had enoug
 - `nod`: `nodL`, `nodX`
 - `Other`: `nolG`, `nolF`, `noeA`, `noeB`
 
+| Gene | Reference sequences available |
+|---|---:|
+| `nifH` | 746 |
+| `nifD` | 367 |
+| `nifK` | 328 |
+| `nifJ` | 2 |
+| `nodL` | 129 |
+| `nodX` | 53 |
+| `nolG` | 78 |
+| `nolF` | 74 |
+| `noeA` | 59 |
+| `noeB` | 59 |
+
 
 ### Step 5. Extract Per-Gene Consensus Sequences
 
