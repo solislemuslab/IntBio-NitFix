@@ -85,6 +85,19 @@ No new read trimming was done. The analysis reused the previously trimmed paired
 
 Trimmed V2 reads were mapped to the consensus50 reference using BWA-MEM. This step creates one sorted/indexed BAM file per sample and a flagstat report per sample.
 
+### Mapping Parameters
+
+| Parameter | Value |
+|---|---|
+| Mapper | BWA-MEM |
+| BWA threads per job | 4 by default |
+| Parallel jobs | configurable; full run used GNU Parallel |
+| Sort tool | `samtools sort` |
+| Sort threads per job | 2 by default |
+| BAM index | `samtools index` |
+| Mapping QC | `samtools flagstat` |
+
+
 | Item | Path |
 |---|---|
 | Code, cluster | `$OUT/Rscripts_v2/11_map_consensus50_all_samples_parallel.sh` |
@@ -122,6 +135,20 @@ Coverage was calculated for all 72 consensus50 reference genes across all 2,907 
 | Output coverage table | `$OUT/consensus_gene_coverage/consensus50_gene_coverage_all_samples.tsv` |
 | Output coverage table | [`consensus50_gene_coverage_all_samples.tsv`](https://github.com/solislemuslab/IntBio-NitFix/blob/main/comparing_trees/result/tables/consensus50_gene_coverage_all_samples.tsv) |
 
+### Coverage Table Columns
+
+| Column | Meaning |
+|---|---|
+| `sample` | Sample ID. |
+| `gene_ref` | Reference FASTA record, for example `nifH.fa`. |
+| `gene` | Gene name after removing `.fa`. |
+| `gene_length` | Length of the reference gene. |
+| `covered_bases` | Number of reference positions with depth > 0. |
+| `percent_covered` | `covered_bases / gene_length * 100`. |
+| `mean_depth` | Mean depth across the full gene, including zero-depth positions. |
+| `max_depth` | Maximum observed depth at any position in the gene. |
+
+
 Run command:
 
 ```bash
@@ -134,7 +161,22 @@ bash "$OUT/Rscripts_v2/12_calculate_consensus_gene_coverage_v2.sh" \
 ```
 
 
-A sample-gene row was considered good coverage if `percent_covered >= 80` and `mean_depth >= 10`.
+### Good-Coverage Definition
+
+A sample-gene pair was counted as good when:
+
+- `percent_covered >= 80`
+- `mean_depth >= 10`
+
+| Metric | Value |
+|---|---:|
+| Samples analyzed | 2,907 |
+| Genes in consensus50 reference | 72 |
+| Total sample-gene rows | 209,304 |
+| Good sample-gene rows | 6,179 |
+| Samples with at least one good gene | 2,052 |
+
+![Consensus50 gene coverage bins]([IntBio-NitFix/edit/main](https://github.com/solislemuslab/IntBio-NitFix/edit/main/symbiosis_sorted_all_sample_consensus_sequences_50percent/result/figures/consensus50_gene_coverage_bins_depth10_R.png)
 
 ### Step 3. Select Genes For Tree Construction
 
