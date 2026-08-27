@@ -632,102 +632,128 @@ Tree summary/QC tables for report
 ```
 
 
-# Understanding IQ-TREE Model Names
+| Option | Meaning | Example |
+|---|---|---|
+| `+I` | Some sites do not change at all. | A position is `A` in every sample. |
+| `+G4` | Sites evolve at different speeds using Gamma model. | Some positions change slowly, others quickly. |
+| `+R6` | Sites evolve at different speeds using FreeRate model. More flexible than `+G`. | IQ-TREE estimates 6 separate speed categories. |
+| `+I+G4` | Some sites are invariant, and the remaining sites have Gamma rate variation. | Conserved sites plus variable sites. |
+| `+I+R6` | Some sites are invariant, and the remaining sites have FreeRate variation. | Conserved sites plus flexible site-rate classes. |
 
-IQ-TREE uses a model to describe how DNA sequences changed through evolution. A model name usually has three parts:
-
-```text
-MODEL + base-frequency option + rate-variation option
-```
-
-Example:
+## 10. Example: `GTR+F+I+R6`
 
 ```text
 GTR+F+I+R6
 ```
 
+means:
+
+```text
+GTR: different DNA substitutions can happen at different rates
++F: use the observed A/C/G/T frequencies from this alignment
++I: include a category for completely conserved positions
++R6: allow the other positions to evolve at 6 different speeds
+```
+
+Very simple interpretation:
+
+```text
+This is a flexible DNA model for a gene where base composition is uneven, some positions are conserved, and other positions evolve at different speeds.
+```
+
+## 11. Examples From Our Trees
+
+| Model | Simple Interpretation |
+|---|---|
+| `GTR+F+R6` | Flexible DNA model, observed base frequencies, 6 site-rate categories. |
+| `GTR+F+I+R6` | Same as above, plus invariant sites. |
+| `TIM3+F+I+G4` | Intermediate DNA model, observed base frequencies, invariant sites, Gamma rate variation with 4 categories. |
+| `HKY+I` | Simpler DNA model with transition/transversion difference and invariant sites. |
+| `HKY+F+R3` | HKY model, observed base frequencies, 3 FreeRate categories. |
+| `TPM3u+F+R4` | Intermediate model with unequal base frequencies and 4 FreeRate categories. |
+| `TVM+F+I+R3` | Flexible transversion model, observed base frequencies, invariant sites, 3 FreeRate categories. |
+
+## 12. What `-m MFP` Does
+
+In our command, we used:
+
+```bash
+-m MFP
+```
+
 This means:
 
 ```text
-GTR = DNA substitution model
-+F = use observed A/C/G/T frequencies from the alignment
-+I = include fully conserved/invariant sites
-+R6 = allow sites to evolve at 6 different speed categories
+ModelFinder Plus
 ```
 
-References:
+IQ-TREE tests many possible models and chooses the best one.
 
-- IQ-TREE substitution models: https://www.iqtree.org/doc/Substitution-Models
-- IQ-TREE command reference: https://www.iqtree.org/doc/Command-Reference
-
-## 1. DNA Substitution Model
-
-The first part tells IQ-TREE how one DNA base changes into another.
-
-DNA has four bases:
+For example, IQ-TREE may test:
 
 ```text
-A, C, G, T
+JC
+HKY
+GTR
+GTR+F
+GTR+F+I
+GTR+F+R6
+GTR+F+I+R6
 ```
 
-Possible changes include:
+Then it selects the best model, usually by BIC.
+
+BIC means:
 
 ```text
-A <-> C
-A <-> G
-A <-> T
-C <-> G
-C <-> T
-G <-> T
+Bayesian Information Criterion
 ```
-
-Some models are simple and assume many changes happen at the same rate. Other models are flexible and allow different changes to happen at different rates.
-
-## 2. Simple Example
-
-Imagine this alignment:
-
-```text
-Sample1  A C G T A
-Sample2  A C G T G
-Sample3  A C G C G
-Sample4  G C G T G
-```
-
-Position 1 has `A` in most samples, but one sample has `G`.
-
-```text
-A -> G happened
-```
-
-Position 4 has mostly `T`, but one sample has `C`.
-
-```text
-T -> C happened
-```
-
-IQ-TREE tries to estimate which DNA changes are common and which are rare.
-
-## 3. Common DNA Models
-
-| Model | Simple Meaning | Example Interpretation |
-|---|---|---|
-| `JC` or `JC69` | Simplest model. All DNA changes are equally likely, and A/C/G/T are equally common. | `A -> G` is treated the same as `A -> T`. |
-| `F81` | All DNA changes have equal rates, but A/C/G/T frequencies can be different. | Useful if the gene has more G/C than A/T. |
-| `K2P` or `K80` | Transitions and transversions can have different rates, but base frequencies are equal. | `A <-> G` and `C <-> T` can be more common than other changes. |
-| `HKY` | Like K2P, but allows unequal A/C/G/T frequencies. | Good for DNA where transitions are common and base composition is uneven. |
-| `TN` or `TN93` | More flexible than HKY. Allows different transition rates. | `A <-> G` and `C <-> T` can have different rates. |
-| `K3P` or `K81` | Allows three categories of substitution rates. | Groups DNA changes into three rate classes. |
-| `TIM`, `TIM2`, `TIM3` | Intermediate models between HKY/TN and GTR. | Some DNA changes share rates, but not all. |
-| `TVM` | Flexible transversion model. | Allows different transversion rates but constrains transitions. |
-| `SYM` | Like GTR for substitution rates, but assumes equal base frequencies. | Flexible changes, but A/C/G/T are equally frequent. |
-| `GTR` | Most general common reversible DNA model. Different substitution types can have different rates and base frequencies can differ. | Very flexible; often selected for complex gene alignments. |
-
-## 4. What `GTR` Means
-
-`GTR` means **General Time Reversible**.
 
 Simple meaning:
+
+```text
+Choose the model that explains the data well, but do not make the model unnecessarily complicated.
+```
+
+## 13. Full IQ-TREE Command
+
+```bash
+iqtree \
+  -s <alignment.fasta> \
+  -st DNA \
+  -m MFP \
+  -B 1000 \
+  -alrt 1000 \
+  -nm 5000 \
+  -T AUTO \
+  --prefix <output_prefix>
+```
+
+| Parameter | Meaning |
+|---|---|
+| `-s <alignment.fasta>` | Input MAFFT-aligned DNA sequences. |
+| `-st DNA` | Tell IQ-TREE the sequences are DNA. |
+| `-m MFP` | Test many models and select the best-fit model. |
+| `-B 1000` | Run 1,000 ultrafast bootstrap replicates. |
+| `-alrt 1000` | Run 1,000 SH-aLRT branch-support tests. |
+| `-nm 5000` | Allow up to 5,000 UFBoot iterations if convergence needs more time. |
+| `-T AUTO` | Let IQ-TREE choose CPU threads automatically. |
+| `--prefix` | Prefix/name for all output files. |
+
+Important:
+
+```text
+-nm 5000 does not mean the final tree has 5,000 tips.
+It means IQ-TREE can continue bootstrap iterations up to 5,000 if needed.
+```
+
+## 14. How To Explain In One Sentence
+
+For the report:
+
+```text
+IQ-TREE used ModelFinder Plus to select the best-fit DNA substitution model for each aligned gene. These models describe how nucleotide substitutions occur, whether base frequencies are estimated from the data, whether conserved sites are modeled separately, and whether different positions in the gene evolve at different rates.
+```
 
 
 
