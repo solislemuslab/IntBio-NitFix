@@ -534,8 +534,8 @@ BLAST annotation was used to label each sample-derived consensus sequence by clo
 Main BLAST tables:
 
 - [blast_source_file_row_counts](../result/comparative_tree_analysis/tables/11a_blast_source_file_row_counts.tsv)
-- `../result/comparative_tree_analysis/tables/11b_blast_assignment_rows_deduplicated_strict_iupac.tsv`
-- `../result/comparative_tree_analysis/tables/12_blast_closest_genus_summary_grouped_min5.tsv`
+- [blast_assignment_rows_deduplicated_strict_iupac](../result/comparative_tree_analysis/tables/11b_blast_assignment_rows_deduplicated_strict_iupac.tsv)
+- [blast_closest_genus_summary](../result/comparative_tree_analysis/tables/12_blast_closest_genus_summary_grouped_min5.tsv)
 
 Main BLAST figures:
 
