@@ -506,7 +506,7 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
 ```
 
 
-## 8. Alignment Results
+## Alignment Results
 
 | Gene | Strict sequences | Strict alignment length | Mixed-IUPAC sequences | Mixed-IUPAC alignment length |
 |---|---:|---:|---:|---:|
