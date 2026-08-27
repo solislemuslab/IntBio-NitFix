@@ -192,7 +192,7 @@ From the 72-gene coverage summary, 10 genes were selected because they had enoug
 | `nifH` | 746 |
 | `nifD` | 367 |
 | `nifK` | 328 |
-| `nifJ` | 2 |
+| **`nifJ`** | **2** |
 | `nodL` | 129 |
 | `nodX` | 53 |
 | `nolG` | 78 |
