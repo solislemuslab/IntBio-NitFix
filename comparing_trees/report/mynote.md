@@ -632,6 +632,262 @@ Tree summary/QC tables for report
 ```
 
 
+# Understanding IQ-TREE Model Names
+
+IQ-TREE uses a model to describe how DNA sequences changed through evolution. A model name usually has three parts:
+
+```text
+MODEL + base-frequency option + rate-variation option
+```
+
+Example:
+
+```text
+GTR+F+I+R6
+```
+
+This means:
+
+```text
+GTR = DNA substitution model
++F = use observed A/C/G/T frequencies from the alignment
++I = include fully conserved/invariant sites
++R6 = allow sites to evolve at 6 different speed categories
+```
+
+References:
+
+- IQ-TREE substitution models: https://www.iqtree.org/doc/Substitution-Models
+- IQ-TREE command reference: https://www.iqtree.org/doc/Command-Reference
+
+## 1. DNA Substitution Model
+
+The first part tells IQ-TREE how one DNA base changes into another.
+
+DNA has four bases:
+
+```text
+A, C, G, T
+```
+
+Possible changes include:
+
+```text
+A <-> C
+A <-> G
+A <-> T
+C <-> G
+C <-> T
+G <-> T
+```
+
+Some models are simple and assume many changes happen at the same rate. Other models are flexible and allow different changes to happen at different rates.
+
+## 2. Simple Example
+
+Imagine this alignment:
+
+```text
+Sample1  A C G T A
+Sample2  A C G T G
+Sample3  A C G C G
+Sample4  G C G T G
+```
+
+Position 1 has `A` in most samples, but one sample has `G`.
+
+```text
+A -> G happened
+```
+
+Position 4 has mostly `T`, but one sample has `C`.
+
+```text
+T -> C happened
+```
+
+IQ-TREE tries to estimate which DNA changes are common and which are rare.
+
+## 3. Common DNA Models
+
+| Model | Simple Meaning | Example Interpretation |
+|---|---|---|
+| `JC` or `JC69` | Simplest model. All DNA changes are equally likely, and A/C/G/T are equally common. | `A -> G` is treated the same as `A -> T`. |
+| `F81` | All DNA changes have equal rates, but A/C/G/T frequencies can be different. | Useful if the gene has more G/C than A/T. |
+| `K2P` or `K80` | Transitions and transversions can have different rates, but base frequencies are equal. | `A <-> G` and `C <-> T` can be more common than other changes. |
+| `HKY` | Like K2P, but allows unequal A/C/G/T frequencies. | Good for DNA where transitions are common and base composition is uneven. |
+| `TN` or `TN93` | More flexible than HKY. Allows different transition rates. | `A <-> G` and `C <-> T` can have different rates. |
+| `K3P` or `K81` | Allows three categories of substitution rates. | Groups DNA changes into three rate classes. |
+| `TIM`, `TIM2`, `TIM3` | Intermediate models between HKY/TN and GTR. | Some DNA changes share rates, but not all. |
+| `TVM` | Flexible transversion model. | Allows different transversion rates but constrains transitions. |
+| `SYM` | Like GTR for substitution rates, but assumes equal base frequencies. | Flexible changes, but A/C/G/T are equally frequent. |
+| `GTR` | Most general common reversible DNA model. Different substitution types can have different rates and base frequencies can differ. | Very flexible; often selected for complex gene alignments. |
+
+## 4. What `GTR` Means
+
+`GTR` means **General Time Reversible**.
+
+Simple meaning:
+
+```text
+Different DNA changes can happen at different rates.
+```
+
+Example:
+
+```text
+A <-> G: common
+C <-> T: common
+A <-> T: rare
+C <-> G: rare
+```
+
+So instead of assuming all changes are equal, `GTR` lets IQ-TREE learn the rates from the data.
+
+For our data, if IQ-TREE selects:
+
+```text
+GTR+F+I+R6
+```
+
+it means the alignment needed a flexible model.
+
+## 5. What `+F` Means
+
+`+F` means IQ-TREE uses the observed base frequencies from the alignment.
+
+Example alignment composition:
+
+```text
+A = 22%
+C = 28%
+G = 32%
+T = 18%
+```
+
+With `+F`, IQ-TREE uses these real frequencies.
+
+Why this matters:
+
+Some genes are GC-rich. If a gene naturally has many `G` and `C`, the model should know that. Otherwise, the tree may confuse base-composition bias with evolutionary change.
+
+Other options:
+
+| Option | Meaning |
+|---|---|
+| `+F` | Empirical frequencies, counted from the alignment. |
+| `+FQ` | Equal frequencies: A = C = G = T = 25%. |
+| `+FO` | Frequencies optimized by maximum likelihood. |
+
+## 6. What `+I` Means
+
+`+I` means invariant sites.
+
+An invariant site is a position that does not change across sequences.
+
+Example:
+
+```text
+Sample1  A
+Sample2  A
+Sample3  A
+Sample4  A
+```
+
+This position is always `A`, so it is invariant.
+
+In a full alignment:
+
+```text
+Sample1  A C G T A G
+Sample2  A C G T A A
+Sample3  A C G C A G
+Sample4  A C G T A G
+          * * *   *
+```
+
+The `*` positions are conserved.
+
+Why this matters:
+
+Functional genes often have important conserved positions. For example, some parts of `nifH`, `nifD`, or `nifK` may be important for protein function, so they change very little.
+
+`+I` tells IQ-TREE:
+
+```text
+Some positions are so conserved that they should be modeled separately.
+```
+
+## 7. What `+G4` Means
+
+`+G4` means Gamma rate variation with 4 categories.
+
+Simple meaning:
+
+```text
+Different sites evolve at different speeds.
+```
+
+Example:
+
+```text
+Position 1: A A A A A   very slow
+Position 2: C C T C C   medium
+Position 3: G A T C G   fast
+```
+
+`+G4` divides sites into 4 speed categories:
+
+```text
+slow
+medium-slow
+medium-fast
+fast
+```
+
+Other examples:
+
+```text
++G4 = 4 Gamma categories
++G8 = 8 Gamma categories
+```
+
+## 8. What `+R6` Means
+
+`+R6` means FreeRate model with 6 rate categories.
+
+It is similar in purpose to `+G4`: both allow different positions to evolve at different speeds. But `+R` is more flexible than `+G`.
+
+Example:
+
+```text
++R6
+```
+
+means IQ-TREE uses 6 site-speed groups:
+
+```text
+rate 1: very slow
+rate 2: slow
+rate 3: medium-slow
+rate 4: medium
+rate 5: fast
+rate 6: very fast
+```
+
+So if your gene has conserved regions and highly variable regions, `+R6` can model that.
+
+Other examples:
+
+```text
++R3 = 3 rate categories
++R4 = 4 rate categories
++R6 = 6 rate categories
++R9 = 9 rate categories
+```
+
+## 9. Difference Between `+I`, `+G`, and `+R`
+
 | Option | Meaning | Example |
 |---|---|---|
 | `+I` | Some sites do not change at all. | A position is `A` in every sample. |
