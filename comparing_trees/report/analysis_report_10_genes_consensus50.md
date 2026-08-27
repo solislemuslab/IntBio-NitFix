@@ -188,7 +188,7 @@ From the 72-gene coverage summary, 10 genes were selected because they had enoug
 - `Other`: `nolG`, `nolF`, `noeA`, `noeB`
 
 
-### Step 4. Extract Per-Gene Consensus Sequences
+### Step 5. Extract Per-Gene Consensus Sequences
 
 For each selected gene, consensus sequences were extracted from the BAM pileup. The consensus-calling logic was designed to avoid copying reference ambiguity into sample sequences. If the reference base was `N` or an IUPAC ambiguity code, sample consensus bases were called only from explicit read bases, not from reference-match symbols.
 
