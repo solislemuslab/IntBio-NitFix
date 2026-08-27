@@ -312,6 +312,92 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
   | tee "$OUT/gene_trees/run_step05_iupac_trees_all_genes.log"
 ```
 
+
+
+###  Check Tree Outputs
+
+Output checking was run to summarize tip counts, model choice, tree length, and UFBoot convergence status.
+
+| Item | Path |
+|---|---|
+| Check scripts | `$OUT/Rscripts_v2/gene_tree_pipelines/<gene>/07_check_<gene>_tree_outputs.sh` |
+| Summary tables | `../result/comparative_tree_analysis/tables` |
+
+Run command:
+
+```bash
+STEP=07 JOBS=1 GENES="$GENES" \
+bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
+  | tee "$OUT/gene_trees/run_step07_check_all_genes.log"
+```
+
+### Local R Summaries And Figures
+
+Two local R scripts created the comparative tables, metadata summaries, and figures.
+
+| Script | Purpose | Output folder |
+|---|---|---|
+| `/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/Rcode/01_compare_functional_gene_trees_consensus50.R` | gene/tree/BLAST comparison figures and tables | `../result/comparative_tree_analysis` |
+| `/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/Rcode/02_metadata_and_report_comparisons_consensus50.R` | metadata-aware recovery and tree comparison summaries | `../result/metadata_tree_comparison` |
+
+## Gene Coverage Results
+
+Coverage threshold: `percent_covered >= 80` and `mean_depth >= 10`.
+
+| Gene | Group | Good samples | Percent of 2,907 samples | Mean percent covered | Median percent covered | Mean depth |
+|---|---|---:|---:|---:|---:|---:|
+| `nifH` | nif | 1,572 | 54.08% | 76.51 | 80.64 | 1551.88 |
+| `nifD` | nif | 1,497 | 51.50% | 75.80 | 80.74 | 1201.12 |
+| `nifK` | nif | 1,088 | 37.43% | 63.25 | 69.46 | 575.24 |
+| `nifJ` | nif | 328 | 11.28% | 37.96 | 29.68 | 279.96 |
+| `nodL` | nod | 239 | 8.22% | 26.05 | 10.62 | 127.91 |
+| `nolG` | `Other` | 230 | 7.91% | 20.96 | 2.41 | 102.56 |
+| `nolF` | `Other` | 209 | 7.19% | 20.25 | 1.71 | 99.78 |
+| `noeA` | `Other`  | 197 | 6.78% | 19.75 | 0.00 | 99.77 |
+| `noeB` | `Other`  | 149 | 5.13% | 17.75 | 0.00 | 90.95 |
+| `nodX` | nod | 137 | 4.71% | 14.47 | 0.00 | 51.15 |
+
+Main table:
+
+- `../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv`
+
+Main figures:
+
+![Good coverage samples by gene](../result/comparative_tree_analysis/figures/01_good_coverage_samples_by_gene.png)
+
+![Coverage heatmap by gene and sample type](../result/comparative_tree_analysis/figures/02_coverage_heatmap_gene_by_sample_type.png)
+
+## Consensus Sequence Results
+
+| Gene | Fail high N | Mixed possible multitemplate | Strict single-dominant | Strict FASTA sequences | Mixed-IUPAC FASTA sequences |
+|---|---:|---:|---:|---:|---:|
+| `nifH` | 34 | 1,151 | 387 | 387 | 1,538 |
+| `nifD` | 33 | 1,116 | 348 | 348 | 1,464 |
+| `nifK` | 36 | 597 | 455 | 455 | 1,052 |
+| `nifJ` | 3 | 144 | 181 | 181 | 325 |
+| `nodL` | 9 | 14 | 216 | 216 | 230 |
+| `nolG` | 1 | 28 | 201 | 201 | 229 |
+| `nolF` | 0 | 1 | 208 | 208 | 209 |
+| `noeA` | 2 | 2 | 193 | 193 | 195 |
+| `noeB` | 0 | 17 | 132 | 132 | 149 |
+| `nodX` | 4 | 4 | 129 | 129 | 133 |
+
+Main tables:
+
+- `../result/comparative_tree_analysis/tables/03_consensus_qc_status_summary_long.tsv`
+- `../result/comparative_tree_analysis/tables/04_consensus_qc_status_summary_wide.tsv`
+
+Main figure:
+
+![Strict versus mixed tree input sequences](../result/comparative_tree_analysis/figures/03_strict_vs_mixed_tree_input_sequences.png)
+
+Note: the y-axis in this figure is number of tree-input consensus sequences. For the strict bars, this means strict single-dominant sequences. For the mixed-IUPAC bars, this means strict single-dominant plus mixed possible multitemplate sequences.
+
+
+
+
+
+
 ### Step 9. Assign Closest Known Reference Taxa With BLAST
 
 BLAST was used after tree construction to assign each sample-derived consensus sequence to its closest known reference sequence from the per-gene taxon reference alignments. This is different from BWA mapping:
@@ -353,84 +439,6 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
   | tee "$OUT/gene_trees/run_step06_blast_all_genes.log"
 ```
 
-### Step 9. Check Tree Outputs
-
-Output checking was run to summarize tip counts, model choice, tree length, and UFBoot convergence status.
-
-| Item | Path |
-|---|---|
-| Check scripts | `$OUT/Rscripts_v2/gene_tree_pipelines/<gene>/07_check_<gene>_tree_outputs.sh` |
-| Summary tables | `../result/comparative_tree_analysis/tables` |
-
-Run command:
-
-```bash
-STEP=07 JOBS=1 GENES="$GENES" \
-bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
-  | tee "$OUT/gene_trees/run_step07_check_all_genes.log"
-```
-
-### Step 10. Local R Summaries And Figures
-
-Two local R scripts created the comparative tables, metadata summaries, and figures.
-
-| Script | Purpose | Output folder |
-|---|---|---|
-| `/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/Rcode/01_compare_functional_gene_trees_consensus50.R` | gene/tree/BLAST comparison figures and tables | `../result/comparative_tree_analysis` |
-| `/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/Rcode/02_metadata_and_report_comparisons_consensus50.R` | metadata-aware recovery and tree comparison summaries | `../result/metadata_tree_comparison` |
-
-## 6. Gene Coverage Results
-
-Coverage threshold: `percent_covered >= 80` and `mean_depth >= 10`.
-
-| Gene | Group | Good samples | Percent of 2,907 samples | Mean percent covered | Median percent covered | Mean depth |
-|---|---|---:|---:|---:|---:|---:|
-| `nifH` | nif | 1,572 | 54.08% | 76.51 | 80.64 | 1551.88 |
-| `nifD` | nif | 1,497 | 51.50% | 75.80 | 80.74 | 1201.12 |
-| `nifK` | nif | 1,088 | 37.43% | 63.25 | 69.46 | 575.24 |
-| `nifJ` | nif | 328 | 11.28% | 37.96 | 29.68 | 279.96 |
-| `nodL` | nod | 239 | 8.22% | 26.05 | 10.62 | 127.91 |
-| `nolG` | `Other` | 230 | 7.91% | 20.96 | 2.41 | 102.56 |
-| `nolF` | `Other` | 209 | 7.19% | 20.25 | 1.71 | 99.78 |
-| `noeA` | `Other`  | 197 | 6.78% | 19.75 | 0.00 | 99.77 |
-| `noeB` | `Other`  | 149 | 5.13% | 17.75 | 0.00 | 90.95 |
-| `nodX` | nod | 137 | 4.71% | 14.47 | 0.00 | 51.15 |
-
-Main table:
-
-- `../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv`
-
-Main figures:
-
-![Good coverage samples by gene](../result/comparative_tree_analysis/figures/01_good_coverage_samples_by_gene.png)
-
-![Coverage heatmap by gene and sample type](../result/comparative_tree_analysis/figures/02_coverage_heatmap_gene_by_sample_type.png)
-
-## 7. Consensus Sequence Results
-
-| Gene | Fail high N | Mixed possible multitemplate | Strict single-dominant | Strict FASTA sequences | Mixed-IUPAC FASTA sequences |
-|---|---:|---:|---:|---:|---:|
-| `nifH` | 34 | 1,151 | 387 | 387 | 1,538 |
-| `nifD` | 33 | 1,116 | 348 | 348 | 1,464 |
-| `nifK` | 36 | 597 | 455 | 455 | 1,052 |
-| `nifJ` | 3 | 144 | 181 | 181 | 325 |
-| `nodL` | 9 | 14 | 216 | 216 | 230 |
-| `nolG` | 1 | 28 | 201 | 201 | 229 |
-| `nolF` | 0 | 1 | 208 | 208 | 209 |
-| `noeA` | 2 | 2 | 193 | 193 | 195 |
-| `noeB` | 0 | 17 | 132 | 132 | 149 |
-| `nodX` | 4 | 4 | 129 | 129 | 133 |
-
-Main tables:
-
-- `../result/comparative_tree_analysis/tables/03_consensus_qc_status_summary_long.tsv`
-- `../result/comparative_tree_analysis/tables/04_consensus_qc_status_summary_wide.tsv`
-
-Main figure:
-
-![Strict versus mixed tree input sequences](../result/comparative_tree_analysis/figures/03_strict_vs_mixed_tree_input_sequences.png)
-
-Note: the y-axis in this figure is number of tree-input consensus sequences. For the strict bars, this means strict single-dominant sequences. For the mixed-IUPAC bars, this means strict single-dominant plus mixed possible multitemplate sequences.
 
 ## 8. Alignment Results
 
