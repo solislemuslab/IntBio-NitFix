@@ -351,6 +351,8 @@ Strict trees are the primary phylogenies for interpretation because they avoid m
 
 Note: some IQ-TREE tip counts are lower than input sequence counts because IQ-TREE collapses identical sequences internally for tree search. This is why, for example, `nodL` has 216 input sequences but 189 IQ-TREE taxa/tips.
 
+For the strict nifH phylogeny, the 387 input sequences represent 387 sample-derived consensus sequences that passed the coverage, depth, N-content, and mixed-site filters. These sequences were aligned with the 997-bp nifH reference region, producing an alignment of 997 positions; therefore, each sequence occupies 997 aligned columns, although some positions may be missing or represented as N. IQ-TREE retained 387 tips, indicating that all input strict sequences were included in the tree. The best-fit substitution model was GTR+F+R6, which allows different nucleotide substitution rates, empirical base frequencies, and rate variation among sites. The tree length of 9.850 is the sum of all branch lengths and reflects the total amount of estimated sequence change across the tree, not the length of the gene or the number of samples. Finally, the UFBoot correlation of 0.990 indicates that the ultrafast bootstrap replicates reached the standard convergence threshold (0.99), so the bootstrap procedure was considered converged.
+
 Main tables:
 
 - `../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv`
