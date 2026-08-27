@@ -470,26 +470,32 @@ Sample consensus: A
 ```
 We call A, not R, because the sample reads support A.
 Example 2:
+```text
 Reference base: N
 Meaning of N: unknown/ambiguous reference position
 Reads from sample: C, C, C, C, C
 Sample consensus: C
+```
 We call C, not N, because the sample reads give clear evidence.
 Example 3:
+```text
 Reference base: R
 Reads from sample: A, A, A, G, G
 Sample consensus in strict file: A
 Sample consensus in mixed-IUPAC file: R
+```
 Here, the sample itself has evidence for both A and G, so the mixed-IUPAC sequence records that mixed signal as R.
 This is different from copying R from the reference. The R in the sample sequence is written only because the sample reads support both bases.
 Thresholds Used In Consensus Calling
 A sample-gene pair was considered for consensus calling when:
+```text
 percent covered >= 80%
 mean depth >= 10
 For each position, mixed signal was counted when:
 site depth >= 20
 minor allele count >= 5
 minor allele fraction >= 0.20
+```
 Then the sample was classified as:
 pass_single_dominant
 if it had 10 or fewer mixed positions.
@@ -507,22 +513,27 @@ It calls the Python script:
 01_extract_gene_consensus_consensus50.py
 inside each gene folder.
 Outputs include:
+```text
 <gene>_consensus_qc.tsv
 <gene>_consensus50_strict_single_dominant_pct80_depth10_Nle20.fasta
 <gene>_consensus50_iupac_all_pass_pct80_depth10_Nle20.fasta
+```
 STEP 03: MAFFT Alignment
 This step aligns the consensus sequences so that homologous positions are compared correctly.
 Inputs:
 strict FASTA
 mixed-IUPAC FASTA
 Outputs:
+```text
 <gene>_consensus50_strict_single_dominant.mafft.fasta
 <gene>_consensus50_iupac_all_pass.mafft.fasta
 STEP 04: Strict Tree Construction
+```
 This step builds the strict single-dominant tree with IQ-TREE.
 Input:
 <gene>_consensus50_strict_single_dominant.mafft.fasta
 This tree includes only samples with clean single-dominant consensus sequences.
+```text
 IQ-TREE uses:
 -st DNA
 -m MFP
@@ -530,11 +541,14 @@ IQ-TREE uses:
 -alrt 1000
 -nm 5000
 -T AUTO
+```
 Output:
+```text
 <gene>_consensus50_strict_single_dominant_nm5000.treefile
 <gene>_consensus50_strict_single_dominant_nm5000.contree
 <gene>_consensus50_strict_single_dominant_nm5000.iqtree
 <gene>_consensus50_strict_single_dominant_nm5000.log
+```
 STEP 05: Mixed-IUPAC Tree Construction
 This step builds the mixed-IUPAC tree with IQ-TREE.
 Input:
@@ -544,10 +558,12 @@ pass_single_dominant samples
 pass_mixed_possible_multitemplate samples
 It is useful as a broader exploratory/sensitivity tree, but it should be interpreted carefully because mixed-IUPAC calls may reflect multiple templates in the same sample.
 Outputs:
+```text
 <gene>_consensus50_iupac_all_pass_nm5000.treefile
 <gene>_consensus50_iupac_all_pass_nm5000.contree
 <gene>_consensus50_iupac_all_pass_nm5000.iqtree
 <gene>_consensus50_iupac_all_pass_nm5000.log
+```
 STEP 06: BLAST/Taxon Assignment
 This step compares each sample consensus sequence to known reference sequences for the same gene.
 It asks:
@@ -555,6 +571,7 @@ Which known reference sequence is the closest match to this sample consensus seq
 Outputs include:
 <gene>_best_reference_hit_with_taxon.tsv
 This table contains:
+```text
 sample ID
 best reference ID
 closest BLAST taxon
@@ -562,9 +579,11 @@ percent identity
 query coverage
 e-value
 bitscore
+```
 Important interpretation:
 The BLAST label is the closest known reference hit. It is not proof of exact species identity.
 STEP 07: Check Tree Outputs
+```text
 This step checks and summarizes the tree results.
 It reports things such as:
 number of tree tips
@@ -573,6 +592,7 @@ best-fit model
 tree length
 bootstrap convergence
 warnings
+```
 This is the summary/QC step used for the report.
 
 
@@ -587,6 +607,7 @@ STEP=05 -> mixed-IUPAC tree
 STEP=06 -> BLAST/taxon assignment
 STEP=07 -> check outputs
 
+```text
 Mapped BAM files
    |
    | STEP 02
@@ -608,7 +629,7 @@ BLAST/taxon annotation tables
    | STEP 07
    v
 Tree summary/QC tables for report
-
+```
 
 
 
