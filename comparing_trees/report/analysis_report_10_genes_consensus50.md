@@ -332,7 +332,7 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
 ```
 
 
-## 9. Strict Single-Dominant Tree Results
+## Strict Single-Dominant Tree Results
 
 Strict trees are the primary phylogenies for interpretation because they avoid mixed-template consensus sequences.
 
@@ -363,7 +363,7 @@ Strict tree files are organized by gene:
 - `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.iqtree`
 - `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.log`
 
-## 10. Mixed-IUPAC Tree Results
+## Mixed-IUPAC Tree Results
 
 Mixed-IUPAC trees include all passing sequences, including those flagged as possible mixed/multitemplate. These trees are useful for sensitivity analyses and for asking how much phylogenetic placement changes when mixed signal is retained.
 
