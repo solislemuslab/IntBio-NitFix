@@ -187,7 +187,6 @@ From the 72-gene coverage summary, 10 genes were selected because they had enoug
 - `nod`: `nodL`, `nodX`
 - `Other`: `nolG`, `nolF`, `noeA`, `noeB`
 
-The fact that coverage differs strongly among genes is expected: many symbiosis genes are not universal across all nitrogen-fixing bacteria and can be species- or lineage-specific.
 
 ### Step 4. Extract Per-Gene Consensus Sequences
 
