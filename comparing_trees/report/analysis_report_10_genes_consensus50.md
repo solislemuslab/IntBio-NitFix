@@ -331,6 +331,70 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
   | tee "$OUT/gene_trees/run_step07_check_all_genes.log"
 ```
 
+
+## 9. Strict Single-Dominant Tree Results
+
+Strict trees are the primary phylogenies for interpretation because they avoid mixed-template consensus sequences.
+
+| Gene | Group | Input sequences | Alignment length | IQ-TREE tips | Best model | Tree length | Final UFBoot correlation | Status |
+|---|---|---:|---:|---:|---|---:|---:|---|
+| `nifH` | nif | 387 | 997 | 387 | `GTR+F+R6` | 9.850 | 0.990 | converged |
+| `nifD` | nif | 348 | 1,532 | 348 | `GTR+F+I+R6` | 10.328 | 0.992 | converged |
+| `nifK` | nif | 455 | 1,588 | 455 | `GTR+F+I+R6` | 12.807 | 0.903 | not converged |
+| `nifJ` | nif | 181 | 3,584 | 181 | `TVM+F+I+R3` | 1.411 | 0.961 | not converged |
+| `nodL` | canonical nod | 216 | 612 | 189 | `TIM3+F+I+G4` | 1.268 | 0.993 | converged |
+| `nolG` | accessory | 201 | 3,198 | 176 | `TPM3u+F+R4` | 0.170 | 0.992 | converged |
+| `nolF` | accessory | 208 | 1,110 | 176 | `HKY+F+R3` | 0.181 | 0.991 | converged |
+| `noeA` | accessory | 193 | 1,431 | 176 | `HKY+I+G4` | 0.110 | 0.991 | converged |
+| `noeB` | accessory | 132 | 1,674 | 105 | `TPM3u+I+G4` | 0.248 | 0.994 | converged |
+| `nodX` | canonical nod | 129 | 1,121 | 102 | `HKY+F+R3` | 0.358 | 0.996 | converged |
+
+Note: some IQ-TREE tip counts are lower than input sequence counts because IQ-TREE collapses identical sequences internally for tree search. This is why, for example, `nodL` has 216 input sequences but 189 IQ-TREE taxa/tips.
+
+Main tables:
+
+- `../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv`
+- `../result/comparative_tree_analysis/tables/06_strict_tree_summary.tsv`
+
+Strict tree files are organized by gene:
+
+- `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.treefile`
+- `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.contree`
+- `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.iqtree`
+- `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.log`
+
+## 10. Mixed-IUPAC Tree Results
+
+Mixed-IUPAC trees include all passing sequences, including those flagged as possible mixed/multitemplate. These trees are useful for sensitivity analyses and for asking how much phylogenetic placement changes when mixed signal is retained.
+
+| Gene | Group | Input sequences | Alignment length | IQ-TREE tips | Best model | Tree length | Final UFBoot correlation | Status |
+|---|---|---:|---:|---:|---|---:|---:|---|
+| `nifH` | nif | 1,538 | 997 | 1,532 | `GTR+F+I+R9` | 27.178 | 0.939 | not converged |
+| `nifD` | nif | 1,464 | 1,532 | 1,458 | `GTR+F+I+R10` | 34.697 | 0.918 | not converged |
+| `nifK` | nif | 1,052 | 1,542 | 1,046 | `GTR+F+R9` | 24.723 | 0.835 | not converged |
+| `nifJ` | nif | 325 | 3,678 | 325 | `TVM+F+R5` | 2.646 | 0.947 | not converged |
+| `nodL` | canonical nod | 230 | 612 | 210 | `TIM3+F+I+G4` | 1.252 | 0.967 | not converged |
+| `nolG` | accessory | 229 | 3,198 | 218 | `TIM3+F+I+G4` | 0.162 | 0.915 | not converged |
+| `nolF` | accessory | 209 | 1,110 | 202 | `HKY+F+I+G4` | 0.112 | 0.975 | not converged |
+| `noeA` | accessory | 195 | 1,431 | 194 | `HKY+I` | 0.076 | 0.993 | converged |
+| `noeB` | accessory | 149 | 1,674 | 134 | `TPM3u+I+G4` | 0.207 | 0.991 | converged |
+| `nodX` | canonical nod | 133 | 1,121 | 109 | `HKY+F+R3` | 0.319 | 0.992 | converged |
+
+Main table:
+
+- `../result/comparative_tree_analysis/tables/07_mixed_iupac_tree_summary.tsv`
+
+Mixed-IUPAC tree files are organized by gene:
+
+- `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000/<gene>_consensus50_iupac_all_pass_nm5000.treefile`
+- `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000/<gene>_consensus50_iupac_all_pass_nm5000.contree`
+- `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000/<gene>_consensus50_iupac_all_pass_nm5000.iqtree`
+- `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000/<gene>_consensus50_iupac_all_pass_nm5000.log`
+
+Main figure:
+
+![Bootstrap convergence by gene and tree set](../result/comparative_tree_analysis/figures/04_bootstrap_convergence_by_gene_tree_set.png)
+
 ### Local R Summaries And Figures
 
 Two local R scripts created the comparative tables, metadata summaries, and figures.
@@ -465,68 +529,7 @@ Main figure:
 
 ![Alignment composition by gene and tree set](../result/comparative_tree_analysis/figures/06_alignment_composition_by_gene_tree_set.png)
 
-## 9. Strict Single-Dominant Tree Results
 
-Strict trees are the primary phylogenies for interpretation because they avoid mixed-template consensus sequences.
-
-| Gene | Group | Input sequences | Alignment length | IQ-TREE tips | Best model | Tree length | Final UFBoot correlation | Status |
-|---|---|---:|---:|---:|---|---:|---:|---|
-| `nifH` | nif | 387 | 997 | 387 | `GTR+F+R6` | 9.850 | 0.990 | converged |
-| `nifD` | nif | 348 | 1,532 | 348 | `GTR+F+I+R6` | 10.328 | 0.992 | converged |
-| `nifK` | nif | 455 | 1,588 | 455 | `GTR+F+I+R6` | 12.807 | 0.903 | not converged |
-| `nifJ` | nif | 181 | 3,584 | 181 | `TVM+F+I+R3` | 1.411 | 0.961 | not converged |
-| `nodL` | canonical nod | 216 | 612 | 189 | `TIM3+F+I+G4` | 1.268 | 0.993 | converged |
-| `nolG` | accessory | 201 | 3,198 | 176 | `TPM3u+F+R4` | 0.170 | 0.992 | converged |
-| `nolF` | accessory | 208 | 1,110 | 176 | `HKY+F+R3` | 0.181 | 0.991 | converged |
-| `noeA` | accessory | 193 | 1,431 | 176 | `HKY+I+G4` | 0.110 | 0.991 | converged |
-| `noeB` | accessory | 132 | 1,674 | 105 | `TPM3u+I+G4` | 0.248 | 0.994 | converged |
-| `nodX` | canonical nod | 129 | 1,121 | 102 | `HKY+F+R3` | 0.358 | 0.996 | converged |
-
-Note: some IQ-TREE tip counts are lower than input sequence counts because IQ-TREE collapses identical sequences internally for tree search. This is why, for example, `nodL` has 216 input sequences but 189 IQ-TREE taxa/tips.
-
-Main tables:
-
-- `../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv`
-- `../result/comparative_tree_analysis/tables/06_strict_tree_summary.tsv`
-
-Strict tree files are organized by gene:
-
-- `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.treefile`
-- `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.contree`
-- `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.iqtree`
-- `../result/gene_trees_full/<gene>/03_tree_strict_nm5000/<gene>_consensus50_strict_single_dominant_nm5000.log`
-
-## 10. Mixed-IUPAC Tree Results
-
-Mixed-IUPAC trees include all passing sequences, including those flagged as possible mixed/multitemplate. These trees are useful for sensitivity analyses and for asking how much phylogenetic placement changes when mixed signal is retained.
-
-| Gene | Group | Input sequences | Alignment length | IQ-TREE tips | Best model | Tree length | Final UFBoot correlation | Status |
-|---|---|---:|---:|---:|---|---:|---:|---|
-| `nifH` | nif | 1,538 | 997 | 1,532 | `GTR+F+I+R9` | 27.178 | 0.939 | not converged |
-| `nifD` | nif | 1,464 | 1,532 | 1,458 | `GTR+F+I+R10` | 34.697 | 0.918 | not converged |
-| `nifK` | nif | 1,052 | 1,542 | 1,046 | `GTR+F+R9` | 24.723 | 0.835 | not converged |
-| `nifJ` | nif | 325 | 3,678 | 325 | `TVM+F+R5` | 2.646 | 0.947 | not converged |
-| `nodL` | canonical nod | 230 | 612 | 210 | `TIM3+F+I+G4` | 1.252 | 0.967 | not converged |
-| `nolG` | accessory | 229 | 3,198 | 218 | `TIM3+F+I+G4` | 0.162 | 0.915 | not converged |
-| `nolF` | accessory | 209 | 1,110 | 202 | `HKY+F+I+G4` | 0.112 | 0.975 | not converged |
-| `noeA` | accessory | 195 | 1,431 | 194 | `HKY+I` | 0.076 | 0.993 | converged |
-| `noeB` | accessory | 149 | 1,674 | 134 | `TPM3u+I+G4` | 0.207 | 0.991 | converged |
-| `nodX` | canonical nod | 133 | 1,121 | 109 | `HKY+F+R3` | 0.319 | 0.992 | converged |
-
-Main table:
-
-- `../result/comparative_tree_analysis/tables/07_mixed_iupac_tree_summary.tsv`
-
-Mixed-IUPAC tree files are organized by gene:
-
-- `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000/<gene>_consensus50_iupac_all_pass_nm5000.treefile`
-- `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000/<gene>_consensus50_iupac_all_pass_nm5000.contree`
-- `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000/<gene>_consensus50_iupac_all_pass_nm5000.iqtree`
-- `../result/gene_trees_full/<gene>/04_tree_iupac_nm5000/<gene>_consensus50_iupac_all_pass_nm5000.log`
-
-Main figure:
-
-![Bootstrap convergence by gene and tree set](../result/comparative_tree_analysis/figures/04_bootstrap_convergence_by_gene_tree_set.png)
 
 ## 11. BLAST Closest-Reference Annotation Results
 
