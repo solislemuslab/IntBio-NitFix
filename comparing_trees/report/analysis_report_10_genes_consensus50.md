@@ -247,7 +247,7 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
   | tee "$OUT/gene_trees/run_step02_consensus_all_genes.log"
 ```
 
-### Step 5. Align Consensus Sequences With MAFFT
+### Step 6. Align Consensus Sequences With MAFFT
 
 The strict and mixed-IUPAC FASTA files were aligned separately for every selected gene with MAFFT.
 
@@ -264,7 +264,7 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
   | tee "$OUT/gene_trees/run_step03_mafft_all_genes.log"
 ```
 
-### Step 6. Build Strict Single-Dominant Trees With IQ-TREE
+### Step 7. Build Strict Single-Dominant Trees With IQ-TREE
 
 Strict trees are the primary trees because they use only sample consensus sequences that passed the coverage/depth/N filters and did not exceed the mixed-site threshold.
 
@@ -295,7 +295,7 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
   | tee "$OUT/gene_trees/run_step04_strict_trees_all_genes.log"
 ```
 
-### Step 7. Build Mixed-IUPAC Trees With IQ-TREE
+### Step 8. Build Mixed-IUPAC Trees With IQ-TREE
 
 Mixed-IUPAC trees include both single-dominant and mixed possible multitemplate sequences. These trees are useful as sensitivity/exploratory trees, but most mixed-IUPAC trees did not reach UFBoot convergence even with `-nm 5000`.
 
@@ -312,7 +312,7 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
   | tee "$OUT/gene_trees/run_step05_iupac_trees_all_genes.log"
 ```
 
-### Step 8. Assign Closest Known Reference Taxa With BLAST
+### Step 9. Assign Closest Known Reference Taxa With BLAST
 
 BLAST was used after tree construction to assign each sample-derived consensus sequence to its closest known reference sequence from the per-gene taxon reference alignments. This is different from BWA mapping:
 
