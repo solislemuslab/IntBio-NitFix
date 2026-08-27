@@ -178,6 +178,8 @@ A sample-gene pair was counted as good when:
 
 ![Consensus50 gene coverage bin](.../symbiosis_sorted_all_sample_consensus_sequences_50percent/result/figures/consensus50_gene_coverage_bins_depth10_R.png)
 
+![Consensus50 gene coverage bin](../symbiosis_sorted_all_sample_consensus_sequences_50percent/result/figures/consensus50_gene_coverage_bins_depth10_R.png)
+
 ### Step 4. Select Genes For Tree Construction
 
 From the 72-gene coverage summary, 10 genes were selected because they had enough sample recovery to support tree construction and comparison:
