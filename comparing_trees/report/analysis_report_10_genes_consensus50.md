@@ -176,7 +176,7 @@ A sample-gene pair was counted as good when:
 | Good sample-gene rows | 6,179 |
 | Samples with at least one good gene | 2,052 |
 
-![Consensus50 gene coverage bin](.../symbiosis_sorted_all_sample_consensus_sequences_50percent/result/figures/consensus50_gene_coverage_bins_depth10_R.png)
+![Consensus50 gene coverage bin](../../symbiosis_sorted_all_sample_consensus_sequences_50percent/result/figures/consensus50_gene_coverage_bins_depth10_R.png)
 
 ![Consensus50 gene coverage bin](../symbiosis_sorted_all_sample_consensus_sequences_50percent/result/figures/consensus50_gene_coverage_bins_depth10_R.png)
 
