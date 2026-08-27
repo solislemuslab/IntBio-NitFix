@@ -632,7 +632,102 @@ Tree summary/QC tables for report
 ```
 
 
+# Understanding IQ-TREE Model Names
 
+IQ-TREE uses a model to describe how DNA sequences changed through evolution. A model name usually has three parts:
+
+```text
+MODEL + base-frequency option + rate-variation option
+```
+
+Example:
+
+```text
+GTR+F+I+R6
+```
+
+This means:
+
+```text
+GTR = DNA substitution model
++F = use observed A/C/G/T frequencies from the alignment
++I = include fully conserved/invariant sites
++R6 = allow sites to evolve at 6 different speed categories
+```
+
+References:
+
+- IQ-TREE substitution models: https://www.iqtree.org/doc/Substitution-Models
+- IQ-TREE command reference: https://www.iqtree.org/doc/Command-Reference
+
+## 1. DNA Substitution Model
+
+The first part tells IQ-TREE how one DNA base changes into another.
+
+DNA has four bases:
+
+```text
+A, C, G, T
+```
+
+Possible changes include:
+
+```text
+A <-> C
+A <-> G
+A <-> T
+C <-> G
+C <-> T
+G <-> T
+```
+
+Some models are simple and assume many changes happen at the same rate. Other models are flexible and allow different changes to happen at different rates.
+
+## 2. Simple Example
+
+Imagine this alignment:
+
+```text
+Sample1  A C G T A
+Sample2  A C G T G
+Sample3  A C G C G
+Sample4  G C G T G
+```
+
+Position 1 has `A` in most samples, but one sample has `G`.
+
+```text
+A -> G happened
+```
+
+Position 4 has mostly `T`, but one sample has `C`.
+
+```text
+T -> C happened
+```
+
+IQ-TREE tries to estimate which DNA changes are common and which are rare.
+
+## 3. Common DNA Models
+
+| Model | Simple Meaning | Example Interpretation |
+|---|---|---|
+| `JC` or `JC69` | Simplest model. All DNA changes are equally likely, and A/C/G/T are equally common. | `A -> G` is treated the same as `A -> T`. |
+| `F81` | All DNA changes have equal rates, but A/C/G/T frequencies can be different. | Useful if the gene has more G/C than A/T. |
+| `K2P` or `K80` | Transitions and transversions can have different rates, but base frequencies are equal. | `A <-> G` and `C <-> T` can be more common than other changes. |
+| `HKY` | Like K2P, but allows unequal A/C/G/T frequencies. | Good for DNA where transitions are common and base composition is uneven. |
+| `TN` or `TN93` | More flexible than HKY. Allows different transition rates. | `A <-> G` and `C <-> T` can have different rates. |
+| `K3P` or `K81` | Allows three categories of substitution rates. | Groups DNA changes into three rate classes. |
+| `TIM`, `TIM2`, `TIM3` | Intermediate models between HKY/TN and GTR. | Some DNA changes share rates, but not all. |
+| `TVM` | Flexible transversion model. | Allows different transversion rates but constrains transitions. |
+| `SYM` | Like GTR for substitution rates, but assumes equal base frequencies. | Flexible changes, but A/C/G/T are equally frequent. |
+| `GTR` | Most general common reversible DNA model. Different substitution types can have different rates and base frequencies can differ. | Very flexible; often selected for complex gene alignments. |
+
+## 4. What `GTR` Means
+
+`GTR` means **General Time Reversible**.
+
+Simple meaning:
 
 
 
