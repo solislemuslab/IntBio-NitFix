@@ -355,8 +355,8 @@ For the strict nifH phylogeny, the 387 input sequences represent 387 sample-deri
 
 Main tables:
 
-- `../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv`
-- `../result/comparative_tree_analysis/tables/06_strict_tree_summary.tsv`
+- [tree_summary_strict_and_mixed_iupac](../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv)
+-[strict_tree_summary](../result/comparative_tree_analysis/tables/06_strict_tree_summary.tsv)
 
 Strict tree files are organized by gene:
 
@@ -384,7 +384,7 @@ Mixed-IUPAC trees include all passing sequences, including those flagged as poss
 
 Main table:
 
-- `../result/comparative_tree_analysis/tables/07_mixed_iupac_tree_summary.tsv`
+- [mixed_iupac_tree_summary](../result/comparative_tree_analysis/tables/07_mixed_iupac_tree_summary.tsv)
 
 Mixed-IUPAC tree files are organized by gene:
 
@@ -425,7 +425,7 @@ Coverage threshold: `percent_covered >= 80` and `mean_depth >= 10`.
 
 Main table:
 
-- `../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv`
+- [coverage_summary_by_gene_pct80_depth10](../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv)
 
 Main figures:
 
@@ -450,8 +450,8 @@ Main figures:
 
 Main tables:
 
-- `../result/comparative_tree_analysis/tables/03_consensus_qc_status_summary_long.tsv`
-- `../result/comparative_tree_analysis/tables/04_consensus_qc_status_summary_wide.tsv`
+- [consensus_qc_status_summary_long](../result/comparative_tree_analysis/tables/03_consensus_qc_status_summary_long.tsv)
+- [consensus_qc_status_summary_wide](../result/comparative_tree_analysis/tables/04_consensus_qc_status_summary_wide.tsv)
 
 Main figure:
 
@@ -477,7 +477,7 @@ The strict alignments contain no IUPAC mixed codes by design. The mixed-IUPAC al
 
 Main table:
 
-- `../result/comparative_tree_analysis/tables/08_alignment_sequence_composition.tsv`
+- [alignment_sequence_composition](../result/comparative_tree_analysis/tables/08_alignment_sequence_composition.tsv)
 
 Main figure:
 
@@ -571,13 +571,13 @@ Metadata was used to summarize recovery and annotation patterns by sample type, 
 
 Main metadata tables:
 
-- `../result/metadata_tree_comparison/tables/00_metadata_tree_comparison_output_index.tsv`
-- `../result/metadata_tree_comparison/tables/01_gene_categories_for_report.tsv`
-- `../result/metadata_tree_comparison/tables/02_gene_recovery_by_metadata_category_pct80_depth10.tsv`
-- `../result/metadata_tree_comparison/tables/03_tree_reliability_summary_for_report.tsv`
-- `../result/metadata_tree_comparison/tables/04_blast_closest_genus_by_gene_sample_type.tsv`
-- `../result/metadata_tree_comparison/tables/05_metadata_gene_recovery_association_screen.tsv`
-- `../result/metadata_tree_comparison/tables/06_report_interpretation_notes.tsv`
+- [metadata_tree_comparison_output_index](../result/metadata_tree_comparison/tables/00_metadata_tree_comparison_output_index.tsv)
+- [gene_categories_for_report](../result/metadata_tree_comparison/tables/01_gene_categories_for_report.tsv)
+- [gene_recovery_by_metadata_category_pct80_depth10](../result/metadata_tree_comparison/tables/02_gene_recovery_by_metadata_category_pct80_depth10.tsv)
+- [tree_reliability_summary_for_report](../result/metadata_tree_comparison/tables/03_tree_reliability_summary_for_report.tsv)
+- [blast_closest_genus_by_gene_sample_type](../result/metadata_tree_comparison/tables/04_blast_closest_genus_by_gene_sample_type.tsv)
+- [metadata_gene_recovery_association_screen](../result/metadata_tree_comparison/tables/05_metadata_gene_recovery_association_screen.tsv)
+- [report_interpretation_notes](../result/metadata_tree_comparison/tables/06_report_interpretation_notes.tsv)
 
 Main metadata figures:
 
