@@ -563,7 +563,6 @@ Main figures:
 
 ![Gene recovery combination heatmap](../result/comparative_tree_analysis/figures/05b_gene_recovery_combination_heatmap.png)
 
-These combination figures are more interpretable than a simple “number of good genes per sample” histogram because they show which genes make up each recovery pattern.
 
 ## 13. Metadata-Aware Summaries
 
