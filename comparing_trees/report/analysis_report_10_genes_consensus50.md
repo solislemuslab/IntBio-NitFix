@@ -543,19 +543,19 @@ Main BLAST figures:
 
 ![BLAST genus by gene heatmap](../result/comparative_tree_analysis/figures/08_blast_genus_by_gene_heatmap_min5.png)
 
-Interpretation note: the y-axis categories in these figures are closest BLAST genus labels, and the x-axis/counts represent sample-derived consensus sequences/tree tips assigned to those genera. They are not direct bacterial abundance estimates.
+Interpretation note: the y-axis categories in these figures are closest BLAST genus labels, and the x-axis/counts represent sample-derived consensus sequences/tree tips assigned to those genera. 
 
-## 12. Sample-Level Gene-Recovery Results
+## Sample-Level Gene-Recovery Results
 
 A sample can recover more than one functional gene. For example, a sample with 3 good genes passed `percent_covered >=80` and `mean_depth >=10` for 3 of the 10 selected genes.
 
 Main tables:
 
-- `../result/comparative_tree_analysis/tables/09_sample_overlap_good_genes_pct80_depth10.tsv`
-- `../result/comparative_tree_analysis/tables/10_sample_overlap_summary_by_sample_type.tsv`
-- `../result/comparative_tree_analysis/tables/10a_sample_gene_recovery_combinations_pct80_depth10.tsv`
-- `../result/comparative_tree_analysis/tables/10b_top_gene_recovery_combinations_pct80_depth10.tsv`
-- `../result/comparative_tree_analysis/tables/10c_gene_recovery_combinations_by_sample_type_pct80_depth10.tsv`
+- [sample_overlap_good_genes_pct80_depth10](../result/comparative_tree_analysis/tables/09_sample_overlap_good_genes_pct80_depth10.tsv)
+- [sample_overlap_summary_by_sample_type] (../result/comparative_tree_analysis/tables/10_sample_overlap_summary_by_sample_type.tsv)
+- [sample_gene_recovery_combinations_pct80_depth10](../result/comparative_tree_analysis/tables/10a_sample_gene_recovery_combinations_pct80_depth10.tsv)
+- [top_gene_recovery_combinations_pct80_depth10](../result/comparative_tree_analysis/tables/10b_top_gene_recovery_combinations_pct80_depth10.tsv)
+- [gene_recovery_combinations_by_sample_type_pct80_depth10](../result/comparative_tree_analysis/tables/10c_gene_recovery_combinations_by_sample_type_pct80_depth10.tsv)
 
 Main figures:
 
