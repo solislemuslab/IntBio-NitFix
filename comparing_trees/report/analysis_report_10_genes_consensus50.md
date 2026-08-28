@@ -638,28 +638,13 @@ Example figures:
 **genus level nifH trees (strict)**
 ![nifH strict tree colored by closest BLAST genus](../result/trees/Figure/strict_single_blast_closest_genus_colorstrip_5000.svg)
 
-**iupac level nifH trees (strict)**
+**genus level nifH trees (iupac)**
 ![nifH mixed-IUPAC tree colored by closest BLAST genus](../result/trees/Figure/iupac_nm5000_blast_closest_genus_colorstrip.svg)
 
-## Interpretation
 
-The strongest recovery was from the core nitrogen-fixation genes `nifH`, `nifD`, and `nifK`, with `nifH` and `nifD` recovered in more than half of all samples at the 80% coverage and 10x depth threshold. `nifJ` was recovered in fewer samples, and canonical `nod` plus accessory `nol/noe` genes were recovered in a smaller subset of samples. This pattern is biologically plausible because not all symbiosis genes are universal across all nitrogen-fixing lineages, and some nodulation-related genes are lineage- or host-specific.
 
-The strict single-dominant trees are the preferred trees for downstream biological interpretation because they avoid mixed-template consensus sequences. Most strict trees converged under IQ-TREE ultrafast bootstrap, but `nifK` and `nifJ` strict trees did not fully converge and should be interpreted with extra caution. The mixed-IUPAC trees include many more sequences, especially for `nifH` and `nifD`, but most mixed-IUPAC trees did not converge; therefore, they should be treated as sensitivity/exploratory trees rather than the main phylogenetic evidence.
 
-The BLAST annotation provides a practical way to label each sample-derived consensus sequence by closest known functional-gene reference. These labels make the trees more interpretable, but they should not be reported as confirmed species identities. The correct language is “closest BLAST reference taxon/genus” or “closest known functional-gene hit.”
 
-## 16. Caveats
-
-MC controls are limited to `n=2`, so they are useful as a background check but are not enough for strong absence/presence filtering. Mixed-IUPAC calls are threshold-based: a sequence is called mixed possible multitemplate only when more than 10 positions pass the mixed-site rule. Mixed signal suggests possible multiple templates, multicopy signal, or mixed infection, but it does not prove multiple organisms because the variants are not phased across the gene. Tree tips are sample-derived consensus sequences, not unique biological samples or confirmed bacterial isolates. BLAST taxon labels are closest reference hits, not confirmed species identities.
-
-## 17. Recommended Next Analyses
-
-1. Use the strict, converged trees first for host/geography tests.
-2. Compare host and geography patterns across `nifH`, `nifD`, `nodL`, `nodX`, and accessory `nol/noe` trees where recovery is sufficient.
-3. Use tree-based clustering or permutation tests to ask whether samples from the same host group, tribe, country, or site cluster more than expected by chance.
-4. Compare functional-gene BLAST genus summaries with 16S-based taxonomic profiles, especially for nodule samples where the number of taxa may be smaller and easier to pair with functional genes.
-5. Treat mixed-IUPAC trees as sensitivity analyses and report their nonconvergence clearly.
 
 ## 18. Main Output Index
 
@@ -675,12 +660,12 @@ MC controls are limited to `n=2`, so they are useful as a background check but a
 
 The most important final summary table for the 20 gene trees is:
 
-- `../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv`
+- [tree_summary_strict_and_mixed_iupac](../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv)
 
 The most important final coverage table is:
 
-- `../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv`
+- [coverage_summary_by_gene_pct80_depth10](../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv)
 
 The most important final BLAST/taxon table is:
 
-- `../result/comparative_tree_analysis/tables/11b_blast_assignment_rows_deduplicated_strict_iupac.tsv`
+- [blast_assignment_rows_deduplicated_strict_iupac](../result/comparative_tree_analysis/tables/11b_blast_assignment_rows_deduplicated_strict_iupac.tsv)
