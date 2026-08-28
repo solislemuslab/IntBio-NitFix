@@ -631,11 +631,14 @@ As as example:  nifH trees
 | nifH mixed-IUPAC closest BLAST taxon | [iupac_nm5000_blast_closest_taxon_colorstrip](../result/trees/Figure/iupac_nm5000_blast_closest_taxon_colorstrip.svg) |
 
 Example figures:
+**family level nifH trees (strict)**
 
 ![nifH strict tree colored by host family](../result/trees/Figure/strict_pct80_Nle20_itol_family_colorstrip.svg)
 
+**genus level nifH trees (strict)**
 ![nifH strict tree colored by closest BLAST genus](../result/trees/Figure/strict_single_blast_closest_genus_colorstrip_5000.svg)
 
+**iupac level nifH trees (strict)**
 ![nifH mixed-IUPAC tree colored by closest BLAST genus](../result/trees/Figure/iupac_nm5000_blast_closest_genus_colorstrip.svg)
 
 ## Interpretation
