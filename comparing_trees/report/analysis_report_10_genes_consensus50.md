@@ -552,7 +552,7 @@ A sample can recover more than one functional gene. For example, a sample with 3
 Main tables:
 
 - [sample_overlap_good_genes_pct80_depth10](../result/comparative_tree_analysis/tables/09_sample_overlap_good_genes_pct80_depth10.tsv)
-- [sample_overlap_summary_by_sample_type] (../result/comparative_tree_analysis/tables/10_sample_overlap_summary_by_sample_type.tsv)
+- [sample_overlap_summary_by_sample_type](../result/comparative_tree_analysis/tables/10_sample_overlap_summary_by_sample_type.tsv)
 - [sample_gene_recovery_combinations_pct80_depth10](../result/comparative_tree_analysis/tables/10a_sample_gene_recovery_combinations_pct80_depth10.tsv)
 - [top_gene_recovery_combinations_pct80_depth10](../result/comparative_tree_analysis/tables/10b_top_gene_recovery_combinations_pct80_depth10.tsv)
 - [gene_recovery_combinations_by_sample_type_pct80_depth10](../result/comparative_tree_analysis/tables/10c_gene_recovery_combinations_by_sample_type_pct80_depth10.tsv)
