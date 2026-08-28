@@ -531,6 +531,15 @@ bash "$OUT/Rscripts_v2/gene_tree_pipelines/run_selected_step_for_genes.sh" \
 
 BLAST annotation was used to label each sample-derived consensus sequence by closest known reference taxon and genus. These labels are helpful for interpreting tree regions and comparing functional-gene signal with 16S/community results later.
 
+
+### BLAST-Based Closest Reference Assignment
+
+For each selected gene, sample-derived consensus sequences were compared against the gene-specific reference taxon sequences using BLASTN. For example, `nifD` consensus sequences were searched only against the `nifD` reference taxon alignment. Before BLAST, reference and query alignments were ungapped so that BLAST compared nucleotide sequences rather than alignment columns.
+
+BLAST was run with an E-value threshold of **`1e-20`** and allowed to return up to 10 candidate reference hits per consensus sequence. From these candidate hits, one best reference hit was selected for each sample consensus sequence using **highest bitscore**, then **highest percent** identity, then **longest alignment length**. The output table reports the selected closest reference taxon, closest genus, percent identity, alignment length, query coverage, E-value, and bitscore.
+
+These BLAST labels should be interpreted as closest known reference matches, not confirmed species identities. A hit with weak statistical support, such as E-value `0.9`, would not be included because the BLAST search only keeps hits with `E-value <= 1e-20`. However, percent identity and query coverage are reported rather than used as strict filters in this script, so downstream summaries can optionally apply additional confidence filters such as percent identity `>=88%` and query coverage `>=80%`.
+
 Main BLAST tables:
 
 - [blast_source_file_row_counts](../result/comparative_tree_analysis/tables/11a_blast_source_file_row_counts.tsv)
@@ -544,6 +553,14 @@ Main BLAST figures:
 ![BLAST genus by gene heatmap](../result/comparative_tree_analysis/figures/08_blast_genus_by_gene_heatmap_min5.png)
 
 Interpretation note: the y-axis categories in these figures are closest BLAST genus labels, and the x-axis/counts represent sample-derived consensus sequences/tree tips assigned to those genera. 
+
+| Output file | Row size | Meaning |
+|---|---:|---|
+| `<gene>_strict_blast.tsv` | up to `strict consensus sequences × 10` rows | Raw BLAST candidate hits for strict consensus sequences. BLAST can return up to 10 hits per sequence if they pass the E-value threshold (`1e-20`). |
+| `<gene>_strict_best_reference_hit_with_taxon.tsv` | `strict consensus sequences` rows | Final strict BLAST table. One selected best reference hit per strict consensus sequence. |
+| `<gene>_iupac_blast.tsv` | up to `mixed-IUPAC consensus sequences × 10` rows | Raw BLAST candidate hits for mixed-IUPAC consensus sequences. BLAST can return up to 10 hits per sequence if they pass the E-value threshold (`1e-20`). |
+| `<gene>_iupac_best_reference_hit_with_taxon.tsv` | `mixed-IUPAC consensus sequences` rows | Final mixed-IUPAC BLAST table. One selected best reference hit per mixed-IUPAC consensus sequence. |
+
 
 ## Sample-Level Gene-Recovery Results
 
