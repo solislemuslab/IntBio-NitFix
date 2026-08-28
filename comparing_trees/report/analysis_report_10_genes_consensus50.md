@@ -179,6 +179,25 @@ A sample-gene pair was counted as good when:
 ![Consensus50 gene coverage bin](../../symbiosis_sorted_all_sample_consensus_sequences_50percent/result/figures/consensus50_gene_coverage_bins_depth10_R.png)
 
 
+## Sample-Level Gene-Recovery Results
+
+A sample can recover more than one functional gene. For example, a sample with 3 good genes passed `percent_covered >=80` and `mean_depth >=10` for 3 of the 10 selected genes.
+
+Main tables:
+
+- [sample_overlap_good_genes_pct80_depth10](../result/comparative_tree_analysis/tables/09_sample_overlap_good_genes_pct80_depth10.tsv)
+- [sample_overlap_summary_by_sample_type](../result/comparative_tree_analysis/tables/10_sample_overlap_summary_by_sample_type.tsv)
+- [sample_gene_recovery_combinations_pct80_depth10](../result/comparative_tree_analysis/tables/10a_sample_gene_recovery_combinations_pct80_depth10.tsv)
+- [top_gene_recovery_combinations_pct80_depth10](../result/comparative_tree_analysis/tables/10b_top_gene_recovery_combinations_pct80_depth10.tsv)
+- [gene_recovery_combinations_by_sample_type_pct80_depth10](../result/comparative_tree_analysis/tables/10c_gene_recovery_combinations_by_sample_type_pct80_depth10.tsv)
+
+Main figures:
+
+![Top gene recovery combinations](../result/comparative_tree_analysis/figures/05_top_gene_recovery_combinations.png)
+
+![Gene recovery combination heatmap](../result/comparative_tree_analysis/figures/05b_gene_recovery_combination_heatmap.png)
+
+
 ### Step 4. Select Genes For Tree Construction
 
 From the 72-gene coverage summary, 10 genes were selected because they had enough sample recovery to support tree construction and comparison:
@@ -563,26 +582,10 @@ Interpretation note: the y-axis categories in these figures are closest BLAST ge
 
 BLASTN was run with `-evalue 1e-20` and `-max_target_seqs 10`, following standard BLAST+ usage (Camacho et al. 2009; Madden, NCBI BLAST+ manual). I retained one best hit per consensus sequence based on highest bitscore, then highest percent identity, then longest alignment length; the use of stringent E-value thresholds and reporting of percent identity, alignment coverage, and E-value is consistent with recommended manual homology-search practice (Nestor et al. 2023).
 
-## Sample-Level Gene-Recovery Results
-
-A sample can recover more than one functional gene. For example, a sample with 3 good genes passed `percent_covered >=80` and `mean_depth >=10` for 3 of the 10 selected genes.
-
-Main tables:
-
-- [sample_overlap_good_genes_pct80_depth10](../result/comparative_tree_analysis/tables/09_sample_overlap_good_genes_pct80_depth10.tsv)
-- [sample_overlap_summary_by_sample_type](../result/comparative_tree_analysis/tables/10_sample_overlap_summary_by_sample_type.tsv)
-- [sample_gene_recovery_combinations_pct80_depth10](../result/comparative_tree_analysis/tables/10a_sample_gene_recovery_combinations_pct80_depth10.tsv)
-- [top_gene_recovery_combinations_pct80_depth10](../result/comparative_tree_analysis/tables/10b_top_gene_recovery_combinations_pct80_depth10.tsv)
-- [gene_recovery_combinations_by_sample_type_pct80_depth10](../result/comparative_tree_analysis/tables/10c_gene_recovery_combinations_by_sample_type_pct80_depth10.tsv)
-
-Main figures:
-
-![Top gene recovery combinations](../result/comparative_tree_analysis/figures/05_top_gene_recovery_combinations.png)
-
-![Gene recovery combination heatmap](../result/comparative_tree_analysis/figures/05b_gene_recovery_combination_heatmap.png)
 
 
-## 13. Metadata-Aware Summaries
+
+## Step10. Metadata-Aware Summaries
 
 Metadata was used to summarize recovery and annotation patterns by sample type, host, and geography. The metadata-aware summaries are intended as the bridge to Ryan and Ahmed's requested next analysis: testing whether host or geographic patterns are consistent across `nif`, canonical `nod`, and `Other` genes.
 
