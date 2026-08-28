@@ -613,7 +613,6 @@ Main metadata figures:
 
 ![Mixed-IUPAC BLAST genus composition by sample type](../result/metadata_tree_comparison/figures/05_iupac_blast_genus_composition_by_sample_type.png)
 
-![Gene recovery metadata association screen](../result/metadata_tree_comparison/figures/06_gene_recovery_metadata_association_screen.png)
 
 ## iTOL Tree Figures
 
