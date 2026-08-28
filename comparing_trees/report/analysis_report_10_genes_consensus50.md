@@ -561,6 +561,7 @@ Interpretation note: the y-axis categories in these figures are closest BLAST ge
 | `<gene>_iupac_blast.tsv` | up to `mixed-IUPAC consensus sequences × 10` rows | Raw BLAST candidate hits for mixed-IUPAC consensus sequences. BLAST can return up to 10 hits per sequence if they pass the E-value threshold (`1e-20`). |
 | `<gene>_iupac_best_reference_hit_with_taxon.tsv` | `mixed-IUPAC consensus sequences` rows | Final mixed-IUPAC BLAST table. One selected best reference hit per mixed-IUPAC consensus sequence. |
 
+BLASTN was run with `-evalue 1e-20` and `-max_target_seqs 10`, following standard BLAST+ usage (Camacho et al. 2009; Madden, NCBI BLAST+ manual). I retained one best hit per consensus sequence based on highest bitscore, then highest percent identity, then longest alignment length; the use of stringent E-value thresholds and reporting of percent identity, alignment coverage, and E-value is consistent with recommended manual homology-search practice (Nestor et al. 2023).
 
 ## Sample-Level Gene-Recovery Results
 
