@@ -645,7 +645,7 @@ Example figures:
 
 
 
-## 18. Main Output Index
+## Output Index
 
 | Output type | Local path | Cluster path |
 |---|---|---|
@@ -657,7 +657,7 @@ Example figures:
 | iTOL exported tree figures | `../result/trees/Figure` | exported locally from iTOL |
 | Reference/taxon matching table | `../result/reference/taxon_fastas_vs_symbiosis_islands_gene_list_match.tsv` | copied/generated from reference checks |
 
-The most important final summary table for the 20 gene trees is:
+Other final summary table for the 20 gene trees is:
 
 - [tree_summary_strict_and_mixed_iupac](../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv)
 
