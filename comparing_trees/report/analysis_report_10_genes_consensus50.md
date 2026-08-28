@@ -198,6 +198,34 @@ Main figures:
 ![Gene recovery combination heatmap](../result/comparative_tree_analysis/figures/05b_gene_recovery_combination_heatmap.png)
 
 
+## Gene Coverage Results
+
+Coverage threshold: `percent_covered >= 80` and `mean_depth >= 10`.
+
+| Gene | Group | Good samples | Percent of 2,907 samples | Mean percent covered | Median percent covered | Mean depth |
+|---|---|---:|---:|---:|---:|---:|
+| `nifH` | nif | 1,572 | 54.08% | 76.51 | 80.64 | 1551.88 |
+| `nifD` | nif | 1,497 | 51.50% | 75.80 | 80.74 | 1201.12 |
+| `nifK` | nif | 1,088 | 37.43% | 63.25 | 69.46 | 575.24 |
+| `nifJ` | nif | 328 | 11.28% | 37.96 | 29.68 | 279.96 |
+| `nodL` | nod | 239 | 8.22% | 26.05 | 10.62 | 127.91 |
+| `nolG` | `Other` | 230 | 7.91% | 20.96 | 2.41 | 102.56 |
+| `nolF` | `Other` | 209 | 7.19% | 20.25 | 1.71 | 99.78 |
+| `noeA` | `Other`  | 197 | 6.78% | 19.75 | 0.00 | 99.77 |
+| `noeB` | `Other`  | 149 | 5.13% | 17.75 | 0.00 | 90.95 |
+| `nodX` | nod | 137 | 4.71% | 14.47 | 0.00 | 51.15 |
+
+Main table:
+
+- [coverage_summary_by_gene_pct80_depth10](../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv)
+
+Main figures:
+
+![Good coverage samples by gene](../result/comparative_tree_analysis/figures/01_good_coverage_samples_by_gene.png)
+
+![Coverage heatmap by gene and sample type](../result/comparative_tree_analysis/figures/02_coverage_heatmap_gene_by_sample_type.png)
+
+
 ### Step 4. Select Genes For Tree Construction
 
 From the 72-gene coverage summary, 10 genes were selected because they had enough sample recovery to support tree construction and comparison:
@@ -425,32 +453,6 @@ Two local R scripts created the comparative tables, metadata summaries, and figu
 | `/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/Rcode/01_compare_functional_gene_trees_consensus50.R` | gene/tree/BLAST comparison figures and tables | `../result/comparative_tree_analysis` |
 | `/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/Rcode/02_metadata_and_report_comparisons_consensus50.R` | metadata-aware recovery and tree comparison summaries | `../result/metadata_tree_comparison` |
 
-## Gene Coverage Results
-
-Coverage threshold: `percent_covered >= 80` and `mean_depth >= 10`.
-
-| Gene | Group | Good samples | Percent of 2,907 samples | Mean percent covered | Median percent covered | Mean depth |
-|---|---|---:|---:|---:|---:|---:|
-| `nifH` | nif | 1,572 | 54.08% | 76.51 | 80.64 | 1551.88 |
-| `nifD` | nif | 1,497 | 51.50% | 75.80 | 80.74 | 1201.12 |
-| `nifK` | nif | 1,088 | 37.43% | 63.25 | 69.46 | 575.24 |
-| `nifJ` | nif | 328 | 11.28% | 37.96 | 29.68 | 279.96 |
-| `nodL` | nod | 239 | 8.22% | 26.05 | 10.62 | 127.91 |
-| `nolG` | `Other` | 230 | 7.91% | 20.96 | 2.41 | 102.56 |
-| `nolF` | `Other` | 209 | 7.19% | 20.25 | 1.71 | 99.78 |
-| `noeA` | `Other`  | 197 | 6.78% | 19.75 | 0.00 | 99.77 |
-| `noeB` | `Other`  | 149 | 5.13% | 17.75 | 0.00 | 90.95 |
-| `nodX` | nod | 137 | 4.71% | 14.47 | 0.00 | 51.15 |
-
-Main table:
-
-- [coverage_summary_by_gene_pct80_depth10](../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv)
-
-Main figures:
-
-![Good coverage samples by gene](../result/comparative_tree_analysis/figures/01_good_coverage_samples_by_gene.png)
-
-![Coverage heatmap by gene and sample type](../result/comparative_tree_analysis/figures/02_coverage_heatmap_gene_by_sample_type.png)
 
 ## Consensus Sequence Results
 
