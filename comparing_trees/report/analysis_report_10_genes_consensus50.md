@@ -589,7 +589,7 @@ BLASTN was run with `-evalue 1e-20` and `-max_target_seqs 10`, following standar
 
 ## Step10. Metadata-Aware Summaries
 
-Metadata was used to summarize recovery and annotation patterns by sample type, host, and geography. The metadata-aware summaries are intended as the bridge to Ryan and Ahmed's requested next analysis: testing whether host or geographic patterns are consistent across `nif`, canonical `nod`, and `Other` genes.
+Metadata was used to summarize recovery and annotation patterns by sample type, host, and geography. 
 
 Main metadata tables:
 
