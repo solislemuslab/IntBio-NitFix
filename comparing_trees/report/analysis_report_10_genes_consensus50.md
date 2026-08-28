@@ -615,20 +615,20 @@ Main metadata figures:
 
 ![Gene recovery metadata association screen](../result/metadata_tree_comparison/figures/06_gene_recovery_metadata_association_screen.png)
 
-## 14. iTOL Tree Figures
+## iTOL Tree Figures
 
-The current iTOL exports are mainly for the earlier nifH trees. They are kept here as visual examples and report-ready tree images.
+As as example:  nifH trees
 
 | Figure | Path |
 |---|---|
-| nifH strict pct80 family strip | `../result/trees/Figure/strict_pct80_Nle20_itol_family_colorstrip.svg` |
-| nifH strict pct80 sample-type strip | `../result/trees/Figure/strict_pct80_Nle20_itol_sample_type_colorstrip.svg` |
-| nifH strict pct80 tribe strip | `../result/trees/Figure/strict_pct80_Nle20_itol_tribe_colorstrip.svg` |
-| nifH strict pct80 native strip | `../result/trees/Figure/strict_pct80_Nle20_itol_native_colorstrip.svg` |
-| nifH strict closest BLAST genus | `../result/trees/Figure/strict_single_blast_closest_genus_colorstrip_5000.svg` |
-| nifH strict closest BLAST taxon | `../result/trees/Figure/strict_single_blast_closest_taxon_colorstrip_5000.svg` |
-| nifH mixed-IUPAC closest BLAST genus | `../result/trees/Figure/iupac_nm5000_blast_closest_genus_colorstrip.svg` |
-| nifH mixed-IUPAC closest BLAST taxon | `../result/trees/Figure/iupac_nm5000_blast_closest_taxon_colorstrip.svg` |
+| nifH strict pct80 family strip | [strict_pct80_Nle20_itol_family_colorstrip](../result/trees/Figure/strict_pct80_Nle20_itol_family_colorstrip.svg) |
+| nifH strict pct80 sample-type strip | [strict_pct80_Nle20_itol_sample_type_colorstrip](../result/trees/Figure/strict_pct80_Nle20_itol_sample_type_colorstrip.svg) |
+| nifH strict pct80 tribe strip | [strict_pct80_Nle20_itol_tribe_colorstrip](../result/trees/Figure/strict_pct80_Nle20_itol_tribe_colorstrip.svg) |
+| nifH strict pct80 native strip | [strict_pct80_Nle20_itol_native_colorstrip](../result/trees/Figure/strict_pct80_Nle20_itol_native_colorstrip.svg) |
+| nifH strict closest BLAST genus | [strict_single_blast_closest_genus_colorstrip_5000](../result/trees/Figure/strict_single_blast_closest_genus_colorstrip_5000.svg) |
+| nifH strict closest BLAST taxon | [strict_single_blast_closest_taxon_colorstrip_5000](../result/trees/Figure/strict_single_blast_closest_taxon_colorstrip_5000.svg) |
+| nifH mixed-IUPAC closest BLAST genus | [iupac_nm5000_blast_closest_genus_colorstrip](../result/trees/Figure/iupac_nm5000_blast_closest_genus_colorstrip.svg) |
+| nifH mixed-IUPAC closest BLAST taxon | [iupac_nm5000_blast_closest_taxon_colorstrip](../result/trees/Figure/iupac_nm5000_blast_closest_taxon_colorstrip.svg) |
 
 Example figures:
 
@@ -638,7 +638,7 @@ Example figures:
 
 ![nifH mixed-IUPAC tree colored by closest BLAST genus](../result/trees/Figure/iupac_nm5000_blast_closest_genus_colorstrip.svg)
 
-## 15. Interpretation
+## Interpretation
 
 The strongest recovery was from the core nitrogen-fixation genes `nifH`, `nifD`, and `nifK`, with `nifH` and `nifD` recovered in more than half of all samples at the 80% coverage and 10x depth threshold. `nifJ` was recovered in fewer samples, and canonical `nod` plus accessory `nol/noe` genes were recovered in a smaller subset of samples. This pattern is biologically plausible because not all symbiosis genes are universal across all nitrogen-fixing lineages, and some nodulation-related genes are lineage- or host-specific.
 
