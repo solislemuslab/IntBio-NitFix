@@ -1,0 +1,56 @@
+tree_set	tree_set_label	gene	closest_genus_report	n	same_nearest_neighbor_n	same_nearest_neighbor_percent
+iupac	Mixed-IUPAC	nifD	Microvirga	564	390	69.14893617021276
+iupac	Mixed-IUPAC	nifD	Mesorhizobium	455	334	73.4065934065934
+iupac	Mixed-IUPAC	nifD	Sinorhizobium	247	211	85.4251012145749
+iupac	Mixed-IUPAC	nifD	Rhizobium	82	60	73.17073170731707
+iupac	Mixed-IUPAC	nifD	Azorhizobium	37	4	10.81081081081081
+iupac	Mixed-IUPAC	nifD	Ensifer	31	6	19.35483870967742
+iupac	Mixed-IUPAC	nifD	Bradyrhizobium	23	4	17.391304347826086
+iupac	Mixed-IUPAC	nifD	Methylobacterium	17	2	11.764705882352942
+iupac	Mixed-IUPAC	nifD	Burkholderia	6	0	0
+iupac	Mixed-IUPAC	nifH	Mesorhizobium	597	454	76.04690117252932
+iupac	Mixed-IUPAC	nifH	Bradyrhizobium	416	331	79.5673076923077
+iupac	Mixed-IUPAC	nifH	Microvirga	220	84	38.18181818181818
+iupac	Mixed-IUPAC	nifH	Rhizobium	128	92	71.875
+iupac	Mixed-IUPAC	nifH	Sinorhizobium	104	77	74.03846153846153
+iupac	Mixed-IUPAC	nifH	Burkholderia	31	22	70.96774193548387
+iupac	Mixed-IUPAC	nifH	Neorhizobium	21	18	85.71428571428571
+iupac	Mixed-IUPAC	nifH	Ensifer	17	1	5.882352941176471
+iupac	Mixed-IUPAC	nifJ	Candidatus	325	325	100
+iupac	Mixed-IUPAC	nifK	Mesorhizobium	382	302	79.05759162303664
+iupac	Mixed-IUPAC	nifK	Sinorhizobium	354	302	85.31073446327683
+iupac	Mixed-IUPAC	nifK	Microvirga	176	94	53.40909090909091
+iupac	Mixed-IUPAC	nifK	Rhizobium	140	120	85.71428571428571
+iupac	Mixed-IUPAC	nodL	Sinorhizobium	211	207	98.10426540284361
+iupac	Mixed-IUPAC	nodL	Rhizobium	19	17	89.47368421052632
+iupac	Mixed-IUPAC	nodX	Rhizobium	133	133	100
+iupac	Mixed-IUPAC	noeA	Sinorhizobium	194	194	100
+iupac	Mixed-IUPAC	noeB	Sinorhizobium	149	149	100
+iupac	Mixed-IUPAC	nolF	Sinorhizobium	209	209	100
+iupac	Mixed-IUPAC	nolG	Sinorhizobium	229	229	100
+strict	Strict single-dominant	nifD	Microvirga	107	74	69.1588785046729
+strict	Strict single-dominant	nifD	Mesorhizobium	104	87	83.65384615384616
+strict	Strict single-dominant	nifD	Sinorhizobium	88	74	84.0909090909091
+strict	Strict single-dominant	nifD	Rhizobium	19	18	94.73684210526316
+strict	Strict single-dominant	nifD	Azorhizobium	16	2	12.5
+strict	Strict single-dominant	nifD	Bradyrhizobium	6	0	0
+strict	Strict single-dominant	nifH	Mesorhizobium	190	171	90
+strict	Strict single-dominant	nifH	Microvirga	51	18	35.294117647058826
+strict	Strict single-dominant	nifH	Bradyrhizobium	43	21	48.83720930232558
+strict	Strict single-dominant	nifH	Sinorhizobium	42	37	88.0952380952381
+strict	Strict single-dominant	nifH	Rhizobium	34	21	61.76470588235294
+strict	Strict single-dominant	nifH	Neorhizobium	17	13	76.47058823529412
+strict	Strict single-dominant	nifH	Burkholderia	5	2	40
+strict	Strict single-dominant	nifH	Ensifer	5	3	60
+strict	Strict single-dominant	nifJ	Candidatus	181	181	100
+strict	Strict single-dominant	nifK	Sinorhizobium	180	156	86.66666666666667
+strict	Strict single-dominant	nifK	Mesorhizobium	165	121	73.33333333333333
+strict	Strict single-dominant	nifK	Microvirga	62	27	43.54838709677419
+strict	Strict single-dominant	nifK	Rhizobium	48	45	93.75
+strict	Strict single-dominant	nodL	Sinorhizobium	196	192	97.95918367346938
+strict	Strict single-dominant	nodL	Rhizobium	20	18	90
+strict	Strict single-dominant	nodX	Rhizobium	129	129	100
+strict	Strict single-dominant	noeA	Sinorhizobium	192	192	100
+strict	Strict single-dominant	noeB	Sinorhizobium	132	132	100
+strict	Strict single-dominant	nolF	Sinorhizobium	208	208	100
+strict	Strict single-dominant	nolG	Sinorhizobium	201	201	100

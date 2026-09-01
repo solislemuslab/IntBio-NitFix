@@ -1,0 +1,21 @@
+gene	tree_set_label	label_type	group	n_tips	mean_within_tree_distance	mean_between_group_distance	within_between_ratio	interpretation	cell_label
+nifH	Mixed-IUPAC	closest_blast_genus	Bradyrhizobium	253	0.1514306609880794	0.2200765520876733	0.6880817586044015	moderate close grouping	n=253
+r=0.69
+nifD	Mixed-IUPAC	closest_blast_genus	Azorhizobium	37	0.1038925963900901	0.25335072879453774	0.4100741958960176	strong close grouping	n=37
+r=0.41
+nifK	Mixed-IUPAC	closest_blast_genus	Microvirga	176	0.19659219530001296	0.3146181321251238	0.62485971158785	moderate close grouping	n=176
+r=0.62
+nodL	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	211	0.038768629040243655	0.16500998370922923	0.23494717209692853	strong close grouping	n=211
+r=0.23
+noeA	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	194	0.003374242866855404	0.01765014402989691	0.19117367320855294	strong close grouping	n=194
+r=0.19
+nifH	Strict single-dominant	closest_blast_genus	Neorhizobium	17	0.18043446847352942	0.24896748189284582	0.7247310656866722	moderate close grouping	n=17
+r=0.72
+nifD	Strict single-dominant	closest_blast_genus	Bradyrhizobium	6	0.06024921482666666	0.20729002232524366	0.29065178415647047	strong close grouping	n=6
+r=0.29
+nifK	Strict single-dominant	closest_blast_genus	Sinorhizobium	180	0.2170140388452946	0.41256562568708083	0.5260109551877536	moderate close grouping	n=180
+r=0.53
+nodL	Strict single-dominant	closest_blast_genus	Sinorhizobium	196	0.04014890035562001	0.19646057044928572	0.20436111054652584	strong close grouping	n=196
+r=0.2
+noeA	Strict single-dominant	closest_blast_genus	Sinorhizobium	192	0.004662538032106239	0.023224101319270832	0.20076290436424207	strong close grouping	n=192
+r=0.2

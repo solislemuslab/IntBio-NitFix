@@ -1,0 +1,10 @@
+file_type	path
+main_table	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/tables/01_phylocom_comstruct_all_results.tsv
+report_table	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/tables/02_phylocom_report_table.tsv
+significant_only_table	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/tables/03_phylocom_significant_clustering_only.tsv
+metadata_plot_data	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/tables/04_phylocom_metadata_plot_data.tsv
+blast_genus_plot_data	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/tables/05_phylocom_top_blast_genus_plot_data.tsv
+metadata_heatmap_png	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/figures/01_phylocom_metadata_clustering_heatmap.png
+metadata_heatmap_pdf	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/figures/01_phylocom_metadata_clustering_heatmap.pdf
+blast_genus_plot_png	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/figures/02_phylocom_closest_blast_genus_clustering.png
+blast_genus_plot_pdf	/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/phylocom_clustering/figures/02_phylocom_closest_blast_genus_clustering.pdf
