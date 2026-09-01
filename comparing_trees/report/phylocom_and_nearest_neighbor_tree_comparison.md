@@ -266,9 +266,6 @@ Result:
 
 ![Nearest-neighbor same BLAST genus heatmap](../result/tree_nearest_neighbor/figures/12_nearest_neighbor_same_blast_genus_heatmap.png)
 
-Figure file:
-
-[12_nearest_neighbor_same_blast_genus_heatmap.png](../result/tree_nearest_neighbor/figures/12_nearest_neighbor_same_blast_genus_heatmap.png)
 
 ### Meaning Of Columns In The Sample-Level Table
 
@@ -294,7 +291,6 @@ File:
 
 ### Meaning Of Columns In The Summary Table
 
-File:
 
 [12_nearest_neighbor_summary_with_random_test.tsv](../result/tree_nearest_neighbor/tables/12_nearest_neighbor_summary_with_random_test.tsv)
 
