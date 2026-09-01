@@ -687,9 +687,6 @@ The analyses were run separately for each gene and each tree set:
 - Strict single-dominant trees
 - Mixed-IUPAC trees
 
-Genes included:
-
-`nifH`, `nifD`, `nifK`, `nifJ`, `nodL`, `nolG`, `nolF`, `noeA`, `noeB`, `nodX`
 
 ## Part 1. Phylocom-Style Clustering Test
 
@@ -713,7 +710,7 @@ Are the 597 Mesorhizobium-assigned nifH tips closer together in the nifH tree
 than expected if genus labels were randomly placed on the same tree?
 ```
 
-This is a group-level test. It gives one p-value for the whole group, not one p-value for each sample.
+This is a group-level test. It gives one p-value for the whole group, **not one p-value for each sample**.
 
 ### Package, Function, Input, And Output
 
@@ -728,12 +725,10 @@ Function used:
 ```r
 phylocomr::ph_comstruct()
 ```
+ 
+ ph_comstruct() takes a phylogenetic tree and a sample/group table, randomizes tip labels, and tests whether tips in each group are closer together than expected by random labels.
 
-One-line comment for how the package runs:
 
-```r
-# ph_comstruct() takes a phylogenetic tree and a sample/group table, randomizes tip labels, and tests whether tips in each group are closer together than expected by random labels.
-```
 
 Main input to `ph_comstruct()`:
 
@@ -752,7 +747,7 @@ Main output from `ph_comstruct()`:
 | `ntaxa` | Number of tips tested in that group |
 | `mpd` | Observed mean pairwise phylogenetic distance among tips in the group |
 | `mpd_random` | Mean MPD from randomized groups |
-| `nri` | Net Relatedness Index; positive values mean same-label tips are closer than random |
+| `nri` | Net Relatedness Index; **positive values mean same-label tips are closer than random** |
 | `p_mpd_cluster` | p-value for clustering based on MPD |
 | `fdr_mpd` | BH/FDR-corrected p-value |
 
