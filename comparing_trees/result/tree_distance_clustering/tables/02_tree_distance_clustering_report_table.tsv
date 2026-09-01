@@ -1,0 +1,61 @@
+Gene	Tree set	Label tested	Tips used	Groups tested	Observed mean tree distance	Random mean tree distance	Observed/random distance	Permutation p-value	FDR	Result
+nifH	Strict single-dominant	site	357	18	0.18832	0.23402	0.805	0.001	0.00167	same-label tips are closer than random
+nifH	Strict single-dominant	state	361	13	0.19447	0.23424	0.83	0.001	0.002	same-label tips are closer than random
+nifH	Strict single-dominant	closest_blast_genus	387	8	0.19452	0.23406	0.831	0.001	0.001	same-label tips are closer than random
+nifH	Mixed-IUPAC	site	1508	31	0.20474	0.23094	0.887	0.001	0.00167	same-label tips are closer than random
+nifH	Mixed-IUPAC	state	1494	20	0.20966	0.23081	0.908	0.001	0.0025	same-label tips are closer than random
+nifH	Mixed-IUPAC	closest_blast_genus	1535	8	0.2088	0.23085	0.904	0.001	0.001	same-label tips are closer than random
+nifD	Strict single-dominant	site	315	16	0.19326	0.24489	0.789	0.001	0.00167	same-label tips are closer than random
+nifD	Strict single-dominant	state	327	13	0.19465	0.24492	0.795	0.001	0.002	same-label tips are closer than random
+nifD	Strict single-dominant	closest_blast_genus	340	6	0.20146	0.24481	0.823	0.001	0.001	same-label tips are closer than random
+nifD	Mixed-IUPAC	site	1448	34	0.25972	0.30018	0.865	0.001	0.00167	same-label tips are closer than random
+nifD	Mixed-IUPAC	state	1426	21	0.26737	0.30012	0.891	0.001	0.0025	same-label tips are closer than random
+nifD	Mixed-IUPAC	closest_blast_genus	1462	9	0.27019	0.29994	0.901	0.001	0.001	same-label tips are closer than random
+nifK	Strict single-dominant	site	420	19	0.31634	0.33582	0.942	0.001	0.00167	same-label tips are closer than random
+nifK	Strict single-dominant	state	433	16	0.30408	0.33592	0.905	0.001	0.002	same-label tips are closer than random
+nifK	Strict single-dominant	closest_blast_genus	455	4	0.22689	0.33572	0.676	0.001	0.001	same-label tips are closer than random
+nifK	Mixed-IUPAC	site	1026	28	0.29238	0.32609	0.897	0.001	0.00167	same-label tips are closer than random
+nifK	Mixed-IUPAC	state	1025	19	0.29569	0.32586	0.907	0.001	0.0025	same-label tips are closer than random
+nifK	Mixed-IUPAC	closest_blast_genus	1052	4	0.2418	0.32595	0.742	0.001	0.001	same-label tips are closer than random
+nifJ	Strict single-dominant	site	157	9	0.02888	0.05546	0.521	0.001	0.00167	same-label tips are closer than random
+nifJ	Strict single-dominant	state	158	8	0.02704	0.05531	0.489	0.001	0.002	same-label tips are closer than random
+nifJ	Strict single-dominant	closest_blast_genus	181	1	NA	NA	NA	NA	NA	not tested
+nifJ	Mixed-IUPAC	site	307	15	0.04373	0.06353	0.688	0.001	0.00167	same-label tips are closer than random
+nifJ	Mixed-IUPAC	state	305	12	0.03839	0.06364	0.603	0.001	0.0025	same-label tips are closer than random
+nifJ	Mixed-IUPAC	closest_blast_genus	325	1	NA	NA	NA	NA	NA	not tested
+nodL	Strict single-dominant	site	186	13	0.08061	0.06717	1.2	0.993	0.993	no strong clustering evidence
+nodL	Strict single-dominant	state	194	10	0.05752	0.06713	0.857	0.025	0.0357	same-label tips are closer than random
+nodL	Strict single-dominant	closest_blast_genus	216	2	0.04083	0.06699	0.61	0.001	0.001	same-label tips are closer than random
+nodL	Mixed-IUPAC	site	198	13	0.07255	0.05837	1.243	0.997	0.997	no strong clustering evidence
+nodL	Mixed-IUPAC	state	207	10	0.05507	0.05847	0.942	0.209	0.299	no strong clustering evidence
+nodL	Mixed-IUPAC	closest_blast_genus	230	2	0.0393	0.05849	0.672	0.001	0.001	same-label tips are closer than random
+nolG	Strict single-dominant	site	177	13	0.00725	0.00861	0.842	0.001	0.00167	same-label tips are closer than random
+nolG	Strict single-dominant	state	175	9	0.00738	0.00859	0.859	0.001	0.002	same-label tips are closer than random
+nolG	Strict single-dominant	closest_blast_genus	201	1	NA	NA	NA	NA	NA	not tested
+nolG	Mixed-IUPAC	site	204	13	0.00695	0.00796	0.874	0.001	0.00167	same-label tips are closer than random
+nolG	Mixed-IUPAC	state	203	9	0.00725	0.00796	0.911	0.005	0.01	same-label tips are closer than random
+nolG	Mixed-IUPAC	closest_blast_genus	229	1	NA	NA	NA	NA	NA	not tested
+nolF	Strict single-dominant	site	185	13	0.00634	0.00717	0.885	0.044	0.0629	no strong clustering evidence
+nolF	Strict single-dominant	state	188	9	0.00754	0.00716	1.053	0.665	0.831	no strong clustering evidence
+nolF	Strict single-dominant	closest_blast_genus	208	1	NA	NA	NA	NA	NA	not tested
+nolF	Mixed-IUPAC	site	186	13	0.00611	0.00754	0.811	0.001	0.00167	same-label tips are closer than random
+nolF	Mixed-IUPAC	state	189	9	0.00729	0.00755	0.967	0.269	0.336	no strong clustering evidence
+nolF	Mixed-IUPAC	closest_blast_genus	209	1	NA	NA	NA	NA	NA	not tested
+noeA	Strict single-dominant	site	168	12	0.00494	0.00485	1.019	0.648	0.81	no strong clustering evidence
+noeA	Strict single-dominant	state	174	9	0.0053	0.00486	1.091	0.983	1	no strong clustering evidence
+noeA	Strict single-dominant	closest_blast_genus	192	1	NA	NA	NA	NA	NA	not tested
+noeA	Mixed-IUPAC	site	170	12	0.0035	0.00352	0.994	0.478	0.597	no strong clustering evidence
+noeA	Mixed-IUPAC	state	176	9	0.00369	0.00352	1.048	0.807	0.897	no strong clustering evidence
+noeA	Mixed-IUPAC	closest_blast_genus	194	1	NA	NA	NA	NA	NA	not tested
+noeB	Strict single-dominant	site	105	7	0.0169	0.01549	1.091	0.932	0.993	no strong clustering evidence
+noeB	Strict single-dominant	state	113	5	0.01757	0.01551	1.133	1	1	no strong clustering evidence
+noeB	Strict single-dominant	closest_blast_genus	132	1	NA	NA	NA	NA	NA	not tested
+noeB	Mixed-IUPAC	site	122	7	0.01459	0.01373	1.063	0.925	0.997	no strong clustering evidence
+noeB	Mixed-IUPAC	state	130	5	0.01475	0.0137	1.077	0.981	0.981	no strong clustering evidence
+noeB	Mixed-IUPAC	closest_blast_genus	149	1	NA	NA	NA	NA	NA	not tested
+nodX	Strict single-dominant	site	97	10	0.03135	0.04181	0.75	0.001	0.00167	same-label tips are closer than random
+nodX	Strict single-dominant	state	109	9	0.03596	0.04181	0.86	0.025	0.0357	same-label tips are closer than random
+nodX	Strict single-dominant	closest_blast_genus	129	1	NA	NA	NA	NA	NA	not tested
+nodX	Mixed-IUPAC	site	100	10	0.02801	0.03687	0.76	0.002	0.00286	same-label tips are closer than random
+nodX	Mixed-IUPAC	state	112	9	0.03196	0.03691	0.866	0.026	0.0433	same-label tips are closer than random
+nodX	Mixed-IUPAC	closest_blast_genus	133	1	NA	NA	NA	NA	NA	not tested

@@ -1,0 +1,55 @@
+gene	tree_set	tree_set_label	label_type	label_value	ntaxa	mpd	mpd_random	nri	p_mpd_cluster	fdr_mpd	mntd	mntd_random	nti	p_mntd_cluster	fdr_mntd	interpretation	best_nri_for_label	label_rank
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Azorhizobium	37	0.1039	0.3069	9.4996	0.001	0.0020714285714285717	0.0321	0.0938	5.5128	0.001	0.002230769230769231	significant clustering by MPD	9.4996	5
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Bradyrhizobium	23	0.2153	0.3045	3.4028	0.001	0.0020714285714285717	0.0771	0.108	1.9548	0.02	0.03866666666666667	significant clustering by MPD	13.7446	4
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Mesorhizobium	455	0.2734	0.2997	5.1201	0.001	0.0020714285714285717	0.0332	0.042	6.4649	0.001	0.002230769230769231	significant clustering by MPD	20.9686	1
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Methylobacterium	17	0.1719	0.2935	3.7812	0.001	0.0020714285714285717	0.0514	0.1196	3.4921	0.001	0.002230769230769231	significant clustering by MPD	3.7812	6
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Microvirga	564	0.2706	0.297	5.7572	0.001	0.0020714285714285717	0.0386	0.04	1.3334	0.088	0.14177777777777778	significant clustering by MPD	14.4153	3
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	247	0.2496	0.3034	6.6185	0.001	0.0020714285714285717	0.0402	0.0526	5.3659	0.001	0.002230769230769231	significant clustering by MPD	16.3398	2
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Ensifer	31	0.2695	0.3053	1.5405	0.058	0.09894117647058824	0.1016	0.0995	-0.1732	0.562	0.7408181818181818	not significant / weak evidence	1.5405	8
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Burkholderia	6	0.2255	0.3048	1.375	0.071	0.11438888888888889	0.1399	0.1764	0.8263	0.209	0.319	not significant / weak evidence	1.375	9
+nifD	iupac	Mixed-IUPAC	closest_blast_genus	Rhizobium	82	0.3812	0.3036	-5.3902	1	1	0.039	0.0752	6.3863	0.001	0.002230769230769231	significant clustering by MNTD	-2.112	10
+nifH	iupac	Mixed-IUPAC	closest_blast_genus	Bradyrhizobium	253	0.1514	0.2303	13.7446	0.001	0.0020714285714285717	0.0221	0.0387	8.8474	0.001	0.002230769230769231	significant clustering by MPD	13.7446	4
+nifH	iupac	Mixed-IUPAC	closest_blast_genus	Mesorhizobium	638	0.2153	0.2285	4.3882	0.001	0.0020714285714285717	0.0229	0.0279	6.9782	0.001	0.002230769230769231	significant clustering by MPD	20.9686	1
+nifH	iupac	Mixed-IUPAC	closest_blast_genus	Microvirga	291	0.1947	0.2319	7.2879	0.001	0.0020714285714285717	0.037	0.0371	0.0323	0.492	0.6794285714285714	significant clustering by MPD	14.4153	3
+nifH	iupac	Mixed-IUPAC	closest_blast_genus	Neorhizobium	25	0.1924	0.2343	2.2384	0.013	0.0235625	0.0408	0.0871	3.8326	0.001	0.002230769230769231	significant clustering by MPD	2.2384	7
+nifH	iupac	Mixed-IUPAC	closest_blast_genus	Burkholderia	28	0.28	0.2292	-2.793	0.999	1	0.0579	0.0824	2.1394	0.013	0.02692857142857143	significant clustering by MNTD	1.375	9
+nifH	iupac	Mixed-IUPAC	closest_blast_genus	Ensifer	22	0.2898	0.2293	-2.9244	0.998	1	0.1122	0.0897	-1.699	0.956	1	not significant / weak evidence	1.5405	8
+nifH	iupac	Mixed-IUPAC	closest_blast_genus	Rhizobium	149	0.2643	0.2351	-3.8231	1	1	0.0315	0.0473	5.3445	0.001	0.002230769230769231	significant clustering by MNTD	-2.112	10
+nifH	iupac	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	129	0.2627	0.2323	-3.5141	1	1	0.0313	0.0499	5.5543	0.001	0.002230769230769231	significant clustering by MNTD	16.3398	2
+nifK	iupac	Mixed-IUPAC	closest_blast_genus	Mesorhizobium	382	0.2273	0.33	20.9686	0.001	0.0020714285714285717	0.032	0.0401	6.1363	0.001	0.002230769230769231	significant clustering by MPD	20.9686	1
+nifK	iupac	Mixed-IUPAC	closest_blast_genus	Microvirga	176	0.1966	0.3224	14.4153	0.001	0.0020714285714285717	0.0403	0.0506	3.9755	0.001	0.002230769230769231	significant clustering by MPD	14.4153	3
+nifK	iupac	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	354	0.2348	0.3242	16.3398	0.001	0.0020714285714285717	0.0381	0.041	2.0843	0.022	0.039875	significant clustering by MPD	16.3398	2
+nifK	iupac	Mixed-IUPAC	closest_blast_genus	Rhizobium	140	0.4668	0.3225	-14.4682	1	1	0.0383	0.0549	5.2967	0.001	0.002230769230769231	significant clustering by MNTD	-2.112	10
+nodL	iupac	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	211	0.0388	0.0578	9.8439	0.001	0.0020714285714285717	0.0046	0.0052	1.967	0.049	0.08358823529411764	significant clustering by MPD	16.3398	2
+nodL	iupac	Mixed-IUPAC	closest_blast_genus	Rhizobium	19	0.1085	0.0649	-2.112	0.983	1	0.0148	0.0167	0.2813	0.403	0.58435	not significant / weak evidence	-2.112	10
+nodX	iupac	Mixed-IUPAC	closest_blast_genus	Rhizobium	133	0.0369	0.0369	-5.1218	1	1	0.0014	0.0014	0.9995	1	1	not significant / weak evidence	-2.112	10
+noeA	iupac	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	194	0.0034	0.0034	2.3998	0.007	0.013533333333333333	3e-4	3e-4	0.9995	1	1	significant clustering by MPD	16.3398	2
+noeB	iupac	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	149	0.0137	0.0137	-0.3845	0.65	0.9425	0.0013	0.0013	NA	1	1	not significant / weak evidence	16.3398	2
+nolF	iupac	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	209	0.0075	0.0075	1.1586	0.126	0.19231578947368422	4e-4	4e-4	-0.9995	1	1	not significant / weak evidence	16.3398	2
+nolG	iupac	Mixed-IUPAC	closest_blast_genus	Sinorhizobium	229	0.008	0.008	4.2463	0.001	0.0020714285714285717	7e-4	7e-4	0.9995	1	1	significant clustering by MPD	16.3398	2
+nifD	strict	Strict single-dominant	closest_blast_genus	Azorhizobium	16	0.0679	0.2434	7.1525	0.001	0.0023636363636363638	0.03	0.0973	3.3328	0.001	0.006500000000000001	significant clustering by MPD	7.1525	4
+nifD	strict	Strict single-dominant	closest_blast_genus	Mesorhizobium	104	0.194	0.2457	7.0643	0.001	0.0023636363636363638	0.0429	0.0543	2.6842	0.006	0.015600000000000001	significant clustering by MPD	16.2581	2
+nifD	strict	Strict single-dominant	closest_blast_genus	Microvirga	107	0.1926	0.2445	7.3428	0.001	0.0023636363636363638	0.0462	0.0522	1.4312	0.072	0.1337142857142857	significant clustering by MPD	11.7235	3
+nifD	strict	Strict single-dominant	closest_blast_genus	Bradyrhizobium	6	0.0602	0.2434	4.3757	0.002	0.004333333333333333	0.0375	0.143	2.5656	0.006	0.015600000000000001	significant clustering by MPD	4.3757	5
+nifD	strict	Strict single-dominant	closest_blast_genus	Sinorhizobium	88	0.228	0.2434	1.8567	0.032	0.059428571428571435	0.0484	0.0549	1.2892	0.098	0.16986666666666667	not significant / weak evidence	18.4884	1
+nifD	strict	Strict single-dominant	closest_blast_genus	Rhizobium	19	0.2424	0.2425	0.0045	0.508	0.6951578947368421	0.0369	0.0893	3.0046	0.002	0.006500000000000001	significant clustering by MNTD	0.0045	8
+nifH	strict	Strict single-dominant	closest_blast_genus	Bradyrhizobium	43	0.1805	0.2382	4.1891	0.001	0.0023636363636363638	0.0453	0.0684	2.991	0.002	0.006500000000000001	significant clustering by MPD	4.3757	5
+nifH	strict	Strict single-dominant	closest_blast_genus	Mesorhizobium	187	0.1892	0.2348	8.7726	0.001	0.0023636363636363638	0.0267	0.0389	6.4089	0.001	0.006500000000000001	significant clustering by MPD	16.2581	2
+nifH	strict	Strict single-dominant	closest_blast_genus	Neorhizobium	17	0.1804	0.2298	2.0913	0.022	0.044	0.0645	0.0916	1.8421	0.028	0.06066666666666666	significant clustering by MPD	2.0913	6
+nifH	strict	Strict single-dominant	closest_blast_genus	Microvirga	54	0.2068	0.2305	1.9051	0.039	0.06760000000000001	0.0716	0.0597	-1.8056	0.967	1	not significant / weak evidence	11.7235	3
+nifH	strict	Strict single-dominant	closest_blast_genus	Ensifer	5	0.182	0.2358	1.1151	0.149	0.22788235294117645	0.104	0.1499	1.1589	0.123	0.199875	not significant / weak evidence	1.1151	7
+nifH	strict	Strict single-dominant	closest_blast_genus	Sinorhizobium	42	0.2217	0.2332	0.7857	0.223	0.3221111111111111	0.0328	0.0672	4.3448	0.001	0.006500000000000001	significant clustering by MNTD	18.4884	1
+nifH	strict	Strict single-dominant	closest_blast_genus	Burkholderia	5	0.2807	0.233	-1.0271	0.851	1	0.1416	0.1475	0.1586	0.432	0.624	not significant / weak evidence	-1.0271	9
+nifH	strict	Strict single-dominant	closest_blast_genus	Rhizobium	34	0.3097	0.2312	-4.671	1	1	0.0517	0.0718	2.0987	0.009	0.021272727272727273	significant clustering by MNTD	0.0045	8
+nifJ	strict	Strict single-dominant	closest_blast_genus	Candidatus	181	0.0555	0.0555	-2.3935	0.989	1	0.0075	0.0075	0.9995	1	1	not significant / weak evidence	-2.3935	10
+nifK	strict	Strict single-dominant	closest_blast_genus	Mesorhizobium	165	0.228	0.3383	16.2581	0.001	0.0023636363636363638	0.0384	0.0484	4.0823	0.002	0.006500000000000001	significant clustering by MPD	16.2581	2
+nifK	strict	Strict single-dominant	closest_blast_genus	Microvirga	62	0.1788	0.3362	11.7235	0.001	0.0023636363636363638	0.049	0.0664	2.8423	0.002	0.006500000000000001	significant clustering by MPD	11.7235	3
+nifK	strict	Strict single-dominant	closest_blast_genus	Sinorhizobium	180	0.217	0.3333	18.4884	0.001	0.0023636363636363638	0.0452	0.0472	0.891	0.186	0.2844705882352941	significant clustering by MPD	18.4884	1
+nifK	strict	Strict single-dominant	closest_blast_genus	Rhizobium	48	0.4353	0.3333	-6.4494	1	1	0.0409	0.0728	4.1885	0.001	0.006500000000000001	significant clustering by MNTD	0.0045	8
+nodL	strict	Strict single-dominant	closest_blast_genus	Sinorhizobium	196	0.0402	0.0679	13.2428	0.001	0.0023636363636363638	0.0052	0.0059	2.1084	0.038	0.076	significant clustering by MPD	18.4884	1
+nodL	strict	Strict single-dominant	closest_blast_genus	Rhizobium	20	0.1095	0.0592	-2.3214	0.984	1	0.0155	0.0157	0.0217	0.529	0.7238947368421054	not significant / weak evidence	0.0045	8
+nodX	strict	Strict single-dominant	closest_blast_genus	Rhizobium	129	0.0418	0.0418	-1.9572	0.977	1	0.0018	0.0018	0.9995	1	1	not significant / weak evidence	0.0045	8
+noeA	strict	Strict single-dominant	closest_blast_genus	Sinorhizobium	192	0.0047	0.0047	-2.397	0.988	1	4e-4	4e-4	0.9995	1	1	not significant / weak evidence	18.4884	1
+noeB	strict	Strict single-dominant	closest_blast_genus	Sinorhizobium	132	0.0155	0.0155	6.3464	0.001	0.0023636363636363638	0.002	0.002	-0.9995	1	1	significant clustering by MPD	18.4884	1
+nolF	strict	Strict single-dominant	closest_blast_genus	Sinorhizobium	208	0.0072	0.0072	1.3325	0.103	0.167375	8e-4	8e-4	-0.9995	1	1	not significant / weak evidence	18.4884	1
+nolG	strict	Strict single-dominant	closest_blast_genus	Sinorhizobium	201	0.0086	0.0086	4.4362	0.001	0.0023636363636363638	9e-4	9e-4	-0.9995	1	1	significant clustering by MPD	18.4884	1

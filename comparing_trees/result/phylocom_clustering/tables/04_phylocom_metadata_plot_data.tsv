@@ -1,0 +1,121 @@
+gene	tree_set	label_type	best_nri	best_nti	min_fdr_mpd	min_fdr_mntd	significant	tree_set_label	label_type_report
+nifD	iupac	host_genus	9.5725	7.3744	0.006366666666666666	0.004897435897435898	*	Mixed-IUPAC	Host genus
+nifD	iupac	host_tribe	8.4448	8.2446	0.006055555555555555	0.00545	*	Mixed-IUPAC	Host tribe
+nifD	iupac	native_status	2.3468	3.2034	0.03066666666666667	0.01725	*	Mixed-IUPAC	Native status
+nifD	iupac	sample_type	9.1783	2.5397	0.006	0.035	*	Mixed-IUPAC	Sample type
+nifD	iupac	site	13.2832	9.0918	0.0046315789473684215	0.004292682926829269	*	Mixed-IUPAC	Site
+nifD	iupac	state	13.5906	8.6436	0.005	0.0044444444444444444	*	Mixed-IUPAC	State
+nifD	strict	host_genus	9.4002	5.2217	0.006363636363636364	0.008235294117647058	*	Strict single-dominant	Host genus
+nifD	strict	host_tribe	8.6252	5.1884	0.006333333333333333	0.010555555555555556	*	Strict single-dominant	Host tribe
+nifD	strict	native_status	5.7502	1.6358	0.0033333333333333335	0.15666666666666668	*	Strict single-dominant	Native status
+nifD	strict	sample_type	4.2605	2.8244	0.015	0.045	*	Strict single-dominant	Sample type
+nifD	strict	site	10.4065	4.5421	0.005652173913043478	0.008125	*	Strict single-dominant	Site
+nifD	strict	state	9.7868	4.66	0.006666666666666667	0.007692307692307693	*	Strict single-dominant	State
+nifH	iupac	host_genus	10.2009	6.4589	0.006366666666666666	0.004897435897435898	*	Mixed-IUPAC	Host genus
+nifH	iupac	host_tribe	7.3865	7.425	0.006055555555555555	0.00545	*	Mixed-IUPAC	Host tribe
+nifH	iupac	native_status	5.5441	3.7768	0.00575	0.0115	*	Mixed-IUPAC	Native status
+nifH	iupac	sample_type	8.2679	3.2308	0.006	0.015	*	Mixed-IUPAC	Sample type
+nifH	iupac	site	15.0879	8.511	0.0046315789473684215	0.004292682926829269	*	Mixed-IUPAC	Site
+nifH	iupac	state	13.8039	8.7956	0.005	0.0044444444444444444	*	Mixed-IUPAC	State
+nifH	strict	host_genus	9.8284	5.3978	0.006363636363636364	0.008235294117647058	*	Strict single-dominant	Host genus
+nifH	strict	host_tribe	10.6436	6.0424	0.006333333333333333	0.010555555555555556	*	Strict single-dominant	Host tribe
+nifH	strict	native_status	4.8088	2.1721	0.0033333333333333335	0.085	*	Strict single-dominant	Native status
+nifH	strict	sample_type	5.5027	4.3874	0.015	0.03	*	Strict single-dominant	Sample type
+nifH	strict	site	9.614	5.7915	0.005652173913043478	0.008125	*	Strict single-dominant	Site
+nifH	strict	state	10.4485	6.3813	0.006666666666666667	0.007692307692307693	*	Strict single-dominant	State
+nifJ	iupac	host_genus	6.5915	4.2588	0.006366666666666666	0.004897435897435898	*	Mixed-IUPAC	Host genus
+nifJ	iupac	host_tribe	2.2467	2.1088	0.006055555555555555	0.00545	*	Mixed-IUPAC	Host tribe
+nifJ	iupac	native_status	4.7461	1.4717	0.00575	0.22425	*	Mixed-IUPAC	Native status
+nifJ	iupac	sample_type	2.438	3.2625	0.025	0.015	*	Mixed-IUPAC	Sample type
+nifJ	iupac	site	6.411	4.4908	0.0046315789473684215	0.004292682926829269	*	Mixed-IUPAC	Site
+nifJ	iupac	state	8.3456	5.2167	0.005	0.0044444444444444444	*	Mixed-IUPAC	State
+nifJ	strict	host_genus	6.6232	3.3192	0.006363636363636364	0.012173913043478262	*	Strict single-dominant	Host genus
+nifJ	strict	host_tribe	1.5679	1.5131	0.15437499999999998	0.1292		Strict single-dominant	Host tribe
+nifJ	strict	native_status	5.012	4.1071	0.0033333333333333335	0.02	*	Strict single-dominant	Native status
+nifJ	strict	sample_type	1.9063	1.1069	0.126	0.4145454545454545		Strict single-dominant	Sample type
+nifJ	strict	site	4.3054	2.8831	0.005652173913043478	0.011818181818181818	*	Strict single-dominant	Site
+nifJ	strict	state	6.4012	4.2332	0.006666666666666667	0.007692307692307693	*	Strict single-dominant	State
+nifK	iupac	host_genus	12.8119	7.0441	0.006366666666666666	0.004897435897435898	*	Mixed-IUPAC	Host genus
+nifK	iupac	host_tribe	14.2599	7.716	0.006055555555555555	0.00545	*	Mixed-IUPAC	Host tribe
+nifK	iupac	native_status	4.1608	4.4287	0.00575	0.0115	*	Mixed-IUPAC	Native status
+nifK	iupac	sample_type	3.4195	2.6612	0.006	0.035	*	Mixed-IUPAC	Sample type
+nifK	iupac	site	13.6786	8.0691	0.0046315789473684215	0.004292682926829269	*	Mixed-IUPAC	Site
+nifK	iupac	state	13.4107	7.9066	0.005	0.0044444444444444444	*	Mixed-IUPAC	State
+nifK	strict	host_genus	13.1491	5.9551	0.006363636363636364	0.008235294117647058	*	Strict single-dominant	Host genus
+nifK	strict	host_tribe	14.0482	7.0472	0.006333333333333333	0.010555555555555556	*	Strict single-dominant	Host tribe
+nifK	strict	native_status	4.4671	3.9367	0.0033333333333333335	0.02	*	Strict single-dominant	Native status
+nifK	strict	sample_type	1.3409	2.6051	0.32333333333333336	0.08		Strict single-dominant	Sample type
+nifK	strict	site	11.4474	4.6992	0.005652173913043478	0.008125	*	Strict single-dominant	Site
+nifK	strict	state	13.1848	5.5029	0.006666666666666667	0.007692307692307693	*	Strict single-dominant	State
+nodL	iupac	host_genus	3.9814	2.4483	0.006366666666666666	0.004897435897435898	*	Mixed-IUPAC	Host genus
+nodL	iupac	host_tribe	5.5263	2.8848	0.006055555555555555	0.00545	*	Mixed-IUPAC	Host tribe
+nodL	iupac	native_status	6.0717	2.8634	0.00575	0.015333333333333334	*	Mixed-IUPAC	Native status
+nodL	iupac	sample_type	2.3785	1.6958	0.04714285714285714	0.13499999999999998	*	Mixed-IUPAC	Sample type
+nodL	iupac	site	2.7705	2.327	0.0046315789473684215	0.004292682926829269	*	Mixed-IUPAC	Site
+nodL	iupac	state	3.6507	2.0267	0.005	0.033	*	Mixed-IUPAC	State
+nodL	strict	host_genus	4.98	2.6045	0.006363636363636364	0.008235294117647058	*	Strict single-dominant	Host genus
+nodL	strict	host_tribe	6.4701	2.8111	0.006333333333333333	0.014615384615384615	*	Strict single-dominant	Host tribe
+nodL	strict	native_status	4.7534	2.0534	0.0033333333333333335	0.085	*	Strict single-dominant	Native status
+nodL	strict	sample_type	3.1504	1.2927	0.02	0.4145454545454545	*	Strict single-dominant	Sample type
+nodL	strict	site	2.9384	2.3716	0.005652173913043478	0.011818181818181818	*	Strict single-dominant	Site
+nodL	strict	state	4.2321	1.9847	0.006666666666666667	0.06521739130434782	*	Strict single-dominant	State
+nodX	iupac	host_genus	1.5635	1.3388	0.06063492063492063	0.004897435897435898	*	Mixed-IUPAC	Host genus
+nodX	iupac	host_tribe	1.3448	1.5712	0.11678571428571428	0.029727272727272727	*	Mixed-IUPAC	Host tribe
+nodX	iupac	native_status	0.2886	1.3311	0.7392857142857143	0.22425		Mixed-IUPAC	Native status
+nodX	iupac	sample_type	1.1603	0.3515	0.3225	0.7252941176470588		Mixed-IUPAC	Sample type
+nodX	iupac	site	2.1355	1.3774	0.0046315789473684215	0.024275862068965516	*	Mixed-IUPAC	Site
+nodX	iupac	state	2.56	1.4925	0.005	0.0044444444444444444	*	Mixed-IUPAC	State
+nodX	strict	host_genus	1.5943	1.4751	0.08909090909090908	0.012173913043478262	*	Strict single-dominant	Host genus
+nodX	strict	host_tribe	1.4072	1.276	0.11399999999999999	0.2273214285714286		Strict single-dominant	Host tribe
+nodX	strict	native_status	0.2372	1.3664	0.74	0.1925		Strict single-dominant	Native status
+nodX	strict	sample_type	1.1788	0.3851	0.32999999999999996	0.7499999999999999		Strict single-dominant	Sample type
+nodX	strict	site	2.2143	1.3361	0.005652173913043478	0.018571428571428572	*	Strict single-dominant	Site
+nodX	strict	state	2.6738	1.5555	0.006666666666666667	0.007692307692307693	*	Strict single-dominant	State
+noeA	iupac	host_genus	2.0908	1.8321	0.02076086956521739	0.004897435897435898	*	Mixed-IUPAC	Host genus
+noeA	iupac	host_tribe	1.7868	1.7858	0.034257142857142854	0.032058823529411765	*	Mixed-IUPAC	Host tribe
+noeA	iupac	native_status	0.2147	0.0124	0.7392857142857143	0.7345625		Mixed-IUPAC	Native status
+noeA	iupac	sample_type	1.2285	2.0343	0.2672727272727273	0.035	*	Mixed-IUPAC	Sample type
+noeA	iupac	site	1.7464	1.5325	0.017254901960784316	0.026399999999999996	*	Mixed-IUPAC	Site
+noeA	iupac	state	2.5438	1.8491	0.005	0.019459459459459462	*	Mixed-IUPAC	State
+noeA	strict	host_genus	2.1215	1.5544	0.0112	0.07823529411764706	*	Strict single-dominant	Host genus
+noeA	strict	host_tribe	2.1362	1.611	0.016764705882352942	0.095	*	Strict single-dominant	Host tribe
+noeA	strict	native_status	0.5531	0.1885	0.6888888888888889	0.7466666666666667		Strict single-dominant	Native status
+noeA	strict	sample_type	1.3914	1.6302	0.28125	0.192		Strict single-dominant	Sample type
+noeA	strict	site	1.8087	1.5249	0.018571428571428572	0.07027027027027027	*	Strict single-dominant	Site
+noeA	strict	state	1.8655	1.5428	0.03913043478260869	0.116	*	Strict single-dominant	State
+noeB	iupac	host_genus	2.3412	1.7328	0.010914285714285715	0.02680701754385965	*	Mixed-IUPAC	Host genus
+noeB	iupac	host_tribe	1.9153	1.5803	0.032058823529411765	0.033305555555555554	*	Mixed-IUPAC	Host tribe
+noeB	iupac	native_status	0.6096	0.9424	0.5959090909090908	0.3700909090909091		Mixed-IUPAC	Native status
+noeB	iupac	sample_type	0.1086	0.5908	0.8735294117647059	0.7252941176470588		Mixed-IUPAC	Sample type
+noeB	iupac	site	2.1694	1.6555	0.012	0.026399999999999996	*	Mixed-IUPAC	Site
+noeB	iupac	state	2.1974	1.8881	0.017142857142857144	0.0044444444444444444	*	Mixed-IUPAC	State
+noeB	strict	host_genus	2.8858	1.841	0.006363636363636364	0.012173913043478262	*	Strict single-dominant	Host genus
+noeB	strict	host_tribe	2.062	1.4529	0.03717391304347826	0.095	*	Strict single-dominant	Host tribe
+noeB	strict	native_status	0.2282	1.2913	0.74	0.1925		Strict single-dominant	Native status
+noeB	strict	sample_type	0.3419	0.3063	0.794	0.8178947368421053		Strict single-dominant	Sample type
+noeB	strict	site	2.2882	1.7522	0.009285714285714286	0.035454545454545454	*	Strict single-dominant	Site
+noeB	strict	state	2.4488	1.9351	0.006666666666666667	0.013333333333333334	*	Strict single-dominant	State
+nolF	iupac	host_genus	1.9292	0.6064	0.006366666666666666	0.3305130434782609	*	Mixed-IUPAC	Host genus
+nolF	iupac	host_tribe	1.4344	0.6099	0.029727272727272727	0.3722769230769231	*	Mixed-IUPAC	Host tribe
+nolF	iupac	native_status	0.8625	1.1397	0.5959090909090908	0.3174		Mixed-IUPAC	Native status
+nolF	iupac	sample_type	0.871	0.9691	0.4523076923076923	0.29727272727272724		Mixed-IUPAC	Sample type
+nolF	iupac	site	2.7869	1.2149	0.0046315789473684215	0.004292682926829269	*	Mixed-IUPAC	Site
+nolF	iupac	state	2.71	1.2331	0.005	0.052173913043478265	*	Mixed-IUPAC	State
+nolF	strict	host_genus	0.7938	0.6395	0.09644444444444444	0.2826923076923077		Strict single-dominant	Host genus
+nolF	strict	host_tribe	0.6498	0.5082	0.15926470588235295	0.6257608695652174		Strict single-dominant	Host tribe
+nolF	strict	native_status	0.7153	0.8821	0.74	0.6145454545454546		Strict single-dominant	Native status
+nolF	strict	sample_type	0.5769	0.8337	0.87375	0.4145454545454545		Strict single-dominant	Sample type
+nolF	strict	site	1.2349	0.5702	0.005652173913043478	0.26	*	Strict single-dominant	Site
+nolF	strict	state	0.9076	0.5419	0.0423076923076923	0.34523809523809523	*	Strict single-dominant	State
+nolG	iupac	host_genus	2.1334	1.9123000000000001	0.05503389830508475	0.03757377049180328	*	Mixed-IUPAC	Host genus
+nolG	iupac	host_tribe	1.7718	1.411	0.095025641025641025	0.10107272727272727		Mixed-IUPAC	Host tribe
+nolG	iupac	native_status	1.0589	0.5957	0.3884444444444444	0.5558333333333333		Mixed-IUPAC	Native status
+nolG	iupac	sample_type	1.8275	2.0419	0.13499999999999998	0.04285714285714286	*	Mixed-IUPAC	Sample type
+nolG	iupac	site	3.8029	2.1316	0.0046315789473684215	0.00748936170212766	*	Mixed-IUPAC	Site
+nolG	iupac	state	3.6119	2.1703	0.005	0.010909090909090908	*	Mixed-IUPAC	State
+nolG	strict	host_genus	2.0355	1.2275	0.07666666666666667	0.22458333333333333		Strict single-dominant	Host genus
+nolG	strict	host_tribe	2.6978	0.8559	0.02375	0.47	*	Strict single-dominant	Host tribe
+nolG	strict	native_status	2.4241	0.7757	0.028571428571428574	0.44	*	Strict single-dominant	Native status
+nolG	strict	sample_type	1.2524	1.8439	0.32999999999999996	0.1725		Strict single-dominant	Sample type
+nolG	strict	site	3.6962	2.1156	0.005652173913043478	0.011818181818181818	*	Strict single-dominant	Site
+nolG	strict	state	3.711	1.5188	0.006666666666666667	0.209375	*	Strict single-dominant	State

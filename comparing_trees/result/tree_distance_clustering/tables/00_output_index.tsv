@@ -1,0 +1,7 @@
+file	meaning
+/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/tree_distance_clustering/tables/00_tree_distance_input_manifest.tsv	Input tree and BLAST file manifest used by the R script.
+/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/tree_distance_clustering/tables/01_tree_distance_clustering_results.tsv	Full permutation-test results for metadata and BLAST-genus clustering on each tree.
+/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/tree_distance_clustering/tables/02_tree_distance_clustering_report_table.tsv	Clean table for the report.
+/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/tree_distance_clustering/figures/01_tree_distance_clustering_heatmap.png	Heatmap of clustering strength across genes and labels.
+/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/tree_distance_clustering/figures/02_observed_random_distance_ratio.png	Observed/random within-label tree-distance ratio. Values below 1 indicate clustering.
+/Users/rosa/Desktop/ALLWork/Madison/Project/ryan-nitfix/intbio-nitfix-git/comparing_trees/result/tree_distance_clustering/figures/03_significant_tree_distance_clustering_only.png	Only significant clustering results, for easier reporting.
