@@ -245,8 +245,7 @@ For example, for Mixed-IUPAC `nifH` + `Mesorhizobium`:
 | Random expected percent | 38.8% |
 | FDR | 0.0016 |
 
-Interpretation:
-
+I kept the tree fixed and randomly shuffled only the closest BLAST genus labels across the tips. Then we compared the real result to the randomized results to test whether samples assigned to the same genus were closer together than expected by chance.
 ```text
 Mesorhizobium-assigned nifH samples are much more often nearest to other
 Mesorhizobium-assigned nifH samples than expected by random labels.
