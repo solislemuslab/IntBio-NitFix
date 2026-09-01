@@ -657,19 +657,17 @@ Example figures:
 | iTOL exported tree figures | `../result/trees/Figure` | exported locally from iTOL |
 | Reference/taxon matching table | `../result/reference/taxon_fastas_vs_symbiosis_islands_gene_list_match.tsv` | copied/generated from reference checks |
 
-Other final summary table for the 20 gene trees is:
+final summary table for the 20 gene trees is:
 
 - [tree_summary_strict_and_mixed_iupac](../result/comparative_tree_analysis/tables/05_tree_summary_strict_and_mixed_iupac.tsv)
 
-The most important final coverage table is:
+final coverage table is:
 
 - [coverage_summary_by_gene_pct80_depth10](../result/comparative_tree_analysis/tables/01_coverage_summary_by_gene_pct80_depth10.tsv)
 
-The most important final BLAST/taxon table is:
+final BLAST/taxon table is:
 
 - [blast_assignment_rows_deduplicated_strict_iupac](../result/comparative_tree_analysis/tables/11b_blast_assignment_rows_deduplicated_strict_iupac.tsv)
-
-
 
 
 
@@ -718,11 +716,6 @@ Package:
 
 ```r
 library(phylocomr)
-```
-
-Function used:
-
-```r
 phylocomr::ph_comstruct()
 ```
  
