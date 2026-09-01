@@ -1,3 +1,5 @@
+
+
 # Phylocom And Nearest-Neighbor Tree Comparison
 
 This section describes two related analyses that use the functional-gene trees to ask whether samples with the same label are close together in the tree.
@@ -11,15 +13,12 @@ The analyses were run separately for each gene and each tree set:
 - Strict single-dominant trees
 - Mixed-IUPAC trees
 
-Genes included:
-
-`nifH`, `nifD`, `nifK`, `nifJ`, `nodL`, `nolG`, `nolF`, `noeA`, `noeB`, `nodX`
 
 ## Part 1. Phylocom-Style Clustering Test
 
 ### Purpose
 
-We used the `phylocomr` package to test whether samples with the same label are more clustered in the tree than expected by random labels.
+I used the `phylocomr` package to test whether samples with the same label are more clustered in the tree than expected by random labels.
 
 For example, for:
 
@@ -37,7 +36,7 @@ Are the 597 Mesorhizobium-assigned nifH tips closer together in the nifH tree
 than expected if genus labels were randomly placed on the same tree?
 ```
 
-This is a group-level test. It gives one p-value for the whole group, not one p-value for each sample.
+This is a group-level test. It gives one p-value for the whole group, **not one p-value for each sample**.
 
 ### Package, Function, Input, And Output
 
@@ -45,19 +44,12 @@ Package:
 
 ```r
 library(phylocomr)
-```
-
-Function used:
-
-```r
 phylocomr::ph_comstruct()
 ```
+ 
+ ph_comstruct() takes a phylogenetic tree and a sample/group table, randomizes tip labels, and tests whether tips in each group are closer together than expected by random labels.
 
-One-line comment for how the package runs:
 
-```r
-# ph_comstruct() takes a phylogenetic tree and a sample/group table, randomizes tip labels, and tests whether tips in each group are closer together than expected by random labels.
-```
 
 Main input to `ph_comstruct()`:
 
@@ -76,7 +68,7 @@ Main output from `ph_comstruct()`:
 | `ntaxa` | Number of tips tested in that group |
 | `mpd` | Observed mean pairwise phylogenetic distance among tips in the group |
 | `mpd_random` | Mean MPD from randomized groups |
-| `nri` | Net Relatedness Index; positive values mean same-label tips are closer than random |
+| `nri` | Net Relatedness Index; **positive values mean same-label tips are closer than random** |
 | `p_mpd_cluster` | p-value for clustering based on MPD |
 | `fdr_mpd` | BH/FDR-corrected p-value |
 
@@ -98,7 +90,7 @@ Interpretation:
 | NRI near 0 | Same-label tips are about as close as random |
 | Negative NRI | Same-label tips are more spread out than random |
 
-In this report, we interpret a group as having supported clustering when:
+In this report, I interpret a group as having supported clustering when:
 
 ```text
 NRI > 0 and FDR(MPD) < 0.05
@@ -149,13 +141,11 @@ Main tables:
 - [11_blast_genus_counts_with_matched_phylocom_NRI.tsv](../result/phylocom_clustering/tables/11_blast_genus_counts_with_matched_phylocom_NRI.tsv)
 - [11_matched_heatmap_join_check.tsv](../result/phylocom_clustering/tables/11_matched_heatmap_join_check.tsv)
 
+
+
 Main figure:
 
-![Gene-by-genus BLAST assignment summary with matched Phylocom NRI](../result/phylocom_clustering/figures/11_blast_genus_by_gene_heatmap_min5_with_matched_phylocom_NRI.png)
-
-Figure file:
-
-[11_blast_genus_by_gene_heatmap_min5_with_matched_phylocom_NRI.png](../result/phylocom_clustering/figures/11_blast_genus_by_gene_heatmap_min5_with_matched_phylocom_NRI.png)
+![Gene-by-genus BLAST assignment summary with matched Phylocom NRI](../result/phylocom_clustering/figures/06_blast_genus_by_gene_heatmap_min5_with_phylocom_NRI.png)
 
 ### Example Phylocom Results
 
@@ -174,7 +164,7 @@ Some strong positive NRI results were:
 
 ### Purpose
 
-The Phylocom result is useful, but it is not a per-sample result. Because of that, we added a second analysis to answer a more direct question:
+The Phylocom result is useful, but it is not a per-sample result. Because of that, I added a second analysis to answer a more direct question:
 
 ```text
 For each sample, is its nearest neighbor in the tree assigned to the same closest BLAST genus?
@@ -238,7 +228,7 @@ Mesorhizobium-assigned nifH sample in the tree.
 
 ### Random Test For The Nearest-Neighbor Result
 
-We also asked whether the observed nearest-neighbor percentage is higher than expected by random labels.
+I also asked whether the observed nearest-neighbor percentage is higher than expected by random labels.
 
 For each gene and tree set, the code:
 
@@ -360,10 +350,10 @@ The two analyses answer related but different questions.
 Suggested report sentence:
 
 ```text
-We first used phylocomr::ph_comstruct to test whether tips assigned to the same
+I first used phylocomr::ph_comstruct to test whether tips assigned to the same
 closest BLAST genus were phylogenetically clustered within each functional-gene
-tree. We then performed a sample-level nearest-neighbor analysis to make the
-tree pattern easier to interpret. For each sample, we identified the closest
+tree. I then performed a sample-level nearest-neighbor analysis to make the
+tree pattern easier to interpret. For each sample, I identified the closest
 tip in the tree and asked whether that nearest neighbor had the same closest
 BLAST genus assignment. This provided an interpretable percentage for each
 gene-genus group.
