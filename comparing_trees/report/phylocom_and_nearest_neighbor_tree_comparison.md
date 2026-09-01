@@ -325,7 +325,6 @@ Some strong sample-level nearest-neighbor results were:
 | Mixed-IUPAC | nifD | Mesorhizobium | 455 | 334 | 73.4% | 31.1% | 0.0016 | Strong sample-level clustering |
 | Mixed-IUPAC | nifD | Microvirga | 564 | 390 | 69.1% | 38.6% | 0.0016 | Strong sample-level clustering |
 
-## How To Report These Two Analyses Together
 
 The two analyses answer related but different questions.
 
@@ -334,9 +333,8 @@ The two analyses answer related but different questions.
 | Phylocom NRI | Are all tips in a label group closer together than random? | One NRI and one p-value per group |
 | Nearest-neighbor analysis | For each sample, is the closest tree neighbor the same BLAST genus? | One row per sample, plus a percent summary per group |
 
-Suggested report sentence:
 
-```text
+
 I first used phylocomr::ph_comstruct to test whether tips assigned to the same
 closest BLAST genus were phylogenetically clustered within each functional-gene
 tree. I then performed a sample-level nearest-neighbor analysis to make the
@@ -344,20 +342,20 @@ tree pattern easier to interpret. For each sample, I identified the closest
 tip in the tree and asked whether that nearest neighbor had the same closest
 BLAST genus assignment. This provided an interpretable percentage for each
 gene-genus group.
-```
+
 
 Example result sentence:
 
-```text
+
 For the Mixed-IUPAC nifH tree, 597 samples were assigned to Mesorhizobium by
 BLAST. Of these, 454 samples had a nearest tree neighbor also assigned to
 Mesorhizobium (76.0%), compared with a random expectation of 38.8%
 (FDR = 0.0016). This indicates that Mesorhizobium-assigned nifH samples are
 not randomly distributed across the tree, but tend to occur near other
 Mesorhizobium-assigned nifH samples.
-```
 
-## Reproducibility
+
+## Running code
 
 Run Step 10 first:
 
@@ -376,14 +374,6 @@ Then run Step 12:
 ```bash
 Rscript comparing_trees/code/Rcode/12_nearest_neighbor_same_blast_genus_in_trees.R
 ```
-
-The result files are under:
-
-[comparing_trees/result](../result)
-
-On GitHub, the result folder will be available here after pushing:
-
-https://github.com/solislemuslab/IntBio-NitFix/tree/main/comparing_trees/result
 
 ## Reference
 
