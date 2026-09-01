@@ -108,10 +108,6 @@ The new code checks that:
 BLAST heatmap n = Phylocom ntaxa
 ```
 
-Check table:
-
-[10_blast_count_vs_phylocom_ntaxa_check.tsv](../result/phylocom_clustering/tables/10_blast_count_vs_phylocom_ntaxa_check.tsv)
-
 Result:
 
 ```text
