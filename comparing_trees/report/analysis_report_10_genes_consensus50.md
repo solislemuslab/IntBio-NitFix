@@ -815,6 +815,10 @@ Main tables:
 
 
 
+Main figure:
+
+![Gene-by-genus BLAST assignment summary with matched Phylocom NRI](../result/phylocom_clustering/figures/06_blast_genus_by_gene_heatmap_min5_with_phylocom_NRI.png)
+
 ### Example Phylocom Results
 
 Some strong positive NRI results were:
