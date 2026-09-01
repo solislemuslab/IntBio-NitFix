@@ -257,14 +257,12 @@ Code:
 
 - [12_nearest_neighbor_same_blast_genus_in_trees.R](../code/Rcode/12_nearest_neighbor_same_blast_genus_in_trees.R)
 
-Main tables:
+Result:
 
 - [12_nearest_neighbor_by_sample.tsv](../result/tree_nearest_neighbor/tables/12_nearest_neighbor_by_sample.tsv)
 - [12_nearest_neighbor_summary_by_gene_genus.tsv](../result/tree_nearest_neighbor/tables/12_nearest_neighbor_summary_by_gene_genus.tsv)
 - [12_nearest_neighbor_summary_with_random_test.tsv](../result/tree_nearest_neighbor/tables/12_nearest_neighbor_summary_with_random_test.tsv)
-- [12_nearest_neighbor_n_matches_blast_heatmap_check.tsv](../result/tree_nearest_neighbor/tables/12_nearest_neighbor_n_matches_blast_heatmap_check.tsv)
 
-Main figure:
 
 ![Nearest-neighbor same BLAST genus heatmap](../result/tree_nearest_neighbor/figures/12_nearest_neighbor_same_blast_genus_heatmap.png)
 
