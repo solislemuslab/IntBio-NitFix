@@ -813,9 +813,6 @@ Main tables:
 - [11_blast_genus_counts_with_matched_phylocom_NRI.tsv](../result/phylocom_clustering/tables/11_blast_genus_counts_with_matched_phylocom_NRI.tsv)
 - [11_matched_heatmap_join_check.tsv](../result/phylocom_clustering/tables/11_matched_heatmap_join_check.tsv)
 
-Main figure:
-
-![Gene-by-genus BLAST assignment summary with matched Phylocom NRI](../result/phylocom_clustering/figures/06_blast_genus_by_gene_heatmap_min5_with_phylocom_NRI.png)
 
 
 ### Example Phylocom Results
