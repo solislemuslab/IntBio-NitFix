@@ -183,7 +183,7 @@ For each sample, the code finds:
 
 Each tree has branch lengths. The distance between two tips is the total branch length connecting them.
 
-For one sample/tip, the nearest neighbor is the other tip with the smallest tree distance.
+For one sample/tip, the nearest neighbor is the other tip with the smallest tree distance (dist_mat <- cophenetic.phylo(tr)).
 
 Example:
 
@@ -202,8 +202,6 @@ If sample A is `Mesorhizobium` but sample B is `Bradyrhizobium`, then sample A i
 ```text
 nearest_neighbor_same_blast_genus = FALSE
 ```
-
-### Why This Analysis Is Easier To Explain
 
 This analysis gives a direct fraction.
 
