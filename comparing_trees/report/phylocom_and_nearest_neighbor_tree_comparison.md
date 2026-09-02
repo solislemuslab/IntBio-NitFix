@@ -453,7 +453,6 @@ Closest-BLAST-genus assignments represent the nearest available reference sequen
 | `nodX` | canonical nod | Rhizobium | 133 | Yes — nodX is the defining *R. leguminosarum* bv. viciae host-specificity gene (Afghanistan pea system) | Hogg et al. (2002); Davis et al. (1988) |
 | `nolG`, `nolF`, `noeA`, `noeB` | accessory / Other | Sinorhizobium | 149–229 | **Reference-database artifact, not independent confirmation.** Taxon reference sets for these four genes are 70–97% Sinorhizobium by composition (52/78, 64/74, 55/59, 57/59 respectively), leaving little alternative genus to assign | Barnett et al. (2001) |
 
-## Notes on interpretation
 
 - **Ensifer vs. Sinorhizobium**: these are taxonomic synonyms for the same genus (Martens et al. 2008); treating them as independent genera in counts/statistics will understate real Sinorhizobium-genus support and should be merged before any downstream analysis that counts "distinct genera."
 - **nifJ and the four accessory genes** (`nolG`, `nolF`, `noeA`, `noeB`) show apparently strong single-genus signal largely because their taxon reference alignments contain few or no alternative genera — this should be reported as a reference-database limitation, not as biological confirmation of genus identity.
