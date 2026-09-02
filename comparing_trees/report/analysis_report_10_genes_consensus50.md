@@ -277,9 +277,8 @@ For each gene, two FASTA sets were created:
 
 Important interpretation: mixed-IUPAC calls suggest possible multiple templates, multicopy signal, or mixed infection, but they do not prove multiple organisms because variants are not phased across the gene.
 
-```text
-For each sample–gene pair meeting the coverage criteria, I used the mapped-read pileup to call a consensus sequence. I retained base calls only when base quality was at least 20 and mapping quality was at least 10, and I excluded sequences with more than 20% unresolved base positions (N). I classified a base position as mixed when its depth was at least 20, at least 5 reads supported the minor allele, and the minor-allele frequency was at least 20%. I then created a strict set containing sequences with no more than 10 mixed base positions, and a mixed-IUPAC set containing both strict sequences and sequences with more than 10 mixed base positions. At mixed positions, I used IUPAC ambiguity codes—for example, R for A/G, Y for C/T, and N when the base could not be resolved.
-```
+For each sample and each gene, I first checked whether the gene was well covered in that sample. A sample was kept only if at least 80% of the gene was covered and the mean read depth was at least 10. Then I built the consensus sequence position by position. At most positions, one DNA base was clearly dominant, such as mostly A, so the consensus base was written as A. At some positions, however, more than one real base was present in enough reads to pass the mixed-base thresholds. For example, if both A and G were present strongly, the mixed-IUPAC consensus used R. If three bases were present strongly, such as A, C, and G, the mixed-IUPAC consensus used V. In the strict consensus, these mixed positions were simplified to the dominant base, so the strict sequence contains only A, C, G, T, and N.
+I then classified samples based on how many mixed positions they had in the gene consensus sequence. If a sample had 10 or fewer mixed positions, I called it a strict sample.  If a sample had more than 10 mixed positions, I called it mixed. 
 
 | Item | Path |
 |---|---|
