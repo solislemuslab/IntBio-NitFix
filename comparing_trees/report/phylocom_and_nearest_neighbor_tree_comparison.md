@@ -383,112 +383,32 @@ Webb, C. O., Ackerly, D. D., & Kembel, S. W. (2008). Phylocom: software for the 
 
 ## Literature Support For Closest BLAST Genus Patterns
 
-The closest BLAST genus assignments should be interpreted as the closest available reference sequence, not as confirmed species identity. However, the main genera recovered in the functional-gene trees are consistent with known nitrogen-fixing and nodulating bacterial groups reported in the literature.
+## Literature Support For Significant Closest-BLAST Genus Patterns
 
-Mesorhizobium is a well-known legume symbiont genus. Colombi et al. (2023) showed that Mesorhizobium can become nitrogen-fixing symbionts through horizontal transfer of symbiosis-gene-carrying integrative and conjugative elements (ICESyms), supporting the interpretation of Mesorhizobium-associated nif/nod signals in our results. Colombi et al. (2021) also showed that Mesorhizobium symbiosis genes are often carried on mobile ICE elements.
+The significant genus patterns reported here come from our tree-clustering analysis. The literature references do not prove our exact sample assignments; they show that these genera and genes are biologically reasonable nitrogen-fixation or nodulation-related signals.
 
-Bradyrhizobium is another major nitrogen-fixing legume symbiont genus. Ormeño-Orrillo and Martínez-Romero (2019) describe Bradyrhizobium as a diverse genus that includes nitrogen-fixing nodule-forming bacteria. The Genisteae rhizobial review by Stępkowski et al. (2018) also shows that nifD and nifH are commonly used symbiotic-gene markers for Bradyrhizobium and related rhizobia.
+| Gene name | Significant closest BLAST genus in our analysis | Exact sentence or phrase from reference supporting biological relevance | Reference link |
+|---|---|---|---|
+| `nifH` | `Mesorhizobium` | “Mesorhizobia are soil bacteria that establish nitrogen-fixing symbioses with various legumes.” | [Colombi et al. 2023](https://doi.org/10.1099/mgen.0.000918) |
+| `nifD` | `Mesorhizobium` | “Mesorhizobia are soil bacteria that establish nitrogen-fixing symbioses with various legumes.” | [Colombi et al. 2023](https://doi.org/10.1099/mgen.0.000918) |
+| `nifK` | `Mesorhizobium` | “symbiosis-gene-carrying integrative and conjugative elements (ICESyms)” | [Colombi et al. 2023](https://doi.org/10.1099/mgen.0.000918) |
+| `nifH` | `Bradyrhizobium` | “includes nitrogen-fixing nodule forming bacteria” | [Ormeño-Orrillo & Martínez-Romero 2019](https://doi.org/10.3389/fmicb.2019.01334) |
+| `nifD` | `Bradyrhizobium` | “symbiosis islands which carry nod and nif genes” | [Ormeño-Orrillo & Martínez-Romero 2019](https://doi.org/10.3389/fmicb.2019.01334) |
+| `nifH` | `Microvirga` | “alphaproteobacterial root-nodule bacteria that specifically nodulate and fix nitrogen” | [Ardley et al. 2012](https://doi.org/10.1099/ijs.0.035097-0) |
+| `nifD` | `Microvirga` | “Concatenated sequences for nifD and nifH…” | [Ardley et al. 2012](https://pubmed.ncbi.nlm.nih.gov/22199210/) |
+| `nifK` | `Microvirga` | “strains belong to the genus Microvirga” | [Ardley et al. 2012](https://doi.org/10.1099/ijs.0.035097-0) |
+| `nifD` | `Azorhizobium` | “stem- and root-nodulating strains” | [Dreyfus et al. 1988](https://doi.org/10.1099/00207713-38-1-89) |
+| `nifD` | `Methylobacterium` | “legume root-nodule-forming and nitrogen-fixing bacteria” | [Jourand et al. 2004](https://doi.org/10.1099/ijs.0.02902-0) |
+| `nifH` | `Neorhizobium` | “R. galegae…represented a new genus, for which the name Neorhizobium is proposed.” | [Mousavi et al. 2014](https://doi.org/10.1016/j.syapm.2013.12.007) |
+| `nifD` | `Sinorhizobium` | “The symbiotic nitrogen-fixing soil bacterium Sinorhizobium meliloti…” | [Barnett et al. 2001](https://doi.org/10.1073/pnas.161294798) |
+| `nifK` | `Sinorhizobium` | “genes known to be specifically involved in symbiosis” | [Barnett et al. 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC55547/) |
+| `nodL` | `Sinorhizobium` | “nod genes required for synthesis of Nod factor” | [Barnett et al. 2001](https://doi.org/10.1073/pnas.161294798) |
+| `noeA` | `Sinorhizobium` | “nod genes…as well as the nol and noe genes” | [Barnett et al. 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC55547/) |
+| `noeB` | `Sinorhizobium` | “nod genes…as well as the nol and noe genes” | [Barnett et al. 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC55547/) |
+| `nolG` | `Sinorhizobium` | “nod genes…as well as the nol and noe genes” | [Barnett et al. 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC55547/) |
+| `nodX` | `Rhizobium` | “a single open reading frame…corresponding to a gene, nodX was found.” | [Davis et al. 1988](https://doi.org/10.1007/BF00330860) |
 
-Microvirga is also supported as a nitrogen-fixing root-nodule bacterial genus. Ardley et al. (2012) described Microvirga lupini, Microvirga lotononidis, and Microvirga zambiensis as alphaproteobacterial root-nodule bacteria that nodulate and fix nitrogen, and used concatenated nifD and nifH sequences in their phylogenetic analysis.
+Important interpretation:
 
-Sinorhizobium is strongly supported as a symbiotic nitrogen-fixing genus. Barnett et al. (2001) reported the full sequence of the Sinorhizobium meliloti pSymA megaplasmid, which contains many genes involved in symbiosis, including nitrogen-fixation genes.
-
-For nodulation-associated genes, Nod factor biosynthesis literature supports the biological relevance of genes such as nodL and nodX. NodL is involved in Nod factor acetylation, and nodX is a known host-specificity gene in Rhizobium leguminosarum bv. viciae, especially in the Afghanistan pea nodulation system.
-
-Together, these references support our interpretation that repeated clustering of samples assigned to Mesorhizobium, Bradyrhizobium, Microvirga, Sinorhizobium, and Rhizobium in nif/nodulation-associated gene trees is biologically meaningful, while still requiring cautious wording because BLAST genus labels represent closest reference matches rather than confirmed isolate identities.
-
-## References
-
-Colombi, E., Hill, Y., Lines, R., Sullivan, J. T., Kohlmeier, M. G., Christophersen, C. T., Ronson, C. W., Terpolilli, J. J., & Ramsay, J. P. (2023). Population genomics of Australian indigenous Mesorhizobium reveals diverse nonsymbiotic genospecies capable of nitrogen-fixing symbioses following horizontal gene transfer. Microbial Genomics, 9(1), 000918. https://doi.org/10.1099/mgen.0.000918
-
-Colombi, E., Perry, B. J., Sullivan, J. T., Bekuma, A. A., Terpolilli, J. J., Ronson, C. W., & Ramsay, J. P. (2021). Comparative analysis of integrative and conjugative mobile genetic elements in the genus Mesorhizobium. Microbial Genomics, 7(10), 000657. https://doi.org/10.1099/mgen.0.000657
-
-Ormeño-Orrillo, E., & Martínez-Romero, E. (2019). A genomotaxonomy view of the Bradyrhizobium genus. Frontiers in Microbiology, 10, 1334. https://doi.org/10.3389/fmicb.2019.01334
-
-Stępkowski, T., Banasiewicz, J., Granada, C. E., Andrews, M., & Passaglia, L. M. P. (2018). Phylogeny and phylogeography of rhizobial symbionts nodulating legumes of the tribe Genisteae. Genes, 9(3), 163. https://doi.org/10.3390/genes9030163
-
-Ardley, J. K., Parker, M. A., De Meyer, S. E., Trengove, R. D., O'Hara, G. W., Reeve, W. G., Yates, R. J., Dilworth, M. J., Willems, A., & Howieson, J. G. (2012). Microvirga lupini sp. nov., Microvirga lotononidis sp. nov., and Microvirga zambiensis sp. nov. are alphaproteobacterial root nodule bacteria that specifically nodulate and fix nitrogen with geographically and taxonomically separate legume hosts. International Journal of Systematic and Evolutionary Microbiology, 62, 2579-2588. https://doi.org/10.1099/ijs.0.035097-0
-
-Barnett, M. J., Fisher, R. F., Jones, T., et al. (2001). Nucleotide sequence and predicted functions of the entire Sinorhizobium meliloti pSymA megaplasmid. Proceedings of the National Academy of Sciences, 98(17), 9883-9888. https://doi.org/10.1073/pnas.161294798
-
-López-Lara, I. M., Kafetzopoulos, D., Spaink, H. P., & Thomas-Oates, J. E. (2001). Rhizobial NodL O-acetyl transferase and NodS N-methyl transferase functionally interfere in production of modified Nod factors. Journal of Bacteriology, 183(11), 3408-3416. https://doi.org/10.1128/JB.183.11.3408-3416.2001
-
-Hogg, B., Davies, A. E., Wilson, K. E., Bisseling, T., & Downie, J. A. (2002). Competitive nodulation blocking of cv. Afghanistan pea is related to high levels of nodulation factors made by some strains of Rhizobium leguminosarum bv. viciae. Molecular Plant-Microbe Interactions, 15(1), 60-68. https://doi.org/10.1094/MPMI.2002.15.1.60
-
-
-
-
-# Literature Confirmation of Closest-BLAST-Genus Results
-
-Closest-BLAST-genus assignments represent the nearest available reference sequence, not confirmed isolate identity. The table below cross-checks every genus recovered at meaningful frequency (≥5 samples, either tree set) against the published literature on nitrogen fixation and legume/actinorhizal nodulation, using the actual sample counts recovered by this pipeline (`10_blast_count_vs_phylocom_ntaxa_check.tsv`).
-
-## Confirmation table
-
-| Gene | Group | Closest BLAST genus | n (max, strict/mixed) | Confirmed in literature | Key citation |
-|---|---|---|---:|---|---|
-| `nifH` | nif | Mesorhizobium | 597 | Yes — legume symbiont; acquires nif/nod genes via ICESym horizontal transfer | Colombi et al. (2023) |
-| `nifH` | nif | Bradyrhizobium | 416 | Yes — major nitrogen-fixing, nodule-forming legume symbiont genus | Ormeño-Orrillo & Martínez-Romero (2019) |
-| `nifH` | nif | Microvirga | 220 | Yes — alphaproteobacterial root-nodule bacteria; nifD/nifH used in original species description | Ardley et al. (2012) |
-| `nifH` | nif | Rhizobium | 128 | Yes — archetypal nodulating/nif genus | Davis et al. (1988) |
-| `nifH` | nif | Sinorhizobium | 104 | Yes — nif genes physically mapped on the *S. meliloti* pSymA megaplasmid | Barnett et al. (2001) |
-| `nifH` | nif | Burkholderia | 31 | Yes — "beta-rhizobia"; nodulate *Mimosa* spp. and fix N2 | Moulin et al. (2001) |
-| `nifH` | nif | Neorhizobium | 21 | Yes — nodulates *Galega* spp. | Mousavi et al. (2014) |
-| `nifH` | nif | Ensifer | 17 | Taxonomic synonym of *Sinorhizobium* — not independent confirmation | Martens et al. (2008) |
-| `nifD` | nif | Microvirga | 564 | Yes — nifD used directly in species description | Ardley et al. (2012) |
-| `nifD` | nif | Mesorhizobium | 455 | Yes — nod/nif genes carried on mobile ICE elements | Colombi et al. (2021) |
-| `nifD` | nif | Sinorhizobium | 247 | Yes | Barnett et al. (2001) |
-| `nifD` | nif | Rhizobium | 82 | Yes | Davis et al. (1988) |
-| `nifD` | nif | Azorhizobium | 37 | Yes — stem/root-nodulating N2-fixer of *Sesbania rostrata* | Dreyfus et al. (1988) |
-| `nifD` | nif | Ensifer | 31 | Taxonomic synonym of *Sinorhizobium* — not independent confirmation | Martens et al. (2008) |
-| `nifD` | nif | Bradyrhizobium | 23 | Yes; nifD/nifH are the standard symbiotic marker genes for this genus | Stępkowski et al. (2018) |
-| `nifD` | nif | Methylobacterium | 17 | Partial — only *M. nodulans* and a few pink-pigmented strains confirmed nodulating; most *Methylobacterium* do not | Jourand et al. (2004) |
-| `nifD` | nif | Burkholderia | 6 | Yes | Moulin et al. (2001) |
-| `nifK` | nif | Mesorhizobium | 382 | Yes (via linked *nifHDK* operon; no genus-specific *nifK* paper identified) | Colombi et al. (2021) |
-| `nifK` | nif | Sinorhizobium | 354 | Yes — *nifK* is part of the physically mapped *nifHDK* operon on pSymA | Barnett et al. (2001) |
-| `nifK` | nif | Microvirga | 176 | Yes (via linked operon; no genus-specific *nifK* paper identified) | Ardley et al. (2012) |
-| `nifK` | nif | Rhizobium | 140 | Yes | Davis et al. (1988) |
-| `nifJ` | nif | "Candidatus" (= *Candidatus Frankia alpina*) | 325 | **Reference-database artifact, not independent confirmation.** Only 2 nifJ reference sequences exist in the taxon set, both *Frankia*; every nifJ sample matches by default | Pozzi et al. (2020) |
-| `nodL` | canonical nod | Sinorhizobium | 211 | Yes — NodL acetylation of Nod factors demonstrated in *S. meliloti* | López-Lara et al. (2001) |
-| `nodL` | canonical nod | Rhizobium | 20 | Yes — NodL originally characterized in *R. leguminosarum* | Bloemberg et al. (1994) |
-| `nodX` | canonical nod | Rhizobium | 133 | Yes — nodX is the defining *R. leguminosarum* bv. viciae host-specificity gene (Afghanistan pea system) | Hogg et al. (2002); Davis et al. (1988) |
-| `nolG`, `nolF`, `noeA`, `noeB` | accessory / Other | Sinorhizobium | 149–229 | **Reference-database artifact, not independent confirmation.** Taxon reference sets for these four genes are 70–97% Sinorhizobium by composition (52/78, 64/74, 55/59, 57/59 respectively), leaving little alternative genus to assign | Barnett et al. (2001) |
-
-
-- **Ensifer vs. Sinorhizobium**: these are taxonomic synonyms for the same genus (Martens et al. 2008); treating them as independent genera in counts/statistics will understate real Sinorhizobium-genus support and should be merged before any downstream analysis that counts "distinct genera."
-- **nifJ and the four accessory genes** (`nolG`, `nolF`, `noeA`, `noeB`) show apparently strong single-genus signal largely because their taxon reference alignments contain few or no alternative genera — this should be reported as a reference-database limitation, not as biological confirmation of genus identity.
-- All other genus assignments are corroborated by dedicated primary literature on nitrogen fixation and/or nodulation for that genus.
-
-## References
-
-Ardley, J. K., Parker, M. A., De Meyer, S. E., Trengove, R. D., O'Hara, G. W., Reeve, W. G., Yates, R. J., Dilworth, M. J., Willems, A., & Howieson, J. G. (2012). *Microvirga lupini* sp. nov., *Microvirga lotononidis* sp. nov., and *Microvirga zambiensis* sp. nov. are alphaproteobacterial root nodule bacteria that specifically nodulate and fix nitrogen with geographically and taxonomically separate legume hosts. *International Journal of Systematic and Evolutionary Microbiology*, 62, 2579–2588. https://doi.org/10.1099/ijs.0.035097-0
-
-Barnett, M. J., Fisher, R. F., Jones, T., Komp, C., Abola, A. P., Barloy-Hubler, F., Bowser, L., Capela, D., Galibert, F., Gouzy, J., Gurjal, M., Hong, A., Huizar, L., Hyman, R. W., Kahn, D., Kahn, M. L., Kalman, S., Keating, D. H., Palm, C., Peck, M. C., Surzycki, R., Wells, D. H., Yeh, K.-C., Davis, R. W., Federspiel, N. A., & Long, S. R. (2001). Nucleotide sequence and predicted functions of the entire *Sinorhizobium meliloti* pSymA megaplasmid. *Proceedings of the National Academy of Sciences*, 98(17), 9883–9888. https://doi.org/10.1073/pnas.161294798
-
-Bloemberg, G. V., Thomas-Oates, J. E., Lugtenberg, B. J. J., & Spaink, H. P. (1994). Nodulation protein NodL of *Rhizobium leguminosarum* O-acetylated lipo-oligosaccharides, chitin fragments and N-acetylglucosamine in vitro. *Molecular Microbiology*, 11(5), 793–804. https://doi.org/10.1111/j.1365-2958.1994.tb00356.x
-
-Colombi, E., Perry, B. J., Sullivan, J. T., Bekuma, A. A., Terpolilli, J. J., Ronson, C. W., & Ramsay, J. P. (2021). Comparative analysis of integrative and conjugative mobile genetic elements in the genus *Mesorhizobium*. *Microbial Genomics*, 7(10), 000657. https://doi.org/10.1099/mgen.0.000657
-
-Colombi, E., Hill, Y., Lines, R., Sullivan, J. T., Kohlmeier, M. G., Christophersen, C. T., Ronson, C. W., Terpolilli, J. J., & Ramsay, J. P. (2023). Population genomics of Australian indigenous *Mesorhizobium* reveals diverse nonsymbiotic genospecies capable of nitrogen-fixing symbioses following horizontal gene transfer. *Microbial Genomics*, 9(1), 000918. https://doi.org/10.1099/mgen.0.000918
-
-Davis, E. O., Evans, I. J., & Johnston, A. W. B. (1988). Identification of nodX, a gene that allows *Rhizobium leguminosarum* biovar viciae strain TOM to nodulate Afghanistan peas. *Molecular and General Genetics*, 212(3), 531–535. https://doi.org/10.1007/BF00330860
-
-Dreyfus, B., Garcia, J.-L., & Gillis, M. (1988). Characterization of *Azorhizobium caulinodans* gen. nov., sp. nov., a stem-nodulating nitrogen-fixing bacterium isolated from *Sesbania rostrata*. *International Journal of Systematic Bacteriology*, 38(1), 89–98. https://doi.org/10.1099/00207713-38-1-89
-
-Hogg, B., Davies, A. E., Wilson, K. E., Bisseling, T., & Downie, J. A. (2002). Competitive nodulation blocking of cv. Afghanistan pea is related to high levels of nodulation factors made by some strains of *Rhizobium leguminosarum* bv. viciae. *Molecular Plant-Microbe Interactions*, 15(1), 60–68. https://doi.org/10.1094/MPMI.2002.15.1.60
-
-Jourand, P., Giraud, E., Béna, G., Sy, A., Willems, A., Gillis, M., Dreyfus, B., & de Lajudie, P. (2004). *Methylobacterium nodulans* sp. nov., for a group of aerobic, facultatively methylotrophic, legume root-nodule-forming and nitrogen-fixing bacteria. *International Journal of Systematic and Evolutionary Microbiology*, 54, 2269–2273. https://doi.org/10.1099/ijs.0.02902-0
-
-López-Lara, I. M., Kafetzopoulos, D., Spaink, H. P., & Thomas-Oates, J. E. (2001). Rhizobial NodL O-acetyl transferase and NodS N-methyl transferase functionally interfere in production of modified Nod factors. *Journal of Bacteriology*, 183(11), 3408–3416. https://doi.org/10.1128/JB.183.11.3408-3416.2001
-
-Martens, M., Dawyndt, P., Coopman, R., Gillis, M., De Vos, P., & Willems, A. (2008). Advantages of multilocus sequence analysis for taxonomic studies: a case study using 10 housekeeping genes in the genus *Ensifer* (including former *Sinorhizobium*). *International Journal of Systematic and Evolutionary Microbiology*, 58, 200–214. https://doi.org/10.1099/ijs.0.65392-0
-
-Moulin, L., Munive, A., Dreyfus, B., & Boivin-Masson, C. (2001). Nodulation of legumes by members of the β-subclass of Proteobacteria. *Nature*, 411, 948–950. https://doi.org/10.1038/35082070
-
-Mousavi, S. A., Österman, J., Wahlberg, N., Nesme, X., Lavire, C., Vial, L., Paulin, L., de Lajudie, P., & Lindström, K. (2014). Phylogeny of the Rhizobium–Allorhizobium–Agrobacterium clade supports the delineation of *Neorhizobium* gen. nov. *Systematic and Applied Microbiology*, 37(3), 208–215. https://doi.org/10.1016/j.syapm.2013.12.007
-
-Ormeño-Orrillo, E., & Martínez-Romero, E. (2019). A genomotaxonomy view of the *Bradyrhizobium* genus. *Frontiers in Microbiology*, 10, 1334. https://doi.org/10.3389/fmicb.2019.01334
-
-Pozzi, A. C. M., Herrera-Belaroussi, A., Schwob, G., Bautista-Guerrero, H. H., Bethencourt, L., Fournier, P., Dubost, A., Abrouk, D., Normand, P., & Fernandez, M. P. (2020). Proposal of 'Candidatus Frankia alpina', the uncultured symbiont of *Alnus alnobetula* and *A. incana* that forms spore-containing nitrogen-fixing root nodules. *International Journal of Systematic and Evolutionary Microbiology*, 70(10), 5453–5459. https://doi.org/10.1099/ijsem.0.004433
-
-Stępkowski, T., Banasiewicz, J., Granada, C. E., Andrews, M., & Passaglia, L. M. P. (2018). Phylogeny and phylogeography of rhizobial symbionts nodulating legumes of the tribe Genisteae. *Genes*, 9(3), 163. https://doi.org/10.3390/genes9030163
+Some significant closest-BLAST genus patterns in this analysis, especially `noeA`, `noeB`, and `nolG` with `Sinorhizobium`, are biologically plausible because these genes are part of symbiosis-related regions. However, they should be interpreted cautiously because the significance comes from our tree-clustering test and may also reflect the available reference sequences.
 
