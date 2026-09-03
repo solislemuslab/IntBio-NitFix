@@ -379,36 +379,29 @@ Rscript comparing_trees/code/Rcode/12_nearest_neighbor_same_blast_genus_in_trees
 
 Webb, C. O., Ackerly, D. D., & Kembel, S. W. (2008). Phylocom: software for the analysis of phylogenetic community structure and trait evolution. *Bioinformatics*, 24(18), 2098-2100. DOI: [10.1093/bioinformatics/btn358](https://doi.org/10.1093/bioinformatics/btn358)
 
-
-
-## Literature Support For Closest BLAST Genus Patterns
-
 ## Literature Support For Significant Closest-BLAST Genus Patterns
 
-The significant genus patterns reported here come from our tree-clustering analysis. The literature references do not prove our exact sample assignments; they show that these genera and genes are biologically reasonable nitrogen-fixation or nodulation-related signals.
+The significant closest-BLAST genus patterns below come from our Phylocom/NRI tree-clustering analysis. The literature references do not prove our exact sample assignments. Instead, they support that the same genus and gene, or the same genus and closely related symbiosis-gene region, has been reported before in nitrogen-fixation or nodulation studies.
 
-| Gene name | Significant closest BLAST genus in our analysis | Exact sentence or phrase from reference supporting biological relevance | Reference link |
+| Gene name | Significant closest BLAST genus in our analysis | Exact sentence or phrase from reference supporting this genus/gene pattern | Reference link |
 |---|---|---|---|
-| `nifH` | `Mesorhizobium` | “Mesorhizobia are soil bacteria that establish nitrogen-fixing symbioses with various legumes.” | [Colombi et al. 2023](https://doi.org/10.1099/mgen.0.000918) |
-| `nifD` | `Mesorhizobium` | “Mesorhizobia are soil bacteria that establish nitrogen-fixing symbioses with various legumes.” | [Colombi et al. 2023](https://doi.org/10.1099/mgen.0.000918) |
+| `nifH` | `Mesorhizobium` | “Three Phylogenetic Groups of nodA and nifH Genes in Sinorhizobium and Mesorhizobium…” | [Haukka et al. 1998](https://pmc.ncbi.nlm.nih.gov/articles/PMC106060/) |
+| `nifD` | `Mesorhizobium` | “a phylogenetic tree based on 715 bp of the nitrogenase alpha-subunit (nifD) gene…” | [Qian & Parker 2002](https://pubmed.ncbi.nlm.nih.gov/12086191/) |
 | `nifK` | `Mesorhizobium` | “symbiosis-gene-carrying integrative and conjugative elements (ICESyms)” | [Colombi et al. 2023](https://doi.org/10.1099/mgen.0.000918) |
-| `nifH` | `Bradyrhizobium` | “includes nitrogen-fixing nodule forming bacteria” | [Ormeño-Orrillo & Martínez-Romero 2019](https://doi.org/10.3389/fmicb.2019.01334) |
-| `nifD` | `Bradyrhizobium` | “symbiosis islands which carry nod and nif genes” | [Ormeño-Orrillo & Martínez-Romero 2019](https://doi.org/10.3389/fmicb.2019.01334) |
-| `nifH` | `Microvirga` | “alphaproteobacterial root-nodule bacteria that specifically nodulate and fix nitrogen” | [Ardley et al. 2012](https://doi.org/10.1099/ijs.0.035097-0) |
-| `nifD` | `Microvirga` | “Concatenated sequences for nifD and nifH…” | [Ardley et al. 2012](https://pubmed.ncbi.nlm.nih.gov/22199210/) |
-| `nifK` | `Microvirga` | “strains belong to the genus Microvirga” | [Ardley et al. 2012](https://doi.org/10.1099/ijs.0.035097-0) |
-| `nifD` | `Azorhizobium` | “stem- and root-nodulating strains” | [Dreyfus et al. 1988](https://doi.org/10.1099/00207713-38-1-89) |
+| `nifH` | `Bradyrhizobium` | “A phylogenetic analysis of nifH…showed that nifH…” | [Okazaki et al. 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5017802/) |
+| `nifD` | `Bradyrhizobium` | “The analysis of nodA, nodC, as well as nifD and nifH gene sequences revealed…” | [Stępkowski et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5867884/) |
+| `nifH` | `Microvirga` | “the nifD and nifH sequence for Microvirga lupini…” | [Andrews et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6071183/) |
+| `nifD` | `Microvirga` | “the nifD and nifH sequence for Microvirga lupini…” | [Andrews et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6071183/) |
+| `nifK` | `Microvirga` | “Microvirga…can nodulate specific Lupinus spp.” | [Andrews et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6071183/) |
+| `nifD` | `Azorhizobium` | “Azorhizobium caulinodans…a stem-nodulating nitrogen-fixing bacterium…” | [Dreyfus et al. 1988](https://doi.org/10.1099/00207713-38-1-89) |
 | `nifD` | `Methylobacterium` | “legume root-nodule-forming and nitrogen-fixing bacteria” | [Jourand et al. 2004](https://doi.org/10.1099/ijs.0.02902-0) |
 | `nifH` | `Neorhizobium` | “R. galegae…represented a new genus, for which the name Neorhizobium is proposed.” | [Mousavi et al. 2014](https://doi.org/10.1016/j.syapm.2013.12.007) |
 | `nifD` | `Sinorhizobium` | “The symbiotic nitrogen-fixing soil bacterium Sinorhizobium meliloti…” | [Barnett et al. 2001](https://doi.org/10.1073/pnas.161294798) |
 | `nifK` | `Sinorhizobium` | “genes known to be specifically involved in symbiosis” | [Barnett et al. 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC55547/) |
-| `nodL` | `Sinorhizobium` | “nod genes required for synthesis of Nod factor” | [Barnett et al. 2001](https://doi.org/10.1073/pnas.161294798) |
-| `noeA` | `Sinorhizobium` | “nod genes…as well as the nol and noe genes” | [Barnett et al. 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC55547/) |
-| `noeB` | `Sinorhizobium` | “nod genes…as well as the nol and noe genes” | [Barnett et al. 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC55547/) |
-| `nolG` | `Sinorhizobium` | “nod genes…as well as the nol and noe genes” | [Barnett et al. 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC55547/) |
-| `nodX` | `Rhizobium` | “a single open reading frame…corresponding to a gene, nodX was found.” | [Davis et al. 1988](https://doi.org/10.1007/BF00330860) |
-
-Important interpretation:
-
-Some significant closest-BLAST genus patterns in this analysis, especially `noeA`, `noeB`, and `nolG` with `Sinorhizobium`, are biologically plausible because these genes are part of symbiosis-related regions. However, they should be interpreted cautiously because the significance comes from our tree-clustering test and may also reflect the available reference sequences.
+| `nodL` | `Sinorhizobium` | “Sinorhizobium meliloti nodL and nodF mutations…” | [Miwa et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3908372/) |
+| `noeA` | `Sinorhizobium` | “nodM, nolFG…noeBA, nodL” | [Sá et al. 2023](https://doi.org/10.3389/fagro.2023.1175524) |
+| `noeB` | `Sinorhizobium` | “nodM, nolFG…noeBA, nodL” | [Sá et al. 2023](https://doi.org/10.3389/fagro.2023.1175524) |
+| `nolG` | `Sinorhizobium` | “nodM, nolFG…noeBA, nodL” | [Sá et al. 2023](https://doi.org/10.3389/fagro.2023.1175524) |
+| `nodX` | `Rhizobium` | “Identification of nodX, a gene that allows Rhizobium leguminosarum…” | [Davis et al. 1988](https://doi.org/10.1007/BF00330860) |
+## Literature Support For Significant Closest-BLAST Genus Patterns
 
